@@ -4,7 +4,7 @@ from google import genai
 from google.genai import types
 from typing import List, Union
 from google.api_core import retry
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 import time
 import json
 
@@ -20,6 +20,14 @@ class GenerationConfig:
     @classmethod
     def from_dict(cls, d: dict) -> "GenerationConfig":
         return cls(**d)
+    
+    def __str__(self) -> str:
+        non_null_items = (
+            f"{k}={v!r}"
+            for k, v in asdict(self).items()
+            if v is not None
+        )
+        return '{'+(", ".join(non_null_items))+'}'
 
 class Request():
     def __init__(self,
@@ -66,6 +74,7 @@ class RunnerGoogle(BaseRunner):
         client = genai.Client(api_key=os.environ["GOOGLE_API_KEY"])
         
         for model, gconf, i in self.request:
+            print(f"Requesting {model} with config={gconf} ({i+1})...")
             google_config = types.GenerateContentConfig(
                 temperature        = gconf.temperature,
                 top_p              = gconf.top_p,
@@ -82,20 +91,17 @@ class RunnerGoogle(BaseRunner):
                 contents=self.request.prompt
             )
 
-            # Possibly update this to handle Google specific response format
-            response_format = {
-                "config": gconf,
-                "response": model_response,
-            }
+            dict_response = model_response.to_json_dict()
+            dict_response['text_response'] = model_response.text
 
-            response.setdefault(model, []).append(response_format)
+            response.setdefault(model, {}).setdefault(str(gconf), []).append(dict_response)
 
             time.sleep(self.delay)
         
         return response
 
 def run_request(request: Request, delay=0):
-    response = {}
+    response = []
 
     with open("models.json") as f:
         data = json.load(f)
@@ -106,7 +112,6 @@ def run_request(request: Request, delay=0):
     models = {}
     
     for model in request.get_models():
-        print(model)
         match model:
             case model if model in google_models:
                 models['google'] = models.get('google', []) + [model]
@@ -122,8 +127,7 @@ def run_request(request: Request, delay=0):
                 google_request.set_models(model_list)
 
                 google_runner = RunnerGoogle(google_request, delay=delay)
-                print("HELLOO!!")
-                response['google'] = google_runner.run()
+                response.append(google_runner.run())
             
             case 'openai':
                 # TO implement
