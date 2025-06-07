@@ -1,7 +1,7 @@
 import os
 from google import genai
 from google.genai import types
-from tests.DivergentTest import DivergentTest
+from creative_tests.DivergentTest import DivergentTest
 
 class DivergentAssociationTest(DivergentTest):
     def __init__(self, repetitions=1, models=["google"]):
