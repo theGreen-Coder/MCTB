@@ -41,12 +41,17 @@ class Request():
                  models: Union[str, List[str]], 
                  prompt: str, 
                  configs: Union[dict, List[dict]], 
-                 repeats: int = 1):
+                 repeats: int = 1, 
+                 delay: float = 0.0):
         
         self.models = [models] if isinstance(models, str) else list(models)
         self.prompt = prompt
         self.configs = [configs] if isinstance(configs, dict) else list(configs)
         self.repeats = max(repeats, 1)
+        self.delay = max(delay, 0.0)
+
+        print(f"Number of API calls: {len(self.models)*len(self.configs)*self.repeats}")
+        print(f"Estimated Time: {(len(self.models)*len(self.configs)*self.repeats*(0.5+self.delay))/60.0}" )
 
     def set_models(self, models):
         self.models = models
@@ -76,9 +81,9 @@ def invoke_with_retry(llm, msgs):
     return llm.invoke(msgs)
 
 class ModelRunner():
-    def __init__(self, request: Request, delay: float = 0.0):
+    def __init__(self, request: Request):
         self.request = request
-        self.delay = delay
+        self.delay = request.delay
         self.MODEL_ROUTER = [
             ("gemini-", ChatGoogleGenerativeAI, self._google_kwargs),
             ("google/", ChatVertexAI, self._google_kwargs),
@@ -132,5 +137,5 @@ class ModelRunner():
 
         return response
 
-def run_request(request: Request, delay: float = 0.0):
-    return ModelRunner(request, delay=delay).run()
+def run_request(request: Request):
+    return ModelRunner(request).run()

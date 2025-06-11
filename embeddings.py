@@ -33,7 +33,7 @@ def calculate_dat_score(model, words, minimum=7):
     if not distances:
         return None
 
-    return (sum(distances) / len(distances)) * 100
+    return (sum(distances) / len(distances)) * 100.0
 
 """
 Based on code from (https://github.com/other-user/other-repo), originally by jayolson. 
