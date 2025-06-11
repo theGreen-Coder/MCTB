@@ -43,10 +43,15 @@ class DivergentAssociationTest():
             prompt=self.test_prompt,
             configs=self.configs,
             repeats=self.repeats,
+            delay=self.delay
         )
 
         # 2. Get the LLM response
-        llm_response = run_request(DAT_request, delay=self.delay)
+        llm_response = run_request(DAT_request)
+
+        # Export responses results
+        with open(f"responses/{str(self)}.json", "w") as json_file:
+            json.dump(llm_response, json_file, indent=4)
 
         # 3. Text Splitter
         splitter = RecursiveCharacterTextSplitter(
@@ -73,14 +78,15 @@ class DivergentAssociationTest():
 
                         # 4-5. Get embeddings from model and calculate cosine similarity
                         score = calculate_dat_score(embedding_model, clean_words)
-                        scores.append(score)
+                        scores.append(float(score))
 
                     # store per‑model/config
                     results.setdefault(model_key, {})[emb_key] = scores
                     # accumulate global list for this embedding
                     model_distribution.setdefault(emb_key, []).extend(scores)
         
-        print(results)
+        with open(f"results/{str(self)}_unnormalized.json", "w") as json_file:
+            json.dump(results, json_file, indent=4)
 
         stats = {}  # {embedding: (mean, std)}
         for emb_key, all_scores in model_distribution.items():
@@ -106,7 +112,7 @@ class DivergentAssociationTest():
                 normalized_results[model_key][emb_key] = normed
         
         # 6. Export results
-        with open(f"results/{str(self)}.json", "w") as json_file:
+        with open(f"results/{str(self)}_normalized.json", "w") as json_file:
             json.dump(normalized_results, json_file, indent=4)
 
     
