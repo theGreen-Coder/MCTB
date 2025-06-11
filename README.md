@@ -19,3 +19,5 @@ Contributions are welcome—feel free to open issues or submit pull requests!
 
 ## License
 This project is licensed under the MIT License. A copy of the MIT License can be found [here](LICENSE).
+
+GloVe model in embeddings.py is based on code from [this repo](https://github.com/jayolson/divergent-association-task), originally by Jay Olson. Modified under [LICENSE](https://github.com/jayolson/divergent-association-task/blob/main/LICENSE.txt).
