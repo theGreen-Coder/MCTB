@@ -1,1 +1,1 @@
-from .DAT import *
+from .DAT import DivergentAssociationTest

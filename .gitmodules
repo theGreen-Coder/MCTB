@@ -1,0 +1,3 @@
+[submodule "external/dat"]
+	path = external/dat
+	url = git@github.com:jayolson/divergent-association-task.git
