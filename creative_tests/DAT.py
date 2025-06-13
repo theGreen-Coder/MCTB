@@ -30,30 +30,8 @@ class DivergentAssociationTest():
         model_list = '_'.join(self.models) if self.models else 'None'
 
         return "DAT_"+model_list+"_"+str(self.creation_time)
-
-    def run(self):
-        """
-        Process:
-        1. DAT Request -> 2. LLM Response -> 3. Text Splitter -> 4. Embeddings -> 5. Calculate Cosine Similarity -> 6. Export results
-        """
-
-        # 1. Get the request ready
-        DAT_request = Request(
-            models=self.models,
-            prompt=self.test_prompt,
-            configs=self.configs,
-            repeats=self.repeats,
-            delay=self.delay
-        )
-
-        # 2. Get the LLM response
-        llm_response = run_request(DAT_request)
-
-        # Export responses results
-        with open(f"responses/{str(self)}.json", "w") as json_file:
-            json.dump(llm_response, json_file, indent=4)
-
-        # 3. Text Splitter
+    
+    def clean_response(self, response):
         splitter = RecursiveCharacterTextSplitter(
             chunk_size=0,
             chunk_overlap=0,
@@ -61,10 +39,63 @@ class DivergentAssociationTest():
             keep_separator=False,
         )
 
+        words = splitter.split_text(response)
+        clean_words = [w for w in words if w.isalpha()]
+
+        return clean_words
+
+    """
+        Process:
+        1. DAT Request -> 2. LLM Response -> 3. Text Splitter -> 4. Embeddings -> 5. Calculate Cosine Similarity -> 6. Export results
+    """
+    def run(self, clean_response_file=None):
+        if not clean_response_file:
+            #################################################################
+            # 1. Get the request ready
+            #################################################################
+            DAT_request = Request(
+                models=self.models,
+                prompt=self.test_prompt,
+                configs=self.configs,
+                repeats=self.repeats,
+                delay=self.delay
+            )
+
+            #################################################################
+            # 2. Get the LLM's response
+            #################################################################
+            llm_response = run_request(DAT_request)
+
+            # Export responses results
+            with open(f"responses/{str(self)}.json", "w") as json_file:
+                json.dump(llm_response, json_file, indent=4)
+
+            #################################################################
+            # 3. Clean LLM's response
+            #################################################################
+            llm_response_clean = llm_response
+
+            for model, configs in llm_response.items():
+                for config, repeats in configs.items():
+                    for idx, repeat in enumerate(repeats):
+                        response = repeat[0]
+                        llm_response_clean[model][config][idx] = self.clean_response(response=response)
+            
+            # Export cleaned responses results
+            with open(f"responses/{str(self)}_clean.json", "w") as json_file:
+                json.dump(llm_response_clean, json_file, indent=4)
+        
+        else:
+            with open(clean_response_file, 'r') as file:
+                llm_response_clean = json.load(file)
+
+        #################################################################
+        # 4-5. Get embeddings from model and calculate cosine similarity
+        #################################################################
         results = {}
         model_distribution = {}
 
-        for model, configs in llm_response.items():
+        for model, configs in llm_response_clean.items():
             for config, repeats in configs.items():
                 model_key = f"{model}_{config}"
 
@@ -73,12 +104,12 @@ class DivergentAssociationTest():
                     scores = []
 
                     for repeat in repeats:
-                        words = splitter.split_text(repeat[0])
-                        clean_words = [w for w in words if w.isalpha()]
-
                         # 4-5. Get embeddings from model and calculate cosine similarity
-                        score = calculate_dat_score(embedding_model, clean_words)
-                        scores.append(float(score))
+                        if len(repeat) > 0:
+                            score = calculate_dat_score(embedding_model, repeat)
+                            scores.append(float(score))
+                        else:
+                            print(f"No response was found for one of the responses.")
 
                     # store per‑model/config
                     results.setdefault(model_key, {})[emb_key] = scores
@@ -88,7 +119,8 @@ class DivergentAssociationTest():
         with open(f"results/{str(self)}_unnormalized.json", "w") as json_file:
             json.dump(results, json_file, indent=4)
 
-        stats = {}  # {embedding: (mean, std)}
+        # Compute normalized results (in case of several embedding models)
+        stats = {}
         for emb_key, all_scores in model_distribution.items():
             a = np.asarray(all_scores)
             mean, std = a.mean(), a.std()
@@ -111,7 +143,9 @@ class DivergentAssociationTest():
 
                 normalized_results[model_key][emb_key] = normed
         
+        #################################################################
         # 6. Export results
+        #################################################################
         with open(f"results/{str(self)}_normalized.json", "w") as json_file:
             json.dump(normalized_results, json_file, indent=4)
 
