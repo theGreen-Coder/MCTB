@@ -23,6 +23,7 @@ class GenerationConfig:
     max_output_tokens: int | None = None
     system_instruction: str | None = None
     stop_sequences: list[str] | None = None
+    thinking_config: dict | None = None
 
     @classmethod
     def from_dict(cls, d: dict) -> "GenerationConfig":
@@ -86,6 +87,7 @@ class ModelRunner():
         self.delay = request.delay
         self.MODEL_ROUTER = [
             ("gemini-", ChatGoogleGenerativeAI, self._google_kwargs),
+            ("gemma-", ChatGoogleGenerativeAI, self._google_kwargs),
             ("google/", ChatVertexAI, self._google_kwargs),
             ("gpt-", ChatOpenAI, self._openai_kwargs),
             ("claude-", ChatAnthropic, self._openai_kwargs)
