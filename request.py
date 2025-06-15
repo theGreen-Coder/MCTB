@@ -1,5 +1,6 @@
 import json
 import time
+import random
 from dataclasses import dataclass, asdict
 from typing import List, Union
 
@@ -40,7 +41,7 @@ class GenerationConfig:
 class Request():
     def __init__(self,
                  models: Union[str, List[str]], 
-                 prompt: str, 
+                 prompt: Union[str, List[str]], 
                  configs: Union[dict, List[dict]], 
                  repeats: int = 1, 
                  delay: float = 0.0):
@@ -59,6 +60,12 @@ class Request():
     
     def get_models(self):
         return self.models
+    
+    def get_prompt(self):
+        if type(self.prompt) == str:
+            return self.prompt
+        else:
+            random.choice(self.prompt)
     
     def __iter__(self):
         for model in self.models:
@@ -125,7 +132,7 @@ class ModelRunner():
             msgs = []
             if gconf.system_instruction:
                 msgs.append(SystemMessage(content=gconf.system_instruction))
-            msgs.append(HumanMessage(content=self.request.prompt))
+            msgs.append(HumanMessage(content=self.request.get_prompt()))
 
             try:
                 result = invoke_with_retry(llm, msgs)
