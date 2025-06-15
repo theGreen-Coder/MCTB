@@ -10,21 +10,42 @@ from scipy.stats import norm
 from datetime import datetime
 
 class DivergentAssociationTest():
-    def __init__(self, models, configs, embedding_models=GloVe(), repeats=0, delay=0):
+    def __init__(self, models, configs, embedding_models=GloVe(), repeats=0, delay=0, n_words=10, standard_prompt=True, starts_with=None):
         self.models = models
         self.configs = configs
         self.repeats = repeats
         self.embedding_models = [embedding_models] # Temporal for now (in the future will allow to do a list)
         self.creation_time = str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
         self.delay = delay
+        self.n_words = n_words
 
-        self.test_prompt = 'Please enter 10 words that are as different from each other as possible, ' \
-                            'in all meanings and uses of the words. Rules: Only single words in English. ' \
-                            'Only nouns (e.g., things, objects, concepts). No proper nouns (e.g., no specific people or places). ' \
-                            'No specialized vocabulary (e.g., no technical terms). ' \
-                            'Think of the words on your own (e.g., do not just look at objects in your surroundings). ' \
-                            'Make a list of these 10 words, a single word in each entry of the list.' \
-                            'Do not write anything else, but the 10 words.'
+        self.addition_specs = ''
+        if starts_with:
+            self.addition_specs += f"All words must start with the letter {starts_with}."
+
+        # Test is available sampling from several words or just a standard prompt
+        if standard_prompt:
+            self.test_prompt = (f"Please enter {str(self.n_words)} words that are as different from each other as possible, in all meanings and uses of the words. "
+                f"Rules: Only single words in English. Only nouns (e.g., things, objects, concepts). No proper nouns (e.g., no specific people or places). "
+                f"No specialized vocabulary (e.g., no technical terms). Think of the words on your own (e.g., do not just look at objects in your surroundings). "
+                f"Make a list of these {str(self.n_words)} words, a single word in each entry of the list. Do not write anything else but the {str(self.n_words)} words." + " " + self.addition_specs),
+        else:
+            self.test_prompt = [
+                (f"Please enter {str(self.n_words)} words that are as different from each other as possible, in all meanings and uses of the words. "
+                f"Rules: Only single words in English. Only nouns (e.g., things, objects, concepts). No proper nouns (e.g., no specific people or places). "
+                f"No specialized vocabulary (e.g., no technical terms). Think of the words on your own (e.g., do not just look at objects in your surroundings). "
+                f"Make a list of these {str(self.n_words)} words, a single word in each entry of the list. Do not write anything else but the {str(self.n_words)} words." + " " + self.addition_specs), # 1st prompt
+                (f"Please enter {str(self.n_words)} English nouns that are as different as possible in meaning and use — no proper nouns, "
+                f"no technical terms, only single common nouns you think of yourself. List exactly {str(self.n_words)}, one word per entry, and nothing else." + " " + self.addition_specs), # 2nd prompt
+                (f"List {str(self.n_words)} common, single-word English nouns that are maximally different from one another. "
+                f"Do not use proper nouns, technical terms, or words for objects in your immediate surroundings. Output only the {str(self.n_words)} words in a list." + " " + self.addition_specs), # 3rd prompt
+                (f"Enter {str(self.n_words)} English nouns that are as different from each other as possible in meaning and usage. "
+                f"Rules: Each word must be a single noun (no proper nouns, technical terms, or multi-word phrases). Choose words independently, without relying on nearby objects. "
+                f"List them with one word per entry, without any additional text." + " " + self.addition_specs), # 4th prompt
+                (f"List {str(self.n_words)} distinct common English nouns (things, objects, concepts). Rules: Single words only. "
+                f"No proper nouns, technical terms, or words from your surroundings. Output only the list." + " " + self.addition_specs) # 5th prompt
+            ]
+
     
     def __str__(self):
         model_list = '_'.join(self.models) if self.models else 'None'
