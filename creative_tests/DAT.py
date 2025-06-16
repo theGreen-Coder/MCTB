@@ -15,7 +15,7 @@ class DivergentAssociationTest():
         self.configs = configs
         self.repeats = repeats
         self.embedding_models = [embedding_models] # Temporal for now (in the future will allow to do a list)
-        self.creation_time = str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+        self.creation_time = str(datetime.now().strftime("%m-%d_%H:%M:%S"))
         self.delay = delay
         self.n_words = n_words
 
@@ -48,9 +48,7 @@ class DivergentAssociationTest():
 
     
     def __str__(self):
-        model_list = '_'.join(self.models) if self.models else 'None'
-
-        return "DAT_"+model_list+"_"+str(self.creation_time)
+        return "DAT_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs_"+str(self.n_words)+"words_"+str(self.creation_time)
     
     def clean_response(self, response):
         splitter = RecursiveCharacterTextSplitter(
