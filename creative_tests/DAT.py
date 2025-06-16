@@ -93,7 +93,6 @@ class DivergentAssociationTest():
                 json.dump(llm_response, json_file, indent=4)
                 return_files.append(f"responses/{str(self)}.json")
 
-
             #################################################################
             # 3. Clean LLM's response
             #################################################################
@@ -122,7 +121,7 @@ class DivergentAssociationTest():
 
         for model, configs in llm_response_clean.items():
             for config, repeats in configs.items():
-                model_key = f"{model}_{config}"
+                model_key = f"{model}_{str(config)}"
 
                 for embedding_model in self.embedding_models:
                     emb_key = str(embedding_model)
@@ -140,6 +139,7 @@ class DivergentAssociationTest():
                     results.setdefault(model_key, {})[emb_key] = scores
                     # accumulate global list for this embedding
                     model_distribution.setdefault(emb_key, []).extend(scores)
+                results.setdefault(model_key, {})["config"] = json.loads(config)
         
         with open(f"results/{str(self)}_unnormalized.json", "w") as json_file:
             json.dump(results, json_file, indent=4)
@@ -157,17 +157,20 @@ class DivergentAssociationTest():
             normalized_results[model_key] = {}
 
             for emb_key, raw_scores in emb_dict.items():
-                mean, std = stats[emb_key]
+                if emb_key != "config":
+                    mean, std = stats[emb_key]
 
-                if std is None:
-                    normed = [50.0] * len(raw_scores)
+                    if std is None:
+                        normed = [50.0] * len(raw_scores)
+                    else:
+                        normed = [
+                            norm.cdf((s - mean) / std) * 100.0  # Z‑score → CDF → 0‑100
+                            for s in raw_scores
+                        ]
+
+                    normalized_results[model_key][emb_key] = normed
                 else:
-                    normed = [
-                        norm.cdf((s - mean) / std) * 100.0  # Z‑score → CDF → 0‑100
-                        for s in raw_scores
-                    ]
-
-                normalized_results[model_key][emb_key] = normed
+                    normalized_results[model_key]["config"] = raw_scores
         
         #################################################################
         # 6. Export results

@@ -30,13 +30,11 @@ class GenerationConfig:
     def from_dict(cls, d: dict) -> "GenerationConfig":
         return cls(**d)
     
+    def to_dict(self):
+        return {k: v for k, v in asdict(self).items() if v is not None}
+
     def __str__(self) -> str:
-        non_null_items = (
-            f"{k}={v!r}"
-            for k, v in asdict(self).items()
-            if v is not None
-        )
-        return '{'+(", ".join(non_null_items))+'}'
+        return json.dumps(self.to_dict())
 
 class Request():
     def __init__(self,
@@ -66,7 +64,6 @@ class Request():
             return self.prompt
         else:
             return random.choice(self.prompt)
-        return self.prompt
     
     def __iter__(self):
         for model in self.models:
