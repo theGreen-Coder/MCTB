@@ -70,6 +70,9 @@ class DivergentAssociationTest():
         1. DAT Request -> 2. LLM Response -> 3. Text Splitter -> 4. Embeddings -> 5. Calculate Cosine Similarity -> 6. Export results
     """
     def run(self, clean_response_file=None):
+        # Method returns all paths of the files written
+        return_files = []
+
         if not clean_response_file:
             #################################################################
             # 1. Get the request ready
@@ -90,6 +93,8 @@ class DivergentAssociationTest():
             # Export responses results
             with open(f"responses/{str(self)}.json", "w") as json_file:
                 json.dump(llm_response, json_file, indent=4)
+                return_files.append(f"responses/{str(self)}.json")
+
 
             #################################################################
             # 3. Clean LLM's response
@@ -105,6 +110,7 @@ class DivergentAssociationTest():
             # Export cleaned responses results
             with open(f"responses/{str(self)}_clean.json", "w") as json_file:
                 json.dump(llm_response_clean, json_file, indent=4)
+                return_files.append(f"responses/{str(self)}_clean.json")
         
         else:
             with open(clean_response_file, 'r') as file:
@@ -139,6 +145,7 @@ class DivergentAssociationTest():
         
         with open(f"results/{str(self)}_unnormalized.json", "w") as json_file:
             json.dump(results, json_file, indent=4)
+            return_files.append(f"results/{str(self)}_unnormalized.json")
 
         # Compute normalized results (in case of several embedding models)
         stats = {}
@@ -169,5 +176,8 @@ class DivergentAssociationTest():
         #################################################################
         with open(f"results/{str(self)}_normalized.json", "w") as json_file:
             json.dump(normalized_results, json_file, indent=4)
+            return_files.append(f"results/{str(self)}_normalized.json")
+        
+        return return_files
 
     
