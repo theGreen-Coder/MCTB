@@ -53,7 +53,7 @@ class Request():
         self.delay = max(delay, 0.0)
 
         print(f"Number of API calls: {len(self.models)*len(self.configs)*self.repeats}")
-        print(f"Estimated Time: {(len(self.models)*len(self.configs)*self.repeats*(0.5+self.delay))/60.0}" )
+        print(f"Estimated Time: {(len(self.models)*len(self.configs)*self.repeats*(0.5+self.delay))/60.0} minutes" )
 
     def set_models(self, models):
         self.models = models
@@ -65,7 +65,8 @@ class Request():
         if type(self.prompt) == str:
             return self.prompt
         else:
-            random.choice(self.prompt)
+            return random.choice(self.prompt)
+        return self.prompt
     
     def __iter__(self):
         for model in self.models:
