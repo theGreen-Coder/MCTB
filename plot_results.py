@@ -27,7 +27,8 @@ def plot_distribution_results(data_file,
     df = pd.DataFrame(
         {"model": m, "score": s}
         for m, metrics in raw.items()
-        for scores in metrics.values()
+        for emb, scores in metrics.items()
+        if emb != "config"
         for s in scores
     )
 
