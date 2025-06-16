@@ -4,100 +4,119 @@ import matplotlib.pyplot as plt
 import joypy
 import numpy as np
 
-def plot_distribution_results(data_file, save_file=None, benchmark_line=None, dark_mode=True):
-    # Load & flatten JSON → DataFrame
+def plot_distribution_results(data_file, 
+                              dark_mode=False,
+                              plot_title="Creativity Score Distribution by Model",
+                              x_axis_title="Creativity Score",
+                              show_benchmark=True,
+                              ascending=True,
+                              x_min=50, 
+                              x_max=100, 
+                              save_file=False, 
+                              file_name="plot.png"):
+        
+    # 1) Load & flatten JSON into a pandas DataFrame
     try:
-        with open(data_file) as f:
+        with open(data_file, "r") as f:
             raw = json.load(f)
     except json.JSONDecodeError as e:
-        print("Invalid JSON syntax:", e)
-    except FileNotFoundError:
-        raise FileNotFoundError("File was not found!")
-    except:
-        raise "Error reading/finding the JSON file"
-    
-    plt.rcParams.update({
-        "text.usetex": False,
-        "mathtext.fontset": "cm",
-        "font.family": "serif",
-    })
-
-    if dark_mode:
-        # DARK mode styling
-        plt.rcParams['font.family']       = 'Arial'
-        plt.rcParams['figure.facecolor']  = 'black'
-        plt.rcParams['axes.facecolor']    = 'black'
-        plt.rcParams['savefig.facecolor'] = 'black'
-        plt.rcParams['text.color']        = 'white'
-        plt.rcParams['xtick.color']       = 'white'
-        plt.rcParams['ytick.color']       = 'white'
-        white_color = 'white'
-    else:
-        # LIGHT mode styling
-        plt.rcParams['font.family']       = 'Arial'
-        plt.rcParams['figure.facecolor']  = 'white'
-        plt.rcParams['axes.facecolor']    = 'white'
-        plt.rcParams['savefig.facecolor'] = 'white'
-        plt.rcParams['text.color']        = 'black'
-        plt.rcParams['xtick.color']       = 'black'
-        plt.rcParams['ytick.color']       = 'black'
-        white_color = 'black'
+        raise ValueError(f"Invalid JSON syntax in {data_file}: {e}") from None
+    except FileNotFoundError as e:
+        raise FileNotFoundError(f"File {data_file} was not found!") from None
 
     df = pd.DataFrame(
-        [
-            {"model": model, "score": score}
-            for model, metrics in raw.items()
-            for metric, scores in metrics.items()
-            for score in scores
-        ]
+        {"model": m, "score": s}
+        for m, metrics in raw.items()
+        for scores in metrics.values()
+        for s in scores
     )
 
-    # Order models by ascending mean score, then flip for top→bottom
+    # 2) Matplotlib style
+    base_style = {
+        "text.usetex": False,
+        "mathtext.fontset": "cm",
+    }
+    theme_style = {
+        "font.family": "Arial",
+        "figure.facecolor": "black" if dark_mode else "white",
+        "axes.facecolor": "black" if dark_mode else "white",
+        "savefig.facecolor": "black" if dark_mode else "white",
+        "text.color": "white" if dark_mode else "black",
+        "xtick.color": "white" if dark_mode else "black",
+        "ytick.color": "white" if dark_mode else "black",
+    }
+    plt.rcParams.update({**base_style, **theme_style})
+    fg_color = "white" if dark_mode else "black"
+
+    # 3) Order models by mean
     order = (
-        df.groupby('model')['score']
+        df.groupby("model")["score"]
         .mean()
-        .sort_values()
+        .sort_values(ascending=ascending)
         .index
         .tolist()
     )
-    df['model'] = pd.Categorical(df['model'], categories=order, ordered=True)
-    df = df.sort_values('model', ascending=False)
+    df["model"] = pd.Categorical(df["model"], categories=order, ordered=True)
 
-    # Plot with joypy
+    # 4) Compute mean scores & benchmark
+    mean_map = df.groupby("model")["score"].mean()
+    benchmark_line = mean_map.max()
+    top_model = mean_map.idxmax()
+
+    # 5) Ridge‑plot (joypy)
     fig, axes = joypy.joyplot(
         data=df,
-        by='model',
-        column='score',
-        figsize=(6, len(order) * 1.2),
+        by="model",
+        column="score",
+        figsize=(10, len(order) * 1.2),
         overlap=1,
         linewidth=1,
-        colormap=plt.cm.Set2,
-        legend=False
+        colormap=plt.cm.Set1,
+        legend=False,
+        x_range=[x_min, x_max],
     )
 
-    # 4) Add vertical reference lines
-    mean_map  = df.groupby('model')['score'].mean()
-    benchmark = benchmark_line
+    fig.suptitle(
+        plot_title,
+        color=fg_color,
+        fontsize="x-large",
+        fontweight="bold",
+    )
 
+    # 6) Vertical reference lines
     for ax, mdl in zip(axes, order):
-        if benchmark_line and type(benchmark_line) == int:
-            ax.axvline(benchmark,
-                    ls='--', lw=1.2,
-                    color='lime',
-                    dashes=(4,3),
-                    zorder=100)
-        ax.axvline(mean_map[mdl],
-                ls='--', lw=0.8,
-                color=white_color,
-                zorder=100)
+        if show_benchmark:
+            ax.axvline(
+                benchmark_line,
+                ls="--", lw=1.2, color="lime",
+                dashes=(4, 3), zorder=100,
+            )
+        # per‑model mean
+        ax.axvline(
+            mean_map[mdl],
+            ls="--", lw=0.8, color=fg_color, zorder=100,
+        )
 
-    # 5) Final touches
-    axes[-1].set_xlabel('Creativity score', color=white_color)
-    plt.xlim(df['score'].min() - 1, df['score'].max() + 4)
+    # 7) Shared x‑label & uniform ticks
+    for ax in axes:
+        ax.set_xlabel("")
+
+    axes[-1].set_xlabel(
+        x_axis_title,
+        color=fg_color,
+        fontsize="medium",
+        labelpad=12,
+    )
+
+    ticks = np.linspace(x_min, x_max, 6)
+    axes[-1].set_xticks(ticks)
+
+    # 8) Finish: layout, save, show
     plt.tight_layout()
 
     if save_file:
-        # Save file with a high DPI
-        plt.savefig(save_file, dpi=300)
+        plt.savefig("./results/plots/"+file_name, dpi=300)
 
     plt.show()
+
+    print(f"Benchmark (mean of top model '{top_model}'): {benchmark_line:.2f}")
