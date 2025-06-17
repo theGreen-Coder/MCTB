@@ -63,7 +63,10 @@ class Request():
         if type(self.prompt) == str:
             return self.prompt
         else:
-            return random.choice(self.prompt)
+            selected_prompt = random.choice(self.prompt)
+            print(f"Selected Prompt: {selected_prompt}")
+            print()
+            return selected_prompt
     
     def __iter__(self):
         for model in self.models:

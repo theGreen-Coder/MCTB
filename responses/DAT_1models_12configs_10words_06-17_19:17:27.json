@@ -1,0 +1,748 @@
+{
+    "gemini-2.0-flash": {
+        "{\"temperature\": 0.5}": [
+            [
+                "Here are 10 common, single-word English nouns that are maximally different from one another, avoiding proper nouns, technical terms, and objects in my immediate surroundings:\n\n*   Justice\n*   Chaos\n*   Silence\n*   Courage\n*   Memory\n*   Shadow\n*   Destiny\n*   Ocean\n*   Mountain\n*   Galaxy"
+            ],
+            [
+                "Here are 10 common, single-word English nouns that are maximally different from one another, avoiding proper nouns, technical terms, and objects in my immediate surroundings:\n\n*   Time\n*   Space\n*   Thought\n*   Feeling\n*   Chance\n*   Truth\n*   Power\n*   Peace\n*   Chaos\n*   Silence"
+            ],
+            [
+                "*   Time\n*   Space\n*   Truth\n*   Lie\n*   Love\n*   Hate\n*   Peace\n*   War\n*   Joy\n*   Sorrow"
+            ],
+            [
+                "1.  Epiphany\n2.  Brick\n3.  Quantum\n4.  Nostalgia\n5.  Algorithm\n6.  Oxygen\n7.  Justice\n8.  Rhythm\n9.  Silhouette\n10. Vacuum"
+            ],
+            [
+                "1.  Epiphany\n2.  Brick\n3.  Justice\n4.  Synergy\n5.  Oxygen\n6.  Algorithm\n7.  Nostalgia\n8.  Quirk\n9.  Velocity\n10. Archipelago"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Algorithm\n5. Aroma\n6. Paradox\n7. Molecule\n8. Epoch\n9. Hue\n10. Burden"
+            ],
+            [
+                "1.  Epiphany\n2.  Brick\n3.  Elegance\n4.  Chaos\n5.  Oxygen\n6.  Nostalgia\n7.  Quagmire\n8.  Silence\n9.  Velocity\n10. Algorithm"
+            ],
+            [
+                "Here are 10 common, single-word English nouns that are maximally different from one another, avoiding proper nouns, technical terms, and immediate surroundings:\n\n*   Time\n*   Space\n*   Truth\n*   Lie\n*   Peace\n*   War\n*   Love\n*   Hate\n*   Life\n*   Death"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Water\n5.  Tree\n6.  Friend\n7.  Idea\n8.  Food\n9.  Music\n10. Light"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Enigma\n6. Prism\n7. Notion\n8. Tempest\n9. Ember\n10. Citadel"
+            ],
+            [
+                "1.  Ocean\n2.  Spoon\n3.  Justice\n4.  Photograph\n5.  Oxygen\n6.  Dream\n7.  Algorithm\n8.  Silence\n9.  Brick\n10. Regret"
+            ],
+            [
+                "*   Truth\n*   Chaos\n*   Void\n*   Grace\n*   Plague\n*   Dream\n*   Anger\n*   Peace\n*   Chance\n*   Silence"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Rust\n6. Fleece\n7. Torque\n8. Hush\n9. Prism\n10. Algorithm"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Water\n5.  Food\n6.  Music\n7.  Dream\n8.  Friend\n9.  Money\n10. Idea"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  Water\n4.  House\n5.  Tree\n6.  Idea\n7.  Food\n8.  Money\n9.  Love\n10. Music"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Murmur\n5. Torque\n6. Fleece\n7. Kernel\n8. Prism\n9. Algorithm\n10. Epoch"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Epoch\n7. Enigma\n8. Glimmer\n9. Burden\n10. Serenity"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  Water\n4.  House\n5.  Tree\n6.  Friend\n7.  Music\n8.  Idea\n9.  Light\n10. Car"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Water\n5.  Tree\n6.  Food\n7.  Music\n8.  Friend\n9.  Idea\n10. Money"
+            ],
+            [
+                "1.  Ocean\n2.  Idea\n3.  Brick\n4.  Silence\n5.  Garlic\n6.  Wheel\n7.  Justice\n8.  Velvet\n9.  Shadow\n10. Dust"
+            ]
+        ],
+        "{\"temperature\": 0.625}": [
+            [
+                "1.  Ocean\n2.  Idea\n3.  Brick\n4.  Silence\n5.  Carpet\n6.  Justice\n7.  Garlic\n8.  Symphony\n9.  Velvet\n10. Dust"
+            ],
+            [
+                "1.  Justice\n2.  Oxygen\n3.  Algorithm\n4.  Nostalgia\n5.  Quirk\n6.  Velocity\n7.  Fabric\n8.  Silence\n9.  Epitome\n10. Archipelago"
+            ],
+            [
+                "1.  Epiphany\n2.  Quantum\n3.  Oblivion\n4.  Zephyr\n5.  Calculus\n6.  Mirth\n7.  Sediment\n8.  Paradox\n9.  Labyrinth\n10. Algorithm"
+            ],
+            [
+                "*   Time\n*   Space\n*   Truth\n*   Lie\n*   Silence\n*   Noise\n*   Light\n*   Darkness\n*   Love\n*   Hate"
+            ],
+            [
+                "1.  Galaxy\n2.  Spoon\n3.  Regret\n4.  Brick\n5.  Oxygen\n6.  Rhythm\n7.  Theory\n8.  Silence\n9.  Poem\n10. Dust"
+            ],
+            [
+                "1.  Galaxy\n2.  Brick\n3.  Symphony\n4.  Oxygen\n5.  Regret\n6.  Needle\n7.  Chaos\n8.  Omelet\n9.  Silence\n10. Algorithm"
+            ],
+            [
+                "1.  Symphony\n2.  Grain\n3.  Justice\n4.  Oxygen\n5.  Shadow\n6.  Brick\n7.  Whistle\n8.  Silence\n9.  Courage\n10. Needle"
+            ],
+            [
+                "1.  Abstraction\n2.  Brick\n3.  Chaos\n4.  Epitome\n5.  Flour\n6.  Hypothesis\n7.  Nostalgia\n8.  Oxygen\n9.  Rhythm\n10. Zenith"
+            ],
+            [
+                "1. Time\n2. Book\n3. House\n4. Tree\n5. Water\n6. Food\n7. Music\n8. Light\n9. Idea\n10. Dream"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Water\n5.  Food\n6.  Music\n7.  Light\n8.  Tree\n9.  Friend\n10. Idea"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Tree\n5.  Water\n6.  Food\n7.  Music\n8.  Friend\n9.  Dream\n10. Idea"
+            ],
+            [
+                "1.  Epiphany\n2.  Brick\n3.  Ego\n4.  Algorithm\n5.  Nostalgia\n6.  Quagmire\n7.  Velocity\n8.  Oxygen\n9.  Bureaucracy\n10. Wrath"
+            ],
+            [
+                "1.  Epiphany\n2.  Brick\n3.  Justice\n4.  Synergy\n5.  Ostrich\n6.  Nostalgia\n7.  Quantum\n8.  Doubt\n9.  Canvas\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Ephemeral\n5. Axiom\n6. Torque\n7. Luminescence\n8. Dichotomy\n9. Obsidian\n10. Resonance"
+            ],
+            [
+                "1. Time\n2. Book\n3. Tree\n4. Water\n5. House\n6. Food\n7. Money\n8. Music\n9. Idea\n10. Light"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Fleece\n5. Torque\n6. Sprout\n7. Murmur\n8. Algorithm\n9. Crucible\n10. Paradigm"
+            ],
+            [
+                "1.  Epiphany\n2.  Brick\n3.  Quantum\n4.  Nostalgia\n5.  Entropy\n6.  Zephyr\n7.  Calculus\n8.  Hubris\n9.  Quagmire\n10. Algorithm"
+            ],
+            [
+                "*   Time\n*   Space\n*   Thought\n*   Matter\n*   Energy\n*   Truth\n*   Love\n*   Fear\n*   Change\n*   Void"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  Tree\n4.  House\n5.  Water\n6.  Food\n7.  Music\n8.  Light\n9.  Friend\n10. Idea"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Algorithm\n5. Molecule\n6. Epoch\n7. Enigma\n8. Sherbet\n9. Burden\n10. Notion"
+            ]
+        ],
+        "{\"temperature\": 0.75}": [
+            [
+                "*   Time\n*   Space\n*   Truth\n*   Lie\n*   Peace\n*   War\n*   Joy\n*   Grief\n*   Light\n*   Dark"
+            ],
+            [
+                "1.  Ubiquity\n2.  Solitude\n3.  Chaos\n4.  Harbinger\n5.  Quagmire\n6.  Zenith\n7.  Enigma\n8.  Effervescence\n9.  Nadir\n10. Catharsis"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Enigma\n6. Tempest\n7. Epoch\n8. Molecule\n9. Axiom\n10. Filament"
+            ],
+            [
+                "1.  Ocean\n2.  Grain\n3.  Theory\n4.  Rust\n5.  Silence\n6.  Quill\n7.  Justice\n8.  Velocity\n9.  Symphony\n10. Dust"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Epoch\n6. Algorithm\n7. Metaphor\n8. Labyrinth\n9. Paradigm\n10. Continuum"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Hearth\n5. Algorithm\n6. Molecule\n7. Enigma\n8. Archipelago\n9. Momentum\n10. Epiphany"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Enigma\n6. Nodule\n7. Spectrum\n8. Axiom\n9. Dirge\n10. Smidgen"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  Chair\n4.  Water\n5.  House\n6.  Tree\n7.  Food\n8.  Money\n9.  Idea\n10. Love"
+            ],
+            [
+                "1.  Ubiquity\n2.  Quantum\n3.  Nostalgia\n4.  Brick\n5.  Zephyr\n6.  Dilemma\n7.  Apathy\n8.  Algorithm\n9.  Overture\n10. Filament"
+            ],
+            [
+                "Here are 10 common, single-word English nouns that are maximally different from one another, avoiding proper nouns, technical terms, and immediate surroundings:\n\n*   Justice\n*   Chaos\n*   Memory\n*   Silence\n*   Courage\n*   Ocean\n*   Poison\n*   Shadow\n*   Journey\n*   Growth"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Cipher\n6. Torque\n7. Filament\n8. Nodule\n9. Aura\n10. Paradigm"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Tree\n5.  Water\n6.  Food\n7.  Money\n8.  Music\n9.  Idea\n10. Love"
+            ],
+            [
+                "1.  Serenity\n2.  Brick\n3.  Omelet\n4.  Galaxy\n5.  Debt\n6.  Symphony\n7.  Rust\n8.  Equation\n9.  Eel\n10. Whistle"
+            ],
+            [
+                "1. Time\n2. Book\n3. Water\n4. House\n5. Tree\n6. Idea\n7. Music\n8. Light\n9. Car\n10. Food"
+            ],
+            [
+                "1.  Galaxy\n2.  Spoon\n3.  Regret\n4.  Oxygen\n5.  Symphony\n6.  Brick\n7.  Justice\n8.  Ocean\n9.  Mushroom\n10. Ghost"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Ribbon\n5. Notion\n6. Granite\n7. Whisper\n8. Galaxy\n9. Algorithm\n10. Aroma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Grist\n5. Balm\n6. Cipher\n7. Troth\n8. Mire\n9. Fallow\n10. Epoch"
+            ],
+            [
+                "1.  Serenity\n2.  Brick\n3.  Omelet\n4.  Galaxy\n5.  Nostril\n6.  Rhythm\n7.  Invoice\n8.  Quirk\n9.  Thunder\n10. Algorithm"
+            ],
+            [
+                "Here's a list of 10 common, single-word English nouns, attempting to maximize dissimilarity in meaning:\n\n*   time\n*   void\n*   cause\n*   peace\n*   chaos\n*   truth\n*   lie\n*   growth\n*   death\n*   need"
+            ],
+            [
+                "1.  Ocean\n2.  Theory\n3.  Spoon\n4.  Silence\n5.  Courage\n6.  Dust\n7.  Calendar\n8.  Memory\n9.  Roof\n10. Rhythm"
+            ]
+        ],
+        "{\"temperature\": 0.875}": [
+            [
+                "1.  Oxygen\n2.  Equation\n3.  Symphony\n4.  Brick\n5.  Nostalgia\n6.  Justice\n7.  Silence\n8.  Candle\n9.  Regret\n10. Mountain"
+            ],
+            [
+                "1. Time\n2. Book\n3. Water\n4. House\n5. Tree\n6. Friend\n7. Music\n8. Idea\n9. Food\n10. Car"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Filament\n5. Enigma\n6. Serenity\n7. Rancor\n8. Oblivion\n9. Crucible\n10. Citadel"
+            ],
+            [
+                "*   Time\n*   Space\n*   Truth\n*   Lie\n*   Void\n*   Wealth\n*   Poverty\n*   Joy\n*   Sorrow\n*   Death"
+            ],
+            [
+                "*   Time\n*   Space\n*   Love\n*   Hate\n*   Truth\n*   Lie\n*   War\n*   Peace\n*   Life\n*   Death"
+            ],
+            [
+                "1.  Time\n2.  House\n3.  Water\n4.  Light\n5.  Sound\n6.  Book\n7.  Tree\n8.  Road\n9.  City\n10. Idea"
+            ],
+            [
+                "1.  Time\n2.  Ocean\n3.  Chair\n4.  Idea\n5.  Flame\n6.  Roof\n7.  Pencil\n8.  Silence\n9.  Choice\n10. Courage"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Serenity\n6. Labyrinth\n7. Notion\n8. Precipice\n9. Amber\n10. Algorithm"
+            ],
+            [
+                "1.  Galaxy\n2.  Slipper\n3.  Belief\n4.  Butter\n5.  Triumph\n6.  Dust\n7.  Equation\n8.  Whisper\n9.  Statue\n10. Algorithm"
+            ],
+            [
+                "1.  Epitome\n2.  Osmosis\n3.  Catastrophe\n4.  Anachronism\n5.  Zephyr\n6.  Quagmire\n7.  Paradox\n8.  Apathy\n9.  Facet\n10. Solitude"
+            ],
+            [
+                "1.  Time\n2.  Water\n3.  Book\n4.  House\n5.  Tree\n6.  Friend\n7.  Music\n8.  Dream\n9.  Money\n10. Idea"
+            ],
+            [
+                "1.  Ocean\n2.  Grain\n3.  Symphony\n4.  Rust\n5.  Dare\n6.  Quill\n7.  Debt\n8.  Candor\n9.  Nudge\n10. Void"
+            ],
+            [
+                "1.  Ocean\n2.  Grain\n3.  Justice\n4.  Symphony\n5.  Mischief\n6.  Oxygen\n7.  Doubt\n8.  Nostalgia\n9.  Envelope\n10. Elbow"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Quagmire\n5. Epiphany\n6. Enigma\n7. Algorithm\n8. Serenity\n9. Relic\n10. Fleece"
+            ],
+            [
+                "1.  Galaxy\n2.  Slipper\n3.  Regret\n4.  Garlic\n5.  Pencil\n6.  Harbor\n7.  Melody\n8.  Oxygen\n9.  Bureaucracy\n10. Granite"
+            ],
+            [
+                "1. Time\n2. Book\n3. Water\n4. Tree\n5. House\n6. Idea\n7. Food\n8. Music\n9. Light\n10. Story"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Enigma\n5. Quagmire\n6. Serenity\n7. Algorithm\n8. Artifact\n9. Metamorphosis\n10. Oblivion"
+            ],
+            [
+                "1.  Galaxy\n2.  Slipper\n3.  Justice\n4.  Garbage\n5.  Oxygen\n6.  Fraction\n7.  Silence\n8.  Tapestry\n9.  Nostril\n10. Grief"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Quagmire\n4. Melody\n5. Cipher\n6. Axiom\n7. Husk\n8. Epoch\n9. Effluvium\n10. Enigma"
+            ],
+            [
+                "1.  Oxygen\n2.  Justice\n3.  Spoon\n4.  Symphony\n5.  Regret\n6.  Pencil\n7.  Silence\n8.  Laughter\n9.  Equation\n10. Blanket"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "1. Void\n2. Kernel\n3. Epoch\n4. Notion\n5. Azure\n6. Quotient\n7. Torque\n8. Thrum\n9. Zenith\n10. Ember"
+            ],
+            [
+                "1.  Ubiquity\n2.  Quagmire\n3.  Serenity\n4.  Anomaly\n5.  Entropy\n6.  Boon\n7.  Enigma\n8.  Levity\n9.  Nadir\n10. Zenith"
+            ],
+            [
+                "1. Void\n2. Kernel\n3. Serenity\n4. Turmoil\n5. Zenith\n6. Nadir\n7. Filament\n8. Boulder\n9. Enigma\n10. Axiom"
+            ],
+            [
+                "1. Void\n2. Keystone\n3. Quagmire\n4. Zenith\n5. Kernel\n6. Oblivion\n7. Torque\n8. Hearth\n9. Filament\n10. Epoch"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Tree\n5.  Water\n6.  Food\n7.  Road\n8.  Light\n9.  Music\n10. Dream"
+            ],
+            [
+                "Here are 10 nouns, as different as I can make them:\n\n1.  Justice\n2.  Pebble\n3.  Algorithm\n4.  Nostalgia\n5.  Quagmire\n6.  Epitome\n7.  Solitude\n8.  Entropy\n9.  Catalyst\n10. Zephyr"
+            ],
+            [
+                "*   Time\n*   Truth\n*   Void\n*   Dream\n*   Sound\n*   Peace\n*   Flame\n*   Taste\n*   Depth\n*   Change"
+            ],
+            [
+                "1.  Justice\n2.  Puddle\n3.  Rhythm\n4.  Carrot\n5.  Silence\n6.  Galaxy\n7.  Nostalgia\n8.  Velvet\n9.  Quirk\n10. Theorem"
+            ],
+            [
+                "1. Time\n2. Book\n3. Chair\n4. House\n5. Tree\n6. Water\n7. Food\n8. Music\n9. Dream\n10. Idea"
+            ],
+            [
+                "1.  Hope\n2.  Brick\n3.  Symphony\n4.  Dust\n5.  Revolution\n6.  Needle\n7.  Oxygen\n8.  Equation\n9.  Silence\n10. Jelly"
+            ],
+            [
+                "Here are 10 common, single-word English nouns, aiming for maximal semantic difference:\n\n*   Time\n*   Truth\n*   Chaos\n*   Silence\n*   Dream\n*   Fear\n*   Journey\n*   Wealth\n*   Memory\n*   Nature"
+            ],
+            [
+                "1.  Ocean\n2.  Spoon\n3.  Justice\n4.  Theory\n5.  Photograph\n6.  Silence\n7.  Nostalgia\n8.  Carpet\n9.  Garbage\n10. Oxygen"
+            ],
+            [
+                "1.  Galaxy\n2.  Spoon\n3.  Nostalgia\n4.  Oxygen\n5.  Blueprint\n6.  Regret\n7.  Harbor\n8.  Tapestry\n9.  Algorithm\n10. Dew"
+            ],
+            [
+                "1.  Epiphany\n2.  Detritus\n3.  Quantum\n4.  Nostalgia\n5.  Brick\n6.  Oath\n7.  Zephyr\n8.  Quagmire\n9.  Algorithm\n10. Abyss"
+            ],
+            [
+                "*   Time\n*   Fear\n*   Idea\n*   Ocean\n*   Chaos\n*   Grace\n*   Silence\n*   Future\n*   Truth\n*   Dream"
+            ],
+            [
+                "*   Hope\n*   Void\n*   World\n*   Truth\n*   Lie\n*   Chaos\n*   Order\n*   Dream\n*   Fact\n*   Change"
+            ],
+            [
+                "1.  Sky\n2.  Grain\n3.  Debt\n4.  Rhythm\n5.  Silence\n6.  Coal\n7.  Thread\n8.  Joy\n9.  Lever\n10. Rust"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Tree\n5.  Water\n6.  Light\n7.  Music\n8.  Idea\n9.  Road\n10. Dream"
+            ],
+            [
+                "1.  Ocean\n2.  Flame\n3.  Keyboard\n4.  Justice\n5.  Symphony\n6.  Brick\n7.  Whisper\n8.  Poverty\n9.  Oxygen\n10. Shadow"
+            ],
+            [
+                "*   Justice\n*   Chaos\n*   Silence\n*   Motion\n*   Wealth\n*   Poverty\n*   Dream\n*   Memory\n*   Anger\n*   Peace"
+            ]
+        ],
+        "{\"temperature\": 1.125}": [
+            [
+                "1.  Epiphany\n2.  Quantum\n3.  Brick\n4.  Nostalgia\n5.  Justice\n6.  Algorithm\n7.  Oxygen\n8.  Quirk\n9.  Symphony\n10. Void"
+            ],
+            [
+                "1.  Justice\n2.  Oxygen\n3.  Symphony\n4.  Needle\n5.  Galaxy\n6.  Nostalgia\n7.  Brick\n8.  Equation\n9.  Silence\n10. Umbrella"
+            ],
+            [
+                "1.  Time\n2.  Brick\n3.  Symphony\n4.  Dust\n5.  Ocean\n6.  Idea\n7.  Rust\n8.  Hair\n9.  Gravity\n10. Choice"
+            ],
+            [
+                "*   Epiphany\n*   Void\n*   Harbinger\n*   Aegis\n*   Quagmire\n*   Apex\n*   Zenith\n*   Nadir\n*   Enigma\n*   Facet"
+            ],
+            [
+                "1.  Time\n2.  Water\n3.  House\n4.  Tree\n5.  Book\n6.  Chair\n7.  Food\n8.  Music\n9.  Dream\n10. Idea"
+            ],
+            [
+                "1.  Sky\n2.  Grain\n3.  Justice\n4.  Symphony\n5.  Rust\n6.  Dream\n7.  Habit\n8.  Silence\n9.  Velocity\n10. Needle"
+            ],
+            [
+                "1.  Ubiquity\n2.  Chord\n3.  Fervor\n4.  Syllabus\n5.  Chasm\n6.  Debt\n7.  Axiom\n8.  Kernel\n9.  Quagmire\n10. Zeitgeist"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Cellar\n4. Quirk\n5. Spectrum\n6. Burden\n7. Notion\n8. Tempest\n9. Filament\n10. Echo"
+            ],
+            [
+                "*   Time\n*   Void\n*   Soul\n*   Proof\n*   Doubt\n*   Peace\n*   Chaos\n*   Metal\n*   Breed\n*   Route"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  Water\n4.  House\n5.  Child\n6.  Music\n7.  Money\n8.  Tree\n9.  Heart\n10. Road"
+            ],
+            [
+                "1.  Ocean\n2.  Spoon\n3.  Theory\n4.  Chair\n5.  Happiness\n6.  Envelope\n7.  Consequence\n8.  Garden\n9.  Effort\n10. Melody"
+            ],
+            [
+                "1.  Efficacy\n2.  Synapse\n3.  Omelet\n4.  Latitude\n5.  Quorum\n6.  Hullabaloo\n7.  Petrichor\n8.  Boutonniere\n9.  Kerf\n10. Angst"
+            ],
+            [
+                "Here are 10 common, single-word English nouns that are intended to be maximally different from one another:\n\n*   Time\n*   Space\n*   Truth\n*   Lie\n*   Peace\n*   War\n*   Love\n*   Hate\n*   Hope\n*   Fear"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  Tree\n4.  Water\n5.  House\n6.  Friend\n7.  Music\n8.  Idea\n9.  Road\n10. Food"
+            ],
+            [
+                "*   Justice\n*   Chaos\n*   Silence\n*   Moment\n*   Mountain\n*   Galaxy\n*   Wealth\n*   Courage\n*   Poison\n*   Dream"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Enigma\n6. Crucible\n7. Tapestry\n8. Archipelago\n9. Oblivion\n10. Kinship"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Ember\n5. Knot\n6. Sprout\n7. Shield\n8. Dirge\n9. Prism\n10. Torque"
+            ],
+            [
+                "1.  Mountain\n2.  Spoon\n3.  Justice\n4.  Cloud\n5.  Silence\n6.  Idea\n7.  Shoe\n8.  Courage\n9.  Needle\n10. Bread"
+            ],
+            [
+                "1.  Oxygen\n2.  Justice\n3.  Tapestry\n4.  Symphony\n5.  Dust\n6.  Rhythm\n7.  Nostalgia\n8.  Crayon\n9.  Quill\n10. Meadow"
+            ],
+            [
+                "1.  Ocean\n2.  Idea\n3.  Brick\n4.  Silence\n5.  Garlic\n6.  Dance\n7.  Justice\n8.  Thread\n9.  Fossil\n10. Paradox"
+            ]
+        ],
+        "{\"temperature\": 1.25}": [
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Water\n5.  Idea\n6.  Friend\n7.  Music\n8.  Food\n9.  Dream\n10. Light"
+            ],
+            [
+                "1.  Chair\n2.  Ocean\n3.  Theory\n4.  Nostalgia\n5.  Garbage\n6.  Candle\n7.  Silence\n8.  Courage\n9.  Velocity\n10. Idea"
+            ],
+            [
+                "*   Justice\n*   Chaos\n*   Void\n*   Pinnacle\n*   Serenity\n*   Plague\n*   Oath\n*   Brink\n*   Blight\n*   Solace"
+            ],
+            [
+                "Here are 10 common, single-word English nouns that are maximally different from one another, avoiding proper nouns, technical terms, and objects in my immediate surroundings:\n\n*   Joy\n*   Grief\n*   Theory\n*   Stone\n*   Water\n*   Dream\n*   Nation\n*   Void\n*   Courage\n*   Curse"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Granite\n5. Molecule\n6. Enigma\n7. Paradigm\n8. Ripple\n9. Entropy\n10. Fleece"
+            ],
+            [
+                "1. Abyss\n2. Zenith\n3. Molecule\n4. Epiphany\n5. Enigma\n6. Quagmire\n7. Solitude\n8. Orchestra\n9. Brick\n10. Nostalgia"
+            ],
+            [
+                "*   void\n*   apex\n*   flounder\n*   zeitgeist\n*   semblance\n*   molecule\n*   axiom\n*   hubris\n*   rhythm\n*   entropy"
+            ],
+            [
+                "*   Time\n*   Void\n*   Quill\n*   Melody\n*   Rust\n*   Kernel\n*   Gloom\n*   Pinnacle\n*   Yarn\n*   Chalk"
+            ],
+            [
+                "*   Justice\n*   Chaos\n*   Void\n*   Wealth\n*   Poverty\n*   Truth\n*   Lie\n*   Doubt\n*   Memory\n*   Future"
+            ],
+            [
+                "1. Absence\n2. Zeal\n3. Mire\n4. Zenith\n5. Quill\n6. Truce\n7. Void\n8. Prism\n9. Realm\n10. Torque"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  Chair\n4.  Water\n5.  Food\n6.  House\n7.  Tree\n8.  Light\n9.  Sound\n10. Idea"
+            ],
+            [
+                "1. void\n2. zenith\n3. microbe\n4. theorem\n5. tapestry\n6. lullaby\n7. boulder\n8. enigma\n9. pigment\n10. solace"
+            ],
+            [
+                "*   Truth\n*   Chaos\n*   Void\n*   Aroma\n*   Doubt\n*   Grace\n*   Burden\n*   Realm\n*   Triumph\n*   Folly"
+            ],
+            [
+                "1.  Oxygen\n2.  Idea\n3.  Pavement\n4.  Soup\n5.  Effort\n6.  Chaos\n7.  Hour\n8.  Glove\n9.  Silence\n10. Belief"
+            ],
+            [
+                "1.  Ocean\n2.  Grain\n3.  Thought\n4.  Velocity\n5.  Sculpture\n6.  Mischief\n7.  Rhythm\n8.  Doubt\n9.  Canvas\n10. Dust"
+            ],
+            [
+                "1.  Oxygen\n2.  Justice\n3.  Spoon\n4.  Galaxy\n5.  Silence\n6.  Regret\n7.  Brick\n8.  Ostrich\n9.  Dream\n10. Algorithm"
+            ],
+            [
+                "1.  Oxygen\n2.  Justice\n3.  Rhythm\n4.  Wheel\n5.  Soup\n6.  Symphony\n7.  Grief\n8.  Tapestry\n9.  Chasm\n10. Whisper"
+            ],
+            [
+                "1.  Epiphany\n2.  Asphalt\n3.  Nostalgia\n4.  Quagmire\n5.  Symphony\n6.  Apathy\n7.  Facade\n8.  Dividend\n9.  Ostracism\n10. Quantum"
+            ],
+            [
+                "1. Void\n2. Crest\n3. Filament\n4. Notion\n5. Pewter\n6. Citadel\n7. Breeze\n8. Kernel\n9. Epoch\n10. Torque"
+            ],
+            [
+                "Here are 10 words, as requested:\n\n1.  Epiphany\n2.  Quantum\n3.  Ostrich\n4.  Brick\n5.  Melody\n6.  Void\n7.  Algorithm\n8.  Pollen\n9.  Obsidian\n10. Aroma"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "Here are 10 common, single-word English nouns, aiming for maximal difference:\n\n*   Joy\n*   Void\n*   Ocean\n*   Flame\n*   Theory\n*   Chaos\n*   Poverty\n*   Nation\n*   Machine\n*   Silence"
+            ],
+            [
+                "1.  Time\n2.  Planet\n3.  Hope\n4.  Brick\n5.  Silence\n6.  Flavor\n7.  Needle\n8.  Equation\n9.  Courage\n10. Rhythm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Whisper\n5. Fortress\n6. Catalyst\n7. Paradigm\n8. Mosaic\n9. Filament\n10. Omen"
+            ],
+            [
+                "1.  Justice\n2.  Ocean\n3.  Spoon\n4.  Courage\n5.  Oxygen\n6.  Building\n7.  Nostalgia\n8.  Chaos\n9.  Tapestry\n10. Thunder"
+            ],
+            [
+                "Here's a list of 10 common, single-word English nouns, aiming for maximal difference in meaning and concept:\n\n*   truth\n*   void\n*   storm\n*   peace\n*   dream\n*   birth\n*   curse\n*   choice\n*   depth\n*   honor"
+            ],
+            [
+                "Here are 10 nouns as different from each other as possible in meaning and usage, as requested:\n\n1.  Melancholy\n2.  Brick\n3.  Allegiance\n4.  Plasma\n5.  Calculus\n6.  Serenity\n7.  Epoch\n8.  Garlic\n9.  Rhetoric\n10. Abyss"
+            ],
+            [
+                "1. Oxygen\n2. Justice\n3. Sprout\n4. Theorem\n5. Nostalgia\n6. Canvas\n7. Gravel\n8. Algorithm\n9. Galaxy\n10. Whimsy"
+            ],
+            [
+                "*   Time\n*   Truth\n*   Love\n*   War\n*   Fear\n*   Hope\n*   Death\n*   Dream\n*   Chaos\n*   Light"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Water\n5.  Music\n6.  Dream\n7.  Child\n8.  Food\n9.  Story\n10. Love"
+            ],
+            [
+                "1.  Time\n2.  House\n3.  Water\n4.  Food\n5.  Tree\n6.  Book\n7.  Friend\n8.  Money\n9.  Music\n10. Idea"
+            ],
+            [
+                "1.  Ocean\n2.  Flame\n3.  Pencil\n4.  Justice\n5.  Silence\n6.  Carpet\n7.  Garlic\n8.  Idea\n9.  Friend\n10. Nostalgia"
+            ],
+            [
+                "1. Serenity\n2. Combustion\n3. Algorithm\n4. Brick\n5. Whimsy\n6. Entropy\n7. Molecule\n8. Meadow\n9. Predicament\n10. Tenacity"
+            ],
+            [
+                "1.  Abstraction\n2.  Brick\n3.  Justice\n4.  Whimsy\n5.  Oxygen\n6.  Algorithm\n7.  Serenity\n8.  Velocity\n9.  Nostalgia\n10. Dewdrop"
+            ],
+            [
+                "1.  Serenity\n2.  Brick\n3.  Hurricane\n4.  Syrup\n5.  Chord\n6.  Elbow\n7.  Alibi\n8.  Debt\n9.  Chasm\n10. Whim"
+            ],
+            [
+                "1.  Ocean\n2.  Grain\n3.  Thought\n4.  Rust\n5.  Authority\n6.  Synergy\n7.  Sleeve\n8.  Flame\n9.  Silence\n10. Compassion"
+            ],
+            [
+                "1. Epiphany\n2. Gravy\n3. Oxygen\n4. Zenith\n5. Notion\n6. Treachery\n7. Quagmire\n8. Phenomenon\n9. Apathy\n10. Algorithm"
+            ],
+            [
+                "*   Void\n*   Harbinger\n*   Quotient\n*   Facet\n*   Epoch\n*   Breeze\n*   Metaphor\n*   Sediment\n*   Labyrinth\n*   Kernel"
+            ],
+            [
+                "1. Time\n2. Tree\n3. House\n4. Water\n5. Food\n6. Dream\n7. Music\n8. Idea\n9. Person\n10. Book"
+            ],
+            [
+                "1.  Ubiquity\n2.  Zephyr\n3.  Quagmire\n4.  Axiom\n5.  Catastrophe\n6.  Nadir\n7.  Epitome\n8.  Paradigm\n9.  Solitude\n10. Convolution"
+            ],
+            [
+                "1.  Galaxy\n2.  Spoon\n3.  Justice\n4.  Garbage\n5.  Nostalgia\n6.  Oxygen\n7.  Silence\n8.  Theory\n9.  Carpet\n10. Algorithm"
+            ]
+        ],
+        "{\"temperature\": 1.625}": [
+            [
+                "*   Joy\n*   Void\n*   Truth\n*   Dream\n*   Change\n*   Power\n*   Peace\n*   Death\n*   Motion\n*   Silence"
+            ],
+            [
+                "*   Hope\n*   Chaos\n*   Ocean\n*   Thought\n*   Metal\n*   Flame\n*   Shelter\n*   Courage\n*   Harvest\n*   Justice"
+            ],
+            [
+                "*   Truth\n*   Chaos\n*   Peace\n*   Metal\n*   Dream\n*   Poison\n*   Flame\n*   Debt\n*   Taste\n*   Music"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Sediment\n4. Breath\n5. Anomaly\n6. Prism\n7. Oblivion\n8. Epoch\n9. Melody\n10. Cipher"
+            ],
+            [
+                "1.  Zephyr\n2.  Calculus\n3.  Apathy\n4.  Fervor\n5.  Detritus\n6.  Quotidian\n7.  Hubris\n8.  Nadir\n9.  Welkin\n10. Lachrymatory"
+            ],
+            [
+                "1.  Time\n2.  House\n3.  Water\n4.  Tree\n5.  Light\n6.  Sound\n7.  Dream\n8.  Power\n9.  Heart\n10. Food"
+            ],
+            [
+                "Here are 10 nouns as different as possible according to the rules:\n\n1.  Philosophy\n2.  Oxygen\n3.  Symphony\n4.  Debt\n5.  Lattice\n6.  Rhythm\n7.  Justice\n8.  Galaxy\n9.  Enthusiasm\n10. Quagmire"
+            ],
+            [
+                "1. Time\n2. Water\n3. Fire\n4. Food\n5. Book\n6. Chair\n7. Road\n8. Idea\n9. Money\n10. Dream"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Pebble\n4. Algorithm\n5. Aroma\n6. Notion\n7. Quandary\n8. Fleece\n9. Tempest\n10. Ichor"
+            ],
+            [
+                "Here are 10 nouns as requested:\n\n1.  Solitude\n2.  Catastrophe\n3.  Recipe\n4.  Harbinger\n5.  Quirk\n6.  Enigma\n7.  Boon\n8.  Liability\n9.  Nadir\n10. Sprout"
+            ],
+            [
+                "*   Time\n*   Void\n*   Wealth\n*   Poison\n*   Peace\n*   Truth\n*   Courage\n*   Chaos\n*   Doubt\n*   Motion"
+            ],
+            [
+                "1.  Abstraction\n2.  Brick\n3.  Comfort\n4.  Edict\n5.  Fluid\n6.  Haven\n7.  Kingdom\n8.  Plague\n9.  Rhythm\n10. Tendency"
+            ],
+            [
+                "1. void\n2. tapestry\n3. oxygen\n4. axiom\n5. solace\n6. avalanche\n7. quandary\n8. zephyr\n9. umbrage\n10. pewter"
+            ],
+            [
+                "1. Time\n2. Ocean\n3. Knife\n4. Idea\n5. Dust\n6. Rhythm\n7. Mountain\n8. Shadow\n9. Silence\n10. Iron"
+            ],
+            [
+                "1.  Oblivion\n2.  Synergy\n3.  Kaleidoscope\n4.  Brick\n5.  Rhythm\n6.  Equation\n7.  Serenity\n8.  Nostalgia\n9.  Catastrophe\n10. Oxygen"
+            ],
+            [
+                "1. Time\n2. Water\n3. Tree\n4. House\n5. Book\n6. Road\n7. Child\n8. Music\n9. Idea\n10. Heart"
+            ],
+            [
+                "Here are 10 common, single-word English nouns that are intended to be maximally different:\n\n*   Joy\n*   War\n*   Poverty\n*   Chaos\n*   Silence\n*   Oblivion\n*   Moment\n*   Eternity\n*   Theory\n*   Burden"
+            ],
+            [
+                "1.  Time\n2.  Water\n3.  House\n4.  Friend\n5.  Dream\n6.  Money\n7.  Story\n8.  Question\n9.  Music\n10. Hope"
+            ],
+            [
+                "1.  Serenity\n2.  Brick\n3.  Algorithm\n4.  Nostalgia\n5.  Onion\n6.  Consequence\n7.  Orbit\n8.  Humility\n9.  Spark\n10. Archipelago"
+            ],
+            [
+                "1.  Time\n2.  House\n3.  Water\n4.  Child\n5.  Music\n6.  Dream\n7.  Friend\n8.  Street\n9.  Story\n10. Idea"
+            ]
+        ],
+        "{\"temperature\": 1.75}": [
+            [
+                "1.  Epiphany\n2.  Quagmire\n3.  Symphony\n4.  Detritus\n5.  Axiom\n6.  Nadir\n7.  Zenith\n8.  Catharsis\n9.  Oblivion\n10. Kernel"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Water\n5.  Light\n6.  Tree\n7.  Friend\n8.  Music\n9.  Dream\n10. Road"
+            ],
+            [
+                "1.  Ubiquity\n2.  Kernel\n3.  Quagmire\n4.  Ebullience\n5.  Parsimony\n6.  Zenith\n7.  Rapport\n8.  Facade\n9.  Nexus\n10. Paradigm"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Tree\n5.  Water\n6.  Child\n7.  Music\n8.  Chair\n9.  Dream\n10. Hope"
+            ],
+            [
+                "1.  Epiphany\n2.  Brick\n3.  Entropy\n4.  Apathy\n5.  Algorithm\n6.  Symphony\n7.  Quagmire\n8.  Nemesis\n9.  Serendipity\n10. Void"
+            ],
+            [
+                "Here are 10 common, single-word English nouns that I've tried to make maximally different from one another:\n\n*   Time\n*   Space\n*   Truth\n*   Lie\n*   Joy\n*   Fear\n*   Wealth\n*   Poverty\n*   War\n*   Peace"
+            ],
+            [
+                "*   Time\n*   Truth\n*   Space\n*   War\n*   Fear\n*   Chance\n*   Light\n*   Dream\n*   Nature\n*   Silence"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Water\n5.  Tree\n6.  Child\n7.  Idea\n8.  Music\n9.  Light\n10. Earth"
+            ],
+            [
+                "1. Algorithm\n2. Epiphany\n3. Dust\n4. Symphony\n5. Enigma\n6. Oasis\n7. Vacuum\n8. Serenity\n9. Ire\n10. Filament"
+            ],
+            [
+                "*   Void\n*   Kernel\n*   Harbor\n*   Zephyr\n*   Gargoyle\n*   Entropy\n*   Quill\n*   Summit\n*   Edict\n*   Gingham"
+            ],
+            [
+                "1.  Galaxy\n2.  Slipper\n3.  Justice\n4.  Pencil\n5.  Steam\n6.  Candle\n7.  Brick\n8.  Ocean\n9.  Thread\n10. Dream"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Friend\n5.  Money\n6.  Music\n7.  Dream\n8.  Water\n9.  Food\n10. Question"
+            ],
+            [
+                "*   Truth\n*   Chaos\n*   Grace\n*   Void\n*   Rhythm\n*   Quest\n*   Nadir\n*   Dawn\n*   Zephyr\n*   Oath"
+            ],
+            [
+                "1. Time\n2. Tree\n3. Water\n4. House\n5. Book\n6. Music\n7. Dream\n8. Money\n9. Love\n10. Question"
+            ],
+            [
+                "1.  Ocean\n2.  Idea\n3.  Spoon\n4.  Dust\n5.  Anger\n6.  Roof\n7.  Flame\n8.  Pencil\n9.  Courage\n10. Bread"
+            ],
+            [
+                "*   Truth\n*   Chaos\n*   Grace\n*   Void\n*   Wealth\n*   Shame\n*   Burden\n*   Dream\n*   Hearth\n*   Chance"
+            ],
+            [
+                "1.  Time\n2.  Water\n3.  House\n4.  Friend\n5.  Idea\n6.  Job\n7.  Car\n8.  Door\n9.  Music\n10. Love"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  House\n4.  Friend\n5.  Water\n6.  Child\n7.  City\n8.  Tree\n9.  Music\n10. Dream"
+            ],
+            [
+                "1.  Sky\n2.  Needle\n3.  Rhythm\n4.  Philosophy\n5.  Trout\n6.  Authority\n7.  Grief\n8.  Hammer\n9.  Oxygen\n10. Cake"
+            ],
+            [
+                "Here are 10 English nouns as different as possible in meaning and usage:\n\n1.  Entropy\n2.  Serenity\n3.  Calculus\n4.  Nostalgia\n5.  Oxygen\n6.  Agenda\n7.  Hypothesis\n8.  Axiom\n9.  Facade\n10. Rhetoric"
+            ]
+        ],
+        "{\"temperature\": 1.875}": [
+            [
+                "Here are 10 nouns that are as different from each other as possible, according to your rules:\n\n1.  Entropy\n2.  Justice\n3.  Algorithm\n4.  Synergy\n5.  Obedience\n6.  Patience\n7.  Canvas\n8.  Horizon\n9.  Nostalgia\n10. Gravity"
+            ],
+            [
+                "1. Time\n2. Brick\n3. Idea\n4. Whale\n5. Freedom\n6. Silence\n7. Anger\n8. Music\n9. Shadow\n10. Thread"
+            ],
+            [
+                "1.  Epiphany\n2.  Brick\n3.  Entropy\n4.  Zeitgeist\n5.  Rhetoric\n6.  Vacuum\n7.  Symbiosis\n8.  Algorithm\n9.  Nadir\n10. Archipelago"
+            ],
+            [
+                "1. Void\n2. Anthem\n3. Pewter\n4. Zeal\n5. Epiphany\n6. Hemisphere\n7. Torque\n8. Archipelago\n9. Labyrinth\n10. Filament"
+            ],
+            [
+                "1.  Hope\n2.  Brick\n3.  Theory\n4.  Sock\n5.  Melody\n6.  Dust\n7.  Wheel\n8.  Oxygen\n9.  Choice\n10. Flame"
+            ],
+            [
+                "1.  Silence\n2.  Onion\n3.  Galaxy\n4.  Thrust\n5.  Justice\n6.  Velvet\n7.  Hypothesis\n8.  Nostalgia\n9.  Axiom\n10. Echo"
+            ],
+            [
+                "1. Time\n2. Book\n3. Chair\n4. Water\n5. Food\n6. Dream\n7. House\n8. Idea\n9. Friend\n10. Music"
+            ],
+            [
+                "1. void\n2. solace\n3. boulder\n4. zephyr\n5. enigma\n6. anthem\n7. rust\n8. quill\n9. notion\n10. labyrinth"
+            ],
+            [
+                "1.  Justice\n2.  Spoon\n3.  Galaxy\n4.  Sorrow\n5.  Building\n6.  Poem\n7.  Thread\n8.  Thunder\n9.  Ocean\n10. Ghost"
+            ],
+            [
+                "*   Truth\n*   Chaos\n*   Pity\n*   Hope\n*   Void\n*   Grief\n*   Might\n*   Pause\n*   Zeal\n*   Scale"
+            ],
+            [
+                "1.  Galaxy\n2.  Grain\n3.  Recipe\n4.  Debt\n5.  Ego\n6.  Chord\n7.  Rhythm\n8.  Irony\n9.  Belief\n10. Cell"
+            ],
+            [
+                "1. Time\n2. Ocean\n3. Sock\n4. Dream\n5. Reason\n6. Anger\n7. Mountain\n8. Button\n9. Music\n10. Chalk"
+            ],
+            [
+                "1.  Ephemeralness\n2.  Consequence\n3.  Harmony\n4.  Quantum\n5.  Bureaucracy\n6.  Serendipity\n7.  Nostalgia\n8.  Anachronism\n9.  Malaise\n10. Dichotomy"
+            ],
+            [
+                "1. Void\n2. Serenity\n3. Warfare\n4. Galaxy\n5. Grain\n6. Epiphany\n7. Pestilence\n8. Quill\n9. Labyrinth\n10. Algorithm"
+            ],
+            [
+                "1.  Symphony\n2.  Grain\n3.  Lace\n4.  Equation\n5.  Stool\n6.  Rhythm\n7.  Irony\n8.  Cave\n9.  Quill\n10. Whisper"
+            ],
+            [
+                "*   Justice\n*   Atom\n*   Whimsy\n*   Granite\n*   Momentum\n*   Echolocation\n*   Quill\n*   Void\n*   Azure\n*   Metamorphosis"
+            ],
+            [
+                "1.  Abstraction\n2.  Ember\n3.  Harbinger\n4.  Rhythm\n5.  Quagmire\n6.  Zephyr\n7.  Dilemma\n8.  Paradox\n9.  Nadir\n10. Fervor"
+            ],
+            [
+                "1.  Oxygen\n2.  Building\n3.  Poetry\n4.  Regret\n5.  Potato\n6.  Liberty\n7.  Thought\n8.  Galaxy\n9.  Bicycle\n10. Silk"
+            ],
+            [
+                "1.  Ocean\n2.  Grain\n3.  Thought\n4.  Rust\n5.  Equation\n6.  Symphony\n7.  Coal\n8.  Grace\n9.  Laughter\n10. Knife"
+            ],
+            [
+                "1.  Time\n2.  Book\n3.  Chair\n4.  Tree\n5.  House\n6.  Water\n7.  Food\n8.  Money\n9.  Idea\n10. Love"
+            ]
+        ],
+        "{\"temperature\": 2}": [
+            [
+                "1. Apathy\n2. Symphony\n3. Granite\n4. Serenity\n5. Quagmire\n6. Filament\n7. Kernel\n8. Paradox\n9. Oblivion\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Apex\n3. Quill\n4. Balm\n5. Troth\n6. Flounder\n7. Effluvium\n8. Quagmire\n9. Raze\n10. Torque"
+            ],
+            [
+                "1. Oxygen\n2. Obligation\n3. Ostrich\n4. Outcome\n5. Ornament\n6. Opinion\n7. Octagon\n8. Obituary\n9. Ocean\n10. Ode"
+            ],
+            [
+                "1.  Zephyr\n2.  Catastrophe\n3.  Nostalgia\n4.  Quagmire\n5.  Efficacy\n6.  Amplitude\n7.  Solitude\n8.  Brevity\n9.  Ubiquity\n10. Axiom"
+            ],
+            [
+                "Here are 10 words that strive for maximal difference in meaning and usage:\n\n1.  Ethereality\n2.  Brick\n3.  Abstraction\n4.  Genome\n5.  Vacuum\n6.  Jubilation\n7.  Quagmire\n8.  Algorithm\n9.  Metamorphosis\n10. Dust"
+            ],
+            [
+                "Okay, here's a list of 10 common, single-word English nouns aiming for maximal difference in meaning and common usage:\n\n*   **Time**\n*   **Space**\n*   **Kind**\n*   **Fear**\n*   **Wealth**\n*   **Loss**\n*   **Power**\n*   **Truth**\n*   **Taste**\n*   **Group**"
+            ],
+            [
+                "*   time\n*   void\n*   cause\n*   result\n*   force\n*   peace\n*   wealth\n*   chaos\n*   poverty\n*   birth"
+            ],
+            [
+                "1.  Freedom\n2.  Brick\n3.  Tornado\n4.  Algorithm\n5.  Epitaph\n6.  Oxygen\n7.  Candle\n8.  Ocean\n9.  Philosophy\n10. Symphony"
+            ],
+            [
+                "Okay, here are 10 common, single-word English nouns intended to be maximally different from each other:\n\n*   Time\n*   Space\n*   Thought\n*   Peace\n*   Chaos\n*   System\n*   Color\n*   Sound\n*   Truth\n*   Story"
+            ],
+            [
+                "*   time\n*   void\n*   light\n*   earth\n*   mind\n*   peace\n*   story\n*   flame\n*   group\n*   price"
+            ],
+            [
+                "1.  Oxygen\n2.  Justice\n3.  Candle\n4.  Epitome\n5.  Flounder\n6.  Syllable\n7.  Ambition\n8.  Ribbon\n9.  Lullaby\n10. Void"
+            ],
+            [
+                "*   Eternity\n*   Grain\n*   Void\n*   Symphony\n*   Osmosis\n*   Quirk\n*   Azure\n*   Nadir\n*   Algorithm\n*   Paradox"
+            ],
+            [
+                "1.  Epitome\n2.  Void\n3.  Nexus\n4.  Pinnacle\n5.  Quagmire\n6.  Scythe\n7.  Brogue\n8.  Epiphany\n9.  Chasm\n10. Theorem"
+            ],
+            [
+                "1.  Ethereality\n2.  Bargain\n3.  Abundance\n4.  Consternation\n5.  Momentum\n6.  Pumice\n7.  Lattice\n8.  Vigilance\n9.  Zephyr\n10. Entropy"
+            ],
+            [
+                "*   Void\n*   Pinnacle\n*   Murmur\n*   Ether\n*   Quagmire\n*   Gargoyle\n*   Paradox\n*   Haven\n*   Kernel\n*   Epiphany"
+            ],
+            [
+                "1.  Eternity\n2.  Pencil\n3.  Justice\n4.  Ocean\n5.  Velocity\n6.  Symphony\n7.  Paradox\n8.  Nostalgia\n9.  Quirk\n10. Axiom"
+            ],
+            [
+                "1.  Epiphany\n2.  Quantum\n3.  Asphalt\n4.  Nostalgia\n5.  Dystopia\n6.  Eternity\n7.  Cellar\n8.  Equation\n9.  Effervescence\n10. Oblivion"
+            ],
+            [
+                "Here are 10 common, single-word English nouns that are as different as possible from one another:\n\n*   truth\n*   void\n*   chaos\n*   wisdom\n*   metal\n*   fable\n*   burden\n*   melody\n*   zephyr\n*   fabric"
+            ],
+            [
+                "1. Time\n2. Rock\n3. Idea\n4. Rain\n5. Crowd\n6. Oxygen\n7. Dream\n8. Flour\n9. History\n10. Silence"
+            ],
+            [
+                "1. Zeitgeist\n2. Filament\n3. Hullabaloo\n4. Algorithm\n5. Trepidation\n6. Quorum\n7. Spontaneity\n8. Zenith\n9. Paradox\n10. Fervor"
+            ]
+        ]
+    }
+}
