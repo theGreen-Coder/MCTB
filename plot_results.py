@@ -4,6 +4,87 @@ import matplotlib.pyplot as plt
 import joypy
 import numpy as np
 
+def plot_correlation(data_file,
+                     key,
+                     second_key=None,
+                     model='GloVe',
+                     dark_mode=False,
+                     plot_title="Correlation with Creativity Score",
+                     x_axis_title="Creativity Score",
+                     y_axis_title="Temperature",
+                     save_file=False, 
+                     file_name="plot.png"):
+
+    # 1) Load & flatten JSON into a pandas DataFrame
+    try:
+        with open(data_file, "r") as f:
+            raw = json.load(f)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Invalid JSON syntax in {data_file}: {e}") from None
+    except FileNotFoundError as e:
+        raise FileNotFoundError(f"File {data_file} was not found!") from None
+    
+    records = []
+    for cfg_key, cfg in raw.items():
+        if second_key:
+            config_variable = cfg['config'][key][second_key]
+        else:
+            config_variable = cfg['config'][key]
+        
+        for model_name, value in cfg.items():
+            if model_name == 'config':
+                continue
+            for s in value:
+                records.append((config_variable, model_name, s))
+
+    df = pd.DataFrame(records, columns=['config_variable', 'model', 'score'])
+    sub = df[df['model'] == model]
+    
+    # 2) Matplotlib style
+    base_style = {
+        "text.usetex": False,
+        "mathtext.fontset": "cm",
+    }
+    theme_style = {
+        "font.family": "Arial",
+        "figure.facecolor": "black" if dark_mode else "white",
+        "axes.facecolor": "black" if dark_mode else "white",
+        "savefig.facecolor": "black" if dark_mode else "white",
+        "text.color": "white" if dark_mode else "black",
+        "xtick.color": "white" if dark_mode else "black",
+        "ytick.color": "white" if dark_mode else "black",
+    }
+    plt.rcParams.update({**base_style, **theme_style})
+
+    # 3) Linear regression plot
+    x = sub['score'].values
+    y = sub['config_variable'].values
+
+    # Linear regression (fit y as a function of x)
+    m, b = np.polyfit(x, y, 1)
+    r = np.corrcoef(x, y)[0, 1]
+
+    # Plot
+    plt.scatter(x, y, label=f'{model} (T vs S)')
+    x_line = np.linspace(min(x) - 0.05, max(x) + 0.05, 100)
+    plt.plot(x_line, m * x_line + b,
+            label=f'Fit: y={m:.2f}x + {b:.2f}\n$R$={r:.2f}')
+
+    plt.xlabel(x_axis_title)
+    plt.ylabel(y_axis_title)
+    plt.title(plot_title)
+    plt.legend()
+    plt.grid(True)
+
+    # 4) Finish: layout, save, show
+    plt.tight_layout()
+
+    if save_file:
+        plt.savefig("./results/plots/"+file_name, dpi=300)
+
+    plt.show()
+
+
 def plot_distribution_results(data_file, 
                               dark_mode=False,
                               plot_title="Creativity Score Distribution by Model",
@@ -51,7 +132,7 @@ def plot_distribution_results(data_file,
 
     # 3) Order models by mean
     order = (
-        df.groupby("model")["score"]
+        df.groupby("model", observed=False)["score"]
         .mean()
         .sort_values(ascending=ascending)
         .index
@@ -60,7 +141,7 @@ def plot_distribution_results(data_file,
     df["model"] = pd.Categorical(df["model"], categories=order, ordered=True)
 
     # 4) Compute mean scores & benchmark
-    mean_map = df.groupby("model")["score"].mean()
+    mean_map = df.groupby("model", observed=False)["score"].mean()
     benchmark_line = mean_map.max()
     top_model = mean_map.idxmax()
 

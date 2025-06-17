@@ -1,0 +1,748 @@
+{
+    "gemini-2.0-flash": {
+        "{\"temperature\": 0.5}": [
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Epoch\n6. Enigma\n7. Algorithm\n8. Tempest\n9. Meadow\n10. Axiom"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Epoch\n7. Enigma\n8. Fleece\n9. Torque\n10. Hush"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Molecule\n6. Enigma\n7. Serenity\n8. Paradox\n9. Umbrage\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quark\n4. Notion\n5. Torque\n6. Lichen\n7. Epoch\n8. Murmur\n9. Fable\n10. Filament"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Epoch\n7. Enigma\n8. Fleece\n9. Torque\n10. Lichen"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Amoeba\n4. Quagmire\n5. Epiphany\n6. Enigma\n7. Oblivion\n8. Citadel\n9. Filament\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Murmur\n4. Filament\n5. Quagmire\n6. Algorithm\n7. Nostalgia\n8. Obsidian\n9. Paradigm\n10. Effervescence"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Filament\n6. Fortress\n7. Molecule\n8. Serenity\n9. Cascade\n10. Enigma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quark\n4. Hearth\n5. Algorithm\n6. Notion\n7. Shard\n8. Torque\n9. Lichen\n10. Epiphany"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Entropy\n5. Hearth\n6. Algorithm\n7. Molecule\n8. Epoch\n9. Enigma\n10. Hue"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Epoch\n7. Enigma\n8. Paradigm\n9. Citadel\n10. Fleece"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Filament\n6. Fortress\n7. Molecule\n8. Serenity\n9. Enigma\n10. Tempest"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Tempest\n5. Molecule\n6. Epoch\n7. Grist\n8. Enigma\n9. Meadow\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Smelt\n5. Torque\n6. Fleece\n7. Nodule\n8. Cipher\n9. Prism\n10. Murmur"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Quagmire\n5. Epiphany\n6. Algorithm\n7. Serenity\n8. Archipelago\n9. Enigma\n10. Dichotomy"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Rust\n6. Aroma\n7. Cipher\n8. Fleece\n9. Algorithm\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Enigma\n6. Algorithm\n7. Mirage\n8. Epoch\n9. Burden\n10. Fleece"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Enigma\n6. Epoch\n7. Algorithm\n8. Metaphor\n9. Sediment\n10. Phenomenon"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Paradigm\n4. Quagmire\n5. Epiphany\n6. Enigma\n7. Oblivion\n8. Pinnacle\n9. Nadir\n10. Reverie"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Filament\n6. Cipher\n7. Archipelago\n8. Oblivion\n9. Torque\n10. Incarnation"
+            ]
+        ],
+        "{\"temperature\": 0.625}": [
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Fleece\n5. Murmur\n6. Torque\n7. Ember\n8. Algorithm\n9. Paradigm\n10. Spectrum"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Filament\n5. Algorithm\n6. Notion\n7. Residue\n8. Cadence\n9. Epoch\n10. Enigma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Meadow\n6. Algorithm\n7. Enigma\n8. Torque\n9. Fleece\n10. Notion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Murmur\n5. Torque\n6. Fleece\n7. Ember\n8. Prism\n9. Thistle\n10. Epoch"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Enigma\n5. Quagmire\n6. Serenity\n7. Avalanche\n8. Epiphany\n9. Archipelago\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Enigma\n5. Quagmire\n6. Symphony\n7. Epitome\n8. Cipher\n9. Dichotomy\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Notion\n5. Molecule\n6. Torque\n7. Hue\n8. Epoch\n9. Algorithm\n10. Fleece"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Paradigm\n6. Algorithm\n7. Enigma\n8. Reverie\n9. Threshold\n10. Sediment"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Quagmire\n5. Epiphany\n6. Enigma\n7. Tapestry\n8. Algorithm\n9. Oblivion\n10. Filament"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Rust\n6. Hush\n7. Torque\n8. Filament\n9. Oasis\n10. Cipher"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Entropy\n5. Meadow\n6. Theorem\n7. Murmur\n8. Obsidian\n9. Algorithm\n10. Serenity"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Filament\n6. Cipher\n7. Archipelago\n8. Oblivion\n9. Torque\n10. Incarnation"
+            ],
+            [
+                "*   Justice\n*   Quill\n*   Nebula\n*   Brick\n*   Theory\n*   Whimsy\n*   Oxygen\n*   Rhythm\n*   Gloom\n*   Tapestry"
+            ],
+            [
+                "*   Void\n*   Epitome\n*   Quagmire\n*   Zenith\n*   Abyss\n*   Haven\n*   Nadir\n*   Facet\n*   Gist\n*   Entropy"
+            ],
+            [
+                "1. Void\n2. Symphony\n3. Molecule\n4. Paradox\n5. Quagmire\n6. Pinnacle\n7. Filament\n8. Algorithm\n9. Nostalgia\n10. Aegis"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Torque\n5. Paradigm\n6. Ember\n7. Fleece\n8. Algorithm\n9. Molecule\n10. Epoch"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Molecule\n6. Enigma\n7. Reverie\n8. Archipelago\n9. Filament\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Filament\n6. Fortress\n7. Aroma\n8. Algorithm\n9. Epoch\n10. Ripple"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Enigma\n6. Algorithm\n7. Meadow\n8. Obsidian\n9. Notion\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Cipher\n6. Archipelago\n7. Nostalgia\n8. Obsidian\n9. Paradigm\n10. Enigma"
+            ]
+        ],
+        "{\"temperature\": 0.75}": [
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Molecule\n6. Enigma\n7. Tapestry\n8. Algorithm\n9. Archipelago\n10. Nostalgia"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Epoch\n7. Burden\n8. Reverie\n9. Citadel\n10. Filament"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epoch\n5. Enigma\n6. Ripple\n7. Husk\n8. Luminary\n9. Algorithm\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Molecule\n6. Enigma\n7. Symphony\n8. Brick\n9. Filament\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Amoeba\n4. Enigma\n5. Quagmire\n6. Serenity\n7. Torque\n8. Archipelago\n9. Vestige\n10. Luminescence"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Quagmire\n5. Serenity\n6. Cacophony\n7. Epoch\n8. Filament\n9. Algorithm\n10. Whimsy"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Quagmire\n5. Epiphany\n6. Filament\n7. Axiom\n8. Cascade\n9. Enigma\n10. Husk"
+            ],
+            [
+                "1. Void\n2. Kernel\n3. Zenith\n4. Quagmire\n5. Filament\n6. Echo\n7. Parchment\n8. Murmur\n9. Effigy\n10. Cipher"
+            ],
+            [
+                "1. Epiphany\n2. Oxygen\n3. Void\n4. Quirk\n5. Zenith\n6. Molecule\n7. Enigma\n8. Galaxy\n9. Brick\n10. Echo"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Filament\n6. Algorithm\n7. Shard\n8. Aroma\n9. Paradigm\n10. Hush"
+            ],
+            [
+                "1. Void\n2. Keystone\n3. Epiphany\n4. Molecule\n5. Algorithm\n6. Nostalgia\n7. Quagmire\n8. Luminescence\n9. Pinnacle\n10. Enigma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Ephemeral\n5. Citadel\n6. Enigma\n7. Reverie\n8. Scintilla\n9. Oblivion\n10. Verdure"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Turmoil\n6. Molecule\n7. Epoch\n8. Enigma\n9. Fleece\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Cipher\n5. Hearth\n6. Torque\n7. Sediment\n8. Lichen\n9. Notion\n10. Gossamer"
+            ],
+            [
+                "1. Void\n2. Flourish\n3. Oblivion\n4. Zenith\n5. Quagmire\n6. Serenity\n7. Calamity\n8. Filament\n9. Torque\n10. Enigma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Enigma\n6. Axiom\n7. Tempest\n8. Pixel\n9. Molecule\n10. Algorithm"
+            ],
+            [
+                "1. Abyss\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Tumult\n6. Filament\n7. Boulder\n8. Epiphany\n9. Cipher\n10. Residue"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Anomaly\n6. Enigma\n7. Catharsis\n8. Oblivion\n9. Reverie\n10. Crucible"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Quagmire\n5. Epiphany\n6. Cipher\n7. Torque\n8. Fleece\n9. Murmur\n10. Sprout"
+            ],
+            [
+                "1. void\n2. symphony\n3. particle\n4. solace\n5. labyrinth\n6. pinnacle\n7. dew\n8. theorem\n9. ember\n10. epoch"
+            ]
+        ],
+        "{\"temperature\": 0.875}": [
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Enigma\n6. Archipelago\n7. Momentum\n8. Luminescence\n9. Calculus\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Serenity\n7. Torque\n8. Gristle\n9. Epiphany\n10. Archipelago"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Quagmire\n4. Epoch\n5. Murmur\n6. Cipher\n7. Torque\n8. Filament\n9. Catalyst\n10. Epoch"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Epoch\n6. Paradox\n7. Umbra\n8. Algorithm\n9. Axiom\n10. Filament"
+            ],
+            [
+                "1. Void\n2. Symphony\n3. Molecule\n4. Zenith\n5. Paradox\n6. Quagmire\n7. Filament\n8. Epoch\n9. Effervescence\n10. Enigma"
+            ],
+            [
+                "1. Void\n2. Anthem\n3. Quagmire\n4. Filament\n5. Kernel\n6. Epoch\n7. Facade\n8. Torque\n9. Mirage\n10. Rune"
+            ],
+            [
+                "1. Void\n2. Epiphany\n3. Filament\n4. Quagmire\n5. Zenith\n6. Enigma\n7. Kernel\n8. Reverie\n9. Torque\n10. Facade"
+            ],
+            [
+                "*   Time\n*   Void\n*   Harvest\n*   Epitome\n*   Quagmire\n*   Zephyr\n*   Acrimony\n*   Facet\n*   Solitude\n*   Velocity"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Algorithm\n5. Molecule\n6. Labyrinth\n7. Echo\n8. Amber\n9. Notion\n10. Epoch"
+            ],
+            [
+                "1. void\n2. zenith\n3. pebble\n4. notion\n5. tapestry\n6. quagmire\n7. solace\n8. ember\n9. axiom\n10. husk"
+            ],
+            [
+                "1. Void\n2. Anthem\n3. Filament\n4. Algorithm\n5. Archipelago\n6. Quicksilver\n7. Epiphany\n8. Fortress\n9. Labyrinth\n10. Zephyr"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quark\n4. Breadth\n5. Knot\n6. Echo\n7. Rust\n8. Glimmer\n9. Quill\n10. Slumber"
+            ],
+            [
+                "1. Void\n2. Harmony\n3. Quagmire\n4. Zenith\n5. Rust\n6. Epiphany\n7. Algorithm\n8. Gale\n9. Fleece\n10. Torque"
+            ],
+            [
+                "*   Void\n*   Kernel\n*   Harbinger\n*   Mosaic\n*   Zenith\n*   Quagmire\n*   Aegis\n*   Epiphany\n*   Chasm\n*   Lattice"
+            ],
+            [
+                "1. Void\n2. Quirk\n3. Zenith\n4. Slumber\n5. Ripple\n6. Torque\n7. Chroma\n8. Hush\n9. Grist\n10. Epoch"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Notion\n5. Torque\n6. Murmur\n7. Fleece\n8. Algorithm\n9. Crucible\n10. Archipelago"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Filament\n6. Aegis\n7. Kernel\n8. Cipher\n9. Precipice\n10. Epiphany"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Amoeba\n4. Cipher\n5. Paradigm\n6. Enigma\n7. Quagmire\n8. Serenity\n9. Tempest\n10. Notion"
+            ],
+            [
+                "1. Void\n2. Apex\n3. Quagmire\n4. Serenity\n5. Turmoil\n6. Oblivion\n7. Kinship\n8. Fragment\n9. Colossus\n10. Enigma"
+            ],
+            [
+                "Here are 10 disparate nouns:\n\n1.  Eternity\n2.  Puddle\n3.  Quill\n4.  Rhythm\n5.  Oxygen\n6.  Brick\n7.  Theory\n8.  Velvet\n9.  Rust\n10. Whisper"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "1. Void\n2. Kernel\n3. Zenith\n4. Quagmire\n5. Notion\n6. Filament\n7. Torque\n8. Facade\n9. Paradigm\n10. Hush"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Quagmire\n4. Serenity\n5. Turmoil\n6. Epiphany\n7. Residue\n8. Cosmos\n9. Pixel\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Murmur\n5. Torque\n6. Glimmer\n7. Thistle\n8. Crucible\n9. Enigma\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Blossom\n3. Theorem\n4. Quagmire\n5. Zenith\n6. Murmur\n7. Obsidian\n8. Notion\n9. Torque\n10. Vestige"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Notion\n4. Quagmire\n5. Filament\n6. Cadence\n7. Kernel\n8. Chroma\n9. Torque\n10. Effluvium"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quark\n4. Oblivion\n5. Symphony\n6. Molecule\n7. Axiom\n8. Epoch\n9. Algorithm\n10. Metaphor"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Notion\n5. Quagmire\n6. Serenity\n7. Echo\n8. Filament\n9. Burden\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Crescendo\n3. Quagmire\n4. Zenith\n5. Kernel\n6. Epoch\n7. Facade\n8. Filament\n9. Cipher\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Torque\n6. Epiphany\n7. Algorithm\n8. Fossil\n9. Notion\n10. Fabric"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Torque\n5. Epoch\n6. Ember\n7. Fathom\n8. Bloom\n9. Murmur\n10. Sprout"
+            ],
+            [
+                "1. Abyss\n2. Zenith\n3. Filament\n4. Quagmire\n5. Resonance\n6. Cipher\n7. Ephemeral\n8. Colossus\n9. Paradigm\n10. Ember"
+            ],
+            [
+                "1. Absence\n2. Zenith\n3. Quagmire\n4. Notion\n5. Molecule\n6. Garret\n7. Symphony\n8. Silhouette\n9. Oblivion\n10. Crest"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Ire\n6. Ephemeral\n7. Oblivion\n8. Kinship\n9. Enigma\n10. Luminescence"
+            ],
+            [
+                "*   Abstraction\n*   Bricks\n*   Galaxy\n*   Jargon\n*   Mirth\n*   Ooze\n*   Quirk\n*   Rhythm\n*   Thought\n*   Whimsy"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Slumber\n5. Cipher\n6. Tempest\n7. Ember\n8. Torque\n9. Fleece\n10. Notion"
+            ],
+            [
+                "1. Void\n2. Symphony\n3. Quill\n4. Oxygen\n5. Zenith\n6. Algorithm\n7. Tapestry\n8. Molecule\n9. Enigma\n10. Obsidian"
+            ],
+            [
+                "1. Absence\n2. Quirk\n3. Zenith\n4. Brick\n5. Echo\n6. Filament\n7. Labyrinth\n8. Notion\n9. Avalanche\n10. Molecule"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Amoeba\n4. Quagmire\n5. Enigma\n6. Epiphany\n7. Rudiment\n8. Torque\n9. Vestige\n10. Gossamer"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Amber\n5. Riddle\n6. Epoch\n7. Murmur\n8. Fable\n9. Torque\n10. Dross"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Asphalt\n5. Molecule\n6. Epiphany\n7. Algorithm\n8. Archipelago\n9. Nostalgia\n10. Torque"
+            ]
+        ],
+        "{\"temperature\": 1.125}": [
+            [
+                "Here are 10 distinct nouns:\n\n1.  Eternity\n2.  Germ\n3.  Quartz\n4.  Rhythm\n5.  Quill\n6.  Vacuum\n7.  Gloom\n8.  Pixel\n9.  Tithe\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Wrath\n6. Ephemeral\n7. Aegis\n8. Cipher\n9. Crucible\n10. Effigy"
+            ],
+            [
+                "1. void\n2. melody\n3. concept\n4. avalanche\n5. molecule\n6. tapestry\n7. axiom\n8. solace\n9. rust\n10. enigma"
+            ],
+            [
+                "1. Abyss\n2. Zenith\n3. Molecule\n4. Paradigm\n5. Quagmire\n6. Epiphany\n7. Cipher\n8. Archipelago\n9. Continuum\n10. Remnant"
+            ],
+            [
+                "1. Void\n2. Apex\n3. Grain\n4. Ire\n5. Kin\n6. Murmur\n7. Quill\n8. Smudge\n9. Torque\n10. Zenith"
+            ],
+            [
+                "1. Absence\n2. Epiphany\n3. Void\n4. Quagmire\n5. Pinnacle\n6. Filament\n7. Murmur\n8. Armor\n9. Omen\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Summit\n3. Notion\n4. Molecule\n5. Quill\n6. Algorithm\n7. Epoch\n8. Crucible\n9. Paradox\n10. Hush"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Molecule\n5. Serenity\n6. Anomaly\n7. Algorithm\n8. Filament\n9. Epoch\n10. Cadence"
+            ],
+            [
+                "1. Void\n2. Quirk\n3. Zenith\n4. Ember\n5. Tableau\n6. Paradox\n7. Meridian\n8. Iota\n9. Enigma\n10. Hush"
+            ],
+            [
+                "1. Void\n2. Blossom\n3. Theorem\n4. Burden\n5. Quill\n6. Emptiness\n7. Galaxy\n8. Serenity\n9. Anomaly\n10. Aegis"
+            ],
+            [
+                "1. Void\n2. Meadow\n3. Algorithm\n4. Serenity\n5. Quagmire\n6. Zenith\n7. Murmur\n8. Axiom\n9. Filament\n10. Reverie"
+            ],
+            [
+                "1. Epiphany\n2. Filament\n3. Vortex\n4. Quagmire\n5. Zenith\n6. Dichotomy\n7. Residue\n8. Algorithm\n9. Paradigm\n10. Void"
+            ],
+            [
+                "1. Epiphany\n2. Void\n3. Meadow\n4. Torque\n5. Filament\n6. Quotient\n7. Gauntlet\n8. Nostalgia\n9. Obsidian\n10. Sherbet"
+            ],
+            [
+                "1. Zenith\n2. Abyss\n3. Notion\n4. Pebble\n5. Quagmire\n6. Silence\n7. Torque\n8. Filament\n9. Echo\n10. Omen"
+            ],
+            [
+                "1.  Eternity\n2.  Atom\n3.  Symphony\n4.  Quagmire\n5.  Solitude\n6.  Velocity\n7.  Mosaic\n8.  Algorithm\n9.  Zephyr\n10. Paradox"
+            ],
+            [
+                "1. Void\n2. Apex\n3. Cellar\n4. Breeze\n5. Shield\n6. Algorithm\n7. Quagmire\n8. Notion\n9. Cascade\n10. Ember"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Amoeba\n4. Enigma\n5. Fleece\n6. Quagmire\n7. Sprout\n8. Torque\n9. Citadel\n10. Hush"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Fungus\n4. Quantum\n5. Torque\n6. Archipelago\n7. Algorithm\n8. Dichotomy\n9. Obsidian\n10. Effervescence"
+            ],
+            [
+                "1. Void\n2. Kernel\n3. Fleece\n4. Ire\n5. Sprout\n6. Zenith\n7. Quagmire\n8. Epiphany\n9. Lattice\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Symphony\n3. Grain\n4. Algorithm\n5. Quirk\n6. Epoch\n7. Prism\n8. Rust\n9. Thistle\n10. Mirage"
+            ]
+        ],
+        "{\"temperature\": 1.25}": [
+            [
+                "1. Zenith\n2. Abyss\n3. Notion\n4. Fungus\n5. Algorithm\n6. Quagmire\n7. Torque\n8. Fleece\n9. Epiphany\n10. Void"
+            ],
+            [
+                "1. Void\n2. Symphony\n3. Filament\n4. Axiom\n5. Quagmire\n6. Emerald\n7. Epiphany\n8. Torque\n9. Incarnation\n10. Zephyr"
+            ],
+            [
+                "1. Void\n2. Keystone\n3. Aroma\n4. Quagmire\n5. Glimmer\n6. Enigma\n7. Tenacity\n8. Vista\n9. Paradigm\n10. Dearth"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Notion\n5. Brick\n6. Aroma\n7. Cascade\n8. Rhythm\n9. Paradox\n10. Molecule"
+            ],
+            [
+                "1. Void\n2. Crescendo\n3. Epiphany\n4. Parchment\n5. Quagmire\n6. Gossamer\n7. Oblivion\n8. Zenith\n9. Dichotomy\n10. Effluvium"
+            ],
+            [
+                "1. Zenith\n2. Abyss\n3. Nucleus\n4. Rust\n5. Algorithm\n6. Filament\n7. Gristle\n8. Aroma\n9. Epoch\n10. Quagmire"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Mire\n4. Torque\n5. Notion\n6. Flotsam\n7. Husk\n8. Chroma\n9. Quagmire\n10. Sprout"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Murmur\n5. Torque\n6. Smelt\n7. Nodule\n8. Filament\n9. Cipher\n10. Epoch"
+            ],
+            [
+                "1. void\n2. solace\n3. fervor\n4. riddle\n5. zephyr\n6. plateau\n7. vortex\n8. vestige\n9. axiom\n10. umbrage"
+            ],
+            [
+                "1.  Eternity\n2.  Puddle\n3.  Symphony\n4.  Brick\n5.  Whimsy\n6.  Kernel\n7.  Silence\n8.  Anatomy\n9.  Quagmire\n10. Algorithm"
+            ],
+            [
+                "*   Epiphany\n*   Quagmire\n*   Zephyr\n*   Algebra\n*   Epitaph\n*   Symphony\n*   Pylon\n*   Nadir\n*   Garnet\n*   Bonsai"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Reverie\n5. Molecule\n6. Epoch\n7. Enigma\n8. Harbinger\n9. Scrivener\n10. Kernel"
+            ],
+            [
+                "1. Void\n2. Apex\n3. Breadth\n4. Quirk\n5. Notion\n6. Gale\n7. Sherd\n8. Balm\n9. Umbra\n10. Algorithm"
+            ],
+            [
+                "1. void\n2. pinnacle\n3. solace\n4. blight\n5. ember\n6. labyrinth\n7. epoch\n8. cascade\n9. stratum\n10. torque"
+            ],
+            [
+                "1. Void\n2. Kernel\n3. Effervescence\n4. Ire\n5. Bauble\n6. Apex\n7. Nadir\n8. Quagmire\n9. Hush\n10. Zenith"
+            ],
+            [
+                "1. Void\n2. Epiphany\n3. Archipelago\n4. Quagmire\n5. Diapason\n6. Umbra\n7. Zephyr\n8. Effluvium\n9. Dichotomy\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Quagmire\n3. Zenith\n4. Breadth\n5. Glimmer\n6. Torque\n7. Hush\n8. Ire\n9. Epoch\n10. Scar"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Shibboleth\n5. Quandary\n6. Torque\n7. Effluvium\n8. Diode\n9. Kernel\n10. Synthesis"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Reverie\n5. Cipher\n6. Gauntlet\n7. Fleece\n8. Nodule\n9. Dichotomy\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Quirk\n3. Zenith\n4. Filament\n5. Murmur\n6. Oxide\n7. Paradigm\n8. Torque\n9. Epoch\n10. Lattice"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "1. Void\n2. Meadow\n3. Torque\n4. Enigma\n5. Crimson\n6. Theory\n7. Kernel\n8. Aroma\n9. Burden\n10. Cascade"
+            ],
+            [
+                "1. void\n2. concept\n3. grain\n4. flora\n5. prism\n6. debt\n7. friction\n8. anthem\n9. pixel\n10. radius"
+            ],
+            [
+                "1. Void\n2. Harmony\n3. Ire\n4. Sprout\n5. Prism\n6. Fleece\n7. Citadel\n8. Quagmire\n9. Epoch\n10. Cipher"
+            ],
+            [
+                "1. Void\n2. Symphony\n3. Quill\n4. Rust\n5. Nebula\n6. Algorithm\n7. Oasis\n8. Fleece\n9. Paradox\n10. Filament"
+            ],
+            [
+                "1. void\n2. apex\n3. riddle\n4. kernel\n5. notion\n6. sphere\n7. vestige\n8. plight\n9. cipher\n10. flux"
+            ],
+            [
+                "Here are 10 highly distinct nouns:\n\n1.  Eternity\n2.  Pebble\n3.  Theory\n4.  Garlic\n5.  Silence\n6.  Velocity\n7.  Canvas\n8.  Nostalgia\n9.  Oxygen\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Flourish\n3. Entropy\n4. Serenity\n5. Murmur\n6. Plateau\n7. Cipher\n8. Enigma\n9. Nexus\n10. Effervescence"
+            ],
+            [
+                "1.  Eternity\n2.  Puddle\n3.  Rhythm\n4.  Syntax\n5.  Nodule\n6.  Vacuum\n7.  Aroma\n8.  Quill\n9.  Sphinx\n10. Notion"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Grain\n4. Epoch\n5. Quagmire\n6. Sonnet\n7. Filament\n8. Cipher\n9. Aura\n10. Ire"
+            ],
+            [
+                "1. Zenith\n2. Abyss\n3. Molecule\n4. Epiphany\n5. Quagmire\n6. Algorithm\n7. Filament\n8. Enigma\n9. Notion\n10. Residue"
+            ],
+            [
+                "1. void\n2. solace\n3. husk\n4. torque\n5. axiom\n6. fleece\n7. ether\n8. zenith\n9. blight\n10. quorum"
+            ],
+            [
+                "1. Absence\n2. Quill\n3. Entropy\n4. Serenity\n5. Rust\n6. Fleece\n7. Paradigm\n8. Avalanche\n9. Whisper\n10. Nexus"
+            ],
+            [
+                "*   Abyss\n*   Candle\n*   Enigma\n*   Facade\n*   Kernel\n*   Orbit\n*   Quill\n*   Symphony\n*   Treasure\n*   Zenith"
+            ],
+            [
+                "1. void\n2. zenith\n3. quiver\n4. mosaic\n5. theorem\n6. pigment\n7. solace\n8. effigy\n9. entropy\n10. metaphor"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Sediment\n4. Cipher\n5. Aroma\n6. Anomaly\n7. Quirk\n8. Fleece\n9. Torque\n10. Ember"
+            ],
+            [
+                "1. Quantum\n2. Zenith\n3. Algorithm\n4. Dichotomy\n5. Fleece\n6. Gust\n7. Enigma\n8. Umbra\n9. Filament\n10. Quagmire"
+            ],
+            [
+                "1. Epiphany\n2. Asphalt\n3. Oxygen\n4. Quill\n5. Paradigm\n6. Nebula\n7. Grin\n8. Archipelago\n9. Void\n10. Prism"
+            ],
+            [
+                "*   Abyss\n*   Criterion\n*   Effervescence\n*   Halcyon\n*   Kindred\n*   Labyrinth\n*   Nadir\n*   Omen\n*   Serendipity\n*   Zephyr"
+            ],
+            [
+                "1. Epiphany\n2. Quagmire\n3. Pinnacle\n4. Murmur\n5. Filament\n6. Algorithm\n7. Molecule\n8. Envelope\n9. Sediment\n10. Axiom"
+            ],
+            [
+                "1. Oxygen\n2. Void\n3. Symphony\n4. Dust\n5. Concept\n6. Quirk\n7. Plateau\n8. Glimmer\n9. Burden\n10. Cipher"
+            ]
+        ],
+        "{\"temperature\": 1.625}": [
+            [
+                "1. Void\n2. Zenith\n3. Husk\n4. Epoch\n5. Notion\n6. Quagmire\n7. Labyrinth\n8. Catalyst\n9. Effigy\n10. Enigma"
+            ],
+            [
+                "Here are 10 distinct nouns:\n\n1.  Eternity\n2.  Puddle\n3.  Syntax\n4.  Garlic\n5.  Quill\n6.  Galaxy\n7.  Nostalgia\n8.  Sphinx\n9.  Velocity\n10. Granite"
+            ],
+            [
+                "Here are 10 distinct nouns:\n\n1.  Eternity\n2.  Quill\n3.  Cellar\n4.  Syntax\n5.  Oxygen\n6.  Anvil\n7.  Omen\n8.  Carpet\n9.  Harbor\n10. Enigma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Epoch\n6. Enigma\n7. Notion\n8. Torque\n9. Fauna\n10. Crucible"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Murmur\n5. Paradigm\n6. Umbra\n7. Nodule\n8. Entropy\n9. Cipher\n10. Epoch"
+            ],
+            [
+                "1. Void\n2. Symphony\n3. Quill\n4. Molecule\n5. Epoch\n6. Gristle\n7. Mirage\n8. Zenith\n9. Anomaly\n10. Filament"
+            ],
+            [
+                "*   Void\n*   Zephyr\n*   Epoch\n*   Quagmire\n*   Pinnacle\n*   Goad\n*   Facet\n*   Knot\n*   Bloom\n*   Chasm"
+            ],
+            [
+                "Here are ten nouns as different from each other as possible, as per your instructions:\n\n1.  Eternity\n2.  Quantum\n3.  Sloth\n4.  Abyss\n5.  Nodule\n6.  Effervescence\n7.  Gazebo\n8.  Oblivion\n9.  Calculus\n10. Lavender"
+            ],
+            [
+                "1. Void\n2. Oasis\n3. Theory\n4. Irony\n5. Symphony\n6. Quirk\n7. Kernel\n8. Aegis\n9. Zenith\n10. Hush"
+            ],
+            [
+                "1. Zenith\n2. Void\n3. Germ\n4. Fleece\n5. Torque\n6. Quirk\n7. Sloth\n8. Enigma\n9. Notion\n10. Brim"
+            ],
+            [
+                "Here are 10 nouns as different as possible, as per your requirements:\n\n1.  Ethereality\n2.  Brick\n3.  Justice\n4.  Germ\n5.  Symphony\n6.  Void\n7.  Syntax\n8.  Dust\n9.  Algorithm\n10. Nostalgia"
+            ],
+            [
+                "1. Void\n2. Galaxy\n3. Filament\n4. Irony\n5. Oxygen\n6. Laughter\n7. Zenith\n8. Quill\n9. Granite\n10. Emptiness"
+            ],
+            [
+                "*   Eternity\n*   Grain\n*   Anomaly\n*   Syllable\n*   Ink\n*   Oxygen\n*   Ripple\n*   Circuit\n*   Oblivion\n*   Theorem"
+            ],
+            [
+                "1. Epiphany\n2. Brick\n3. Quagmire\n4. Oxygen\n5. Galaxy\n6. Noodle\n7. Algorithm\n8. Zenith\n9. Rust\n10. Echo"
+            ],
+            [
+                "1.  Eternity\n2.  Pebble\n3.  Synergy\n4.  Quirk\n5.  Abyss\n6.  Zephyr\n7.  Kernel\n8.  Fortitude\n9.  Canvas\n10. Mirage"
+            ],
+            [
+                "1. Void\n2. Axiom\n3. Quagmire\n4. Epiphany\n5. Azure\n6. Dross\n7. Kinship\n8. Labyrinth\n9. Zenith\n10. Vestige"
+            ],
+            [
+                "1. Void\n2. Zeal\n3. Quill\n4. Galaxy\n5. Marmalade\n6. Algorithm\n7. Destiny\n8. Archipelago\n9. Dichotomy\n10. Oxygen"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Quill\n4. Enigma\n5. Meadow\n6. Torque\n7. Notion\n8. Rune\n9. Hearth\n10. Murmur"
+            ],
+            [
+                "1. Void\n2. Kernel\n3. Epiphany\n4. Serenity\n5. Treachery\n6. Vortex\n7. Filament\n8. Quagmire\n9. Zenith\n10. Epoch"
+            ],
+            [
+                "*   Void\n*   Zenith\n*   Kernel\n*   Parasite\n*   Quagmire\n*   Facade\n*   Entropy\n*   Ripple\n*   Epitome\n*   Algorithm"
+            ]
+        ],
+        "{\"temperature\": 1.75}": [
+            [
+                "1.  Eternity\n2.  Puddle\n3.  Garlic\n4.  Momentum\n5.  Tapestry\n6.  Algorithm\n7.  Silence\n8.  Nostalgia\n9.  Quagmire\n10. Pinnacle"
+            ],
+            [
+                "1. Epiphany\n2. Quagmire\n3. Filament\n4. Apex\n5. Notion\n6. Rust\n7. Sigh\n8. Husk\n9. Balm\n10. Void"
+            ],
+            [
+                "*   Abyss\n*   Harmony\n*   Quirk\n*   Trepidation\n*   Oblivion\n*   Radiance\n*   Cargo\n*   Epiphany\n*   Labyrinth\n*   Nadir"
+            ],
+            [
+                "*   Abstraction\n*   Oven\n*   Secretion\n*   Galaxy\n*   Nostalgia\n*   Harbinger\n*   Epiphany\n*   Cobblestone\n*   Lullaby\n*   Algorithm"
+            ],
+            [
+                "1. Void\n2. Quagmire\n3. Pinnacle\n4. Truce\n5. Anomaly\n6. Oblivion\n7. Spectrum\n8. Kinship\n9. Crucible\n10. Reverie"
+            ],
+            [
+                "Here are 10 different words:\n\n1.  Entropy\n2.  Rhythm\n3.  Oxygen\n4.  Kernel\n5.  Fiction\n6.  Poverty\n7.  Ceremony\n8.  Velocity\n9.  Silence\n10. Emerald"
+            ],
+            [
+                "*   Abyss\n*   Zephyr\n*   Quantum\n*   Treacle\n*   Effluvium\n*   Sliver\n*   Epoch\n*   Pinnacle\n*   Anomaly\n*   Cipher"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Grain\n4. Torque\n5. Echo\n6. Murmur\n7. Labyrinth\n8. Ember\n9. Realm\n10. Quagmire"
+            ],
+            [
+                "*   Quagmire\n*   Zephyr\n*   Effervescence\n*   Abyss\n*   Tapestry\n*   Paradox\n*   Nadir\n*   Anomaly\n*   Zenith\n*   Gargoyle"
+            ],
+            [
+                "*   Oblivion\n*   Ostrich\n*   Oxygen\n*   Boulevard\n*   Rhythm\n*   Quartz\n*   Epiphany\n*   Syntax\n*   Algorithm\n*   Quagmire"
+            ],
+            [
+                "1. Void\n2. Jubilee\n3. Brick\n4. Serenity\n5. Paradox\n6. Gale\n7. Molecule\n8. Algorithm\n9. Canvas\n10. Yearning"
+            ],
+            [
+                "1. Void\n2. Anthem\n3. Prism\n4. Sprout\n5. Cipher\n6. Plateau\n7. Quagmire\n8. Nostrum\n9. Zeitgeist\n10. Effigy"
+            ],
+            [
+                "Here are 10 distinct nouns:\n\n1.  Ether\n2.  Brick\n3.  Whimsy\n4.  Parasite\n5.  Abyss\n6.  Constellation\n7.  Thread\n8.  Anvil\n9.  Solitude\n10. Quagmire"
+            ],
+            [
+                "1. void\n2. apex\n3. rust\n4. melody\n5. quartz\n6. theory\n7. ember\n8. axiom\n9. silk\n10. dew"
+            ],
+            [
+                "1. Epiphany\n2. Void\n3. Granite\n4. Zephyr\n5. Enigma\n6. Quill\n7. Quagmire\n8. Serenity\n9. Torque\n10. Phosphor"
+            ],
+            [
+                "Here are 10 distinct nouns, as different as possible:\n\n1.  Void\n2.  Galaxy\n3.  Thimble\n4.  Allegiance\n5.  Osmosis\n6.  Quagmire\n7.  Trepidation\n8.  Kernel\n9.  Fa\u00e7ade\n10. Apathy"
+            ],
+            [
+                "Here are ten disparate nouns, aiming for maximal semantic and conceptual difference:\n\n1.  Vacuum\n2.  Epiphany\n3.  Brick\n4.  Algorithm\n5.  Whimsy\n6.  Oligarchy\n7.  Nebula\n8.  Quagmire\n9.  Kernel\n10. Satiety"
+            ],
+            [
+                "1. Void\n2. Kernel\n3. Effervescence\n4. Granite\n5. Nostalgia\n6. Algorithm\n7. Paradigm\n8. Quagmire\n9. Reverie\n10. Zenith"
+            ],
+            [
+                "1.  Epitome\n2.  Vacuum\n3.  Annihilation\n4.  Quill\n5.  Firmament\n6.  Serenity\n7.  Abstraction\n8.  Cellar\n9.  Onyx\n10. Rust"
+            ],
+            [
+                "*   void\n*   edict\n*   radiance\n*   mire\n*   facet\n*   melody\n*   torque\n*   prism\n*   axiom\n*   cipher"
+            ]
+        ],
+        "{\"temperature\": 1.875}": [
+            [
+                "1. Epiphany\n2. Quagmire\n3. Serenity\n4. Havoc\n5. Pixel\n6. Molecule\n7. Algorithm\n8. Echo\n9. Labyrinth\n10. Vacuum"
+            ],
+            [
+                "Here are 10 very different nouns:\n\n1.  Eternity\n2.  Pustule\n3.  Algorithm\n4.  Garlic\n5.  Quantum\n6.  Oblivion\n7.  Mellifluousness\n8.  Brick\n9.  Synapse\n10. Quagmire"
+            ],
+            [
+                "1.  Entropy\n2.  Radiance\n3.  Chasm\n4.  Algorithm\n5.  Omelet\n6.  Pinnacle\n7.  Melancholy\n8.  Zephyr\n9.  Gargoyle\n10. Fleece"
+            ],
+            [
+                "1. Abyss\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Tempest\n6. Echo\n7. Enigma\n8. Nostalgia\n9. Labyrinth\n10. Ephemeral"
+            ],
+            [
+                "1. Abyss\n2. Zenith\n3. Notion\n4. Garment\n5. Quill\n6. Rust\n7. Enzyme\n8. Algorithm\n9. Echo\n10. Quark"
+            ],
+            [
+                "*   Void\n*   Flourish\n*   Quagmire\n*   Eternity\n*   Pixel\n*   Syntax\n*   Epiphany\n*   Sliver\n*   Garland\n*   Momentum"
+            ],
+            [
+                "1. void\n2. pinnacle\n3. mire\n4. melody\n5. rust\n6. galaxy\n7. quill\n8. amber\n9. notion\n10. algorithm"
+            ],
+            [
+                "Here are 10 nouns as different as possible from one another:\n\n1. Void\n2. Oasis\n3. Algebra\n4. Symphony\n5. Quagmire\n6. Emerald\n7. Courage\n8. Irony\n9. Galaxy\n10. Fraction"
+            ],
+            [
+                "1. Abyss\n2. Kernel\n3. Zenith\n4. Smog\n5. Algorithm\n6. Filament\n7. Quandary\n8. Serenity\n9. Molecule\n10. Phenomenon"
+            ],
+            [
+                "Here are 10 distinct nouns:\n\n1.  Ether\n2.  Wrath\n3.  Pebble\n4.  Quill\n5.  Doubt\n6.  Aroma\n7.  Apex\n8.  Omen\n9.  Algorithm\n10. Sapphire"
+            ],
+            [
+                "1. Abyss\n2. Zenith\n3. Molecule\n4. Echo\n5. Canvas\n6. Theorem\n7. Serenity\n8. Granite\n9. Riddle\n10. Tempest"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Dew\n5. Enigma\n6. Fleece\n7. Rhythm\n8. Kernel\n9. Umbra\n10. Torque"
+            ],
+            [
+                "Here are 10 words as different from each other as possible:\n\n1.  Epiphany\n2.  Gravel\n3.  Nebula\n4.  Quagmire\n5.  Haven\n6.  Ozone\n7.  Tempo\n8.  Calamity\n9.  Pylon\n10. Cipher"
+            ],
+            [
+                "1. Abyss\n2. Filament\n3. Oxygen\n4. Paradox\n5. Rhythm\n6. Sculpture\n7. Velvet\n8. Whisper\n9. Granite\n10. Notion"
+            ],
+            [
+                "1. Void\n2. Keystone\n3. Aroma\n4. Enigma\n5. Quagmire\n6. Zenith\n7. Filament\n8. Dirge\n9. Epiphany\n10. Crucible"
+            ],
+            [
+                "1. Oxygen\n2. Galaxy\n3. Symphony\n4. Virtue\n5. Algorithm\n6. Quill\n7. Molecule\n8. Plateau\n9. Nightmare\n10. Hypothesis"
+            ],
+            [
+                "*   Eternity\n*   Grain\n*   Theory\n*   Oblivion\n*   Equation\n*   Whim\n*   Canvas\n*   Doubt\n*   Syntax\n*   Quill"
+            ],
+            [
+                "Here are 10 words as different from each other as I can conceive within the stated rules:\n\n1.  Eternity\n2.  Puddle\n3.  Equation\n4.  Garlic\n5.  Rhythm\n6.  Cellar\n7.  Thimble\n8.  Chaos\n9.  Whisper\n10. Sapphire"
+            ],
+            [
+                "*   Eternity\n*   Speck\n*   Quirk\n*   Facade\n*   Synthesis\n*   Nexus\n*   Vortex\n*   Discord\n*   Zenith\n*   Void"
+            ],
+            [
+                "1. Zenith\n2. Abyss\n3. Breadth\n4. Enigma\n5. Rust\n6. Whisper\n7. Kernel\n8. Torque\n9. Fleece\n10. Quagmire"
+            ]
+        ],
+        "{\"temperature\": 2}": [
+            [
+                "1. Void\n2. Anthem\n3. Filament\n4. Molecule\n5. Pinnacle\n6. Quill\n7. Phenomenon\n8. Enigma\n9. Burden\n10. Ember"
+            ],
+            [
+                "1. Void\n2. Zeal\n3. Kernel\n4. Epoch\n5. Flotsam\n6. Serenity\n7. Predicament\n8. Quill\n9. Oblivion\n10. Labyrinth"
+            ],
+            [
+                "1. Void\n2. Crescendo\n3. Ephemeral\n4. Galvanization\n5. Lexicon\n6. Zenith\n7. Reverie\n8. Umbra\n9. Dichotomy\n10. Oblivion"
+            ],
+            [
+                "*   Oblivion\n*   Harmonica\n*   Equation\n*   Jubilee\n*   Nodule\n*   Quicksilver\n*   Avalanche\n*   Sundial\n*   Labyrinth\n*   Zephyr"
+            ],
+            [
+                "*   Oblivion\n*   Symphony\n*   Quantum\n*   Quill\n*   Serenity\n*   Brick\n*   Alchemy\n*   Tundra\n*   Goliath\n*   Pixel"
+            ],
+            [
+                "1. Abyss\n2. Notion\n3. Oxygen\n4. Emerald\n5. Cottage\n6. Theorem\n7. Quicksilver\n8. Silence\n9. Zenith\n10. Husk"
+            ],
+            [
+                "1. Absence\n2. Apex\n3. Cipher\n4. Realm\n5. Entropy\n6. Kernel\n7. Epoch\n8. Viscosity\n9. Hue\n10. Tenet"
+            ],
+            [
+                "*   Abyss\n*   Epiphany\n*   Pinnacle\n*   Quagmire\n*   Aroma\n*   Sphinx\n*   Vestige\n*   Harbinger\n*   Axiom\n*   Ethereal"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Hue\n5. Epoch\n6. Kinship\n7. Enigma\n8. Breadth\n9. Quill\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Kernel\n3. Aroma\n4. Theorem\n5. Quagmire\n6. Pinnacle\n7. Notion\n8. Spectrum\n9. Filament\n10. Burden"
+            ],
+            [
+                "*   Void\n*   Synergy\n*   Anomaly\n*   Brick\n*   Nodule\n*   Quirk\n*   Epoch\n*   Pylon\n*   Garnish\n*   Chasm"
+            ],
+            [
+                "1. Void\n2. Harmony\n3. Gale\n4. Filament\n5. Quartz\n6. Axiom\n7. Whimsy\n8. Rust\n9. Zenith\n10. Kin"
+            ],
+            [
+                "1. Void\n2. Apex\n3. Cellar\n4. Zephyr\n5. Concept\n6. Quartz\n7. Burden\n8. Theory\n9. Meadow\n10. Paradigm"
+            ],
+            [
+                "Here are 10 nouns, as different from each other as possible:\n\n1.  Entropy\n2.  Candle\n3.  Mountain\n4.  Rhythm\n5.  Pixel\n6.  Algorithm\n7.  Silence\n8.  Umbrella\n9.  Quill\n10. Meadow"
+            ],
+            [
+                "1. void\n2. melody\n3. concept\n4. reef\n5. silk\n6. ore\n7. truce\n8. pyramid\n9. enzyme\n10. spark"
+            ],
+            [
+                "*   Justice\n*   Pencil\n*   Oxygen\n*   Ocean\n*   Building\n*   Dream\n*   Algorithm\n*   Granite\n*   Microbe\n*   Silence"
+            ],
+            [
+                "1. Oxygen\n2. Quill\n3. Algorithm\n4. Zenith\n5. Enigma\n6. Void\n7. Amber\n8. Truce\n9. Sherbet\n10. Axiom"
+            ],
+            [
+                "Here are 10 distinct nouns:\n\n1.  Eternity\n2.  Puddle\n3.  Paradox\n4.  Nostalgia\n5.  Chasm\n6.  Recipe\n7.  Synergy\n8.  Oblivion\n9.  Zephyr\n10. Apathy"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Fleece\n5. Murmur\n6. Torque\n7. Notion\n8. Scar\n9. Rhythm\n10. Ember"
+            ],
+            [
+                "1. Epiphany\n2. Granite\n3. Filament\n4. Orchestra\n5. Meadow\n6. Torque\n7. Notion\n8. Pixel\n9. Quagmire\n10. Serenity"
+            ]
+        ]
+    }
+}

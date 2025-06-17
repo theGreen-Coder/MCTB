@@ -35,13 +35,17 @@ class DivergentAssociationTest():
                 f"Rules: Only single words in English. Only nouns (e.g., things, objects, concepts). No proper nouns (e.g., no specific people or places). "
                 f"No specialized vocabulary (e.g., no technical terms). Think of the words on your own (e.g., do not just look at objects in your surroundings). "
                 f"Make a list of these {str(self.n_words)} words, a single word in each entry of the list. Do not write anything else but the {str(self.n_words)} words." + " " + self.addition_specs), # 1st prompt
+
                 (f"Please enter {str(self.n_words)} English nouns that are as different as possible in meaning and use — no proper nouns, "
                 f"no technical terms, only single common nouns you think of yourself. List exactly {str(self.n_words)}, one word per entry, and nothing else." + " " + self.addition_specs), # 2nd prompt
+
                 (f"List {str(self.n_words)} common, single-word English nouns that are maximally different from one another. "
                 f"Do not use proper nouns, technical terms, or words for objects in your immediate surroundings. Output only the {str(self.n_words)} words in a list." + " " + self.addition_specs), # 3rd prompt
+
                 (f"Enter {str(self.n_words)} English nouns that are as different from each other as possible in meaning and usage. "
                 f"Rules: Each word must be a single noun (no proper nouns, technical terms, or multi-word phrases). Choose words independently, without relying on nearby objects. "
                 f"List them with one word per entry, without any additional text." + " " + self.addition_specs), # 4th prompt
+
                 (f"List {str(self.n_words)} distinct common English nouns (things, objects, concepts). Rules: Single words only. "
                 f"No proper nouns, technical terms, or words from your surroundings. Output only the list." + " " + self.addition_specs) # 5th prompt
             ]
