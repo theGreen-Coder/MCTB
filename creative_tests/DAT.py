@@ -55,17 +55,34 @@ class DivergentAssociationTest():
         return "DAT_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs_"+str(self.n_words)+"words_"+str(self.creation_time)
     
     def clean_response(self, response):
-        splitter = RecursiveCharacterTextSplitter(
-            chunk_size=0,
-            chunk_overlap=0,
-            separators=["\n", " "],
-            keep_separator=False,
-        )
+        def keep_letters(text: str) -> str:
+            return ''.join(ch for ch in text if ch.isalpha() or ch == ' ')
+        
+        return_words = []
+        new_line_words = response.split("\n")
 
-        words = splitter.split_text(response)
-        clean_words = [w for w in words if w.isalpha()]
+        if len(new_line_words) >= 7:
+            for word in new_line_words:
+                if word != "" and len(word) <= 15:
+                    clean_word = keep_letters(word)
 
-        return clean_words
+                    if len(clean_word.split()) <= 1:
+                        return_words.append(clean_word.strip())
+            return return_words
+        
+        return_words = []
+        comma_separated_words = response.split(",")
+
+        if len(comma_separated_words) >= 7:
+            for word in comma_separated_words:
+                if word != "" and len(word) <= 15:
+                    clean_word = keep_letters(word)
+
+                    if len(clean_word.split()) <= 1:
+                        return_words.append(clean_word.strip())
+            return return_words
+
+        return None
 
     """
         Process:
@@ -106,7 +123,9 @@ class DivergentAssociationTest():
                 for config, repeats in configs.items():
                     for idx, repeat in enumerate(repeats):
                         response = repeat[0]
-                        llm_response_clean[model][config][idx] = self.clean_response(response=response)
+
+                        clean_response = self.clean_response(response=response)
+                        llm_response_clean[model][config][idx] = clean_response if clean_response else ""
             
             # Export cleaned responses results
             with open(f"responses/{str(self)}_clean.json", "w") as json_file:
