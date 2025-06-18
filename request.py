@@ -49,6 +49,7 @@ class Request():
         self.configs = [configs] if isinstance(configs, dict) else list(configs)
         self.repeats = max(repeats, 1)
         self.delay = max(delay, 0.0)
+        self._prompt_idx = -1
 
         print(f"Number of API calls: {len(self.models)*len(self.configs)*self.repeats}")
         print(f"Estimated Time: {(len(self.models)*len(self.configs)*self.repeats*(0.5+self.delay))/60.0} minutes" )
@@ -60,13 +61,14 @@ class Request():
         return self.models
     
     def get_prompt(self):
-        if type(self.prompt) == str:
+        if isinstance(self.prompt, str):
             return self.prompt
-        else:
-            selected_prompt = random.choice(self.prompt)
-            print(f"Selected Prompt: {selected_prompt}")
-            print()
-            return selected_prompt
+
+        if not self.prompt:
+            raise ValueError("No prompts provided.")
+
+        self._prompt_idx = (self._prompt_idx + 1) % len(self.prompt)
+        return self.prompt[self._prompt_idx]
     
     def __iter__(self):
         for model in self.models:
