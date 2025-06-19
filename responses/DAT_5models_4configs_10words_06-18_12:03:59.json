@@ -1,0 +1,3050 @@
+{
+    "gemini-2.0-flash-lite": {
+        "{\"temperature\": 0.5}": [
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Mountain\n7.  Idea\n8.  Mirror\n9.  Triumph\n10. Blanket"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Mountain\n7.  Idea\n8.  Mirror\n9.  Journey\n10. Currency"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Mountain\n6.  Idea\n7.  Feather\n8.  Echo\n9.  Journey\n10. Mirror"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Monument\n8.  Whisper\n9.  Diamond\n10. Journey"
+            ],
+            [
+                "1.  Shadow\n2.  Algorithm\n3.  Feather\n4.  Justice\n5.  Universe\n6.  Button\n7.  Silence\n8.  Mountain\n9.  Melody\n10. Mirror"
+            ],
+            [
+                "1.  Shadow\n2.  Harmony\n3.  Brick\n4.  Whisper\n5.  Galaxy\n6.  Patience\n7.  Feather\n8.  Algorithm\n9.  Cacophony\n10. Compass"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Courage\n8.  Library\n9.  Mirror\n10. Symphony"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Courage\n8.  Mirror\n9.  Cactus\n10. Symphony"
+            ],
+            [
+                "1.  Shadow\n2.  Galaxy\n3.  Button\n4.  Silence\n5.  Feather\n6.  Mountain\n7.  Mirror\n8.  Idea\n9.  Market\n10. Joy"
+            ],
+            [
+                "1.  Shadow\n2.  Algorithm\n3.  Feather\n4.  Justice\n5.  Diamond\n6.  Silence\n7.  Universe\n8.  Laughter\n9.  Brick\n10. Echo"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Monument\n8.  Glee\n9.  Puddle\n10. Compass"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Melody\n5.  Mountain\n6.  Justice\n7.  Feather\n8.  Silence\n9.  Diamond\n10. Chaos"
+            ],
+            [
+                "1.  Shadow\n2.  Harmony\n3.  Brick\n4.  Galaxy\n5.  Whisper\n6.  Justice\n7.  Button\n8.  Silence\n9.  Mountain\n10. Theory"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Justice\n7.  Mirror\n8.  Mountain\n9.  Hope\n10. Rhythm"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Silence\n4.  Universe\n5.  Feather\n6.  Judgment\n7.  Mirror\n8.  Hope\n9.  Mountain\n10. Symphony"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Monument\n8.  Glee\n9.  Dust\n10. Paradox"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Mountain\n7.  Idea\n8.  Mirror\n9.  Journey\n10. Alphabet"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Mountain\n7.  Idea\n8.  Mirror\n9.  Journey\n10. Truth"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Silence\n4.  Feather\n5.  Mountain\n6.  Idea\n7.  Mirror\n8.  Journey\n9.  Whisper\n10. Galaxy"
+            ],
+            [
+                "1.  Dust\n2.  Galaxy\n3.  Silence\n4.  Button\n5.  Justice\n6.  Mountain\n7.  Echo\n8.  Feather\n9.  Theory\n10. Riddle"
+            ],
+            [
+                "1.  Shadow\n2.  Algorithm\n3.  Feather\n4.  Justice\n5.  Universe\n6.  Button\n7.  Silence\n8.  Mountain\n9.  Paradox\n10. Echo"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Joy\n5.  Mountain\n6.  Silence\n7.  Mirror\n8.  Idea\n9.  Market\n10. Feather"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Silence\n4.  Feather\n5.  Mountain\n6.  Algorithm\n7.  Hope\n8.  Mirror\n9.  Universe\n10. Question"
+            ],
+            [
+                "1.  Shadow\n2.  Galaxy\n3.  Button\n4.  Silence\n5.  Feather\n6.  Monument\n7.  Laughter\n8.  Algorithm\n9.  Mirror\n10. Justice"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Mountain\n8.  Memory\n9.  Mirror\n10. Journey"
+            ],
+            [
+                "1.  Shadow\n2.  Galaxy\n3.  Button\n4.  Justice\n5.  Silence\n6.  Feather\n7.  Mountain\n8.  Idea\n9.  Mirror\n10. Symphony"
+            ],
+            [
+                "1.  Shadow\n2.  Harmony\n3.  Brick\n4.  Galaxy\n5.  Whisper\n6.  Justice\n7.  Button\n8.  Silence\n9.  Feather\n10. Mountain"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Silence\n4.  Galaxy\n5.  Feather\n6.  Courage\n7.  Mirror\n8.  Algorithm\n9.  Oasis\n10. Symphony"
+            ],
+            [
+                "1.  Shadow\n2.  Algorithm\n3.  Feather\n4.  Universe\n5.  Silence\n6.  Button\n7.  Compassion\n8.  Mountain\n9.  Echo\n10. Agreement"
+            ],
+            [
+                "1.  Shadow\n2.  Galaxy\n3.  Button\n4.  Silence\n5.  Feather\n6.  Monument\n7.  Hope\n8.  Mirror\n9.  Forest\n10. Symphony"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Mountain\n8.  Hope\n9.  Mirror\n10. Symphony"
+            ],
+            [
+                "1.  Shadow\n2.  Planet\n3.  Silence\n4.  Feather\n5.  Algorithm\n6.  Monument\n7.  Whisper\n8.  Horizon\n9.  Compassion\n10. Echo"
+            ],
+            [
+                "1.  Diamond\n2.  Silence\n3.  Galaxy\n4.  Button\n5.  Justice\n6.  Shadow\n7.  Feather\n8.  Algorithm\n9.  Laughter\n10. Horizon"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Silence\n4.  Feather\n5.  Algorithm\n6.  Mountain\n7.  Courage\n8.  Mirror\n9.  Galaxy\n10. Question"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Silence\n4.  Feather\n5.  Mountain\n6.  Regret\n7.  Clock\n8.  Galaxy\n9.  Laughter\n10. Bridge"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Mountain\n8.  Whisper\n9.  Mirror\n10. Freedom"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Melody\n5.  Poverty\n6.  Mirror\n7.  Courage\n8.  Dust\n9.  Feast\n10. Riddle"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Mountain\n7.  Idea\n8.  Mirror\n9.  Journey\n10. Crowd"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Silence\n4.  Feather\n5.  Revolution\n6.  Cactus\n7.  Glee\n8.  Galaxy\n9.  Mirror\n10. Doubt"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Monument\n8.  Laughter\n9.  Mirror\n10. Freedom"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Mountain\n6.  Feather\n7.  Idea\n8.  Diamond\n9.  Laughter\n10. Mirror"
+            ],
+            [
+                "1.  Shadow\n2.  Galaxy\n3.  Button\n4.  Silence\n5.  Feather\n6.  Justice\n7.  Mountain\n8.  Whisper\n9.  Diamond\n10. Journey"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Mountain\n6.  Feather\n7.  Justice\n8.  Mirror\n9.  Rhythm\n10. Soup"
+            ],
+            [
+                "1.  Stone\n2.  Idea\n3.  Shadow\n4.  Feast\n5.  Whisper\n6.  Mountain\n7.  Hope\n8.  Mirror\n9.  Silence\n10. Journey"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Monument\n8.  Doubt\n9.  Harmony\n10. Mirror"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Mountain\n8.  Compassion\n9.  Diamond\n10. Echo"
+            ],
+            [
+                "1.  Shadow\n2.  Symphony\n3.  Brick\n4.  Justice\n5.  Pebble\n6.  Galaxy\n7.  Whisper\n8.  Feather\n9.  Algorithm\n10. Paradox"
+            ],
+            [
+                "1.  Shadow\n2.  Harmony\n3.  Brick\n4.  Galaxy\n5.  Laughter\n6.  Patience\n7.  Button\n8.  Doubt\n9.  Forest\n10. Echo"
+            ],
+            [
+                "1.  Shadow\n2.  Algorithm\n3.  Feather\n4.  Justice\n5.  Diamond\n6.  Whisper\n7.  Universe\n8.  Button\n9.  Melody\n10. Glacier"
+            ],
+            [
+                "1.  Shadow\n2.  Algorithm\n3.  Silence\n4.  Diamond\n5.  Galaxy\n6.  Justice\n7.  Feather\n8.  Rhythm\n9.  Horizon\n10. Paradox"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "1.  Dust\n2.  Galaxy\n3.  Silence\n4.  Mirror\n5.  Courage\n6.  Feather\n7.  Algorithm\n8.  Horizon\n9.  Laughter\n10. Pyramid"
+            ],
+            [
+                "1.  Dust\n2.  Joy\n3.  Shadow\n4.  Circle\n5.  Revolution\n6.  Silence\n7.  Diamond\n8.  Horizon\n9.  Whisper\n10. Fortress"
+            ],
+            [
+                "1.  Sun\n2.  Shadow\n3.  Whisper\n4.  Diamond\n5.  Chaos\n6.  Bridge\n7.  Regret\n8.  Galaxy\n9.  Button\n10. Horizon"
+            ],
+            [
+                "1.  Dust\n2.  Galaxy\n3.  Silence\n4.  Feather\n5.  Revolution\n6.  Mirror\n7.  Hope\n8.  Carpet\n9.  Tears\n10. Algorithm"
+            ],
+            [
+                "1.  Hope\n2.  Brick\n3.  Shadow\n4.  Theorem\n5.  Melody\n6.  Dust\n7.  Empire\n8.  Mirror\n9.  Grief\n10. Quantum"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Regret\n4.  Library\n5.  Gravity\n6.  Feather\n7.  Theory\n8.  Market\n9.  Silence\n10. Galaxy"
+            ],
+            [
+                "1.  Dust\n2.  Galaxy\n3.  Shadow\n4.  Melody\n5.  Triangle\n6.  Courage\n7.  Mirror\n8.  Market\n9.  Hope\n10. Volume"
+            ],
+            [
+                "1.  Sun\n2.  Whisper\n3.  Mountain\n4.  Ink\n5.  Liberty\n6.  Mirror\n7.  Harvest\n8.  Rhythm\n9.  Gloom\n10. Puzzle"
+            ],
+            [
+                "1.  Stone\n2.  Melody\n3.  Shadow\n4.  Liberty\n5.  Mirror\n6.  Season\n7.  Whisper\n8.  Horizon\n9.  Doubt\n10. Fabric"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Feather\n4.  Silence\n5.  Monument\n6.  Algorithm\n7.  Journey\n8.  Mirror\n9.  Hope\n10. Knot"
+            ],
+            [
+                "Here's the list of 10 diverse nouns:\n\n1.  Hope\n2.  Stone\n3.  Mirror\n4.  Feast\n5.  Shadow\n6.  Forest\n7.  Algorithm\n8.  Music\n9.  Doubt\n10. Fabric"
+            ],
+            [
+                "1.  Stone\n2.  Hope\n3.  Mirror\n4.  Forest\n5.  Silence\n6.  Music\n7.  Button\n8.  Planet\n9.  Freedom\n10. Question"
+            ],
+            [
+                "1.  Chair\n2.  Horizon\n3.  Dust\n4.  Algorithm\n5.  Silence\n6.  Revolution\n7.  Feather\n8.  Theory\n9.  Mirror\n10. Joy"
+            ],
+            [
+                "1.  Diamond\n2.  Silence\n3.  Revolution\n4.  Feather\n5.  Mountain\n6.  Idea\n7.  Mirror\n8.  Jubilee\n9.  Shadow\n10. Clock"
+            ],
+            [
+                "1.  Echo\n2.  Universe\n3.  Button\n4.  Anxiety\n5.  Spoon\n6.  Mirage\n7.  Justice\n8.  Dust\n9.  Diamond\n10. Dream"
+            ],
+            [
+                "1.  Hope\n2.  Brick\n3.  Silence\n4.  Planet\n5.  Feather\n6.  Revolution\n7.  Shadow\n8.  Whisper\n9.  Diamond\n10. Symphony"
+            ],
+            [
+                "1.  Shadow\n2.  Glee\n3.  Spoon\n4.  Wisdom\n5.  Mountain\n6.  Rhythm\n7.  Puddle\n8.  Justice\n9.  Fabric\n10. Doubt"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Mountain\n6.  Hope\n7.  Mirror\n8.  Chaos\n9.  Feather\n10. Banquet"
+            ],
+            [
+                "1.  Echo\n2.  Horizon\n3.  Dust\n4.  Symphony\n5.  Mirror\n6.  Glacier\n7.  Courage\n8.  Tapestry\n9.  Chaos\n10. Whisper"
+            ],
+            [
+                "1.  Diamond\n2.  Silence\n3.  Galaxy\n4.  Laughter\n5.  Tomb\n6.  Spoon\n7.  Chaos\n8.  Mountain\n9.  Freedom\n10. Shadow"
+            ],
+            [
+                "1.  Shadow\n2.  Galaxy\n3.  Button\n4.  Justice\n5.  Feather\n6.  Silence\n7.  Mountain\n8.  Idea\n9.  Clarity\n10. Rhythm"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Silence\n4.  Festival\n5.  Dust\n6.  Horizon\n7.  Gravity\n8.  Whisper\n9.  Tapestry\n10. Ocean"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Triumph\n5.  Silence\n6.  Feather\n7.  Algorithm\n8.  Revolution\n9.  Diamond\n10. Mystery"
+            ],
+            [
+                "1.  Sun\n2.  Hope\n3.  Rock\n4.  Dust\n5.  Echo\n6.  Feather\n7.  Theory\n8.  Circle\n9.  Silence\n10. Bridge"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Justice\n5.  Mountain\n6.  Silence\n7.  Feather\n8.  Algorithm\n9.  Celebration\n10. Mirror"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Freedom\n4.  Pencil\n5.  Universe\n6.  Laughter\n7.  Silence\n8.  Mountain\n9.  Memory\n10. Question"
+            ],
+            [
+                "1.  Door\n2.  Hope\n3.  Dust\n4.  Galaxy\n5.  Rhythm\n6.  Shadow\n7.  Patience\n8.  Feather\n9.  Echo\n10. Mountain"
+            ],
+            [
+                "1.  Shadow\n2.  Silence\n3.  Universe\n4.  Button\n5.  Justice\n6.  Feather\n7.  Algorithm\n8.  Canyon\n9.  Hope\n10. Echo"
+            ],
+            [
+                "1.  Dust\n2.  Universe\n3.  Silence\n4.  Feather\n5.  Mountain\n6.  Decision\n7.  Mirror\n8.  Celebration\n9.  Shadow\n10. Rhythm"
+            ],
+            [
+                "*   Sun\n*   Anxiety\n*   Brick\n*   Justice\n*   Echo\n*   Forest\n*   Algorithm\n*   Feather\n*   Idea\n*   Rhythm"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Mountain\n7.  Algorithm\n8.  Laughter\n9.  Mirror\n10. Destiny"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Harmony\n5.  Dust\n6.  Monument\n7.  Echo\n8.  Wealth\n9.  Thread\n10. Puzzle"
+            ],
+            [
+                "1.  Shadow\n2.  Galaxy\n3.  Button\n4.  Silence\n5.  Festival\n6.  Wisdom\n7.  Mirror\n8.  Anchor\n9.  Dream\n10. Horizon"
+            ],
+            [
+                "1.  Hope\n2.  Stone\n3.  Galaxy\n4.  Mirror\n5.  Silence\n6.  Feather\n7.  Courage\n8.  Market\n9.  Algorithm\n10. Laughter"
+            ],
+            [
+                "1.  Stone\n2.  Idea\n3.  Silence\n4.  Feather\n5.  Universe\n6.  Laughter\n7.  Mirror\n8.  Hope\n9.  Shadow\n10. Journey"
+            ],
+            [
+                "1.  Shadow\n2.  Justice\n3.  Needle\n4.  Galaxy\n5.  Silence\n6.  Rope\n7.  Feather\n8.  Concept\n9.  Mirror\n10. Banquet"
+            ],
+            [
+                "1.  Shadow\n2.  Triumph\n3.  Dust\n4.  Melody\n5.  Horizon\n6.  Weight\n7.  Whisper\n8.  Fabric\n9.  Idea\n10. Mirror"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Triangle\n6.  Courage\n7.  Market\n8.  Feather\n9.  Echo\n10. Destiny"
+            ],
+            [
+                "1.  Shadow\n2.  Algorithm\n3.  Whisper\n4.  Galaxy\n5.  Button\n6.  Justice\n7.  Feather\n8.  Mirror\n9.  Courage\n10. Symphony"
+            ],
+            [
+                "1.  Stone\n2.  Melody\n3.  Dust\n4.  Freedom\n5.  Mirror\n6.  Shadow\n7.  Feast\n8.  Planet\n9.  Whisper\n10. Triangle"
+            ],
+            [
+                "1.  Shadow\n2.  Infinity\n3.  Feather\n4.  Triumph\n5.  Silence\n6.  Clock\n7.  Sand\n8.  Doubt\n9.  Galaxy\n10. Bridge"
+            ],
+            [
+                "1.  Shadow\n2.  Button\n3.  Silence\n4.  Galaxy\n5.  Pillow\n6.  Victory\n7.  Mountain\n8.  Feather\n9.  Clarity\n10. Journey"
+            ],
+            [
+                "1.  Sun\n2.  Dust\n3.  Hope\n4.  Mirror\n5.  Silence\n6.  Feather\n7.  Mountain\n8.  Tear\n9.  Revolution\n10. Table"
+            ],
+            [
+                "1.  Shadow\n2.  Galaxy\n3.  Button\n4.  Silence\n5.  Mountain\n6.  Feather\n7.  Justice\n8.  Pebble\n9.  Laughter\n10. Mirror"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Justice\n5.  Mountain\n6.  Silence\n7.  Feather\n8.  Idea\n9.  Circle\n10. Mirror"
+            ],
+            [
+                "1.  Shadow\n2.  Eternity\n3.  Button\n4.  Planet\n5.  Symphony\n6.  Doubt\n7.  Diamond\n8.  Velocity\n9.  Jungle\n10. Silence"
+            ],
+            [
+                "1.  Shadow\n2.  Infinity\n3.  Button\n4.  Harmony\n5.  Cactus\n6.  Gossip\n7.  Telescope\n8.  Regret\n9.  Feather\n10. Diamond"
+            ],
+            [
+                "1.  Shadow\n2.  Triumph\n3.  Dust\n4.  Galaxy\n5.  Silence\n6.  Mirror\n7.  Revolution\n8.  Feather\n9.  Hope\n10. Cipher"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Silence\n4.  Gravity\n5.  Feather\n6.  Revolution\n7.  Compass\n8.  Poverty\n9.  Galaxy\n10. Laughter"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Silence\n5.  Feather\n6.  Algorithm\n7.  Triumph\n8.  Mirror\n9.  Justice\n10. Aroma"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "1.  Hope\n2.  Stone\n3.  Galaxy\n4.  Silence\n5.  Mirror\n6.  Feather\n7.  Justice\n8.  Tornado\n9.  Library\n10. Rhythm"
+            ],
+            [
+                "1.  Dust\n2.  Universe\n3.  Mirror\n4.  Algorithm\n5.  Silence\n6.  Fountain\n7.  Horizon\n8.  Justice\n9.  Cylinder\n10. Whisper"
+            ],
+            [
+                "1.  Dust\n2.  Edict\n3.  Harmony\n4.  Cipher\n5.  Tundra\n6.  Riddle\n7.  Diamond\n8.  Glitch\n9.  Compassion\n10. Horizon"
+            ],
+            [
+                "1.  Cloud\n2.  Justice\n3.  Brick\n4.  Melody\n5.  Dust\n6.  Horizon\n7.  Whisper\n8.  Freedom\n9.  Diamond\n10. Secret"
+            ],
+            [
+                "1.  Echo\n2.  Galaxy\n3.  Button\n4.  Freedom\n5.  Sand\n6.  Whisper\n7.  Mirror\n8.  Idea\n9.  Tension\n10. Forest"
+            ],
+            [
+                "1.  Cloud\n2.  Doubt\n3.  Mirror\n4.  Hymn\n5.  Sand\n6.  Triumph\n7.  Anchor\n8.  Silence\n9.  Market\n10. Ghost"
+            ],
+            [
+                "1.  Tree\n2.  Joy\n3.  Diamond\n4.  Silence\n5.  Door\n6.  Galaxy\n7.  Error\n8.  Mirror\n9.  Weight\n10. Shadow"
+            ],
+            [
+                "1.  Shadow\n2.  Mountain\n3.  Truth\n4.  Clock\n5.  Laughter\n6.  Dust\n7.  Revolution\n8.  Whisper\n9.  Circle\n10. Ocean"
+            ],
+            [
+                "1.  Dust\n2.  Universe\n3.  Hope\n4.  Stone\n5.  Laughter\n6.  Shadow\n7.  Theorem\n8.  Echo\n9.  Feather\n10. Silence"
+            ],
+            [
+                "1.  Dust\n2.  Mountain\n3.  Idea\n4.  Silence\n5.  Clock\n6.  Justice\n7.  Shadow\n8.  Feather\n9.  City\n10. Symphony"
+            ],
+            [
+                "1.  Echo\n2.  Dust\n3.  Theory\n4.  Joy\n5.  Weapon\n6.  Calendar\n7.  Ocean\n8.  Sorrow\n9.  Mirror\n10. Gravity"
+            ],
+            [
+                "1.  Stone\n2.  Whisper\n3.  Galaxy\n4.  Button\n5.  Justice\n6.  Feather\n7.  Mirror\n8.  Symphony\n9.  Tornado\n10. Doubt"
+            ],
+            [
+                "1.  Shadow\n2.  Melody\n3.  Boulder\n4.  Justice\n5.  Whisper\n6.  Universe\n7.  Spoon\n8.  Silence\n9.  Laughter\n10. Calendar"
+            ],
+            [
+                "1.  Clock\n2.  Philosophy\n3.  Canyon\n4.  Dust\n5.  Melody\n6.  Government\n7.  Button\n8.  Infinity\n9.  Forest\n10. Gossip"
+            ],
+            [
+                "1.  Rock\n2.  Echo\n3.  Gloom\n4.  Feast\n5.  Thread\n6.  Century\n7.  Moment\n8.  Shadow\n9.  Galaxy\n10. Virtue"
+            ],
+            [
+                "1.  Dust\n2.  Harmony\n3.  Castle\n4.  Regret\n5.  Laughter\n6.  Window\n7.  Shadow\n8.  Diamond\n9.  Journey\n10. Mystery"
+            ],
+            [
+                "1.  Shadow\n2.  Mountain\n3.  Hope\n4.  Dust\n5.  Music\n6.  Circle\n7.  Rage\n8.  Mirror\n9.  Theory\n10. Journey"
+            ],
+            [
+                "1.  Rock\n2.  Joy\n3.  Shadow\n4.  Algorithm\n5.  Universe\n6.  Poverty\n7.  Melody\n8.  Whisper\n9.  Mirror\n10. Chaos"
+            ],
+            [
+                "1.  Tree\n2.  Idea\n3.  Dust\n4.  Joy\n5.  Stone\n6.  Echo\n7.  Shadow\n8.  Century\n9.  Button\n10. Truth"
+            ],
+            [
+                "1.  Sun\n2.  Dust\n3.  Silence\n4.  Book\n5.  Wave\n6.  Idea\n7.  Brick\n8.  Joy\n9.  Shadow\n10. Forest"
+            ],
+            [
+                "1.  Silence\n2.  Telescope\n3.  Revolution\n4.  Feather\n5.  Mountain\n6.  Mirror\n7.  Happiness\n8.  Labyrinth\n9.  Brick\n10. Opportunity"
+            ],
+            [
+                "1.  Dust\n2.  Galaxy\n3.  Silence\n4.  Mirror\n5.  Triumph\n6.  Cactus\n7.  Melody\n8.  Debt\n9.  Hope\n10. Wheel"
+            ],
+            [
+                "1.  Door\n2.  Echo\n3.  Doubt\n4.  Mountain\n5.  Poem\n6.  Laughter\n7.  Dust\n8.  Galaxy\n9.  Regret\n10. Shadow"
+            ],
+            [
+                "1.  Clock\n2.  Cloud\n3.  Courage\n4.  Dust\n5.  Glee\n6.  Mountain\n7.  Rhythm\n8.  Shadow\n9.  Tomb\n10. Whisper"
+            ],
+            [
+                "1.  Diamond\n2.  Echo\n3.  Grief\n4.  Ladder\n5.  Horizon\n6.  Feather\n7.  Rhythm\n8.  Monument\n9.  Tornado\n10. Secret"
+            ],
+            [
+                "1.  Dust\n2.  Harmony\n3.  Window\n4.  Doubt\n5.  Cactus\n6.  Revolution\n7.  Spoon\n8.  Galaxy\n9.  Silence\n10. Victory"
+            ],
+            [
+                "1.  Sky\n2.  Dust\n3.  Whisper\n4.  Irony\n5.  Spoon\n6.  Hope\n7.  Mountain\n8.  Echo\n9.  Shadow\n10. Freedom"
+            ],
+            [
+                "*   Dust\n*   Infinity\n*   Feather\n*   Algorithm\n*   Whisper\n*   Bridge\n*   Theory\n*   Glee\n*   Canvas\n*   Irony"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Harmony\n4.  Dust\n5.  Revolution\n6.  Spoon\n7.  Hope\n8.  Ocean\n9.  Silence\n10. Century"
+            ],
+            [
+                "1.  Door\n2.  Idea\n3.  Dust\n4.  Universe\n5.  Mirror\n6.  Courage\n7.  Shadow\n8.  Symphony\n9.  Triangle\n10. Hope"
+            ],
+            [
+                "1.  Sky\n2.  Dust\n3.  Joy\n4.  Stone\n5.  Echo\n6.  Crowd\n7.  Length\n8.  Whisper\n9.  Thread\n10. Century"
+            ],
+            [
+                "1.  Mountain\n2.  Hope\n3.  Mirror\n4.  Silence\n5.  Diamond\n6.  Dust\n7.  Friend\n8.  Algorithm\n9.  Year\n10. Music"
+            ],
+            [
+                "Here's the list:\n\n1.  Shadow\n2.  Truth\n3.  Diamond\n4.  Feather\n5.  Silence\n6.  Revolution\n7.  Planet\n8.  Soup\n9.  Calendar\n10. Journey"
+            ],
+            [
+                "1.  Hope\n2.  Brick\n3.  Galaxy\n4.  Silence\n5.  Button\n6.  Justice\n7.  Shadow\n8.  Feather\n9.  Algorithm\n10. Laughter"
+            ],
+            [
+                "*   Door\n*   Joy\n*   Shadow\n*   Universe\n*   Silence\n*   Button\n*   Theorem\n*   Dust\n*   Hope\n*   Mountain"
+            ],
+            [
+                "1.  Shadow\n2.  Algorithm\n3.  Gratitude\n4.  Brick\n5.  Universe\n6.  Echo\n7.  Policy\n8.  Pillow\n9.  Melody\n10. Hazard"
+            ],
+            [
+                "1.  Shadow\n2.  Glacier\n3.  Euphoria\n4.  Boulder\n5.  Whisper\n6.  Concept\n7.  Feather\n8.  Triumph\n9.  Tapestry\n10. Paradox"
+            ],
+            [
+                "1.  Dust\n2.  Theory\n3.  Harmony\n4.  Lighthouse\n5.  Feather\n6.  Decision\n7.  Galaxy\n8.  Silence\n9.  Mirror\n10. Hope"
+            ],
+            [
+                "*   Dawn\n*   Universe\n*   Button\n*   Cynicism\n*   Velocity\n*   Monument\n*   Silence\n*   Labyrinth\n*   Enigma\n*   Hole"
+            ],
+            [
+                "1.  Sand\n2.  Theory\n3.  Mirror\n4.  Silence\n5.  Journey\n6.  Button\n7.  Hope\n8.  Galaxy\n9.  Rhythm\n10. Stone"
+            ],
+            [
+                "1.  Cloud\n2.  Diamond\n3.  Silence\n4.  Universe\n5.  Feather\n6.  Rhythm\n7.  Shadow\n8.  Machine\n9.  Justice\n10. Mystery"
+            ],
+            [
+                "*   Shadow\n*   Melody\n*   Diamond\n*   Poverty\n*   Mirror\n*   Freedom\n*   Whisper\n*   Calendar\n*   Bridge\n*   Dust"
+            ],
+            [
+                "1.  Diamond\n2.  Silence\n3.  Revolution\n4.  Pebble\n5.  Joy\n6.  Algorithm\n7.  Shadow\n8.  Forest\n9.  Hope\n10. Bureau"
+            ],
+            [
+                "1.  Dust\n2.  Universe\n3.  Shadow\n4.  Feast\n5.  Clarity\n6.  Stone\n7.  Joy\n8.  Debt\n9.  Circle\n10. Whisper"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Joy\n4.  Epoch\n5.  Needle\n6.  Galaxy\n7.  Silence\n8.  Feather\n9.  Bureaucracy\n10. Rhythm"
+            ],
+            [
+                "1.  Dust\n2.  Horizon\n3.  Rhythm\n4.  Feather\n5.  Obligation\n6.  Echo\n7.  Diamond\n8.  Recipe\n9.  Regret\n10. Galaxy"
+            ],
+            [
+                "1.  Shadow\n2.  Truth\n3.  Clock\n4.  Feather\n5.  Chaos\n6.  Mountain\n7.  Joy\n8.  Silence\n9.  Mirror\n10. Question"
+            ],
+            [
+                "1.  Dust\n2.  Harmony\n3.  Needle\n4.  Universe\n5.  Shadow\n6.  Feast\n7.  Doubt\n8.  Boulder\n9.  Whisper\n10. Zenith"
+            ],
+            [
+                "1.  Dust\n2.  Harmony\n3.  Spoon\n4.  Freedom\n5.  Mountain\n6.  Mystery\n7.  Window\n8.  Logic\n9.  Feather\n10. Celebration"
+            ],
+            [
+                "1.  Brick\n2.  Joy\n3.  Galaxy\n4.  Shadow\n5.  Algorithm\n6.  Pebble\n7.  Omen\n8.  Revolution\n9.  Fabric\n10. Echo"
+            ]
+        ],
+        "{\"temperature\": 2}": [
+            [
+                "1.  Diamond\n2.  Regret\n3.  Velocity\n4.  Gloom\n5.  Patience\n6.  Galaxy\n7.  Shadow\n8.  Melody\n9.  Mirror\n10. Century"
+            ],
+            [
+                "1.  Sky\n2.  Dust\n3.  Memory\n4.  Mirror\n5.  Silence\n6.  Weapon\n7.  Sunrise\n8.  Circle\n9.  Bridge\n10. Dream"
+            ],
+            [
+                "1.  Sun\n2.  Silence\n3.  Brick\n4.  Dream\n5.  Algorithm\n6.  Justice\n7.  Feather\n8.  Circle\n9.  Impulse\n10. Galaxy"
+            ],
+            [
+                "1.  Shadow\n2.  Galaxy\n3.  Silence\n4.  Button\n5.  Diamond\n6.  Justice\n7.  Feather\n8.  Algorithm\n9.  Monument\n10. Hunger"
+            ],
+            [
+                "1.  Sun\n2.  Debt\n3.  Shadow\n4.  Harmony\n5.  Scissors\n6.  Gravity\n7.  Whisper\n8.  Ocean\n9.  Courage\n10. Echo"
+            ],
+            [
+                "Here's my list of 10 diverse nouns:\n\n1.  Echo\n2.  Diamond\n3.  Cynicism\n4.  Galaxy\n5.  Feather\n6.  Labyrinth\n7.  Melody\n8.  Irony\n9.  Courage\n10. Mushroom"
+            ],
+            [
+                "1.  Chair\n2.  Wisdom\n3.  Galaxy\n4.  Button\n5.  Chaos\n6.  Shadow\n7.  Celebration\n8.  Diamond\n9.  Mirror\n10. Sickness"
+            ],
+            [
+                "1.  Rock\n2.  Symphony\n3.  Whisper\n4.  Obligation\n5.  Shadow\n6.  Universe\n7.  Glee\n8.  Pavement\n9.  Principle\n10. Clock"
+            ],
+            [
+                "1.  Sky\n2.  Dust\n3.  Silence\n4.  Diamond\n5.  Hope\n6.  Door\n7.  Crowd\n8.  Music\n9.  Circle\n10. History"
+            ],
+            [
+                "Here is the list:\n\n1.  Shadow\n2.  Gravity\n3.  Harmony\n4.  Tomb\n5.  Algorithm\n6.  Glee\n7.  Diamond\n8.  Dilemma\n9.  Texture\n10. Quota"
+            ],
+            [
+                "1.  Hope\n2.  Brick\n3.  Music\n4.  Shadow\n5.  Wealth\n6.  Horizon\n7.  Silence\n8.  Button\n9.  Dust\n10. Galaxy"
+            ],
+            [
+                "1.  Sunrise\n2.  Silence\n3.  Brick\n4.  Revolution\n5.  Pillow\n6.  Doubt\n7.  Island\n8.  Oasis\n9.  Memory\n10. Paradox"
+            ],
+            [
+                "1.  Sunrise\n2.  Mundane\n3.  Pyramid\n4.  Innocence\n5.  Scissors\n6.  Symphony\n7.  Anomaly\n8.  Courage\n9.  Obligation\n10. Echo"
+            ],
+            [
+                "1.  Spoon\n2.  Justice\n3.  Mountain\n4.  Idea\n5.  Tapestry\n6.  Silence\n7.  Feather\n8.  Planet\n9.  Laughter\n10. Stone"
+            ],
+            [
+                "1.  Stone\n2.  Galaxy\n3.  Whisper\n4.  Joy\n5.  Clock\n6.  Jungle\n7.  Idea\n8.  Silence\n9.  Arrow\n10. Treaty"
+            ],
+            [
+                "1.  Dust\n2.  Obligation\n3.  Galaxy\n4.  Scissors\n5.  Whisper\n6.  Pyramid\n7.  Echo\n8.  Glory\n9.  Onion\n10. Future"
+            ],
+            [
+                "1.  Chair\n2.  Echo\n3.  Hope\n4.  Diamond\n5.  Shadow\n6.  Algorithm\n7.  Galaxy\n8.  Silence\n9.  Triumph\n10. Thread"
+            ],
+            [
+                "1.  Sun\n2.  Shadow\n3.  Justice\n4.  Mirror\n5.  Silence\n6.  Feather\n7.  Machine\n8.  Omen\n9.  Mountain\n10. Honey"
+            ],
+            [
+                "1.  Cloud\n2.  Compass\n3.  Silence\n4.  Feather\n5.  Victory\n6.  Riddle\n7.  Horizon\n8.  Anchor\n9.  Shadow\n10. Banquet"
+            ],
+            [
+                "1.  Sunrise\n2.  Button\n3.  Universe\n4.  Whisper\n5.  Debt\n6.  Mirror\n7.  Cactus\n8.  Hope\n9.  Stone\n10. Gravity"
+            ],
+            [
+                "1.  Shadow\n2.  Universe\n3.  Button\n4.  Idea\n5.  Whisper\n6.  Monument\n7.  Fuel\n8.  Tension\n9.  River\n10. Courage"
+            ],
+            [
+                "1.  Shadow\n2.  Clarity\n3.  Stone\n4.  Hope\n5.  Rhythm\n6.  Book\n7.  Market\n8.  Echo\n9.  Feather\n10. Journey"
+            ],
+            [
+                "1.  Stone\n2.  Harmony\n3.  Whisper\n4.  Horizon\n5.  Labyrinth\n6.  Candle\n7.  Theory\n8.  Echo\n9.  Pillow\n10. Shadow"
+            ],
+            [
+                "1.  Dust\n2.  Galaxy\n3.  Silence\n4.  Button\n5.  Joy\n6.  Mountain\n7.  Theory\n8.  Mirror\n9.  Shadow\n10. Society"
+            ],
+            [
+                "1.  Sun\n2.  Chaos\n3.  Brick\n4.  Poem\n5.  Hope\n6.  Mirror\n7.  River\n8.  Idea\n9.  Silence\n10. Shadow"
+            ],
+            [
+                "1.  Stone\n2.  Idea\n3.  Feather\n4.  Justice\n5.  Mirror\n6.  Whisper\n7.  Planet\n8.  Triumph\n9.  Poverty\n10. Silence"
+            ],
+            [
+                "Here are 10 nouns, chosen to be as different from each other as possible:\n\n1.  Shadow\n2.  Galaxy\n3.  Spoon\n4.  Silence\n5.  Truth\n6.  Brick\n7.  Music\n8.  Grief\n9.  Horizon\n10. Journey"
+            ],
+            [
+                "1.  Silence\n2.  Diamond\n3.  Echo\n4.  Gravity\n5.  Journey\n6.  Chaos\n7.  Monument\n8.  Potion\n9.  Hope\n10. Texture"
+            ],
+            [
+                "1.  Shadow\n2.  Algorithm\n3.  Tundra\n4.  Pillow\n5.  Triumph\n6.  Quorum\n7.  Bacterium\n8.  Jewel\n9.  Abyss\n10. Justice"
+            ],
+            [
+                "1.  Sand\n2.  Ego\n3.  Universe\n4.  Button\n5.  Hope\n6.  Echo\n7.  Triangle\n8.  Shadow\n9.  Melody\n10. Century"
+            ],
+            [
+                "1.  Stone\n2.  Galaxy\n3.  Hope\n4.  Mirror\n5.  Silence\n6.  Tapestry\n7.  Gravity\n8.  Whisper\n9.  Feather\n10. Algorithm"
+            ],
+            [
+                "1.  Clock\n2.  Shadow\n3.  Freedom\n4.  Desert\n5.  Button\n6.  Laughter\n7.  Mirror\n8.  Galaxy\n9.  Silence\n10. Anchor"
+            ],
+            [
+                "1.  Door\n2.  Echo\n3.  Gravity\n4.  Dust\n5.  Hymn\n6.  Horizon\n7.  Knob\n8.  Wealth\n9.  Thought\n10. Shadow"
+            ],
+            [
+                "Here's the list:\n\n1.  Hope\n2.  Stone\n3.  Melody\n4.  Dust\n5.  Bridge\n6.  Idea\n7.  Feast\n8.  Mirror\n9.  Forest\n10. Gravity"
+            ],
+            [
+                "*   Silence\n*   Mirror\n*   Oasis\n*   Melody\n*   Diamond\n*   Anxiety\n*   Theorem\n*   Calendar\n*   Universe\n*   Feather"
+            ],
+            [
+                "1.  Horizon\n2.  Chaos\n3.  Feather\n4.  Algorithm\n5.  Symphony\n6.  Irony\n7.  Diamond\n8.  Whisper\n9.  Revolution\n10. Shelter"
+            ],
+            [
+                "Here's the list:\n\n1.  Whisper\n2.  Mountain\n3.  Patience\n4.  Mirror\n5.  Universe\n6.  Brick\n7.  Freedom\n8.  Melody\n9.  Tear\n10. Shadow"
+            ],
+            [
+                "1.  Diamond\n2.  Galaxy\n3.  Shadow\n4.  Memory\n5.  Irony\n6.  Velocity\n7.  Button\n8.  Oasis\n9.  Silence\n10. Courage"
+            ],
+            [
+                "1.  Dust\n2.  Zenith\n3.  Whisper\n4.  Gloom\n5.  Castle\n6.  Justice\n7.  Beast\n8.  Harmony\n9.  Cipher\n10. Echo"
+            ],
+            [
+                "1.  Door\n2.  Joy\n3.  Dust\n4.  Theory\n5.  Echo\n6.  Diamond\n7.  Silence\n8.  System\n9.  Whisper\n10. Galaxy"
+            ],
+            [
+                "1.  Brick\n2.  Euphoria\n3.  Shadow\n4.  Algorithm\n5.  Silence\n6.  Compass\n7.  Revolution\n8.  Spoon\n9.  Destiny\n10. Texture"
+            ],
+            [
+                "1.  Cloud\n2.  Rhythm\n3.  Needle\n4.  Whisper\n5.  Mountain\n6.  Justice\n7.  Button\n8.  Freedom\n9.  Mirror\n10. Dust"
+            ],
+            [
+                "1.  Sun\n2.  Whisper\n3.  Algorithm\n4.  Pebble\n5.  Hope\n6.  Galaxy\n7.  Silence\n8.  Tapestry\n9.  Judgment\n10. Century"
+            ],
+            [
+                "1.  Shadow\n2.  Infinity\n3.  Mirror\n4.  Kindness\n5.  Brick\n6.  Glee\n7.  Whisper\n8.  Mountain\n9.  Contract\n10. Gravity"
+            ],
+            [
+                "1.  Shadow\n2.  Melody\n3.  Rock\n4.  Dust\n5.  Hope\n6.  Window\n7.  Flame\n8.  Theory\n9.  Crowd\n10. Sickness"
+            ],
+            [
+                "*   Sky\n*   Rock\n*   Music\n*   Hope\n*   Dust\n*   Mirror\n*   Journey\n*   Silence\n*   Diamond\n*   Laughter"
+            ],
+            [
+                "1.  Horizon\n2.  Feather\n3.  Melody\n4.  Shadow\n5.  Justice\n6.  Library\n7.  Anxiety\n8.  Mirror\n9.  River\n10. Thread"
+            ],
+            [
+                "Here's the list:\n\n1.  Sand\n2.  Music\n3.  Mirror\n4.  Idea\n5.  Silence\n6.  Bridge\n7.  Feather\n8.  Wealth\n9.  Courage\n10. Mountain"
+            ],
+            [
+                "1.  Shadow\n2.  Opportunity\n3.  Silence\n4.  Feather\n5.  Universe\n6.  Laughter\n7.  Diamond\n8.  Method\n9.  Crisis\n10. Banquet"
+            ],
+            [
+                "*   Sunrise\n*   Spoon\n*   Justice\n*   Forest\n*   Silence\n*   Glove\n*   Theory\n*   Window\n*   Feather\n*   Debt"
+            ]
+        ]
+    },
+    "gemini-2.0-flash": {
+        "{\"temperature\": 0.5}": [
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Filament\n6. Torque\n7. Epoch\n8. Murmur\n9. Effigy\n10. Kernel"
+            ],
+            [
+                "1. Void\n2. Apex\n3. Quagmire\n4. Epiphany\n5. Filament\n6. Torque\n7. Murmur\n8. Oblivion\n9. Citadel\n10. Zephyr"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Enigma\n6. Oblivion\n7. Serenity\n8. Tempest\n9. Pixel\n10. Molecule"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Molecule\n6. Enigma\n7. Tapestry\n8. Algorithm\n9. Oblivion\n10. Dichotomy"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Enigma\n6. Kernel\n7. Facade\n8. Tempest\n9. Crucible\n10. Labyrinth"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Paradigm\n6. Echo\n7. Fleece\n8. Algorithm\n9. Aroma\n10. Quagmire"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Cipher\n6. Archipelago\n7. Oblivion\n8. Filament\n9. Paradigm\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Torque\n5. Epiphany\n6. Sediment\n7. Cipher\n8. Fleece\n9. Algorithm\n10. Aroma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Enigma\n7. Epoch\n8. Citadel\n9. Serendipity\n10. Filament"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Filament\n6. Murmur\n7. Oblivion\n8. Citadel\n9. Paradox\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Algorithm\n5. Molecule\n6. Enigma\n7. Notion\n8. Tempest\n9. Fleece\n10. Obsidian"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Symphony\n5. Epiphany\n6. Obsidian\n7. Nodule\n8. Gossamer\n9. Algorithm\n10. Enigma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Notion\n5. Pebble\n6. Torque\n7. Aroma\n8. Fleece\n9. Algorithm\n10. Murmur"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Filament\n5. Aroma\n6. Enigma\n7. Reverie\n8. Epoch\n9. Catalyst\n10. Prism"
+            ],
+            [
+                "1. void\n2. zenith\n3. pebble\n4. notion\n5. quilt\n6. rust\n7. anthem\n8. spiral\n9. ember\n10. torque"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Ire\n6. Filament\n7. Algorithm\n8. Epoch\n9. Molecule\n10. Enigma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Smelt\n5. Notion\n6. Epoch\n7. Fleece\n8. Torque\n9. Ember\n10. Prism"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Enigma\n6. Avalanche\n7. Molecule\n8. Silhouette\n9. Epiphany\n10. Lumber"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Molecule\n6. Enigma\n7. Symphony\n8. Obsidian\n9. Axiom\n10. Filament"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Algorithm\n5. Molecule\n6. Echo\n7. Fleece\n8. Torque\n9. Aroma\n10. Cipher"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Algorithm\n5. Meadow\n6. Enigma\n7. Torque\n8. Fleece\n9. Prism\n10. Ember"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Breadth\n6. Enigma\n7. Serenity\n8. Tempest\n9. Algorithm\n10. Relic"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Enigma\n7. Epoch\n8. Dichotomy\n9. Fleece\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Filament\n6. Citadel\n7. Ripple\n8. Murmur\n9. Obsidian\n10. Epoch"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Algorithm\n5. Archipelago\n6. Paradox\n7. Amber\n8. Molecule\n9. Notion\n10. Fleece"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Serenity\n7. Labyrinth\n8. Axiom\n9. Epoch\n10. Murmur"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Murmur\n5. Torque\n6. Ember\n7. Epoch\n8. Fleece\n9. Abyss\n10. Notion"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Quagmire\n4. Zephyr\n5. Enigma\n6. Kernel\n7. Epoch\n8. Facade\n9. Filament\n10. Dichotomy"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Enigma\n6. Paradigm\n7. Tempest\n8. Algorithm\n9. Meadow\n10. Axiom"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Epoch\n6. Enigma\n7. Algorithm\n8. Galaxy\n9. Notion\n10. Lichen"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Dew\n5. Torque\n6. Abyss\n7. Ember\n8. Cipher\n9. Fleece\n10. Notion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Filament\n6. Cipher\n7. Crucible\n8. Oblivion\n9. Paradigm\n10. Tempest"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Enigma\n7. Serenity\n8. Tempest\n9. Brick\n10. Notion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Filament\n6. Torque\n7. Paradigm\n8. Sediment\n9. Oasis\n10. Cipher"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Algorithm\n5. Molecule\n6. Enigma\n7. Epoch\n8. Notion\n9. Crucible\n10. Meadow"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Enigma\n6. Avalanche\n7. Filament\n8. Kernel\n9. Epoch\n10. Murmur"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Molecule\n6. Enigma\n7. Labyrinth\n8. Serenity\n9. Omen\n10. Husk"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Rummage\n6. Enigma\n7. Crucible\n8. Epiphany\n9. Nexus\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Cipher\n6. Husk\n7. Torque\n8. Mirage\n9. Rune\n10. Filament"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Filament\n6. Fortress\n7. Molecule\n8. Echo\n9. Algorithm\n10. Aroma"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Quagmire\n4. Serenity\n5. Turmoil\n6. Ephemeral\n7. Granite\n8. Zephyr\n9. Oblivion\n10. Kernel"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Notion\n5. Quagmire\n6. Torque\n7. Ember\n8. Paradigm\n9. Filament\n10. Cipher"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Serenity\n7. Paradox\n8. Lumber\n9. Notion\n10. Quagmire"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Microbe\n4. Quagmire\n5. Theorem\n6. Aroma\n7. Enigma\n8. Epoch\n9. Fleece\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Quagmire\n5. Epiphany\n6. Dichotomy\n7. Enigma\n8. Labyrinth\n9. Algorithm\n10. Artifact"
+            ],
+            [
+                "1. Void\n2. Keystone\n3. Ripple\n4. Axiom\n5. Brimstone\n6. Quagmire\n7. Zephyr\n8. Enigma\n9. Citadel\n10. Effluvium"
+            ],
+            [
+                "*   Void\n*   Kernel\n*   Facade\n*   Quagmire\n*   Zenith\n*   Axiom\n*   Ripple\n*   Effigy\n*   Chasm\n*   Lattice"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Serenity\n5. Rancor\n6. Molecule\n7. Epoch\n8. Enigma\n9. Filament\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Molecule\n6. Enigma\n7. Dichotomy\n8. Archipelago\n9. Oblivion\n10. Filament"
+            ],
+            [
+                "*   Void\n*   Kernel\n*   Facade\n*   Quagmire\n*   Apex\n*   Gloom\n*   Axiom\n*   Ripple\n*   Boon\n*   Chasm"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Kernel\n6. Facade\n7. Torque\n8. Residue\n9. Epoch\n10. Cipher"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Amoeba\n4. Quagmire\n5. Epiphany\n6. Archipelago\n7. Algorithm\n8. Fugue\n9. Filament\n10. Enigma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Algorithm\n5. Quagmire\n6. Resonance\n7. Obsidian\n8. Epiphany\n9. Archipelago\n10. Luminescence"
+            ],
+            [
+                "1. Void\n2. Keystone\n3. Epiphany\n4. Quagmire\n5. Zeal\n6. Husk\n7. Algorithm\n8. Crucible\n9. Oblivion\n10. Facade"
+            ],
+            [
+                "*   Abyss\n*   Zephyr\n*   Equation\n*   Mirth\n*   Quill\n*   Solitude\n*   Eternity\n*   Threshold\n*   Carnage\n*   Nucleus"
+            ],
+            [
+                "1. Quantum\n2. Liberty\n3. Galaxy\n4. Notion\n5. Asphalt\n6. Oxygen\n7. Granite\n8. Whisper\n9. Algorithm\n10. Nostalgia"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epiphany\n5. Brick\n6. Melody\n7. Algorithm\n8. Filament\n9. Dust\n10. Aroma"
+            ],
+            [
+                "1. Void\n2. Galaxy\n3. Notion\n4. Kernel\n5. Velvet\n6. Echo\n7. Torque\n8. Glacier\n9. Aroma\n10. Quasar"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Quagmire\n5. Epoch\n6. Riddle\n7. Notion\n8. Husk\n9. Torque\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Quagmire\n5. Epiphany\n6. Enigma\n7. Solitude\n8. Filament\n9. Oblivion\n10. Paradox"
+            ],
+            [
+                "1. Void\n2. Epiphany\n3. Quagmire\n4. Aurora\n5. Enigma\n6. Zenith\n7. Remorse\n8. Labyrinth\n9. Effervescence\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Mire\n4. Glimmer\n5. Quagmire\n6. Oblivion\n7. Pinnacle\n8. Serenity\n9. Discord\n10. Prism"
+            ],
+            [
+                "1. Void\n2. Apex\n3. Quagmire\n4. Epiphany\n5. Filament\n6. Echo\n7. Enigma\n8. Catalyst\n9. Inertia\n10. Beacon"
+            ],
+            [
+                "1. void\n2. tapestry\n3. molecule\n4. axiom\n5. zephyr\n6. ennui\n7. haven\n8. quota\n9. cartilage\n10. gibbet"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Paradigm\n6. Archipelago\n7. Algorithm\n8. Aroma\n9. Sherbet\n10. Hush"
+            ],
+            [
+                "1.  Eternity\n2.  Germ\n3.  Rhythm\n4.  Galaxy\n5.  Quagmire\n6.  Nodule\n7.  Apex\n8.  Aroma\n9.  Verdict\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Murmur\n5. Torque\n6. Epoch\n7. Fleece\n8. Chasm\n9. Ember\n10. Aroma"
+            ],
+            [
+                "Here are 10 nouns that I believe are as different as possible from each other in terms of meaning and usage, adhering to all of your instructions:\n\n1.  Eternity\n2.  Puddle\n3.  Equation\n4.  Garlic\n5.  Symphony\n6.  Velvet\n7.  Blame\n8.  Orbit\n9.  Mirth\n10. Rust"
+            ],
+            [
+                "*   Entropy\n*   Quill\n*   Atom\n*   Facade\n*   Oath\n*   Melody\n*   Vacuum\n*   Harbor\n*   Canvas\n*   Notion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Kernel\n4. Quagmire\n5. Epoch\n6. Filament\n7. Notion\n8. Torque\n9. Shard\n10. Balm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Grist\n5. Cipher\n6. Kin\n7. Mire\n8. Balm\n9. Fleece\n10. Torque"
+            ],
+            [
+                "Here are 10 words as different as possible:\n\n1.  Eternity\n2.  Pustule\n3.  Algorithm\n4.  Oxygen\n5.  Dichotomy\n6.  Quagmire\n7.  Gargoyle\n8.  Epiphany\n9.  Velocity\n10. Filament"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Filament\n5. Dichotomy\n6. Notion\n7. Enigma\n8. Prism\n9. Catalyst\n10. Oblivion"
+            ],
+            [
+                "1. Absence\n2. Quirk\n3. Zenith\n4. Void\n5. Smudge\n6. Echo\n7. Brimstone\n8. Glimmer\n9. Wisp\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Galaxy\n3. Germ\n4. Zenith\n5. Yarn\n6. Algorithm\n7. Quagmire\n8. Diode\n9. Torque\n10. Epiphany"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Molecule\n5. Serenity\n6. Turmoil\n7. Epiphany\n8. Oblivion\n9. Kernel\n10. Facade"
+            ],
+            [
+                "1. Void\n2. Crescendo\n3. Datum\n4. Epiphany\n5. Nodule\n6. Phenomenon\n7. Quagmire\n8. Zenith\n9. Cipher\n10. Umbra"
+            ],
+            [
+                "*   Void\n*   Kernel\n*   Facade\n*   Momentum\n*   Epitome\n*   Rapport\n*   Nadir\n*   Quagmire\n*   Zenith\n*   Alchemy"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Ire\n5. Hearth\n6. Torque\n7. Fleece\n8. Mire\n9. Notion\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Kernel\n3. Epiphany\n4. Parchment\n5. Tempest\n6. Torque\n7. Filament\n8. Hush\n9. Zeal\n10. Prism"
+            ],
+            [
+                "*   Quagmire\n*   Zenith\n*   Anomaly\n*   Fugue\n*   Epitome\n*   Vestige\n*   Acumen\n*   Phalanx\n*   Nadir\n*   Effluvium"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Paradigm\n6. Algorithm\n7. Enigma\n8. Epoch\n9. Oblivion\n10. Crucible"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Quill\n4. Notion\n5. Algorithm\n6. Murmur\n7. Spectrum\n8. Polymer\n9. Epoch\n10. Flotilla"
+            ],
+            [
+                "1. Void\n2. Pinnacle\n3. Quagmire\n4. Aroma\n5. Filament\n6. Epoch\n7. Cipher\n8. Notion\n9. Rudiment\n10. Maw"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Torque\n5. Meadow\n6. Cipher\n7. Algorithm\n8. Paradigm\n9. Obsidian\n10. Epiphany"
+            ],
+            [
+                "1. Void\n2. Quirk\n3. Zenith\n4. Notion\n5. Prism\n6. Torque\n7. Fleece\n8. Gristle\n9. Almanac\n10. Murmur"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quark\n4. Fleece\n5. Rhythm\n6. Torque\n7. Notion\n8. Umbra\n9. Cascade\n10. Husk"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Fungus\n4. Torque\n5. Glimmer\n6. Quagmire\n7. Epiphany\n8. Archipelago\n9. Axiom\n10. Husk"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Enigma\n5. Archipelago\n6. Algorithm\n7. Serenity\n8. Quagmire\n9. Epoch\n10. Luminescence"
+            ],
+            [
+                "1. Epiphany\n2. Archipelago\n3. Quagmire\n4. Zenith\n5. Nodule\n6. Murmur\n7. Oblivion\n8. Paradigm\n9. Scrivener\n10. Umbrage"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Epoch\n5. Glimmer\n6. Enigma\n7. Harbinger\n8. Bastion\n9. Crucible\n10. Dirge"
+            ],
+            [
+                "1. void\n2. axiom\n3. rust\n4. zephyr\n5. ledger\n6. solace\n7. notion\n8. chasm\n9. burden\n10. thread"
+            ],
+            [
+                "1. Void\n2. Crescendo\n3. Notion\n4. Archipelago\n5. Quagmire\n6. Dichotomy\n7. Paradigm\n8. Effervescence\n9. Zenith\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Murmur\n4. Polymer\n5. Enigma\n6. Axiom\n7. Quagmire\n8. Labyrinth\n9. Cascade\n10. Phantom"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quark\n4. Oblivion\n5. Symphony\n6. Filament\n7. Epoch\n8. Cipher\n9. Labyrinth\n10. Gust"
+            ],
+            [
+                "1. void\n2. zenith\n3. pebble\n4. solace\n5. riddle\n6. galaxy\n7. phantom\n8. axiom\n9. melody\n10. husk"
+            ],
+            [
+                "1. Void\n2. Symphony\n3. Quill\n4. Granite\n5. Algorithm\n6. Nostalgia\n7. Apex\n8. Dew\n9. Enigma\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Symphony\n3. Granite\n4. Notion\n5. Germ\n6. Horizon\n7. Quagmire\n8. Kernel\n9. Echo\n10. Filament"
+            ],
+            [
+                "*   Time\n*   Coal\n*   Grace\n*   Angle\n*   Flour\n*   Sorrow\n*   Thread\n*   Laughter\n*   Void\n*   Quest"
+            ],
+            [
+                "1. Zenith\n2. Abyss\n3. Thrum\n4. Cipher\n5. Gossamer\n6. Quagmire\n7. Ember\n8. Torque\n9. Murmur\n10. Facet"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "*   Solitude\n*   Epiphany\n*   Abyss\n*   Melody\n*   Quill\n*   Alchemy\n*   Cargo\n*   Circuit\n*   Garnet\n*   Mosaic"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Amoeba\n4. Dichotomy\n5. Quagmire\n6. Revelation\n7. Torque\n8. Zephyr\n9. Garnet\n10. Sprout"
+            ],
+            [
+                "1. Void\n2. Quirk\n3. Nexus\n4. Epiphany\n5. Bauble\n6. Wisp\n7. Enigma\n8. Plateau\n9. Labyrinth\n10. Balm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Enigma\n5. Notion\n6. Citadel\n7. Fleece\n8. Quagmire\n9. Tempest\n10. Dichotomy"
+            ],
+            [
+                "1.  Epiphany\n2.  Brick\n3.  Abyss\n4.  Doubt\n5.  Velocity\n6.  Azure\n7.  Hearth\n8.  Quill\n9.  Rhythm\n10. Entropy"
+            ],
+            [
+                "Here are 10 words, as different as possible:\n\n1.  Epiphany\n2.  Pebble\n3.  Algorithm\n4.  Aroma\n5.  Galaxy\n6.  Quill\n7.  Void\n8.  Carnation\n9.  Symphony\n10. Oxygen"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Revelation\n5. Cipher\n6. Lattice\n7. Dirge\n8. Smelt\n9. Fleece\n10. Nodule"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Filament\n6. Torque\n7. Archipelago\n8. Dichotomy\n9. Oblivion\n10. Cascade"
+            ],
+            [
+                "1. Void\n2. Crest\n3. Smudge\n4. Trundle\n5. Epiphany\n6. Filament\n7. Enigma\n8. Murmur\n9. Citadel\n10. Dearth"
+            ],
+            [
+                "1. Void\n2. Ascent\n3. Quagmire\n4. Jewel\n5. Gale\n6. Breadth\n7. Notion\n8. Dross\n9. Paradigm\n10. Murmur"
+            ],
+            [
+                "1. Void\n2. Flourish\n3. Slumber\n4. Echo\n5. Granite\n6. Whisper\n7. Zenith\n8. Murmur\n9. Gauntlet\n10. Twilight"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Shibboleth\n5. Enigma\n6. Notion\n7. Algorithm\n8. Quagmire\n9. Fortress\n10. Epiphany"
+            ],
+            [
+                "1. Void\n2. Anthem\n3. Smirk\n4. Quark\n5. Fleece\n6. Torque\n7. Notion\n8. Epoch\n9. Husk\n10. Zenith"
+            ],
+            [
+                "1. Void\n2. Symphony\n3. Quartz\n4. Algorithm\n5. Paradigm\n6. Nostalgia\n7. Tempest\n8. Oblivion\n9. Dichotomy\n10. Filament"
+            ],
+            [
+                "Here are 10 dissimilar nouns:\n\n1.  Epitome\n2.  Rubble\n3.  Kernel\n4.  Vacuum\n5.  Trepidation\n6.  Harbinger\n7.  Canvas\n8.  Quagmire\n9.  Effervescence\n10. Wraith"
+            ],
+            [
+                "Here are 10 very different nouns:\n\n1.  Eternity\n2.  Atom\n3.  Quagmire\n4.  Zephyr\n5.  Calculation\n6.  Silhouette\n7.  Lattice\n8.  Nadir\n9.  Catalyst\n10. Enigma"
+            ],
+            [
+                "1. void\n2. melody\n3. pebble\n4. axiom\n5. enzyme\n6. concept\n7. galaxy\n8. fringe\n9. slumber\n10. torque"
+            ],
+            [
+                "*   Abyss\n*   Zenith\n*   Quill\n*   Brick\n*   Melody\n*   Genome\n*   Pebble\n*   Doubt\n*   Synergy\n*   Epiphany"
+            ],
+            [
+                "1. void\n2. zenith\n3. microbe\n4. idiom\n5. dilemma\n6. velvet\n7. ember\n8. shingle\n9. rust\n10. acre"
+            ],
+            [
+                "1. Epiphany\n2. Algorithm\n3. Dust\n4. Galaxy\n5. Sigh\n6. Quagmire\n7. Zenith\n8. Parchment\n9. Echo\n10. Void"
+            ],
+            [
+                "*   Void\n*   Galaxy\n*   Kernel\n*   Syntax\n*   Oblivion\n*   Radiance\n*   Chord\n*   Momentum\n*   Effervescence\n*   Epiphany"
+            ],
+            [
+                "Here are 10 very different nouns:\n\n1.  Void\n2.  Kernel\n3.  Facade\n4.  Velocity\n5.  Quagmire\n6.  Axiom\n7.  Gingham\n8.  Effervescence\n9.  Lattice\n10. Umbrage"
+            ],
+            [
+                "1. void\n2. mosaic\n3. oxygen\n4. pyramid\n5. solace\n6. kernel\n7. metaphor\n8. plateau\n9. anthem\n10. ripple"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quark\n4. Smelt\n5. Algorithm\n6. Epiphany\n7. Oblivion\n8. Effervescence\n9. Dichotomy\n10. Serendipity"
+            ],
+            [
+                "1. Epiphany\n2. Archipelago\n3. Filament\n4. Void\n5. Quagmire\n6. Symphony\n7. Citadel\n8. Catalyst\n9. Oblivion\n10. Incantation"
+            ],
+            [
+                "1. Void\n2. Oasis\n3. Paradigm\n4. Relic\n5. Quirk\n6. Zenith\n7. Ember\n8. Knot\n9. Ledger\n10. Chroma"
+            ],
+            [
+                "*   Justice\n*   Pebble\n*   Umbrella\n*   Syntax\n*   Eternity\n*   Nostril\n*   Quill\n*   Twilight\n*   Galaxy\n*   Melody"
+            ],
+            [
+                "1. Epiphany\n2. Filament\n3. Quagmire\n4. Nucleus\n5. Algorithm\n6. Sediment\n7. Zephyr\n8. Obelisk\n9. Canvas\n10. Hush"
+            ],
+            [
+                "Here are 10 very different nouns:\n\n1.  Eternity\n2.  Quirk\n3.  Oxygen\n4.  Gravel\n5.  Momentum\n6.  Havoc\n7.  Lullaby\n8.  Paradox\n9.  Nadir\n10. Algorithm"
+            ],
+            [
+                "1.  Epiphany\n2.  Ostrich\n3.  Algebra\n4.  Nodule\n5.  Zenith\n6.  Quagmire\n7.  Rhythm\n8.  Azure\n9.  Gristle\n10. Molecule"
+            ],
+            [
+                "1. Void\n2. Crescendo\n3. Hypothesis\n4. Nodule\n5. Serenity\n6. Enigma\n7. Dichotomy\n8. Zenith\n9. Quagmire\n10. Reverie"
+            ],
+            [
+                "1. Void\n2. Serenity\n3. Quagmire\n4. Pinnacle\n5. Rust\n6. Epiphany\n7. Calamity\n8. Filament\n9. Axiom\n10. Blight"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Dirge\n5. Enigma\n6. Paradigm\n7. Crucible\n8. Vestige\n9. Myriad\n10. Hush"
+            ],
+            [
+                "*   Solitude\n*   Velocity\n*   Eternity\n*   Quirk\n*   Volume\n*   Anachronism\n*   Enigma\n*   Abundance\n*   Catastrophe\n*   Ornament"
+            ],
+            [
+                "1. Void\n2. Jubilee\n3. Pebble\n4. Theory\n5. Filament\n6. Aroma\n7. Nemesis\n8. Epiphany\n9. Slumber\n10. Torque"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Grain\n4. Umbra\n5. Quill\n6. Theorem\n7. Mirage\n8. Entropy\n9. Notion\n10. Balm"
+            ],
+            [
+                "1.  Epiphany\n2.  Pavement\n3.  Nebula\n4.  Quill\n5.  Rubble\n6.  Nodule\n7.  Zenith\n8.  Trough\n9.  Aroma\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quark\n4. Filament\n5. Hush\n6. Cipher\n7. Echo\n8. Epoch\n9. Daub\n10. Nodule"
+            ],
+            [
+                "1. Void\n2. Crescendo\n3. Thimble\n4. Galaxy\n5. Oxygen\n6. Algorithm\n7. Quagmire\n8. Lullaby\n9. Fortress\n10. Prism"
+            ],
+            [
+                "1. Abyss\n2. Pinnacle\n3. Molecule\n4. Quirk\n5. Zenith\n6. Burden\n7. Whisper\n8. Gale\n9. Epoch\n10. Void"
+            ],
+            [
+                "1.  Void\n2.  Effervescence\n3.  Gloom\n4.  Axiom\n5.  Boon\n6.  Facet\n7.  Oubliette\n8.  Quagmire\n9.  Zephyr\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Epiphany\n3. Prism\n4. Kernel\n5. Algorithm\n6. Parchment\n7. Azure\n8. Quagmire\n9. Aroma\n10. Sphinx"
+            ],
+            [
+                "Here are 10 nouns as different as possible:\n\n1.  Void\n2.  Harmony\n3.  Quirk\n4.  Ooze\n5.  Zenith\n6.  Rubble\n7.  Fauna\n8.  Agenda\n9.  Breeze\n10. Theorem"
+            ],
+            [
+                "1. Void\n2. Anthem\n3. Torque\n4. Prism\n5. Lichen\n6. Quagmire\n7. Kernel\n8. Epoch\n9. Filament\n10. Gust"
+            ],
+            [
+                "1. Epiphany\n2. Rust\n3. Filament\n4. Algorithm\n5. Meadow\n6. Archipelago\n7. Paradox\n8. Quill\n9. Molecule\n10. Vacuum"
+            ],
+            [
+                "*   Void\n*   Epitome\n*   Sliver\n*   Axiom\n*   Pinnacle\n*   Quagmire\n*   Enigma\n*   Zenith\n*   Dross\n*   Boon"
+            ],
+            [
+                "*   Justice\n*   Spoon\n*   Ozone\n*   Quill\n*   Syntax\n*   Granite\n*   Oxygen\n*   Harmony\n*   Vacuum\n*   Eternity"
+            ],
+            [
+                "1.  Void\n2.  Apex\n3.  Anomaly\n4.  Equation\n5.  Epitome\n6.  Melody\n7.  Epoch\n8.  Threshold\n9.  Chasm\n10. Kin"
+            ],
+            [
+                "Here are 10 diverse nouns:\n\n1.  Eternity\n2.  Puddle\n3.  Melody\n4.  Concept\n5.  Oxygen\n6.  Granite\n7.  Doubt\n8.  Velocity\n9.  Nostalgia\n10. Prism"
+            ],
+            [
+                "*   Void\n*   Zephyr\n*   Oubliette\n*   Trepidation\n*   Effervescence\n*   Dichotomy\n*   Epiphany\n*   Byssus\n*   Nadir\n*   Quagmire"
+            ]
+        ],
+        "{\"temperature\": 2}": [
+            [
+                "1. Void\n2. Kernel\n3. Axiom\n4. Chroma\n5. Notion\n6. Quagmire\n7. Zenith\n8. Cipher\n9. Ember\n10. Prism"
+            ],
+            [
+                "1. Absence\n2. Tempest\n3. Quill\n4. Nebula\n5. Smudge\n6. Theorem\n7. Fervor\n8. Epoch\n9. Cascade\n10. Effigy"
+            ],
+            [
+                "1. Abyss\n2. Epiphany\n3. Filament\n4. Notion\n5. Quarry\n6. Rhythm\n7. Spectrum\n8. Tempest\n9. Void\n10. Zenith"
+            ],
+            [
+                "1. Zenith\n2. Void\n3. Serenity\n4. Ire\n5. Quagmire\n6. Fleece\n7. Axiom\n8. Cipher\n9. Smog\n10. Levity"
+            ],
+            [
+                "*   Entropy\n*   Harmony\n*   Void\n*   Facet\n*   Nexus\n*   Paradox\n*   Nadir\n*   Zenith\n*   Quiescence\n*   Velocity"
+            ],
+            [
+                "Here are ten dissimilar nouns:\n\n1.  Eternity\n2.  Dust\n3.  Velocity\n4.  Zephyr\n5.  Inkling\n6.  Anomaly\n7.  Citadel\n8.  Quagmire\n9.  Axiom\n10. Filament"
+            ],
+            [
+                "1. Zenith\n2. Abyss\n3. Filament\n4. Nebula\n5. Granite\n6. Epiphany\n7. Quagmire\n8. Axiom\n9. Cadence\n10. Enigma"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Torque\n5. Mire\n6. Gleam\n7. Cipher\n8. Kinship\n9. Paradigm\n10. Residue"
+            ],
+            [
+                "1.  Eternity\n2.  Pixel\n3.  Serenity\n4.  Havoc\n5.  Sphere\n6.  Concept\n7.  Microbe\n8.  Labyrinth\n9.  Effervescence\n10. Void"
+            ],
+            [
+                "1. Void\n2. Crest\n3. Filament\n4. Quagmire\n5. Torque\n6. Murmur\n7. Facade\n8. Ember\n9. Epoch\n10. Prism"
+            ],
+            [
+                "1. Quantum\n2. Galaxy\n3. Sorrow\n4. Limestone\n5. Thimble\n6. Algorithm\n7. Breeze\n8. Quirk\n9. Oblivion\n10. Amber"
+            ],
+            [
+                "Here are 10 distinct nouns:\n\n1.  Epiphany\n2.  Oubliette\n3.  Scythe\n4.  Gargoyle\n5.  Quagmire\n6.  Zephyr\n7.  Kerchief\n8.  Axiom\n9.  Chasm\n10. Zenith"
+            ],
+            [
+                "1.  Epiphany\n2.  Pavement\n3.  Whimsy\n4.  Volume\n5.  Quagmire\n6.  Canvas\n7.  Spark\n8.  Melody\n9.  Equation\n10. Void"
+            ],
+            [
+                "1. Void\n2. Corn\n3. Algorithm\n4. Zenith\n5. Molecule\n6. Quirk\n7. Belief\n8. Omen\n9. Envelope\n10. Garnish"
+            ],
+            [
+                "1.  Void\n2.  Kernel\n3.  Symphony\n4.  Facade\n5.  Quagmire\n6.  Axiom\n7.  Harbinger\n8.  Epiphany\n9.  Zenith\n10. Effigy"
+            ],
+            [
+                "1. Void\n2. Apex\n3. Kinship\n4. Quagmire\n5. Enigma\n6. Crucible\n7. Zephyr\n8. Epoch\n9. Filament\n10. Balm"
+            ],
+            [
+                "1. Absence\n2. Galaxy\n3. Quagmire\n4. Zenith\n5. Algorithm\n6. Sherbet\n7. Axiom\n8. Oblivion\n9. Meadow\n10. Sphinx"
+            ],
+            [
+                "*   Entropy\n*   Quill\n*   Chord\n*   Atom\n*   Concept\n*   Grain\n*   Vapor\n*   Sphere\n*   Equation\n*   Whimsy"
+            ],
+            [
+                "Here are ten nouns that are as different as possible:\n\n1.  Eternity\n2.  Particle\n3.  Allegiance\n4.  Detritus\n5.  Radiance\n6.  Obstacle\n7.  Whimsy\n8.  Gazebo\n9.  Quagmire\n10. Iota"
+            ],
+            [
+                "1. void\n2. symphony\n3. quill\n4. avalanche\n5. oxygen\n6. epoch\n7. kernel\n8. tapestry\n9. molecule\n10. silence"
+            ],
+            [
+                "*   Epiphany\n*   Boulder\n*   Quill\n*   Nadir\n*   Equation\n*   Canvas\n*   Zephyr\n*   Sloth\n*   Spice\n*   Theorem"
+            ],
+            [
+                "*   Time\n*   Thought\n*   Ocean\n*   Garbage\n*   Diamond\n*   Bacteria\n*   Symphony\n*   Shadow\n*   Gravity\n*   Idea"
+            ],
+            [
+                "1. void\n2. notion\n3. pebble\n4. aroma\n5. rhythm\n6. molecule\n7. quilt\n8. zenith\n9. spore\n10. duty"
+            ],
+            [
+                "Here are ten nouns as distinct as possible:\n\n1.  Abstraction\n2.  Garbage\n3.  Velocity\n4.  Symmetry\n5.  Osmosis\n6.  Fiction\n7.  Rust\n8.  Breeze\n9.  Kernel\n10. Nightmare"
+            ],
+            [
+                "1. Void\n2. Ascent\n3. Kernel\n4. Reverie\n5. Spectrum\n6. Maw\n7. Epoch\n8. Catalyst\n9. Enigma\n10. Nexus"
+            ],
+            [
+                "*   Entropy\n*   Pixel\n*   Harbinger\n*   Quagmire\n*   Zephyr\n*   Encomium\n*   Trope\n*   Abyss\n*   Solstice\n*   Nadir"
+            ],
+            [
+                "*   Abyss\n*   Epiphany\n*   Quartz\n*   Zephyr\n*   Quill\n*   Mirth\n*   Onyx\n*   Effluvium\n*   Galaxy\n*   Brick"
+            ],
+            [
+                "1. Epiphany\n2. Archipelago\n3. Brick\n4. Viscosity\n5. Algorithm\n6. Nebula\n7. Nostalgia\n8. Quill\n9. Paradox\n10. Synthesis"
+            ],
+            [
+                "Here are 10 words as different as possible, in all meanings and uses of the words, following your criteria.\n\n1.  Eternity\n2.  Spoon\n3.  Quirk\n4.  Nadir\n5.  Harvest\n6.  Oxygen\n7.  Melody\n8.  Garnet\n9.  Whimsy\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Germ\n4. Kin\n5. Fleece\n6. Treachery\n7. Quagmire\n8. Balm\n9. Entropy\n10. Paradigm"
+            ],
+            [
+                "1. Absence\n2. Quill\n3. Oubliette\n4. Glimmer\n5. Cipher\n6. Nettle\n7. Zenith\n8. Maw\n9. Fathom\n10. Kernel"
+            ],
+            [
+                "1. Void\n2. Harmony\n3. Tempest\n4. Algorithm\n5. Serenity\n6. Irony\n7. Breadth\n8. Fungus\n9. Epiphany\n10. Inertia"
+            ],
+            [
+                "1. Abyss\n2. Notion\n3. Meadow\n4. Gear\n5. Omen\n6. Tariff\n7. Quirk\n8. Marble\n9. Thistle\n10. Oxygen"
+            ],
+            [
+                "1.  Epiphany\n2.  Granite\n3.  Melody\n4.  Apathy\n5.  Umbrella\n6.  Equation\n7.  Serenity\n8.  Venom\n9.  Overture\n10. Paradigm"
+            ],
+            [
+                "Here are 10 highly distinct nouns:\n\n1.  Eternity\n2.  Atom\n3.  Vacation\n4.  Metaphor\n5.  Oxygen\n6.  Synergy\n7.  Rhythm\n8.  Nostalgia\n9.  Garnish\n10. Algorithm"
+            ],
+            [
+                "1. void\n2. zenith\n3. rust\n4. anthem\n5. quiver\n6. fable\n7. notion\n8. bargain\n9. avalanche\n10. solace"
+            ],
+            [
+                "1. Epiphany\n2. Boulder\n3. Filament\n4. Vacuum\n5. Quandary\n6. Algorithm\n7. Zephyr\n8. Omen\n9. Molecule\n10. Scar"
+            ],
+            [
+                "1. Void\n2. Galaxy\n3. Theory\n4. Wheat\n5. Notion\n6. Torque\n7. Azure\n8. Prism\n9. Envelope\n10. Rhythm"
+            ],
+            [
+                "*   Void\n*   Harbor\n*   Spice\n*   Algorithm\n*   Omen\n*   Facet\n*   Aroma\n*   Riddle\n*   Quill\n*   Galaxy"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Kernel\n4. Prism\n5. Entropy\n6. Serenity\n7. Torque\n8. Glitch\n9. Hush\n10. Umbra"
+            ],
+            [
+                "*   Justice\n*   Epitome\n*   Nebula\n*   Brick\n*   Trepidation\n*   Quill\n*   Nadir\n*   Glacier\n*   Entropy\n*   Harvest"
+            ],
+            [
+                "Here are 10 disparate nouns:\n\n1.  Quantum\n2.  Sprout\n3.  Facade\n4.  Vacuum\n5.  Notion\n6.  Galaxy\n7.  Parasite\n8.  Alloy\n9.  Lullaby\n10. Ostrich"
+            ],
+            [
+                "1. void\n2. melody\n3. zenith\n4. pebble\n5. conundrum\n6. fragrance\n7. tapestry\n8. notion\n9. avalanche\n10. oxygen"
+            ],
+            [
+                "*   Abyss\n*   Datum\n*   Glee\n*   Epoch\n*   Quirk\n*   Kernel\n*   Zephyr\n*   Umbra\n*   Myriad\n*   Felicity"
+            ],
+            [
+                "1. void\n2. concept\n3. flora\n4. pyramid\n5. rhythm\n6. oxygen\n7. steel\n8. molecule\n9. velvet\n10. justice"
+            ],
+            [
+                "1. void\n2. oasis\n3. galaxy\n4. concept\n5. droplet\n6. solace\n7. chaos\n8. axiom\n9. brick\n10. spore"
+            ],
+            [
+                "Here are 10 nouns as distinct as possible:\n\n1.  Eternity\n2.  Puddle\n3.  Anvil\n4.  Symphony\n5.  Rust\n6.  Galaxy\n7.  Nostril\n8.  Quill\n9.  Theory\n10. Oxygen"
+            ],
+            [
+                "1. Void\n2. Kernel\n3. Zenith\n4. Sediment\n5. Spectrum\n6. Circuit\n7. Parchment\n8. Murmur\n9. Molecule\n10. Garnish"
+            ],
+            [
+                "1. Zenith\n2. Void\n3. Quark\n4. Epoch\n5. Sherbet\n6. Gauntlet\n7. Labyrinth\n8. Diode\n9. Archipelago\n10. Embroidery"
+            ],
+            [
+                "1. Void\n2. Corn\n3. Zenith\n4. Molecule\n5. Epoch\n6. Torque\n7. Fleece\n8. Enigma\n9. Oasis\n10. Quorum"
+            ]
+        ]
+    },
+    "gemini-2.5-flash": {
+        "{\"temperature\": 0.5}": [
+            [
+                "1. Void\n2. Light\n3. Tool\n4. Truth\n5. Water\n6. Dream\n7. Number\n8. Silence\n9. Journey\n10. Fabric"
+            ],
+            [
+                "Stone\nThought\nOcean\nSilence\nDream\nShadow\nWisdom\nCloud\nEcho\nJustice"
+            ],
+            [
+                "Stone\nThought\nOcean\nSilence\nJourney\nShadow\nJoy\nMachine\nEcho\nRoot"
+            ],
+            [
+                "Time\nStone\nThought\nSound\nTree\nLaw\nWater\nTool\nDream\nShadow"
+            ],
+            [
+                ""
+            ],
+            [
+                "Truth\nOrganism\nMachine\nPlanet\nSound\nEmotion\nShadow\nWater\nTool\nDream"
+            ],
+            [
+                "1. Stone\n2. Idea\n3. Ocean\n4. Silence\n5. Tool\n6. Moment\n7. Wind\n8. Void\n9. Music\n10. Limit"
+            ],
+            [
+                "Moment\nMountain\nSorrow\nTool\nSilence\nStone\nIdea\nCreature\nShadow\nFabric"
+            ],
+            [
+                ""
+            ],
+            [
+                "Stone\nIdea\nTree\nSilence\nJourney\nJoy\nShadow\nWater\nLaw\nMachine"
+            ],
+            [
+                "1. Stone\n2. Dream\n3. Echo\n4. Truth\n5. Root\n6. Void\n7. Scent\n8. Tool\n9. Moment\n10. Whisper"
+            ],
+            [
+                "Idea\nStone\nWater\nDream\nChair\nSilence\nTree\nNumber\nShadow\nJourney"
+            ],
+            [
+                "Stone\nThought\nWater\nSilence\nTool\nDream\nCloud\nJustice\nSeed\nMusic"
+            ],
+            [
+                "Stone\nTool\nTruth\nJoy\nCloud\nTime\nCreature\nSilence\nShadow\nGrowth"
+            ],
+            [
+                "Chaos\nTree\nRock\nWheel\nMoment\nSorrow\nLight\nOcean\nShadow\nMemory"
+            ],
+            [
+                "1. Thought\n2. Ocean\n3. Tool\n4. Creature\n5. Moment\n6. Shadow\n7. Dust\n8. Silence\n9. Joy\n10. Mountain"
+            ],
+            [
+                "Time\nFear\nSpace\nNumber\nRock\nAir\nBook\nBird\nDream\nColor"
+            ],
+            [
+                "Stone\nOcean\nIdea\nWind\nFreedom\nBird\nSound\nThread\nDream\nShadow"
+            ],
+            [
+                "Time\nStone\nDream\nOcean\nTruth\nShadow\nMachine\nWhisper\nRoot\nChoice"
+            ],
+            [
+                "1.  Rock\n2.  Water\n3.  Cloud\n4.  Tree\n5.  Machine\n6.  Time\n7.  Idea\n8.  Sound\n9.  Justice\n10. Sleep"
+            ],
+            [
+                "Rock\nDream\nWater\nSilence\nTool\nShadow\nTruth\nMotion\nRoot\nEcho"
+            ],
+            [
+                "Void\nStone\nDream\nRiver\nTool\nTruth\nShadow\nBreath\nMusic\nSeed"
+            ],
+            [
+                "Stone\nSilence\nRiver\nDream\nChair\nTruth\nCloud\nInsect\nConsequence\nShadow"
+            ],
+            [
+                "*   Stone\n*   Emotion\n*   Light\n*   Silence\n*   Tool\n*   Idea\n*   Water\n*   Space\n*   Time\n*   Creature"
+            ],
+            [
+                "1. Truth\n2. Light\n3. Plant\n4. Tool\n5. Water\n6. Moment\n7. Joy\n8. Space\n9. Voice\n10. Chaos"
+            ],
+            [
+                "*   Time\n*   Tree\n*   Wheel\n*   Dream\n*   Cloud\n*   Silence\n*   Book\n*   Grain\n*   Force\n*   Star"
+            ],
+            [
+                "Stone\nDream\nWater\nTruth\nWheel\nSilence\nCloud\nPurpose\nShadow\nJoy"
+            ],
+            [
+                ""
+            ],
+            [
+                "Time\nBird\nRock\nChair\nIdea\nPeace\nWind\nHeart\nNumber\nLaw"
+            ],
+            [
+                ""
+            ],
+            [
+                "Stone\nIdea\nWind\nJoy\nBird\nTool\nTime\nHouse\nShadow\nUniverse"
+            ],
+            [
+                "Stone\nDream\nOcean\nTruth\nBird\nSilence\nWheel\nCloud\nPain\nBook"
+            ],
+            [
+                "Truth\nStone\nDream\nWater\nTool\nSilence\nJoy\nCloud\nNumber\nPlant"
+            ],
+            [
+                "Stone\nThought\nOcean\nSilence\nHour\nBird\nShadow\nJustice\nWheel\nDream"
+            ],
+            [
+                "1. Stone\n2. Moment\n3. Joy\n4. Wind\n5. Number\n6. Idea\n7. Creature\n8. System\n9. Void\n10. Sound"
+            ],
+            [
+                "Moment\nTree\nButton\nSilence\nThought\nCloud\nBuilding\nColor\nStone\nCrowd"
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                "Rock\nIdea\nLight\nRule\nWater\nTime\nTool\nJoy\nPlant\nOdor"
+            ],
+            "Error: 504 Deadline Exceeded",
+            [
+                "Stone\nIdea\nWater\nDream\nVoice\nCloud\nTool\nTruth\nRoot\nShadow"
+            ],
+            [
+                "Time\nRock\nTool\nAnimal\nSound\nDream\nAir\nNumber\nSeed\nJourney"
+            ],
+            [
+                "Void\nStone\nSilence\nGrowth\nDream\nScent\nPath\nCloud\nJustice\nThread"
+            ],
+            [
+                "Stone\nThought\nWater\nLight\nPlant\nTool\nDream\nEcho\nPeace\nFuture"
+            ],
+            [
+                ""
+            ],
+            [
+                "Dust\nLight\nTime\nSpace\nIdea\nChaos\nOrganism\nTool\nEcho\nCycle"
+            ],
+            [
+                "Void\nFlame\nRoot\nEcho\nMirror\nScent\nJustice\nWheel\nMoment\nThought"
+            ],
+            [
+                "Time\nStone\nDream\nTruth\nWater\nTool\nCrowd\nSound\nGrowth\nVoid"
+            ],
+            [
+                "Thought\nStone\nWater\nDream\nVoice\nShadow\nRoot\nSilence\nFriction\nBridge"
+            ],
+            [
+                "Idea\nRock\nTime\nWater\nTruth\nWheel\nFear\nCloud\nNumber\nSound"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "Time\nRock\nDream\nTool\nSilence\nWater\nIdea\nAnimal\nShadow\nBook"
+            ],
+            [
+                "Stone\nIdea\nSilence\nOcean\nDream\nDust\nFreedom\nEnergy\nLeaf\nShadow"
+            ],
+            [
+                "Mountain\nIdea\nKey\nSound\nPlant\nEnergy\nCloud\nJustice\nGrain\nMoment"
+            ],
+            [
+                "Rock\nThought\nOcean\nSilence\nTime\nFire\nSleep\nVoid\nMusic\nShadow"
+            ],
+            [
+                "Truth\nStone\nStar\nBird\nMoment\nVoid\nHope\nGrowth\nWater\nLanguage"
+            ],
+            [
+                "Stone\nIdea\nWater\nSilence\nJourney\nDream\nLight\nWisdom\nRoot\nVoice"
+            ],
+            [
+                "Water\nTruth\nFreedom\nLightning\nMemory\nVoid\nSeed\nMotion\nNumber\nScent"
+            ],
+            [
+                "Peace\nEra\nInsect\nMountain\nNeedle\nBottle\nDust\nNerve\nShadow\nIdea"
+            ],
+            [
+                "Rock\nIdea\nWater\nDream\nVoice\nChair\nCloud\nSpirit\nDust\nChoice"
+            ],
+            [
+                "Stone\nThought\nOcean\nMusic\nChair\nTime\nStar\nDream\nDust\nJourney"
+            ],
+            [
+                "Time\nAtom\nSound\nVoid\nTool\nMountain\nDream\nNumber\nAnimal\nBridge"
+            ],
+            [
+                "Stone\nIdea\nWater\nTime\nBird\nFear\nCloud\nSilence\nWheel\nDream"
+            ],
+            [
+                "Tree\nSound\nThought\nTool\nWater\nTime\nShadow\nCreature\nPoint\nFabric"
+            ],
+            [
+                "Truth\nRoot\nWind\nNeedle\nCave\nMoment\nMud\nTaste\nJoy\nRule"
+            ],
+            [
+                "Stone\nWater\nCloud\nTool\nSilence\nDream\nTruth\nJourney\nLight\nRhythm"
+            ],
+            [
+                "Time\nStar\nStone\nFear\nSpoon\nPlant\nCloud\nEnergy\nBook\nLaw"
+            ],
+            [
+                "Rock\nIdea\nDream\nWater\nTool\nSilence\nGrowth\nStar\nJustice\nPain"
+            ],
+            [
+                "Stone\nIdea\nWater\nDream\nVoice\nCloud\nHope\nDust\nJourney\nShadow"
+            ],
+            [
+                "Time\nStone\nShadow\nDream\nSound\nLeaf\nTruth\nMachine\nWater\nSpirit"
+            ],
+            [
+                "1. Time\n2. Stone\n3. Animal\n4. Tool\n5. Thought\n6. Wind\n7. Joy\n8. Mountain\n9. Word\n10. House"
+            ],
+            [
+                "Air\nDream\nOcean\nSilence\nJourney\nShadow\nTruth\nFlower\nChaos\nEcho"
+            ],
+            [
+                "1. Time\n2. Stone\n3. Tool\n4. Creature\n5. Chaos\n6. Particle\n7. Void\n8. Sound\n9. Language\n10. Change"
+            ],
+            [
+                "Void\nStone\nDream\nWave\nTruth\nRoot\nShadow\nThirst\nWheel\nVoice"
+            ],
+            [
+                "Time\nHope\nTruth\nSilence\nWater\nMountain\nInsect\nTool\nCrowd\nJourney"
+            ],
+            [
+                "Time\nStone\nOcean\nMusic\nRoot\nSilence\nDust\nJustice\nWind\nSpirit"
+            ],
+            [
+                "Love\nMountain\nWater\nIdea\nTool\nSound\nTime\nNumber\nDream\nShadow"
+            ],
+            [
+                "1. Truth\n2. Stone\n3. Dream\n4. Water\n5. Silence\n6. Machine\n7. Freedom\n8. Leaf\n9. Thought\n10. Space"
+            ],
+            [
+                "Stone\nDream\nWater\nMusic\nShadow\nJustice\nAtom\nForest\nMoment\nWeapon"
+            ],
+            [
+                "Stone\nWave\nGloom\nButton\nTruth\nGrowth\nEcho\nVoid\nThread\nEssence"
+            ],
+            [
+                "* Void\n* Stone\n* Idea\n* Echo\n* Moment\n* Machine\n* Dream\n* Fabric\n* Truth\n* Growth"
+            ],
+            [
+                "Time\nStone\nDream\nOcean\nThread\nThought\nShadow\nVoice\nRoot\nWhisper"
+            ],
+            [
+                "Silence\nTree\nClock\nLight\nStone\nHope\nHeart\nSpace\nWater\nTruth"
+            ],
+            [
+                "Stone\nIdea\nSky\nTool\nDream\nEcho\nSpirit\nLeaf\nMachine\nSilence"
+            ],
+            [
+                "Stone\nThought\nOcean\nMusic\nShadow\nTool\nDream\nJustice\nVoid\nLeaf"
+            ],
+            [
+                "Time\nStone\nThought\nWater\nChair\nDream\nSilence\nFlower\nJourney\nShadow"
+            ],
+            [
+                "Rock\nTime\nSound\nLife\nChaos\nNumber\nLight\nVoid\nTool\nJoy"
+            ],
+            [
+                "1. Time\n2. Water\n3. Stone\n4. Animal\n5. Idea\n6. Sound\n7. Fear\n8. Light\n9. Journey\n10. Silence"
+            ],
+            [
+                "*   Stone\n*   Dream\n*   Sound\n*   Truth\n*   Wheel\n*   Wind\n*   Seed\n*   Hope\n*   Time\n*   Custom"
+            ],
+            [
+                "Silence\nStone\nHope\nStorm\nLaw\nDust\nCreature\nShadow\nJourney\nChaos"
+            ],
+            [
+                ""
+            ],
+            [
+                "Chaos\nRiver\nAura\nMetal\nLaughter\nPillar\nGerm\nVoid\nGloom\nJourney"
+            ],
+            [
+                "Moment\nStone\nCreature\nThought\nBuilding\nSound\nVessel\nChaos\nWater\nPiece"
+            ],
+            [
+                "1. Time\n2. Rock\n3. Thought\n4. Water\n5. Dream\n6. Tool\n7. Sound\n8. Void\n9. Seed\n10. Justice"
+            ],
+            [
+                "Truth\nGrain\nEngine\nJourney\nShadow\nStorm\nVoid\nSpore\nRiddle\nCipher"
+            ],
+            [
+                "Time\nLiquid\nCreature\nThought\nJourney\nSound\nTool\nStorm\nNumber\nPeace"
+            ],
+            [
+                "Spoon\nOcean\nFuture\nInsect\nIdea\nStone\nPeace\nBone\nBuilding\nSilence"
+            ],
+            [
+                "Mountain\nFreedom\nBird\nChair\nSilence\nWave\nGrain\nShadow\nLight\nTime"
+            ],
+            [
+                "Rock\nThought\nEcho\nShadow\nDream\nVoid\nPattern\nWhisper\nFabric\nMoment"
+            ],
+            [
+                "1. Rock\n2. Emotion\n3. Velocity\n4. Shadow\n5. Truth\n6. Flesh\n7. Echo\n8. Cloud\n9. Purpose\n10. Moment"
+            ],
+            [
+                "Idea\nAnimal\nMountain\nHammer\nHouse\nBread\nMoment\nJoy\nGalaxy\nSeed"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "Rock\nTruth\nTime\nTree\nSound\nWater\nThought\nChair\nEmotion\nShadow"
+            ],
+            [
+                "Stone\nHope\nCloud\nTool\nSilence\nEnergy\nSleep\nJustice\nWater\nIdea"
+            ],
+            [
+                "Void\nTree\nTruth\nTool\nJourney\nSilence\nWave\nIdea\nStone\nShadow"
+            ],
+            [
+                "Rock\nDream\nEcho\nWisdom\nTool\nSilence\nOcean\nChaos\nShadow\nJourney"
+            ],
+            [
+                "1. Water\n2. Thought\n3. Chair\n4. Tree\n5. Justice\n6. Rock\n7. Building\n8. Moment\n9. Sound\n10. Dream"
+            ],
+            [
+                "Stone\nDream\nColor\nEcho\nRoot\nEdge\nSkill\nVoid\nPath\nLaughter"
+            ],
+            [
+                "1. Truth\n2. Stone\n3. Dream\n4. Wind\n5. Silence\n6. Growth\n7. Shadow\n8. Vessel\n9. Echo\n10. Taste"
+            ],
+            [
+                "Stone\nThought\nWater\nMusic\nTree\nDream\nFire\nCircle\nSilence\nJourney"
+            ],
+            [
+                "Stone\nThought\nWater\nDream\nTree\nMusic\nShadow\nTool\nSilence\nJourney"
+            ],
+            [
+                "Time\nPebble\nBuilding\nAroma\nEnergy\nAnimal\nUniverse\nJoy\nWater\nSilence"
+            ],
+            [
+                "Stone\nDream\nFire\nBird\nWheel\nJoy\nFuture\nAir\nTruth\nSilence"
+            ],
+            [
+                "Rock\nIdea\nSilence\nBlade\nWater\nJustice\nCloud\nThread\nDream\nMotion"
+            ],
+            [
+                "Tree\nIdea\nFire\nSilence\nTool\nOcean\nSecond\nJustice\nBreath\nDust"
+            ],
+            [
+                "1. Idea\n2. Stone\n3. Water\n4. Silence\n5. Tool\n6. Journey\n7. Emotion\n8. Cloud\n9. Bridge\n10. Whisper"
+            ],
+            [
+                "Void\nStone\nTruth\nThread\nFlower\nMusic\nScent\nGesture\nGravity\nBubble"
+            ],
+            [
+                "Rock\nIdea\nBird\nShadow\nWater\nChair\nTime\nEcho\nDream\nCrowd"
+            ],
+            [
+                "Dream\nStone\nSilence\nJustice\nRoot\nSpark\nWisdom\nCloud\nLaughter\nShadow"
+            ],
+            [
+                "Rock\nThought\nWater\nDream\nTime\nTool\nSound\nSeed\nVoid\nCircle"
+            ],
+            [
+                "Mountain\nDream\nSpoon\nSilence\nWater\nFreedom\nDust\nTruth\nPath\nThread"
+            ],
+            [
+                "1.  Dust\n2.  Ocean\n3.  Tree\n4.  Clock\n5.  Sound\n6.  Idea\n7.  Law\n8.  Energy\n9.  Shadow\n10. Flavor"
+            ],
+            [
+                "Time\nMountain\nSeed\nKey\nSound\nThought\nCloud\nHope\nBuilding\nPoint"
+            ],
+            [
+                "* Mountain\n* Number\n* Whisper\n* Root\n* Journey\n* Fabric\n* Idea\n* Echo\n* Void\n* Flame"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Void\n4.  Water\n5.  Plant\n6.  Tool\n7.  Pain\n8.  Space\n9.  Hope\n10. Bridge"
+            ],
+            [
+                "Truth\nStone\nDream\nOcean\nSilence\nThread\nPlanet\nChaos\nEcho\nShadow"
+            ],
+            [
+                "Thought\nJoy\nTree\nAir\nMoment\nTool\nNoise\nMountain\nRule\nZero"
+            ],
+            [
+                "Mind\nStone\nOcean\nJoy\nEcho\nRoot\nShadow\nThread\nWheel\nDream"
+            ],
+            [
+                "Rock\nIdea\nSilence\nOcean\nDream\nJourney\nOdor\nWisdom\nVoid\nChair"
+            ],
+            [
+                "Rock\nTime\nTree\nLight\nFreedom\nKey\nWater\nNumber\nSound\nIdea"
+            ],
+            [
+                "1. Stone\n2. Time\n3. Tree\n4. Book\n5. Peace\n6. Sound\n7. Language\n8. Light\n9. Fire\n10. Dream"
+            ],
+            [
+                "*   Rock\n*   Thought\n*   Storm\n*   Atom\n*   Shadow\n*   Tool\n*   Dream\n*   Silence\n*   Freedom\n*   Bridge"
+            ],
+            [
+                "1. Rock\n2. Cloud\n3. Dream\n4. Silence\n5. Justice\n6. Force\n7. Seed\n8. Echo\n9. Horizon\n10. Void"
+            ],
+            [
+                "Thought\nStone\nLight\nVessel\nChaos\nString\nHope\nEcho\nBreath\nDust"
+            ],
+            [
+                "Bird\nTime\nStone\nWheel\nCity\nNoise\nDream\nRule\nHand\nDust"
+            ],
+            [
+                "Light\nStone\nDream\nSound\nTool\nSilence\nFuture\nWeight\nPath\nEmotion"
+            ],
+            [
+                "Planet\nWhisper\nThought\nBranch\nSilence\nMachine\nWonder\nGrain\nEcho\nShadow"
+            ],
+            [
+                "1. Truth\n2. Rock\n3. Air\n4. Wheel\n5. Sound\n6. Tree\n7. Dream\n8. Shadow\n9. Knife\n10. Cloud"
+            ],
+            [
+                "Void\nMoment\nThought\nRiver\nWhisper\nStone\nShadow\nFlesh\nJustice\nWave"
+            ],
+            [
+                "Time\nMountain\nChair\nCreature\nJoy\nLiquid\nSilence\nTool\nLight\nIdea"
+            ],
+            [
+                "Mountain\nKey\nMoment\nJoy\nCloud\nFish\nLaw\nGrain\nSilence\nBuilding"
+            ],
+            [
+                "*   Love\n*   Stone\n*   Silence\n*   Ocean\n*   Dream\n*   Wheel\n*   Dust\n*   Time\n*   Seed\n*   Void"
+            ],
+            [
+                "*   Silence\n*   Mountain\n*   Idea\n*   Shadow\n*   Journey\n*   Echo\n*   Scent\n*   Void\n*   Dream\n*   Bridge"
+            ],
+            [
+                "Mountain\nTime\nBook\nFlower\nDream\nJourney\nShadow\nNumber\nKey\nHope"
+            ],
+            [
+                "1.  Freedom\n2.  Stone\n3.  Insect\n4.  Wheel\n5.  Sound\n6.  Brain\n7.  Dust\n8.  Journey\n9.  Bowl\n10. Idea"
+            ],
+            [
+                "Stone\nThought\nWater\nSilence\nFreedom\nTool\nDust\nDream\nEcho\nBridge"
+            ],
+            [
+                "Truth\nWater\nBird\nBook\nDream\nSilence\nNumber\nShadow\nSeed\nStar"
+            ],
+            [
+                "Tree\nTool\nThought\nTime\nWater\nSound\nChair\nJustice\nShadow\nFear"
+            ],
+            [
+                "1. Truth\n2. Stone\n3. Water\n4. Air\n5. Dream\n6. Music\n7. Shadow\n8. Silence\n9. Time\n10. Bridge"
+            ],
+            [
+                "1.  Freedom\n2.  Stone\n3.  Dream\n4.  Water\n5.  Journey\n6.  Thought\n7.  Shadow\n8.  Silence\n9.  Leaf\n10. Machine"
+            ],
+            [
+                "Idea\nCreature\nWall\nCloud\nJourney\nDust\nSound\nPeace\nPattern\nFuture"
+            ],
+            [
+                "Time\nCloud\nTool\nFear\nShadow\nInsect\nSound\nNumber\nGrowth\nEnergy"
+            ]
+        ],
+        "{\"temperature\": 2}": [
+            [
+                "Truth\nWater\nDream\nSilence\nAnimal\nTool\nMoment\nMountain\nCourage\nGravity"
+            ],
+            [
+                "Stone\nDream\nStorm\nJoy\nWheel\nScent\nRoot\nSilence\nSpace\nMirror"
+            ],
+            [
+                "Time\nStone\nThought\nOcean\nVoice\nRule\nFeather\nSilence\nDream\nBridge"
+            ],
+            [
+                "Stone\nThought\nBreath\nOcean\nRhythm\nEdge\nLaughter\nSeed\nDust\nWhisper"
+            ],
+            [
+                "Grain\nOcean\nSilence\nJourney\nTool\nWind\nThought\nLeaf\nOdor\nPattern"
+            ],
+            [
+                "1. Rock\n2. Idea\n3. Water\n4. Dream\n5. Wind\n6. Blade\n7. Space\n8. Shadow\n9. Humor\n10. Vessel"
+            ],
+            [
+                "Truth\nWater\nSilence\nJourney\nStone\nThought\nSpace\nSleep\nHope\nShadow"
+            ],
+            [
+                "Stone\nIdea\nAnimal\nShadow\nMoment\nTool\nWater\nSilence\nPain\nBridge"
+            ],
+            [
+                "Stone\nThought\nCloud\nSilence\nTool\nOcean\nDream\nColor\nGrief\nFabric"
+            ],
+            [
+                "*   Stone\n*   Idea\n*   Wind\n*   Silence\n*   Path\n*   Scent\n*   Weight\n*   Justice\n*   Bubble\n*   Dream"
+            ],
+            [
+                "Chaos\nFlesh\nRipple\nOrbit\nShade\nAche\nWhisper\nPillar\nSpark\nThread"
+            ],
+            [
+                "Dust\nPain\nLight\nTruth\nTree\nBreath\nMusic\nVoid\nAnchor\nSleep"
+            ],
+            [
+                "Rock\nWater\nTime\nDream\nSilence\nTool\nLeaf\nAir\nLight\nChaos"
+            ],
+            [
+                "Stone\nTool\nCloud\nShadow\nThought\nChaos\nDistance\nSeed\nScent\nTruth"
+            ],
+            [
+                "Existence\nStone\nWater\nVoice\nMind\nShadow\nScent\nWeight\nTool\nSilence"
+            ],
+            [
+                "Rock\nWater\nBird\nBook\nTruth\nTime\nFear\nStorm\nMusic\nIdea"
+            ],
+            [
+                "1. Time\n2. Stone\n3. Thought\n4. Water\n5. Tool\n6. Sound\n7. Rule\n8. Cloud\n9. Seed\n10. Edge"
+            ],
+            [
+                "Stone\nThought\nOcean\nDream\nTree\nSilence\nTool\nCloud\nMusic\nShadow"
+            ],
+            [
+                "Time\nStone\nAir\nWheel\nFear\nWater\nSpace\nIdea\nShadow\nSeed"
+            ],
+            [
+                "Light\nMountain\nCoin\nJustice\nStorm\nInsect\nHour\nEcho\nRock\nSleep"
+            ],
+            [
+                "1. Thought\n2. Stone\n3. Water\n4. Tree\n5. Sound\n6. Justice\n7. Creature\n8. Cloud\n9. Moment\n10. Tool"
+            ],
+            [
+                "Truth\nStone\nThought\nWave\nTool\nShadow\nSeed\nChaos\nSound\nMirror"
+            ],
+            [
+                "Door\nTime\nFlower\nOcean\nWall\nMetal\nDream\nCrowd\nEcho\nNumber"
+            ],
+            [
+                "1. Stone\n2. Moment\n3. Fear\n4. Light\n5. Plant\n6. Water\n7. Idea\n8. Silence\n9. Limit\n10. Tool"
+            ],
+            [
+                "Stone\nTime\nCloud\nLaw\nJoy\nEdge\nSeed\nWheel\nVoid\nWhisper"
+            ],
+            [
+                "Chair\nDust\nEngine\nForest\nHope\nJourney\nMusic\nRhythm\nSpace\nWave"
+            ],
+            [
+                "Time\nSeed\nOcean\nWheel\nSilence\nDream\nFlame\nCrowd\nBreath\nDust"
+            ],
+            [
+                "Thought\nOcean\nMoment\nSpoon\nCloud\nSilence\nRock\nJustice\nFire\nPoint"
+            ],
+            [
+                "Time\nStone\nDream\nWind\nChair\nSorrow\nThread\nVoid\nEcho\nRoot"
+            ],
+            [
+                "1. Idea\n2. Joy\n3. Fire\n4. Root\n5. Cloud\n6. Wheel\n7. Clay\n8. Hour\n9. Hand\n10. Scent"
+            ],
+            [
+                "1. Time\n2. Rock\n3. Thought\n4. Chair\n5. Wind\n6. Silence\n7. Fear\n8. Edge\n9. Music\n10. Choice"
+            ],
+            [
+                "Stone\nIdea\nWater\nSilence\nFlame\nMachine\nScent\nRoot\nVoid\nHappiness"
+            ],
+            [
+                "Button\nPeace\nMountain\nJourney\nWater\nAnimal\nTruth\nSilence\nWord\nTool"
+            ],
+            [
+                "Void\nStone\nLight\nDream\nRiver\nRule\nWhisper\nFabric\nShadow\nAnchor"
+            ],
+            [
+                "Tree\nCoin\nLove\nJustice\nShadow\nSilence\nDream\nCloud\nWisdom\nBridge"
+            ],
+            [
+                "Time\nStone\nHope\nIdea\nWind\nRule\nWater\nShape\nPlant\nVoice"
+            ],
+            [
+                "Air\nJoy\nStone\nTruth\nChair\nTime\nEcho\nRoot\nRhythm\nCloth"
+            ],
+            [
+                "Rock\nIdea\nWater\nDream\nTool\nWind\nSilence\nThread\nEcho\nShadow"
+            ],
+            [
+                "Love\nWind\nStone\nTree\nKey\nLight\nMinute\nVoid\nWheel\nBread"
+            ],
+            [
+                "Mountain\nTime\nChair\nWind\nSeed\nThought\nSound\nMachine\nFlower\nChaos"
+            ],
+            [
+                "Time\nStone\nThought\nOcean\nTool\nSound\nDream\nLeaf\nNumber\nComfort"
+            ],
+            [
+                "Wheel\nSeed\nSilence\nOcean\nHope\nSecond\nWall\nGlow\nJourney\nKnot"
+            ],
+            [
+                "Stone\nTree\nHouse\nTime\nFreedom\nWater\nIdea\nWheel\nSilence\nNumber"
+            ],
+            [
+                "Stone\nThought\nSilence\nTime\nTool\nDream\nSmoke\nRhythm\nVortex\nPatience"
+            ],
+            [
+                "Justice\nPlanet\nWater\nCreature\nTool\nSilence\nFire\nDream\nMountain\nYear"
+            ],
+            [
+                "Chaos\nShadow\nPlant\nThread\nStone\nOcean\nMoment\nSound\nDream\nVoid"
+            ],
+            [
+                "Rock\nThought\nLight\nJourney\nEcho\nHope\nMachine\nDust\nDream\nShadow"
+            ],
+            [
+                "Stone\nWater\nShadow\nSilence\nKey\nFreedom\nCloud\nJourney\nRhythm\nBalance"
+            ],
+            [
+                "Concept\nStone\nOcean\nDream\nSeed\nLight\nThought\nStructure\nBlade\nMoment"
+            ],
+            [
+                "Grief\nMountain\nButton\nCycle\nAroma\nFreedom\nSeed\nGravity\nMeasure\nDream"
+            ]
+        ]
+    },
+    "gemini-2.5-flash-preview-04-17": {
+        "{\"temperature\": 0.5}": [
+            [
+                "Idea\nMountain\nButton\nInsect\nMoment\nGlass\nSilence\nBridge\nCrowd\nShadow"
+            ],
+            [
+                "Freedom\nStone\nSilence\nDream\nShadow\nPath\nWisdom\nWater\nMoment\nKey"
+            ],
+            [
+                "Idea\nRock\nWater\nBird\nSound\nJustice\nChair\nTime\nDream\nShadow"
+            ],
+            [
+                "Stone\nTree\nRiver\nCloud\nIdea\nEmotion\nJustice\nDream\nTool\nSilence"
+            ],
+            [
+                "Time\nStone\nDream\nTool\nShadow\nTruth\nRiver\nMemory\nGift\nSilence"
+            ],
+            [
+                ""
+            ],
+            [
+                "Fear\nStone\nKey\nBird\nTree\nHour\nRoom\nThought\nGlass\nFamily"
+            ],
+            [
+                ""
+            ],
+            [
+                "Freedom\nChair\nWater\nSadness\nHour\nWord\nMountain\nAnimal\nGrowth\nBox"
+            ],
+            [
+                "Stone\nDream\nOcean\nJustice\nChair\nFear\nStar\nSilence\nBird\nIdea"
+            ],
+            [
+                "Stone\nIdea\nOcean\nSilence\nTool\nDream\nTree\nLaw\nShadow\nTaste"
+            ],
+            [
+                ""
+            ],
+            [
+                "Tree\nHope\nBook\nMoment\nWater\nTrust\nHouse\nIdea\nHammer\nSilence"
+            ],
+            [
+                "Idea\nStone\nChair\nTime\nWeather\nJoy\nWater\nTruth\nPlant\nJourney"
+            ],
+            [
+                "Stone\nTime\nIdea\nWater\nSound\nJustice\nAnimal\nBook\nDream\nFire"
+            ],
+            [
+                "Stone\nBuilding\nJoy\nMoment\nBird\nMountain\nSilence\nTool\nRule\nWater"
+            ],
+            [
+                "Stone\nIdea\nFreedom\nChair\nJoy\nForest\nBook\nTime\nJourney\nShadow"
+            ],
+            [
+                "Idea\nStone\nSilence\nJourney\nWater\nDream\nShadow\nTool\nEmotion\nStructure"
+            ],
+            [
+                "Idea\nStone\nChair\nBird\nWater\nJoy\nWall\nCloud\nHour\nCrowd"
+            ],
+            [
+                "Stone\nMountain\nSilence\nDream\nOcean\nShadow\nJustice\nThread\nWhisper\nMoment"
+            ],
+            [
+                "Time\nStone\nIdea\nWater\nPeace\nHouse\nJourney\nTree\nNumber\nStar"
+            ],
+            [
+                "Time\nRock\nIdea\nWater\nSound\nSystem\nAnimal\nChange\nColor\nQuantity"
+            ],
+            [
+                "Rock\nJoy\nMoment\nCrowd\nGrowth\nSound\nBuilding\nWater\nPlan\nVoid"
+            ],
+            [
+                "Joy\nStone\nMoment\nMountain\nFriendship\nHammer\nSilence\nTree\nIdea\nBox"
+            ],
+            [
+                ""
+            ],
+            [
+                "Stone\nDream\nJourney\nSystem\nSilence\nTool\nKindness\nEcho\nShadow\nRiver"
+            ],
+            [
+                "Idea\nStone\nMountain\nMoment\nPeace\nBook\nSystem\nLight\nBridge\nEnergy"
+            ],
+            [
+                "Stone\nDream\nSilence\nOcean\nJustice\nFeather\nShadow\nWhisper\nJourney\nStar"
+            ],
+            [
+                "House\nMountain\nFlower\nFear\nSilence\nIdea\nMoment\nVoid\nHerd\nDream"
+            ],
+            [
+                "Freedom\nStone\nShadow\nAnimal\nSilence\nOcean\nMoment\nDust\nDream\nWeapon"
+            ],
+            [
+                "stone\npeace\nmoment\ncrowd\nwind\nmirror\nsound\ndoor\nanimal\ntruth"
+            ],
+            [
+                "1. Stone\n2. Dream\n3. Justice\n4. Ocean\n5. Silence\n6. Hope\n7. Shadow\n8. Whisper\n9. Thread\n10. Moment"
+            ],
+            [
+                "Truth\nStone\nMoment\nJoy\nOcean\nShadow\nIdea\nDream\nJourney\nEcho"
+            ],
+            [
+                "Time\nChair\nFear\nWater\nWall\nIdea\nStar\nBox\nSilence\nStone"
+            ],
+            [
+                "Justice\nStone\nDream\nOcean\nSilence\nTool\nFear\nJourney\nShadow\nSeed"
+            ],
+            [
+                ""
+            ],
+            [
+                "Hour\nStone\nJoy\nJourney\nCreature\nStorm\nThought\nBuilding\nSound\nRule"
+            ],
+            [
+                "Silence\nMountain\nIdea\nPebble\nJourney\nLight\nNumber\nMirror\nWind\nHope"
+            ],
+            [
+                "Stone\nIdea\nOcean\nSilence\nDream\nTool\nColor\nJustice\nShadow\nAnimal"
+            ],
+            [
+                "Stone\nIdea\nWater\nFreedom\nSound\nNumber\nTree\nTime\nEmotion\nSpace"
+            ],
+            [
+                "Stone\nDream\nJustice\nRiver\nSilence\nTool\nMemory\nShadow\nJourney\nFlavor"
+            ],
+            [
+                "Knowledge\nStone\nCloud\nAnimal\nSilence\nMirror\nJourney\nDust\nMemory\nStar"
+            ],
+            [
+                "Stone\nIdea\nWater\nFear\nTree\nNumber\nSound\nFreedom\nCloud\nDream"
+            ],
+            [
+                "Justice\nStone\nSilence\nDream\nOcean\nNumber\nShadow\nWisdom\nThread\nStorm"
+            ],
+            [
+                "Time\nStone\nDream\nOcean\nSound\nFear\nBuilding\nAir\nCrowd\nTruth"
+            ],
+            [
+                ""
+            ],
+            [
+                "Idea\nStone\nOcean\nBird\nJoy\nHour\nSound\nFamily\nJourney\nFabric"
+            ],
+            [
+                ""
+            ],
+            [
+                "Idea\nHammer\nBird\nHour\nRain\nLaw\nColor\nJourney\nStone\nRoom"
+            ],
+            [
+                "Idea\nStone\nJourney\nSilence\nDream\nRiver\nTool\nColor\nWisdom\nSeed"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "Idea\nRock\nMountain\nBird\nJoy\nHour\nPeace\nWind\nTool\nColor"
+            ],
+            [
+                "Silence\nStone\nDream\nMotion\nJoy\nCloud\nRoot\nDust\nThread\nSystem"
+            ],
+            [
+                "Stone\nLove\nSilence\nRain\nTree\nHour\nPile\nDream\nRoad\nDust"
+            ],
+            [
+                "1. Time\n2. Stone\n3. Language\n4. Sound\n5. Joy\n6. System\n7. Ocean\n8. Cloth\n9. Process\n10. Shape"
+            ],
+            [
+                "Rock\nIdea\nWater\nTruth\nCloud\nSound\nTree\nSpace\nSociety\nJoy"
+            ],
+            [
+                "1. Hope\n2. Stone\n3. Crowd\n4. Time\n5. Silence\n6. Dream\n7. Ocean\n8. Thread\n9. Truth\n10. Shadow"
+            ],
+            [
+                "1. Stone\n2. Idea\n3. Silence\n4. River\n5. Hour\n6. Table\n7. Dream\n8. Shadow\n9. Truth\n10. Cloud"
+            ],
+            [
+                "Cloud\nMemory\nFear\nTool\nEcho\nSeed\nChaos\nBridge\nMusic\nJourney"
+            ],
+            [
+                "Hope\nStone\nChair\nColor\nFamily\nMinute\nGrowth\nGlass\nAnger\nWord"
+            ],
+            [
+                "*   Justice\n*   Stone\n*   Silence\n*   Dream\n*   Water\n*   Number\n*   Tree\n*   Color\n*   Conversation\n*   Shadow"
+            ],
+            [
+                "*   Stone\n*   Peace\n*   Sound\n*   Thought\n*   Chair\n*   Moment\n*   Rain\n*   Joy\n*   Wall\n*   Flower"
+            ],
+            [
+                "Stone\nJoy\nMoment\nAmount\nWind\nWall\nBird\nKnife\nSilence\nIdea"
+            ],
+            [
+                "Stone\nBuilding\nFreedom\nJoy\nWeather\nMinute\nHammer\nTree\nSilence\nCrowd"
+            ],
+            [
+                "1.  rock\n2.  hope\n3.  mountain\n4.  moment\n5.  bird\n6.  idea\n7.  chair\n8.  transformation\n9.  water\n10. language"
+            ],
+            [
+                "Rock\nDream\nSilence\nJourney\nKnowledge\nShadow\nCloud\nCourage\nNumber\nFlavor"
+            ],
+            [
+                "Stone\nWater\nSilence\nMountain\nHand\nColor\nLove\nFire\nNumber\nTree"
+            ],
+            [
+                "Stone\nDream\nCrowd\nSilence\nOcean\nThread\nTruth\nShadow\nBread\nWheel"
+            ],
+            [
+                "Stone\nIdea\nTree\nHour\nJoy\nCrowd\nRain\nDoor\nWater\nJourney"
+            ],
+            [
+                "Rock\nDream\nJustice\nRiver\nSilence\nIdea\nShadow\nSleep\nColor\nJourney"
+            ],
+            [
+                "Stone\nIdea\nStorm\nJustice\nAnimal\nJourney\nSleep\nSilence\nStructure\nGrowth"
+            ],
+            [
+                "Peace\nTruth\nLion\nLeaf\nMountain\nBridge\nStorm\nGold\nBlood\nScent"
+            ],
+            [
+                "Stone\nDream\nTree\nSound\nJustice\nOcean\nThread\nSilence\nShadow\nHarvest"
+            ],
+            [
+                "1. Hope\n2. Rock\n3. Ocean\n4. Bird\n5. Fire\n6. Dream\n7. Number\n8. Justice\n9. Chair\n10. Wind"
+            ],
+            [
+                "Stone\nIdea\nWater\nDream\nSilence\nJourney\nShadow\nFriendship\nDust\nHope"
+            ],
+            [
+                "Truth\nStone\nFlower\nGlass\nJourney\nBond\nWeight\nStory\nSound\nFlight"
+            ],
+            [
+                "1.  Happiness\n2.  Hammer\n3.  Cloud\n4.  Freedom\n5.  Journey\n6.  Animal\n7.  Water\n8.  Bridge\n9.  Sound\n10. Family"
+            ],
+            [
+                "Stone\nWind\nDream\nMusic\nHope\nShadow\nSeed\nSilence\nFuture\nVoid"
+            ],
+            [
+                "Idea\nStone\nWater\nAnimal\nTime\nHouse\nFear\nSound\nCrowd\nBook"
+            ],
+            [
+                "Water\nTruth\nFear\nMile\nJourney\nMetal\nBridge\nStorm\nSilence\nMemory"
+            ],
+            [
+                "Stone\nFear\nMountain\nHour\nLight\nCrowd\nLanguage\nFlower\nTool\nSilence"
+            ],
+            [
+                "Stone\nDream\nShadow\nKindness\nTable\nSilence\nJourney\nBreath\nIdea\nOcean"
+            ],
+            [
+                "Idea\nStone\nWater\nFear\nMountain\nTime\nBird\nSilence\nTool\nJustice"
+            ],
+            [
+                "Stone\nIdea\nTree\nMusic\nHunger\nSilence\nJourney\nTruth\nHouse\nDream"
+            ],
+            [
+                "Tree\nJustice\nWater\nNumber\nTime\nChair\nSilence\nCloud\nStone\nIdea"
+            ],
+            [
+                "1.  Stone\n2.  Idea\n3.  Cloud\n4.  Silence\n5.  Promise\n6.  Wall\n7.  Dream\n8.  Water\n9.  Community\n10. Journey"
+            ],
+            [
+                "Tree\nIdea\nStone\nSound\nJourney\nAnchor\nMirror\nSilence\nDream\nRiver"
+            ],
+            [
+                "Rock\nIdea\nWater\nTree\nSound\nDoor\nDream\nNumber\nColor\nJourney"
+            ],
+            [
+                "Joy\nHammer\nMoment\nTiger\nWater\nSecret\nTower\nLink\nSugar\nRoot"
+            ],
+            [
+                "Table\nLove\nWater\nHour\nPlant\nWord\nStructure\nSound\nNumber\nPeace"
+            ],
+            [
+                "Idea\nAnimal\nWater\nSound\nTree\nColor\nTime\nWeather\nTool\nGroup"
+            ],
+            [
+                "Truth\nStone\nShadow\nWhisper\nSeed\nSilence\nDream\nDust\nKindness\nOcean"
+            ],
+            [
+                "Idea\nStone\nJoy\nForest\nHammer\nSilence\nOcean\nDream\nThread\nWhisper"
+            ],
+            [
+                "Stone\nDream\nWisdom\nOcean\nLaughter\nStar\nJustice\nSeed\nSilence\nJourney"
+            ],
+            [
+                "Stone\nFreedom\nRain\nLanguage\nSleep\nMusic\nSize\nBird\nTool\nDarkness"
+            ],
+            [
+                "stone\ntruth\njourney\nflower\nlength\nstory\npeace\ncloud\nwater\nroof"
+            ],
+            [
+                "Joy\nStone\nPeace\nAnimal\nChair\nThought\nWater\nJustice\nRoot\nSilence"
+            ],
+            [
+                "Stone\nJoy\nWind\nHour\nCrowd\nGrowth\nSilence\nWater\nSpace\nDream"
+            ],
+            [
+                "1.  Stone\n2.  Love\n3.  Time\n4.  Weather\n5.  Idea\n6.  Journey\n7.  Number\n8.  Animal\n9.  Peace\n10. Air"
+            ],
+            [
+                "Time\nRock\nIdea\nWater\nSound\nDream\nWall\nAnimal\nSilence\nNumber"
+            ],
+            [
+                "1.   Concept\n2.   Stone\n3.   Moment\n4.   Sound\n5.   Joy\n6.   Mountain\n7.   Building\n8.   Being\n9.   Tool\n10.  Crowd"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "Stone\nPeace\nWater\nMoment\nWeather\nDream\nCrowd\nSound\nHistory\nSpace"
+            ],
+            [
+                "Stone\nSilence\nReason\nBridge\nCloud\nPassion\nRule\nThread\nStorm\nSleep"
+            ],
+            [
+                "1.  Peace\n2.  Stone\n3.  Cloud\n4.  Second\n5.  Bird\n6.  Crowd\n7.  Journey\n8.  Steel\n9.  Island\n10. Echo"
+            ],
+            [
+                "Cloud\nJustice\nStone\nDream\nWater\nSystem\nSilence\nTree\nKnowledge\nJourney"
+            ],
+            [
+                "Idea\nRock\nChair\nDog\nHour\nFear\nBridge\nWater\nWord\nCrowd"
+            ],
+            [
+                "rock\ntruth\nwater\nfear\nhouse\ntime\nanimal\nlight\nsound\nshape"
+            ],
+            [
+                "Stone\nDream\nWater\nIdea\nHouse\nTime\nWisdom\nNoise\nPath\nBeauty"
+            ],
+            [
+                "*   Stone\n*   Idea\n*   Ocean\n*   Bird\n*   Machine\n*   Taste\n*   Dream\n*   Tree\n*   Hope\n*   Shadow"
+            ],
+            [
+                "Justice\nMountain\nMoment\nSilence\nJourney\nForest\nThunder\nHeart\nWord\nBird"
+            ],
+            [
+                "1. Stone\n2. Idea\n3. Sleep\n4. Water\n5. Music\n6. Tree\n7. Fear\n8. Cloud\n9. Rule\n10. Hand"
+            ],
+            [
+                "Time\nRock\nDream\nEcho\nJustice\nOcean\nThread\nShadow\nPattern\nMarket"
+            ],
+            [
+                "1.  Time\n2.  Stone\n3.  Dream\n4.  Voice\n5.  River\n6.  Silence\n7.  Key\n8.  Number\n9.  Friend\n10. Shadow"
+            ],
+            [
+                "Stone\nWater\nAnimal\nTime\nFear\nGroup\nWeather\nJustice\nIdea\nWord"
+            ],
+            [
+                "Silence\nStone\nDream\nRiver\nTheory\nPocket\nShadow\nJourney\nWhisper\nTruth"
+            ],
+            [
+                "Love\nMountain\nButton\nCrowd\nTiger\nMoment\nThunder\nHammer\nWater\nJustice"
+            ],
+            [
+                "Truth\nSpace\nFear\nSleep\nLeaf\nWheel\nMountain\nWave\nJustice\nVoice"
+            ],
+            [
+                "1. Time\n2. Tiger\n3. Stone\n4. Knife\n5. Number\n6. Crowd\n7. Explosion\n8. Heart\n9. Sound\n10. Shirt"
+            ],
+            [
+                "Stone\nDream\nJustice\nMusic\nMountain\nThread\nSilence\nJourney\nColor\nOcean"
+            ],
+            [
+                "Thought\nStone\nChair\nBird\nSilence\nWeight\nColor\nFire\nStory\nSurface\nDust"
+            ],
+            [
+                "Idea\nRock\nEmotion\nRiver\nSilence\nTool\nJustice\nDream\nSeed\nChaos"
+            ],
+            [
+                "Hope\nStone\nWater\nAnimal\nColor\nBook\nFire\nDream\nSystem\nStar"
+            ],
+            [
+                "Freedom\nTree\nJustice\nChair\nJoy\nHour\nRain\nCommittee\nStrength\nBread"
+            ],
+            [
+                "Stone\nJoy\nCreature\nTime\nCloud\nMind\nShadow\nWheel\nCulture\nPattern"
+            ],
+            [
+                "Rock\nJustice\nDream\nShadow\nMusic\nSilence\nChair\nRiver\nHunger\nMyth"
+            ],
+            [
+                "fear\ntruth\nhammer\nfish\nstorm\nmoment\nvoice\nsize\nbrick\ncolor"
+            ],
+            [
+                "Stone\nHope\nBird\nTime\nWater\nIdea\nRoad\nLaughter\nMountain\nMind"
+            ],
+            [
+                "Stone\nIdea\nCloud\nWindow\nFear\nBook\nSilence\nOcean\nJourney\nLight"
+            ],
+            [
+                "1.  Stone\n2.  Hope\n3.  Hour\n4.  Building\n5.  Forest\n6.  Meeting\n7.  Water\n8.  Thought\n9.  Picture\n10. Animal"
+            ],
+            [
+                "Stone\nFreedom\nWater\nIdea\nSound\nChair\nStorm\nLove\nBook\nSilence"
+            ],
+            [
+                "Stone\nDream\nRiver\nIdea\nSystem\nShadow\nNumber\nBird\nSilence\nJourney"
+            ],
+            [
+                "Rock\nDream\nJustice\nShadow\nWindow\nSilence\nMachine\nEmotion\nForest\nQuestion"
+            ],
+            [
+                "Time\nStone\nDream\nOcean\nWisdom\nShadow\nWhisper\nMirror\nCloud\nKindness"
+            ],
+            [
+                "Idea\nStone\nEmotion\nMachine\nSky\nBook\nSilence\nCrowd\nJourney\nAnchor"
+            ],
+            [
+                "Love\nWater\nAnimal\nChair\nMinute\nNoise\nNation\nCrowd\nForest\nSilence"
+            ],
+            [
+                "Stone\nJustice\nLight\nOxygen\nGrowth\nSystem\nMemory\nShadow\nTruth\nTool"
+            ],
+            [
+                "*   Idea\n*   Stone\n*   Bird\n*   Water\n*   Fire\n*   Freedom\n*   Tree\n*   Sound\n*   Journey\n*   Structure"
+            ],
+            [
+                "Time\nRock\nHope\nBird\nChair\nWater\nDream\nJustice\nFire\nSeed"
+            ],
+            [
+                "Silence\nStone\nDream\nRiver\nWeek\nMirror\nWisdom\nFlame\nBridge\nTaste"
+            ],
+            [
+                "Truth\nLeaf\nJoy\nMeaning\nWheel\nBone\nCrowd\nFlavor\nShape\nJourney"
+            ],
+            [
+                "Stone\nAnimal\nTool\nTruth\nPeace\nSound\nJourney\nForm\nNumber\nDream"
+            ],
+            [
+                "Thought\nStone\nSilence\nTool\nLight\nPlant\nNumber\nHope\nJourney\nWater\nShape"
+            ],
+            [
+                "1. Stone\n2. Thought\n3. Water\n4. Song\n5. Fear\n6. Time\n7. House\n8. Dream\n9. Wind\n10. Value"
+            ],
+            [
+                "Book\nJustice\nOcean\nWind\nHope\nForest\nBridge\nMoment\nSilence\nProcess"
+            ],
+            [
+                "1. Stone\n2. Justice\n3. Hour\n4. Dream\n5. Thread\n6. Cloud\n7. Silence\n8. Root\n9. Laughter\n10. Bridge"
+            ],
+            [
+                "Freedom\nStone\nRain\nSilence\nJustice\nThread\nJoy\nMoment\nTree\nDream"
+            ],
+            [
+                "Stone\nHope\nFuture\nSound\nMemory\nTruth\nBread\nCloud\nJourney\nGroup"
+            ],
+            [
+                "1. Stone\n2. Time\n3. Wind\n4. Hope\n5. Animal\n6. House\n7. Sound\n8. Wood\n9. Group\n10. Tool"
+            ],
+            [
+                "Freedom\nRiver\nCloud\nGrief\nMoment\nSilence\nWindow\nChaos\nTree\nStory"
+            ],
+            [
+                "Love\nStone\nSilence\nWater\nIdea\nBox\nCloud\nRule\nEnergy\nShadow"
+            ],
+            [
+                "Time\nWater\nHouse\nFreedom\nKey\nTree\nColor\nHeat\nDream\nShape"
+            ]
+        ],
+        "{\"temperature\": 2}": [
+            [
+                "Time\nStone\nJoy\nWater\nDream\nTool\nSound\nFood\nAir\nAnimal"
+            ],
+            [
+                "Idea\nStone\nEmotion\nSilence\nStructure\nJourney\nKnowledge\nMirror\nBreath\nChaos"
+            ],
+            [
+                "Time\nStone\nDream\nOcean\nMusic\nChair\nFear\nMountain\nSilence\nMirror"
+            ],
+            [
+                "*   Tree\n*   Kindness\n*   Cloud\n*   Answer\n*   Balance\n*   Music\n*   Shadow\n*   Whisper\n*   Strength\n*   Anchor"
+            ],
+            [
+                "Hope\nRock\nIdea\nWind\nJustice\nAnimal\nBuilding\nTime\nSilence\nSpoon"
+            ],
+            [
+                "Idea\nStone\nWater\nSilence\nNetwork\nEcho\nSpace\nGrowth\nDream\nPattern"
+            ],
+            [
+                "Peace\nStone\nLife\nSound\nPower\nSpace\nThought\nStorm\nCell\nJustice"
+            ],
+            [
+                "1. Rock\n2. Concept\n3. Journey\n4. Silence\n5. Truth\n6. River\n7. Hope\n8. Language\n9. Body\n10. Time"
+            ],
+            [
+                "Justice\nHammer\nWater\nAnimal\nMoney\nFeeling\nTime\nBuilding\nSound\nMusic"
+            ],
+            [
+                "1.  Idea\n2.  Stone\n3.  Music\n4.  River\n5.  Truth\n6.  Thread\n7.  Dream\n8.  Echo\n9.  Anchor\n10. Cloud"
+            ],
+            [
+                "Stone\nThought\nOcean\nFriendship\nSilence\nClock\nJustice\nBird\nFear\nShadow"
+            ],
+            [
+                "Time\nRock\nShadow\nWall\nCup\nSeed\nArt\nAir\nHeart\nIdea"
+            ],
+            [
+                "1.  Water\n2.  Idea\n3.  Stone\n4.  Echo\n5.  Promise\n6.  Root\n7.  Mirror\n8.  Gust\n9.  Vision\n10. Secret"
+            ],
+            [
+                "Truth\nStone\nSong\nOcean\nMachine\nShadow\nHope\nFeather\nGlass\nWind"
+            ],
+            [
+                "Justice\nStone\nWater\nBread\nSilence\nOcean\nBridge\nSecond\nHand\nShadow"
+            ],
+            [
+                "Joy\nStone\nThought\nWater\nDream\nKey\nShadow\nVoice\nRoute\nLimit"
+            ],
+            [
+                "Hope\nStone\nShip\nHour\nRain\nBird\nSilence\nWeight\nWater\nNumber"
+            ],
+            [
+                "Stone\nPeace\nForest\nTruth\nWheel\nPlant\nTime\nWater\nJustice\nIdea"
+            ],
+            [
+                "Stone\nThought\nJoy\nOcean\nMusic\nBird\nBridge\nStar\nSecret\nClock"
+            ],
+            [
+                "1. Stone\n2. Idea\n3. Tree\n4. Sorrow\n5. Moment\n6. Chaos\n7. Silence\n8. Unit\n9. Key\n10. Seed"
+            ],
+            [
+                "Truth\nWater\nHeart\nMountain\nThought\nSilence\nEnergy\nQuestion\nDust\nSleep"
+            ],
+            [
+                "Whale\nJoy\nMountain\nMoment\nConnection\nVision\nWater\nTruth\nClock\nFire"
+            ],
+            [
+                "Book\nIdea\nTime\nJoy\nHerd\nFire\nChange\nFriend\nWood\nDream"
+            ],
+            [
+                "hammer\ntruth\nmountain\nweather\ntable\nbird\njustice\nlight\ndream\nsystem"
+            ],
+            [
+                "Time\nStone\nDream\nBird\nSound\nThread\nOcean\nIdea\nButton\nShadow"
+            ],
+            [
+                "Stone\nDream\nWater\nTime\nColor\nTree\nTool\nNoise\nMirror\nBalance"
+            ],
+            [
+                "Stone\nIdea\nOcean\nShadow\nTruth\nBird\nBridge\nSleep\nMusic\nNumber"
+            ],
+            [
+                "Time\nRock\nWater\nIdea\nSound\nPain\nBook\nColor\nJourney\nSilence"
+            ],
+            [
+                "Emotion\nSound\nShadow\nJustice\nTime\nMirror\nSeed\nWeight\nLanguage\nRiver"
+            ],
+            [
+                "Justice\nStone\nDream\nMusic\nShadow\nBreath\nTruth\nDoor\nLaughter\nOcean"
+            ],
+            [
+                "Stone\nIdea\nTime\nWater\nSilence\nCreature\nFreedom\nDream\nEdge\nTruth"
+            ],
+            [
+                "Chair\nFreedom\nCloud\nNoise\nNation\nRiver\nGesture\nWisdom\nShadow\nRecipe"
+            ],
+            [
+                "1. Thought\n2. Stone\n3. Truth\n4. Wave\n5. System\n6. Journey\n7. Shadow\n8. Hunger\n9. Wisdom\n10. Object"
+            ],
+            [
+                "Stone\nThought\nTime\nSound\nFear\nShadow\nPeace\nOcean\nStory\nFlavor"
+            ],
+            [
+                "Stone\nIdea\nMoment\nJoy\nRiver\nCommunity\nSilence\nBuilding\nJourney\nTool"
+            ],
+            [
+                "Idea\nStone\nAnimal\nLight\nNumber\nLanguage\nHouse\nWater\nSound\nMotion"
+            ],
+            [
+                "mountain\nhope\nchair\nbutterfly\nmoment\nwindow\nstorm\nsilence\nstory\nvolume"
+            ],
+            [
+                "Cup\nMountain\nThought\nJustice\nWater\nShadow\nDistance\nSeed\nJoy\nSilence"
+            ],
+            [
+                "Idea\nOcean\nSilence\nTable\nWind\nBook\nSalt\nBridge\nHour\nFeather"
+            ],
+            [
+                "Stone\nHope\nWind\nCommunity\nSong\nSilence\nBridge\nMoment\nWater\nIdea"
+            ],
+            [
+                "1. Stone\n2. Dream\n3. Apple\n4. Silence\n5. Chair\n6. Hope\n7. Water\n8. Book\n9. Truth\n10. Bird"
+            ],
+            [
+                "Rock\nDream\nPeace\nTime\nSilence\nMachine\nKnowledge\nFire\nShadow\nWisdom"
+            ],
+            [
+                "Stone\nIdea\nCloud\nSilence\nJustice\nThread\nMountain\nDream\nRiver\nOpinion"
+            ],
+            [
+                "Stone\nThought\nSilence\nRiver\nJustice\nShadow\nBreath\nCircle\nDream\nHorizon"
+            ],
+            [
+                "Peace\nStone\nTree\nFear\nSystem\nShadow\nFabric\nPound\nNoise\nSpoon"
+            ],
+            [
+                "Rock\nDream\nSound\nRule\nCloud\nPain\nSeed\nMirror\nTime\nSilence"
+            ],
+            [
+                "Stone\nDream\nOcean\nTruth\nTable\nCloud\nChange\nJustice\nSound\nThread"
+            ],
+            [
+                "Idea\nStone\nDream\nBread\nShadow\nThread\nOcean\nSilence\nMirror\nPulse"
+            ],
+            [
+                "stone\nhope\ncloud\njourney\nbuilding\nmoment\nglass\nsound\nstrategy\npeace"
+            ],
+            [
+                "1.  Time\n2.  Air\n3.  Fear\n4.  Water\n5.  Pattern\n6.  Spoon\n7.  Silence\n8.  Dream\n9.  Grain\n10. Sound"
+            ]
+        ]
+    },
+    "gemini-2.5-flash-lite-preview-06-17": {
+        "{\"temperature\": 0.5}": [
+            [
+                "Justice\nCloud\nWhisper\nMountain\nDream\nShadow\nOcean\nSilence\nMoment\nCourage"
+            ],
+            [
+                "Serendipity\nVoid\nWhisper\nMountain\nJustice\nDream\nSilence\nMomentum\nShadow\nCuriosity"
+            ],
+            [
+                "Justice\nCloud\nWhisper\nMountain\nShadow\nDream\nSilence\nOcean\nMoment\nCuriosity"
+            ],
+            [
+                "Serendipity\nWhisper\nOblivion\nGratitude\nHorizon\nChaos\nEmpathy\nSilence\nMomentum\nWonder"
+            ],
+            [
+                "Serenity\nVelocity\nGratitude\nShadow\nHorizon\nWhisper\nChaos\nMomentum\nEmpathy\nSolitude"
+            ],
+            [
+                "Serendipity\nWhisper\nAbyss\nLaughter\nShadow\nCompassion\nHorizon\nSilence\nGratitude\nDream"
+            ],
+            [
+                "Serenity\nHammer\nJustice\nWhisper\nMountain\nDream\nSymphony\nShadow\nCuriosity\nOcean"
+            ],
+            [
+                "Serendipity\nWhisper\nGravity\nMelody\nShadow\nChaos\nEmpathy\nHorizon\nSilence\nDream"
+            ],
+            [
+                "Serendipity\nWhisper\nCalculus\nHorizon\nEmpathy\nShadow\nQuirk\nSilence\nMagnitude\nNostalgia"
+            ],
+            [
+                "Serenity\nVelocity\nWhisper\nBoulder\nDream\nJustice\nEcho\nHorizon\nChaos\nGratitude"
+            ],
+            [
+                "Serendipity\nWhisper\nMountain\nJustice\nShadow\nDream\nOcean\nSilence\nCourage\nHorizon"
+            ],
+            [
+                "Serendipity\nWhisper\nAnchor\nParadox\nHorizon\nEmpathy\nShadow\nChaos\nLaughter\nSilence"
+            ],
+            [
+                "Serendipity\nWhisper\nMountain\nJustice\nShadow\nDream\nOcean\nSilence\nCourage\nEntropy"
+            ],
+            [
+                "Justice\nWhisper\nMountain\nDream\nSilence\nOcean\nHope\nShadow\nLaughter\nTruth"
+            ],
+            [
+                "Serendipity\nGravity\nWhisper\nHorizon\nEmpathy\nShadow\nSilence\nVelocity\nDream\nCuriosity"
+            ],
+            [
+                "Serendipity\nOblivion\nGratitude\nWhisper\nHorizon\nMomentum\nChaos\nEmpathy\nSilence\nParadox"
+            ],
+            [
+                "Serendipity\nVoid\nWhisper\nChasm\nMomentum\nNostalgia\nSymphony\nShadow\nGratitude\nQuirk"
+            ],
+            [
+                "Serendipity\nWhisper\nGravity\nEnigma\nSolitude\nMelody\nChaos\nNostalgia\nAbyss\nLuminosity"
+            ],
+            [
+                "Serendipity\nWhisper\nLabyrinth\nGratitude\nTelescope\nShadow\nMelody\nVoid\nCourage\nHorizon"
+            ],
+            [
+                "Existence\nShadow\nWhisper\nGravity\nDream\nSilence\nChaos\nHope\nMemory\nTruth"
+            ],
+            [
+                "Justice\nOcean\nShadow\nWhisper\nMoment\nDream\nStone\nLaughter\nSilence\nHorizon"
+            ],
+            [
+                "Serendipity\nShadow\nWhisper\nGravity\nDream\nEcho\nHorizon\nSilence\nMomentum\nChaos"
+            ],
+            [
+                "Serendipity\nAbyss\nWhisper\nGravity\nEnigma\nMirage\nSolitude\nResilience\nKaleidoscope\nNostalgia"
+            ],
+            [
+                "Serendipity\nWhisper\nMountain\nJustice\nShadow\nOcean\nDream\nSilence\nCuriosity\nHorizon"
+            ],
+            [
+                "Justice\nSymphony\nVoid\nShadow\nWhisper\nAnchor\nDream\nEntropy\nLaughter\nHorizon"
+            ],
+            [
+                "Justice\nCloud\nSilence\nMomentum\nDream\nHorizon\nResilience\nWhisper\nChaos\nGratitude"
+            ],
+            [
+                "Serendipity\nOblivion\nWhisper\nGratitude\nChasm\nLaughter\nShadow\nCuriosity\nMomentum\nEmpathy"
+            ],
+            [
+                "Serendipity\nOblivion\nWhisper\nAmbition\nGravity\nMirage\nEmpathy\nChaos\nSolitude\nNostalgia"
+            ],
+            [
+                "Serendipity\nWhisper\nAbyss\nGratitude\nVelocity\nChaos\nEmpathy\nHorizon\nNostalgia\nEphemeral"
+            ],
+            [
+                "Serendipity\nWhisper\nChasm\nGratitude\nNebula\nPatience\nEcho\nLaughter\nSolitude\nJustice"
+            ],
+            [
+                "Serendipity\nEcho\nJustice\nDoubt\nHorizon\nSymphony\nVoid\nGratitude\nMirage\nWisdom"
+            ],
+            [
+                "Serendipity\nWhisper\nGravity\nDream\nShadow\nSilence\nOcean\nMoment\nCourage\nEcho"
+            ],
+            [
+                "Serendipity\nWhisper\nMountain\nJustice\nSilence\nDream\nOcean\nCuriosity\nShadow\nEmpathy"
+            ],
+            [
+                "Justice\nWhisper\nMountain\nDream\nSilence\nOcean\nCourage\nShadow\nMoment\nHarmony"
+            ],
+            [
+                "Serendipity\nShadow\nWhisper\nGravity\nDream\nSilence\nMoment\nChaos\nEcho\nPurpose"
+            ],
+            [
+                "Serendipity\nGravity\nMelancholy\nSymphony\nParadox\nWhisper\nHorizon\nChaos\nEmpathy\nQuirk"
+            ],
+            [
+                "Serendipity\nWhisper\nGravity\nShadow\nEmpathy\nHorizon\nParadox\nSilence\nDream\nChaos"
+            ],
+            [
+                "Serendipity\nVoid\nEcho\nGravity\nDream\nSorrow\nGratitude\nSilence\nShadow\nHope"
+            ],
+            [
+                "Serendipity\nWhisper\nMountain\nJustice\nShadow\nDream\nOcean\nCuriosity\nSilence\nMomentum"
+            ],
+            [
+                "Serendipity\nWhisper\nAbyss\nGratitude\nParadox\nHorizon\nMelancholy\nUbiquity\nEphemeral\nResilience"
+            ],
+            [
+                "Serendipity\nWhisper\nAbyss\nGratitude\nQuasar\nSolitude\nMelody\nParadox\nEphemeral\nZeal"
+            ],
+            [
+                "Serendipity\nWhisper\nMountain\nJustice\nShadow\nSymphony\nParadox\nDream\nSilence\nHorizon"
+            ],
+            [
+                "Serendipity\nShadow\nWhisper\nHorizon\nMomentum\nEmpathy\nVoid\nEcho\nGratitude\nLabyrinth"
+            ],
+            [
+                "Serendipity\nShadow\nWhisper\nMountain\nJustice\nDream\nSilence\nOcean\nCourage\nEntropy"
+            ],
+            [
+                "Serendipity\nJustice\nWhisper\nMountain\nSilence\nDream\nCourage\nShadow\nMelody\nVoid"
+            ],
+            [
+                "Serendipity\nQuantum\nMelancholy\nSymphony\nAmbiguity\nEbullience\nNebula\nParadox\nNostalgia\nUbiquity"
+            ],
+            [
+                "Serendipity\nShadow\nWhisper\nGravity\nDream\nEcho\nSilence\nHorizon\nMystery\nNostalgia"
+            ],
+            [
+                "Serendipity\nWhisper\nGravity\nAmbition\nShadow\nMelody\nChaos\nPatience\nHorizon\nDream"
+            ],
+            [
+                "Gravity\nMelancholy\nWhisper\nFabric\nJustice\nHorizon\nMomentum\nSilence\nDream\nChaos"
+            ],
+            [
+                "Serendipity\nVoid\nWhisper\nMomentum\nEmpathy\nShadow\nHorizon\nEcho\nParadox\nGratitude"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "Justice\nSymphony\nDust\nImagination\nOcean\nSilence\nLaughter\nShadow\nMomentum\nCuriosity"
+            ],
+            [
+                "Justice\nSymphony\nHorizon\nWhisper\nTapestry\nMoment\nVoid\nGratitude\nAlgorithm\nShadow"
+            ],
+            [
+                "Serendipity\nMelancholy\nQuark\nJubilation\nChrysalis\nEntropy\nUbiquity\nParadigm\nVoracity\nNostalgia"
+            ],
+            [
+                "Wisdom\nRiver\nShadow\nSilence\nMoment\nDream\nGravity\nTruth\nHumor\nOcean"
+            ],
+            [
+                "Serendipity\nOblivion\nZephyr\nMirth\nAbyss\nLabyrinth\nQuasar\nVirtue\nEphemeral\nChasm"
+            ],
+            [
+                "Justice\nCloud\nHammer\nMelody\nShadow\nDream\nOcean\nSilence\nCourage\nThread"
+            ],
+            [
+                "Serendipity\nShadow\nGravity\nLaughter\nWhisper\nInfinity\nCuriosity\nMomentum\nChaos\nSilence"
+            ],
+            [
+                "Hope\nSand\nJustice\nSilence\nOcean\nDream\nGrief\nTime\nTruth\nChaos"
+            ],
+            [
+                "Whisper\nOcean\nGeometry\nJustice\nBoulder\nLaughter\nSilence\nDream\nHorizon\nEmpathy"
+            ],
+            [
+                "Serendipity\nAbyss\nEphemeral\nGravity\nLabyrinth\nNostalgia\nQuantum\nResilience\nSolitude\nUbiquity"
+            ],
+            [
+                "Dream\nRiver\nJustice\nSilence\nSymphony\nHorizon\nShadow\nGratitude\nEcho\nUniverse"
+            ],
+            [
+                "Gravity\nHope\nSymphony\nSandwich\nMoment\nWhisper\nBoulder\nJustice\nShadow\nEquation"
+            ],
+            [
+                "Whisper\nGravity\nDream\nForge\nSilence\nHorizon\nMoment\nEmpathy\nShadow\nRhythm"
+            ],
+            [
+                "Serendipity\nWhisper\nGravity\nHorizon\nEmpathy\nChasm\nLaughter\nNostalgia\nIllusion\nSerenity"
+            ],
+            [
+                "Table\nDream\nJustice\nCloud\nVelocity\nSilence\nHumor\nSorrow\nIsland\nEquation"
+            ],
+            [
+                "Whisper\nGravity\nSerenity\nHammer\nImagination\nOcean\nGratitude\nMirror\nChaos\nMelody"
+            ],
+            [
+                "Wisdom\nWhisper\nVolcano\nElephant\nShadow\nSilence\nGratitude\nMomentum\nOcean\nDream"
+            ],
+            [
+                "Sunshine\nAnger\nSymphony\nStone\nJustice\nWhisper\nVoid\nCucumber\nDream\nEntropy"
+            ],
+            [
+                "Serendipity\nOblivion\nVelocity\nAmbiguity\nMelancholy\nProsperity\nResilience\nCuriosity\nEmpathy\nSolitude"
+            ],
+            [
+                "Abstraction\nBoulder\nEmpathy\nFlamingo\nGratitude\nHorizon\nJubilation\nKnot\nLullaby\nMystery"
+            ],
+            [
+                "Justice\nCloud\nSilence\nOcean\nIdea\nHammer\nCourage\nShadow\nLaughter\nMountain"
+            ],
+            [
+                "Hope\nStone\nTime\nColor\nDance\nSilence\nDream\nOcean\nFear\nJustice"
+            ],
+            [
+                "Sorrow\nWhisper\nCobblestone\nGratitude\nVelocity\nEmerald\nHorizon\nMischief\nSolitude\nResonance"
+            ],
+            [
+                "Existence\nWhisper\nGravity\nSorrow\nPattern\nOcean\nTruth\nMoment\nChaos\nDream"
+            ],
+            [
+                "Wisdom\nSandwich\nSilence\nMountain\nHumor\nDream\nJustice\nSymphony\nShadow\nCalendar"
+            ],
+            [
+                "Truth\nShadow\nOcean\nWhisper\nMountain\nDream\nFire\nSilence\nJustice\nHorizon"
+            ],
+            [
+                "Velocity\nEmpathy\nCovenant\nShadow\nWhisper\nGranite\nLaughter\nSorrow\nHorizon\nSilence"
+            ],
+            [
+                "Sunshine\nWhisper\nMountain\nJustice\nSpoon\nDream\nOcean\nSilence\nCourage\nShadow"
+            ],
+            [
+                "Gravity\nWhisper\nJustice\nFabric\nOcean\nSilence\nMemory\nShadow\nHarmony\nDream"
+            ],
+            [
+                "Gravity\nOcean\nDream\nChainsaw\nSilence\nEmpathy\nCobalt\nWhisper\nParadox\nHorizon"
+            ],
+            [
+                "Courage\nOcean\nMelody\nShadow\nJustice\nWhisper\nTelescope\nEmbrace\nVoid\nDream"
+            ],
+            [
+                "Serendipity\nAmbiguity\nUbiquity\nMalleability\nNostalgia\nEbullience\nInertia\nEphemeral\nQuintessence\nSolitude"
+            ],
+            [
+                "Serendipity\nObelisk\nWhisper\nCourage\nLabyrinth\nSerenity\nParadox\nAmbition\nSpectacle\nNostalgia"
+            ],
+            [
+                "Courage\nSandwich\nShadow\nHarmony\n Volcano\nDream\nRhythm\nWhisper\nSilence\nHorizon"
+            ],
+            [
+                "Elephant\nJustice\nShadow\nOcean\nWhisper\nMountain\nDream\nCuriosity\nFabric\nSilence"
+            ],
+            [
+                "Shadow\nVelocity\nEmpathy\nBoulder\nSilence\nDream\nChaos\nJoy\nWisdom\nMirror"
+            ],
+            [
+                "Gravity\nWhisper\nJustice\nMushroom\nDream\nCobblestone\nMelody\nSilence\nHorizon\nFortitude"
+            ],
+            [
+                "Serendipity\nWhisper\nJustice\nBoulder\nOblivion\nHarmony\nParadox\nSilence\nEmpathy\nChasm"
+            ],
+            [
+                "Dream\nJustice\nSand\nSilence\nMusic\nGravity\nHope\nShadow\nOcean\nMoment"
+            ],
+            [
+                "Justice\nCloud\nHammer\nHarmony\nVoid\nWhisper\nAnchor\nHorizon\nMirth\nSerenity"
+            ],
+            [
+                "Gratitude\nAlgorithm\nShadow\nOcean\nMelody\nDream\nJustice\nWhisper\nHorizon\nCuriosity"
+            ],
+            [
+                "Thought\nRock\nOcean\nJoy\nShadow\nSilence\nDream\nFire\nAir\nColor"
+            ],
+            [
+                "Ocean\nDream\nSilence\nJustice\nVelocity\nShadow\nHumor\nParadox\nMemory\nEmpathy"
+            ],
+            [
+                "Ocean\nSilence\nVelocity\nHope\nTelescope\nShadow\nKindness\nMountain\nDream\nFabric"
+            ],
+            [
+                "Ocean\nSilence\nDream\nStone\nJoy\nCloud\nWhisper\nFire\nTruth\nShadow"
+            ],
+            [
+                "Existence\nEmpathy\nGravity\nWhisper\nShadow\nDream\nJourney\nSilence\nHorizon\nEcho"
+            ],
+            [
+                "Table\nThought\nOcean\nJustice\nDream\nWhisper\nMountain\nCourage\nShadow\nSilence"
+            ],
+            [
+                "Serenity\nAlgorithm\nWhisper\nJubilation\nVoid\nFabric\nCuriosity\nEntropy\nResonance\nMomentum"
+            ],
+            [
+                "Sunshine\nWhisper\nMountain\nJustice\nShadow\nGrief\nOcean\nLaughter\nWisdom\nDust"
+            ],
+            [
+                "Joy\nVoid\nOcean\nDream\nStone\nEcho\nWisdom\nShadow\nLaughter\nHorizon"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "Courage\nStapler\nDoubt\nElephant\nHorizon\nWhisper\nSilence\nCucumber\nShadow\nJustice"
+            ],
+            [
+                "Philosophy\nGravity\nLaughter\nMelody\nShadow\nSand\nWisdom\nChaos\nDoubt\nMirror"
+            ],
+            [
+                "Grief\nSerendipity\nBoulder\nSilence\nArithmetic\nMeadow\nShadow\nAmbition\nQuirk\nNonsense"
+            ],
+            [
+                "Philosophy\nMoment\nCobblestone\nCuriosity\nSymphony\nShadow\nWisdom\nGalaxy\nDream\nSilence"
+            ],
+            [
+                "Justice\nFungus\nWhisper\nMountain\nGravity\nShadow\nMoment\nComfort\nMystery\nDream"
+            ],
+            [
+                "Glee\nQuartz\nVagabond\nEcho\nRust\nDream\nSerenity\nVelocity\nEnigma\nWisdom"
+            ],
+            [
+                "Justice\nSandwich\nWhisper\nMountain\nJoy\nShadow\nHammer\nPatience\nOcean\nDream"
+            ],
+            [
+                "Chair\nHonesty\nCloud\nVelocity\nMelody\nDesert\nEmpathy\nJustice\nBoulder\nCuriosity"
+            ],
+            [
+                "Elephant\nCuriosity\nOcean\nSilence\nMountain\nDream\nSymphony\nJustice\nHorizon\nWhisper"
+            ],
+            [
+                "Sorrow\nEcho\nQuirk\nGlimpse\nZephyr\nBoulder\nHumor\nDream\nSilence\nAmbition"
+            ],
+            [
+                "Justice\nDoubt\nGalaxy\nSilence\nDream\nMomentum\nHumor\nShadow\nHarmony\nGratitude"
+            ],
+            [
+                "Chair\nOcean\nHonesty\nDream\nStone\nColor\nShadow\nTime\nMusic\nMountain"
+            ],
+            [
+                "Serendipity\nShadow\nOcean\nMomentum\nSilence\nImagination\nJustice\nGranite\nHumor\nDusk"
+            ],
+            [
+                "Serendipity\nVelocity\nMelancholy\nHorizon\nEmpathy\nParadigm\nWhisper\nJuggernaut\nIllusion\nGratitude"
+            ],
+            [
+                "Hope\nGravity\nSilence\nOcean\nThought\nDust\nFreedom\nShadow\nHarmony\nTomorrow"
+            ],
+            [
+                "Joy\nBoulder\nSilence\nFeather\nJustice\nSand\nDream\nRust\nVoid\nSerendipity"
+            ],
+            [
+                "Serendipity\nBoulder\nJustice\nSymphony\nOblivion\nPonder\nWhisper\nConstellation\nCourage\nShadow"
+            ],
+            [
+                "Existence\nMelancholy\nVelocity\nWhisper\nGratitude\nAbyss\nSymphony\nLabyrinth\nParadox\nEssence"
+            ],
+            [
+                "Courage\nUniverse\nSandwich\nMusic\nWisdom\nShadow\nMountain\nLaughter\nIdea\nOcean"
+            ],
+            [
+                "Elephant\nWhisper\nOcean\nFreedom\nMushroom\nEnvy\nRainbow\nJustice\nSandwich\nDream"
+            ],
+            [
+                "Hope\nSilence\nGravity\nAlgorithm\nDream\nJustice\nOcean\nRhythm\nMemory\nChaos"
+            ],
+            [
+                "Whisper\nMountain\nIdea\nLaughter\nShadow\nFreedom\nBrick\nSilence\nMoment\nOcean"
+            ],
+            [
+                "Wisdom\nGravel\nSilence\nJoy\nOxygen\nOcean\nDream\nHammer\nColor\nTruth"
+            ],
+            [
+                "Serendipity\nChasm\nEmpathy\nGloom\nVelocity\nZeal\nSilence\nMischief\nResilience\nTrove"
+            ],
+            [
+                "Chair\nJoy\nRiver\nShadow\nCuriosity\nMountain\nWhisper\nFabric\nOcean\nIdea"
+            ],
+            [
+                "Concept\nBoulder\nLaughter\nShadow\nWhisper\nFeast\nMirage\nJustice\nGratitude\nMelody"
+            ],
+            [
+                "Existence\nSilence\nShadow\nGlee\nDream\nOcean\nMoment\nChaos\nHonesty\nVoyage"
+            ],
+            [
+                "Joy\nRock\nShadow\nQuestion\nSoup\nHope\nTruth\nWind\nDream\nMusic"
+            ],
+            [
+                "Gravity\nLaughter\nSofa\nHope\nSilence\nRiver\nDream\nShadow\nJustice\nSeed"
+            ],
+            [
+                "Courage\nQuantum\nSymphony\nGravity\nEmpathy\nAbsurdity\nLullaby\nSerendipity\nVoid\nWhisper"
+            ],
+            [
+                "Gratitude\nBoulder\nMelody\nWhisper\nShadow\nFreedom\nCucumber\nHorizon\nEngine\nSerendipity"
+            ],
+            [
+                "Serendipity\nQuasar\nNostalgia\nUbiquity\nEpiphany\nJuggernaut\nMiasma\nSolipsism\nAmbivalence\nChaos"
+            ],
+            [
+                "Concept\nOcean\nFear\nMathematics\nShadow\nDream\nTruth\nJoy\nSilence\nGravity"
+            ],
+            [
+                "Time\nColor\nOcean\nIdea\nStone\nFear\nMusic\nDream\nLiberty\nShadow"
+            ],
+            [
+                "Shadow\nKindness\nEcho\nMomentum\nWhisper\nChaos\nTruth\nSerenity\nAdventure\nGratitude"
+            ],
+            [
+                "Chair\nSorrow\nVelocity\nCucumber\nWhisper\nMomentum\nGratitude\nLumber\nShadow\nHope"
+            ],
+            [
+                "Serendipity\nVoid\nSilence\nEnvy\nGrief\nVelocity\nWisdom\nNonsense\nCompassion\nHarmony"
+            ],
+            [
+                "Symphony\nTether\nParadigm\nGrit\nElixir\nWhisper\nChasm\nCatalyst\nVoid\nDream"
+            ],
+            [
+                "Justice\nVelocity\nSpaghetti\nMountain\nWisdom\nRhythm\nShadow\nMelody\nDream\nTapestry"
+            ],
+            [
+                "Silence\nMountain\nEmotion\nWisdom\nChaos\nJustice\nDream\nShadow\nHarmony\nInfinity"
+            ],
+            [
+                "Serendipity\nAbstract\nCacophony\nPuddle\nMelancholy\nCylinder\nVibrancy\nDiligence\nTapestry\nEntropy"
+            ],
+            [
+                "Courage\nWhisper\nMountain\nGratitude\nOcean\nShadow\nDream\nSilence\nVelocity\nEmpathy"
+            ],
+            [
+                "Sun\nFear\nMathematics\nDream\nOcean\nSilence\nMusic\nJustice\nShadow\nTime"
+            ],
+            [
+                "Wisdom\nVelocity\nSerendipity\nShadow\nChaos\nResilience\nDoubt\nMelody\nInfinity\nSilence"
+            ],
+            [
+                "Elephant\nPhilosophy\nOcean\nDream\nSilence\nHammer\nJustice\nWhisper\nMountain\nHope"
+            ],
+            [
+                "Wisdom\nOxygen\nRhythm\nShadow\nNostalgia\nJustice\nSilence\nVoid\nGratitude\nUniverse"
+            ],
+            [
+                "Gravity\nWhisper\nSoup\nMountain\nLogic\nDream\nThread\nEmptiness\nLaughter\nJustice"
+            ],
+            [
+                "Quantum\nCandor\nSpectacle\nVoid\nZephyr\nParadigm\nSerendipity\nCrescendo\nLabyrinth\nIgnorance"
+            ],
+            [
+                "Serendipity\nFlume\nZephyr\nChimera\nEbullience\nQuirk\nSolitude\nKaleidoscope\nAbyss\nEnigma"
+            ],
+            [
+                "Serenity\nLabyrinth\nWisdom\nGlimmer\nChaos\nResilience\nEpoch\nZephyr\nSanctuary\nMelody"
+            ]
+        ],
+        "{\"temperature\": 2}": [
+            [
+                "Concept\nOcean\nChair\nJoy\nMountain\nSymphony\nReason\nDust\nSilence\nFabric"
+            ],
+            [
+                "Courage\nTelescope\nBread\nVelocity\nHarmony\nOcean\nEmpathy\nShadow\nDream\nKnowledge"
+            ],
+            [
+                "Chair\nFreedom\nWhisper\nMountain\nPatience\nGalaxy\nRust\nDream\nOcean\nTruth"
+            ],
+            [
+                "Hope\nStone\nJustice\nSilence\nRiver\nMoment\nShadow\nColor\nDoubt\nOcean"
+            ],
+            [
+                "Sand\nSorrow\nJustice\nMelody\nShadow\nWhisper\nVoid\nMountain\nKindness\nFabric"
+            ],
+            [
+                "Imagination\nOcean\nCourage\nSilence\nWhisper\nInfinity\nGratitude\nShadow\nDream\nEnigma"
+            ],
+            [
+                "Courage\nWhisper\nMountain\nDream\nJustice\nOcean\nEmpathy\nParadox\nVelocity\nHorizon"
+            ],
+            [
+                "Serendipity\nEphemeral\nVoid\nCuriosity\nEthereal\nObscurity\nHarmony\nVexation\nLethargy\nJubilation"
+            ],
+            [
+                "Concept\nRiver\nSilence\nShadow\nGravity\nCourage\nMusic\nDream\nEcho\nParadox"
+            ],
+            [
+                "Dream\nBoulder\nKindness\nEcho\nWisdom\nShadow\nHarmony\nRage\nMomentum\nGrief"
+            ],
+            [
+                "Sunshine\nThought\nWhisper\nStone\nFreedom\nSilence\nRiver\nMelody\nVoid\nSorrow"
+            ],
+            [
+                "Serendipity\nOasis\nGloom\nZeal\nVoid\nAmbition\nWhimsy\nSolitude\nCulmination\nRhythm"
+            ],
+            [
+                "Sorrow\nZephyr\nLumber\nSymphony\nNostalgia\nEel\nCacophony\nGrit\nMettle\nKaleidoscope"
+            ],
+            [
+                "Abstract\nHammer\nSilence\nHope\nOxygen\nCloud\nGrief\nVelocity\nSand\nTruth"
+            ],
+            [
+                "Sorrow\nQuantum\nTriumph\nSymmetry\nDoubt\nHorizon\nGratitude\nIllusion\nPatience\nEmber"
+            ],
+            [
+                "Quantum\nOblivion\nSerendipity\nUbiquity\nEmpathy\nGrit\nNostalgia\nCatalyst\nAbyss\nMirth"
+            ],
+            [
+                "Serendipity\nOcean\nWisdom\nRust\nAmbition\nCobweb\nJustice\nSilence\nDream\nSand"
+            ],
+            [
+                "Wisdom\nChasm\nFabric\nSilence\nDream\nMomentum\nOcean\nJoy\nShadow\nRoot"
+            ],
+            [
+                "Sunshine\nSilence\nNail\nThought\nOcean\nWisdom\nBrick\nHope\nAir\nMelody"
+            ],
+            [
+                "Serendipity\nSorrow\nEcho\nThirst\nMural\nGravity\nNostalgia\nPonder\nTapestry\nWhisper"
+            ],
+            [
+                "Serenity\nAmplitude\nNebula\nShadow\nLaughter\nAlchemy\nSincerity\nWhisper\nSolitude\nKaleidoscope"
+            ],
+            [
+                "Philosophy\nMomentum\nGravity\nSerenity\nAbyss\nEcology\nTexture\nMelancholy\nVoyage\nShadow"
+            ],
+            [
+                "Happiness\nOcean\nGravity\nSilence\nTomorrow\nSymmetry\nDream\nJustice\nLoneliness\nColor"
+            ],
+            [
+                "Serendipity\nChivalry\nVoid\nQuirk\nNostalgia\nEntropy\nSerenity\nChaos\nWonder\nFleeting"
+            ],
+            [
+                "Gravity\nSymphony\nMushroom\nEnvy\nBlueprint\nWhisper\nMomentum\nJustice\nSand\nShadow"
+            ],
+            [
+                "Shadow\nGratitude\nLaughter\nUniverse\nRust\nEcho\nVoid\nKindness\nMoment\nDream"
+            ],
+            [
+                "Sand\nWisdom\nSilence\nCourage\nFeather\nMelody\nShadow\nJustice\nGravity\nDoubt"
+            ],
+            [
+                "Sunlight\nShadow\nSilence\nChaos\nJoy\nDespair\nStone\nDream\nHistory\nFuture"
+            ],
+            [
+                "Hope\nSilence\nStone\nLaughter\nMystery\nGrowth\nSand\nGratitude\nShadow\nVelocity"
+            ],
+            [
+                "Justice\nWhirlwind\nWhisper\nEcology\nDiligence\nParadox\nSpectrum\nHarmony\nObsession\nAlchemy"
+            ],
+            [
+                "Dream\nRust\nEcho\nJustice\nSilence\nVolcano\nGratitude\nSand\nHarmony\nConfusion"
+            ],
+            [
+                "Gravity\nWisdom\nSand\nSymphony\nTime\nShadow\nHearth\nCourage\nOcean\nThought"
+            ],
+            [
+                "Justice\nCloud\nHammer\nSorrow\nSilence\nOcean\nWhisper\nMountain\nCuriosity\nDream"
+            ],
+            [
+                "Serenity\nVolcano\nWhisper\nDignity\nTriumph\nMelancholy\nChaos\nEmpathy\nEternity\nSolitude"
+            ],
+            [
+                "Enthusiasm\nGravity\nMushroom\nWhisper\nCompass\nJellyfish\nBoulder\nParadox\nTelescope\nSilence"
+            ],
+            [
+                "Whisper\nAbyss\nSerendipity\nIron\nNostalgia\nGusto\nVoid\nQuill\nEmpathy\nKaleidoscope"
+            ],
+            [
+                "Ocean\nWhisper\nBoulder\nConcept\nRhythm\nGratitude\nHorizon\nChariot\nShadow\nEssence"
+            ],
+            [
+                "Abstract\nOcean\nCourage\nFlour\nJustice\nWhisper\nSilence\nMomentum\nDream\nStone"
+            ],
+            [
+                "Hope\nChair\nMoment\nSky\nRiver\nWisdom\nStone\nLaughter\nTime\nDream"
+            ],
+            [
+                "Philosophy\nMammoth\nLabyrinth\nHumility\nEphemeral\nQuasar\nNostalgia\nSynergy\nQuantum\nCataract"
+            ],
+            [
+                "Wisdom\nOcean\nTime\nHope\nFire\nFreedom\nSorrow\nJustice\nCourage\nCuriosity"
+            ],
+            [
+                "Envy\nBoulder\nSilence\nCucumber\nVelocity\nAbstract\nEmpathy\nBoulder\nGalaxy\nThought"
+            ],
+            [
+                "Silence\nGravity\nDream\nHope\nSorrow\nTime\nFabric\nJustice\nEcho\nParadox"
+            ],
+            [
+                "Chair\nShadow\nJustice\nHumor\nIsland\nStruggle\nEcho\nWisdom\nThirst\nSilence"
+            ],
+            [
+                "Empathy\nWhisper\nTension\nHorizon\nRust\nMelancholy\nChaos\nPatience\nMirror\nMomentum"
+            ],
+            [
+                "Justice\nBoulder\nGrief\nShadow\nWhisper\nGalaxy\nHumor\nMomentum\nHorizon\nVoid"
+            ],
+            [
+                "Empathy\nObsidian\nMomentum\nSerendipity\nAlgorithm\nUbiquity\nJubilation\nNostalgia\nCadence\nQuasar"
+            ],
+            [
+                "Abstract\nElephant\nWhisper\nStone\nTomorrow\nHumor\nSilence\nGalaxy\nDoubt\nGratitude"
+            ],
+            [
+                "Wisdom\nOcean\nShadow\nJoy\nRock\nDream\nSilence\nHope\nTime\nEcho"
+            ],
+            [
+                "Table\nJustice\nSand\nThought\nMountain\nMusic\nTruth\nCloud\nOcean\nTime"
+            ]
+        ]
+    }
+}
