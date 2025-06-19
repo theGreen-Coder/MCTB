@@ -4,17 +4,17 @@ import numpy as np
 from google import genai
 from google.genai import types
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from embeddings import GloVe, calculate_dat_score
+from embeddings import BERT_Encoder, BERT_Encoder_L6, BERT_Encoder_L7, GloVe, calculate_dat_score
 from request import Request, run_request
 from scipy.stats import norm
 from datetime import datetime
 
 class DivergentAssociationTest():
-    def __init__(self, models, configs, embedding_models=GloVe(), repeats=0, delay=0, n_words=10, standard_prompt=True, starts_with=None):
+    def __init__(self, models, configs, embedding_models=[GloVe(), BERT_Encoder_L6(), BERT_Encoder_L7()], repeats=0, delay=0, n_words=10, standard_prompt=True, starts_with=None):
         self.models = models
         self.configs = configs
         self.repeats = repeats
-        self.embedding_models = [embedding_models] # Temporal for now (in the future will allow to do a list)
+        self.embedding_models = embedding_models
         self.creation_time = str(datetime.now().strftime("%m-%d_%H:%M:%S"))
         self.delay = delay
         self.n_words = n_words
@@ -154,7 +154,8 @@ class DivergentAssociationTest():
                         # 4-5. Get embeddings from model and calculate cosine similarity
                         if len(repeat) > 0:
                             score = calculate_dat_score(embedding_model, repeat)
-                            scores.append(float(score))
+                            if score:
+                                scores.append(float(score))
                         else:
                             print(f"No response was found for one of the responses.")
 
