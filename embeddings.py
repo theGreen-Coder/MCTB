@@ -7,6 +7,32 @@ from abc import ABC, abstractmethod
 from transformers import AutoTokenizer, AutoModel
 import torch
 
+import h5py
+import numpy as np
+
+def load_embeddings(h5_path: str):
+    """Load tokens and layer embeddings from HDF5."""
+    f = h5py.File(h5_path, "r")
+    tokens = [t.decode("utf8") for t in f["tokens"][:]]
+    return f, tokens
+
+def get_embedding(word: str, tokens: list, h5file, layer: int = 6):
+    """Return the embedding vector for a word from a given layer."""
+    layer_key = f"layer{layer}"
+    if layer_key not in h5file:
+        raise ValueError(f"Layer {layer} not found in HDF5 file.")
+
+    if word in tokens:
+        idx = tokens.index(word)
+        embedding = h5file[layer_key][idx]
+        return embedding
+    else:
+        raise KeyError(f"Word '{word}' not found in token list.")
+
+def keep_letters(text):
+    return ''.join(ch for ch in text if ch.isalpha() or ch == ' ')
+
+
 def calculate_dat_score(model, words, minimum=7):
     print(model)
     uniques_set = set()
@@ -48,14 +74,53 @@ class BERT_Encoder(BaseEmbeddingModel):
         self.filter_list = set(self.tokenizer.all_special_tokens) | set(string.punctuation)
         self.layer = layer
         self.max_token_len = max_token_len
-    
-    def keep_letters(self, text):
-        return ''.join(ch for ch in text if ch.isalpha() or ch == ' ')
 
     def validate(self, word):
         if isinstance(word, str) and word != "":
             return word
         return None
+    
+    def get_unit_vector3(self, word):
+        h5_path = "bert_midlayer_dict.h5"
+        layer = self.layer
+
+        clean_word = keep_letters(word).lower()
+
+        h5file, tokens = load_embeddings(h5_path)
+
+        try:
+            embedding = get_embedding(clean_word, tokens, h5file, layer)
+        except (KeyError, ValueError) as e:
+            return None
+
+        h5file.close()
+
+        vec = torch.from_numpy(embedding)
+
+        return vec / vec.norm()
+    
+    def get_unit_vector2(self, word):
+        toks = self.tokenizer(word, return_tensors="pt", add_special_tokens=True)
+
+        with torch.no_grad():
+            out  = self.model(**toks)
+            hids = out.hidden_states[self.layer]        # (1, seq_len, 768)
+
+
+        ids         = toks["input_ids"][0]        # 1‑D tensor of token IDs
+        attn        = toks["attention_mask"][0]   # 1‑D (1 for real tokens)
+        cls_id      = self.tokenizer.cls_token_id
+        sep_id      = self.tokenizer.sep_token_id
+
+        mask = (
+            (ids != cls_id) &                     # drop [CLS]
+            (ids != sep_id) &                     # drop [SEP]
+            (attn == 1)                           # drop any padding (if present)
+        )
+
+        vecs   = hids[0, mask, :]                 # (n_sub, 768)
+        pooled = vecs.mean(dim=0)
+        return pooled / pooled.norm()
 
     def get_unit_vector(self, word):
         toks = self.tokenizer(word, max_length=self.max_token_len, padding="max_length", truncation=True, return_tensors="pt")
@@ -80,7 +145,7 @@ class BERT_Encoder(BaseEmbeddingModel):
     def distance(self, word1, word2):
         """Compute cosine distance (0 to 2) between two words"""
 
-        return 1.0 - self.get_unit_vector(word1) @ self.get_unit_vector(word2)
+        return 1.0 - self.get_unit_vector3(word1) @ self.get_unit_vector3(word2)
     
     def __str__(self) -> str:
         return "BERT SuperClass"
