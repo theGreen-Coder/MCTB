@@ -7,7 +7,7 @@ import numpy as np
 def plot_correlation(data_file,
                      key,
                      second_key=None,
-                     model='GloVe',
+                     embedding_model=['GloVe'],
                      dark_mode=False,
                      plot_title="Correlation with Creativity Score",
                      x_axis_title="Creativity Score",
@@ -37,8 +37,8 @@ def plot_correlation(data_file,
             for s in value:
                 records.append((config_variable, model_name, s))
 
-    df = pd.DataFrame(records, columns=['config_variable', 'model', 'score'])
-    sub = df[df['model'] == model]
+    df = pd.DataFrame(records, columns=['config_variable', 'embedding_model', 'score'])
+    sub = df[df['embedding_model'].isin(embedding_model)]
     
     # 2) Matplotlib style
     base_style = {
@@ -65,7 +65,7 @@ def plot_correlation(data_file,
     r = np.corrcoef(x, y)[0, 1]
 
     # Plot
-    plt.scatter(x, y, label=f'{model} (T vs S)')
+    plt.scatter(x, y, label=f'{embedding_model} (T vs S)')
     x_line = np.linspace(min(x) - 0.05, max(x) + 0.05, 100)
     plt.plot(x_line, m * x_line + b,
             label=f'Fit: y={m:.2f}x + {b:.2f}\n$R$={r:.2f}')
@@ -85,7 +85,8 @@ def plot_correlation(data_file,
     plt.show()
 
 
-def plot_distribution_results(data_file, 
+def plot_distribution_results(data_file,
+                              embedding_model=['GloVe'],
                               dark_mode=False,
                               plot_title="Creativity Score Distribution by Model",
                               x_axis_title="Creativity Score",
@@ -104,14 +105,17 @@ def plot_distribution_results(data_file,
         raise ValueError(f"Invalid JSON syntax in {data_file}: {e}") from None
     except FileNotFoundError as e:
         raise FileNotFoundError(f"File {data_file} was not found!") from None
+    
+    records = []
+    for model, cfg in raw.items():
+        for emb_model, value in cfg.items():
+            if emb_model == 'config':
+                continue
+            for s in value:
+                records.append((model, emb_model, s))
 
-    df = pd.DataFrame(
-        {"model": m, "score": s}
-        for m, metrics in raw.items()
-        for emb, scores in metrics.items()
-        if emb != "config"
-        for s in scores
-    )
+    df = pd.DataFrame(records, columns=['model', 'embedding_model', 'score'])
+    df = df[df['embedding_model'].isin(embedding_model)]
 
     # 2) Matplotlib style
     base_style = {

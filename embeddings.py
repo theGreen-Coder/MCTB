@@ -1,40 +1,23 @@
+from pathlib import Path
 import re
+import torch
 import itertools
 import string
 import numpy as np
+from tqdm import tqdm
 from abc import ABC, abstractmethod
 
 from transformers import AutoTokenizer, AutoModel
-import torch
+from torch.nn.functional import normalize
 
 import h5py
 import numpy as np
-
-def load_embeddings(h5_path: str):
-    """Load tokens and layer embeddings from HDF5."""
-    f = h5py.File(h5_path, "r")
-    tokens = [t.decode("utf8") for t in f["tokens"][:]]
-    return f, tokens
-
-def get_embedding(word: str, tokens: list, h5file, layer: int = 6):
-    """Return the embedding vector for a word from a given layer."""
-    layer_key = f"layer{layer}"
-    if layer_key not in h5file:
-        raise ValueError(f"Layer {layer} not found in HDF5 file.")
-
-    if word in tokens:
-        idx = tokens.index(word)
-        embedding = h5file[layer_key][idx]
-        return embedding
-    else:
-        raise KeyError(f"Word '{word}' not found in token list.")
 
 def keep_letters(text):
     return ''.join(ch for ch in text if ch.isalpha() or ch == ' ')
 
 
 def calculate_dat_score(model, words, minimum=7):
-    print(model)
     uniques_set = set()
     uniques = []
 
@@ -79,48 +62,6 @@ class BERT_Encoder(BaseEmbeddingModel):
         if isinstance(word, str) and word != "":
             return word
         return None
-    
-    def get_unit_vector3(self, word):
-        h5_path = "bert_midlayer_dict.h5"
-        layer = self.layer
-
-        clean_word = keep_letters(word).lower()
-
-        h5file, tokens = load_embeddings(h5_path)
-
-        try:
-            embedding = get_embedding(clean_word, tokens, h5file, layer)
-        except (KeyError, ValueError) as e:
-            return None
-
-        h5file.close()
-
-        vec = torch.from_numpy(embedding)
-
-        return vec / vec.norm()
-    
-    def get_unit_vector2(self, word):
-        toks = self.tokenizer(word, return_tensors="pt", add_special_tokens=True)
-
-        with torch.no_grad():
-            out  = self.model(**toks)
-            hids = out.hidden_states[self.layer]        # (1, seq_len, 768)
-
-
-        ids         = toks["input_ids"][0]        # 1‑D tensor of token IDs
-        attn        = toks["attention_mask"][0]   # 1‑D (1 for real tokens)
-        cls_id      = self.tokenizer.cls_token_id
-        sep_id      = self.tokenizer.sep_token_id
-
-        mask = (
-            (ids != cls_id) &                     # drop [CLS]
-            (ids != sep_id) &                     # drop [SEP]
-            (attn == 1)                           # drop any padding (if present)
-        )
-
-        vecs   = hids[0, mask, :]                 # (n_sub, 768)
-        pooled = vecs.mean(dim=0)
-        return pooled / pooled.norm()
 
     def get_unit_vector(self, word):
         toks = self.tokenizer(word, max_length=self.max_token_len, padding="max_length", truncation=True, return_tensors="pt")
@@ -144,8 +85,7 @@ class BERT_Encoder(BaseEmbeddingModel):
 
     def distance(self, word1, word2):
         """Compute cosine distance (0 to 2) between two words"""
-
-        return 1.0 - self.get_unit_vector3(word1) @ self.get_unit_vector3(word2)
+        return 1.0 - self.get_unit_vector(word1) @ self.get_unit_vector(word2)
     
     def __str__(self) -> str:
         return "BERT SuperClass"
@@ -163,6 +103,76 @@ class BERT_Encoder_L7(BERT_Encoder):
     
     def __str__(self) -> str:
         return "BERT_ENCODER_L7"
+    
+class BERT_WordEmbeddings(BaseEmbeddingModel):
+    def __init__(self, model="./models/bert_midlayer_dict.h5", dictionary="./models/words.txt", layer=6):
+        with h5py.File(model, "r",
+               rdcc_nbytes=512*1024**2,
+               rdcc_nslots=200003,
+               rdcc_w0=0.75) as f:
+
+            tokens = f["tokens"].asstr()[:]
+            token_to_index = {tok: i for i, tok in enumerate(tokens)}
+
+            layer6 = torch.from_numpy(f["layer6"][:])
+            layer6 = normalize(layer6, p=2, dim=1)
+        
+        word_pat = re.compile(r"^[a-z][a-z-]*[a-z]$")
+        wanted, idxs = [], []
+
+        with Path(dictionary).open(encoding="utf8") as fh:
+            for w in fh:
+                w = w.rstrip("\n")
+                if word_pat.fullmatch(w) and w in token_to_index:
+                    wanted.append(w)
+                    idxs.append(token_to_index[w])
+
+        vecs = layer6[idxs]
+        self.vectors = {w: v for w, v in zip(wanted, vecs)}
+
+
+    def validate(self, word):
+        """Clean up word and find best candidate to use"""
+
+        # Strip unwanted characters
+        clean = clean_word(word)
+
+        # Generate candidates for possible compound words
+        candidates = []
+        if clean:
+            if " " in clean:
+                candidates.append(re.sub(r" +", "-", clean))
+                candidates.append(re.sub(r" +", "", clean))
+            else:
+                candidates.append(clean)
+                if "-" in clean:
+                    candidates.append(re.sub(r"-+", "", clean))
+            for cand in candidates:
+                if cand in self.vectors:
+                    return cand # Return first word that is in model
+        return None # Could not find valid word
+
+    def distance(self, word1, word2):
+        """Compute cosine distance (0 to 2) between two words"""
+        return 1.0 - self.vectors.get(word1) @ self.vectors.get(word2)
+    
+    def __str__(self) -> str:
+        return "BERT_WordEmbeddings"
+
+class BERT_WordEmbeddings_L6(BERT_WordEmbeddings):
+    def __init__(self, model="./models/bert_midlayer_dict.h5", dictionary="./models/words.txt"):
+        super().__init__(model=model, dictionary=dictionary, layer=6)
+
+    def __str__(self) -> str:
+        return "BERT_WordEmbeddings_L6"
+
+class BERT_WordEmbeddings_L7(BERT_WordEmbeddings):
+    def __init__(self, model="./models/bert_midlayer_dict.h5", dictionary="./models/words.txt"):
+        super().__init__(model=model, dictionary=dictionary, layer=7)
+    
+    def __str__(self) -> str:
+        return "BERT_WordEmbeddings_L7"
+
 
 """
 Based on code from (https://github.com/other-user/other-repo), originally by jayolson. 
@@ -191,7 +201,7 @@ class GloVe(BaseEmbeddingModel):
         # Join words with model
         vectors = {}
         with open(model, "r", encoding="utf8") as f:
-            for line in f:
+            for line in tqdm(f, desc="Reading lines"):
                 tokens = line.split(" ")
                 word = tokens[0]
                 if word in words:

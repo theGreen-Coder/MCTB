@@ -4,13 +4,13 @@ import numpy as np
 from google import genai
 from google.genai import types
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from embeddings import BERT_Encoder, BERT_Encoder_L6, BERT_Encoder_L7, GloVe, calculate_dat_score
+from embeddings import BERT_Encoder, BERT_Encoder_L6, BERT_Encoder_L7, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7, GloVe, calculate_dat_score
 from request import Request, run_request
 from scipy.stats import norm
 from datetime import datetime
 
 class DivergentAssociationTest():
-    def __init__(self, models, configs, embedding_models=[GloVe(), BERT_Encoder_L6(), BERT_Encoder_L7()], repeats=0, delay=0, n_words=10, standard_prompt=True, starts_with=None):
+    def __init__(self, models, configs, embedding_models=[GloVe(), BERT_WordEmbeddings_L6(), BERT_WordEmbeddings_L7()], repeats=0, delay=0, n_words=10, standard_prompt=True, starts_with=None):
         self.models = models
         self.configs = configs
         self.repeats = repeats
