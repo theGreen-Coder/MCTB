@@ -9,9 +9,10 @@ from request import Request, run_request
 from creative_tests import DivergentAssociationTest
 
 class HardDivergentAssociationTest(DivergentAssociationTest):
-    def __init__(self, models, configs, embedding_models=[GloVe, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7], repeats=1, delay=0, n_words=25, given_words=50):
+    def __init__(self, models, configs, embedding_models=[GloVe, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7], common=True, repeats=1, delay=0, n_words=25, given_words=50):
         super().__init__(models=models, configs=configs, embedding_models=embedding_models, repeats=repeats, delay=delay, n_words=n_words)
         self.given_words = given_words
+        self.common = common
     
     def get_n_random_words(self, dictionary="./models/words.txt"):
         words = set()
@@ -30,20 +31,14 @@ class HardDivergentAssociationTest(DivergentAssociationTest):
     
     def set_prompt(self, letter: str, random_words: List):
         self.test_prompt = (
-            f'Make a list of 25 words, each starting with the letter '+f'"{str(letter)}"'+', unrelated to each other or any words I provide. You may not use any form of proper nouns or specific identifiers, including:\n'
-            f'1. Given Names: First names, last names, or any personal names.\n'
-            f'2. Brand Names: Trademarks, company names, product names, or proprietary identifiers.\n'
-            f'3. Place Names: Cities, countries, regions, landmarks, or geographic features.\n'
-            f'4. Scientific Names: Binomial nomenclature (genus and species), taxonomic classifications, or any standardized scientific naming.\n'
-            f'5. Cultural or Historical Names: Names of historical figures, mythological beings, cultural icons, or notable events.\n'
-            f'6. Institutional Names: Names of organizations, governments, academic institutions, or associations.\n'
-            f'7. Specific Titles: Book titles, movie titles, song names, or artistic works.\n'
-            f'8. Numerical Identifiers: Serial numbers, ISBNs, postal codes, phone numbers, or any unique numeric sequences tied to a specific entity.\n'
-            f'Each word must be a single, standalone word, no spaces, no hyphens. They must be real English words (they cannot be made up or in other languages). Your goal is to create words so that, no combination of any two words should share anything in common, have shared threads, connections, or fit into a specific category.'
-            f'Categories may include wordplay (palindromes, homophones, adding/dropping letters) rather than literal meanings. Each word in the list must be numbered, with the count before the word (starting at 1). Output just these numbered words, no comments, nothing before or after the list.\n' 
-            f"Your {self.n_words} words are to be in addition to {self.given_words} words I'm providing. Remember, words cannot repeat and they all must start with"+f'"{str(letter)}".\n'
-            "\n".join(random_words)
+            f"Please enter {str(self.n_words)} words, each starting with the letter '{letter}', that are as different from each other as possible, in all meanings and uses of the words. "
+            f"Rules: Only single words in English. Only nouns (e.g., things, objects, concepts). No proper nouns (e.g., no specific people or places). "
+            f"No specialized vocabulary (e.g., no technical terms). Think of the words on your own (e.g., do not just look at objects in your surroundings).\n"
+            f"Your goal is to create words so that, no combination of any two words should share anything in common, have shared threads, connections, or fit into a specific category."
+            f"Make a list of these {str(self.n_words)} words, a single word in each entry of the list. Output just these numbered words, no comments, nothing before or after the list.\n."
+            f"In addition to starting with '{letter}' and being different from each other, the words should also be as different as possible from the following {self.given_words} words provided:"
         )
+        self.test_prompt += "\n".join(random_words) 
     
     def __str__(self):
         return "Hard" + super().__str__()
@@ -51,10 +46,13 @@ class HardDivergentAssociationTest(DivergentAssociationTest):
     def request(self) -> dict:
         non_clean_llm_response = []
 
-        # for letter in tqdm("abcdefghiklmnoprstuwy"):
-        for letter in tqdm("ab"):
+        for letter in tqdm("abcdefghiklmnoprstuwy"):
+        # for letter in tqdm("ab"):
             for repeat in range(self.repeats):
-                random_words = self.get_n_random_words()
+                if self.common:
+                    random_words = self.get_n_random_words(dictionary="models/5k_common.txt")
+                else:
+                    random_words = self.get_n_random_words()
                 self.set_prompt(letter=letter, random_words=random_words)
 
                 HardDAT_request = Request(

@@ -105,7 +105,7 @@ class ModelRunner():
             ("claude-", ChatAnthropic, self._openai_kwargs)
         ]
         
-    def _openai_kwargs(self, gconf: GenerationConfig):
+    def _openai_kwargs(self, gconf: GenerationConfig, model_name: str):
         return {
             "temperature": gconf.temperature,
             "top_p": gconf.top_p,
@@ -113,19 +113,24 @@ class ModelRunner():
             "stop": gconf.stop_sequences,
         }
 
-    def _google_kwargs(self, gconf: GenerationConfig):
-        return {
+    def _google_kwargs(self, gconf: GenerationConfig, model_name: str):
+        return_dict = {
             "temperature": gconf.temperature,
             "top_p": gconf.top_p,
             "top_k": gconf.top_k,
             "max_output_tokens": gconf.max_output_tokens,
-            "thinking_budget": gconf.thinking_config["thinking_budget"]
         }
+
+        # Add thinking config (if it's a thinking model)
+        if model_name in ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-2.5-flash-preview-04-17", "gemini-2.5-flash-lite-preview-06-17"]:
+            return_dict["thinking_budget"] = gconf.thinking_config["thinking_budget"]
+        
+        return return_dict
     
     def build_llm(self, model_name: str, gconf: GenerationConfig):
         for prefix, cls, arg_fn in self.MODEL_ROUTER:
             if model_name.startswith(prefix):
-                return cls(model=model_name, **arg_fn(gconf))
+                return cls(model=model_name, **arg_fn(gconf, model_name))
         raise ValueError(f"Model name “{model_name}” not matched in MODEL_ROUTER")
 
     def run(self):

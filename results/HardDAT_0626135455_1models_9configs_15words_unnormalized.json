@@ -1,0 +1,182 @@
+{
+    "gemini-2.5-flash_{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 0}}": {
+        "GloVe": [
+            74.12179565429688,
+            87.1070556640625
+        ],
+        "BERT_WordEmbeddings_L6": [
+            50.08263397216797,
+            52.60275650024414
+        ],
+        "BERT_WordEmbeddings_L7": [
+            50.08263397216797,
+            52.60275650024414
+        ],
+        "config": {
+            "temperature": 0.5,
+            "thinking_config": {
+                "thinking_budget": 0
+            }
+        }
+    },
+    "gemini-2.5-flash_{\"temperature\": 1, \"thinking_config\": {\"thinking_budget\": 0}}": {
+        "GloVe": [
+            80.45124816894531,
+            75.16246032714844
+        ],
+        "BERT_WordEmbeddings_L6": [
+            51.1762809753418,
+            48.91956329345703
+        ],
+        "BERT_WordEmbeddings_L7": [
+            51.1762809753418,
+            48.91956329345703
+        ],
+        "config": {
+            "temperature": 1,
+            "thinking_config": {
+                "thinking_budget": 0
+            }
+        }
+    },
+    "gemini-2.5-flash_{\"temperature\": 1.5, \"thinking_config\": {\"thinking_budget\": 0}}": {
+        "GloVe": [
+            82.4525146484375,
+            81.82723236083984
+        ],
+        "BERT_WordEmbeddings_L6": [
+            48.93051528930664,
+            42.08635711669922
+        ],
+        "BERT_WordEmbeddings_L7": [
+            48.93051528930664,
+            42.08635711669922
+        ],
+        "config": {
+            "temperature": 1.5,
+            "thinking_config": {
+                "thinking_budget": 0
+            }
+        }
+    },
+    "gemini-2.5-flash_{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 1000}}": {
+        "GloVe": [
+            78.07686614990234,
+            87.595703125
+        ],
+        "BERT_WordEmbeddings_L6": [
+            49.926971435546875,
+            47.28228759765625
+        ],
+        "BERT_WordEmbeddings_L7": [
+            49.926971435546875,
+            47.28228759765625
+        ],
+        "config": {
+            "temperature": 0.5,
+            "thinking_config": {
+                "thinking_budget": 1000
+            }
+        }
+    },
+    "gemini-2.5-flash_{\"temperature\": 1, \"thinking_config\": {\"thinking_budget\": 1000}}": {
+        "GloVe": [
+            84.50008392333984,
+            89.81541442871094
+        ],
+        "BERT_WordEmbeddings_L6": [
+            53.354888916015625,
+            55.172611236572266
+        ],
+        "BERT_WordEmbeddings_L7": [
+            53.354888916015625,
+            55.172611236572266
+        ],
+        "config": {
+            "temperature": 1,
+            "thinking_config": {
+                "thinking_budget": 1000
+            }
+        }
+    },
+    "gemini-2.5-flash_{\"temperature\": 1.5, \"thinking_config\": {\"thinking_budget\": 1000}}": {
+        "GloVe": [
+            74.2940444946289,
+            86.78414154052734
+        ],
+        "BERT_WordEmbeddings_L6": [
+            39.60605239868164,
+            46.433658599853516
+        ],
+        "BERT_WordEmbeddings_L7": [
+            39.60605239868164,
+            46.433658599853516
+        ],
+        "config": {
+            "temperature": 1.5,
+            "thinking_config": {
+                "thinking_budget": 1000
+            }
+        }
+    },
+    "gemini-2.5-flash_{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 2000}}": {
+        "GloVe": [
+            87.30534362792969,
+            85.75288391113281
+        ],
+        "BERT_WordEmbeddings_L6": [
+            52.46278762817383,
+            49.966636657714844
+        ],
+        "BERT_WordEmbeddings_L7": [
+            52.46278762817383,
+            49.966636657714844
+        ],
+        "config": {
+            "temperature": 0.5,
+            "thinking_config": {
+                "thinking_budget": 2000
+            }
+        }
+    },
+    "gemini-2.5-flash_{\"temperature\": 1, \"thinking_config\": {\"thinking_budget\": 2000}}": {
+        "GloVe": [
+            83.19027709960938,
+            88.26869201660156
+        ],
+        "BERT_WordEmbeddings_L6": [
+            52.35585021972656,
+            49.764530181884766
+        ],
+        "BERT_WordEmbeddings_L7": [
+            52.35585021972656,
+            49.764530181884766
+        ],
+        "config": {
+            "temperature": 1,
+            "thinking_config": {
+                "thinking_budget": 2000
+            }
+        }
+    },
+    "gemini-2.5-flash_{\"temperature\": 1.5, \"thinking_config\": {\"thinking_budget\": 2000}}": {
+        "GloVe": [
+            80.2410659790039,
+            89.76546478271484
+        ],
+        "BERT_WordEmbeddings_L6": [
+            49.63877487182617,
+            44.90352249145508
+        ],
+        "BERT_WordEmbeddings_L7": [
+            49.63877487182617,
+            44.90352249145508
+        ],
+        "config": {
+            "temperature": 1.5,
+            "thinking_config": {
+                "thinking_budget": 2000
+            }
+        }
+    }
+}
