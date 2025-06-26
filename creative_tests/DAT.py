@@ -1,21 +1,19 @@
-import os
+import re
 import json
+from typing import List
 import numpy as np
-from google import genai
-from google.genai import types
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-from embeddings import BERT_Encoder, BERT_Encoder_L6, BERT_Encoder_L7, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7, GloVe, calculate_dat_score
+from embeddings import BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7, GloVe, calculate_dat_score
 from request import Request, run_request
 from scipy.stats import norm
 from datetime import datetime
 
 class DivergentAssociationTest():
-    def __init__(self, models, configs, embedding_models=[GloVe(), BERT_WordEmbeddings_L6(), BERT_WordEmbeddings_L7()], repeats=0, delay=0, n_words=10, standard_prompt=True, starts_with=None):
+    def __init__(self, models, configs, embedding_models=[GloVe, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7], repeats=0, delay=0, n_words=10, standard_prompt=True, starts_with=None):
         self.models = models
         self.configs = configs
         self.repeats = repeats
         self.embedding_models = embedding_models
-        self.creation_time = str(datetime.now().strftime("%m-%d_%H:%M:%S"))
+        self.id = str(datetime.now().strftime("%m%d%H%M%S"))
         self.delay = delay
         self.n_words = n_words
 
@@ -25,10 +23,12 @@ class DivergentAssociationTest():
 
         # Test is available sampling from several words or just a standard prompt
         if standard_prompt:
-            self.test_prompt = (f"Please enter {str(self.n_words)} words that are as different from each other as possible, in all meanings and uses of the words. "
+            self.test_prompt = (
+                f"Please enter {str(self.n_words)} words that are as different from each other as possible, in all meanings and uses of the words. "
                 f"Rules: Only single words in English. Only nouns (e.g., things, objects, concepts). No proper nouns (e.g., no specific people or places). "
                 f"No specialized vocabulary (e.g., no technical terms). Think of the words on your own (e.g., do not just look at objects in your surroundings). "
-                f"Make a list of these {str(self.n_words)} words, a single word in each entry of the list. Do not write anything else but the {str(self.n_words)} words." + " " + self.addition_specs),
+                f"Make a list of these {str(self.n_words)} words, a single word in each entry of the list. Do not write anything else but the {str(self.n_words)} words." + " " + self.addition_specs
+            )
         else:
             self.test_prompt = [
                 (f"Please enter {str(self.n_words)} words that are as different from each other as possible, in all meanings and uses of the words. "
@@ -52,7 +52,24 @@ class DivergentAssociationTest():
 
     
     def __str__(self):
-        return "DAT_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs_"+str(self.n_words)+"words_"+str(self.creation_time)
+        return "DAT_"+str(self.id)+"_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs_"+str(self.n_words)+"words"
+    
+    def set_id(self, filename):
+        match = re.search(r'_(\d{10})_', filename)
+        if match:
+            file_id = match.group(1)
+            print(f"Found id {file_id}")
+            self.id = file_id
+        else:
+            print("ID not found")
+    
+    def init_word_embeddings(self):
+        initialized = []
+
+        for embedding_model in self.embedding_models:
+            initialized.append(embedding_model())
+        
+        self.embedding_models = initialized
     
     def clean_response(self, response):
         def keep_letters(text: str) -> str:
@@ -83,64 +100,63 @@ class DivergentAssociationTest():
             return return_words
 
         return None
+    
+    def request(self) -> dict:
+        DAT_request = Request(
+            models=self.models,
+            prompt=self.test_prompt,
+            configs=self.configs,
+            repeats=self.repeats,
+            delay=self.delay
+        )
 
-    """
-        Process:
-        1. DAT Request -> 2. LLM Response -> 3. Text Splitter -> 4. Embeddings -> 5. Calculate Cosine Similarity -> 6. Export results
-    """
-    def run(self, clean_response_file=None):
-        # Method returns all paths of the files written
-        return_files = []
+        llm_response = run_request(DAT_request)
 
-        if not clean_response_file:
-            #################################################################
-            # 1. Get the request ready
-            #################################################################
-            DAT_request = Request(
-                models=self.models,
-                prompt=self.test_prompt,
-                configs=self.configs,
-                repeats=self.repeats,
-                delay=self.delay
-            )
-
-            #################################################################
-            # 2. Get the LLM's response
-            #################################################################
-            llm_response = run_request(DAT_request)
-
-            # Export responses results
-            with open(f"responses/{str(self)}.json", "w") as json_file:
-                json.dump(llm_response, json_file, indent=4)
-                return_files.append(f"responses/{str(self)}.json")
-
-            #################################################################
-            # 3. Clean LLM's response
-            #################################################################
-            llm_response_clean = llm_response
-
-            for model, configs in llm_response.items():
-                for config, repeats in configs.items():
-                    for idx, repeat in enumerate(repeats):
-                        response = repeat[0]
-
-                        clean_response = self.clean_response(response=response)
-                        llm_response_clean[model][config][idx] = clean_response if clean_response else ""
-            
-            # Export cleaned responses results
-            with open(f"responses/{str(self)}_clean.json", "w") as json_file:
-                json.dump(llm_response_clean, json_file, indent=4)
-                return_files.append(f"responses/{str(self)}_clean.json")
+        with open(f"responses/{str(self)}.json", "w") as json_file:
+            json.dump(llm_response, json_file, indent=4)
         
-        else:
-            with open(clean_response_file, 'r') as file:
-                llm_response_clean = json.load(file)
+        return llm_response
 
-        #################################################################
-        # 4-5. Get embeddings from model and calculate cosine similarity
-        #################################################################
+    def clean_llm_response(self, prev: dict | str) -> dict:
+        # Check input
+        if isinstance(prev, str):
+            with open(prev, 'r') as file:
+                llm_response = json.load(file)
+            self.set_id(prev)
+
+        elif isinstance(prev, dict):
+            llm_response = prev
+        
+        llm_response_clean = llm_response
+        for model, configs in llm_response.items():
+            for config, repeats in configs.items():
+                for idx, repeat in enumerate(repeats):
+                    response = repeat[0]
+
+                    clean_response = self.clean_response(response=response)
+                    llm_response_clean[model][config][idx] = clean_response if clean_response else ""
+        
+        # Export cleaned responses results
+        with open(f"responses/{str(self)}_clean.json", "w") as json_file:
+            json.dump(llm_response_clean, json_file, indent=4)
+        
+        return llm_response_clean
+
+    def calculate_embeddings(self, prev) -> List:
+        return_files = []
+        # Check input
+        if isinstance(prev, str):
+            with open(prev, 'r') as file:
+                llm_response_clean = json.load(file)
+            self.set_id(prev)
+
+        elif isinstance(prev, dict):
+            llm_response_clean = prev
+        
         results = {}
         model_distribution = {}
+
+        self.init_word_embeddings()
 
         for model, configs in llm_response_clean.items():
             for config, repeats in configs.items():
@@ -195,14 +211,20 @@ class DivergentAssociationTest():
                     normalized_results[model_key][emb_key] = normed
                 else:
                     normalized_results[model_key]["config"] = raw_scores
-        
-        #################################################################
-        # 6. Export results
-        #################################################################
+
         with open(f"results/{str(self)}_normalized.json", "w") as json_file:
             json.dump(normalized_results, json_file, indent=4)
             return_files.append(f"results/{str(self)}_normalized.json")
         
         return return_files
+    
+    """
+        Process:
+        1. DAT Request -> 2. LLM Response -> 3. Text Splitter -> 4. Embeddings -> 5. Calculate Cosine Similarity -> 6. Export results
+    """
 
+    def run(self):
+        prev = self.request()
+        prev = self.clean_llm_response(prev=prev)
+        return self.calculate_embeddings(prev=prev)
     
