@@ -201,7 +201,7 @@ class GloVe(BaseEmbeddingModel):
         # Join words with model
         vectors = {}
         with open(model, "r", encoding="utf8") as f:
-            for line in tqdm(f, desc="Reading lines"):
+            for line in tqdm(f, desc="Initializing model"):
                 tokens = line.split(" ")
                 word = tokens[0]
                 if word in words:

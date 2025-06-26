@@ -42,7 +42,8 @@ class Request():
                  prompt: Union[str, List[str]], 
                  configs: Union[dict, List[dict]], 
                  repeats: int = 1, 
-                 delay: float = 0.0):
+                 delay: float = 0.0,
+                 verbose: bool = True):
         
         self.models = [models] if isinstance(models, str) else list(models)
         self.prompt = prompt
@@ -51,8 +52,9 @@ class Request():
         self.delay = max(delay, 0.0)
         self._prompt_idx = -1
 
-        print(f"Number of API calls: {len(self.models)*len(self.configs)*self.repeats}")
-        print(f"Estimated Time: {(len(self.models)*len(self.configs)*self.repeats*(0.5+self.delay))/60.0} minutes" )
+        if verbose:
+            print(f"Number of API calls: {len(self.models)*len(self.configs)*self.repeats}")
+            print(f"Estimated Time: {(len(self.models)*len(self.configs)*self.repeats*(0.5+self.delay))/60.0} minutes" )
 
     def set_models(self, models):
         self.models = models
@@ -117,6 +119,7 @@ class ModelRunner():
             "top_p": gconf.top_p,
             "top_k": gconf.top_k,
             "max_output_tokens": gconf.max_output_tokens,
+            "thinking_budget": gconf.thinking_config["thinking_budget"]
         }
     
     def build_llm(self, model_name: str, gconf: GenerationConfig):
@@ -138,6 +141,7 @@ class ModelRunner():
             msgs.append(HumanMessage(content=self.request.get_prompt()))
 
             try:
+                print("Waiting for response!")
                 result = invoke_with_retry(llm, msgs)
                 result_content = result.content if hasattr(result, 'content') else result
                 response.setdefault(model_name, {}).setdefault(str(gconf), []).append([result_content])
@@ -145,7 +149,9 @@ class ModelRunner():
                 response.setdefault(model_name, {}).setdefault(str(gconf), []).append(f"Error: {e}")
                 print(f"Something went wrong -> Error: {e}")
 
+            print(f"Got response! Waiting for {self.delay} seconds now...")
             time.sleep(self.delay)
+            print()
 
         return response
 

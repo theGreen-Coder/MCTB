@@ -1,0 +1,338 @@
+{
+    "gemini-2.5-flash": {
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 20}}": [
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Flame\n8.  Truth\n9.  Grain\n10. Space"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Silence\n4.  Motion\n5.  Truth\n6.  Shadow\n7.  Scent\n8.  Thought\n9.  Grain\n10. Space"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Machine\n8.  Truth\n9.  Flower\n10. Space"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Motion\n8.  Truth\n9.  Forest\n10. Number"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Machine\n8.  Truth\n9.  Flower\n10. Space"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Flame\n8.  Truth\n9.  Grain\n10. Space"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Machine\n8.  Truth\n9.  Flower\n10. Space"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Machine\n8.  Truth\n9.  Flower\n10. Space"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Machine\n8.  Truth\n9.  Flower\n10. Space"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Machine\n8.  Truth\n9.  Flower\n10. Space"
+            ]
+        ],
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 50}}": [
+            [
+                "1.  Stone\n2.  Dream\n3.  Silence\n4.  Thought\n5.  Liquid\n6.  Shadow\n7.  Motion\n8.  Truth\n9.  Void\n10. Sound"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Silence\n4.  Ocean\n5.  Thought\n6.  Shadow\n7.  Justice\n8.  Flower\n9.  Machine\n10. Laughter"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Silence\n4.  Ocean\n5.  Thought\n6.  Shadow\n7.  Justice\n8.  Fabric\n9.  Moment\n10. Scent"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Silence\n4.  Ocean\n5.  Thought\n6.  Shadow\n7.  Justice\n8.  Flower\n9.  Machine\n10. Laughter"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Silence\n4.  Thought\n5.  Ocean\n6.  Justice\n7.  Shadow\n8.  Machine\n9.  Beauty\n10. Hunger"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Silence\n4.  Ocean\n5.  Thought\n6.  Shadow\n7.  Justice\n8.  Flower\n9.  Machine\n10. Laughter"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Music\n4.  Silence\n5.  Thought\n6.  Water\n7.  Shadow\n8.  Truth\n9.  Motion\n10. Space"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Music\n4.  Silence\n5.  Thought\n6.  Ocean\n7.  Shadow\n8.  Truth\n9.  Machine\n10. Emotion"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Music\n4.  Justice\n5.  Silence\n6.  Shadow\n7.  Ocean\n8.  Truth\n9.  Machine\n10. Laughter"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Silence\n4.  Motion\n5.  Thought\n6.  Shadow\n7.  Flavor\n8.  Truth\n9.  Void\n10. Sound"
+            ]
+        ],
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 100}}": [
+            [
+                "1.  Thought\n2.  Stone\n3.  Music\n4.  Void\n5.  Dream\n6.  Water\n7.  Shadow\n8.  Truth\n9.  Machine\n10. Scent"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Music\n4.  Silence\n5.  Shadow\n6.  Dream\n7.  Ocean\n8.  Dust\n9.  Joy\n10. Machine"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Machine\n8.  Dust\n9.  Joy\n10. Star"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Music\n4.  Shadow\n5.  Justice\n6.  Water\n7.  Dream\n8.  Machine\n9.  Silence\n10. Beauty"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Music\n4.  Shadow\n5.  Silence\n6.  Ocean\n7.  Dream\n8.  Truth\n9.  Machine\n10. Emotion"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Music\n4.  Shadow\n5.  Justice\n6.  Water\n7.  Silence\n8.  Thought\n9.  Machine\n10. Beauty"
+            ],
+            [
+                "Chair\nEmotion\nUniverse\nIdea\nSilence\nWater\nDream\nShadow\nJustice\nTime"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Music\n4.  Ocean\n5.  Dream\n6.  Chair\n7.  Shadow\n8.  Truth\n9.  Flower\n10. Silence"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Voice\n4.  Shadow\n5.  Justice\n6.  Water\n7.  Motion\n8.  Silence\n9.  Thought\n10. Flower"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Music\n4.  Shadow\n5.  Dream\n6.  Water\n7.  Silence\n8.  Truth\n9.  Machine\n10. Feeling"
+            ]
+        ],
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 200}}": [
+            [
+                "1.  Thought\n2.  Stone\n3.  Music\n4.  Dream\n5.  Ocean\n6.  Shadow\n7.  Flame\n8.  Truth\n9.  Machine\n10. Silence"
+            ],
+            [
+                "1.  Silence\n2.  Mountain\n3.  Thought\n4.  Ocean\n5.  Justice\n6.  Shadow\n7.  Machine\n8.  Dream\n9.  Flower\n10. Space"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Music\n4.  Dream\n5.  Water\n6.  Shadow\n7.  Silence\n8.  Truth\n9.  Flower\n10. Space"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Dream\n4.  Ocean\n5.  Flower\n6.  Shadow\n7.  Silence\n8.  Machine\n9.  Justice\n10. Dust"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Music\n4.  Shadow\n5.  Journey\n6.  Silence\n7.  Ocean\n8.  Dream\n9.  Machine\n10. Truth"
+            ],
+            [
+                "1.  Shadow\n2.  Justice\n3.  Mountain\n4.  Silence\n5.  Thought\n6.  Ocean\n7.  Dream\n8.  Tool\n9.  Color\n10. Hope"
+            ],
+            [
+                "1.  Stone\n2.  Thought\n3.  Music\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Silence\n8.  Truth\n9.  Machine\n10. Seed"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Emotion\n4.  Ocean\n5.  Silence\n6.  Machine\n7.  Dream\n8.  Particle\n9.  Justice\n10. Tree"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Justice\n4.  Wind\n5.  Silence\n6.  Shadow\n7.  Tree\n8.  Motion\n9.  Thought\n10. Laughter"
+            ],
+            [
+                "Stone\nDream\nEcho\nShadow\nOcean\nSilence\nMoment\nThought\nFlower\nMachine"
+            ]
+        ],
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 400}}": [
+            [
+                "1. Rock\n2. Idea\n3. Silence\n4. Journey\n5. Dream\n6. Justice\n7. Shadow\n8. Machine\n9. Laughter\n10. Future"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Ocean\n4.  Silence\n5.  Joy\n6.  Tool\n7.  Shadow\n8.  Truth\n9.  Cloud\n10. Rhythm"
+            ],
+            [
+                "1. Stone\n2. Dream\n3. Silence\n4. Ocean\n5. Thought\n6. Shadow\n7. Justice\n8. Seed\n9. Voice\n10. Machine"
+            ],
+            [
+                "Idea\nRock\nSilence\nJoy\nShadow\nFuture\nMachine\nDream\nOcean\nTruth"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Silence\n4.  Journey\n5.  Thought\n6.  Shadow\n7.  Ocean\n8.  Truth\n9.  Machine\n10. Laughter"
+            ],
+            [
+                "Stone\nThought\nSilence\nJustice\nDream\nEcho\nShadow\nMotion\nFlavor\nSymphony"
+            ],
+            [
+                "Stone\nDream\nSilence\nOcean\nJustice\nShadow\nThread\nMachine\nGrowth\nMoment"
+            ],
+            [
+                "1.  Silence\n2.  Rock\n3.  Dream\n4.  Ocean\n5.  Thought\n6.  Shadow\n7.  Machine\n8.  Truth\n9.  Grain\n10. Space"
+            ],
+            [
+                "Truth\nPebble\nOcean\nSilence\nThought\nEnergy\nShadow\nJourney\nMachine\nDream"
+            ],
+            [
+                "Stone\nDream\nOcean\nSilence\nJustice\nShadow\nFlavor\nJourney\nMachine\nOxygen"
+            ]
+        ],
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 300}}": [
+            [
+                "1.  Stone\n2.  Thought\n3.  Silence\n4.  Ocean\n5.  Dream\n6.  Shadow\n7.  Justice\n8.  Seed\n9.  Machine\n10. Laughter"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Journey\n5.  Shadow\n6.  Dream\n7.  Ocean\n8.  Truth\n9.  Key\n10. Laughter"
+            ],
+            [
+                "1.  Thought\n2.  Rock\n3.  Silence\n4.  Dream\n5.  Ocean\n6.  Shadow\n7.  Joy\n8.  Dust\n9.  Time\n10. Echo"
+            ],
+            [
+                "Tree\nIdea\nSilence\nMotion\nDream\nStone\nJoy\nShadow\nWater\nNumber"
+            ],
+            [
+                "1.  Stone\n2.  Thought\n3.  Silence\n4.  Journey\n5.  Shadow\n6.  Justice\n7.  Whisper\n8.  Machine\n9.  Dream\n10. Ocean"
+            ],
+            [
+                "\nStone\nDream\nEcho\nJustice\nThread\nOcean\nSilence\nFlower\nMachine\nTime"
+            ],
+            [
+                "Idea\nRock\nBird\nChair\nWind\nDream\nLaw\nSeed\nMusic\nShadow"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Silence\n4.  Motion\n5.  Dream\n6.  Shadow\n7.  Ocean\n8.  Thread\n9.  Justice\n10. Scent"
+            ],
+            [
+                "Time\nStone\nLove\nIdea\nWater\nDream\nSound\nChair\nWind\nJustice"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Music\n4.  Shadow\n5.  Thought\n6.  Ocean\n7.  Silence\n8.  Tool\n9.  Time\n10. Flower"
+            ]
+        ],
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 1000}}": [
+            [
+                "Time\nMountain\nSilence\nTool\nThought\nWater\nJustice\nCreature\nShadow\nStory"
+            ],
+            [
+                "Truth\nWater\nDream\nTool\nSilence\nJourney\nShadow\nMusic\nAnimal\nNumber"
+            ],
+            [
+                "1. Stone\n2. Dream\n3. Justice\n4. Silence\n5. Machine\n6. Freedom\n7. Journey\n8. Shadow\n9. Thought\n10. Ocean"
+            ],
+            [
+                "Stone\nThought\nSilence\nOcean\nDream\nChair\nCourage\nShadow\nHarvest\nWhisper"
+            ],
+            [
+                "1.  Thought\n2.  Stone\n3.  Music\n4.  Silence\n5.  Ocean\n6.  Shadow\n7.  Truth\n8.  Machine\n9.  Dream\n10. Dust"
+            ],
+            [
+                "Stone\nDream\nWater\nSilence\nJourney\nTruth\nAnimal\nTool\nShadow\nWhisper"
+            ],
+            [
+                "Time\nStone\nDream\nWater\nVoice\nShadow\nMachine\nFlower\nSilence\nJourney"
+            ],
+            [
+                "Stone\nDream\nSilence\nOcean\nWisdom\nShadow\nJourney\nEcho\nThread\nMoment"
+            ],
+            [
+                "Stone\nHope\nMountain\nTime\nTool\nChaos\nWave\nIdea\nCreature\nAir"
+            ],
+            [
+                "Time\nMountain\nBird\nSilence\nChair\nWater\nThought\nLeaf\nJustice\nBook"
+            ]
+        ],
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 1500}}": [
+            [
+                "1. Time\n2. Mountain\n3. Bird\n4. Language\n5. Color\n6. Joy\n7. Water\n8. Wheel\n9. Number\n10. Cloud"
+            ],
+            [
+                "1. Rock\n2. Wheel\n3. Idea\n4. Joy\n5. Sleep\n6. Wind\n7. Moment\n8. Crowd\n9. Sound\n10. Void"
+            ],
+            [
+                "1. Stone\n2. Dream\n3. Water\n4. Bird\n5. Truth\n6. Silence\n7. Chair\n8. Wisdom\n9. Shadow\n10. Journey"
+            ],
+            [
+                "Stone\nDream\nSound\nJustice\nWater\nTool\nTree\nFuture\nLaughter\nShadow"
+            ],
+            [
+                "Cloud\nTruth\nSilence\nMachine\nDream\nOcean\nJustice\nShadow\nPatience\nAtom"
+            ],
+            [
+                "*   **Rock**\n*   **Idea**\n*   **Ocean**\n*   **Freedom**\n*   **Echo**\n*   **Machine**\n*   **Time**\n*   **Emotion**\n*   **Star**\n*   **Dust**"
+            ],
+            [
+                "1. Stone\n2. Dream\n3. Water\n4. Sound\n5. Truth\n6. Tool\n7. Cloud\n8. Emotion\n9. Journey\n10. Root"
+            ],
+            [
+                "1.  Stone\n2.  Dream\n3.  Hour\n4.  Wisdom\n5.  River\n6.  Hammer\n7.  Whisper\n8.  Cloud\n9.  Scent\n10. Truth"
+            ]
+        ],
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 2000}}": [
+            [
+                "1.  Stone\n2.  Dream\n3.  River\n4.  Silence\n5.  Thought\n6.  Shadow\n7.  Machine\n8.  Truth\n9.  Animal\n10. Future"
+            ],
+            [
+                "Time\nAir\nDream\nOcean\nSilence\nWheel\nFear\nFire\nJustice\nSeed"
+            ],
+            [
+                "1.  Truth\n2.  Rock\n3.  Chair\n4.  Animal\n5.  Water\n6.  Sound\n7.  Dream\n8.  Money\n9.  Storm\n10. Shadow"
+            ],
+            [
+                "Stone\nDream\nWater\nSilence\nJourney\nTruth\nShadow\nVoice\nRoot\nSpace"
+            ],
+            [
+                "Stone\nDream\nWater\nTruth\nSound\nTool\nFear\nForest\nNumber\nJourney"
+            ],
+            [
+                "Truth\nOcean\nWhisper\nTool\nCloud\nEmotion\nSeed\nSpace\nFabric\nJourney"
+            ],
+            [
+                "Time\nSilence\nMountain\nTool\nHope\nInsect\nThought\nWater\nSociety\nBook"
+            ],
+            [
+                "Idea\nStone\nBird\nSilence\nDream\nChair\nOcean\nJustice\nMusic\nShadow"
+            ],
+            [
+                "1. Stone\n2. Love\n3. Sky\n4. Justice\n5. Sound\n6. Machine\n7. Water\n8. Dream\n9. Growth\n10. Shadow"
+            ]
+        ],
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 3000}}": [
+            [
+                "1. Stone\n2. Thought\n3. Freedom\n4. Silence\n5. Number\n6. Chair\n7. Light\n8. Animal\n9. Color\n10. Space"
+            ],
+            [
+                "Time\nRock\nTool\nPlant\nSound\nPeace\nCloud\nThought\nVessel\nSystem"
+            ],
+            [
+                "*   Thought\n*   Water\n*   Tool\n*   Animal\n*   Family\n*   Sound\n*   Moment\n*   Mountain\n*   Joy\n*   House"
+            ],
+            [
+                "Stone\nDream\nWater\nJustice\nChair\nSilence\nGalaxy\nIdea\nThread\nEcho"
+            ],
+            [
+                "1. Stone\n2. Dream\n3. Ocean\n4. Silence\n5. Machine\n6. Truth\n7. Animal\n8. Cloud\n9. Journey\n10. Flavor"
+            ],
+            [
+                "Stone\nThought\nSilence\nJourney\nShadow\nJustice\nMachine\nOcean\nDream\nScent"
+            ],
+            [
+                "1. Mountain\n2. Moment\n3. Tool\n4. Silence\n5. Insect\n6. Truth\n7. Water\n8. System\n9. Star\n10. Void"
+            ]
+        ],
+        "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 4500}}": [
+            [
+                "Stone\nDream\nWater\nSilence\nBuilding\nStar\nFreedom\nSeed\nShadow\nRoad"
+            ],
+            [
+                "1. Silence\n2. Stone\n3. Dream\n4. Ocean\n5. Justice\n6. Needle\n7. Shadow\n8. Wisdom\n9. Vapor\n10. Rhythm"
+            ],
+            [
+                "Eternity\nOcean\nHammer\nThought\nChaos\nInsect\nSilence\nStar\nWisdom\nBridge"
+            ],
+            [
+                "Air\nFreedom\nSpoon\nRiver\nDawn\nAnt\nGrief\nSand\nIdea\nEcho"
+            ],
+            [
+                "Truth\nStar\nSeed\nBook\nSorrow\nWater\nChange\nWheel\nNumber\nVoice"
+            ],
+            [
+                "Truth\nKey\nStar\nTree\nDream\nMirror\nSilence\nCity\nDiscovery\nSand"
+            ],
+            [
+                "1. Stone\n2. Ocean\n3. Tool\n4. Freedom\n5. Future\n6. Echo\n7. Glimmer\n8. Joy\n9. Tree\n10. Void"
+            ],
+            [
+                "1. Truth\n2. Stone\n3. Wheel\n4. Child\n5. Justice\n6. Silence\n7. Light\n8. Dream\n9. Space\n10. Wall"
+            ],
+            [
+                "Stone\nMoment\nSilence\nOcean\nThought\nTool\nShadow\nSorrow\nCulture\nUnit"
+            ],
+            [
+                "Idea\nBook\nOcean\nInsect\nMoment\nSilence\nJourney\nFlame\nCave\nShadow"
+            ]
+        ]
+    }
+}

@@ -7,6 +7,12 @@ __pycache__/
 *.so
 test.ipynb
 
+# Custom
+test/
+.DS_Store
+models/glove.840B.300d.txt
+models/bert_midlayer_dict.h5
+
 # Distribution / packaging
 .Python
 build/
