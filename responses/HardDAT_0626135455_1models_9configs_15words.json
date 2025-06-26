@@ -1,0 +1,132 @@
+[
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 0}}": [
+                [
+                    "1. Abacus\n2. Abate\n3. Abhor\n4. Abide\n5. Able\n6. Ablaze\n7. Abode\n8. Abolish\n9. Abound\n10. Abridge\n11. Absolve\n12. Abstain\n13. Absurd\n14. Abundant\n15. Abysmal\n16. Accede\n17. Accent\n18. Acclaim\n19. Accord\n20. Accrue\n21. Accuse\n22. Acerbic\n23. Acknowledge\n24. Acme\n25. Acoustic"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_config\": {\"thinking_budget\": 0}}": [
+                [
+                    "1. Abacus\n2. Abate\n3. Abhor\n4. Able\n5. Abrupt\n6. Absent\n7. Abyss\n8. Acme\n9. Adage\n10. Adapt\n11. Adopt\n12. Adore\n13. Adult\n14. Aisle\n15. Alarm\n16. Alibi\n17. Alien\n18. Alloy\n19. Along\n20. Aloud\n21. Alpha\n22. Alter\n23. Amass\n24. Amid\n25. Anvil"
+                ]
+            ],
+            "{\"temperature\": 1.5, \"thinking_config\": {\"thinking_budget\": 0}}": [
+                [
+                    "1. Awkward\n2. Abyss\n3. Allocate\n4. Agile\n5. Ambitious\n6. Anecdote\n7. Aspire\n8. Abundant\n9. Accolade\n10. Authentic\n11. Alleviate\n12. Adorn\n13. Affinity\n14. Anomalous\n15. Ascribe\n16. Affable\n17. Acquiesce\n18. Articulate\n19. Austere\n20. Avert\n21. Avidity\n22. Askew\n23. Apex\n24. Ambrosial\n25. Azure"
+                ]
+            ],
+            "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 1000}}": [
+                [
+                    "1.  Acknowledge\n2.  Adorn\n3.  Agile\n4.  Alight\n5.  Allot\n6.  Amass\n7.  Ample\n8.  Anomaly\n9.  Apex\n10. Arbitrary\n11. Archive\n12. Ascend\n13. Aspire\n14. Astonish\n15. Atypical\n16. Augment\n17. Auspice\n18. Avail\n19. Avert\n20. Avid\n21. Avow\n22. Await\n23. Awkward\n24. Axiom\n25. Azure"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_config\": {\"thinking_budget\": 1000}}": [
+                [
+                    "1.  Abacus\n2.  Aboard\n3.  Absurd\n4.  Acclaim\n5.  Active\n6.  Adept\n7.  Afloat\n8.  Ageless\n9.  Aisle\n10. Alarm\n11. Albeit\n12. Alight\n13. Aloud\n14. Always\n15. Amaze\n16. Ambit\n17. Amend\n18. Ample\n19. Ancient\n20. Annual\n21. Apical\n22. Aptly\n23. Arcane\n24. Array\n25. Ascent"
+                ]
+            ],
+            "{\"temperature\": 1.5, \"thinking_config\": {\"thinking_budget\": 1000}}": [
+                [
+                    "1.  Acknowledge\n2.  Adequate\n3.  Affection\n4.  Agitation\n5.  Allure\n6.  Ambiguous\n7.  Analyze\n8.  Anomaly\n9.  Anticipate\n10. Aperture\n11. Appreciate\n12. Arbitrary\n13. Ascend\n14. Astonish\n15. Astringent\n16. Attribute\n17. Austere\n18. Avalanche\n19. Avert\n20. Awkward\n21. Axiom\n22. Azure\n23. Aberrant\n24. Allegiance\n25. Artisan"
+                ]
+            ],
+            "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 2000}}": [
+                [
+                    "1.  Abacus\n2.  Abalone\n3.  Abeyance\n4.  Abolish\n5.  Abyss\n6.  Acorn\n7.  Acrobat\n8.  Adage\n9.  Adept\n10. Adrift\n11. Agility\n12. Aisle\n13. Alchemy\n14. Alcove\n15. Amulet\n16. Anvil\n17. Apex\n18. Apiary\n19. Apricot\n20. Armada\n21. Artery\n22. Asparagus\n23. Asterisk\n24. Atlas\n25. Auburn"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_config\": {\"thinking_budget\": 2000}}": [
+                [
+                    "1. Abacus\n2. Abject\n3. Ablaze\n4. Abscond\n5. Accolade\n6. Acorn\n7. Acquire\n8. Acrylic\n9. Adapt\n10. Adhere\n11. Admonish\n12. Adrift\n13. Aglow\n14. Ailment\n15. Alabaster\n16. Alight\n17. Allocate\n18. Allure\n19. Aloft\n20. Amulet\n21. Anecdote\n22. Anguish\n23. Animate\n24. Anomaly\n25. Apex"
+                ]
+            ],
+            "{\"temperature\": 1.5, \"thinking_config\": {\"thinking_budget\": 2000}}": [
+                [
+                    "1.  Apple\n2.  Agree\n3.  Anchor\n4.  Arrive\n5.  Avail\n6.  Aware\n7.  Amaze\n8.  Aloud\n9.  Abode\n10. Accent\n11. Agile\n12. Aisle\n13. Allot\n14. Aloft\n15. Annex\n16. Applaud\n17. Archive\n18. Articulate\n19. Ascent\n20. Ascribe\n21. Aspire\n22. Attest\n23. Auxiliary\n24. Avenue\n25. Abysmal"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "tercet",
+                "pick-ups",
+                "trainloads",
+                "ladyloves",
+                "clomping",
+                "milligram",
+                "parables",
+                "babesiosis",
+                "outnonrefoulement",
+                "rebel"
+            ],
+            "letter": "a",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 0}}": [
+                [
+                    "1. Baffle\n2. Balcony\n3. Banish\n4. Barometer\n5. Barrage\n6. Behold\n7. Belligerent\n8. Benevolent\n9. Bespoke\n10. Betray\n11. Blight\n12. Boisterous\n13. Bolster\n14. Bourgeois\n15. Bovine\n16. Brazen\n17. Brevity\n18. Bristle\n19. Brocade\n20. Buffoon\n21. Bulwark\n22. Burgeon\n23. Bustle\n24. Buttress\n25. Bygone"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_config\": {\"thinking_budget\": 0}}": [
+                [
+                    "1.  Bombast\n2.  Bifurcate\n3.  Balderdash\n4.  Buttress\n5.  Bucolic\n6.  Bluster\n7.  Bramble\n8.  Bacchanal\n9.  Badger\n10. Buffoon\n11. Blight\n12. Bilious\n13. Burgeon\n14. Banal\n15. Benign\n16. Beseech\n17. Bequeath\n18. Blandish\n19. Bolster\n20. Boorish\n21. Brio\n22. Brusque\n23. Bruit\n24. Beatific\n25. Braggart"
+                ]
+            ],
+            "{\"temperature\": 1.5, \"thinking_config\": {\"thinking_budget\": 0}}": [
+                [
+                    "1. Bottle\n2. Bright\n3. Burden\n4. Blanket\n5. Boast\n6. Bypass\n7. Blossom\n8. Bulky\n9. Bristle\n10. Bazaar\n11. Baffle\n12. Bilge\n13. Blister\n14. Bounce\n15. Brow\n16. Bangle\n17. Bustle\n18. Barrage\n19. Bolster\n20. Brazen\n21. Behold\n22. Bespoke\n23. Burrow\n24. Bruise\n25. Buffet"
+                ]
+            ],
+            "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 1000}}": [
+                [
+                    "1.  Baffle\n2.  Balcony\n3.  Balloon\n4.  Bangle\n5.  Barometer\n6.  Barracks\n7.  Basket\n8.  Bathtub\n9.  Beacon\n10. Behold\n11. Belligerent\n12. Benefactor\n13. Berate\n14. Beverage\n15. Bewilder\n16. Bias\n17. Bilge\n18. Bisect\n19. Blight\n20. Blunder\n21. Boisterous\n22. Bolster\n23. Bonanza\n24. Braid\n25. Bristle"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_config\": {\"thinking_budget\": 1000}}": [
+                [
+                    "1. botuliform\n2. belligerent\n3. bungalow\n4. brogue\n5. burgeon\n6. blemish\n7. bastion\n8. bovine\n9. brittle\n10. ballast\n11. beckon\n12. bluster\n13. buoyant\n14. buttress\n15. baffle\n16. biennial\n17. bravado\n18. bedlam\n19. beseech\n20. bolster\n21. benign\n22. blithe\n23. burlesque\n24. bucolic\n25. bequeath"
+                ]
+            ],
+            "{\"temperature\": 1.5, \"thinking_config\": {\"thinking_budget\": 1000}}": [
+                [
+                    "1.   Baffle\n2.   Bargain\n3.   Benevolent\n4.   Beside\n5.   Biblical\n6.   Blossom\n7.   Blueprint\n8.   Blur\n9.   Boisterous\n10. Bonanza\n11. Boulder\n12. Bristle\n13. Buoyant\n14. Burgeon\n15. Bypass\n16. Blithe\n17. Bountiful\n18. Bovine\n19. Brisk\n20. Buff\n21. Balmy\n22. Bespoke\n23. Brocade\n24. Baroque\n25. Bellow"
+                ]
+            ],
+            "{\"temperature\": 0.5, \"thinking_config\": {\"thinking_budget\": 2000}}": [
+                [
+                    "1. Basket\n2. Blizzard\n3. Braille\n4. Bellow\n5. Barometer\n6. Bubble\n7. Blanket\n8. Brassiere\n9. Building\n10. Boat\n11. Barrel\n12. Brightness\n13. Balance\n14. Borrow\n15. Breakfast\n16. Butterfly\n17. Ballad\n18. Barricade\n19. Blender\n20. Breeze\n21. Brass\n22. Brook\n23. Boulder\n24. Bracket\n25. Broadcast"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_config\": {\"thinking_budget\": 2000}}": [
+                [
+                    "1.  Bumble\n2.  Bolster\n3.  Bargain\n4.  Bleach\n5.  Bristle\n6.  Bravura\n7.  Buttress\n8.  Bewilder\n9.  Bludgeon\n10. Boisterous\n11. Bilateral\n12. Burgeon\n13. Benevolent\n14. Barrage\n15. Blister\n16. Blemish\n17. Bellwether\n18. Bifocal\n19. Banter\n20. Beguile\n21. Berate\n22. Besiege\n23. Bovine\n24. Bountiful\n25. Bygone"
+                ]
+            ],
+            "{\"temperature\": 1.5, \"thinking_config\": {\"thinking_budget\": 2000}}": [
+                [
+                    "1.   Balcony\n2.   Baffle\n3.   Bandit\n4.   Banquet\n5.   Barrage\n6.   Basilisk\n7.   Batter\n8.   Beckon\n9.   Berth\n10. Biplane\n11. Blight\n12. Boisterous\n13. Bolster\n14. Boon\n15. Boulevard\n16. Bountiful\n17. Bovine\n18. Bracelet\n19. Bramble\n20. Buoy\n21. Burgundy\n22. Burly\n23. Burrow\n24. Bustle\n25. Butcher"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "escitalopramisability",
+                "nephrons",
+                "vacuumed",
+                "porously",
+                "theatregoing",
+                "rots",
+                "shadow-boxing",
+                "botuliform",
+                "amazingly",
+                "eyeliner"
+            ],
+            "letter": "b",
+            "repeat": 0
+        }
+    }
+]
