@@ -8,6 +8,50 @@ However, there does not exist a gold standard LLM benchmark to assess creative t
 
 Upon the project’s completion, a thorough multi-modal open-source benchmark for creative thinking and creative divergence will be created. This will be accompanied by the evaluation metrics of different models (including Gemini 2.0), along with documentation and custom evaluation scripts. Finally, an educational video explanation of the benchmark will be shared on my YouTube channel (https://www.youtube.com/@Green-Code/), which will serve as an introduction to developers and newcomers to the LLM field.
 
+## Quick-start
+### Start by cloning the repo:
+
+```
+git clone https://github.com/theGreen-Coder/MCTB.git
+cd MCTB
+```
+### Create & activate the Conda environment:
+
+```
+conda env create -f environment.yml   # installs Python 3.12 and all pinned deps  
+conda activate MCTB                   # environment name is set inside the YAML
+```
+
+Conda’s env create -f command builds an environment from the yml file.
+
+### Add your API keys
+```
+cp .env-example .env   # or copy it manually on Windows
+```
+
+Open .env and replace the placeholders:
+```
+OPENAI_API_KEY=YOUR_KEY_HERE
+GOOGLE_API_KEY=YOUR_KEY_HERE
+```
+These are the only two variables required according to .env-example. (github.com)
+
+### Get started
+
+Check out [the example notebook](example.ipynb) to see my main results so far in the project, as well as a general explanation of each of the test and it's implementation.
+Otherwise, all creative tests are stored in the [creative_tests folder](creative_tests/).\
+Hope you enjoy!
+
+### Additional Notes
+A couple of really big files are needed to fully execute the repository. You will need to download `glove.840B.300d.txt`:
+
+```
+wget -P models http://nlp.stanford.edu/data/glove.840B.300d.zip
+unzip models/glove.840B.300d.zip -d models
+```
+
+Also, the file `bert_midlayer_dict.h5` is missing. This is roughly a 1GB file that I genereted to get the word embeddings faster using BERT (by storing them beforehand). At the moment (June 26th 2025), this is still a bit buggy, so I will upload this when I fix all the problems.
+
 ## Weekly Progress Log
 A weekly updated progress log can be found [here](WeeklyProgressLog.md).
 
