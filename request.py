@@ -102,7 +102,7 @@ class ModelRunner():
             ("gemma-", ChatGoogleGenerativeAI, self._google_kwargs),
             ("google/", ChatVertexAI, self._google_kwargs),
             ("gpt-", ChatOpenAI, self._openai_kwargs),
-            ("claude-", ChatAnthropic, self._openai_kwargs)
+            ("claude-", ChatAnthropic, self._anthropic_kwargs)
         ]
         
     def _openai_kwargs(self, gconf: GenerationConfig, model_name: str):
@@ -110,6 +110,13 @@ class ModelRunner():
             "temperature": gconf.temperature,
             "top_p": gconf.top_p,
             "max_tokens": gconf.max_output_tokens,
+            "stop": gconf.stop_sequences,
+        }
+
+    def _anthropic_kwargs(self, gconf: GenerationConfig, model_name: str):
+        return {
+            "temperature": gconf.temperature/2,
+            "top_p": gconf.top_p,
             "stop": gconf.stop_sequences,
         }
 

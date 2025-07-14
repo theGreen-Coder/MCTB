@@ -1,9 +1,7 @@
 from __future__ import annotations
-
 import re
 from pathlib import Path
 from typing import List
-
 import h5py
 import torch
 import tqdm
@@ -14,10 +12,10 @@ from transformers import BertModel, BertTokenizer
 # ---------------------------------------------------------------------------
 DICT_PATH = Path("./models/words.txt")
 OUTPUT_H5 = "bert_midlayer_dict.h5"
-PATTERN = re.compile(r"^[a-z][a-z-]*[a-z]$")  # lowercase + hyphen
-LAYERS = [6, 7]               # which hidden layers to dump
-BATCH_SIZE_GPU = 2048//2         # words per batch when on GPU
-BATCH_SIZE_CPU = 32           # words per batch when on CPU
+PATTERN = re.compile(r"^[a-z][a-z-]*[a-z]$")
+LAYERS = [6, 7]
+BATCH_SIZE_GPU = 2048//2
+BATCH_SIZE_CPU = 32
 
 # ---------------------------------------------------------------------------
 # 2. Load dictionary words
@@ -31,7 +29,7 @@ print(f"Loaded {len(words):,} words from {DICT_PATH}.")
 # ---------------------------------------------------------------------------
 if torch.cuda.is_available():
     device = torch.device("cuda")
-elif torch.backends.mps.is_available():  # Apple Silicon
+elif torch.backends.mps.is_available():
     device = torch.device("mps")
 else:
     device = torch.device("cpu")
@@ -66,7 +64,7 @@ for L in LAYERS:
 # ---------------------------------------------------------------------------
 # 5. Helper: build a padded batch
 # ---------------------------------------------------------------------------
-PAD_ID = tok.pad_token_id  # 0 for BERT‑base‑uncased
+PAD_ID = tok.pad_token_id
 
 def make_batch(batch_words: List[str]):
     """Return input_ids tensor and lengths list in *device*."""
@@ -86,7 +84,7 @@ def make_batch(batch_words: List[str]):
     return ids, att, lengths
 
 # ---------------------------------------------------------------------------
-# 6. Main extraction loop (batched)
+# 6. Main extraction loop
 # ---------------------------------------------------------------------------
 print("Extracting embeddings…")
 
@@ -95,24 +93,21 @@ with torch.no_grad():
         bw = words[start : start + BATCH_SIZE]
         ids, att, lengths = make_batch(bw)
         print("Doing forward pass...")
-        outs = bert(input_ids=ids, attention_mask=att).hidden_states  # len = 13
+        outs = bert(input_ids=ids, attention_mask=att).hidden_states
         print("Finished forward pass!")
 
         for L in LAYERS:
-            layer_out = outs[L]  # shape = (B, T, 768)
+            layer_out = outs[L]
 
-            # Build mask to isolate the real subword tokens (exclude [CLS] and [SEP])
             mask = torch.zeros_like(att, dtype=torch.bool)
             for i, n_sub in enumerate(lengths):
                 mask[i, 1 : 1 + n_sub] = True
 
-            # Apply the mask and compute the mean along token dimension
-            masked = layer_out * mask.unsqueeze(-1)  # (B, T, 768)
-            sum_vecs = masked.sum(dim=1)             # (B, 768)
-            lengths_tensor = torch.tensor(lengths, device=device).unsqueeze(1)  # (B, 1)
-            avg_vecs = sum_vecs / lengths_tensor     # (B, 768)
+            masked = layer_out * mask.unsqueeze(-1)
+            sum_vecs = masked.sum(dim=1)
+            lengths_tensor = torch.tensor(lengths, device=device).unsqueeze(1)
+            avg_vecs = sum_vecs / lengths_tensor
 
-            # Store to HDF5
             store[f"layer{L}"][start : start + len(bw)] = avg_vecs.cpu().numpy()
 
 print(f"Finished. Embeddings stored in {OUTPUT_H5}")

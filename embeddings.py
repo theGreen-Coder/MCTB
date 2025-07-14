@@ -38,6 +38,16 @@ def calculate_dat_score(model, words, minimum=7):
 
     return (sum(distances) / len(distances)) * 100.0
 
+def calculate_dsi_score(model, sentences):
+    test1 = [f"{sentence1}:{sentence2}" for sentence1, sentence2 in itertools.combinations(sentences, 2)]
+    print(test1)
+    model.distance(test1[0].split(":")[0], test1[0].split(":")[1])
+    distances = [model.distance(sentence1, sentence2) for sentence1, sentence2 in itertools.combinations(sentences, 2)]
+    if not distances:
+        return None
+
+    return (sum(distances) / len(distances)) * 100.0
+
 class BaseEmbeddingModel(ABC):
     @abstractmethod
     def validate(self, word):
