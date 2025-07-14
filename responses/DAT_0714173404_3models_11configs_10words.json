@@ -1,0 +1,272 @@
+{
+    "gemini-2.0-flash": {
+        "{\"temperature\": 0.5}": [
+            [
+                "1. Void\n2. Zenith\n3. Quagmire\n4. Notion\n5. Filament\n6. Fortress\n7. Aroma\n8. Algorithm\n9. Cascade\n10. Epiphany"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Entropy\n5. Balm\n6. Epoch\n7. Murmur\n8. Citadel\n9. Fleece\n10. Torque"
+            ]
+        ],
+        "{\"temperature\": 0.625}": [
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Molecule\n5. Algorithm\n6. Epoch\n7. Enigma\n8. Reverie\n9. Paradigm\n10. Sediment"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Notion\n5. Murmur\n6. Torque\n7. Ember\n8. Fleece\n9. Algorithm\n10. Prism"
+            ]
+        ],
+        "{\"temperature\": 0.75}": [
+            [
+                "1. Void\n2. Apex\n3. Quagmire\n4. Serenity\n5. Wrath\n6. Molecule\n7. Epoch\n8. Enigma\n9. Filament\n10. Oblivion"
+            ],
+            [
+                "1. Void\n2. Apex\n3. Murmur\n4. Oblivion\n5. Kernel\n6. Spectrum\n7. Paradigm\n8. Quagmire\n9. Zenith\n10. Cipher"
+            ]
+        ],
+        "{\"temperature\": 0.875}": [
+            [
+                "1. Void\n2. Zenith\n3. Molecule\n4. Quagmire\n5. Serenity\n6. Enigma\n7. Brick\n8. Galaxy\n9. Theorem\n10. Whimsy"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Pebble\n4. Aroma\n5. Algorithm\n6. Quirk\n7. Notion\n8. Spectrum\n9. Fortress\n10. Filament"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "1. Void\n2. Apex\n3. Molecule\n4. Quagmire\n5. Notion\n6. Zenith\n7. Riddle\n8. Armor\n9. Serenity\n10. Gale"
+            ],
+            [
+                "1. Abyss\n2. Zenith\n3. Notion\n4. Rust\n5. Fleece\n6. Quirk\n7. Realm\n8. Murmur\n9. Torque\n10. Void"
+            ]
+        ],
+        "{\"temperature\": 1.125}": [
+            [
+                "1. Void\n2. Epiphany\n3. Parchment\n4. Galaxy\n5. Quagmire\n6. Fortress\n7. Molecule\n8. Reverie\n9. Algorithm\n10. Sculpture"
+            ],
+            [
+                "1. Void\n2. Flourish\n3. Entropy\n4. Keystone\n5. Murmur\n6. Pinnacle\n7. Oblivion\n8. Paradox\n9. Canvas\n10. Filament"
+            ]
+        ],
+        "{\"temperature\": 1.25}": [
+            [
+                "1.  Eternity\n2.  Fervor\n3.  Boulder\n4.  Atom\n5.  Quill\n6.  Solitude\n7.  Harbinger\n8.  Paradox\n9.  Boon\n10. Void"
+            ],
+            [
+                "1. Zenith\n2. Abyss\n3. Quill\n4. Algorithm\n5. Epiphany\n6. Paradox\n7. Nostalgia\n8. Cipher\n9. Entropy\n10. Continuum"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "Here are ten distinct nouns:\n\n1.  Eternity\n2.  Pixel\n3.  Trepidation\n4.  Quill\n5.  Osmosis\n6.  Nadir\n7.  Azure\n8.  Kernel\n9.  Bliss\n10. Algorithm"
+            ],
+            [
+                "1. Void\n2. Epiphany\n3. Quagmire\n4. Zenith\n5. Molecule\n6. Rind\n7. Symphony\n8. Anomaly\n9. Parchment\n10. Cipher"
+            ]
+        ],
+        "{\"temperature\": 1.625}": [
+            [
+                "1. Void\n2. Zenith\n3. Quill\n4. Quagmire\n5. Emptiness\n6. Revelation\n7. Phenomenon\n8. Algorithm\n9. Epoch\n10. Kinship"
+            ],
+            [
+                "1. Void\n2. Crescendo\n3. Pewter\n4. Effervescence\n5. Serenity\n6. Quagmire\n7. Dichotomy\n8. Obelisk\n9. Enigma\n10. Zenith"
+            ]
+        ],
+        "{\"temperature\": 1.75}": [
+            [
+                "1. Void\n2. Keystone\n3. Ripple\n4. Epiphany\n5. Quagmire\n6. Aegis\n7. Dichotomy\n8. Citadel\n9. Maw\n10. Effluvium"
+            ],
+            [
+                "1. Void\n2. Kernel\n3. Effervescence\n4. Sprout\n5. Requiem\n6. Plateau\n7. Paradox\n8. Vestige\n9. Quagmire\n10. Cipher"
+            ]
+        ],
+        "{\"temperature\": 1.875}": [
+            [
+                "1. Void\n2. Symphony\n3. Quill\n4. Galaxy\n5. Dew\n6. Torque\n7. Fleece\n8. Rust\n9. Algorithm\n10. Sphinx"
+            ],
+            [
+                "*   Justice\n*   Pixel\n*   Abyss\n*   Echolocation\n*   Sequoia\n*   Quill\n*   Nodule\n*   Syntax\n*   Luminescence\n*   Asymptote"
+            ]
+        ]
+    },
+    "gpt-4o": {
+        "{\"temperature\": 0.5}": [
+            [
+                "1. Apple\n2. Freedom\n3. Mountain\n4. Idea\n5. River\n6. Emotion\n7. Journey\n8. Shadow\n9. Whisper\n10. Puzzle"
+            ],
+            [
+                "1. Apple  \n2. Freedom  \n3. Mountain  \n4. Melody  \n5. Shadow  \n6. Puzzle  \n7. Ocean  \n8. Whisper  \n9. Journey  \n10. Bread"
+            ]
+        ],
+        "{\"temperature\": 0.625}": [
+            [
+                "1. Apple  \n2. Freedom  \n3. Mountain  \n4. Idea  \n5. Ocean  \n6. Whisper  \n7. Puzzle  \n8. Thunder  \n9. Dream  \n10. Shadow"
+            ],
+            [
+                "1. Elephant  \n2. Melody  \n3. Justice  \n4. Bread  \n5. Ocean  \n6. Whisper  \n7. Mountain  \n8. Dream  \n9. Clock  \n10. Fear"
+            ]
+        ],
+        "{\"temperature\": 0.75}": [
+            [
+                "1. Apple\n2. Freedom\n3. Ocean\n4. Melody\n5. Mountain\n6. Friendship\n7. Thunder\n8. Clock\n9. Dream\n10. Forest"
+            ],
+            [
+                "Tree  \nIdea  \nOcean  \nBook  \nHappiness  \nBicycle  \nStone  \nMusic  \nDream  \nBread"
+            ]
+        ],
+        "{\"temperature\": 0.875}": [
+            [
+                "1. Mountain  \n2. Symphony  \n3. Idea  \n4. Emotion  \n5. Bicycle  \n6. River  \n7. Puzzle  \n8. Freedom  \n9. Jungle  \n10. Sandwich  "
+            ],
+            [
+                "1. Apple  \n2. Harmony  \n3. Cloud  \n4. Whisper  \n5. Fabric  \n6. Joy  \n7. Mountain  \n8. Shadow  \n9. Rhythm  \n10. Bread  "
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "- Elephant  \n- Symphony  \n- Freedom  \n- Ladder  \n- Puzzle  \n- Ocean  \n- Bread  \n- Whisper  \n- Courage  \n- Clock"
+            ],
+            [
+                "1. Apple  \n2. Galaxy  \n3. Freedom  \n4. Falcon  \n5. Melody  \n6. River  \n7. Shadow  \n8. Dream  \n9. Village  \n10. Thunder  "
+            ]
+        ],
+        "{\"temperature\": 1.125}": [
+            [
+                "1. Love  \n2. Forest  \n3. Melody  \n4. Shadow  \n5. Ocean  \n6. Bread  \n7. Idea  \n8. Feather  \n9. Chaos  \n10. Journey"
+            ],
+            [
+                "1. Honey  \n2. Giraffe  \n3. Cloud  \n4. Melody  \n5. Boulder  \n6. Justice  \n7. Library  \n8. Envelope  \n9. Whisper  \n10. Shadow  "
+            ]
+        ],
+        "{\"temperature\": 1.25}": [
+            [
+                "1. Harmony  \n2. Avalanche  \n3. Nectar  \n4. Dilemma  \n5. Satellite  \n6. Tapestry  \n7. Embargo  \n8. Whistle  \n9. Gratitude  \n10. Intuition  "
+            ],
+            [
+                "Bread  \nOcean  \nCamel  \nMusic  \nShadow  \nFamily  \nJewel  \nDream  \nHarvest  \nPeace  "
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "1. Ox\n2. Dream\n3. Pancake\n4. Melody\n5. Volcano\n6. Mirror\n7. Silence\n8. Coral\n9. Garden\n10. Failure"
+            ],
+            [
+                "1. Moon  \n2. Dream  \n3. Bread  \n4. Music  \n5. Forest  \n6. Silence  \n7. Shadow  \n8. Love  \n9. Ladder  \n10. Ice"
+            ]
+        ],
+        "{\"temperature\": 1.625}": [
+            [
+                "Circle  \nCupcake  \nBridge  \nWhisper  \nHarmony  \nCuriosity  \nHedgehog  \nDesert  \nClock  \nEmotion"
+            ],
+            [
+                "1. Mountain  \n2. Dream  \n3. Pencil  \n4. Ocean  \n5. Journey  \n6. Breeze  \n7. Eternity  \n8. Universe  \n9. Melody  \n10. Shadow  "
+            ]
+        ],
+        "{\"temperature\": 1.75}": [
+            [
+                "1. Mirage\n2. Clay\n3. Harmony\n4. Regulation\n5. Shrine\n6. Bubble\n7. Precipice\n8. Dream\n9. Whisper\n10. Burden"
+            ],
+            [
+                "Tree  \nKnight  \nPort  \nSorrow  \nSand  \nBoard  \nFestival  \nMind  \nJourney  \nInfinity"
+            ]
+        ],
+        "{\"temperature\": 1.875}": [
+            [
+                "1. Ocean  \n2. Emotion  \n3. Symphony  \n4. Pyramid  \n5. Whisper  \n6. Justice  \n7. Meadow  \n8. Diamond  \n9. Imagination  \n10. Revolution  "
+            ],
+            [
+                "Dream  \nLion  \nClock  \nApple  \nCotton  \nIsland  \nTwitter  \nFestival  \nSound  \nMap"
+            ]
+        ]
+    },
+    "claude-sonnet-4-20250514": {
+        "{\"temperature\": 0.5}": [
+            [
+                "1. Ocean\n2. Democracy\n3. Bicycle\n4. Laughter\n5. Mathematics\n6. Sandwich\n7. Childhood\n8. Thunder\n9. Hospital\n10. Dream"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Laughter\n5. Hammer\n6. Democracy\n7. Sandwich\n8. Lightning\n9. Memory\n10. Crystal"
+            ]
+        ],
+        "{\"temperature\": 0.625}": [
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Laughter\n5. Hammer\n6. Democracy\n7. Sandwich\n8. Lightning\n9. Memory\n10. Crystal"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Bicycle\n4. Laughter\n5. Triangle\n6. Elephant\n7. Thunder\n8. Sandwich\n9. Memory\n10. Carpet"
+            ]
+        ],
+        "{\"temperature\": 0.75}": [
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Mathematics\n5. Sandwich\n6. Laughter\n7. Telescope\n8. Thunder\n9. Memory\n10. Carpet"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Laughter\n5. Hammer\n6. Democracy\n7. Sandwich\n8. Lightning\n9. Memory\n10. Crystal"
+            ]
+        ],
+        "{\"temperature\": 0.875}": [
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Laughter\n5. Hammer\n6. Democracy\n7. Sandwich\n8. Lightning\n9. Memory\n10. Carpet"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Laughter\n5. Hammer\n6. Democracy\n7. Sandwich\n8. Lightning\n9. Memory\n10. Crystal"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "1. Ocean\n2. Democracy\n3. Sandwich\n4. Childhood\n5. Triangle\n6. Laughter\n7. Electricity\n8. Butterfly\n9. Hospital\n10. Music"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Mathematics\n5. Sandwich\n6. Laughter\n7. Telescope\n8. Thunder\n9. Memory\n10. Carpet"
+            ]
+        ],
+        "{\"temperature\": 1.125}": [
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Mathematics\n5. Sandwich\n6. Laughter\n7. Telescope\n8. Thunder\n9. Memory\n10. Carpet"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Laughter\n5. Hammer\n6. Democracy\n7. Sandwich\n8. Lightning\n9. Memory\n10. Carpet"
+            ]
+        ],
+        "{\"temperature\": 1.25}": [
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Laughter\n5. Hammer\n6. Democracy\n7. Sandwich\n8. Lightning\n9. Memory\n10. Carpet"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Mathematics\n5. Laughter\n6. Volcano\n7. Memory\n8. Telescope\n9. Friendship\n10. Thunder"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "1. Ocean\n2. Democracy\n3. Bicycle\n4. Laughter\n5. Mathematics\n6. Sandwich\n7. Courage\n8. Lightning\n9. Hospital\n10. Music"
+            ],
+            [
+                "1. Ocean\n2. Justice\n3. Butterfly\n4. Thunder\n5. Memory\n6. Pyramid\n7. Laughter\n8. Velvet\n9. Hunger\n10. Shadow"
+            ]
+        ],
+        "{\"temperature\": 1.625}": [
+            [
+                "1. Butterfly\n2. Mathematics\n3. Sandwich\n4. Thunder\n5. Friendship\n6. Carpet\n7. Hospital\n8. Ocean\n9. Laughter\n10. Bicycle"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Anger\n5. Sandwich\n6. Democracy\n7. Telescope\n8. Childhood\n9. Thunder\n10. Surgery"
+            ]
+        ],
+        "{\"temperature\": 1.75}": [
+            [
+                "1. Elephant\n2. Mathematics\n3. Sandwich\n4. Thunder\n5. Friendship\n6. Microscope\n7. Laughter\n8. Ocean\n9. Democracy\n10. Refrigerator"
+            ],
+            [
+                "1. Dream\n2. Hammer\n3. Ocean\n4. Freedom\n5. Triangle\n6. Laughter\n7. Electricity\n8. Sandwich\n9. Memory\n10. Volcano"
+            ]
+        ],
+        "{\"temperature\": 1.875}": [
+            [
+                "1. Butterfly\n2. Mathematics\n3. Thunder\n4. Sandwich\n5. Democracy\n6. Telescope\n7. Laughter\n8. Ocean\n9. Memory\n10. Bicycle"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Hammer\n5. Democracy\n6. Sandwich\n7. Nightmare\n8. Fabric\n9. Volcano\n10. Laughter"
+            ]
+        ]
+    }
+}

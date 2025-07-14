@@ -1,0 +1,90 @@
+{
+    "gpt-4o": {
+        "{\"temperature\": 0.5}": [
+            [
+                "Apple",
+                "Mountain",
+                "Love",
+                "Ocean",
+                "Dream",
+                "Feather",
+                "Music",
+                "Shadow",
+                "Puzzle",
+                "Journey"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "Tree",
+                "Book",
+                "Joy",
+                "Ocean",
+                "Thunder",
+                "Bread",
+                "Dream",
+                "Mountain",
+                "Friendship",
+                "Stone"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "Mountain",
+                "Symphony",
+                "Democracy",
+                "Feather",
+                "Sandpaper",
+                "Enigma",
+                "Lottery",
+                "Beard",
+                "Currency",
+                "Whistle"
+            ]
+        ]
+    },
+    "gemini-2.0-flash": {
+        "{\"temperature\": 0.5}": [
+            [
+                "Void",
+                "Zenith",
+                "Quill",
+                "Molecule",
+                "Algorithm",
+                "Epoch",
+                "Enigma",
+                "Archipelago",
+                "Labyrinth",
+                "Fleece"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "Void",
+                "Apex",
+                "Quill",
+                "Algorithm",
+                "Hue",
+                "Axiom",
+                "Torque",
+                "Lichen",
+                "Murmur",
+                "Epoch"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "Void",
+                "Zenith",
+                "Quandary",
+                "Molecule",
+                "Breadth",
+                "Glee",
+                "Archipelago",
+                "Filament",
+                "Rust",
+                "Velvet"
+            ]
+        ]
+    }
+}
