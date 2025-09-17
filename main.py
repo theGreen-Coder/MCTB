@@ -4,11 +4,12 @@ import numpy as np
 from google import genai
 from google.genai import types
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from embeddings import GloVe, calculate_dat_score
+from embeddings import GloVe
 from request import Request, run_request
 from scipy.stats import norm
 from datetime import datetime
 from creative_tests.DAT import DivergentAssociationTest
+from utils import *
 
 test = DivergentAssociationTest(
     models=[
