@@ -4,7 +4,7 @@ import string
 from typing import List
 import numpy as np
 import torch
-from embeddings import BERT_Encoder_L6, BERT_Encoder_L7, GloVe, calculate_dsi_score
+from embeddings import BERT_Encoder_L6, BERT_Encoder_L7, GloVe
 from request import Request, run_request
 from scipy.stats import norm
 from datetime import datetime
@@ -16,6 +16,7 @@ import pandas as pd
 import string
 import time
 import torch
+from utils import *
 
 class DivergentSemanticIntegration():
     def __init__(self, models, configs, embedding_models=[BERT_Encoder_L6, BERT_Encoder_L7], repeats=1, delay=0):

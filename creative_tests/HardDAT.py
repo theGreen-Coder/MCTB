@@ -3,10 +3,11 @@ import random
 import re
 from typing import List
 from tqdm import tqdm
-from embeddings import BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7, GloVe, calculate_dat_score
+from embeddings import BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7, GloVe
 from collections import defaultdict
 from request import Request, run_request
 from creative_tests import DivergentAssociationTest
+from utils import *
 
 class HardDivergentAssociationTest(DivergentAssociationTest):
     def __init__(self, models, configs, embedding_models=[GloVe, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7], common=True, repeats=1, delay=0, n_words=25, given_words=50):

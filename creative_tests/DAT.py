@@ -2,10 +2,11 @@ import re
 import json
 from typing import List
 import numpy as np
-from embeddings import BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7, GloVe, calculate_dat_score
+from embeddings import BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7, GloVe
 from request import Request, run_request
 from scipy.stats import norm
 from datetime import datetime
+from utils import *
 
 class DivergentAssociationTest():
     def __init__(self, models, configs, embedding_models=[GloVe, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7], repeats=0, delay=0, n_words=10, standard_prompt=True, starts_with=None):
