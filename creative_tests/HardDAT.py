@@ -48,7 +48,6 @@ class HardDivergentAssociationTest(DivergentAssociationTest):
         non_clean_llm_response = []
 
         for letter in tqdm("abcdefghiklmnoprstuwy"):
-        # for letter in tqdm("ab"):
             for repeat in range(self.repeats):
                 if self.common:
                     random_words = self.get_n_random_words(dictionary="models/5k_common.txt")
@@ -87,7 +86,6 @@ class HardDivergentAssociationTest(DivergentAssociationTest):
 
         elif isinstance(prev, dict) or isinstance(prev, List):
             non_clean_llm_response = prev
-        
 
         merged = defaultdict(lambda: defaultdict(list))
 
@@ -99,8 +97,6 @@ class HardDivergentAssociationTest(DivergentAssociationTest):
             for model_key in self.models:
                 if model_key in entry:
                     for temp_key, word_lists in entry[model_key].items():
-                        # all_words = [clean_response(word) for word in word_lists]
-                        # all_words += random_words
                         assert len(word_lists) == 1 and len(word_lists[0]) == 1
                         merged[model_key][temp_key].extend([self.clean_response(word_lists[0][0]) + random_words])
 

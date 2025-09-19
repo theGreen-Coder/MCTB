@@ -34,7 +34,14 @@ class BaseEmbeddingModel(ABC):
     
     def distance(self, word1, word2):
         """Compute cosine distance (0 to 2) between two sentence/words"""
-        return 1.0 - self.get_unit_vector(word1) @ self.get_unit_vector(word2)
+        v1 = self.get_unit_vector(word1)
+        v2 = self.get_unit_vector(word2)
+        if v1 is not None and v2 is not None:
+            try:
+                return 1.0 - self.get_unit_vector(word1) @ self.get_unit_vector(word2)
+            except Exception as E:
+                print(f"Error in calculating distance: {E}")
+        return None
     
     def __str__(self):
         return "Base Embedding Model"
@@ -334,15 +341,21 @@ class Word2VecEmbeddings(BaseEmbeddingModel):
         return None
     
     def try_different_variants(self, variants):
+        error = False
+        v = None
+        
         if variants:
             for var in variants:
                 try:
                     v = self.model.get_vector(var)
+                    error = False
                     break
                 except:
+                    error = True
                     continue
-            if v is not None:
+            if v is not None and error == False:
                 return v
+            print(f"Couldn't find embedding for {variants[0]}")
             return None
         
     def get_unit_vector(self, text: str) -> np.ndarray:
@@ -355,7 +368,7 @@ class Word2VecEmbeddings(BaseEmbeddingModel):
             for tok in tokens:
                 variants = self.get_word_variants(tok)
                 emb = self.try_different_variants(variants)
-                if emb:
+                if emb is not None:
                     vecs.append(emb)
             if vecs:
                 return mean_pool_l2_normalize_numpy(np.mean(np.vstack(vecs), axis=0))

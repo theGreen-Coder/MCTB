@@ -39,7 +39,12 @@ def calculate_dat_score(model, words, minimum=7, maximum=12):
     subset = uniques[:maximum]
 
     # Compute DAT score: average pairwise distance × 100
-    distances = [model.distance(w1, w2) for w1, w2 in itertools.combinations(subset, 2)]
+    distances = [
+        d
+        for w1, w2 in itertools.combinations(subset, 2)
+        if (d := model.distance(w1, w2)) is not None
+    ]
+
     if not distances:
         return None
 
