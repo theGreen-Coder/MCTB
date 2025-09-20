@@ -6,6 +6,7 @@ import string
 import numpy as np
 from tqdm import tqdm
 from abc import ABC, abstractmethod
+from sentence_transformers import SentenceTransformer
 
 from transformers import AutoTokenizer, AutoModel
 from torch.nn.functional import normalize
@@ -26,19 +27,14 @@ class BaseEmbeddingModel(ABC):
     def clean(self, word):
         """Cleans string based on model preferences. Returns cleaned word or None if word cannot be processed/cleaned."""
         pass
-
-    @abstractmethod
-    def distance(self, word1, word2):
-        """Compute the distance between two cleaned words. """
-        pass
     
-    def distance(self, word1, word2):
+    def distance(self, str1, str2):
         """Compute cosine distance (0 to 2) between two sentence/words"""
-        v1 = self.get_unit_vector(word1)
-        v2 = self.get_unit_vector(word2)
+        v1 = self.get_unit_vector(str1)
+        v2 = self.get_unit_vector(str2)
         if v1 is not None and v2 is not None:
             try:
-                return 1.0 - self.get_unit_vector(word1) @ self.get_unit_vector(word2)
+                return 1.0 - self.get_unit_vector(str1) @ self.get_unit_vector(str2)
             except Exception as E:
                 print(f"Error in calculating distance: {E}")
         return None
@@ -448,369 +444,41 @@ class GraniteMultilingualEmbeddings(BaseEmbeddingModel):
     def __str__(self) -> str:
         return "GraniteMultilingualEmbeddings"
 
-
-### In development
-class GraniteMultilingualEmbeddingsAdvanced(BaseEmbeddingModel):
-    def __init__(
-            self,
-            model_id: str = "ibm-granite/granite-embedding-278m-multilingual",
-            device: str | None = None,
-            max_token_len: int = 512,
-            batch_size: int = 32,
-            local_files_only: bool = False):
-        
+class SBERT_Encoder(BaseEmbeddingModel):
+    """
+    Wrapper for Sentence-BERT models (SentenceTransformers library).
+    Produces L2-normalized sentence embeddings.
+    """
+    def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2", device: str | None = None):
+        super().__init__()
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-        self.max_token_len = int(max_token_len)
-        self.batch_size = int(batch_size)
+        self.model = SentenceTransformer(model_name, device=self.device)
+        self.dim = self.model.get_sentence_embedding_dimension()
 
-        # Load HF model + tokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            model_id, local_files_only=local_files_only
-        )
-        self.model = AutoModel.from_pretrained(
-            model_id, local_files_only=local_files_only
-        ).to(self.device)
-        self.model.eval()
+    def clean(self, text: str):
+        if isinstance(text, str) and text.strip():
+            return text.strip()
+        return None
 
-        # Ensure we can pad if the tokenizer doesn't ship with a pad token
-        if getattr(self.tokenizer, "pad_token", None) is None:
-            if getattr(self.tokenizer, "eos_token", None) is not None:
-                self.tokenizer.pad_token = self.tokenizer.eos_token
-            elif getattr(self.tokenizer, "sep_token", None) is not None:
-                self.tokenizer.pad_token = self.tokenizer.sep_token
-
-        self.dim = int(getattr(self.model.config, "hidden_size", 768))
-        self._cache: dict[str, torch.Tensor] = {}
-
-    def clean(self, word):
-        return clean_word(word)
-
+    @torch.inference_mode()
     def get_unit_vector(self, text: str) -> torch.Tensor:
         """
-        Return an L2-normalized vector (torch.Tensor, shape [dim]).
+        Return an L2-normalized embedding for a sentence or word.
+        Shape: [dim] (torch.Tensor).
         """
         if not isinstance(text, str) or not text.strip():
-            return torch.zeros(self.dim, dtype=torch.float32)
-
-        key = text 
-        cached = self._cache.get(key)
-        if cached is not None:
-            return cached
-
-        vec = self._encode_batch([text])[0]
-        self._cache[key] = vec
-        return vec
-
-    def __str__(self) -> str:
-        return "GraniteMultilingualEmbeddings"
-
-    @torch.inference_mode()
-    def encode(self, texts: list[str], as_numpy: bool = False) -> torch.Tensor | np.ndarray:
-        """
-        Batch-embed a list of strings. Returns a 2D tensor of unit vectors.
-        Also populates the in-memory cache.
-        """
-        if not texts:
-            return np.zeros((0, self.dim), dtype=np.float32) if as_numpy else torch.empty((0, self.dim))
-
-        # Identify which need computing
-        to_compute = []
-        order = []
-        for t in texts:
-            order.append(t)
-            if t not in self._cache:
-                to_compute.append(t)
-
-        # Compute missing in batches
-        for i in range(0, len(to_compute), self.batch_size):
-            batch = to_compute[i : i + self.batch_size]
-            reps = self._encode_batch(batch)
-            for k, v in zip(batch, reps):
-                self._cache[k] = v
-
-        # Assemble outputs in requested order
-        stacked = torch.stack([self._cache[t] for t in order], dim=0)
-        return stacked.numpy() if as_numpy else stacked
-
-    def precompute(self, words_or_sentences: list[str]) -> dict[str, np.ndarray]:
-        """
-        Batch-embed and cache. Returns a dict of {original_text: vector(np.float32)}.
-        Useful to speed up DAT/DSI runs.
-        """
-        vecs = self.encode(words_or_sentences, as_numpy=True)
-        return {t: v for t, v in zip(words_or_sentences, vecs)}
-
-    # -------- Internal: model forward + pooling --------
-
-    @torch.inference_mode()
-    def _encode_batch(self, texts: list[str]) -> torch.Tensor:
-        """
-        Tokenize -> forward -> CLS pooling -> L2-normalize.
-        Returns CPU float32 tensor of shape [len(texts), dim].
-        """
-        enc = self.tokenizer(
-            texts,
-            padding=True,
-            truncation=True,
-            max_length=self.max_token_len,
-            return_tensors="pt",
-        )
-        enc = {k: v.to(self.device) for k, v in enc.items()}
-        out = self.model(**enc)
-
-        # CLS pooling
-        cls = out.last_hidden_state[:, 0, :]  # [B, dim]
-
-        # L2-normalize
-        cls = normalize(cls, p=2, dim=1)
-
-        return cls.detach().cpu().to(torch.float32)
-
-
-### In development
-class GoogleAPIEmbedding(BaseEmbeddingModel):
-    """
-    Google Gemini Embedding wrapper (gemini-embedding-001) with HDF5 caching.
-
-    - Use `precompute(words)` to batch-embed and cache a list of words first.
-    - On `distance()` or `get_unit_vector()`, if an item is missing in cache,
-      it will be embedded on the fly and appended to the cache file.
-    - Embeddings are L2-normalized before storage to keep distances consistent.
-
-    Requirements:
-        pip install google-genai h5py
-
-    Environment:
-        GOOGLE_API_KEY must be set for the Google GenAI client to authenticate.
-    """
-
-    def __init__(
-        self,
-        model: str = "gemini-embedding-001",
-        batch: bool = True,
-        cache_path: str = "./models/googleapi_embeddings.h5",
-        output_dimensionality: int = 100,
-        batch_size: int = 100,
-    ):
-        try:
-            from google import genai  # lazy import to give nice error if missing
-            from google.genai import types as genai_types
-        except ModuleNotFoundError as e:
-            raise ModuleNotFoundError(
-                "google-genai package not installed. Install with: pip install google-genai"
-            ) from e
-
-        self._genai = genai
-        self._genai_types = genai_types
-        self.client = genai.Client()
-
-        self.model = model
-        self.batch = batch
-        self.cache_path = Path(cache_path)
-        self.output_dim = int(output_dimensionality)
-        self.batch_size = int(batch_size)
-
-        # in-memory index for fast checks; maps token -> row index
-        self._index = {}
-        # initialize store (create if needed) and load existing index
-        self._init_store()
-        self._load_index()
-
-    def clean(self, word):
-        """Clean up word: keep letters/spaces/hyphens; lower-case; min length 2."""
-        return clean_word(word)
-
-    def get_unit_vector(self, word) -> np.ndarray:
-        """
-        Return an L2-normalized embedding vector (np.ndarray, float32).
-        If not in cache, embed now, store, and return.
-        """
-        if not isinstance(word, str):
-            return np.zeros(self.output_dim, dtype=np.float32)
-
-        clean = self.validate(word)
-        if not clean:
-            return np.zeros(self.output_dim, dtype=np.float32)
-
-        vec = self._lookup(clean)
-        if vec is not None:
-            return vec
-
-        # Not cached: embed and store
-        new = self._embed_words([clean])
-        self._append_to_store(list(new.keys()), np.vstack(list(new.values())))
-        return new[clean]
-
-    def distance(self, word1, word2) -> float:
-        """Cosine distance (1 - cosine similarity) between two words."""
-        v1 = self.get_unit_vector(word1)
-        v2 = self.get_unit_vector(word2)
-        # Both are unit vectors; dot is cosine similarity
-        return float(1.0 - float(np.dot(v1, v2)))
-
-    def __str__(self) -> str:
-        return "GoogleAPIEmbedding"
-
-    # ---------- Public convenience API ----------
-
-    def precompute(self, words):
-        """
-        Batch-embed and cache a list of words/phrases.
-        Returns {word: vector} *for the validated inputs only*.
-        """
-        if not words:
-            return {}
-
-        # Clean, filter, dedupe
-        cleaned = [self.validate(w) for w in words if isinstance(w, str)]
-        cleaned = [w for w in cleaned if w]  # drop None
-        # de-dup but preserve order
-        seen = set()
-        todo = []
-        for w in cleaned:
-            if w not in seen:
-                seen.add(w)
-                todo.append(w)
-
-        # Exclude already-cached
-        missing = [w for w in todo if w not in self._index]
-
-        if not missing:
-            # Just return what we have (read from cache)
-            return {w: self._lookup(w) for w in todo}
-
-        # Embed missing in batches
-        new_map = self._embed_words(missing)
-        if new_map:
-            self._append_to_store(list(new_map.keys()), np.vstack(list(new_map.values())))
-
-        # Return full map for requested (cached + newly added)
-        result = {w: self._lookup(w) for w in todo if self._lookup(w) is not None}
-        return result
-
-    # ---------- HDF5 cache helpers ----------
-
-    def _init_store(self):
-        """
-        Ensure the HDF5 file exists and has resizable datasets:
-          - 'tokens': 1D variable-length UTF-8 strings
-          - 'vectors': 2D float32 with shape (N, output_dim)
-        """
-        self.cache_path.parent.mkdir(parents=True, exist_ok=True)
-        if not self.cache_path.exists():
-            with h5py.File(self.cache_path, "w") as f:
-                str_dtype = h5py.string_dtype(encoding="utf-8")
-                f.create_dataset(
-                    "tokens",
-                    shape=(0,),
-                    maxshape=(None,),
-                    dtype=str_dtype,
-                    chunks=True,
-                )
-                f.create_dataset(
-                    "vectors",
-                    shape=(0, self.output_dim),
-                    maxshape=(None, self.output_dim),
-                    dtype="float32",
-                    chunks=True,
-                )
-
-    def _load_index(self):
-        """Load token -> row index into memory for quick lookups."""
-        with h5py.File(self.cache_path, "r") as f:
-            tokens = list(f["tokens"].asstr()[:])
-        self._index = {tok: i for i, tok in enumerate(tokens)}
-
-    def _lookup(self, token: str) -> np.ndarray | None:
-        """Return a cached vector if present; else None."""
-        idx = self._index.get(token)
-        if idx is None:
             return None
-        with h5py.File(self.cache_path, "r") as f:
-            vec = f["vectors"][idx, :]
-        # Ensure float32 numpy
-        v = np.asarray(vec, dtype=np.float32)
-        # Stored vectors are already normalized; return as-is
-        return v
+        
+        emb = self.model.encode(
+            [text],
+            convert_to_tensor=True,
+            normalize_embeddings=True  # ensures L2 normalization
+        )
+        return emb[0].cpu().to(torch.float32)
+    
+    def distance(self, str1, str2):
+        return super().distance(str1, str2).item()
 
-    def _append_to_store(self, tokens: list[str], vectors: np.ndarray):
-        """
-        Append new (token, vector) rows to the HDF5 datasets and update index.
-        `vectors` is expected to be (len(tokens), output_dim) float32 and normalized.
-        """
-        if not tokens:
-            return
-        assert vectors.shape[0] == len(tokens), "Length mismatch for tokens/vectors"
-        assert vectors.shape[1] == self.output_dim, "Vector dimensionality mismatch"
+    def __str__(self) -> str:
+        return f"SBERT_Encoder"
 
-        with h5py.File(self.cache_path, "a") as f:
-            tok_ds = f["tokens"]
-            vec_ds = f["vectors"]
-
-            old_n = tok_ds.shape[0]
-            new_n = old_n + len(tokens)
-
-            tok_ds.resize((new_n,))
-            vec_ds.resize((new_n, self.output_dim))
-
-            tok_ds[old_n:new_n] = np.array(tokens, dtype=object)
-            vec_ds[old_n:new_n, :] = vectors.astype("float32", copy=False)
-
-        # update in-memory index
-        for i, t in enumerate(tokens):
-            self._index[t] = len(self._index)  # sequential after append
-
-    # ---------- Embedding (Google GenAI) ----------
-
-    def _embed_words(self, words: list[str]) -> dict[str, np.ndarray]:
-        """
-        Call the Google GenAI embed API for a list of already-cleaned words.
-        Returns a dict {word: normalized_vector (float32)}.
-        """
-        if not words:
-            return {}
-
-        cfg = self._genai_types.EmbedContentConfig(output_dimensionality=self.output_dim)
-
-        out: dict[str, np.ndarray] = {}
-        if self.batch:
-            for chunk in tqdm(self._batch_list(words, self.batch_size), total=len(words)//self.batch_size):
-                res = self.client.models.embed_content(
-                    model=self.model,
-                    contents=chunk,
-                    config=cfg,
-                )
-                # The SDK returns an object with a `.embeddings` list
-                vecs = [np.asarray(e.values, dtype=np.float32) if hasattr(e, "values") else np.asarray(e, dtype=np.float32)
-                        for e in res.embeddings]
-                vecs = [self._unit(v) for v in vecs]
-                for w, v in zip(chunk, vecs):
-                    out[w] = v
-        else:
-            # one-by-one (slower)
-            for w in words:
-                res = self.client.models.embed_content(
-                    model=self.model,
-                    contents=[w],
-                    config=cfg,
-                )
-                v = res.embeddings[0].values if hasattr(res.embeddings[0], "values") else res.embeddings[0]
-                v = np.asarray(v, dtype=np.float32)
-                out[w] = self._unit(v)
-
-        return out
-
-    @staticmethod
-    def _batch_list(lst, batch_size):
-        """Yield successive batch_size-sized chunks from lst."""
-        for i in range(0, len(lst), batch_size):
-            yield lst[i : i + batch_size]
-
-    @staticmethod
-    def _unit(v: np.ndarray) -> np.ndarray:
-        """L2-normalize a vector (float32)."""
-        v = np.asarray(v, dtype=np.float32)
-        n = np.linalg.norm(v)
-        if n == 0:
-            return v
-        return v / n

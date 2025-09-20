@@ -2,7 +2,7 @@ import json
 import time
 import random
 from dataclasses import dataclass, asdict
-from typing import List, Union
+from typing import List, Union, Optional
 
 from langchain_core.language_models import BaseChatModel, BaseLLM
 from langchain_core.messages import HumanMessage, SystemMessage
@@ -24,7 +24,7 @@ class GenerationConfig:
     max_output_tokens: int | None = None
     system_instruction: str | None = None
     stop_sequences: list[str] | None = None
-    thinking_config: dict | None = None
+    thinking_budget: Optional[int] = None
 
     @classmethod
     def from_dict(cls, d: dict) -> "GenerationConfig":
@@ -102,8 +102,22 @@ class ModelRunner():
             ("gemma-", ChatGoogleGenerativeAI, self._google_kwargs),
             ("google/", ChatVertexAI, self._google_kwargs),
             ("gpt-", ChatOpenAI, self._openai_kwargs),
-            ("claude-", ChatAnthropic, self._anthropic_kwargs)
+            ("claude-", ChatAnthropic, self._anthropic_kwargs),
+            ("custom/", ChatAnthropic, self._custom__kwargs)
         ]
+    
+    def _custom__kwargs(self, gconf: GenerationConfig, model_name: str):
+        ### TO BE MODIFIED WITH YOUR CONFIGS
+        actual_model = model_name.split("/", 1)[1]
+        return {
+            "model": actual_model,
+            "temperature": gconf.temperature,
+            "top_p": gconf.top_p,
+            "top_k": gconf.top_k,
+            "num_predict": gconf.max_output_tokens,
+            "stop": gconf.stop_sequences,
+        }
+
         
     def _openai_kwargs(self, gconf: GenerationConfig, model_name: str):
         return {
@@ -126,12 +140,9 @@ class ModelRunner():
             "top_p": gconf.top_p,
             "top_k": gconf.top_k,
             "max_output_tokens": gconf.max_output_tokens,
+            "thinking_budget": gconf.thinking_budget,
         }
-
-        # Add thinking config (if it's a thinking model)
-        if model_name in ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-2.5-flash-preview-04-17", "gemini-2.5-flash-lite-preview-06-17"]:
-            return_dict["thinking_budget"] = gconf.thinking_config["thinking_budget"]
-        
+        print("Hello there!")
         return return_dict
     
     def build_llm(self, model_name: str, gconf: GenerationConfig):
@@ -158,6 +169,7 @@ class ModelRunner():
                 result_content = result.content if hasattr(result, 'content') else result
                 response.setdefault(model_name, {}).setdefault(str(gconf), []).append([result_content])
             except Exception as e:
+                print(e)
                 response.setdefault(model_name, {}).setdefault(str(gconf), []).append(f"Error: {e}")
                 print(f"Something went wrong -> Error: {e}")
 
