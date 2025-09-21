@@ -90,6 +90,7 @@ class Request():
     ),
     reraise=True
 )
+
 def invoke_with_retry(llm, msgs):
     return llm.invoke(msgs)
 
@@ -99,7 +100,7 @@ class ModelRunner():
         self.delay = request.delay
         self.MODEL_ROUTER = [
             ("gemini-", ChatGoogleGenerativeAI, self._google_kwargs),
-            ("gemma-", ChatGoogleGenerativeAI, self._google_kwargs),
+            ("gemma-", ChatGoogleGenerativeAI, self._gemma_kwargs),
             ("google/", ChatVertexAI, self._google_kwargs),
             ("gpt-", ChatOpenAI, self._openai_kwargs),
             ("claude-", ChatAnthropic, self._anthropic_kwargs),
@@ -118,8 +119,7 @@ class ModelRunner():
             "stop": gconf.stop_sequences,
         }
 
-        
-    def _openai_kwargs(self, gconf: GenerationConfig, model_name: str):
+    def _openai_kwargs(self, gconf: GenerationConfig, model_name: Optional[str] = None):
         return {
             "temperature": gconf.temperature,
             "top_p": gconf.top_p,
@@ -127,14 +127,22 @@ class ModelRunner():
             "stop": gconf.stop_sequences,
         }
 
-    def _anthropic_kwargs(self, gconf: GenerationConfig, model_name: str):
+    def _anthropic_kwargs(self, gconf: GenerationConfig, model_name: Optional[str] = None):
         return {
             "temperature": gconf.temperature/2,
             "top_p": gconf.top_p,
             "stop": gconf.stop_sequences,
         }
+    
+    def _gemma_kwargs(self, gconf: GenerationConfig, model_name: Optional[str] = None):
+        return_dict = {
+            "temperature": max(gconf.temperature, 1),
+            "top_p": gconf.top_p,
+            "max_output_tokens": gconf.max_output_tokens,
+        }
+        return return_dict
 
-    def _google_kwargs(self, gconf: GenerationConfig, model_name: str):
+    def _google_kwargs(self, gconf: GenerationConfig, model_name: Optional[str] = None):
         return_dict = {
             "temperature": gconf.temperature,
             "top_p": gconf.top_p,
@@ -142,7 +150,6 @@ class ModelRunner():
             "max_output_tokens": gconf.max_output_tokens,
             "thinking_budget": gconf.thinking_budget,
         }
-        print("Hello there!")
         return return_dict
     
     def build_llm(self, model_name: str, gconf: GenerationConfig):
