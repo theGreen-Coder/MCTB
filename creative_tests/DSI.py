@@ -4,47 +4,52 @@ import string
 from typing import List
 import numpy as np
 import torch
-from embeddings import BERT_Encoder_L6, BERT_Encoder_L7, GloVe
+from transformers import BertModel, BertTokenizer
+from embeddings import BERT_Encoder_L6, BERT_Encoder_L7, SBERT_Encoder
 from request import Request, run_request
 from scipy.stats import norm
 from datetime import datetime
 from nltk.tokenize.punkt import PunktSentenceTokenizer
 from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
-from transformers import BertTokenizer, BertModel, BertConfig
-import numpy as np
 import pandas as pd
 import string
 import time
 import torch
 from utils import *
+import nltk
+from nltk.tokenize import sent_tokenize
+import itertools
 
 class DivergentSemanticIntegration():
-    def __init__(self, models, configs, embedding_models=[BERT_Encoder_L6, BERT_Encoder_L7], repeats=1, delay=0):
+    def __init__(self, models, configs, repeats=1, delay=0):
         self.models = models
         self.configs = configs
         self.repeats = repeats
-        self.embedding_models = embedding_models
+        self.embedding_models = [BERT_Encoder_L6, BERT_Encoder_L7]
         self.id = str(datetime.now().strftime("%m%d%H%M%S"))
         self.delay = delay
         self.return_files = []
         
         # DSI specific models
         self.segmenter = PunktSentenceTokenizer()
-        self.filter_list = np.array(['[CLS]', '[PAD]', '[SEP]', '.', ',', '!', '?'])
         
         # Add prompts to DSI
         self.prompts = []
+        self.selected_words = []
              
-        # Low semantic distance words
-        for words in ["stamp, letter, send", "belief, faith, sing", "petrol, diesel, pump", "year, week, embark"]:
+        # Low/High semantic distance words
+        low_semantic_words = ["stamp, letter, send", "belief, faith, sing", "petrol, diesel, pump", "year, week, embark"]
+        high_semantic_words = ["stamp, letter, send", "gloom, payment, exist", "organ, empire, comply", "statement, stealth, detect"]
+        self.selected_words.append(low_semantic_words)
+        self.selected_words.append(high_semantic_words)
+        
+        for words in low_semantic_words:
             self.prompts.append(f"Please write a five-sentence creative story with the following three-word prompt: {words}. Please include all three words, be creative and imaginative when writing the sort story. Do not write anything else, but the story.")
         
-        # High semantic distance words
-        for words in ["stamp, letter, send", "gloom, payment, exist", "organ, empire, comply", "statement, stealth, detect"]:
+        for words in high_semantic_words:
             self.prompts.append(f"Please write a five-sentence creative story with the following three-word prompt: {words}. Please include all three words, be creative and imaginative when writing the sort story. Do not write anything else, but the story.")
-        
-        # TODO Move this line to the start of the proper test
-        # self.init_word_embeddings()
+
+        self.init_word_embeddings()
     
     def init_word_embeddings(self):
         initialized = []
@@ -53,6 +58,9 @@ class DivergentSemanticIntegration():
             initialized.append(embedding_model())
         
         self.embedding_models = initialized
+        
+        # Also init sentence splitter
+        nltk.download("punkt")
     
     def set_id(self, filename):
         match = re.search(r'_(\d{10})_', filename)
@@ -63,7 +71,7 @@ class DivergentSemanticIntegration():
         else:
             print("ID not found")
     
-    def calculateDSI(self, story):
+    def calculateOriginalDSI(self, story):
         # Code provided from the original DSI paper
         """
         All code in this function is licensed to John D. Patterson from The Pennsylvania State University, 04-04-2022, under the Creative Commons Attribution-NonCommerical-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
@@ -115,8 +123,6 @@ class DivergentSemanticIntegration():
         mean_story_dcos = torch.mean(torch.stack(story_dcos_vals)).item()  # get average story dcos
         return mean_story_dcos
     
-    def __str__(self):
-        return "DSI_"+str(self.id)+"_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs"
     
     def request(self) -> dict:
         DSI_request = Request(
@@ -135,8 +141,8 @@ class DivergentSemanticIntegration():
         
         return llm_response
     
-    def calculate_scores(self, prev: dict | str) -> dict:
-        print("HI THERE!!")
+    def clean_llm_response(self, prev: dict | str) -> dict:
+        # Check input
         if isinstance(prev, str):
             with open(prev, 'r') as file:
                 llm_response = json.load(file)
@@ -145,7 +151,78 @@ class DivergentSemanticIntegration():
         elif isinstance(prev, dict):
             llm_response = prev
         
-        print("Starting results!!")
+        llm_response_clean = llm_response
+        for model, configs in llm_response.items():
+            for config, repeats in configs.items():
+                for idx, repeat in enumerate(repeats):
+                    response = repeat[0]
+
+                    clean_response = self.clean_response(response=response)
+                    if clean_response:
+                        llm_response_clean[model][config][idx] = clean_response
+                    else:
+                        # Couldn't parse response
+                        llm_response_clean[model][config][idx] = ""
+        
+        # Export cleaned responses results
+        with open(f"responses/{str(self)}_clean.json", "w") as json_file:
+            print("Saving clean responses")
+            json.dump(llm_response_clean, json_file, indent=4)
+        
+        return llm_response_clean
+    
+    def clean_response(self, response):
+        if response and isinstance(response, str) and response != "":
+            sentences = [s.strip() for s in sent_tokenize(response) if s.strip()]
+            return sentences
+        return None
+
+    def calculateDSI(self, sentences):
+        """
+        Compute DSI score for a story represented as a list of sentences.
+        Returns mean pairwise cosine distance across all word embeddings (layers 6 & 7).
+        """
+        features = []  # store word embeddings
+        
+        encoder_l6 = self.embedding_models[0]
+        encoder_l7 = self.embedding_models[1]
+
+        # loop through each sentence
+        for sent in sentences:
+            words = re.findall(r"\w+", sent.lower())
+
+            for w in words:
+                clean_w = encoder_l6.clean(w)
+                if not clean_w:
+                    continue
+
+                v6 = encoder_l6.get_unit_vector(clean_w)
+                v7 = encoder_l7.get_unit_vector(clean_w)
+
+                if v6 is not None:
+                    features.append(v6)
+                if v7 is not None:
+                    features.append(v7)
+
+        if not features:
+            return float("nan")
+
+        feats = torch.stack(features) # stack embeddings into tensor [N, D]
+        dists = 1 - feats @ feats.T  # compute pairwise cosine similarity matrix
+        tril_idx = torch.tril_indices(dists.size(0), dists.size(1), offset=-1) # take lower triangle (excluding diagonal)
+        dsi_vals = dists[tril_idx[0], tril_idx[1]]
+        
+        return dsi_vals.mean().item() # mean DSI score
+    
+    def calculate_scores(self, prev: dict | str) -> dict:
+        if isinstance(prev, str):
+            with open(prev, 'r') as file:
+                llm_response = json.load(file)
+            self.set_id(prev)
+
+        elif isinstance(prev, dict):
+            llm_response = prev
+        
         results = {}
         for model, configs in llm_response.items():
             for config, repeats in configs.items():
@@ -154,10 +231,11 @@ class DivergentSemanticIntegration():
 
                 for idx, repeat in enumerate(repeats):
                     if len(repeat) > 0:
-                        print(repeat[0])
-                        score = self.calculateDSI(repeat[0])
+                        print(repeat)
+                        score = self.calculateDSI(repeat)
                         if score:
                             results[model_key]['results'].append(score)
+                            print(score)
                     else:
                         print(f"No response was found for one of the responses.")
 
@@ -169,9 +247,12 @@ class DivergentSemanticIntegration():
         
         return self.return_files
     
+    def __str__(self):
+        return "DSI_"+str(self.id)+"_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs"
+    
     def run(self):
         prev = self.request()
-        # prev = self.clean_llm_response(prev=prev)
-        # return self.calculate_embeddings(prev=prev)
+        prev = self.clean_llm_response(prev=prev)
+        # return self.calculate_scores(prev=prev)
     
     
