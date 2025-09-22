@@ -36,18 +36,18 @@ class DivergentSemanticIntegration():
         # Add prompts to DSI
         self.prompts = []
         self.selected_words = []
-             
+
         # Low/High semantic distance words
         low_semantic_words = ["stamp, letter, send", "belief, faith, sing", "petrol, diesel, pump", "year, week, embark"]
         high_semantic_words = ["stamp, letter, send", "gloom, payment, exist", "organ, empire, comply", "statement, stealth, detect"]
-        self.selected_words.append(low_semantic_words)
-        self.selected_words.append(high_semantic_words)
         
         for words in low_semantic_words:
             self.prompts.append(f"Please write a five-sentence creative story with the following three-word prompt: {words}. Please include all three words, be creative and imaginative when writing the sort story. Do not write anything else, but the story.")
+            self.selected_words.append(keep_letters(words).split())
         
         for words in high_semantic_words:
             self.prompts.append(f"Please write a five-sentence creative story with the following three-word prompt: {words}. Please include all three words, be creative and imaginative when writing the sort story. Do not write anything else, but the story.")
+            self.selected_words.append(keep_letters(words).split())
 
         self.init_word_embeddings()
     
@@ -184,11 +184,22 @@ class DivergentSemanticIntegration():
 
                 for idx, repeat in enumerate(repeats):
                     if len(repeat) > 0:
-                        print(repeat)
-                        score = self.calculateDSI(repeat)
-                        if score:
-                            results[model_key]['results'].append(score)
-                            print(score)
+                        contains_words = True
+                        
+                        # Check words appear in the story
+                        story_text = keep_letters("".join(repeat).lower())
+                        for selected_word in self.selected_words[idx % len(self.selected_words)]:
+                            if selected_word.lower().strip() not in story_text: # allows for verbs (i.e. exist) to be conjugated (i.e. existed)
+                                contains_words = False
+                                break
+
+                        if contains_words:
+                            score = self.calculateDSI(repeat)
+                            if score is not None:
+                                results[model_key]['results'].append(score)
+                                print(score)
+                        else:
+                            results[model_key]['results'].append(0) # if words are not contained in the story append a 0
                     else:
                         print(f"No response was found for one of the responses.")
 
