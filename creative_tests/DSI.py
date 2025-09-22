@@ -25,10 +25,10 @@ class DivergentSemanticIntegration():
         self.models = models
         self.configs = configs
         self.repeats = repeats
-        self.embedding_models = [BERT_Encoder_L6, BERT_Encoder_L7]
         self.id = str(datetime.now().strftime("%m%d%H%M%S"))
         self.delay = delay
         self.return_files = []
+        self.filter_list = np.array(['[CLS]', '[PAD]', '[SEP]', '.', ',', '!', '?'])
         
         # DSI specific models
         self.segmenter = PunktSentenceTokenizer()
@@ -51,16 +51,15 @@ class DivergentSemanticIntegration():
 
         self.init_word_embeddings()
     
-    def init_word_embeddings(self):
-        initialized = []
-
-        for embedding_model in self.embedding_models:
-            initialized.append(embedding_model())
-        
-        self.embedding_models = initialized
-        
+    def init_word_embeddings(self):      
         # Also init sentence splitter
         nltk.download("punkt")
+        
+        # Init bert-large-uncased
+        print("Init large bert uncased")
+        self.model = BertModel.from_pretrained("bert-large-uncased", output_hidden_states = True) # initialize BERT model instance
+        self.model.eval()
+        self.tokenizer = BertTokenizer.from_pretrained('bert-large-uncased') # initialize BERT tokenizer
     
     def set_id(self, filename):
         match = re.search(r'_(\d{10})_', filename)
@@ -71,8 +70,7 @@ class DivergentSemanticIntegration():
         else:
             print("ID not found")
     
-    def calculateOriginalDSI(self, story):
-        # Code provided from the original DSI paper
+    def calculateDSI(self, sentences): # Code provided from the original DSI paper
         """
         All code in this function is licensed to John D. Patterson from The Pennsylvania State University, 04-04-2022, under the Creative Commons Attribution-NonCommerical-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
         Link to License Deed https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -80,14 +78,7 @@ class DivergentSemanticIntegration():
         Please cite Johnson, D. R., Kaufman, J. C., Baker, B. S., Barbot, B., Green, A., van Hell, J., … Beaty, R. (2021, December 1). Extracting Creativity from Narratives using Distributional Semantic Modeling. Retrieved from psyarxiv.com/fmwgy in any publication or presentation
 
         """
-        model = BertModel.from_pretrained("bert-large-uncased", output_hidden_states = True) # initialize BERT model instance
-        model.eval()
-        segmenter = PunktSentenceTokenizer() # initialize segmenter: does sentence segmentation, returns list
-        tokenizer = BertTokenizer.from_pretrained('bert-large-uncased') # initialize BERT tokenizer
         cos = torch.nn.CosineSimilarity(dim = 0)
-
-        self.segmenter.train(story)
-        sentences = self.segmenter.tokenize(story) # apply the additionally-trained segmenter to the text
 
         # LOOP OVER SENTENCES AND GET BERT FEATURES (LAYERS 6 & 7)
         features = []  # initialize list to store dcos values, one for each sentence
@@ -95,11 +86,11 @@ class DivergentSemanticIntegration():
         for i in range(len(sentences)):  # loop over sentences
             sentence = sentences[i].translate(str.maketrans('','',string.punctuation))
             print(f"sentence:{sentence}")
-            sent_tokens = tokenizer(sentence, max_length = 50, truncation = True, padding = 'max_length', return_tensors="pt")
-            sent_words = [tokenizer.decode([k]) for k in sent_tokens['input_ids'][0]]
+            sent_tokens = self.tokenizer(sentence, max_length = 50, truncation = True, padding = 'max_length', return_tensors="pt")
+            sent_words = [self.tokenizer.decode([k]) for k in sent_tokens['input_ids'][0]]
             sent_indices = np.where(np.in1d(sent_words, self.filter_list, invert = True))[0]  # we'll use this to filter out special tokens and punctuation
             with torch.no_grad():
-                sent_output = model(**sent_tokens) # feed model the sentence tokens and get outputs
+                sent_output = self.model(**sent_tokens) # feed model the sentence tokens and get outputs
                 hids = sent_output.hidden_states # isolate hidden layer activations
             layer6 = hids[6] # isolate layer 6 hidden activations
             layer7 = hids[7] # do the same for layer 7
@@ -122,7 +113,6 @@ class DivergentSemanticIntegration():
 
         mean_story_dcos = torch.mean(torch.stack(story_dcos_vals)).item()  # get average story dcos
         return mean_story_dcos
-    
     
     def request(self) -> dict:
         DSI_request = Request(
@@ -176,43 +166,6 @@ class DivergentSemanticIntegration():
             sentences = [s.strip() for s in sent_tokenize(response) if s.strip()]
             return sentences
         return None
-
-    def calculateDSI(self, sentences):
-        """
-        Compute DSI score for a story represented as a list of sentences.
-        Returns mean pairwise cosine distance across all word embeddings (layers 6 & 7).
-        """
-        features = []  # store word embeddings
-        
-        encoder_l6 = self.embedding_models[0]
-        encoder_l7 = self.embedding_models[1]
-
-        # loop through each sentence
-        for sent in sentences:
-            words = re.findall(r"\w+", sent.lower())
-
-            for w in words:
-                clean_w = encoder_l6.clean(w)
-                if not clean_w:
-                    continue
-
-                v6 = encoder_l6.get_unit_vector(clean_w)
-                v7 = encoder_l7.get_unit_vector(clean_w)
-
-                if v6 is not None:
-                    features.append(v6)
-                if v7 is not None:
-                    features.append(v7)
-
-        if not features:
-            return float("nan")
-
-        feats = torch.stack(features) # stack embeddings into tensor [N, D]
-        dists = 1 - feats @ feats.T  # compute pairwise cosine similarity matrix
-        tril_idx = torch.tril_indices(dists.size(0), dists.size(1), offset=-1) # take lower triangle (excluding diagonal)
-        dsi_vals = dists[tril_idx[0], tril_idx[1]]
-        
-        return dsi_vals.mean().item() # mean DSI score
     
     def calculate_scores(self, prev: dict | str) -> dict:
         if isinstance(prev, str):
