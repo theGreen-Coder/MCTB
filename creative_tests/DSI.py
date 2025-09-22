@@ -2,23 +2,23 @@ import re
 import json
 import string
 from typing import List, Optional
+import pandas as pd
+import time
+import itertools
 import numpy as np
 import torch
 from transformers import BertModel, BertTokenizer
-from embeddings import BERT_Encoder_L6, BERT_Encoder_L7, SBERT_Encoder
-from request import Request, run_request
 from scipy.stats import norm
 from datetime import datetime
-from nltk.tokenize.punkt import PunktSentenceTokenizer
-from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
-import pandas as pd
-import string
-import time
-import torch
-from utils import *
+
 import nltk
 from nltk.tokenize import sent_tokenize
-import itertools
+from nltk.tokenize.punkt import PunktSentenceTokenizer
+from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
+
+from embeddings import BERT_Encoder_L6, BERT_Encoder_L7, SBERT_Encoder
+from request import Request, run_request
+from utils import *
 
 class DivergentSemanticIntegration():
     def __init__(self, models, configs, repeats=1, delay=0, variant_prompts: Optional[list] = None):

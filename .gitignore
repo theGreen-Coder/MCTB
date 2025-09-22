@@ -9,6 +9,8 @@ test.ipynb
 
 # Custom
 test/
+responses/prev
+results/prev
 .DS_Store
 models/glove.840B.300d.txt
 models/bert_midlayer_dict.h5
