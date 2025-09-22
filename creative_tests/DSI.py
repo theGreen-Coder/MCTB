@@ -1,7 +1,7 @@
 import re
 import json
 import string
-from typing import List
+from typing import List, Optional
 import numpy as np
 import torch
 from transformers import BertModel, BertTokenizer
@@ -21,7 +21,7 @@ from nltk.tokenize import sent_tokenize
 import itertools
 
 class DivergentSemanticIntegration():
-    def __init__(self, models, configs, repeats=1, delay=0):
+    def __init__(self, models, configs, repeats=1, delay=0, variant_prompts: Optional[list] = None):
         self.models = models
         self.configs = configs
         self.repeats = repeats
@@ -48,6 +48,14 @@ class DivergentSemanticIntegration():
         for words in high_semantic_words:
             self.prompts.append(f"Please write a five-sentence creative story with the following three-word prompt: {words}. Please include all three words, be creative and imaginative when writing the sort story. Do not write anything else, but the story.")
             self.selected_words.append(keep_letters(words).split())
+        
+        if isinstance(variant_prompts, list):
+            tmp_words = self.selected_words.copy()
+            for v_prompt in variant_prompts:
+                for tmp_w in tmp_words:
+                    f_prompt = v_prompt.replace("||words||", ", ".join(tmp_w))
+                    self.prompts.append(f_prompt)
+                    self.selected_words.append(tmp_w)
 
         self.init_word_embeddings()
     
