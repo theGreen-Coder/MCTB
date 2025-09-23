@@ -415,7 +415,10 @@ class GraniteMultilingualEmbeddings(BaseEmbeddingModel):
         self.dim = int(getattr(self.model.config, "hidden_size", 768))
 
     def clean(self, word):
-        return clean_word(word)
+        clean = clean_word(word)
+        if len(clean) <= 1:
+            return None
+        return clean
 
     @torch.inference_mode()
     def get_unit_vector(self, text: str) -> torch.Tensor:

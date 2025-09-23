@@ -42,19 +42,20 @@ class Request():
                  prompt: Union[str, List[str]], 
                  configs: Union[dict, List[dict]], 
                  repeats: int = 1, 
-                 delay: float = 0.0,
+                 default_delay: float = 0.0,
+                 delay_config: str = "models/time_delay_models_config.json",
                  verbose: bool = True):
         
         self.models = [models] if isinstance(models, str) else list(models)
         self.prompt = prompt
         self.configs = [configs] if isinstance(configs, dict) else list(configs)
         self.repeats = max(repeats, 1)
-        self.delay = max(delay, 0.0)
+        self.default_delay = max(default_delay, 0.0)
         self._prompt_idx = -1
 
         if verbose:
             print(f"Number of API calls: {len(self.models)*len(self.configs)*self.repeats}")
-            print(f"Estimated Time: {(len(self.models)*len(self.configs)*self.repeats*(0.5+self.delay))/60.0} minutes" )
+            print(f"Estimated Time: {(len(self.models)*len(self.configs)*self.repeats*(0.5+self.default_delay))/60.0} minutes" )
 
     def set_models(self, models):
         self.models = models
@@ -97,7 +98,15 @@ def invoke_with_retry(llm, msgs):
 class ModelRunner():
     def __init__(self, request: Request):
         self.request = request
-        self.delay = request.delay
+        self.default_delay = request.default_delay
+        
+        if isinstance(request.delay_config, str) and request.delay_config != "":
+            try:
+                with open(request.delay_config, "r") as f:
+                    self.delay_config = json.load(f)
+            except:
+                self.delay_config = None
+        
         self.MODEL_ROUTER = [
             ("gemini-", ChatGoogleGenerativeAI, self._google_kwargs),
             ("gemma-", ChatGoogleGenerativeAI, self._gemma_kwargs),
@@ -179,9 +188,14 @@ class ModelRunner():
                 print(e)
                 response.setdefault(model_name, {}).setdefault(str(gconf), []).append(f"Error: {e}")
                 print(f"Something went wrong -> Error: {e}")
-
-            print(f"Got response! Waiting for {self.delay} seconds now...")
-            time.sleep(self.delay)
+            
+            cur_delay = self.default_delay
+            
+            if self.delay_config:
+                cur_delay = self.delay_config.get(model_name, self.default_delay)
+            
+            print(f"Got response! Waiting for {cur_delay} seconds now...")
+            time.sleep(cur_delay)
             print()
 
         return response
