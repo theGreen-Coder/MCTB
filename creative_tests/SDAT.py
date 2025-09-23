@@ -10,9 +10,8 @@ from creative_tests import DivergentAssociationTest
 from utils import *
 
 class SyntheticDivergentAssociationTest(DivergentAssociationTest):
-    def __init__(self, models, configs, embedding_models=[GraniteMultilingualEmbeddings], repeats=1, delay=0, n_words=25, languages=["English", "Spanish", "French", "German", "Italian", "Dutch", "Portuguese", "Polish", "Russian", "Japanese", "Hindi"]):
+    def __init__(self, models, configs, embedding_models=[GraniteMultilingualEmbeddings], repeats=1, delay=0, n_words=10, languages=["English", "Spanish", "French", "German", "Italian", "Dutch", "Portuguese", "Polish", "Russian", "Japanese", "Hindi"]):
         super().__init__(models=models, configs=configs, embedding_models=embedding_models, repeats=repeats, delay=delay, n_words=n_words, standard_prompt=True, starts_with=None)
-        self.languages = languages
         
         self.language_prompts = {
             "English": 
@@ -25,9 +24,9 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
             "Spanish": 
                 (
                     f"Por favor, escribe {str(self.n_words)} palabras que sean lo más diferentes posible entre sí, en todos sus significados y usos. "
-                    f"Reglas: Solo palabras individuales en español. Solo sustantivos (por ejemplo, cosas, objetos, conceptos). No nombres propios (por ejemplo, no personas o lugares específicos). "
-                    f"No vocabulario especializado (por ejemplo, no términos técnicos). Piensa en las palabras por ti mismo (por ejemplo, no mires solo los objetos a tu alrededor). "
-                    f"Haz una lista de estas {str(self.n_words)} palabras, una sola palabra en cada entrada de la lista. No escribas nada más que las {str(self.n_words)} palabras." + " " + self.addition_specs
+                    f"Reglas: Solo escribe palabras individuales en español. Solo sustantivos (por ejemplo, cosas, objetos, conceptos). No uses nombres propios (por ejemplo, no personas o lugares específicos). "
+                    f"Tampoco usa vocabulario especializado (por ejemplo, no términos técnicos). Piensa en las palabras por ti mismo (por ejemplo, no mires solo los objetos a tu alrededor). "
+                    f"Haz una lista de estas {str(self.n_words)} palabras, una sola palabra en cada entrada de la lista. Solo escribe las {str(self.n_words)} palabras y nada más." + " " + self.addition_specs
                 ), 
             "French": 
                 (
@@ -64,20 +63,6 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
                     f"Nenhum vocabulário especializado (por exemplo, nenhum termo técnico). Pense nas palavras por conta própria (por exemplo, não apenas olhando para os objetos ao seu redor). "
                     f"Faça uma lista dessas {str(self.n_words)} palavras, uma palavra por item. Não escreva nada além das {str(self.n_words)} palavras." + " " + self.addition_specs
                 ), 
-            "Polish": 
-                (
-                    f"Proszę podać {str(self.n_words)} słów, które będą jak najbardziej różne od siebie, we wszystkich znaczeniach i zastosowaniach. "
-                    f"Zasady: Tylko pojedyncze słowa po polsku. Tylko rzeczowniki (np. rzeczy, obiekty, pojęcia). Bez nazw własnych (np. żadnych konkretnych osób ani miejsc). "
-                    f"Bez specjalistycznego słownictwa (np. terminów technicznych). Wymyśl słowa samodzielnie (np. nie patrz tylko na przedmioty wokół siebie). "
-                    f"Sporządź listę tych {str(self.n_words)} słów, jedno słowo w każdym wpisie. Nie pisz nic oprócz tych {str(self.n_words)} słów." + " " + self.addition_specs
-                ), 
-            "Russian": 
-                (
-                    f"Пожалуйста, введите {str(self.n_words)} слов, которые как можно больше отличаются друг от друга, во всех значениях и употреблениях. "
-                    f"Правила: Только отдельные слова на русском языке. Только существительные (например, вещи, предметы, понятия). Без собственных имён (например, без конкретных людей или мест). "
-                    f"Без специализированной лексики (например, без технических терминов). Придумайте слова самостоятельно (например, не ограничивайтесь предметами вокруг себя). "
-                    f"Составьте список из этих {str(self.n_words)} слов, по одному слову в каждой записи. Не пишите ничего, кроме этих {str(self.n_words)} слов." + " " + self.addition_specs
-                ), 
             "Japanese": 
                 (
                     f"{str(self.n_words)} 個の単語を挙げてください。それぞれの意味や使い方において、できるだけ互いに異なる単語にしてください。 "
@@ -85,14 +70,38 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
                     f"専門的な語彙は禁止（例：技術用語など）。自分で考えてください（例：身の回りの物を見て挙げるだけは不可）。 "
                     f"これらの {str(self.n_words)} 個の単語をリストにし、各項目に1つずつ単語を書いてください。その {str(self.n_words)} 個の単語以外は書かないでください。" + " " + self.addition_specs
                 ), 
-            "Hindi": 
+            "Arabic":
                 (
-                    f"कृपया {str(self.n_words)} शब्द लिखें जो एक-दूसरे से अर्थ और प्रयोग में जितने अलग हो सकें उतने अलग हों। "
-                    f"नियम: केवल एकल शब्द हिन्दी में। केवल संज्ञाएँ (जैसे वस्तुएँ, चीजें, अवधारणाएँ)। कोई व्यक्तिवाचक संज्ञा नहीं (जैसे विशेष व्यक्ति या स्थान नहीं)। "
-                    f"कोई तकनीकी या विशेष शब्दावली नहीं। शब्द स्वयं सोचें (जैसे केवल आसपास की वस्तुओं को देखकर न लिखें)। "
-                    f"इन {str(self.n_words)} शब्दों की सूची बनाएँ, सूची के प्रत्येक प्रविष्टि में केवल एक शब्द लिखें। {str(self.n_words)} शब्दों के अलावा कुछ और न लिखें।" + " " + self.addition_specs
+                    f"من فضلك اكتب {str(self.n_words)} كلمة تكون مختلفة قدر الإمكان عن بعضها في جميع المعاني والاستخدامات. "
+                    f"القواعد: كلمات مفردة فقط باللغة العربية. أسماء فقط (مثل الأشياء، الأغراض، المفاهيم). "
+                    f"بدون أسماء علم (مثل أشخاص أو أماكن محددة). بدون مفردات متخصصة (مثل المصطلحات التقنية). "
+                    f"فكّر بالكلمات بنفسك (على سبيل المثال، لا تكتفِ بالنظر إلى الأشياء من حولك). "
+                    f"اكتب قائمة بهذه الكلمات وعددها {str(self.n_words)}، كلمة واحدة في كل مدخل. لا تكتب شيئًا آخر غير هذه {str(self.n_words)} كلمة." + " " + self.addition_specs
+                ),
+            "Chinese":
+                (
+                    f"请写出 {str(self.n_words)} 个词语，它们在意义和用法上彼此尽可能不同。"
+                    f"规则：仅限中文（现代标准汉语书面语）的单个词语。仅限名词（例如：事物、物体、概念）。不允许专有名词（例如：具体的人名或地名）。"
+                    f"不使用专业词汇（例如：技术术语）。请自行思考这些词语（不要只是看周围的物品）。"
+                    f"将这 {str(self.n_words)} 个词语列成清单，每一项只写一个词语。除了这 {str(self.n_words)} 个词语之外不要写任何其他内容。" + " " + self.addition_specs
+                ),
+            "Korean":
+                (
+                    f"{str(self.n_words)}개의 단어를 적어 주세요. 각 단어는 의미와 용법에서 서로 가능한 한 다르게 골라 주세요. "
+                    f"규칙: 한국어의 단일 단어만. 명사만(예: 사물, 물체, 개념). 고유명사 금지(예: 특정 인명이나 지명). "
+                    f"전문 용어 금지(예: 기술 용어). 스스로 생각해서 적어 주세요(예: 주변에 보이는 것만 적지 마세요). "
+                    f"이 {str(self.n_words)}개의 단어를 목록으로 작성하고, 각 항목에는 단어 하나만 적어 주세요. {str(self.n_words)}개의 단어 외에는 아무것도 쓰지 마세요." + " " + self.addition_specs
+                ),
+            "Czech":
+                (
+                    f"Napište prosím {str(self.n_words)} slov, která jsou ve svých významech a použitích co nejvíce odlišná. "
+                    f"Pravidla: Pouze jednotlivá slova v češtině. Pouze podstatná jména (např. věci, předměty, pojmy). "
+                    f"Žádná vlastní jména (např. konkrétní osoby nebo místa). Žádná odborná slovní zásoba (např. technické termíny). "
+                    f"Vymyslete slova sami (např. nepište jen to, co vidíte kolem sebe). "
+                    f"Vytvořte seznam těchto {str(self.n_words)} slov a do každé položky napište právě jedno slovo. Napište pouze těch {str(self.n_words)} slov a nic dalšího." + " " + self.addition_specs
                 ),
         }
+        self.languages = list(self.language_prompts.keys())
             
     def __str__(self):
         return "SDAT_"+str(self.id)+"_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs_"+str(self.n_words)+"words"
@@ -101,22 +110,22 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
         non_clean_llm_response = []
 
         for lang in self.languages:
-            for repeat in range(self.repeats):
-                HardDAT_request = Request(
-                    models=self.models,
-                    prompt=self.language_prompts[lang],
-                    configs=self.configs,
-                    repeats=1,
-                    delay=self.delay,
-                    verbose=False
-                )
+            init_lang = False
+            
+            HardDAT_request = Request(
+                models=self.models,
+                prompt=self.language_prompts[lang],
+                configs=self.configs,
+                repeats=self.repeats,
+                delay=self.delay,
+                verbose=False
+            )
+            
+            llm_response = run_request(HardDAT_request)
+            llm_response["config"] = {}
+            llm_response["config"]["language"] = lang
 
-                llm_response = run_request(HardDAT_request)
-                llm_response["config"] = {}
-                llm_response["config"]["language"] = lang
-                llm_response["config"]["repeat"] = repeat
-
-                non_clean_llm_response.append(llm_response)
+            non_clean_llm_response.append(llm_response)
         
         with open(f"responses/{str(self)}.json", "w") as json_file:
             json.dump(non_clean_llm_response, json_file, indent=4)
@@ -136,17 +145,14 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
         merged = defaultdict(lambda: defaultdict(list))
 
         for entry in non_clean_llm_response:
-            random_words = entry["config"]["given_words"]
             language = entry["config"]["language"]
             repeat = entry["config"]["repeat"]
 
             for model_key in self.models:
                 if model_key in entry:
                     for temp_key, word_lists in entry[model_key].items():
-                        # all_words = [clean_response(word) for word in word_lists]
-                        # all_words += random_words
                         assert len(word_lists) == 1 and len(word_lists[0]) == 1
-                        merged[model_key][temp_key].extend([self.clean_response(word_lists[0][0]) + random_words])
+                        merged[model_key][temp_key].extend([self.clean_response(word_lists[0][0])])
 
         # Optional: Convert defaultdicts to dicts
         final_result = {model: dict(temps) for model, temps in merged.items()}
