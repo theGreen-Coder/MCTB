@@ -185,14 +185,14 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
                                 minimum=int(self.n_words-5), 
                                 maximum=self.n_words
                             )
+                            print(score)
                             if score:
                                 scores.append(float(score))
                         
                         sDAT_results[idx1][model_key][config_key] = scores
 
-        with open(f"responses/{str(self)}_clean.json", "w") as json_file:
-            json.dump(clean_llm_response, json_file, indent=4)
-        
+        with open(f"results/{str(self)}_results.json", "w") as json_file:
+            json.dump(sDAT_results, json_file, indent=4)
 
     def run(self):
         prev = self.request()

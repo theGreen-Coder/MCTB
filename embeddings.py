@@ -22,19 +22,36 @@ class BaseEmbeddingModel(ABC):
     """
     def __init__(self):
         print(f"Initializing {str(self)}")
+        self.cache_emb = {}
     
     @abstractmethod
     def clean(self, word):
         """Cleans string based on model preferences. Returns cleaned word or None if word cannot be processed/cleaned."""
         pass
     
+    def cached_get_unit_vector(self, text):
+        """
+        Wrapper around subclass's get_unit_vector with caching.
+        """
+        cleaned = self.clean(text)
+        if cleaned is None:
+            return None
+
+        if cleaned in self.cache_emb:
+            return self.cache_emb[cleaned]
+
+        vec = self.get_unit_vector(cleaned)  # calls subclass
+        if vec is not None:
+            self.cache_emb[cleaned] = vec
+        return vec
+
     def distance(self, str1, str2):
         """Compute cosine distance (0 to 2) between two sentence/words"""
         v1 = self.get_unit_vector(str1)
         v2 = self.get_unit_vector(str2)
         if v1 is not None and v2 is not None:
             try:
-                return 1.0 - self.get_unit_vector(str1) @ self.get_unit_vector(str2)
+                return 1.0 - v1 @ v2
             except Exception as E:
                 print(f"Error in calculating distance: {E}")
         return None
@@ -415,10 +432,7 @@ class GraniteMultilingualEmbeddings(BaseEmbeddingModel):
         self.dim = int(getattr(self.model.config, "hidden_size", 768))
 
     def clean(self, word):
-        clean = clean_word(word)
-        if len(clean) <= 1:
-            return None
-        return clean
+        return clean_word_unicode(word)
 
     @torch.inference_mode()
     def get_unit_vector(self, text: str) -> torch.Tensor:
@@ -443,6 +457,9 @@ class GraniteMultilingualEmbeddings(BaseEmbeddingModel):
         cls = normalize(cls, p=2, dim=1)
 
         return cls[0].detach().cpu().to(torch.float32)
+    
+    def distance(self, str1, str2):
+        return super().distance(str1, str2).item()
 
     def __str__(self) -> str:
         return "GraniteMultilingualEmbeddings"

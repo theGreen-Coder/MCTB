@@ -20,6 +20,18 @@ def clean_word(word):
         return None # Word too short
     return clean
 
+def clean_word_unicode(word):
+    """
+    Keep letters from any script (Unicode), plus hyphens and spaces.
+    Remove digits, underscores, and other punctuation/symbols.
+    Return None if the cleaned result is <= 1 char.
+    """
+    if not word:
+        return None
+
+    clean = re.sub(r"[^\w\s-]|[\d_]", "", word).strip().lower() # Remove anything that's not a word char/space/hyphen, then remove digits and underscores
+    return clean if len(clean) > 1 else None
+
 def calculate_dat_score(model, words, minimum=7, maximum=12):
     """
     Cleans words according to model preferences. If less than 7 words can be clean, returns None.
