@@ -8,6 +8,7 @@ from collections import defaultdict
 from request import Request, run_request
 from creative_tests import DivergentAssociationTest
 from utils import *
+import copy
 
 class SyntheticDivergentAssociationTest(DivergentAssociationTest):
     def __init__(self, models, configs, embedding_models=[GraniteMultilingualEmbeddings], repeats=1, delay=0, n_words=10, languages=["English", "Spanish", "French", "German", "Italian", "Dutch", "Portuguese", "Polish", "Russian", "Japanese", "Hindi"]):
@@ -133,7 +134,6 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
         return non_clean_llm_response
 
     def clean_llm_response(self, prev: dict | str) -> dict:
-        # Check input
         if isinstance(prev, str):
             with open(prev, 'r') as file:
                 non_clean_llm_response = json.load(file)
@@ -142,25 +142,57 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
         elif isinstance(prev, dict) or isinstance(prev, List):
             non_clean_llm_response = prev
     
-        merged = defaultdict(lambda: defaultdict(list))
+        clean_llm_response = copy.deepcopy(non_clean_llm_response)
 
-        for entry in non_clean_llm_response:
+        for idx1, entry in enumerate(non_clean_llm_response):
+            for model_key in self.models:
+                if model_key in entry:
+                    for config_key, word_lists in entry[model_key].items():
+                        for idx2, words in enumerate(word_lists):
+                            c_words = super().clean_response(words[0])
+                            clean_llm_response[idx1][model_key][config_key][idx2] = c_words
+
+        with open(f"responses/{str(self)}_clean.json", "w") as json_file:
+            json.dump(clean_llm_response, json_file, indent=4)
+
+        return clean_llm_response
+    
+    def calculate_embeddings(self, prev: dict | str) -> dict:
+        if isinstance(prev, str):
+            with open(prev, 'r') as file:
+                clean_llm_response = json.load(file)
+            self.set_id(prev)
+
+        elif isinstance(prev, dict) or isinstance(prev, List):
+            clean_llm_response = prev
+        
+        super().init_word_embeddings()
+        sDAT_results = copy.deepcopy(clean_llm_response)
+        
+        for idx1, entry in enumerate(clean_llm_response):
             language = entry["config"]["language"]
-            repeat = entry["config"]["repeat"]
 
             for model_key in self.models:
                 if model_key in entry:
-                    for temp_key, word_lists in entry[model_key].items():
-                        assert len(word_lists) == 1 and len(word_lists[0]) == 1
-                        merged[model_key][temp_key].extend([self.clean_response(word_lists[0][0])])
-
-        # Optional: Convert defaultdicts to dicts
-        final_result = {model: dict(temps) for model, temps in merged.items()}
+                    for config_key, word_lists in entry[model_key].items():
+                        scores = []
+                        
+                        for idx2, words in enumerate(word_lists):
+                            print(words)
+                            score = calculate_dat_score(
+                                self.embedding_models[0], 
+                                words,
+                                minimum=int(self.n_words-5), 
+                                maximum=self.n_words
+                            )
+                            if score:
+                                scores.append(float(score))
+                        
+                        sDAT_results[idx1][model_key][config_key] = scores
 
         with open(f"responses/{str(self)}_clean.json", "w") as json_file:
-            json.dump(final_result, json_file, indent=4)
-
-        return final_result
+            json.dump(clean_llm_response, json_file, indent=4)
+        
 
     def run(self):
         prev = self.request()
