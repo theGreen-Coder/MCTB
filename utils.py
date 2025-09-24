@@ -2,6 +2,7 @@ import re
 import itertools
 import numpy as np
 import torch
+import unicodedata
 
 def keep_letters(text):
     """Takes a string and returns only alphabetic characters."""
@@ -24,13 +25,27 @@ def clean_word_unicode(word):
     """
     Keep letters from any script (Unicode), plus hyphens and spaces.
     Remove digits, underscores, and other punctuation/symbols.
-    Return None if the cleaned result is <= 1 char.
+    Return None if cleaned is empty. If the cleaned result is a single character,
+    allow it only when it's a 'Lo' (Letter, other) character (e.g., CJK/Kana).
     """
     if not word:
         return None
 
-    clean = re.sub(r"[^\w\s-]|[\d_]", "", word).strip().lower() # Remove anything that's not a word char/space/hyphen, then remove digits and underscores
-    return clean if len(clean) > 1 else None
+    # Normalize to handle full-width/compatibility forms consistently
+    word = unicodedata.normalize("NFKC", word)
+
+    # Keep Unicode word chars, spaces, and hyphens; then remove digits/underscores
+    clean = re.sub(r"[^\w\s-]|[\d_]", "", word).strip().lower()
+
+    if not clean:
+        return None
+
+    if len(clean) == 1:
+        # Allow single-character words only if they are 'Lo' (e.g., 中, 時, あ, カ)
+        return clean if unicodedata.category(clean) == "Lo" else None
+
+    return clean
+
 
 def calculate_dat_score(model, words, minimum=7, maximum=12):
     """

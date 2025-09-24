@@ -43,14 +43,15 @@ class Request():
                  configs: Union[dict, List[dict]], 
                  repeats: int = 1, 
                  default_delay: float = 0.0,
-                 delay_config: str = "models/time_delay_models_config.json",
-                 verbose: bool = True):
+                 verbose: bool = True,
+                 delay_config = "models/time_delay_models_config.json"):
         
         self.models = [models] if isinstance(models, str) else list(models)
         self.prompt = prompt
         self.configs = [configs] if isinstance(configs, dict) else list(configs)
         self.repeats = max(repeats, 1)
         self.default_delay = max(default_delay, 0.0)
+        self.delay_config = delay_config
         self._prompt_idx = -1
 
         if verbose:
