@@ -108,7 +108,7 @@ class DivergentAssociationTest():
             prompt=self.test_prompt,
             configs=self.configs,
             repeats=self.repeats,
-            delay=self.delay
+            default_delay=self.delay
         )
 
         llm_response = run_request(DAT_request)

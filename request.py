@@ -10,6 +10,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_vertexai import ChatVertexAI
 from langchain_anthropic import ChatAnthropic
 from langchain_openai import ChatOpenAI
+from langchain_ollama import ChatOllama
 
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 import google.api_core.exceptions
@@ -108,14 +109,14 @@ class ModelRunner():
             except:
                 self.delay_config = None
         
-        self.MODEL_ROUTER = [
-            ("gemini-", ChatGoogleGenerativeAI, self._google_kwargs),
-            ("gemma-", ChatGoogleGenerativeAI, self._gemma_kwargs),
-            ("google/", ChatVertexAI, self._google_kwargs),
-            ("gpt-", ChatOpenAI, self._openai_kwargs),
-            ("claude-", ChatAnthropic, self._anthropic_kwargs),
-            ("custom/", ChatAnthropic, self._custom__kwargs)
-        ]
+        self.MODEL_ROUTER = {
+            "gemini": (ChatGoogleGenerativeAI, self._google_kwargs),
+            "google": (ChatVertexAI, self._google_kwargs),
+            "gpt": (ChatOpenAI, self._openai_kwargs),
+            "claude": (ChatAnthropic, self._anthropic_kwargs),
+            "ollama": (ChatOllama, self._ollama_kwargs),
+            "custom": (ChatAnthropic, self._custom__kwargs)
+        }
     
     def _custom__kwargs(self, gconf: GenerationConfig, model_name: str):
         ### TO BE MODIFIED WITH YOUR CONFIGS
@@ -162,11 +163,28 @@ class ModelRunner():
         }
         return return_dict
     
+    def _ollama_kwargs(self, gconf: GenerationConfig, model_name: Optional[str] = None):
+        return_dict = {
+            "temperature": gconf.temperature,
+            "top_p": gconf.top_p,
+            "top_k": gconf.top_k,
+            "max_output_tokens": gconf.max_output_tokens,
+            "thinking_budget": gconf.thinking_budget,
+        }
+        return return_dict
+    
     def build_llm(self, model_name: str, gconf: GenerationConfig):
-        for prefix, cls, arg_fn in self.MODEL_ROUTER:
-            if model_name.startswith(prefix):
-                return cls(model=model_name, **arg_fn(gconf, model_name))
-        raise ValueError(f"Model name “{model_name}” not matched in MODEL_ROUTER")
+        try:
+            family, actual_model = model_name.split("/", 1)
+        except ValueError:
+            raise ValueError(f"Model name must be in format 'family/model', got: {model_name}")
+
+        if family not in self.MODEL_ROUTER:
+            raise ValueError(f"Unknown model family: {family}")
+
+        cls, arg_fn = self.MODEL_ROUTER[family]
+        return cls(model=actual_model, **arg_fn(gconf, actual_model))
+
 
     def run(self):
         response = {}
