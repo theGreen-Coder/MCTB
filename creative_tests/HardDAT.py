@@ -60,7 +60,7 @@ class HardDivergentAssociationTest(DivergentAssociationTest):
                     prompt=self.test_prompt,
                     configs=self.configs,
                     repeats=1,
-                    delay=self.delay,
+                    default_delay=self.delay,
                     verbose=False
                 )
 

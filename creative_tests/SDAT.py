@@ -15,7 +15,7 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
         super().__init__(models=models, configs=configs, embedding_models=embedding_models, repeats=repeats, delay=delay, n_words=n_words, standard_prompt=True, starts_with=None)
         
         if constraints and isinstance(constraints, dict):
-            self.addition_specs = self.constraints
+            self.addition_specs = constraints
         else:
             self.addition_specs = ""
         
@@ -136,6 +136,7 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
             llm_response = run_request(HardDAT_request)
             llm_response["config"] = {}
             llm_response["config"]["language"] = lang
+            llm_response["config"]["constraints"] = self.add_addition_specs(lang)
 
             non_clean_llm_response.append(llm_response)
         
