@@ -9,7 +9,7 @@ from datetime import datetime
 from utils import *
 
 class DivergentAssociationTest():
-    def __init__(self, models, configs, embedding_models=[GloVe, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7], repeats=0, delay=0, n_words=10, standard_prompt=True, starts_with=None):
+    def __init__(self, models, configs, embedding_models=[GloVe, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7], repeats=0, delay=0, n_words=10, standard_prompt=True, starts_with=None, file_name=None):
         self.models = models
         self.configs = configs
         self.repeats = repeats
@@ -17,6 +17,7 @@ class DivergentAssociationTest():
         self.id = str(datetime.now().strftime("%m%d%H%M%S"))
         self.delay = delay
         self.n_words = n_words
+        self.file_name = file_name
 
         self.addition_specs = ''
         if starts_with:
@@ -53,6 +54,8 @@ class DivergentAssociationTest():
 
     
     def __str__(self):
+        if self.file_name is not None and isinstance(self.file_name, str):
+            return self.file_name
         return "DAT_"+str(self.id)+"_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs_"+str(self.n_words)+"words"
     
     def set_id(self, filename):
@@ -77,6 +80,9 @@ class DivergentAssociationTest():
             return ''.join(ch for ch in text if ch.isalpha() or ch == ' ')
         
         return_words = []
+        # Check for thought included responses (very specific case)
+        if response is not None and isinstance(response, list) and len(response) == 2 and response[0].lower().startswith("thought\n"):
+            response = response[1]
         new_line_words = response.split("\n")
 
         if len(new_line_words) >= 7:
