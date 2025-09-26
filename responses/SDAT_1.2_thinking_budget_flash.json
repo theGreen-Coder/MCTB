@@ -1,0 +1,746 @@
+[
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "Abstraction\nBoulder\nCovenant\nDoubt\nEpoch\nFoliage\nGrit\nHarmony\nIgnorance\nJubilation"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "Wisdom\nOcean\nShadow\nPatience\nRust\nHumor\nGrief\nGalaxy\nThread\nSilence"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "Chair\nJustice\nOcean\nJoy\nMountain\nSilence\nDream\nSymphony\nShadow\nCourage"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "Silence\nOcean\nJoy\nHammer\nDream\nDesert\nMusic\nShadow\nCuriosity\nStone"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "Ocean\nWhisper\nJustice\nBoulder\nDream\nGratitude\nFabric\nSilence\nAdventure\nKnowledge"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "Joy\nStone\nSilence\nDream\nOcean\nShadow\nWisdom\nFire\nHope\nTruth"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "Serendipity\nWhisper\nAbyss\nGratitude\nChaos\nLullaby\nPinnacle\nEcho\nShadow\nTapestry"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "Whisper\nBoulder\nJustice\nEcho\nTapestry\nDream\nSilence\nOcean\nShadow\nKindness"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "Ocean\nJoy\nStone\nDream\nMusic\nShadow\nCourage\nWisdom\nMoment\nSilence"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "Serendipity\nShadow\nWhisper\nOcean\nGrief\nVelocity\nDream\nJustice\nSilence\nHorizon"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "Serendipity\nAbyss\nWhisper\nChasm\nLaughter\nShadow\nGrief\nVibrancy\nNostalgia\nMirage"
+                ]
+            ]
+        },
+        "config": {
+            "language": "English"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "Felicidad\nMonta\u00f1a\nSue\u00f1o\nM\u00fasica\nJusticia\nOla\nSilencio\nLibertad\nArena\nIdea"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "1. Alegr\u00eda\n2. Monta\u00f1a\n3. Silencio\n4. Sabor\n5. Sue\u00f1o\n6. Arena\n7. Tiempo\n8. Luz\n9. Amor\n10. Sonido"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "Paz\nRayo\nSue\u00f1o\nCielo\nBarco\nSusurro\nMonta\u00f1a\nAmor\nSombra\nRisa"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "Silla\nIdea\nArena\nM\u00fasica\nSue\u00f1o\n\u00c1rbol\nSilencio\nMonta\u00f1a\nPasi\u00f3n\nDestino"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "1. Monta\u00f1a\n2. Silencio\n3. Idea\n4. Mariposa\n5. Sombra\n6. Sonido\n7. Sue\u00f1o\n8. Luz\n9. Viento\n10. Arena"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "Libertad\nRoca\nM\u00fasica\nSue\u00f1o\nSombra\nHorizonte\nIdea\nOla\nColor\nSilencio"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "Libertad\nRueda\nSue\u00f1o\nSal\nOlor\nPaz\nM\u00fasica\nCristal\nTiempo\nSombra"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "Sue\u00f1o\nRoca\nJusticia\nRuido\nSabor\nViento\nAbrazo\nLibertad\nSombra\nCanci\u00f3n"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "Idea\nRoca\nSue\u00f1o\nViento\nSabor\nSilencio\nLibertad\nColor\nCanci\u00f3n\nTiempo"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "Silencio\nNube\nEsperanza\nPuerta\nSue\u00f1o\nPluma\nR\u00edo\nIdea\nColor\nTiempo"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "Almohada\nEstrella\nHumor\nLibro\nMonta\u00f1a\nOc\u00e9ano\nPensamiento\nRisa\nSombra\nTiempo"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Spanish"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "Joie\nRoc\nVent\nR\u00eave\nSel\nSonge\nLait\nOmbre\nFeu\nEau"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "Arbre\nAvenir\nSouvenir\nSilence\nMarteau\nOc\u00e9an\nBonheur\nPoussi\u00e8re\n\u00c9toile\nR\u00eave"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "Ciel\nChocolat\nJeu\nLibert\u00e9\nMaison\nOc\u00e9an\nPapillon\nR\u00eave\nSilence\nSoleil"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "Soleil\nMontagne\nR\u00eave\nSilence\nBrouillard\nCol\u00e8re\nLivre\nTemps\nCouleur\nGrain"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "Soleil\nSilence\nArbre\nR\u00eave\nMontagne\nJoie\nEau\nTemps\nOc\u00e9an\nLivre"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "Id\u00e9e\nNuage\nTable\nAmour\nPierre\nChanson\nTemps\nOc\u00e9an\nR\u00eave\nSilence"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "Pluie\nJoie\nCheval\nTable\nR\u00eave\nVerre\nSilence\nMontagne\nSouvenir\nVitesse"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "Lumi\u00e8re\nR\u00eave\nPierre\nTemps\nVent\nSilence\nCouleur\nJoie\nMer\nMontagne"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "Pluie\nSilence\nJoie\n\u00c9toile\nLivre\nChemin\nVent\nOmbre\nSonge\nSable"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "Soleil\nSilence\nFleur\nVoyage\nPens\u00e9e\n\u00c9toile\nOc\u00e9an\nRire\nOmbre\nLibert\u00e9"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "Montagne\nMusique\nR\u00eave\nOc\u00e9an\nAmour\nSilence\nFolie\nTemps\nJoie\nOmbre"
+                ]
+            ]
+        },
+        "config": {
+            "language": "French"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "Gl\u00fcck\nStuhl\nTraum\nFels\nWahrheit\nLicht\nSchmerz\nLachen\nIdee\nNacht"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "Gedanken\nFeuer\nBr\u00fccke\nMond\nGerechtigkeit\nStille\nLachen\nUhr\nStaub\nWirbel"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "Brot\nSchmerz\nGl\u00fcck\nWolke\nLicht\nTraum\nLache\nTisch\nGedanke\nStille"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "Himmel\nStuhl\nLiebe\nGedanke\nZeit\nWasser\nLicht\nTraum\nSpiel\nStimme"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "Wolkenkratzer\nGef\u00fchl\nK\u00f6nig\nTraum\nFarbe\nIdee\nFluss\nStille\nMusik\nVergangenheit"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "Wahrheit\nSchmerz\nSonne\nTraum\nStille\nMut\nFluss\nGl\u00fcck\nIdee\nNacht"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "Fantasie\nSchwerkraft\nTrost\nTraum\nGedanke\nMusik\nFarbe\nZeit\nStille\nHoffnung"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "Natur\nGef\u00fchl\nIdee\nZeit\nLicht\nFarbe\nForm\nTon\nMenge\nBewegung"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "Gl\u00fcck\nStuhl\nWahrheit\nFluss\nLiebe\nMond\nGer\u00e4usch\nFarbe\nGedanke\nBerg"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "Schatten\nKlang\nGl\u00fcck\nWille\nTr\u00e4ne\nBlume\nGedanke\nEreignis\nStille\nFarbe"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "Freude\nStein\nTraum\nLuft\nZeit\nMusik\nFarbe\nMut\nWissen\nGeheimnis"
+                ]
+            ]
+        },
+        "config": {
+            "language": "German"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "Libert\u00e0\nMorbidezza\nRumore\nAbisso\nSaggezza\nFiammifero\nSole\nVortice\nNostalgia\nGiuramento"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "Pace\nGelo\nVento\nCanto\nSogno\nRugiada\nEternit\u00e0\nOmbra\nRumore\nVelocit\u00e0"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "Sedia\nGioia\nAcqua\nLibert\u00e0\nForesta\nSilenzio\nColore\nTempo\nViaggio\nSogno"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "Albero\nGioia\nRumore\nSogno\nVelocit\u00e0\nOmbra\nSapore\nTempo\nLibert\u00e0\nMontagna"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "Sogno\nMontagna\nVelocit\u00e0\nSilenzio\nCanzone\nColore\nMemoria\nGioia\nMistero\nStrada"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "Sasso\nGioia\nVento\nTempo\nLibro\nSole\nSogno\nFiume\nColore\nSuono"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "Sogno\nSabbia\nGioia\nLibert\u00e0\nRumore\nTempo\nOmbra\nSapore\nForza\nVerit\u00e0"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "Abisso\nVelluto\nFrizzante\nMelodia\nSussurro\nOrizzonte\nNebbia\nRicordo\nFoschia\nParadiso"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "Astrazione\nMuro\nSorriso\nVortice\nSperanza\nTessuto\nSilenzio\nLegame\nGusto\nMemoria"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "Libert\u00e0\nSogno\nMontagna\nMusica\nSaggezza\nAcqua\nOmbra\nGioia\nTempo\nGusto"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "Fame\nMontagna\nPensiero\nSilenzio\nVelocit\u00e0\nGioia\nSperanza\nVerit\u00e0\nMistero\nTempo"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Italian"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "Boom\nLucht\nGevoel\nIdee\nTijd\nStof\nGeluid\nKleur\nVrijheid\nMuziek"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "Zon\nBoek\nVrijheid\nStoel\nDans\nDroom\nStaal\nGevoel\nBerg\nGeluid"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "Maan\nStoel\nLucht\nVreugde\nGras\nGedachte\nWater\nTijd\nKleur\nGeluid"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "Geluk\nStof\nOorzaak\nMaan\nTijd\nZwaartekracht\nSpel\nKleur\nMuziek\nGedachte"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "Stoel\nGeluk\nBoom\nZon\nMuziek\nLiefde\nWater\nVriend\nBoek\nTijd"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "1. Wolk\n2. Geluk\n3. Kei\n4. Droom\n5. Soep\n6. Vrede\n7. Spiegel\n8. Wijsheid\n9. Golf\n10. Chaos"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "Stoel\nLucht\nGevoel\nBoom\nIdee\nTijd\nWater\nGoud\nDroom\nMuur"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "Gedachte\nLicht\nVrede\nZand\nMuziek\nLiefde\nChaos\nTijd\nDroom\nVrijheid"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "Droom\nSteen\nVrede\nRuimte\nGeluid\nKleur\nTijd\nKracht\nGevoel\nLicht"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "Wolk\nEmotie\nGeluid\nVastberadenheid\nVrede\nZintuig\nVerlangen\nVorm\nTijd\nKracht"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "Boom\nLucht\nLiefde\nGeld\nTijd\nSteen\nDroom\nMuziek\nVrede\nOorzaak"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Dutch"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "Sonho\nPedra\nOceano\nSil\u00eancio\nCores\nSabor\nVento\nMedo\nTempo\nHist\u00f3ria"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "\u00c1gua\nSonho\nPedra\nTempo\nAmor\nSil\u00eancio\nSombra\nIdeia\nFome\nEspa\u00e7o"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "Serenidade\nCaminho\nSonho\nCadeira\nEsperan\u00e7a\nEscurid\u00e3o\nSabor\nSil\u00eancio\nLembran\u00e7a\nHorizonte"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "Felicidade\nSom\n\u00c1rvore\nEsperan\u00e7a\nPensamento\nMar\nPedra\nNoite\nSabor\nCoragem"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "Sol\nAmor\nPedra\nTempo\nM\u00fasica\nFome\nSono\nSonho\nEspelho\nSaudade"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "Sombra\nVelocidade\nSolid\u00e3o\nBarulho\nPerfume\nSabor\nSonho\nCores\nMist\u00e9rio\nTempo"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "Azulejo\nV\u00e1cuo\nC\u00e1lculo\nFelicidade\nMontanha\nPerfume\nSonho\nEspinho\nSolid\u00e3o\nAbismo"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "Algod\u00e3o\nSolid\u00e3o\nPensamento\nTesouro\nRisco\nM\u00fasica\nSonho\nCoragem\nEspa\u00e7o\nSil\u00eancio"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "Cama\nSonho\nRio\nMontanha\nSegredo\nSolid\u00e3o\nMist\u00e9rio\nVento\nCoragem\nTempo"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "Cavalo\nFelicidade\nTijolo\nPensamento\nGarfo\nSonho\nLua\nSombra\nMar\nSil\u00eancio"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "C\u00e9u\nPedra\nSombra\nSonho\nCoragem\nMelodia\nSabor\nSolid\u00e3o\nTempo\nPerguntador"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Portuguese"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "1.  \u5e0c\u671b\n2.  \u5f71\n3.  \u5922\n4.  \u97f3\n5.  \u58c1\n6.  \u9053\n7.  \u661f\n8.  \u9727\n9.  \u8272\n10. \u98a8"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "1.  **\u5922**\n2.  **\u7a7a**\n3.  **\u5ddd**\n4.  **\u5149**\n5.  **\u58f0**\n6.  **\u6642\u9593**\n7.  **\u9053**\n8.  **\u98a8**\n9.  **\u8272**\n10. **\u8a18\u61b6**"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "1.  \u5e0c\u671b\n2.  \u7fa9\u52d9\n3.  \u98a8\u666f\n4.  \u611f\u60c5\n5.  \u77e5\u8b58\n6.  \u7fd2\u6163\n7.  \u6a29\u5229\n8.  \u79d8\u5bc6\n9.  \u6642\u9593\n10. \u7a7a\u9593"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "1.  **\u7a7a**\n2.  **\u97f3**\n3.  **\u5922**\n4.  **\u9053**\n5.  **\u5149**\n6.  **\u5f71**\n7.  **\u98a8**\n8.  **\u6642\u9593**\n9.  **\u5f62**\n10. **\u8272**"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "1. \u592a\u967d\n2. \u53cb\u60c5\n3. \u6905\u5b50\n4. \u5922\n5. \u925b\u7b46\n6. \u60b2\u3057\u307f\n7. \u7a7a\u6c17\n8. \u9375\n9. \u52c7\u6c17\n10. \u5909\u5316"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "1.  **\u5149**\n2.  **\u9053**\n3.  **\u97f3**\n4.  **\u98a8**\n5.  **\u5922**\n6.  **\u8a18\u61b6**\n7.  **\u5e0c\u671b**\n8.  **\u7591\u554f**\n9.  **\u6642\u9593**\n10. **\u611f\u60c5**"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "1.  \u5e0c\u671b\n2.  \u53cb\u60c5\n3.  \u6642\u9593\n4.  \u7a7a\u6c17\n5.  \u5922\n6.  \u6d99\n7.  \u9053\n8.  \u5149\n9.  \u8a18\u61b6\n10. \u5909\u5316"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "1.  \u7a7a\n2.  \u672c\n3.  \u82b1\n4.  \u9053\n5.  \u5922\n6.  \u97f3\n7.  \u98a8\n8.  \u5bb6\n9.  \u6642\u9593\n10. \u6c17\u6301\u3061"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "1.  \u6642\u9593\n2.  \u5922\n3.  \u8272\n4.  \u97f3\n5.  \u529b\n6.  \u5f62\n7.  \u5fc3\n8.  \u6570\n9.  \u5149\n10. \u79d8\u5bc6"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "1. \u5922\n2. \u5f71\n3. \u65c5\n4. \u5d50\n5. \u6cc9\n6. \u5b9d\n7. \u52c7\u6c17\n8. \u8ff7\u8def\n9. \u7948\u308a\n10. \u8a18\u61b6"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "1. \u5922\n2. \u52c7\u6c17\n3. \u5f71\n4. \u9375\n5. \u65c5\n6. \u6b4c\n7. \u7802\n8. \u96f2\n9. \u708e\n10. \u6249"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Japanese"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "\u0641\u0631\u062d\n\u0645\u0637\u0631\n\u0633\u0645\u0627\u0621\n\u0635\u0645\u062a\n\u0631\u062d\u0644\u0629\n\u062d\u0644\u0645\n\u0623\u0644\u0645\n\u0646\u0648\u0631\n\u0633\u0631\n\u0632\u0645\u0646"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "\u0635\u0645\u062a\n\u062d\u0644\u0645\n\u0646\u0648\u0631\n\u0638\u0644\n\u0635\u0648\u062a\n\u0645\u0627\u0621\n\u062d\u062c\u0631\n\u0641\u0643\u0631\u0629\n\u0644\u0648\u0646\n\u0645\u0648\u0633\u064a\u0642\u0649"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "* \u0633\u0639\u0627\u062f\u0629\n* \u062d\u062c\u0631\n* \u0647\u0648\u0627\u0621\n* \u0635\u0645\u062a\n* \u0641\u0643\u0631\u0629\n* \u0645\u0627\u0621\n* \u0634\u0645\u0633\n* \u062e\u0648\u0641\n* \u0644\u0648\u0646\n* \u0633\u0631\u0639\u0629"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "\u0642\u0645\u0631\n\u0635\u062f\u0642\n\u063a\u0627\u0628\u0629\n\u0630\u0646\u0628\n\u0635\u0645\u062a\n\u0634\u0645\u0633\n\u0635\u0628\u0631\n\u0633\u0645\u0627\u0621\n\u062d\u0644\u0645\n\u062d\u062c\u0631"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "\u0641\u0643\u0631\u0629\n\u0638\u0644\u0627\u0645\n\u0623\u0645\u0644\n\u0645\u0648\u062c\u0629\n\u062d\u062c\u0631\n\u0633\u0631\u0639\u0629\n\u0633\u0643\u064a\u0646\n\u062d\u0644\u0645\n\u0646\u063a\u0645\n\u0633\u0644\u0627\u0645"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "\u0639\u062f\u0627\u0644\u0629\n\u0635\u0645\u062a\n\u0634\u0631\u0648\u0642\n\u0634\u0630\u0649\n\u0635\u062e\u0631\n\u062d\u0644\u0645\n\u0645\u0627\u0621\n\u0636\u0648\u0621\n\u0648\u062d\u062f\u0629\n\u0641\u0631\u062d"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "\u062d\u0644\u0645\n\u0635\u0645\u062a\n\u0623\u0645\u0644\n\u0645\u0627\u0621\n\u0632\u0645\u0646\n\u0641\u0631\u062d\n\u0635\u062e\u0631\n\u0644\u0648\u0646\n\u0635\u0648\u062a\n\u0646\u0648\u0631"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "\u0641\u0631\u062d\n\u062d\u062c\u0631\n\u0636\u0648\u0621\n\u0648\u0642\u062a\n\u0635\u0645\u062a\n\u062d\u0644\u0645\n\u0646\u0647\u0631\n\u0646\u0627\u0631\n\u0642\u0644\u0628\n\u0635\u0648\u062a"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "\u0639\u062f\u0627\u0644\u0629\n\u0648\u0647\u0645\n\u062e\u0634\u0628\n\u0635\u0645\u062a\n\u0645\u0633\u062a\u0642\u0628\u0644\n\u0645\u0644\u062d\n\u0641\u0631\u062d\n\u062d\u0644\u0645\n\u0636\u0648\u0621\n\u062a\u0627\u0631\u064a\u062e"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "\u0647\u0648\u0627\u0621\n\u062e\u064a\u0627\u0644\n\u062d\u062c\u0631\n\u0635\u0645\u062a\n\u0644\u0648\u0646\n\u0648\u0642\u062a\n\u0648\u062d\u062f\u0629\n\u0633\u0631\u0639\u0629\n\u0634\u063a\u0641\n\u0635\u062f\u0627\u0642\u0629"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "\u0634\u0641\u0642\n\u0641\u0643\u0631\u0629\n\u0635\u0645\u062a\n\u062e\u064a\u0627\u0644\n\u0634\u062c\u0631\n\u0631\u064a\u062d\n\u062d\u0644\u0645\n\u0645\u0644\u062d\n\u0645\u0635\u0628\u0627\u062d\n\u0633\u0631"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Arabic"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "\u5c71\n\u5149\n\u98ce\n\u68a6\n\u8336\n\u949f\n\u7b14\n\u8def\n\u6d77\n\u4fe1"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "\u65f6\u95f4\n\u601d\u60f3\n\u529b\u91cf\n\u989c\u8272\n\u68a6\u60f3\n\u5173\u7cfb\n\u77e5\u8bc6\n\u60c5\u611f\n\u7a7a\u95f4\n\u610f\u4e49"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "\u5e0c\u671b\n\u6050\u60e7\n\u5929\u7a7a\n\u571f\u58e4\n\u6cb3\u6d41\n\u4e66\u672c\n\u97f3\u4e50\n\u65f6\u95f4\n\u68a6\u60f3\n\u8bb0\u5fc6"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "\u4e91\n\u52c7\u6c14\n\u5c71\n\u5e0c\u671b\n\u58f0\u97f3\n\u81ea\u7531\n\u6cb3\u6d41\n\u771f\u76f8\n\u75be\u75c5\n\u68a6\u60f3"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "1.  \u60c5\u611f\n2.  \u5c71\u5ddd\n3.  \u65f6\u95f4\n4.  \u601d\u60f3\n5.  \u9633\u5149\n6.  \u68a6\u60f3\n7.  \u77e5\u8bc6\n8.  \u58f0\u97f3\n9.  \u53d8\u5316\n10. \u79e9\u5e8f"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "\u68a6\u60f3\n\u529b\u91cf\n\u65f6\u95f4\n\u771f\u76f8\n\u81ea\u7531\n\u5e0c\u671b\n\u667a\u6167\n\u5e73\u9759\n\u4ef7\u503c\n\u8bb0\u5fc6"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "\u661f\u8fb0\n\u60c5\u611f\n\u54f2\u5b66\n\u5386\u53f2\n\u97f3\u4e50\n\u5473\u9053\n\u68ee\u6797\n\u68a6\u60f3\n\u4e60\u60ef\n\u58f0\u97f3"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "\u5c71\n\u6c34\n\u98ce\n\u5149\n\u68a6\n\u7231\n\u6068\n\u65f6\n\u5ea6\n\u7a7a"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "\u5c71\n\u7231\n\u81ea\u7531\n\u65f6\u95f4\n\u97f3\u4e50\n\u52c7\u6c14\n\u5fae\u7b11\n\u5e0c\u671b\n\u5bc2\u5bde\n\u68a6\u60f3"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "\u6cb3\u6d41\n\u601d\u60f3\n\u79d8\u5bc6\n\u5e0c\u671b\n\u65f6\u95f4\n\u6c89\u9ed8\n\u96e8\u6ef4\n\u77f3\u5934\n\u7b11\u58f0\n\u68a6\u5883"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "\u5e0c\u671b\n\u81ea\u7531\n\u65f6\u95f4\n\u529b\u91cf\n\u8272\u5f69\n\u97f3\u4e50\n\u68a6\u60f3\n\u771f\u7406\n\u60c5\u611f\n\u667a\u6167"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Chinese"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "1. \uc790\uc720\n2. \ud76c\ub9dd\n3. \uc2dc\uac04\n4. \uc0ac\ub791\n5. \uc6b0\uc815\n6. \uc9c0\ud61c\n7. \uace0\ub3c5\n8. \uae30\uc068\n9. \uc2ac\ud514\n10. \ud3c9\ud654"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "1. \uc0ac\ub791\n2. \uc9c0\ud61c\n3. \uc2dc\uac04\n4. \ubc14\ub78c\n5. \uafc8\n6. \ud76c\ub9dd\n7. \uc2ac\ud514\n8. \uc6a9\uae30\n9. \uae30\uc5b5\n10. \uc790\uc720"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "1. \ud76c\ub9dd\n2. \ubc14\ub2e4\n3. \uc18d\uc0ad\uc784\n4. \uadf8\ub9bc\uc790\n5. \ud3c9\ud654\n6. \uc9c0\ud61c\n7. \uc232\n8. \uae30\uc068\n9. \uace0\ub3c5\n10. \uafc8"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "* \uae30\uc068\n* \ud63c\ub3c8\n* \uc9c4\uc2e4\n* \ud76c\ub9dd\n* \uae30\uc5b5\n* \uadf8\ub9bc\uc790\n* \ubb3c\uacb0\n* \uce68\ubb35\n* \uc18d\uc0ad\uc784\n* \ud5c8\uacf5"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "1. \uc0ac\ub791\n2. \uc9c0\ud61c\n3. \ubc14\ub78c\n4. \uafc8\n5. \ud76c\ub9dd\n6. \uc2dc\uac04\n7. \uae30\uc5b5\n8. \uadf8\ub9bc\uc790\n9. \uc18c\ub9ac\n10. \ubcc4"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "1. \uc0b0\n2. \uac15\n3. \ubcc4\n4. \uafc8\n5. \ubc14\ub78c\n6. \uc18c\ub9ac\n7. \ub9db\n8. \uc0ac\ub791\n9. \uc2ac\ud514\n10. \uc2dc\uac04"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "1. \uc0ac\ub791\n2. \uc2dc\uac04\n3. \ubc14\ub2e4\n4. \uafc8\n5. \uc0dd\uac01\n6. \ube5b\n7. \uc18c\ub9ac\n8. \uace0\ub3c5\n9. \ud76c\ub9dd\n10. \uc9c4\uc2e4"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "1. \uafc8\n2. \ubc14\ub78c\n3. \ubcc4\n4. \uc2ac\ud514\n5. \uc9c4\uc2e4\n6. \uc6a9\uae30\n7. \uc0ac\ub791\n8. \uc2dc\uac04\n9. \ud76c\ub9dd\n10. \uae30\uc5b5"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "1. \uc0ac\ub791\n2. \uc2dc\uac04\n3. \uc790\uc720\n4. \uafc8\n5. \uc18c\ub9ac\n6. \ube5b\n7. \ub9db\n8. \uc628\uae30\n9. \ubb34\uac8c\n10. \uc218"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "1. \uc0ac\ub791\n2. \uc2dc\uac04\n3. \uafc8\n4. \uc18c\ub9ac\n5. \ub9db\n6. \uc0c9\uae54\n7. \uc628\ub3c4\n8. \uacf5\uac04\n9. \uae38\n10. \uc9c0\ud61c"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "1. \ub9c8\uc74c\n2. \uc2dc\uac04\n3. \ud558\ub298\n4. \ub545\n5. \ubb3c\n6. \ubd88\n7. \uacf5\uae30\n8. \uc18c\ub9ac\n9. \ube5b\n10. \uc5b4\ub460"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Korean"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1, \"thinking_budget\": 20}": [
+                [
+                    "K\u00e1men\nSen\nV\u00edtr\nSm\u00edch\nN\u00e1lada\nV\u016fn\u011b\nTajemstv\u00ed\nNad\u011bje\nSt\u00edn\n\u010cas"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 50}": [
+                [
+                    "Voda\nMy\u0161lenka\nSt\u00edn\nRadost\nNekone\u010dno\nSv\u011btlo\nHlas\nSny\nPouto\n\u00dadol\u00ed"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 100}": [
+                [
+                    "1. St\u00edn\n2. K\u0159ik\n3. V\u016fn\u011b\n4. Klid\n5. Hrana\n6. Vzpom\u00ednka\n7. Jiskra\n8. Bl\u00e1zen\n9. Ko\u0159eny\n10. Sv\u011btlo"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 200}": [
+                [
+                    "K\u0159id\u00e9lko\nHluk\nVzpom\u00ednka\nZrcadlo\nCesta\nZmatek\nP\u0159edstava\nJiskra\nHlubina\nNad\u0161en\u00ed"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 400}": [
+                [
+                    "\u0160t\u011bst\u00ed\nObloha\nMy\u0161lenka\nSt\u016fl\nV\u016fn\u011b\nZmatek\nJiskra\nZrcadlo\nHloubka\nZ\u00e1hada"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 300}": [
+                [
+                    "1. \u0160kv\u00edra\n2. \u00da\u017eas\n3. M\u011bs\u00edc\n4. Hromada\n5. \u0160epot\n6. Obloha\n7. K\u00e1men\n8. Klid\n9. St\u00edn\n10. Sen"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1000}": [
+                [
+                    "1. \u0160elma\n2. V\u011btrn\u00edk\n3. Citron\n4. L\u00e1ska\n5. Houba\n6. K\u00e1men\n7. Sn\u00edtka\n8. Hlas\n9. Zrcadlo\n10. Vzpom\u00ednka"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 1500}": [
+                [
+                    "Mlha\nPl\u00e1\u010d\nHv\u011bzda\n\u0160um\nZ\u00e1blesk\nTicho\nV\u016fn\u011b\nSen\nChlad\nSv\u011btlo"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 2000}": [
+                [
+                    "Mlha\nK\u0159eslo\nNad\u011bje\nKamen\nVzpom\u00ednka\nSv\u011btlo\n\u0160epot\nHlad\nZrcadlo\n\u010cas"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 3000}": [
+                [
+                    "Snovid\nKlav\u00edr\nLidstvo\n\u0160epot\n\u017d\u00e1r\nSm\u00edch\nPouto\nMy\u0161lenka\nHora\nP\u00edsek"
+                ]
+            ],
+            "{\"temperature\": 1, \"thinking_budget\": 4500}": [
+                [
+                    "Vzduch\nSt\u00edn\nHudba\nSen\n\u0158eka\nD\u016fvod\nVzpom\u00ednka\nK\u00e1men\nSm\u00edch\nV\u016fn\u011b"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Czech"
+        }
+    }
+]
