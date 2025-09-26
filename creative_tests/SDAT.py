@@ -121,30 +121,31 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
             return self.file_name
         return "SDAT_"+str(self.id)+"_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs_"+str(self.n_words)+"words"
     
-    def request(self) -> dict:
+    def request(self) -> list[dict]:
         non_clean_llm_response = []
 
         for lang in self.languages:
-            init_lang = False
-            
-            HardDAT_request = Request(
+            add_specs = self.add_addition_specs(lang)
+    
+            SDAT_request = Request(
                 models=self.models,
-                prompt=self.language_prompts[lang] + self.add_addition_specs(lang),
+                prompt=self.language_prompts[lang] + add_specs,
                 configs=self.configs,
                 repeats=self.repeats,
                 default_delay=self.delay,
                 verbose=False
             )
             
-            llm_response = run_request(HardDAT_request)
+            llm_response = run_request(SDAT_request)
             llm_response["config"] = {}
             llm_response["config"]["language"] = lang
-            llm_response["config"]["constraints"] = self.add_addition_specs(lang)
+            llm_response["config"]["constraints"] = add_specs
 
             non_clean_llm_response.append(llm_response)
-        
-        with open(f"responses/{str(self)}.json", "w") as json_file:
-            json.dump(non_clean_llm_response, json_file, indent=4)
+            
+            print("Saving to file!")
+            with open(f"responses/{str(self)}.json", "w") as json_file:
+                json.dump(non_clean_llm_response, json_file, indent=4)
         
         return non_clean_llm_response
 
@@ -165,6 +166,9 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
                     for config_key, word_lists in entry[model_key].items():
                         for idx2, words in enumerate(word_lists):
                             c_words = super().clean_response(words[0])
+                            print("Clean response:")
+                            print(c_words)
+                            print()
                             clean_llm_response[idx1][model_key][config_key][idx2] = c_words
 
         with open(f"responses/{str(self)}_clean.json", "w") as json_file:
