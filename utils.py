@@ -55,16 +55,21 @@ def calculate_dat_score(model, words, minimum=7, maximum=12):
     Cleans words according to model preferences. If less than 7 words can be clean, returns None.
     Otherwise, returns the average pairwise distance between all the word embeddings (with a maximum of 12 words).
     """
+    if words is None:
+        print("WARNING: Could not calculate DAT: no words were provided!")
+        return None
     uniques_set = set()
     uniques = []
 
     for word in words:
-        valid = model.clean(word)
-        if valid and valid not in uniques_set:
-            uniques.append(valid)
-            uniques_set.add(valid)
+        if word != "":
+            valid = model.clean(word)
+            if valid and valid not in uniques_set:
+                uniques.append(valid)
+                uniques_set.add(valid)
 
     if len(uniques) < minimum:
+        print("WARNING: Could not calculate DAT: not enough valid words!")
         return None  # Not enough valid words
     subset = uniques[:maximum]
 
@@ -76,6 +81,7 @@ def calculate_dat_score(model, words, minimum=7, maximum=12):
     ]
 
     if not distances:
+        print("WARNING: Could not calculate DAT: distances were not properly calculated!")
         return None
 
     return (sum(distances) / len(distances)) * 100.0

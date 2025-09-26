@@ -83,6 +83,7 @@ class DivergentAssociationTest():
         # Check for thought included responses (very specific case)
         if response is not None and isinstance(response, list) and len(response) == 2 and response[0].lower().startswith("thought\n"):
             response = response[1]
+            print("hello!")
         new_line_words = response.split("\n")
 
         if len(new_line_words) >= 7:
@@ -99,6 +100,18 @@ class DivergentAssociationTest():
 
         if len(comma_separated_words) >= 7:
             for word in comma_separated_words:
+                if word != "" and len(word) <= 15:
+                    clean_word = keep_letters(word)
+
+                    if len(clean_word.split()) <= 1:
+                        return_words.append(clean_word.strip())
+            return return_words
+        
+        return_words = []
+        point_separated_words = response.split(".")
+
+        if len(point_separated_words) >= 7:
+            for word in point_separated_words:
                 if word != "" and len(word) <= 15:
                     clean_word = keep_letters(word)
 
