@@ -1,0 +1,2900 @@
+[
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Apple\n2. Anger\n3. Arrow\n4. Aroma\n5. Anchor\n6. Album\n7. Atlas\n8. Avenue\n9. Accord\n10. Alibi\n11. Abyss\n12. Axiom\n13. Agony\n14. Alloy\n15. Amity\n16. Apex\n17. Aura\n18. Amulet\n19. Anvil\n20. Asylum\n21. Aspect\n22. Agility\n23. Altar\n24. Ardor\n25. Artifice"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Aardvark\n2.  Album\n3.  Ambush\n4.  Angle\n5.  Anxiety\n6.  Apathy\n7.  Appetite\n8.  Aquarium\n9.  Arbor\n10. Arena\n11. Artifact\n12. Asylum\n13. Aura\n14. Autumn\n15. Avatar\n16. Awe\n17. Axe\n18. Azalea\n19. Bagel\n20. Ballast\n21. Bamboo\n22. Bandit\n23. Banquet\n24. Baritone\n25. Barnacle"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Air\n2. Apple\n3. Anger\n4. Alphabet\n5. Armor\n6. Avenue\n7. Awkwardness\n8. Accord\n9. Ambition\n10. Ancestor\n11. Arrogance\n12. Anxiety\n13. Apparatus\n14. Aroma\n15. Assembly\n16. Accordion\n17. Argument\n18. Art\n19. Asylum\n20. Asset\n21. Autumn\n22. Anchor\n23. Accident\n24. Altitude\n25. Acrobat"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Asparagus\n2. Armadillo\n3. Adventure\n4. Aquarium\n5. Acorn\n6. Attitude\n7. Alligator\n8. Ambition\n9. Acrobat\n10. Anchor\n11. Album\n12. Accordion\n13. Anguish\n14. Altitude\n15. Audience\n16. Abyss\n17. Apricot\n18. Ancestor\n19. Alchemy\n20. Airplane\n21. Argument\n22. Arctic\n23. Autumn\n24. Arena\n25. Artifact"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. anvil\n2. ambition\n3. antelope\n4. archway\n5. axiom\n6. asphalt\n7. attic\n8. avalanche\n9. awareness\n10. ankle\n11. agenda\n12. applause\n13. agony\n14. asteroid\n15. allegory\n16. arrow\n17. album\n18. acquittal\n19. algae\n20. arena\n21. aura\n22. acre\n23. anarchy\n24. apron\n25. afternoon"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Absence\n2. Antelope\n3. Anchor\n4. Apathy\n5. Archway\n6. Ash\n7. Amnesty\n8. Aptitude\n9. Afternoon\n10. Avalanche\n11. Axiom\n12. Alley\n13. Alarm\n14. Ankle\n15. Artichoke\n16. Ampule\n17. Anecdote\n18. Anarchy\n19. Asteroid\n20. Aria\n21. Awl\n22. Arrogance\n23. Adversary\n24. Archive\n25. Atrium"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Anvil\n2. Anger\n3. Ash\n4. Attic\n5. Almond\n6. Ape\n7. Absence\n8. Acid\n9. Ankle\n10. Abbey\n11. Alarm\n12. Arrow\n13. Angel\n14. Archipelago\n15. Amber\n16. Aroma\n17. Angle\n18. Avalanche\n19. Apron\n20. Acre\n21. Anarchy\n22. Algae\n23. Aria\n24. Amphora\n25. Axiom"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Anvil\n2. Apathy\n3. Archipelago\n4. Axiom\n5. Aftermath\n6. Antelope\n7. Alibi\n8. Awning\n9. Apex\n10. Ambush\n11. Atrium\n12. Alleyway\n13. Amber\n14. Anomaly\n15. Ailment\n16. Algae\n17. Almanac\n18. Adversary\n19. Abyss\n20. Acorn\n21. Auditorium\n22. Angel\n23. Allergy\n24. Anguish\n25. Anthology"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Apple\n2.  Anchor\n3.  Anarchy\n4.  Aura\n5.  Ant\n6.  Atom\n7.  Abyss\n8.  Anthem\n9.  Apron\n10. Axis\n11. Amulet\n12. Armada\n13. Aqueduct\n14. Arrow\n15. Aperture\n16. Altitude\n17. Acumen\n18. Aspiration\n19. Alabaster\n20. Adage\n21. Arbor\n22. Accent\n23. Age\n24. Alarm\n25. Amphora"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Apple\n2. Anvil\n3. Abyss\n4. Aisle\n5. Armor\n6. Aster\n7. Atom\n8. Artery\n9. Apron\n10. Anchor\n11. Alloy\n12. Album\n13. Antenna\n14. Archive\n15. Aura\n16. Agenda\n17. Amphora\n18. Amulet\n19. Allotment\n20. Aspiration\n21. Alcove\n22. Auditorium\n23. Acorn\n24. Affirmation\n25. Axis"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Axiom\n2. Anchor\n3. Abode\n4. Alloy\n5. Anomaly\n6. Apron\n7. Apparatus\n8. Altitude\n9. Aspiration\n10. Abundance\n11. Acumen\n12. Archway\n13. Aisle\n14. Adversity\n15. Affinity\n16. Alibi\n17. Ambush\n18. Aura\n19. Acorn\n20. Agenda\n21. Anthem\n22. Assembly\n23. Artisan\n24. Afterthought\n25. Aroma"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Asteroid\n2.  Artery\n3.  Anvil\n4.  Avalanche\n5.  Altitude\n6.  Amber\n7.  Axis\n8.  Abrasion\n9.  Alpaca\n10. Aqua\n11. Ambit\n12. Ampoule\n13. Alfalfa\n14. Arm\n15. Ashes\n16. Alcove\n17. Arch\n18. Apricot\n19. Atom\n20. Abyss\n21. Argyle\n22. Anomaly\n23. Archipelago\n24. Apron\n25. Algae"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Abyss\n2. Anchor\n3. Aroma\n4. Alloy\n5. Amber\n6. Angle\n7. Agony\n8. Anthem\n9. Asylum\n10. Azure\n11. Accent\n12. Agent\n13. Archive\n14. Atom\n15. Aura\n16. Axis\n17. Acre\n18. Alibi\n19. Algorithm\n20. Almanac\n21. Amulet\n22. Apex\n23. Asteroid\n24. Affidavit\n25. Aria"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Abyss\n2. Accent\n3. Acre\n4. Agent\n5. Agony\n6. Alloy\n7. Amber\n8. Angle\n9. Anvil\n10. Armor\n11. Aroma\n12. Arrow\n13. Aster\n14. Atlas\n15. Atom\n16. Aura\n17. Author\n18. Azure\n19. Almanac\n20. Anthem\n21. Archive\n22. Affidavit\n23. Alibi\n24. Acrobat\n25. Apex"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Abyss\n2. Agony\n3. Atom\n4. Amber\n5. Anvil\n6. Aroma\n7. Archive\n8. Armor\n9. Anthem\n10. Apex\n11. Aura\n12. Almanac\n13. Anchor\n14. Axiom\n15. Account\n16. Alley\n17. Artichoke\n18. Avocado\n19. Apron\n20. Alibi\n21. Auction\n22. Amethyst\n23. Arrow\n24. Angle\n25. Ascent"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Abyss\n2. Algorithm\n3. Amber\n4. Alloy\n5. Anvil\n6. Aroma\n7. Aspic\n8. Archive\n9. Acreage\n10. Antenna\n11. Atom\n12. Argument\n13. Autopsy\n14. Anthem\n15. Acrobat\n16. Artifact\n17. Avocado\n18. Axis\n19. Agent\n20. Aspect\n21. Apricot\n22. Analogy\n23. Absence\n24. Agenda\n25. Alligator"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Abyss\n2.  Aspect\n3.  Anchor\n4.  Aroma\n5.  Axe\n6.  Altitude\n7.  Astronaut\n8.  Achievement\n9.  Alphabet\n10. Absence\n11. Antler\n12. Audience\n13. Advocate\n14. Atom\n15. Art\n16. Armor\n17. Agony\n18. Accord\n19. Anger\n20. Animal\n21. Arrow\n22. Ambition\n23. Acorn\n24. Avalanche\n25. Artifact"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Acorn\n2.  Abyss\n3.  Amnesty\n4.  Axe\n5.  Agony\n6.  Artifact\n7.  Avatar\n8.  Anchor\n9.  Aroma\n10. Allegiance\n11. Alibi\n12. Anthem\n13. Arrow\n14. Aspect\n15. Agenda\n16. Audience\n17. Atmosphere\n18. Armor\n19. Algebra\n20. Animal\n21. Asphalt\n22. Appetite\n23. Authority\n24. Adventure\n25. Archive"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Adage\n2.  Atom\n3.  Anomaly\n4.  Aftermath\n5.  Apron\n6.  Anchor\n7.  Apathy\n8.  Alchemy\n9.  Agony\n10. Angle\n11. Army\n12. Arrow\n13. Aspect\n14. Attitude\n15. Audience\n16. Alphabet\n17. Accident\n18. Abyss\n19. Anthem\n20. Armor\n21. Acre\n22. Appeal\n23. Asphalt\n24. Account\n25. Area"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Art\n2.  Anxiety\n3.  Atmosphere\n4.  Achievement\n5.  Aspect\n6.  Affection\n7.  Acorn\n8.  Abyss\n9.  Adventure\n10. Answer\n11. Attitude\n12. Age\n13. Absence\n14. Accord\n15. Alibi\n16. Appetite\n17. Amount\n18. Approval\n19. Avalanche\n20. Apathy\n21. Agreement\n22. Ascent\n23. Armor\n24. Area\n25. Anger"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "history",
+                "solemn",
+                "conversation",
+                "tracing",
+                "blame",
+                "famous",
+                "scattered",
+                "apparent",
+                "secret",
+                "magnitude",
+                "make",
+                "distract",
+                "solemnity",
+                "concerning",
+                "performer",
+                "smile",
+                "tell",
+                "testify",
+                "bore",
+                "fruitful"
+            ],
+            "letter": "a",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Bumper\n2.  Breeze\n3.  Bangle\n4.  Bacon\n5.  Bliss\n6.  Bellow\n7.  Brim\n8.  Bounty\n9.  Burlap\n10. Beacon\n11. Burden\n12. Bubble\n13. Bloom\n14. Boulder\n15. Brigade\n16. Brooch\n17. Barnacle\n18. Blister\n19. Brigadeer\n20. Boiler\n21. Bivouac\n22. Barrage\n23. Banyan\n24. Binnacle\n25. Boomerang"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Banana\n2. Book\n3. Breeze\n4. Bubble\n5. Blanket\n6. Beacon\n7. Bullet\n8. Bench\n9. Bargain\n10. Bridge\n11. Bouquet\n12. Blessing\n13. Belief\n14. Blame\n15. Barn\n16. Bottle\n17. Balance\n18. Bounty\n19. Blade\n20. Bruise\n21. Brain\n22. Basin\n23. Button\n24. Ballot\n25. Broth"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Bloom\n2. Blight\n3. Beacon\n4. Bulwark\n5. Briar\n6. Broth\n7. Bond\n8. Burden\n9. Breeze\n10. Basin\n11. Beacon\n12. Bolt\n13. Barrage\n14. Bounty\n15. Bramble\n16. Bustle\n17. Beacon\n18. Blob\n19. Brace\n20. Brood\n21. Bloom\n22. Bark\n23. Bluff\n24. Beacon\n25. Blister"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Ball\n2. Butter\n3. Book\n4. Bridge\n5. Bird\n6. Bench\n7. Bubble\n8. Bush\n9. Brain\n10. Bank\n11. Boat\n12. Brick\n13. Broom\n14. Bag\n15. Belt\n16. Bowl\n17. Box\n18. Berry\n19. Blanket\n20. Bread\n21. Blade\n22. Bark\n23. Bubblegum\n24. Bullet\n25. Beauty"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. belief\n2. broccoli\n3. bridge\n4. bang\n5. bureaucracy\n6. blemish\n7. badger\n8. bliss\n9. bucket\n10. beginning\n11. barter\n12. beam\n13. ballad\n14. brick\n15. brain\n16. blossom\n17. border\n18. breeze\n19. banquet\n20. button\n21. blight\n22. bench\n23. broth\n24. brush\n25. boast"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. belief\n2. bucket\n3. badger\n4. bliss\n5. bud\n6. bargain\n7. boom\n8. broth\n9. brain\n10. burden\n11. bay\n12. beam\n13. brute\n14. beginning\n15. border\n16. blemish\n17. blanket\n18. bedlam\n19. blurb\n20. brush\n21. bump\n22. breeze\n23. bond\n24. bush\n25. boon"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. belief\n2. bolt\n3. broth\n4. badger\n5. boulder\n6. bang\n7. brigade\n8. bark\n9. brink\n10. bliss\n11. basket\n12. ballad\n13. blemish\n14. bargain\n15. bench\n16. blade\n17. beam\n18. barricade\n19. breeze\n20. breath\n21. bond\n22. bead\n23. burden\n24. bran\n25. barn"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Brick\n2. Bargain\n3. Breeze\n4. Bliss\n5. Byte\n6. Boom\n7. Blessing\n8. Bog\n9. Bias\n10. Bond\n11. Bud\n12. Blemish\n13. Boycott\n14. Broth\n15. Bystander\n16. Bristle\n17. Belief\n18. Banter\n19. Beak\n20. Burden\n21. Beam\n22. Ballad\n23. Blight\n24. Brink\n25. Batch"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Book\n2.  Bliss\n3.  Breeze\n4.  Boundary\n5.  Bargain\n6.  Bulb\n7.  Banner\n8.  Burden\n9.  Blossom\n10. Beacon\n11. Blink\n12. Bangle\n13. Balcony\n14. Bellow\n15. Basket\n16. Bounty\n17. Braille\n18. Blueprint\n19. Bubble\n20. Bypass\n21. Brain\n22. Bolt\n23. Bay\n24. Byte\n25. Burst"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Book\n2.  Bliss\n3.  Bridge\n4.  Bargain\n5.  Billion\n6.  Bell\n7.  Basket\n8.  Blossom\n9.  Burden\n10. Bubble\n11. Barrier\n12. Breach\n13. Bay\n14. Bias\n15. Brawl\n16. Bullet\n17. Blink\n18. Brim\n19. Beacon\n20. Boot\n21. Bulwark\n22. Budget\n23. Buzz\n24. Bank\n25. Blotch"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Bay\n2.  Bliss\n3.  Bulwark\n4.  Breeze\n5.  Banjo\n6.  Burden\n7.  Bias\n8.  Bypass\n9.  Bookcase\n10. Binge\n11. Boar\n12. Beacon\n13. Basalt\n14. Balance\n15. Broker\n16. Bravery\n17. Bloom\n18. Billet\n19. Box\n20. Breadth\n21. Blimp\n22. Banner\n23. Bell\n24. Budget\n25. Broom"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Bliss\n2.  Boulder\n3.  Button\n4.  Blaze\n5.  Blueprint\n6.  Bark\n7.  Brigade\n8.  Barter\n9.  Beacon\n10. Buoyancy\n11. Boundary\n12. Bangle\n13. Bracket\n14. Blink\n15. Bump\n16. Bellow\n17. Basket\n18. Bloom\n19. Benchmark\n20. Belt\n21. Bog\n22. Blimp\n23. Brand\n24. Biscuit\n25. Batch"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Breeze\n2.  Bangle\n3.  Belfry\n4.  Blight\n5.  Barnacle\n6.  Brocade\n7.  Bramble\n8.  Boulder\n9.  Brig\n10. Balm\n11. Basin\n12. Bison\n13. Bodkin\n14. Bellows\n15. Bulwark\n16. Bunting\n17. Buskin\n18. Balustrade\n19. Beaker\n20. Billet\n21. Bombast\n22. Braid\n23. Brand\n24. Broth\n25. Buccaneer"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Balm\n2.  Bastion\n3.  Braid\n4.  Blossom\n5.  Boulder\n6.  Brand\n7.  Bubble\n8.  Broth\n9.  Bequest\n10. Bangle\n11. Belief\n12. Boundary\n13. Beacon\n14. Blizzard\n15. Ballot\n16. Barrage\n17. Barb\n18. Backlash\n19. Bondage\n20. Brochure\n21. Blight\n22. Bog\n23. Buttress\n24. Billow\n25. Basin"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Bangle\n2.  Boulder\n3.  Basil\n4.  Braid\n5.  Broth\n6.  Buckle\n7.  Banjo\n8.  Blast\n9.  Bellow\n10. Bump\n11. Bliss\n12. Bunion\n13. Borough\n14. Bunting\n15. Bale\n16. Breech\n17. Bullion\n18. Bracket\n19. Bias\n20. Biscuit\n21. Beaver\n22. Barnacle\n23. Bastion\n24. Bequest\n25. Beetle"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Banana\n2.  Butter\n3.  Brochure\n4.  Bracket\n5.  Bracelet\n6.  Bacteria\n7.  Baldness\n8.  Balcony\n9.  Barrage\n10. Bastion\n11. Ballot\n12. Bead\n13. Bias\n14. Blizzard\n15. Bulb\n16. Borough\n17. Bronze\n18. Beverage\n19. Bargain\n20. Bouquet\n21. Brick\n22. Barn\n23. Bamboo\n24. Beacon\n25. Breezeway"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Breeze\n2.  Broom\n3.  Benefit\n4.  Button\n5.  Balance\n6.  Basement\n7.  Beast\n8.  Bliss\n9.  Bucket\n10. Branch\n11. Border\n12. Belief\n13. Bubble\n14. Banquet\n15. Bandit\n16. Blueprint\n17. Bar\n18. Bog\n19. Bloom\n20. Bison\n21. Bow\n22. Brick\n23. Burden\n24. Blade\n25. Bed"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Ball\n2.  Beast\n3.  Balance\n4.  Blossom\n5.  Bridge\n6.  Book\n7.  Breeze\n8.  Bone\n9.  Bargain\n10. Bandit\n11. Box\n12. Beacon\n13. Burial\n14. Benefit\n15. Bubble\n16. Bliss\n17. Brick\n18. Blanket\n19. Beam\n20. Belief\n21. Brush\n22. Bucket\n23. Border\n24. Bronze\n25. Brain"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Bag\n2.  Bliss\n3.  Ballet\n4.  Brick\n5.  Breeze\n6.  Basket\n7.  Balance\n8.  Bluff\n9.  Brush\n10. Button\n11. Benefit\n12. Battle\n13. Blanket\n14. Belief\n15. Beam\n16. Bough\n17. Basin\n18. Bullet\n19. Badge\n20. Bugle\n21. Barter\n22. Branch\n23. Burden\n24. Bow\n25. Bait"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Balloon\n2.  Boat\n3.  Book\n4.  Bubble\n5.  Bronze\n6.  Bliss\n7.  Basil\n8.  Bandit\n9.  Battle\n10. Benefit\n11. Banquet\n12. Beetle\n13. Blade\n14. Bread\n15. Burial\n16. Branch\n17. Butter\n18. Berry\n19. Blizzard\n20. Basket\n21. Belief\n22. Breeze\n23. Broker\n24. Bandit\n25. Bucket"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "stigma",
+                "beard",
+                "slice",
+                "deed",
+                "disguise",
+                "calculus",
+                "snow",
+                "material",
+                "payable",
+                "residence",
+                "disorder",
+                "plastic",
+                "likeness",
+                "shank",
+                "differential",
+                "ruff",
+                "recording",
+                "flexible",
+                "draught",
+                "above"
+            ],
+            "letter": "b",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Caravan\n2. Calamity\n3. Chronicle\n4. Cobblestone\n5. Compassion\n6. Conundrum\n7. Cornucopia\n8. Crucible\n9. Culprit\n10. Curiosity\n11. Cyclone\n12. Cypress\n13. Czarina\n14. Cabbage\n15. Cadence\n16. Caliber\n17. Camouflage\n18. Canopy\n19. Catalyst\n20. Celestial\n21. Chamber\n22. Chaos\n23. Chasm\n24. Citadel\n25. Clamor"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Cactus\n2. Compassion\n3. Ceramic\n4. Chronicle\n5. Crimson\n6. Curriculum\n7. Cyclone\n8. Cedar\n9. Census\n10. Curiosity\n11. Citadel\n12. Cavity\n13. Cobblestone\n14. Coalition\n15. Chronicle\n16. Cobalt\n17. Conjecture\n18. Confection\n19. Coda\n20. Corduroy\n21. Courage\n22. Cranium\n23. Criterion\n24. Cucumber\n25. Cultivation"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Circumference\n2.  Cobweb\n3.  Candidacy\n4.  Cucumber\n5.  Ceremony\n6.  Chivalry\n7.  Conformity\n8.  Crimson\n9.  Custard\n10. Clamor\n11. Catastrophe\n12. Compassion\n13. Cavern\n14. Chasm\n15. Clarity\n16. Conspiracy\n17. Camouflage\n18. Census\n19. Calamity\n20. Cascade\n21. Chord\n22. Citadel\n23. Cobblestone\n24. Chronicle\n25. Curiosity"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Crystal\n2. Cauldron\n3. Cipher\n4. Comet\n5. Caravan\n6. Courage\n7. Century\n8. Chasm\n9. Cushion\n10. Compassion\n11. Chronicle\n12. Cascade\n13. Cobweb\n14. Cinder\n15. Cultivation\n16. Curiosity\n17. Canvas\n18. Calamity\n19. Climate\n20. Citadel\n21. Conviction\n22. Coalition\n23. Chamber\n24. Conflict\n25. Commodity"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Cabbage\n2. Catastrophe\n3. Comb\n4. Cathedral\n5. Chin\n6. Clamor\n7. Cent\n8. Corduroy\n9. Cask\n10. Courage\n11. Comet\n12. Chisel\n13. Cipher\n14. Cloudburst\n15. Couch\n16. Consequence\n17. Centaur\n18. Cube\n19. Cauldron\n20. Crust\n21. Chaos\n22. Cloak\n23. Camel\n24. Calorie\n25. Curiosity"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Crate\n2. Cheese\n3. Cyclone\n4. Chin\n5. Cape\n6. Chance\n7. Cinder\n8. Continent\n9. Chord\n10. Crayon\n11. Cusp\n12. Cowardice\n13. Crypt\n14. Clot\n15. Cent\n16. Circus\n17. Cobweb\n18. Cipher\n19. Clamor\n20. Cult\n21. Cortex\n22. Compassion\n23. Cauliflower\n24. Curfew\n25. Catalyst"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. ceiling\n2. curiosity\n3. clang\n4. clover\n5. comedian\n6. context\n7. crevice\n8. courage\n9. cobweb\n10. companion\n11. century\n12. conscience\n13. continent\n14. cargo\n15. chill\n16. cartoon\n17. crowd\n18. clay\n19. chaos\n20. carriage\n21. coin\n22. culprit\n23. calendar\n24. ceremony\n25. cave"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Carpet\n2. Curiosity\n3. Cloud\n4. Cheese\n5. Clown\n6. Civilization\n7. Coin\n8. Cycle\n9. Chin\n10. Chime\n11. Chaos\n12. Cinder\n13. Clay\n14. Courage\n15. Canyon\n16. Compass\n17. Consciousness\n18. Castle\n19. Cloak\n20. Calamity\n21. Consequence\n22. Cactus\n23. Calligraphy\n24. Comfort\n25. Chronicle"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Culture\n2.  Crater\n3.  Clang\n4.  Cushion\n5.  Calendar\n6.  Cipher\n7.  Circuit\n8.  Curiosity\n9.  Comet\n10. Canvas\n11. Chalice\n12. Chord\n13. Crest\n14. Cattle\n15. Cinder\n16. Clasp\n17. Cortex\n18. Chore\n19. Calamity\n20. Conduit\n21. Crayon\n22. Conscience\n23. Cartridge\n24. Cache\n25. Clarity"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Carrot\n2. Chaos\n3. Chisel\n4. Chandelier\n5. Cradle\n6. Context\n7. Cartridge\n8. Cognition\n9. Crucible\n10. Corridor\n11. Crayon\n12. Calamity\n13. Cloak\n14. Contraption\n15. Conversion\n16. Candidacy\n17. Cylinder\n18. Censure\n19. Chronology\n20. Constraint\n21. Cache\n22. Clasp\n23. Coercion\n24. Consequence\n25. Criterion"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Chisel\n2. Consequence\n3. Canyon\n4. Carbon\n5. Courage\n6. Clock\n7. Cloud\n8. Coral\n9. Curiosity\n10. Calendar\n11. Chariot\n12. Cradle\n13. Clutter\n14. Custom\n15. Canvas\n16. Cipher\n17. Cabbage\n18. Crown\n19. Crust\n20. Commotion\n21. Caption\n22. Conquest\n23. Charm\n24. Cataract\n25. Chain"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Carrot\n2. Chisel\n3. Chest\n4. Curtain\n5. Chain\n6. Clock\n7. Chair\n8. Crust\n9. Coil\n10. Cannon\n11. Chaos\n12. Courage\n13. Curiosity\n14. Concept\n15. Challenge\n16. Constraint\n17. Covenant\n18. Crow\n19. Canyon\n20. Compass\n21. Centimeter\n22. Collision\n23. Consciousness\n24. Calligraphy\n25. Century"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Cable\n2.  Coal\n3.  Creed\n4.  Crayon\n5.  Cactus\n6.  Chord\n7.  Cinder\n8.  Cove\n9.  Crater\n10. Comet\n11. Cipher\n12. Cloak\n13. Cliff\n14. Cradle\n15. Cellar\n16. Canvas\n17. Crystal\n18. Comet\n19. Compass\n20. Calendar\n21. Capsule\n22. Cascade\n23. Chalice\n24. Chimera\n25. Costume"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Calendar\n2.  Carnation\n3.  Cabinet\n4.  Crucible\n5.  Cactus\n6.  Chord\n7.  Cinnamon\n8.  Circus\n9.  Coal\n10. Comet\n11. Crochet\n12. Cellar\n13. Clover\n14. Crystal\n15. Chimney\n16. Compass\n17. Canvas\n18. Cranberry\n19. Candle\n20. Cascade\n21. Carousel\n22. Crayon\n23. Cliff\n24. Constellation\n25. Chalice"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Cable\n2.  Caprice\n3.  Calculus\n4.  Calendar\n5.  Cargo\n6.  Carnation\n7.  Cartilage\n8.  Catastrophe\n9.  Cellar\n10. Chalice\n11. Chasm\n12. Chimera\n13. Cipher\n14. Citadel\n15. Clamor\n16. Cleavage\n17. Clich\u00e9\n18. Closet\n19. Clover\n20. Compassion\n21. Complex\n22. Concord\n23. Confetti\n24. Conjecture\n25. Consulate"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Calendar\n2.  Copper\n3.  Cultivation\n4.  Candor\n5.  Chasm\n6.  Crocus\n7.  Creed\n8.  Caravan\n9.  Corduroy\n10. Criterion\n11. Cauldron\n12. Crucible\n13. Croupier\n14. Crest\n15. Crinoline\n16. Caprice\n17. Cache\n18. Chimera\n19. Calculus\n20. Comity\n21. Chandelier\n22. Compass\n23. Cranium\n24. Cartilage\n25. Covenant"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Canvas\n2.  Canyon\n3.  Chaos\n4.  Cactus\n5.  Castle\n6.  Carrot\n7.  Cemetery\n8.  Chalk\n9.  Charm\n10. Cherry\n11. Chimney\n12. Circle\n13. Citizen\n14. Clamor\n15. Clock\n16. Cloud\n17. Coast\n18. Cobweb\n19. Coconut\n20. Coffee\n21. Comet\n22. Compass\n23. Concept\n24. Corruption\n25. Cradle"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Cabin\n2.  Crayon\n3.  Chamber\n4.  Cascade\n5.  Currency\n6.  Caress\n7.  Cactus\n8.  Ceremony\n9.  Cargo\n10. Circus\n11. Cyclone\n12. Castle\n13. Clock\n14. Canvas\n15. Coal\n16. Comet\n17. Concept\n18. Century\n19. Cliff\n20. Cloud\n21. Cemetery\n22. Cushion\n23. Crown\n24. Carnival\n25. Chorus"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Cage\n2.  Chair\n3.  Color\n4.  Clamor\n5.  Cereal\n6.  Crown\n7.  Challenge\n8.  Cup\n9.  Chaos\n10. Chance\n11. Camera\n12. Concept\n13. Curiosity\n14. Cloth\n15. Culture\n16. Castle\n17. Celebration\n18. Cipher\n19. Comet\n20. Car\n21. Crisis\n22. Coast\n23. Circle\n24. Cousin\n25. Cargo"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Clamor\n2.  Cathedral\n3.  Challenge\n4.  Candle\n5.  Cradle\n6.  Chance\n7.  Cobweb\n8.  Ceremony\n9.  Castle\n10. Carnival\n11. Coast\n12. Conflict\n13. Currency\n14. Cucumber\n15. Cessation\n16. Chaos\n17. Century\n18. Clef\n19. Circle\n20. Collar\n21. Crack\n22. Champion\n23. Car\n24. Cloud\n25. Crimson"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "truss",
+                "nest",
+                "reaction",
+                "noble",
+                "border",
+                "conclude",
+                "student",
+                "heavenly",
+                "nature",
+                "ecstasy",
+                "band",
+                "filling",
+                "talking",
+                "wish",
+                "absorb",
+                "chief",
+                "fair",
+                "whimsical",
+                "pacific",
+                "mood"
+            ],
+            "letter": "c",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Dawn\n2. Dream\n3. Dust\n4. Doubt\n5. Danger\n6. Desire\n7. Deed\n8. Dignity\n9. Ditch\n10. Drum\n11. Drama\n12. Dwarf\n13. Duty\n14. Drizzle\n15. Deluge\n16. Diamond\n17. Diploma\n18. Dissent\n19. Doctrine\n20. Dominion\n21. Dough\n22. Dragon\n23. Drift\n24. Dagger\n25. Duality"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Dream\n2. Danger\n3. Dust\n4. Delight\n5. Depth\n6. Dawn\n7. Duty\n8. Disease\n9. Diploma\n10. Dynasty\n11. Doubt\n12. Drizzle\n13. Desire\n14. Darkness\n15. Division\n16. Discourse\n17. Dilemma\n18. Dignity\n19. Drive\n20. Descent\n21. Dread\n22. Deity\n23. Doctrine\n24. Drone\n25. Durability"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. dream\n2. dust\n3. destiny\n4. delight\n5. dread\n6. device\n7. diamond\n8. doubt\n9. duty\n10. dignity\n11. distance\n12. discovery\n13. doom\n14. duration\n15. desire\n16. depth\n17. divergence\n18. difficulty\n19. discord\n20. dialect\n21. dedication\n22. difference\n23. donation\n24. delusion\n25. downfall"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Diamond\n2. Dogma\n3. Dune\n4. Dissent\n5. Diploma\n6. Dusk\n7. Delight\n8. Dragon\n9. Drench\n10. Dawn\n11. Discourse\n12. Dangle\n13. Divinity\n14. Drifter\n15. Drove\n16. Dynasty\n17. Dementia\n18. Dole\n19. Doom\n20. Dividend\n21. Drought\n22. Dignity\n23. Dodge\n24. Dynasty\n25. Dwelling"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. doubt\n2. doll\n3. dewdrop\n4. dumpling\n5. dome\n6. din\n7. dawn\n8. departure\n9. drought\n10. dozen\n11. deceit\n12. dragon\n13. dagger\n14. deed\n15. drawer\n16. dye\n17. ditch\n18. drama\n19. daze\n20. dignity\n21. diadem\n22. debt\n23. donor\n24. discord\n25. detour"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. dagger\n2. dandelion\n3. dread\n4. dogma\n5. decade\n6. dimple\n7. departure\n8. din\n9. dragon\n10. dumpling\n11. dram\n12. drought\n13. deceit\n14. dream\n15. dignity\n16. dial\n17. delirium\n18. deed\n19. dust\n20. dome\n21. debt\n22. detriment\n23. die\n24. darkness\n25. dilemma"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. doubt\n2. dust\n3. dividend\n4. dungeon\n5. deity\n6. dome\n7. drapery\n8. drought\n9. dawn\n10. dock\n11. droplet\n12. decimal\n13. daze\n14. dialect\n15. doom\n16. dream\n17. debt\n18. dell\n19. dignity\n20. dross\n21. detour\n22. decay\n23. disciple\n24. drone\n25. difference"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Doodle\n2. Dungeon\n3. Dust\n4. Deception\n5. Dahlia\n6. Dumpling\n7. Dividend\n8. Dusk\n9. Droplet\n10. Dragonfly\n11. Despair\n12. Dome\n13. Dagger\n14. Decree\n15. Dialogue\n16. Delta\n17. Drizzle\n18. Debt\n19. Dilemma\n20. Damask\n21. Deity\n22. Drone\n23. Dynasty\n24. Doubt\n25. Dwarf"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Door\n2.  Dream\n3.  Dust\n4.  Doubt\n5.  Danger\n6.  Ditch\n7.  Dune\n8.  Dew\n9.  Dime\n10. Dungeon\n11. Drizzle\n12. Delight\n13. Design\n14. Debate\n15. Dusk\n16. Dye\n17. Drift\n18. Drip\n19. Draught\n20. Device\n21. Deposit\n22. Disguise\n23. Dividend\n24. Dilemma\n25. Decade"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Door\n2.  Dream\n3.  Dust\n4.  Doubt\n5.  Desk\n6.  Debt\n7.  Diamond\n8.  Ditch\n9.  Dolphin\n10. Dessert\n11. Disguise\n12. Drought\n13. Dawn\n14. Decade\n15. Deity\n16. Dome\n17. Decay\n18. Discipline\n19. Discovery\n20. Dignity\n21. Delight\n22. Density\n23. Deviation\n24. Discourse\n25. Drizzle"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Desk\n2. Doubt\n3. Drought\n4. Device\n5. Danger\n6. Domino\n7. Depth\n8. Diary\n9. Drapery\n10. Dividend\n11. Dandelion\n12. Dome\n13. Donation\n14. Dust\n15. Discovery\n16. Dispute\n17. Dune\n18. Daze\n19. Delight\n20. Dungeon\n21. Design\n22. Dabble\n23. Dialogue\n24. Discrimination\n25. Duration"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Dust\n2.  Dawn\n3.  Dough\n4.  Dream\n5.  Dagger\n6.  Dome\n7.  Dewdrop\n8.  Dragonfly\n9.  Ditch\n10. Decibel\n11. Display\n12. Detour\n13. Drumstick\n14. Debate\n15. Dialect\n16. Deluge\n17. Divot\n18. Drizzle\n19. Defiance\n20. Device\n21. Disguise\n22. Delusion\n23. Doorknob\n24. Dowel\n25. Duration"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Debt\n2.  Dawn\n3.  Denim\n4.  Diary\n5.  Doubt\n6.  Debris\n7.  Doodle\n8.  Dragon\n9.  Destiny\n10. Dew\n11. Dice\n12. Dome\n13. Desert\n14. Diamond\n15. Decade\n16. Dungeon\n17. Delta\n18. Dream\n19. Deed\n20. Dinner\n21. Dust\n22. Domain\n23. Diploma\n24. Dirge\n25. Drape"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Doubt\n2.  Dew\n3.  Destiny\n4.  Dungeon\n5.  Datum\n6.  Diameter\n7.  Dromedary\n8.  Ditty\n9.  Divot\n10. Dowry\n11. Drizzle\n12. Duration\n13. Discord\n14. Duckling\n15. Dyad\n16. Decibel\n17. Decoy\n18. Draught\n19. Dialect\n20. Deposit\n21. Demise\n22. Decade\n23. Delta\n24. Dandruff\n25. Doctrine"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Dust\n2.  Dawn\n3.  Debt\n4.  Dimple\n5.  Diary\n6.  Damage\n7.  Discord\n8.  Domain\n9.  Destiny\n10. Dream\n11. Descent\n12. Decade\n13. Dignity\n14. Dinner\n15. Dragon\n16. Deluge\n17. Dilemma\n18. Dogma\n19. Drizzle\n20. Dwelling\n21. Dearth\n22. Deputy\n23. Doctrine\n24. Dotage\n25. Duration"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Daydream\n2.  Destiny\n3.  Depot\n4.  Diploma\n5.  Distance\n6.  Dewdrop\n7.  Diagram\n8.  Dungeon\n9.  Dossier\n10. Decade\n11. Delight\n12. Deficit\n13. Dough\n14. Domain\n15. Dirge\n16. Domino\n17. Diamond\n18. Draught\n19. Duty\n20. Dust\n21. Doctrine\n22. Descent\n23. Dynamo\n24. Debris\n25. Delegate"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Dawn\n2.  Drizzle\n3.  Doubt\n4.  Diamond\n5.  Dungeon\n6.  Dream\n7.  Dust\n8.  Deed\n9.  Dragon\n10. Decade\n11. Dinner\n12. Destiny\n13. Dialogue\n14. Document\n15. Delight\n16. Depth\n17. Device\n18. Desert\n19. Dagger\n20. Dance\n21. Decay\n22. Door\n23. Drama\n24. Drone\n25. Debt"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Damage\n2.  Drizzle\n3.  Doctrine\n4.  Diamond\n5.  Dungeon\n6.  Dialogue\n7.  Dust\n8.  Debt\n9.  Dragon\n10. Daydream\n11. Decay\n12. Delight\n13. Destination\n14. Drama\n15. Dignity\n16. Donkey\n17. Depths\n18. Deception\n19. Diploma\n20. Dearth\n21. Disgrace\n22. Deadline\n23. Dance\n24. Duster\n25. Destiny"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Dawn\n2.  Diamond\n3.  Dream\n4.  Dust\n5.  Door\n6.  Dignity\n7.  Desk\n8.  Debt\n9.  Detail\n10. Desire\n11. Drone\n12. Doubt\n13. Dungeon\n14. Dessert\n15. Decree\n16. Deed\n17. Debate\n18. Decade\n19. Dragon\n20. Dirt\n21. Dice\n22. Driver\n23. Drama\n24. Delight\n25. Dawn"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Day\n2.  Dream\n3.  Dust\n4.  Design\n5.  Distance\n6.  Diamond\n7.  Debt\n8.  Depth\n9.  Decision\n10. Doubt\n11. Dance\n12. Danger\n13. Decade\n14. Destiny\n15. Dawn\n16. Device\n17. Dinner\n18. Desert\n19. Dignity\n20. Director\n21. Demon\n22. Doctrine\n23. Duration\n24. Division\n25. Drive"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "bearing",
+                "pyroxene",
+                "convent",
+                "blessed",
+                "performance",
+                "abate",
+                "proposal",
+                "jaundice",
+                "harden",
+                "axis",
+                "fifth",
+                "moving",
+                "throne",
+                "inability",
+                "stocking",
+                "infection",
+                "believer",
+                "reaction",
+                "trumpet",
+                "ownership"
+            ],
+            "letter": "d",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Echo\n2. Ember\n3. Enigma\n4. Epoch\n5. Essence\n6. Eternity\n7. Evocation\n8. Expanse\n9. Expedience\n10. Experience\n11. Expression\n12. Extent\n13. Extravagance\n14. Exultation\n15. Ebullience\n16. Edifice\n17. Elixir\n18. Empathy\n19. Endeavor\n20. Enthusiasm\n21. Equinox\n22. Erudition\n23. Ethereal\n24. Evaporation\n25. Evolution"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Echo\n2. Empire\n3. Enigma\n4. Ensign\n5. Essence\n6. Eternity\n7. Evergreen\n8. Excursion\n9. Exile\n10. Existence\n11. Exodus\n12. Expansion\n13. Expedient\n14. Experiment\n15. Expanse\n16. Expense\n17. Expert\n18. Explanation\n19. Explorer\n20. Expression\n21. Extent\n22. Exterior\n23. Extravagance\n24. Extremity\n25. Eye"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Eclipse\n2. Emerald\n3. Elephant\n4. Equation\n5. Enigma\n6. Echo\n7. Embrace\n8. Exile\n9. Empire\n10. Energy\n11. Episode\n12. Expense\n13. Eternity\n14. Effort\n15. Element\n16. Empathy\n17. Enthusiasm\n18. Example\n19. Excess\n20. Eruption\n21. Eternity\n22. Essence\n23. Expedition\n24. Exterior\n25. Eyeball"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Ebullience\n2. Echo\n3. Edifice\n4. Effect\n5. Efficacy\n6. Ego\n7. Eidolon\n8. Elaborateness\n9. Electrification\n10. Elegance\n11. Element\n12. Elevation\n13. Embellishment\n14. Empathy\n15. Emphasis\n16. Emptiness\n17. Enclave\n18. Enactment\n19. Encounter\n20. Encouragement\n21. Endowment\n22. Energy\n23. Engagement\n24. Enigma\n25. Enthusiasm"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. ecstasy\n2. envelope\n3. eclipse\n4. enigma\n5. elbow\n6. emu\n7. estuary\n8. echo\n9. era\n10. engine\n11. essence\n12. eggplant\n13. edifice\n14. enterprise\n15. elf\n16. error\n17. ebony\n18. edge\n19. epistle\n20. ennui\n21. ember\n22. envoy\n23. epitome\n24. eon\n25. easel"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. eagle\n2. ecstasy\n3. envelope\n4. eclipse\n5. elbow\n6. economy\n7. echo\n8. enamel\n9. edge\n10. eggplant\n11. endeavor\n12. eaves\n13. era\n14. error\n15. essay\n16. essence\n17. engine\n18. equilibrium\n19. event\n20. earthworm\n21. empathy\n22. enigma\n23. enemy\n24. easel\n25. element"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. ego\n2. ember\n3. echo\n4. easel\n5. elf\n6. eruption\n7. essay\n8. elbow\n9. edict\n10. epoch\n11. eclipse\n12. envy\n13. epitaph\n14. enigma\n15. eaves\n16. edge\n17. elixir\n18. excuse\n19. emblem\n20. error\n21. estuary\n22. excerpt\n23. essence\n24. expanse\n25. exit"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. ecstasy\n2. eclipse\n3. eaves\n4. egg\n5. essence\n6. easel\n7. elbow\n8. earring\n9. estuary\n10. era\n11. emissary\n12. echo\n13. epilogue\n14. enamel\n15. exodus\n16. envelope\n17. error\n18. elf\n19. elegance\n20. edge\n21. enterprise\n22. ember\n23. enigma\n24. elixir\n25. equality"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Earth\n2.  Edge\n3.  Echo\n4.  Emblem\n5.  Epoch\n6.  Enigma\n7.  Essence\n8.  Erosion\n9.  Elixir\n10. Exhibit\n11. Eyelid\n12. Eruption\n13. Easel\n14. Enclave\n15. Energy\n16. Embers\n17. Equation\n18. Envelope\n19. Element\n20. Epitaph\n21. Escalator\n22. Estuary\n23. Evidence\n24. Excursion\n25. Eel"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Essence\n2. Edifice\n3. Echo\n4. Eternity\n5. Envelope\n6. Erosion\n7. Enigma\n8. Elixir\n9. Equinox\n10. Energy\n11. Equation\n12. Expanse\n13. Echelon\n14. Effort\n15. Elegance\n16. Engine\n17. Empathy\n18. Exultation\n19. Estrangement\n20. Exodus\n21. Experiment\n22. Ethics\n23. Evidence\n24. Excursion\n25. Extinction"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Earth\n2.  Egg\n3.  Envy\n4.  Edge\n5.  Echo\n6.  Era\n7.  Energy\n8.  Envelope\n9.  Element\n10. Existence\n11. Elbow\n12. Engine\n13. Emphasis\n14. Enigma\n15. Eternity\n16. Ethic\n17. Evolution\n18. Expectation\n19. Eclipse\n20. Excursion\n21. Elixir\n22. Estuary\n23. Elation\n24. Exoskeleton\n25. Equation"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Edge\n2.  Echo\n3.  Emblem\n4.  Epoch\n5.  Essence\n6.  Expanse\n7.  Errand\n8.  Engine\n9.  Energy\n10. Effort\n11. Error\n12. Estate\n13. Evidence\n14. Element\n15. Elbow\n16. Enamel\n17. Entertainment\n18. Envelope\n19. Excitement\n20. Experiment\n21. Expert\n22. Excerpt\n23. Evolution\n24. Exemption\n25. Embrace"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Effigy\n2.  Edict\n3.  Epitaph\n4.  Equation\n5.  Ember\n6.  Epoch\n7.  Esplanade\n8.  Essence\n9.  Easel\n10. Echo\n11. Eclogue\n12. Element\n13. Emulsion\n14. Enigma\n15. Entropy\n16. Envelope\n17. Epigram\n18. Episode\n19. Equinox\n20. Estate\n21. Exodus\n22. Expanse\n23. Extremity\n24. Excerpt\n25. Eye"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Eel\n2.  Epoch\n3.  Egotism\n4.  Element\n5.  Effigy\n6.  Edict\n7.  Enigma\n8.  Empire\n9.  Ether\n10. Essence\n11. Expanse\n12. Export\n13. Example\n14. Entrance\n15. Equity\n16. Emerald\n17. Echo\n18. Eclipse\n19. Episode\n20. Event\n21. Edifice\n22. Emulsion\n23. Embryo\n24. Enmity\n25. Eternity"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Earth\n2. Echo\n3. Edge\n4. Ego\n5. Error\n6. Estate\n7. Emerald\n8. Event\n9. Evidence\n10. Example\n11. Essence\n12. Exodus\n13. Entry\n14. Epoch\n15. Equinox\n16. Episode\n17. Element\n18. Edict\n19. Effigy\n20. Enigma\n21. Equation\n22. Era\n23. Emulsion\n24. Empathy\n25. Entropy"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Echo\n2. Edge\n3. Ease\n4. Effort\n5. Ego\n6. Elbow\n7. Element\n8. Emerald\n9. Emptiness\n10. Enamel\n11. Enclosure\n12. End\n13. Enemy\n14. Energy\n15. Engine\n16. Enigma\n17. Envelope\n18. Epicenter\n19. Episode\n20. Equality\n21. Equator\n22. Era\n23. Error\n24. Estate\n25. Eternity"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Echo\n2.  Eagle\n3.  Emerald\n4.  Edge\n5.  Effort\n6.  Elbow\n7.  Era\n8.  Estate\n9.  Eel\n10. Earth\n11. Enemy\n12. Element\n13. Entrance\n14. Example\n15. Expense\n16. Expectation\n17. Evidence\n18. Excuse\n19. Eye\n20. Event\n21. Envelope\n22. Engine\n23. Emotion\n24. Eternity\n25. Echo"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Echo\n2.  Elbow\n3.  Epoch\n4.  Edge\n5.  Edict\n6.  Eruption\n7.  Expense\n8.  Eel\n9.  Element\n10. Effort\n11. Entrance\n12. Emblem\n13. Echo\n14. Estate\n15. Ember\n16. Eviction\n17. Era\n18. Essence\n19. Enemy\n20. Emphasis\n21. Elephant\n22. Environment\n23. Example\n24. Exercise\n25. Equation"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Echo\n2.  Elbow\n3.  Epoch\n4.  Emerald\n5.  Energy\n6.  Evening\n7.  Exile\n8.  Element\n9.  Engine\n10. Entry\n11. Effort\n12. Exchange\n13. Envelope\n14. Excuse\n15. Edge\n16. Era\n17. Escape\n18. Error\n19. Estate\n20. Ear\n21. Existence\n22. Embers\n23. Experiment\n24. Egg\n25. Everyone"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Earth\n2.  Echo\n3.  Era\n4.  Egg\n5.  Equity\n6.  Easel\n7.  Emblem\n8.  Enigma\n9.  Era\n10. Ethics\n11. Elephant\n12. Entrance\n13. Episode\n14. Embellishment\n15. Eternity\n16. Edge\n17. Ember\n18. Existence\n19. Enemy\n20. Elapse\n21. Example\n22. Expectation\n23. Explosion\n24. Emerald\n25. Eviction"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "buffoon",
+                "conclude",
+                "kingdom",
+                "otherwise",
+                "mark",
+                "sickly",
+                "senate",
+                "german",
+                "removing",
+                "observance",
+                "difficult",
+                "bunch",
+                "above",
+                "reside",
+                "only",
+                "prevailing",
+                "vibrate",
+                "engrave",
+                "hinder",
+                "yarn"
+            ],
+            "letter": "e",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Fjord\n2. Fable\n3. Folly\n4. Flurry\n5. Fathom\n6. Fungi\n7. Fiasco\n8. Flotsam\n9. Fervor\n10. Fissure\n11. Fief\n12. Frown\n13. Flange\n14. Folly\n15. Fount\n16. Fracas\n17. Fetter\n18. Fjord\n19. Fecundity\n20. Folly\n21. Fodder\n22. Fable\n23. Fiasco\n24. Fervor\n25. Fungi"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Fjord\n2. Fungi\n3. Fable\n4. Flap\n5. Fudge\n6. Flicker\n7. Frame\n8. Frolic\n9. Folly\n10. Fury\n11. Feud\n12. Fleece\n13. Filament\n14. Furnace\n15. Fjord\n16. Fathom\n17. Filigree\n18. Fathom\n19. Flicker\n20. Folly\n21. Fudge\n22. Fury\n23. Fable\n24. Fungi\n25. Fleece"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Famine\n2.  Fjord\n3.  Frolic\n4.  Fathom\n5.  Fabric\n6.  Foil\n7.  Fable\n8.  Flicker\n9.  Furnace\n10. Fungus\n11. Flurry\n12. Fury\n13. Fissure\n14. Fervor\n15. Filament\n16. Foundation\n17. Facade\n18. Fog\n19. Franchise\n20. Foe\n21. Ferment\n22. Fleece\n23. Flotsam\n24. Fringe\n25. Fusion"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Fleece\n2. Fudge\n3. Fissure\n4. Fluctuation\n5. Furnace\n6. Frolic\n7. Fiction\n8. Felony\n9. Flicker\n10. Fragrance\n11. Frontier\n12. Futility\n13. Foil\n14. Friction\n15. Ferment\n16. Foster\n17. Facet\n18. Filament\n19. Fidelity\n20. Flourish\n21. Forum\n22. Flaw\n23. Fraction\n24. Folly\n25. Fury"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. fork\n2. faith\n3. fog\n4. flaw\n5. fountain\n6. fox\n7. fable\n8. finger\n9. fizz\n10. flower\n11. fame\n12. fall\n13. fudge\n14. fear\n15. frock\n16. fjord\n17. falsehood\n18. flood\n19. flask\n20. fantasy\n21. flame\n22. fleet\n23. foible\n24. foam\n25. foe"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. fable\n2. foam\n3. fork\n4. flaw\n5. fringe\n6. fog\n7. fury\n8. foundation\n9. fragment\n10. flash\n11. fern\n12. flute\n13. fixture\n14. fiend\n15. fuel\n16. famine\n17. foyer\n18. formula\n19. frown\n20. fantasy\n21. favor\n22. fizz\n23. faith\n24. fender\n25. flour"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. fear\n2. fork\n3. fog\n4. freedom\n5. fin\n6. frock\n7. fable\n8. fortress\n9. flaw\n10. fizz\n11. frond\n12. fathom\n13. fracas\n14. flask\n15. faculty\n16. fabrication\n17. fen\n18. figure\n19. furrow\n20. fleet\n21. facade\n22. fix\n23. fancy\n24. flame\n25. fleck"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. fury\n2. fork\n3. fog\n4. fable\n5. flaw\n6. fig\n7. fortress\n8. freedom\n9. fizz\n10. fern\n11. fluid\n12. fin\n13. frock\n14. fjord\n15. future\n16. faith\n17. fossil\n18. fall\n19. fairy\n20. fallacy\n21. flight\n22. fund\n23. fleece\n24. festival\n25. froth"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Feather\n2.  Fjord\n3.  Flute\n4.  Famine\n5.  Fortune\n6.  Frenzy\n7.  Fountain\n8.  Friction\n9.  Furlong\n10. Ferry\n11. Firmament\n12. Facet\n13. Fiasco\n14. Foible\n15. Forehead\n16. Fortress\n17. Fossil\n18. Fraction\n19. Frame\n20. Frontier\n21. Fume\n22. Furrow\n23. Foyer\n24. Folly\n25. Fervor"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Fact\n2.  Furniture\n3.  Fear\n4.  Farm\n5.  Flour\n6.  Fan\n7.  Fish\n8.  Fork\n9.  Feud\n10. Fuel\n11. Flute\n12. Folly\n13. Fist\n14. Fraud\n15. Foundation\n16. Frost\n17. Fugitive\n18. Friend\n19. Fortune\n20. Flicker\n21. Frill\n22. Form\n23. Flag\n24. Future\n25. Foam"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Felt\n2. Fig\n3. Fear\n4. Freedom\n5. Finger\n6. Fight\n7. Foundation\n8. Future\n9. Fraction\n10. Fog\n11. Fork\n12. Fixture\n13. Floor\n14. Flask\n15. Ferret\n16. Fiction\n17. Flute\n18. Fuel\n19. Finesse\n20. Frieze\n21. Formality\n22. Flaw\n23. Force\n24. Flare\n25. Fervor"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Freedom\n2. Feather\n3. Future\n4. Fire\n5. Flour\n6. Fact\n7. Folly\n8. Fence\n9. Fungus\n10. Fiction\n11. Fork\n12. Forest\n13. Fortune\n14. Flavor\n15. Foot\n16. Fragrance\n17. Fuse\n18. Fauna\n19. Field\n20. Frustration\n21. Frame\n22. Fluid\n23. Firmament\n24. Function\n25. Fleece"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Fabric\n2.  Facet\n3.  Fallacy\n4.  Family\n5.  Fantasy\n6.  Farm\n7.  Fashion\n8.  Fate\n9.  Fault\n10. Fauna\n11. Favor\n12. Fear\n13. Feature\n14. Feedback\n15. Fiction\n16. Field\n17. Figure\n18. Film\n19. Filter\n20. Finance\n21. Firmament\n22. Flag\n23. Flavor\n24. Flood\n25. Focus"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Fabric\n2.  Fable\n3.  Facet\n4.  Fallacy\n5.  Family\n6.  Fanfare\n7.  Farm\n8.  Fast\n9.  Fatigue\n10. Fauna\n11. Favor\n12. Fealty\n13. Feature\n14. Feedback\n15. Fiber\n16. Fiction\n17. Field\n18. Figure\n19. Film\n20. Filter\n21. Fin\n22. Flame\n23. Flavor\n24. Flight\n25. Flora"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Flora\n2.  Fugue\n3.  Flux\n4.  Fable\n5.  Facade\n6.  Fallacy\n7.  Firmament\n8.  Form\n9.  Frivolity\n10. Fracture\n11. Fiber\n12. Froth\n13. Fulcrum\n14. Fealty\n15. Ferment\n16. Fetish\n17. Flotilla\n18. Freedom\n19. Filigree\n20. Fallow\n21. Fanfare\n22. Forgery\n23. Friction\n24. Frontier\n25. Fortune"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Fort\n2.  Fact\n3.  Flare\n4.  Flora\n5.  Flint\n6.  Forum\n7.  Fragment\n8.  Frost\n9.  Fable\n10. Fabric\n11. Filter\n12. Fiction\n13. Figure\n14. Flight\n15. Fluid\n16. Folio\n17. Force\n18. Freight\n19. Frieze\n20. Function\n21. Fury\n22. Fervor\n23. Fin\n24. Facet\n25. Feature"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Fabric\n2.  Facet\n3.  Failure\n4.  Falcon\n5.  Fame\n6.  Fantasy\n7.  Fatigue\n8.  Fault\n9.  Feast\n10. Feature\n11. Fence\n12. Ferret\n13. Fiction\n14. Field\n15. Figure\n16. Filth\n17. Finger\n18. Fire\n19. Flank\n20. Flash\n21. Flattery\n22. Flavor\n23. Fleet\n24. Flood\n25. Flour"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Facet\n2.  Facade\n3.  Fable\n4.  Falcon\n5.  Fathom\n6.  Feather\n7.  Fervor\n8.  Fiasco\n9.  Fiddle\n10. Field\n11. Finale\n12. Finger\n13. Fire\n14. Flagon\n15. Flank\n16. Flash\n17. Fleece\n18. Flight\n19. Flirt\n20. Flood\n21. Flour\n22. Flute\n23. Fold\n24. Foot\n25. Fortune"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Facet\n2.  Fable\n3.  Failure\n4.  Ferry\n5.  Filament\n6.  Finale\n7.  Fjord\n8.  Flange\n9.  Flint\n10. Flourish\n11. Flounder\n12. Flute\n13. Foliage\n14. Footing\n15. Forge\n16. Fragment\n17. Freight\n18. Fresco\n19. Friction\n20. Fringe\n21. Frost\n22. Fruit\n23. Function\n24. Furrow\n25. Fusion"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Fiction\n2.  Flame\n3.  Fashion\n4.  Fragment\n5.  Future\n6.  Fountain\n7.  Feast\n8.  Foot\n9.  Fossil\n10. Fruit\n11. Fury\n12. Frost\n13. Fortress\n14. Flutter\n15. Fabric\n16. Folly\n17. Foam\n18. Flute\n19. Force\n20. Feather\n21. Fiction\n22. Filth\n23. Forum\n24. Fence\n25. Fate"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "collectively",
+                "turning",
+                "infinity",
+                "mingle",
+                "procession",
+                "dainty",
+                "preface",
+                "right",
+                "twitch",
+                "restrict",
+                "forbear",
+                "breeding",
+                "linen",
+                "connected",
+                "meeting",
+                "guard",
+                "nervous",
+                "fever",
+                "equity",
+                "plump"
+            ],
+            "letter": "f",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Gravity\n2. Gaze\n3. Gem\n4. Ghost\n5. Giggle\n6. Glacier\n7. Glimmer\n8. Globe\n9. Glory\n10. Glove\n11. Goal\n12. Gold\n13. Grace\n14. Grain\n15. Grandeur\n16. Grape\n17. Grass\n18. Grief\n19. Grin\n20. Groove\n21. Ground\n22. Growth\n23. Guardian\n24. Guilt\n25. Guts"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Gumption\n2. Gravity\n3. Garland\n4. Genesis\n5. Gallop\n6. Glee\n7. Glow\n8. Groove\n9. Grievance\n10. Grotto\n11. Guild\n12. Guile\n13. Gusto\n14. Gavel\n15. Grain\n16. Ghost\n17. Gauge\n18. Gape\n19. Geode\n20. Grasp\n21. Gimbal\n22. Glare\n23. Glory\n24. Gasket\n25. Germ"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Gust\n2. Gem\n3. Gossip\n4. Growth\n5. Gravity\n6. Grace\n7. Guilt\n8. Glow\n9. Gown\n10. Grief\n11. Gauge\n12. Glory\n13. Giant\n14. Glint\n15. Glimpse\n16. Gesture\n17. Germ\n18. Guardian\n19. Grain\n20. Glade\n21. Garret\n22. Gauge\n23. Gossip\n24. Glitter\n25. Goal"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Garden\n2. Goal\n3. Gesture\n4. Ghost\n5. Glade\n6. Grain\n7. Grape\n8. Grass\n9. Gravity\n10. Guilt\n11. Gulf\n12. Gum\n13. Gumption\n14. Gust\n15. Guts\n16. Gymnast\n17. Gizzard\n18. Goblin\n19. God\n20. Gold\n21. Gondola\n22. Gossip\n23. Goulash\n24. Grandeur\n25. Graph"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Gusto\n2. Gasket\n3. Geyser\n4. Grudge\n5. Gaiter\n6. Gazebo\n7. Guffaw\n8. Gimlet\n9. Galaxy\n10. Goulash\n11. Griffin\n12. Grimace\n13. Glossary\n14. Gale\n15. Gloom\n16. Germ\n17. Goblet\n18. Greed\n19. Galleon\n20. Glaive\n21. Gorge\n22. Grain\n23. Grievance\n24. Grotesque\n25. Gridlock"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Glove\n2. Grief\n3. Gully\n4. Genesis\n5. Gouge\n6. Grace\n7. Grumble\n8. Glycerin\n9. Grudge\n10. Government\n11. Grommet\n12. Greed\n13. Gable\n14. Glimpse\n15. Goblin\n16. Gridlock\n17. Gibberish\n18. Gesture\n19. Goulash\n20. Gale\n21. Guarantee\n22. Gait\n23. Ghetto\n24. Grandiloquence\n25. Gristle"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. goal\n2. gasket\n3. glacier\n4. grief\n5. galaxy\n6. gondola\n7. germ\n8. garlic\n9. gust\n10. gesture\n11. gown\n12. greed\n13. glen\n14. giggle\n15. grime\n16. gum\n17. groove\n18. genius\n19. guillotine\n20. grain\n21. gossip\n22. gargoyle\n23. glimmer\n24. guise\n25. gratitude"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Grief\n2. Gondola\n3. Giraffe\n4. Gravy\n5. Grace\n6. Gutter\n7. Gasket\n8. Gnome\n9. Grumble\n10. Gorge\n11. Gullet\n12. Gown\n13. Greed\n14. Gambit\n15. Gelatin\n16. Gourd\n17. Glee\n18. Gavel\n19. Ghost\n20. Gunk\n21. Glance\n22. Grievance\n23. Gazette\n24. Gauge\n25. Gallantry"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Gadget\n2. Gale\n3. Gamble\n4. Garment\n5. Gaze\n6. Gem\n7. Genus\n8. Germ\n9. Gesture\n10. Geyser\n11. Glacier\n12. Glee\n13. Gloom\n14. Goblet\n15. Goal\n16. Gospel\n17. Gossip\n18. Grace\n19. Gradient\n20. Grain\n21. Grant\n22. Gravity\n23. Grid\n24. Grotto\n25. Growth"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Game\n2.  Grave\n3.  Gold\n4.  Glory\n5.  Grain\n6.  Gown\n7.  Ghost\n8.  Goal\n9.  Gland\n10. Gravity\n11. Gaze\n12. Grid\n13. Gale\n14. Gumption\n15. Gesture\n16. Grotto\n17. Grudge\n18. Gnome\n19. Goose\n20. Girth\n21. Glimmer\n22. Grandeur\n23. Grief\n24. Grammar\n25. Glimpse"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Ghost\n2.  Gravity\n3.  Grain\n4.  Glance\n5.  Gloom\n6.  Goblet\n7.  Galaxy\n8.  Gesture\n9.  Garrison\n10. Genome\n11. Gumption\n12. Garden\n13. Gadget\n14. Gratitude\n15. Gullet\n16. Glow\n17. Gauge\n18. Gamble\n19. Grid\n20. Groove\n21. Guest\n22. Germ\n23. Gradient\n24. Grotto\n25. Glamour"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Galaxy\n2.  Gaffe\n3.  Grace\n4.  Gust\n5.  Gavel\n6.  Girth\n7.  Genius\n8.  Glyph\n9.  Gusto\n10. Gossip\n11. Grain\n12. Guilt\n13. Goblin\n14. Glow\n15. Gamut\n16. Gender\n17. Gesture\n18. Grudge\n19. Gadget\n20. Groove\n21. Guild\n22. Grunt\n23. Goodness\n24. Glutton\n25. Grid"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Gumption\n2.  Grotto\n3.  Garnish\n4.  Goliath\n5.  Gingham\n6.  Gravel\n7.  Gyrfalcon\n8.  Goblet\n9.  Gondola\n10. Grist\n11. Guile\n12. Galaxy\n13. Gambit\n14. Ghoul\n15. Gerbil\n16. Glyph\n17. Gavel\n18. Gorge\n19. Grunt\n20. Guava\n21. Gazebo\n22. Gradient\n23. Grimoire\n24. Grommet\n25. Gust"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Galaxy\n2.  Gondola\n3.  Garnet\n4.  Geranium\n5.  Greed\n6.  Gait\n7.  Gumbo\n8.  Grist\n9.  Gaffe\n10. Glee\n11. Gnome\n12. Gavel\n13. Groat\n14. Gorge\n15. Grume\n16. Gazebo\n17. Glyph\n18. Graft\n19. Guile\n20. Grove\n21. Gouache\n22. Gingham\n23. Goose\n24. Gambit\n25. Grackle"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Gem\n2.  Gazebo\n3.  Groove\n4.  Greed\n5.  Grist\n6.  Gait\n7.  Galaxy\n8.  Gourd\n9.  Graph\n10. Giblet\n11. Gum\n12. Goblin\n13. Glitch\n14. Gnome\n15. Germ\n16. Gust\n17. Grade\n18. Gift\n19. Gorge\n20. Gale\n21. Grunt\n22. Grid\n23. Gauntlet\n24. Gospel\n25. Ghoul"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Galaxy\n2. Garret\n3. Grief\n4. Groove\n5. Griddle\n6. Gruel\n7. Guano\n8. Guise\n9. Gut\n10. Garnet\n11. Gander\n12. Gemini\n13. Gilding\n14. Gimlet\n15. Grin\n16. Galaxy\n17. Goblet\n18. Godwit\n19. Grume\n20. Gauntlet\n21. Gossip\n22. Gooseberry\n23. Graph\n24. Gradient\n25. Gym"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Garden\n2.  Gait\n3.  Galaxy\n4.  Glee\n5.  Gong\n6.  Grave\n7.  Gist\n8.  Glass\n9.  Gloom\n10. Goal\n11. Grasp\n12. Grain\n13. Grime\n14. Group\n15. Gauge\n16. Guile\n17. Gull\n18. Gust\n19. Gear\n20. Gem\n21. Gift\n22. Grid\n23. Gutter\n24. Game\n25. Glance"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Gain\n2.  Gavel\n3.  Gloom\n4.  Gong\n5.  Grain\n6.  Glee\n7.  Gait\n8.  Gap\n9.  Garland\n10. Garden\n11. Gauge\n12. Gesture\n13. Ghost\n14. Glaze\n15. Globe\n16. Graft\n17. Grave\n18. Grease\n19. Grid\n20. Group\n21. Guide\n22. Guilt\n23. Gum\n24. Gust\n25. Gyro"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Glee\n2.  Guitar\n3.  Genesis\n4.  Gait\n5.  Glass\n6.  Gratitude\n7.  Graft\n8.  Gong\n9.  Glaze\n10. Gesture\n11. Germ\n12. Grave\n13. Goblin\n14. Grammar\n15. Garment\n16. Group\n17. Grid\n18. Ginger\n19. Gorge\n20. Gadget\n21. Gutter\n22. Gauge\n23. Granite\n24. Gamble\n25. Goal"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Galaxy\n2.  Glitter\n3.  Guitar\n4.  Gazelle\n5.  Guffaw\n6.  Genesis\n7.  Grudge\n8.  Grape\n9.  Glance\n10. Gutter\n11. Gossip\n12. Groove\n13. Gambit\n14. Grid\n15. Gallery\n16. Garment\n17. Gesture\n18. Gust\n19. Gleam\n20. Gem\n21. Gnome\n22. Ginger\n23. Grail\n24. Grammar\n25. Globe"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "retard",
+                "casting",
+                "bold",
+                "rubbish",
+                "durable",
+                "flash",
+                "surface",
+                "familiar",
+                "alternate",
+                "society",
+                "abate",
+                "terrestrial",
+                "crotchet",
+                "voice",
+                "spoil",
+                "rock",
+                "nobleman",
+                "powdered",
+                "rendered",
+                "warranty"
+            ],
+            "letter": "g",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Hearth\n2. Haze\n3. Harmony\n4. Hinge\n5. Humor\n6. Harvest\n7. Horizon\n8. Hovel\n9. Hunch\n10. Hypnosis\n11. Helix\n12. Hauteur\n13. Hubris\n14. Hindsight\n15. Honeymoon\n16. Habit\n17. Hierarchy\n18. Hilarity\n19. Honesty\n20. Hoard\n21. Hurricane\n22. Hysteria\n23. Humiliation\n24. Heuristics\n25. Hologram"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Humor\n2. History\n3. Harmony\n4. Hunger\n5. Health\n6. Horizon\n7. Hubris\n8. Hovel\n9. Harvest\n10. Halcyon\n11. Heirloom\n12. Hope\n13. Hypocrisy\n14. Haze\n15. Harmony\n16. Hurricane\n17. Hospice\n18. Hypothesis\n19. Humor\n20. Hearth\n21. Heritage\n22. Heaven\n23. Hierarchy\n24. Hindsight\n25. Hostility"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Harmony\n2. Hazard\n3. Heaven\n4. Heather\n5. Hemp\n6. Heritage\n7. Horizon\n8. Hospital\n9. Humour\n10. Hurricane\n11. Hypocrisy\n12. Hysteria\n13. Hierarchy\n14. Homage\n15. Horizon\n16. Humidity\n17. Hugeness\n18. Humble\n19. Hunch\n20. Hunger\n21. Hurricane\n22. Hussar\n23. Hustle\n24. Hyacinth\n25. Hyle"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Hearth\n2. Humour\n3. Hammer\n4. Haven\n5. History\n6. Honesty\n7. Horizon\n8. Hexagon\n9. Harvest\n10. Hierarchy\n11. Hurricane\n12. Hysteria\n13. Heritage\n14. Humankind\n15. Harness\n16. Hobgoblin\n17. Hue\n18. Hospice\n19. Hoof\n20. Halo\n21. Honk\n22. Hymn\n23. Hologram\n24. Hustle\n25. Hamper"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Hammer\n2. Hope\n3. Hip\n4. Hail\n5. Honey\n6. Hut\n7. Hum\n8. Hurdle\n9. Hood\n10. Hour\n11. Habit\n12. Hill\n13. Health\n14. Horizon\n15. Hunger\n16. Hymn\n17. Haze\n18. Husk\n19. Hoax\n20. Haven\n21. Halo\n22. Hearth\n23. Hierarchy\n24. Heir\n25. Hunch"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Haze\n2. Hope\n3. Hinge\n4. Hum\n5. Harvest\n6. Hoax\n7. Habit\n8. Husk\n9. Hunger\n10. Hearth\n11. Hymn\n12. Horror\n13. Heirloom\n14. Hubris\n15. Hiccup\n16. Horizon\n17. Heresy\n18. Haven\n19. Halo\n20. Hindsight\n21. Hurdle\n22. Hunch\n23. Hovel\n24. Hardship\n25. Hearsay"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. happiness\n2. hammer\n3. horizon\n4. husk\n5. hymn\n6. history\n7. hoax\n8. hearth\n9. hubris\n10. harbor\n11. haze\n12. hunch\n13. harpy\n14. honey\n15. heirloom\n16. hinge\n17. hardship\n18. halo\n19. headway\n20. hankering\n21. haven\n22. hindsight\n23. horde\n24. hiss\n25. hint"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. hindrance\n2. hook\n3. haze\n4. hubris\n5. hangar\n6. honey\n7. hum\n8. hollow\n9. hour\n10. horror\n11. hood\n12. hike\n13. harpy\n14. habit\n15. hill\n16. hymn\n17. hypothesis\n18. hutch\n19. hierarchy\n20. hemp\n21. hunger\n22. herd\n23. hearth\n24. hiatus\n25. hammock"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Hope\n2. Hinge\n3. Humor\n4. Husk\n5. Haven\n6. Helix\n7. Hymn\n8. Hazard\n9. Heirloom\n10. Hollow\n11. Homage\n12. Horizon\n13. Hangar\n14. Host\n15. Hue\n16. Hurdle\n17. Hypothesis\n18. Hygiene\n19. Hysteria\n20. Huddle\n21. Heritage\n22. Hobby\n23. Hologram\n24. Honeymoon\n25. Haze"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Hat\n2.  History\n3.  Hammer\n4.  Hill\n5.  Humor\n6.  Hangar\n7.  Halo\n8.  Huddle\n9.  Harvest\n10. Hazard\n11. Hinge\n12. Hoop\n13. Horizon\n14. Hobby\n15. Homage\n16. Husk\n17. Hygiene\n18. Heaviness\n19. Hexagon\n20. Herald\n21. Haven\n22. Heirloom\n23. Hour\n24. Hull\n25. Hierarchy"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Hope\n2. Hammer\n3. Harbor\n4. Hush\n5. Hierarchy\n6. Heroism\n7. Hummingbird\n8. Hearth\n9. Halt\n10. Haystack\n11. Hazel\n12. Helmet\n13. Hoop\n14. Hangar\n15. Hertz\n16. Haunch\n17. Heritage\n18. Handiwork\n19. Headland\n20. Hexagon\n21. Hinge\n22. Haste\n23. Harvest\n24. Hoax\n25. Hour"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Haven\n2.  Horizon\n3.  Habitat\n4.  Humor\n5.  History\n6.  Huddle\n7.  Hygiene\n8.  Heirloom\n9.  Handcuffs\n10. Headwind\n11. House\n12. Harvest\n13. Hazard\n14. Halo\n15. Hope\n16. Hangar\n17. Hike\n18. Hoax\n19. Hobby\n20. Husk\n21. Homage\n22. Hero\n23. Host\n24. Hammer\n25. Heaviness"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Harmony\n2.  Hearth\n3.  Harvest\n4.  Haven\n5.  Hinge\n6.  Husk\n7.  Hunch\n8.  Hackle\n9.  Hamlet\n10. Hem\n11. Horde\n12. Host\n13. Hood\n14. Handle\n15. Hall\n16. Hoop\n17. Hollow\n18. Humor\n19. Habit\n20. Herb\n21. Hide\n22. Heir\n23. Helix\n24. Haze\n25. Hatch"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Habitat\n2.  Humility\n3.  Harvest\n4.  Honeycomb\n5.  Haven\n6.  Hesitation\n7.  Heirloom\n8.  Hamlet\n9.  Horror\n10. Husk\n11. Hyacinth\n12. Hypothesis\n13. History\n14. Humor\n15. Hemisphere\n16. Hallway\n17. Hearth\n18. Headache\n19. Hurricane\n20. Hero\n21. Harmony\n22. Haiku\n23. Horde\n24. Highlight\n25. Hemisphere"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Harbor\n2. Hinge\n3. Hearth\n4. Heather\n5. Hay\n6. Hammock\n7. Horn\n8. Herald\n9. Halo\n10. Husk\n11. Hemisphere\n12. History\n13. Handle\n14. Hood\n15. Heap\n16. Humus\n17. Hemisphere\n18. Hog\n19. Homicide\n20. Humor\n21. Hilt\n22. Hollow\n23. Horde\n24. Hourglass\n25. Honey"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Hammer\n2.  Harmony\n3.  Harbor\n4.  Hazard\n5.  Hearth\n6.  Helicopter\n7.  Helmet\n8.  Hemisphere\n9.  Herb\n10. Heritage\n11. Hero\n12. Hexagon\n13. Hide\n14. Hierarchy\n15. Highway\n16. Hill\n17. History\n18. Hobby\n19. Holiness\n20. Home\n21. Honey\n22. Horizon\n23. Horror\n24. Hour\n25. Humility"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Habit\n2.  Horizon\n3.  Humor\n4.  Hedge\n5.  Harness\n6.  Harbor\n7.  Hearth\n8.  Husk\n9.  Hymn\n10. Hamlet\n11. Honey\n12. Hurricane\n13. Hilt\n14. Hierarchy\n15. Haze\n16. Hoard\n17. Hunch\n18. Husk\n19. Hawk\n20. Hall\n21. Hollow\n22. Hosiery\n23. Hovel\n24. Harvest\n25. Hub"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Hair\n2.  Hatred\n3.  Hole\n4.  Honor\n5.  Humor\n6.  Halt\n7.  Harbor\n8.  Harvest\n9.  Harp\n10. Hazard\n11. Heaven\n12. Hem\n13. Heritage\n14. Hive\n15. Hobby\n16. Holocaust\n17. Hook\n18. Hoop\n19. Hour\n20. Husk\n21. Hypothesis\n22. Hub\n23. Habit\n24. Husk\n25. Hound"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Haze\n2.  Humility\n3.  Hierarchy\n4.  Harvest\n5.  Horror\n6.  Habitat\n7.  Harmony\n8.  Horizon\n9.  Hue\n10. Hymn\n11. Husk\n12. Harbor\n13. Heritage\n14. Humidor\n15. Halter\n16. Hub\n17. Heist\n18. Haven\n19. Headline\n20. Hypothesis\n21. Hum\n22. Haggis\n23. Hinge\n24. Hull\n25. Hurricane"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Habit\n2.  Harvest\n3.  Horizon\n4.  Humidity\n5.  Harmony\n6.  Hypothesis\n7.  Heroism\n8.  Hangar\n9.  Helm\n10. History\n11. Hedgehog\n12. Hue\n13. Havoc\n14. Husk\n15. Hotel\n16. Hierarchy\n17. Haunt\n18. Humour\n19. Headache\n20. Hourglass\n21. Hemisphere\n22. Huddle\n23. Hitch\n24. Hollow\n25. Hawk"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "explore",
+                "interval",
+                "custody",
+                "accuracy",
+                "grease",
+                "cost",
+                "class",
+                "coral",
+                "quadrate",
+                "persistent",
+                "tractable",
+                "should",
+                "quickness",
+                "volume",
+                "crab",
+                "pursuit",
+                "distinctly",
+                "stream",
+                "crown",
+                "evergreen"
+            ],
+            "letter": "h",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. idea\n2. ice\n3. ink\n4. island\n5. image\n6. infant\n7. instrument\n8. iron\n9. impulse\n10. industry\n11. ignorance\n12. illusion\n13. inhabitant\n14. imitation\n15. inheritance\n16. ingredient\n17. inquiry\n18. intention\n19. interval\n20. invasion\n21. ivory\n22. identity\n23. icon\n24. idiom\n25. insight"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Image\n2. Ink\n3. Iron\n4. Island\n5. Idea\n6. Industry\n7. Injury\n8. Insight\n9. Interval\n10. Ivory\n11. Illusion\n12. Impulse\n13. Independence\n14. Indigo\n15. Invention\n16. Ivory\n17. Integrity\n18. Inferno\n19. Imprint\n20. Ignition\n21. Imbecile\n22. Ivory\n23. Immunity\n24. Incapacity\n25. Intrigue"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. iceberg\n2. imagination\n3. indigo\n4. inertia\n5. insult\n6. invention\n7. irony\n8. irritation\n9. island\n10. issue\n11. instinct\n12. ingredient\n13. influence\n14. injury\n15. inspiration\n16. institution\n17. intention\n18. interview\n19. ignorance\n20. idol\n21. idea\n22. illumination\n23. impersonation\n24. impulse\n25. injustice"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Island\n2. Ink\n3. Illusion\n4. Idea\n5. Ignorance\n6. Importance\n7. Impulse\n8. Income\n9. Industry\n10. Injury\n11. Inspection\n12. Instinct\n13. Insurance\n14. Intellect\n15. Interest\n16. Interpretation\n17. Interval\n18. Interview\n19. Invention\n20. Investment\n21. Iron\n22. Island\n23. Ivory\n24. Itch\n25. Illness"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. idea\n2. iron\n3. island\n4. impulse\n5. ink\n6. ivy\n7. itch\n8. illusion\n9. infant\n10. idol\n11. injury\n12. insect\n13. interior\n14. instrument\n15. insult\n16. issue\n17. ivory\n18. item\n19. image\n20. industry\n21. infection\n22. influence\n23. inlet\n24. instance\n25. intent"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. iceberg\n2. infraction\n3. idol\n4. ink\n5. intestine\n6. inquiry\n7. instant\n8. ignorance\n9. implement\n10. impulse\n11. issue\n12. itinerary\n13. iris\n14. icon\n15. impediment\n16. iron\n17. inlet\n18. impact\n19. interim\n20. inn\n21. item\n22. insight\n23. interval\n24. idiosyncrasy\n25. impeller"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. ink\n2. illusion\n3. island\n4. impulse\n5. ivory\n6. irony\n7. inch\n8. insect\n9. idiot\n10. icon\n11. inheritance\n12. injury\n13. issue\n14. invention\n15. intermission\n16. ivy\n17. instrument\n18. intrigue\n19. inferno\n20. infant\n21. itinerary\n22. instant\n23. imitation\n24. iceberg\n25. insight"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. ink\n2. idea\n3. island\n4. igloo\n5. insult\n6. iron\n7. insect\n8. itch\n9. interval\n10. ivory\n11. illusion\n12. ice\n13. individual\n14. incident\n15. iris\n16. integrity\n17. invoice\n18. infant\n19. inferno\n20. impact\n21. institution\n22. illustration\n23. instrument\n24. injustice\n25. inlet"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Idea\n2.  Island\n3.  Ink\n4.  Instrument\n5.  Image\n6.  Impulse\n7.  Index\n8.  Iron\n9.  Issue\n10. Invention\n11. Interval\n12. Incident\n13. Illusion\n14. Inquiry\n15. Ignorance\n16. Inertia\n17. Infection\n18. Inspiration\n19. Initiative\n20. Inhabitant\n21. Insignia\n22. Intrigue\n23. Iris\n24. Itinerary\n25. Ivory"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Island\n2.  Insect\n3.  Ink\n4.  Iron\n5.  Ice\n6.  Infant\n7.  Illusion\n8.  Incident\n9.  Index\n10. Integrity\n11. Interval\n12. Iris\n13. Ivory\n14. Itinerary\n15. Ignition\n16. Image\n17. Imitation\n18. Impulse\n19. Incline\n20. Infection\n21. Inhibition\n22. Increment\n23. Instrument\n24. Insulation\n25. Invasion"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Island\n2.  Idea\n3.  Ink\n4.  Iron\n5.  Impulse\n6.  Incident\n7.  Invention\n8.  Interval\n9.  Illusion\n10. Image\n11. Inquiry\n12. Inspiration\n13. Infection\n14. Identity\n15. Injustice\n16. Inventory\n17. Infrastructure\n18. Intention\n19. Itinerary\n20. Insulation\n21. Institution\n22. Initiative\n23. Incense\n24. Incision\n25. Impression"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Igloo\n2. Island\n3. Ink\n4. Iron\n5. Insect\n6. Ivy\n7. Image\n8. Instrument\n9. Interval\n10. Idol\n11. Infinity\n12. Injunction\n13. Invoice\n14. Impression\n15. Iniquity\n16. Intervention\n17. Itinerary\n18. Ivory\n19. Imitation\n20. Index\n21. Innocence\n22. Intensity\n23. Incident\n24. Isolation\n25. Irony"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Ice\n2.  Idea\n3.  Illusion\n4.  Image\n5.  Impact\n6.  Impulse\n7.  Inertia\n8.  Infant\n9.  Ink\n10. Inlet\n11. Instance\n12. Instinct\n13. Integer\n14. Interval\n15. Intrigue\n16. Irony\n17. Island\n18. Issue\n19. Item\n20. Ivory\n21. Ignition\n22. Imitation\n23. Immigrant\n24. Impediment\n25. Inscription"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Ice\n2.  Idea\n3.  Impulse\n4.  Inch\n5.  Industry\n6.  Image\n7.  Ink\n8.  Island\n9.  Illusion\n10. Irony\n11. Instinct\n12. Intrigue\n13. Import\n14. Itinerary\n15. Inferno\n16. Interval\n17. Ivory\n18. Issue\n19. Isthmus\n20. Instance\n21. Identity\n22. Idol\n23. Ignition\n24. Infancy\n25. Indigo"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Ice\n2. Ideal\n3. Image\n4. Impact\n5. Indigo\n6. Illness\n7. Illusion\n8. Imp\n9. Index\n10. Iodine\n11. Irony\n12. Issue\n13. Iamb\n14. Iris\n15. Idiom\n16. Ignorance\n17. Imitation\n18. Infant\n19. Instinct\n20. Integer\n21. Ivory\n22. Incense\n23. Infusion\n24. Inlet\n25. Itch"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Ignorance\n2.  Impact\n3.  Import\n4.  Incense\n5.  Infant\n6.  Injury\n7.  Ink\n8.  Island\n9.  Idea\n10. Image\n11. Instinct\n12. Interest\n13. Issue\n14. Illusion\n15. Ice\n16. Itch\n17. Iris\n18. Idol\n19. Indigo\n20. Invoice\n21. Index\n22. Intern\n23. Inquest\n24. Ivory\n25. Increment"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Idea\n2.  Ink\n3.  Island\n4.  Image\n5.  Irony\n6.  Impulse\n7.  Ice\n8.  Index\n9.  Insect\n10. Instinct\n11. Intention\n12. Iris\n13. Instrument\n14. Injury\n15. Item\n16. Illusion\n17. Industry\n18. Influence\n19. Idiot\n20. Imitation\n21. Incline\n22. Inheritance\n23. Insight\n24. Invitation\n25. Interval"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Ice\n2. Idea\n3. Ink\n4. Ivory\n5. Image\n6. Instinct\n7. Iris\n8. Island\n9. Index\n10. Injury\n11. Insect\n12. Irony\n13. Imitation\n14. Ignition\n15. Instruction\n16. Idol\n17. Instrument\n18. Initiation\n19. Interest\n20. Illusion\n21. Import\n22. Intention\n23. Inning\n24. Incident\n25. Iodine"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Ice\n2.  Idea\n3.  Island\n4.  Indigo\n5.  Insect\n6.  Inch\n7.  Index\n8.  Ink\n9.  Image\n10. Income\n11. Impulse\n12. Injury\n13. Input\n14. Instinct\n15. Instance\n16. Instrument\n17. Interior\n18. Intellect\n19. Interest\n20. Illusion\n21. Initiation\n22. Investigation\n23. Ivory\n24. Irritation\n25. Information"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Idea\n2.  Ink\n3.  Issue\n4.  Image\n5.  Institution\n6.  Industry\n7.  Insult\n8.  Intellect\n9.  Intimacy\n10. Intrigue\n11. Impulse\n12. Iron\n13. Invitation\n14. Ice\n15. Incident\n16. Inventory\n17. Inspector\n18. Influence\n19. Intention\n20. Indigo\n21. Island\n22. Insect\n23. Item\n24. Interval\n25. Illusion"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "ferment",
+                "feather",
+                "satisfaction",
+                "retard",
+                "only",
+                "choice",
+                "heart",
+                "loop",
+                "annoy",
+                "employment",
+                "refined",
+                "energy",
+                "verb",
+                "moisten",
+                "disposition",
+                "syllogism",
+                "speech",
+                "adherent",
+                "blessed",
+                "money"
+            ],
+            "letter": "i",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Kettle\n2. Kite\n3. Kernel\n4. Knack\n5. Kinship\n6. Kiln\n7. Kink\n8. Knoll\n9. Kudos\n10. Kismet\n11. Knapsack\n12. Kookaburra\n13. Knuckle\n14. Kiosk\n15. Knavishness\n16. Kindle\n17. Ketchup\n18. Kaleidoscope\n19. Karma\n20. Ketchup\n21. Knell\n22. Kudo\n23. Knell\n24. Kismet\n25. Kookaburra"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. kernel\n2. kaleidoscope\n3. kraken\n4. kismet\n5. kiln\n6. kettle\n7. kayak\n8. khaki\n9. kinship\n10. kudos\n11. knoll\n12. kookaburra\n13. keepsake\n14. kite\n15. knot\n16. kingfisher\n17. kraal\n18. kibble\n19. kraken\n20. kohl\n21. keel\n22. knapsack\n23. kohlrabi\n24. kvetch\n25. kohlrabi"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Kindness\n2. Kettle\n3. Kilo\n4. Kernel\n5. Knowledge\n6. Karma\n7. King\n8. Knot\n9. Kindle\n10. Keystone\n11. Kinship\n12. Krypton\n13. Kangaroo\n14. Karma\n15. Kindle\n16. Kangaroo\n17. Kernel\n18. Kettle\n19. Kilo\n20. Kindness\n21. Kinship\n22. King\n23. Knot\n24. Knowledge\n25. Krypton"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Kin\n2. Keystone\n3. Kite\n4. Kernel\n5. Kiln\n6. Kindness\n7. Kettle\n8. Kaleidoscope\n9. Knoll\n10. Kingdom\n11. Krypton\n12. Karma\n13. Ken\n14. Kisser\n15. Knot\n16. Knob\n17. Knife\n18. Kiosk\n19. Kohl\n20. Koan\n21. Kebab\n22. Kit\n23. Kraft\n24. Kayak\n25. Kudo"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. keepsake\n2. knoll\n3. kismet\n4. kiln\n5. knowledge\n6. kangaroo\n7. kernel\n8. kindness\n9. kite\n10. kilt\n11. kingdom\n12. knot\n13. koan\n14. key\n15. kin\n16. knack\n17. knell\n18. kitsch\n19. knuckle\n20. keel\n21. kilogram\n22. kindling\n23. krypton\n24. kale\n25. kiosk"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Kangaroo\n2. Kettle\n3. Kindness\n4. Knot\n5. Knowledge\n6. Kite\n7. Keel\n8. Kernel\n9. Key\n10. Kick\n11. Kiln\n12. Kiosk\n13. Knuckle\n14. Kaleidoscope\n15. Keepsake\n16. Kilt\n17. Kin\n18. Knack\n19. Kennel\n20. Kindling\n21. Knell\n22. Knoll\n23. Karma\n24. Kidney\n25. Kiss"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. knuckle\n2. kettle\n3. keyboard\n4. kerosene\n5. knowledge\n6. knack\n7. kernel\n8. knot\n9. kite\n10. kayak\n11. kin\n12. keepsake\n13. keel\n14. kink\n15. keynote\n16. knock\n17. kerchief\n18. kiln\n19. kale\n20. knoll\n21. kiosk\n22. kindling\n23. knighthood\n24. kaleidoscope\n25. knave"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. knowledge\n2. kangaroo\n3. kite\n4. knuckle\n5. kelp\n6. key\n7. kernel\n8. kiosk\n9. kindness\n10. knot\n11. kindling\n12. keg\n13. keepsake\n14. karma\n15. knell\n16. kayak\n17. knoll\n18. knack\n19. kerchief\n20. kiln\n21. kingdom\n22. kitchen\n23. kazoo\n24. kink\n25. kraken"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Knowledge\n2.  Kismet\n3.  Kudos\n4.  Kinship\n5.  Keystone\n6.  Key\n7.  Kettle\n8.  Kiosk\n9.  Kite\n10. Knob\n11. Knocker\n12. Knapsack\n13. Kaleidoscope\n14. Keel\n15. Kerchief\n16. Knickknack\n17. Cask\n18. Knoll\n19. Knot\n20. Knight\n21. Kernel\n22. Kick\n23. Kindling\n24. Kibble\n25. Cith"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Kite\n2. Key\n3. Knot\n4. Kettle\n5. Kindness\n6. Karma\n7. Kitchen\n8. Kiosk\n9. Keyboard\n10. Kilogram\n11. Knapsack\n12. Kaleidoscope\n13. Kernel\n14. Kickoff\n15. Knave\n16. Ketchup\n17. Kayak\n18. Knell\n19. Kapok\n20. Kismet\n21. Kudos\n22. Kowtow\n23. Kitsch\n24. Kiln\n25. Knack"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Keyhole\n2. Knack\n3. Karat\n4. Kibble\n5. Knob\n6. Kitsch\n7. Kayak\n8. Knowledge\n9. Keep\n10. Knuckle\n11. Karma\n12. Kettle\n13. Kaleidoscope\n14. Kin\n15. Kerfuffle\n16. Kiosk\n17. Kindness\n18. Kilometer\n19. Kazoo\n20. Kapok\n21. Kneecap\n22. Kiln\n23. Kernel\n24. Kiss\n25. Kickoff"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Knot\n2. Knack\n3. Kite\n4. Kilogram\n5. Kernel\n6. Kitchen\n7. Kiss\n8. Knuckle\n9. Kaleidoscope\n10. Kismet\n11. Kayak\n12. Kingdom\n13. Klaxon\n14. Knowledge\n15. Kudzu\n16. Kiosk\n17. Kindling\n18. Kerchief\n19. Knob\n20. Kitty\n21. Kapok\n22. Kazoo\n23. Keel\n24. Kink\n25. Khaki"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Kaleidoscope\n2.  Kerchief\n3.  Kestrel\n4.  Kettle\n5.  Kernel\n6.  Kiosk\n7.  Kneecap\n8.  Knapsack\n9.  Knot\n10. Kraken\n11. Karma\n12. Keepsake\n13. Kiln\n14. Kinship\n15. Kite\n16. Klaxon\n17. Knob\n18. Koran\n19. Krill\n20. Kudos\n21. Kumquat\n22. Katydid\n23. Kayak\n24. Kennel\n25. Kepi"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Kale\n2.  Kernel\n3.  Karma\n4.  Keel\n5.  Kettle\n6.  Knack\n7.  Knell\n8.  Knot\n9.  Kraken\n10. Kudos\n11. Kiosk\n12. Kismet\n13. Krypton\n14. Ken\n15. Kite\n16. Kiln\n17. Kepi\n18. Kid\n19. Kava\n20. Kraft\n21. Katydid\n22. Khan\n23. Kobold\n24. Komodo\n25. Kachina"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Kernel\n2.  Kaleidoscope\n3.  Kindling\n4.  Kelp\n5.  Kismet\n6.  Kestrel\n7.  Kerchief\n8.  Keynote\n9.  Kefir\n10. Krypton\n11. Kraken\n12. Knack\n13. Karaoke\n14. Kudzu\n15. Knoll\n16. Kabob\n17. Katydid\n18. Kilter\n19. Knavery\n20. Keepsake\n21. Komodo\n22. Khan\n23. Kayak\n24. Kringle\n25. Keratin"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Kettle\n2.  Krona\n3.  Kayak\n4.  Kernel\n5.  Keystone\n6.  Knapsack\n7.  Kiel\n8.  Karma\n9.  Kingdom\n10. Keepsake\n11. Kiln\n12. Kinsman\n13. Kiosk\n14. Kite\n15. Knight\n16. Knot\n17. Knuckle\n18. Koran\n19. Kraft\n20. Kreutzer\n21. Kudos\n22. Krypton\n23. Kurta\n24. Kiva\n25. Krill"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Kaleidoscope\n2.  Kettle\n3.  Kindness\n4.  Kiosk\n5.  Knot\n6.  Ketchup\n7.  Kneecap\n8.  Knight\n9.  Kilogram\n10. Kid\n11. Kernel\n12. Keyhole\n13. Kudos\n14. Kaleidoscope\n15. Karma\n16. Kite\n17. Knowledge\n18. Kick\n19. King\n20. Kangaroo\n21. Kaleidoscope\n22. Karaoke\n23. Kitchen\n24. Kudos\n25. Kaleidoscope"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Kaleidoscope\n2.  Kindred\n3.  Knot\n4.  Knob\n5.  Kiosk\n6.  Kettle\n7.  Keel\n8.  Kernel\n9.  Ketchup\n10. Kilt\n11. Kidney\n12. Kite\n13. Knell\n14. Knee\n15. Knack\n16. Krypton\n17. Kaleidoscope\n18. Kudos\n19. Kiosk\n20. Kangaroo\n21. Kingpin\n22. Kiss\n23. Kiln\n24. Knuckle\n25. Kerchief"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Kernel\n2.  Kaleidoscope\n3.  Knapsack\n4.  Kiosk\n5.  Knuckle\n6.  Kilogram\n7.  Kettle\n8.  Kindness\n9.  Knot\n10. Knee\n11. Knowledge\n12. Kingfisher\n13. Kaleidoscope\n14. Kin\n15. Kick\n16. Kitten\n17. Knit\n18. Kaleidoscope\n19. Karma\n20. Kebab\n21. Kaleidoscope\n22. Keenness\n23. Kettlebell\n24. Knotweed\n25. Kindle"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Karma\n2.  Kaleidoscope\n3.  Kindling\n4.  Kilogram\n5.  Knapsack\n6.  Knowledge\n7.  Ketchup\n8.  Keyboard\n9.  Kernel\n10. Kettle\n11. Kingpin\n12. Kiwis\n13. Knot\n14. Knee\n15. Keepsake\n16. Knuckle\n17. Kaleidoscope\n18. Kite\n19. Krypton\n20. Karaoke\n21. Kakapo\n22. Kindness\n23. Kiwi\n24. Kiosk\n25. Kitten"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "organism",
+                "band",
+                "hoop",
+                "wither",
+                "fashionable",
+                "brisk",
+                "coffin",
+                "advantage",
+                "mantle",
+                "spoil",
+                "deceit",
+                "prayer",
+                "efficacy",
+                "injure",
+                "initiate",
+                "igneous",
+                "below",
+                "abnormal",
+                "emblem",
+                "access"
+            ],
+            "letter": "k",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Laughter\n2. Labyrinth\n3. Lullaby\n4. Luster\n5. Legacy\n6. Limelight\n7. Loathing\n8. Luminary\n9. Locket\n10. Lode\n11. Loaf\n12. Lure\n13. Locket\n14. Lingo\n15. Lode\n16. Lullaby\n17. Luster\n18. Laughter\n19. Legacy\n20. Luminary\n21. Locket\n22. Loathing\n23. Labyrinth\n24. Lode\n25. Linger"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Luster\n2. Labyrinth\n3. Lullaby\n4. Leisure\n5. Linen\n6. Logic\n7. Luminary\n8. Lode\n9. Lament\n10. Larceny\n11. Limelight\n12. Longevity\n13. Lyric\n14. Luggage\n15. Locus\n16. Liaison\n17. Luminescence\n18. Levity\n19. Lode\n20. Loathing\n21. Ledger\n22. Litany\n23. Liquidity\n24. Lattice\n25. Lout"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Ladder\n2. Larynx\n3. Locket\n4. Luminosity\n5. Leisure\n6. Legacy\n7. Laughter\n8. Liability\n9. Labyrinth\n10. Loyalty\n11. Loaf\n12. Lichen\n13. Linguist\n14. Lullaby\n15. Lumbar\n16. Lozenge\n17. Lagoon\n18. Levity\n19. Longevity\n20. Linen\n21. Lust\n22. Latitude\n23. Lumber\n24. Lyric\n25. Laziness"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Loaf\n2. Larch\n3. Lather\n4. Loom\n5. Locus\n6. Luggage\n7. Lurk\n8. Lament\n9. Liaison\n10. Levy\n11. Likeness\n12. Limpidity\n13. Liner\n14. Liver\n15. Lode\n16. Lodestar\n17. Loin\n18. Loincloth\n19. Louse\n20. Lout\n21. Luge\n22. Lullaby\n23. Lumen\n24. Lunar\n25. Lustre"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. ladder\n2. logic\n3. lava\n4. laughter\n5. liar\n6. lightning\n7. law\n8. lamp\n9. liver\n10. lifetime\n11. legging\n12. lore\n13. lullaby\n14. leather\n15. lethargy\n16. labyrinth\n17. luster\n18. limit\n19. louse\n20. liquor\n21. lake\n22. loot\n23. locket\n24. loyalty\n25. legend"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. loneliness\n2. lamp\n3. liberty\n4. llama\n5. lemon\n6. lung\n7. lever\n8. lightning\n9. locket\n10. linen\n11. lore\n12. lullaby\n13. ladle\n14. labyrinth\n15. latex\n16. librarian\n17. lapse\n18. legend\n19. leaf\n20. lawsuit\n21. lethargy\n22. lottery\n23. luster\n24. leviathan\n25. lie"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Ladle\n2. Lightning\n3. Leech\n4. Lichen\n5. Laughter\n6. Liberty\n7. Lapse\n8. Larynx\n9. Lie\n10. Labyrinth\n11. Lout\n12. Latex\n13. Lurch\n14. Loophole\n15. Luster\n16. Limerick\n17. Lien\n18. Lentil\n19. Lace\n20. Lineage\n21. Lintel\n22. Lassitude\n23. Lumber\n24. Lottery\n25. Levee"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Laughter\n2. Ladle\n3. Lobster\n4. Liberty\n5. Lung\n6. Lullaby\n7. Lightning\n8. Lighthouse\n9. Leather\n10. Lethargy\n11. Loaf\n12. Leprechaun\n13. Lichen\n14. Loss\n15. Lout\n16. Lever\n17. Limerick\n18. Lagoon\n19. Locket\n20. Lifetime\n21. Lattice\n22. Lollipop\n23. Loyalty\n24. Lien\n25. Ledge"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Lamp\n2.  Laughter\n3.  Leaf\n4.  Lecture\n5.  Liberty\n6.  Lizard\n7.  Lever\n8.  Labyrinth\n9.  Lullaby\n10. Lint\n11. Latitude\n12. Larynx\n13. Lichen\n14. Luster\n15. Lens\n16. Limbo\n17. Logbook\n18. Loot\n19. Loop\n20. Lumber\n21. Lure\n22. Lithograph\n23. Lode\n24. Locomotion\n25. Lobby"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Ladle\n2. Leaf\n3. Logic\n4. Lizard\n5. Lodge\n6. Lumen\n7. Lapse\n8. Lyric\n9. Leisure\n10. Lever\n11. Lament\n12. Legacy\n13. Lichen\n14. Lasso\n15. Loom\n16. Lunge\n17. Luster\n18. Lullaby\n19. Lamp\n20. Lobster\n21. Loaf\n22. Latitude\n23. Laundry\n24. Lens\n25. Law"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Laughter\n2. Leaf\n3. Lever\n4. Lesson\n5. Loyalty\n6. Ledge\n7. Liquid\n8. Lore\n9. Loop\n10. Luxury\n11. Lumber\n12. Link\n13. Lobby\n14. Lack\n15. Ladder\n16. Larder\n17. Luster\n18. Labyrinth\n19. Landing\n20. Lens\n21. Legacy\n22. Leisure\n23. Livestock\n24. Loaf\n25. Locket"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Ladle\n2. Liberty\n3. Lichen\n4. Loyalty\n5. Ladder\n6. Loft\n7. Logic\n8. Lever\n9. Locket\n10. Lair\n11. Lament\n12. Legacy\n13. Luncheon\n14. Latitude\n15. Lunacy\n16. Lintel\n17. Lasso\n18. Louvre\n19. Leap\n20. Lithium\n21. Levee\n22. Luminescence\n23. Loaf\n24. Likeness\n25. Lesion"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Labyrinth\n2.  Lace\n3.  Ladle\n4.  Lagoon\n5.  Lament\n6.  Landfill\n7.  Lantern\n8.  Lapel\n9.  Larch\n10. Lark\n11. Lasso\n12. Lattice\n13. Launch\n14. Lava\n15. Lawn\n16. Leech\n17. Legacy\n18. Legend\n19. Lentil\n20. Leopard\n21. Lever\n22. Liaison\n23. Libel\n24. Lichen\n25. Locket"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Lacquer\n2.  Leverage\n3.  Latitude\n4.  Legacy\n5.  Labyrinth\n6.  Lament\n7.  Leisure\n8.  Limestone\n9.  Linguistics\n10. Liturgy\n11. Livestock\n12. Loadstone\n13. Lore\n14. Lotion\n15. Loyalty\n16. Lubricant\n17. Lucidity\n18. Luggage\n19. Luminosity\n20. Lunacy\n21. Lustre\n22. Lyre\n23. Lychee\n24. Lymph\n25. Licence"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Ladle\n2.  Lucidity\n3.  Landscape\n4.  Leather\n5.  Legume\n6.  Limestone\n7.  Latitude\n8.  Lyric\n9.  Lacquer\n10. Liver\n11. Locket\n12. Logic\n13. Lumen\n14. Loom\n15. Lagoon\n16. Lunacy\n17. Lore\n18. Lava\n19. Lurch\n20. Lichen\n21. Lineage\n22. Labyrinth\n23. Levity\n24. Liaison\n25. Lumber"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Laburnum\n2.  Ladder\n3.  Lagoon\n4.  Lamp\n5.  Lance\n6.  Landslide\n7.  Lapse\n8.  Lark\n9.  Latch\n10. Lattice\n11. Laundry\n12. Lava\n13. Lawn\n14. Lead\n15. Leak\n16. Leather\n17. Lecture\n18. Ledger\n19. Leech\n20. Legend\n21. Lentil\n22. Leopard\n23. Levity\n24. Library\n25. Lichen"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Ladder\n2.  Lullaby\n3.  Lantern\n4.  Labyrinth\n5.  Loaf\n6.  Luster\n7.  Larynx\n8.  Linen\n9.  Lizard\n10. Lens\n11. Legend\n12. Lagoon\n13. Lyre\n14. Lobby\n15. Locket\n16. Leopard\n17. Lattice\n18. Legacy\n19. Laughter\n20. Lecture\n21. Lurch\n22. Logic\n23. Lemon\n24. Lagoon\n25. Lover"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Lace\n2.  Ladder\n3.  Lamb\n4.  Land\n5.  Lantern\n6.  Laughter\n7.  Laundry\n8.  Law\n9.  Lead\n10. Leaf\n11. League\n12. Learning\n13. Leather\n14. Legend\n15. Leisure\n16. Lemon\n17. Lens\n18. Letter\n19. Level\n20. Liberty\n21. Life\n22. Light\n23. Limit\n24. Linen\n25. Lip"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Ladder\n2.  Legacy\n3.  Lamb\n4.  Lantern\n5.  Labyrinth\n6.  Lace\n7.  Lack\n8.  Lament\n9.  Lake\n10. Land\n11. Language\n12. Lass\n13. Laughter\n14. Law\n15. Layer\n16. Lead\n17. League\n18. Lesson\n19. Lettuce\n20. Lever\n21. Libel\n22. Library\n23. Light\n24. Lion\n25. Loaf"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Lamp\n2.  Labyrinth\n3.  Lake\n4.  Ladder\n5.  Lunch\n6.  Lemon\n7.  Logic\n8.  Loaf\n9.  Lion\n10. Layer\n11. Letter\n12. Lip\n13. Leaf\n14. Lobby\n15. Lace\n16. Lore\n17. Life\n18. Lover\n19. Luxury\n20. Link\n21. Laughter\n22. Ledger\n23. License\n24. Loom\n25. Lightning"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "saffron",
+                "abusive",
+                "founded",
+                "ultimate",
+                "india",
+                "drift",
+                "plait",
+                "merry",
+                "writing",
+                "tunnel",
+                "assuming",
+                "accuracy",
+                "negligence",
+                "phrase",
+                "combat",
+                "sure",
+                "immature",
+                "region",
+                "port",
+                "extreme"
+            ],
+            "letter": "l",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Muffin\n2. Majesty\n3. Mirth\n4. Maelstrom\n5. Molecule\n6. Miasma\n7. Memento\n8. Meridian\n9. Mosaic\n10. Muffin\n11. Muzzle\n12. Myth\n13. Machete\n14. Marmot\n15. Mingle\n16. Maelstrom\n17. Miasma\n18. Memento\n19. Meridian\n20. Mosaic\n21. Muzzle\n22. Myth\n23. Machete\n24. Marmot\n25. Mingle"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Mirth\n2. Miasma\n3. Mettle\n4. Meridian\n5. Muzzle\n6. Muck\n7. Mamba\n8. Memento\n9. Muffin\n10. Mirage\n11. Mandate\n12. Masque\n13. Marrow\n14. Mote\n15. Margin\n16. Maelstrom\n17. Menace\n18. Mettle\n19. Milestone\n20. Mettle\n21. Mirth\n22. Mastic\n23. Melody\n24. Miasma\n25. Mettle"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Majesty\n2. Muffin\n3. Melancholy\n4. Marble\n5. Majesty\n6. Muffin\n7. Melancholy\n8. Marble\n9. Molecule\n10. Mushroom\n11. Monsoon\n12. Memory\n13. Maelstrom\n14. Morality\n15. Mirror\n16. Miracle\n17. Mirth\n18. Mammoth\n19. Ministry\n20. Mud\n21. Maze\n22. Music\n23. Myth\n24. Magnet\n25. Mountain"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Magnificence\n2. Majesty\n3. Marathon\n4. Masque\n5. Mattress\n6. Meander\n7. Mechanism\n8. Memory\n9. Mercy\n10. Miasma\n11. Mirage\n12. Misery\n13. Modesty\n14. Molds\n15. Momentum\n16. Monsoon\n17. Monument\n18. Morass\n19. Musing\n20. Mutation\n21. Mystery\n22. Myth\n23. Melancholy\n24. Maverick\n25. Morbidity"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Motive\n2. Mallet\n3. Marsh\n4. Majesty\n5. Muffin\n6. Murmur\n7. Molding\n8. Maze\n9. Melancholy\n10. Meteor\n11. Mitten\n12. Memory\n13. Milk\n14. Mistake\n15. Melody\n16. Moment\n17. Muscle\n18. Mist\n19. Mug\n20. Misery\n21. Message\n22. Mermaid\n23. Mud\n24. Migration\n25. Maxim"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. muscle\n2. melody\n3. maze\n4. moment\n5. mist\n6. myth\n7. mirror\n8. mitten\n9. motive\n10. meadow\n11. maxim\n12. mirth\n13. moth\n14. miracle\n15. mud\n16. machine\n17. membrane\n18. market\n19. mistake\n20. mercy\n21. medium\n22. margin\n23. mushroom\n24. mask\n25. multitude"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. meaning\n2. mallet\n3. melancholy\n4. mist\n5. muffin\n6. muscle\n7. manners\n8. murmur\n9. might\n10. moment\n11. mug\n12. mermaid\n13. marble\n14. mitten\n15. metaphor\n16. misgiving\n17. maze\n18. marsh\n19. mote\n20. memory\n21. muck\n22. maxim\n23. mystery\n24. melodrama\n25. mixture"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. machine\n2. mystery\n3. monkey\n4. mouth\n5. music\n6. muffin\n7. mimic\n8. mistake\n9. mud\n10. memory\n11. moment\n12. meaning\n13. mail\n14. magnet\n15. mask\n16. maze\n17. match\n18. marble\n19. murmur\n20. medicine\n21. metal\n22. mirror\n23. moth\n24. motive\n25. myth"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Moment\n2.  Mountain\n3.  Machine\n4.  Mystery\n5.  Music\n6.  Muffin\n7.  Mirror\n8.  Maneuver\n9.  Mantle\n10. Meadow\n11. Mushroom\n12. Mirth\n13. Mural\n14. Magnet\n15. Message\n16. Mane\n17. Myth\n18. Mansion\n19. Mnemonic\n20. Microbe\n21. Motto\n22. Medal\n23. Matrix\n24. Mantra\n25. Mast"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Mountain\n2. Music\n3. Mirror\n4. Message\n5. Moth\n6. Moment\n7. Method\n8. Mirth\n9. Mystery\n10. Machine\n11. Map\n12. Mandate\n13. Motion\n14. Mantle\n15. Merit\n16. Maze\n17. Manifesto\n18. Mutter\n19. Mutation\n20. Meditation\n21. Magnet\n22. Milestone\n23. Marrow\n24. Multitude\n25. Maxim"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Myth\n2.  Mound\n3.  Murmur\n4.  Mantle\n5.  Moment\n6.  Mirth\n7.  Method\n8.  Magnet\n9.  Melody\n10. Metaphor\n11. Mirage\n12. Mallet\n13. Measure\n14. Motor\n15. Myopia\n16. Moisture\n17. Mutation\n18. Maneuver\n19. Marquee\n20. Maze\n21. Magnitude\n22. Merit\n23. Minnow\n24. Modesty\n25. Motif"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Myth\n2. Muscle\n3. Mouth\n4. Moment\n5. Murmur\n6. Medal\n7. Mayhem\n8. Meadow\n9. Melody\n10. Magnet\n11. Mirage\n12. Mirth\n13. Mixture\n14. Mission\n15. Molasses\n16. Maneuver\n17. Mutation\n18. Minnow\n19. Microbe\n20. Mileage\n21. Murk\n22. Monument\n23. Morality\n24. Motif\n25. Mantra"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Mirth\n2.  Magnitude\n3.  Mantle\n4.  Melody\n5.  Memory\n6.  Meteor\n7.  Manner\n8.  Margin\n9.  Mosaic\n10. Myth\n11. Molecule\n12. Momentum\n13. Mirage\n14. Meadow\n15. Magnet\n16. Maze\n17. Meridian\n18. Matrix\n19. Manuscript\n20. Metaphor\n21. Millisecond\n22. Mineral\n23. Monarch\n24. Mutation\n25. Mysticism"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Mirth\n2.  Mosaic\n3.  Mystery\n4.  Mantle\n5.  Melody\n6.  Magnet\n7.  Memory\n8.  Mirage\n9.  Manuscript\n10. Meteor\n11. Meridian\n12. Molecule\n13. Moraine\n14. Myth\n15. Meadow\n16. Mansion\n17. Mask\n18. Matrix\n19. Maze\n20. Meal\n21. Microbe\n22. Millisecond\n23. Mine\n24. Monarch\n25. Motion"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Mist\n2.  Mole\n3.  Mirth\n4.  Maze\n5.  Magma\n6.  Mantle\n7.  Mimic\n8.  Mortality\n9.  Meteor\n10. Mutation\n11. Magnet\n12. Mosaic\n13. Melody\n14. Momentum\n15. Molecule\n16. Mummy\n17. Mast\n18. Meadow\n19. Maelstrom\n20. Meridian\n21. Myth\n22. Macaroon\n23. Marrow\n24. Mirage\n25. Manuscript"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Magnetism\n2.  Masquerade\n3.  Mischief\n4.  Memory\n5.  Melody\n6.  Meteor\n7.  Myth\n8.  Microbe\n9.  Mirage\n10. Maneuver\n11. Mortgage\n12. Maiden\n13. Mountain\n14. Meadow\n15. Miasma\n16. Molecule\n17. Mammoth\n18. Martyr\n19. Motif\n20. Mushroom\n21. Membrane\n22. Monument\n23. Mirth\n24. Messenger\n25. Mosaic"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Marble\n2.  Moment\n3.  Mansion\n4.  Mirth\n5.  Mushroom\n6.  Mace\n7.  Mirror\n8.  Mule\n9.  Melody\n10. Meadow\n11. Magnet\n12. Mountain\n13. Manuscript\n14. Myth\n15. Mask\n16. Margin\n17. Majesty\n18. Mustard\n19. Meteor\n20. Muffin\n21. Marriage\n22. Mime\n23. Molar\n24. Mockery\n25. Muddle"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Marble\n2.  Mountain\n3.  Mirror\n4.  Muffin\n5.  Moment\n6.  Mansion\n7.  Music\n8.  Mystery\n9.  Market\n10. Magnet\n11. Meadow\n12. Melody\n13. Mud\n14. Marriage\n15. Mustache\n16. Myth\n17. Machine\n18. Mirth\n19. Monster\n20. Message\n21. Mockery\n22. Maze\n23. Mixture\n24. Movement\n25. Manuscript"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Mandate\n2.  Marrow\n3.  Magnolia\n4.  Momentum\n5.  Mirror\n6.  Marsh\n7.  Metal\n8.  Mountain\n9.  Morsel\n10. Meadow\n11. Muster\n12. Myth\n13. Muzzle\n14. Mansion\n15. Method\n16. Misery\n17. Minute\n18. Meteor\n19. Memory\n20. Mirth\n21. Monarch\n22. Molecule\n23. Moustache\n24. Marble\n25. Manuscript"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Mammoth\n2.  Mystery\n3.  Morsel\n4.  Market\n5.  Mumble\n6.  Measure\n7.  Marble\n8.  Music\n9.  Mirror\n10. Maze\n11. Meteor\n12. Machine\n13. Mime\n14. Meadow\n15. Manuscript\n16. Mountain\n17. Mask\n18. Message\n19. Melody\n20. Mud\n21. Month\n22. Mixture\n23. Motto\n24. Mushroom\n25. Metal"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "crescent",
+                "malice",
+                "monopoly",
+                "teacher",
+                "review",
+                "fabric",
+                "lodge",
+                "explanation",
+                "tilt",
+                "under",
+                "rebuke",
+                "angle",
+                "estimate",
+                "isolated",
+                "vehemence",
+                "couple",
+                "least",
+                "sexual",
+                "mortar",
+                "interrupt"
+            ],
+            "letter": "m",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Noodle\n2. Nebula\n3. Nectar\n4. Niche\n5. Nudge\n6. Notion\n7. Nuisance\n8. Nugget\n9. Nomad\n10. Noun\n11. Nymph\n12. Nausea\n13. Nettle\n14. Nimbus\n15. Nacre\n16. Nocturne\n17. Nodule\n18. Nympholepsy\n19. Natter\n20. Niggard\n21. Niggardliness\n22. Niggardly\n23. Niggling\n24. Nigh\n25. Niggardness"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Nectar\n2. Nebula\n3. Nightmare\n4. Noodle\n5. Notion\n6. Nugget\n7. Nuisance\n8. Nudge\n9. Nymph\n10. Nurture\n11. Noun\n12. Navigator\n13. Nomad\n14. Nanny\n15. Nacre\n16. Network\n17. Needle\n18. Nexus\n19. Nympholepsy\n20. Nigh\n21. Numbness\n22. Nostalgia\n23. Nature\n24. Nymphalis\n25. Nocturne"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Nectar\n2. Nebula\n3. Niche\n4. Nightmare\n5. Nodule\n6. Notion\n7. Noun\n8. Nuance\n9. Nucleus\n10. Nudge\n11. Nuisance\n12. Numbness\n13. Nurture\n14. Necessity\n15. Net\n16. Nickel\n17. Nostalgia\n18. Nocturne\n19. Nomad\n20. Nudge\n21. Nodule\n22. Nocturne\n23. Nuance\n24. Noun\n25. Nectar"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Nectar\n2. Nebula\n3. Nihilism\n4. Nomad\n5. Notion\n6. Nudity\n7. Nugget\n8. Numbness\n9. Number\n10. Nursery\n11. Nutrition\n12. Nymph\n13. Nacho\n14. Nail\n15. Narrative\n16. Nature\n17. Navigation\n18. Neighbor\n19. Nerve\n20. News\n21. Nexus\n22. Night\n23. Nook\n24. Nostril\n25. Nothingness"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. notion\n2. nebula\n3. nail\n4. neck\n5. noodle\n6. neighbor\n7. nuisance\n8. night\n9. noise\n10. nylon\n11. nook\n12. nothing\n13. nymph\n14. nectar\n15. nomination\n16. news\n17. nerve\n18. nest\n19. norm\n20. nostalgia\n21. nod\n22. nexus\n23. net\n24. nuance\n25. noun"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. notion\n2. neckerchief\n3. nebula\n4. neighbor\n5. noodle\n6. navel\n7. noise\n8. nook\n9. nuisance\n10. needle\n11. nymph\n12. nectar\n13. night\n14. novel\n15. nylon\n16. nine\n17. nadir\n18. nut\n19. nature\n20. nap\n21. nation\n22. nostril\n23. nuptials\n24. note\n25. nothingness"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. nation\n2. nervousness\n3. neckerchief\n4. nothingness\n5. needle\n6. nuance\n7. noon\n8. number\n9. network\n10. narrative\n11. nectar\n12. negligence\n13. nephew\n14. noise\n15. novice\n16. necessity\n17. nadir\n18. norm\n19. note\n20. niche\n21. nightmare\n22. net\n23. novelty\n24. notion\n25. nightfall"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. nail\n2. notion\n3. nightingale\n4. night\n5. noodle\n6. neck\n7. neighbor\n8. nothingness\n9. nexus\n10. nebula\n11. nylon\n12. negligence\n13. niche\n14. noise\n15. narrative\n16. nostalgia\n17. nugget\n18. number\n19. nub\n20. nudge\n21. nutmeg\n22. nettle\n23. nuisance\n24. note\n25. nuance"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Niche\n2. Nectar\n3. Nimbus\n4. Nomad\n5. Nostalgia\n6. Nucleus\n7. Narrative\n8. Nutrient\n9. Notation\n10. Nuisance\n11. Navigator\n12. Nexus\n13. Novelty\n14. Net\n15. Nook\n16. Negation\n17. Nuance\n18. Nurture\n19. Nadir\n20. Nerve\n21. Nocturne\n22. Negotiation\n23. Network\n24. Necessity\n25. Nymph"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Needle\n2. Nebula\n3. Nook\n4. Nostalgia\n5. Notion\n6. Nutrient\n7. Night\n8. Nudge\n9. Novelty\n10. Nuisance\n11. Nomad\n12. Narrative\n13. Nerve\n14. Net\n15. Nexus\n16. Nosegay\n17. Novice\n18. Necessity\n19. Nausea\n20. Nuance\n21. Nave\n22. Nap\n23. Network\n24. Nimbus\n25. Nymph"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Narrative\n2.  Nebula\n3.  Nugget\n4.  Nirvana\n5.  Notion\n6.  Nylon\n7.  Nexus\n8.  Nuisance\n9.  Naught\n10. Navigation\n11. Nurture\n12. Night\n13. Nomad\n14. Novelty\n15. Nozzle\n16. Number\n17. Nuance\n18. Nickname\n19. Niche\n20. Necessity\n21. Neophyte\n22. Noon\n23. Notation\n24. Nod\n25. Nymph"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Nose\n2. Novel\n3. Nuisance\n4. Napkin\n5. Navigation\n6. Needle\n7. Network\n8. Nimbus\n9. Nomad\n10. Nuance\n11. Night\n12. Notion\n13. Nihilism\n14. Numeral\n15. Nation\n16. Nuptials\n17. Negative\n18. Nickname\n19. Nickel\n20. Nostalgia\n21. Nozzle\n22. Newness\n23. Niche\n24. Noose\n25. Nonentity"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Nadir\n2.  Nectar\n3.  Needle\n4.  Nexus\n5.  Night\n6.  Noise\n7.  Nomad\n8.  Novel\n9.  Nudge\n10. Nugget\n11. Number\n12. Nun\n13. Nursery\n14. Nutrient\n15. Nylon\n16. Narrative\n17. Nation\n18. Navel\n19. Nebula\n20. Nerve\n21. Net\n22. Nickel\n23. Nightmare\n24. Notch\n25. Notion"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Nadir\n2.  Nexus\n3.  Nodule\n4.  Noise\n5.  Noodle\n6.  Nylon\n7.  Narrative\n8.  Nebula\n9.  Nectar\n10. Nightmare\n11. Nickel\n12. Nostalgia\n13. Nucleus\n14. Nuance\n15. Notion\n16. Norm\n17. Novelty\n18. Network\n19. Nomad\n20. Nonentity\n21. Numeral\n22. Nurture\n23. Net\n24. Navigation\n25. Nudge"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  novelty\n2.  noodle\n3.  notch\n4.  nightmare\n5.  nectar\n6.  norm\n7.  navigation\n8.  nimbleness\n9.  narrative\n10. nuance\n11. nobility\n12. network\n13. nexus\n14. number\n15. naught\n16. numbness\n17. notion\n18. nomenclature\n19. nugget\n20. nerve\n21. nativity\n22. nomad\n23. noise\n24. novice\n25. nursery"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Nebula\n2.  Noise\n3.  Needle\n4.  Niche\n5.  Nomad\n6.  Notion\n7.  Number\n8.  Narrative\n9.  Nadir\n10. Nap\n11. Nation\n12. Network\n13. Nucleus\n14. Nerve\n15. Nuance\n16. Nursery\n17. Nincompoop\n18. Nugget\n19. Nobody\n20. Newel\n21. Nether\n22. Nomenclature\n23. Nonsense\n24. Norm\n25. Notation"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Nest\n2.  Needle\n3.  Night\n4.  Noise\n5.  Nectar\n6.  Nation\n7.  Niche\n8.  Noodle\n9.  Nadir\n10. Nail\n11. Notion\n12. Number\n13. Nebula\n14. Narrative\n15. Nuisance\n16. Necklace\n17. Neutron\n18. Notebook\n19. Nymph\n20. Nugget\n21. Nirvana\n22. Nomad\n23. Novel\n24. Nut\n25. Navigator"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Nectar\n2.  Narrative\n3.  Needle\n4.  Nation\n5.  Nibble\n6.  Nightmare\n7.  Nostalgia\n8.  Notion\n9.  Number\n10. Navigator\n11. Nutrient\n12. Napkin\n13. Nerve\n14. Noise\n15. Novice\n16. Nymph\n17. Nimbus\n18. Nugget\n19. Narcissus\n20. Nest\n21. Nomad\n22. Neutron\n23. Nut\n24. Noon\n25. Nonsense"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Nadir\n2.  Nexus\n3.  Nib\n4.  Nightmare\n5.  Noodle\n6.  Note\n7.  Novelty\n8.  Nun\n9.  Nut\n10. Nugget\n11. Necklace\n12. Nectar\n13. Node\n14. Nebula\n15. Nook\n16. Nomad\n17. Notion\n18. Narcissus\n19. Narrative\n20. Niche\n21. Nail\n22. Nark\n23. Neon\n24. Nomad\n25. Number"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Naivete\n2.  Narrative\n3.  Necessity\n4.  Needle\n5.  Neighbor\n6.  Nest\n7.  Net\n8.  Nightmare\n9.  Noise\n10. Nomad\n11. Nostalgia\n12. Notion\n13. Nowhere\n14. Nugget\n15. Number\n16. Nurse\n17. Nut\n18. Nymph\n19. Nylon\n20. Nuisance\n21. Note\n22. Nose\n23. Noble\n24. Neck\n25. News"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "fruitful",
+                "titmouse",
+                "magnetic",
+                "forming",
+                "health",
+                "rapidity",
+                "drive",
+                "on",
+                "stab",
+                "aberration",
+                "round",
+                "warehouse",
+                "contagious",
+                "butter",
+                "magnetic",
+                "mount",
+                "obstinacy",
+                "there",
+                "solitude",
+                "harsh"
+            ],
+            "letter": "n",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Ocean\n2. Opinion\n3. Onion\n4. Opera\n5. Orchard\n6. Ostrich\n7. Ounce\n8. Outrage\n9. Oyster\n10. Obligation\n11. Omen\n12. Orb\n13. Oracle\n14. Organ\n15. Origin\n16. Ornament\n17. Outhouse\n18. Owl\n19. Oxide\n20. Oxygen\n21. Oar\n22. Oath\n23. Obelisk\n24. Obscurity\n25. Octave"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Ocean\n2. Oracle\n3. Onion\n4. Opera\n5. Orchid\n6. Octagon\n7. Odyssey\n8. Ostrich\n9. Ogre\n10. Orbit\n11. Overture\n12. Omelet\n13. Oatmeal\n14. Ocarina\n15. Oration\n16. Opal\n17. Obstacle\n18. Oaf\n19. Olive\n20. Ox\n21. Outlook\n22. Outlaw\n23. Omnibus\n24. Obligation\n25. Ovation"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Orange\n2. Orchestra\n3. Oracle\n4. Ocean\n5. Ostrich\n6. Opal\n7. Oasis\n8. Opinion\n9. Oboe\n10. Organism\n11. Oak\n12. Oxygen\n13. Orchestra\n14. Outbreak\n15. Ornament\n16. Outlaw\n17. Ounce\n18. Oatmeal\n19. Odor\n20. Outing\n21. Onlooker\n22. Overseer\n23. Observer\n24. Opponent\n25. Oath"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Ornithology\n2. Oatmeal\n3. Oligarchy\n4. Onion\n5. Opera\n6. Oracle\n7. Octopus\n8. Oath\n9. Oblivion\n10. Ogre\n11. Oboe\n12. Opinion\n13. Omnibus\n14. Octave\n15. Opponent\n16. Oatmeal\n17. Orchid\n18. Orchard\n19. Ordinance\n20. Origami\n21. Osseous\n22. Ovary\n23. Overlap\n24. Oxide\n25. Oxygen"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. oar\n2. obligation\n3. ozone\n4. oatmeal\n5. octopus\n6. oval\n7. omen\n8. organ\n9. orchard\n10. oration\n11. oven\n12. opinion\n13. outcry\n14. orphan\n15. opal\n16. origin\n17. obelisk\n18. obstinacy\n19. oil\n20. orifice\n21. oath\n22. overalls\n23. ocean\n24. occurrence\n25. oversight"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. oasis\n2. oath\n3. oatmeal\n4. obelisk\n5. omission\n6. ordeal\n7. omen\n8. oven\n9. outcry\n10. oval\n11. orphan\n12. outset\n13. ointment\n14. orifice\n15. outage\n16. offense\n17. ostrich\n18. orchard\n19. odyssey\n20. octave\n21. omnipotence\n22. obsession\n23. obscurity\n24. ornament\n25. ovation"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Orange\n2. Oblivion\n3. Oar\n4. Ocean\n5. Optimism\n6. Oath\n7. Onion\n8. Ode\n9. Omen\n10. Obstacle\n11. Obligation\n12. Orphanage\n13. Origin\n14. Ostrich\n15. Oil\n16. Oboe\n17. Octagon\n18. Oasis\n19. Omission\n20. Oak\n21. Odium\n22. Office\n23. Odyssey\n24. Ox\n25. Oven"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. ocean\n2. oath\n3. oven\n4. ostrich\n5. ointment\n6. orphan\n7. opinion\n8. obelisk\n9. omen\n10. obstacle\n11. overture\n12. outburst\n13. oversight\n14. ore\n15. obligation\n16. odor\n17. offspring\n18. omission\n19. oracle\n20. octave\n21. ounce\n22. oval\n23. oddity\n24. origin\n25. oxide"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Ocean\n2. Outrage\n3. Odor\n4. Oven\n5. Offspring\n6. Obligation\n7. Orbit\n8. Orchestra\n9. Outline\n10. Oyster\n11. Overcoat\n12. Oxygen\n13. Ovation\n14. Oracle\n15. Onset\n16. Option\n17. Omission\n18. Overlord\n19. Ointment\n20. Obelisk\n21. Opulence\n22. Octave\n23. Organ\n24. Orthodoxy\n25. Overdraft"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Onion\n2.  Ocean\n3.  Opinion\n4.  Oven\n5.  Orbit\n6.  Oak\n7.  Oar\n8.  Oblivion\n9.  Odyssey\n10. Offspring\n11. Omen\n12. Oration\n13. Orchestra\n14. Ore\n15. Outlet\n16. Oval\n17. Overthrow\n18. Owner\n19. Ozone\n20. Outrage\n21. Optimism\n22. Oracle\n23. Opportunity\n24. Outcome\n25. Ox"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Oath\n2. Oak\n3. Opinion\n4. Oar\n5. Orbit\n6. Ounce\n7. Outfit\n8. Onset\n9. Oven\n10. Outline\n11. Opera\n12. Ornament\n13. Offspring\n14. Oxygen\n15. Outlet\n16. Obstacle\n17. Omission\n18. Organism\n19. Oval\n20. Override\n21. Optimism\n22. Overpass\n23. Oracle\n24. Obelisk\n25. Overlap"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Orchard\n2. Ostrich\n3. Ovation\n4. Opinion\n5. Offset\n6. Octave\n7. Oracle\n8. Outfit\n9. Oar\n10. Opulence\n11. Outburst\n12. Onus\n13. Omnibus\n14. Omen\n15. Outlet\n16. Obelisk\n17. Opal\n18. Oblivion\n19. Ownership\n20. Optic\n21. Oblation\n22. Oratory\n23. Opponent\n24. Orbit\n25. Override"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Obligation\n2.  Overture\n3.  Opal\n4.  Ostrich\n5.  Omen\n6.  Orbit\n7.  Obelisk\n8.  Outline\n9.  Oxide\n10. Organism\n11. Orchard\n12. Origin\n13. Offshoot\n14. Option\n15. Outcast\n16. Outlaw\n17. Octave\n18. Oxygen\n19. Oasis\n20. Offense\n21. Onlooker\n22. Outpost\n23. Offering\n24. Outrage\n25. Overcoat"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Obligation\n2.  Onion\n3.  Outcast\n4.  Omen\n5.  Overture\n6.  Obsidian\n7.  Orbit\n8.  Opulence\n9.  Orchard\n10. Ornament\n11. Outlaw\n12. Obelisk\n13. Occasion\n14. Offering\n15. Organ\n16. Offense\n17. Outcome\n18. Output\n19. Outline\n20. Oasis\n21. Origin\n22. Oxygen\n23. Option\n24. Office\n25. Oatmeal"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Oblivion\n2.  Ostrich\n3.  Onyx\n4.  Oration\n5.  Olive\n6.  Opera\n7.  Ocelot\n8.  Oath\n9.  Obelisk\n10. Oasis\n11. Orbit\n12. Organ\n13. Ocean\n14. Outlet\n15. Odor\n16. Object\n17. Offense\n18. Optimism\n19. Origin\n20. Orchard\n21. Overture\n22. Octave\n23. Overcoat\n24. Offering\n25. Option"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Oasis\n2. Overture\n3. Obelisk\n4. Odor\n5. Origami\n6. Oblivion\n7. Oxide\n8. Olive\n9. Oath\n10. Octave\n11. Origin\n12. Orb\n13. Outline\n14. Option\n15. Oxygen\n16. Offense\n17. Obstacle\n18. Orphan\n19. Opera\n20. Omen\n21. Outpost\n22. Outlaw\n23. Outcome\n24. Offering\n25. Outburst"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Oar\n2.  Omen\n3.  Ostrich\n4.  Oasis\n5.  Obligation\n6.  Oatmeal\n7.  Orchard\n8.  Onion\n9.  Oxygen\n10. Orbit\n11. Octopus\n12. Ocean\n13. Outline\n14. Offering\n15. Origin\n16. Orchestra\n17. Owl\n18. Overcoat\n19. Opportunity\n20. Ornament\n21. Orange\n22. Outburst\n23. Outcome\n24. Oven\n25. Oyster"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Omen\n2.  Oasis\n3.  Obligation\n4.  Orchid\n5.  Overture\n6.  Onion\n7.  Origin\n8.  Oar\n9.  Outcry\n10. Orchard\n11. Object\n12. Ozone\n13. Opportunity\n14. Oracle\n15. Octopus\n16. Outline\n17. Ointment\n18. Ocean\n19. Outcome\n20. Oath\n21. Opera\n22. Order\n23. Orbit\n24. Ornament\n25. Obstacle"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Ochre\n2.  Obelisk\n3.  Oath\n4.  Obstacle\n5.  Octave\n6.  Odor\n7.  Offense\n8.  Offset\n9.  Onion\n10. Orbit\n11. Orchestra\n12. Ore\n13. Organ\n14. Origin\n15. Ornament\n16. Ostentation\n17. Oven\n18. Overview\n19. Owl\n20. Oxide\n21. Oxygen\n22. Oyster\n23. Oasis\n24. Obligation\n25. Ostrich"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Oblivion\n2.  Omelet\n3.  Oak\n4.  Oxygen\n5.  Onion\n6.  Orbit\n7.  Overload\n8.  Opera\n9.  Oar\n10. Octopus\n11. Ode\n12. Origin\n13. Outburst\n14. Oracle\n15. Orchard\n16. Offering\n17. Obsidian\n18. Oath\n19. Octopus\n20. Overseer\n21. Oasis\n22. Obstacle\n23. Opponent\n24. Ornament\n25. Optimism"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "deprived",
+                "endowment",
+                "bond",
+                "guide",
+                "curtain",
+                "decide",
+                "station",
+                "paste",
+                "fifteen",
+                "subdued",
+                "philosophy",
+                "arrival",
+                "when",
+                "eloquence",
+                "patriarch",
+                "partial",
+                "criticism",
+                "bankrupt",
+                "card",
+                "coating"
+            ],
+            "letter": "o",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Paradox\n2. Pavement\n3. Pillow\n4. Plummet\n5. Ponder\n6. Porcelain\n7. Portrait\n8. Postage\n9. Potpourri\n10. Prawn\n11. Prelude\n12. Prestige\n13. Pretzel\n14. Prickle\n15. Prodigy\n16. Profession\n17. Profit\n18. Projectile\n19. Prominence\n20. Prophecy\n21. Prospect\n22. Prototype\n23. Province\n24. Prowess\n25. Punctuation"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Puddle\n2. Plank\n3. Pillow\n4. Penny\n5. Planet\n6. Puzzle\n7. Prism\n8. Prophet\n9. Pigeon\n10. Panther\n11. Palace\n12. Pelican\n13. Paradox\n14. Purity\n15. Patron\n16. Pigment\n17. Parlor\n18. Pyramid\n19. Ponder\n20. Prospect\n21. Purpose\n22. Principle\n23. Passion\n24. Pinnacle\n25. Providence"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Pebble\n2. Paradox\n3. Plumage\n4. Ponderous\n5. Pustule\n6. Purgatory\n7. Progeny\n8. Pylon\n9. Purity\n10. Pang\n11. Prejudice\n12. Precipice\n13. Pavement\n14. Preamble\n15. Ploy\n16. Pity\n17. Prophecy\n18. Pulpit\n19. Puff\n20. Parlor\n21. Peninsula\n22. Phosphor\n23. Palladium\n24. Pinnacle\n25. Parcel"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Plank\n2. Pillow\n3. Pudding\n4. Parliament\n5. Paradise\n6. Pyramid\n7. Phantom\n8. Precedent\n9. Prospect\n10. Prodigy\n11. Privilege\n12. Passport\n13. Palette\n14. Parcel\n15. Ponder\n16. Peninsula\n17. Prowess\n18. Paradox\n19. Protocol\n20. Peninsula\n21. Phobia\n22. Pedestal\n23. Pedigree\n24. Pinnacle\n25. Plaudit"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Pebble\n2. Purpose\n3. Puppet\n4. Pop\n5. Pocket\n6. Puddle\n7. Pilgrim\n8. Panic\n9. Pliers\n10. Powder\n11. Paradox\n12. Paragraph\n13. Pyramid\n14. Penalty\n15. Planet\n16. Penguin\n17. Patience\n18. Password\n19. Pulse\n20. Parade\n21. Paint\n22. Pause\n23. Poster\n24. Petal\n25. Peak"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Peace\n2. Pebble\n3. Puppet\n4. Puzzle\n5. Poison\n6. Pillow\n7. Prophet\n8. Pavement\n9. Panic\n10. Parable\n11. Pledge\n12. Prism\n13. Phantom\n14. Pocket\n15. Peak\n16. Prize\n17. Parchment\n18. Punishment\n19. Pollen\n20. Plague\n21. Prey\n22. Pulse\n23. Purpose\n24. Portal\n25. Pasture"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Pillow\n2. Pride\n3. Pebble\n4. Policy\n5. Pumpkin\n6. Pilgrim\n7. Paradox\n8. Pocket\n9. Porcupine\n10. Pasture\n11. Patience\n12. Plunge\n13. Pagoda\n14. Pulse\n15. Pamphlet\n16. Plight\n17. Powder\n18. Poet\n19. Palm\n20. Pin\n21. Planet\n22. Phantom\n23. Plea\n24. Petal\n25. Pension"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. paradox\n2. paddle\n3. pebble\n4. porcupine\n5. panic\n6. pylon\n7. proverb\n8. parchment\n9. pilgrim\n10. puddle\n11. pension\n12. poison\n13. plaza\n14. poem\n15. purpose\n16. pantomime\n17. puzzle\n18. parish\n19. phantom\n20. pastry\n21. prey\n22. punishment\n23. portrait\n24. prophecy\n25. peak"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Pencil\n2.  Pillow\n3.  Planet\n4.  Peace\n5.  Palace\n6.  Puddle\n7.  Parrot\n8.  Patience\n9.  Pasta\n10. Plastic\n11. Pound\n12. Purpose\n13. Peril\n14. Port\n15. Pulley\n16. Performance\n17. Principle\n18. Pledge\n19. Pocket\n20. Protest\n21. Prestige\n22. Process\n23. Pony\n24. Peak\n25. Patina"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Pebble\n2.  Promise\n3.  Pilot\n4.  Pantry\n5.  Pulpit\n6.  Pain\n7.  Paragraph\n8.  Pondering\n9.  Pigment\n10. Parade\n11. Pact\n12. Planet\n13. Plaster\n14. Precaution\n15. Peril\n16. Pouch\n17. Program\n18. Poem\n19. Prize\n20. Portion\n21. Prey\n22. Punctuation\n23. Process\n24. Propaganda\n25. Prosperity"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Peace\n2. Pillar\n3. Planet\n4. Perception\n5. Parcel\n6. Path\n7. Penalty\n8. Parchment\n9. Pleasure\n10. Precedent\n11. Paddle\n12. Principle\n13. Phantom\n14. Process\n15. Plight\n16. Probe\n17. Prey\n18. Pledge\n19. Pendant\n20. Piston\n21. Pantomime\n22. Pause\n23. Prophet\n24. Pupil\n25. Pallet"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Pillar\n2.  Parody\n3.  Planet\n4.  Promise\n5.  Puppet\n6.  Pain\n7.  Paragraph\n8.  Pigeon\n9.  Pigment\n10. Principle\n11. Paddle\n12. Puzzle\n13. Plankton\n14. Precaution\n15. Periphery\n16. Pergola\n17. Potency\n18. Portal\n19. Panorama\n20. Plague\n21. Pacifier\n22. Pantomime\n23. Portmanteau\n24. Poison\n25. Pleasure"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Pavement\n2.  Pylon\n3.  Pledge\n4.  Pollen\n5.  Precedent\n6.  Prowess\n7.  Pulse\n8.  Pulpit\n9.  Pittance\n10. Prism\n11. Paradox\n12. Pigment\n13. Pinnacle\n14. Plankton\n15. Protocol\n16. Prophecy\n17. Postulate\n18. Panacea\n19. Parable\n20. Pantheon\n21. Periphery\n22. Plateau\n23. Plagiarism\n24. Penumbra\n25. Paradigm"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Prism\n2.  Palette\n3.  Paragraph\n4.  Proverb\n5.  Particle\n6.  Pylon\n7.  Pivot\n8.  Polygon\n9.  Pebble\n10. Paradigm\n11. Plateau\n12. Pamphlet\n13. Postulate\n14. Predicament\n15. Pigment\n16. Postage\n17. Prophecy\n18. Perimeter\n19. Pantheon\n20. Pasture\n21. Periscope\n22. Pinnacle\n23. Plankton\n24. Prow\n25. Paradox"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Parity\n2.  Pylon\n3.  Poultice\n4.  Precedent\n5.  Proboscis\n6.  Purgatory\n7.  Prism\n8.  Proverb\n9.  Pustule\n10. Pact\n11. Paradigm\n12. Precipice\n13. Peat\n14. Pantheon\n15. Propellant\n16. Portage\n17. Palanquin\n18. Parchment\n19. Phylogeny\n20. Penumbra\n21. Plinth\n22. Pinnacle\n23. Plankton\n24. Posit\n25. Pulley"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Parallax\n2.  Paladin\n3.  Procrastination\n4.  Patina\n5.  Philanthropy\n6.  Prism\n7.  Paradox\n8.  Prototype\n9.  Pumice\n10. Pigment\n11. Province\n12. Portfolio\n13. Panacea\n14. Perimeter\n15. Protocol\n16. Paradigm\n17. Pantheon\n18. Propaganda\n19. Pulley\n20. Pedigree\n21. Precipice\n22. Postulate\n23. Penumbra\n24. Plagiarism\n25. Papyrus"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Pebble\n2.  Paradox\n3.  Patience\n4.  Pylon\n5.  Parchment\n6.  Pantomime\n7.  Pestle\n8.  Pumice\n9.  Pilgrim\n10. Plinth\n11. Precedent\n12. Prophecy\n13. Prose\n14. Plume\n15. Pinnacle\n16. Palette\n17. Parable\n18. Pouch\n19. Portal\n20. Plait\n21. Pavilion\n22. Prowess\n23. Pretense\n24. Puddle\n25. Panorama"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Pantry\n2.  Parade\n3.  Planet\n4.  Puzzle\n5.  Pace\n6.  Poem\n7.  Plague\n8.  Pylon\n9.  Pouch\n10. Portal\n11. Prism\n12. Prophet\n13. Panic\n14. Potion\n15. Pledge\n16. Plumber\n17. Peacock\n18. Paradise\n19. Pattern\n20. Patch\n21. Period\n22. Protest\n23. Package\n24. Pawn\n25. Portion"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Paddle\n2.  Piano\n3.  Purpose\n4.  Pajamas\n5.  Planet\n6.  Poem\n7.  Puzzle\n8.  Period\n9.  Paradise\n10. Package\n11. Porch\n12. Plaid\n13. Pillow\n14. Prospect\n15. Powder\n16. Plight\n17. Patch\n18. Pattern\n19. Prize\n20. Pyramid\n21. Process\n22. Promise\n23. Pirate\n24. Pigeon\n25. Plague"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Palette\n2.  Panorama\n3.  Potion\n4.  Parade\n5.  Prism\n6.  Proposal\n7.  Pantomime\n8.  Pebble\n9.  Progress\n10. Psalm\n11. Passage\n12. Powder\n13. Phantom\n14. Penalty\n15. Picture\n16. Platter\n17. Panic\n18. Poem\n19. Planet\n20. Pillar\n21. Puzzle\n22. Promise\n23. Pouch\n24. Prototype\n25. Prejudice"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "drink",
+                "style",
+                "score",
+                "sanskrit",
+                "gothic",
+                "herb",
+                "petty",
+                "blemish",
+                "indian",
+                "ellipse",
+                "shrub",
+                "overwhelm",
+                "window",
+                "sick",
+                "foolish",
+                "affirm",
+                "ramble",
+                "conclusion",
+                "company",
+                "animation"
+            ],
+            "letter": "p",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Rainbow\n2. Rug\n3. Rhubarb\n4. Riddle\n5. Rhapsody\n6. Ruin\n7. Rattle\n8. Radius\n9. Robbery\n10. Rhythm\n11. Revenue\n12. Reverie\n13. Ruckus\n14. Ramble\n15. Relic\n16. Roster\n17. Rag\n18. Rime\n19. Rationale\n20. Rubble\n21. Realm\n22. Routine\n23. Ripple\n24. Rust\n25. Repertoire"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Rhinoceros\n2. Radiance\n3. Ruin\n4. Riddle\n5. Rebellion\n6. Ripple\n7. Rapture\n8. Ramble\n9. Relish\n10. Reservoir\n11. Robbery\n12. Ramification\n13. Renown\n14. Resonance\n15. Rhapsody\n16. Refusal\n17. Racket\n18. Regiment\n19. Rudder\n20. Repose\n21. Reverie\n22. Rampart\n23. Ration\n24. Reverence\n25. Rudeness"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Ramifications\n2. Reverberation\n3. Remorse\n4. Resilience\n5. Rhubarb\n6. Rapture\n7. Royalty\n8. Revelation\n9. Ridicule\n10. Rout\n11. Rhapsody\n12. Resonance\n13. Rudiments\n14. Rune\n15. Rubble\n16. Reckoning\n17. Ripple\n18. Rancor\n19. Rapt\n20. Regime\n21. Refrain\n22. Ripple\n23. Rook\n24. Ration\n25. Rapport"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Rain\n2.  Robe\n3.  Rubble\n4.  Riddle\n5.  Radius\n6.  Ruin\n7.  Rag\n8.  Reason\n9.  Ripple\n10. Rattan\n11. Realm\n12. Rogue\n13. Roast\n14. Rhapsody\n15. Rhythm\n16. Row\n17. Root\n18. Rush\n19. Ripple\n20. Rubble\n21. Rationale\n22. Rug\n23. Rancor\n24. Radiance\n25. Realm"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Reason\n2. Rain\n3. Rake\n4. Regret\n5. Rabbit\n6. Roof\n7. Rubber\n8. Rebellion\n9. Rice\n10. Rib\n11. Riddle\n12. Robe\n13. Rumble\n14. Ring\n15. Root\n16. Realm\n17. Ruin\n18. Rival\n19. Rug\n20. River\n21. Rhythm\n22. Rubbish\n23. Rope\n24. Radiance\n25. Rudeness"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. rope\n2. regret\n3. reef\n4. radish\n5. realm\n6. robe\n7. rubble\n8. ratio\n9. roof\n10. ray\n11. ribbon\n12. ruin\n13. root\n14. rhythm\n15. ruby\n16. ruse\n17. rift\n18. rite\n19. rhyme\n20. rag\n21. rod\n22. resin\n23. repose\n24. recompense\n25. rumble"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. reason\n2. rock\n3. robe\n4. rumble\n5. rhythm\n6. radish\n7. regret\n8. rule\n9. ravine\n10. resin\n11. rabbit\n12. rafter\n13. ruin\n14. rake\n15. relative\n16. rhyme\n17. rest\n18. reward\n19. ripple\n20. riddle\n21. route\n22. ring\n23. rascal\n24. ray\n25. remnant"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Riddle\n2. Rubble\n3. Rage\n4. Rainbow\n5. Root\n6. Rhythm\n7. Riches\n8. Rift\n9. Rivet\n10. Rumor\n11. Rust\n12. Reprieve\n13. Ripple\n14. Reason\n15. Robe\n16. Relic\n17. Rash\n18. Remainder\n19. Ransom\n20. Reign\n21. Reflection\n22. Remedy\n23. Realm\n24. Routine\n25. Respite"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  River\n2.  Rabbit\n3.  Rhythm\n4.  Reason\n5.  Rage\n6.  Rope\n7.  Room\n8.  Riddle\n9.  Reward\n10. Riot\n11. Rubble\n12. Rampart\n13. Refuge\n14. Reunion\n15. Reputation\n16. Remnant\n17. Racket\n18. Ration\n19. Reverie\n20. Rune\n21. Realm\n22. Rapture\n23. Relic\n24. Rostrum\n25. Rendezvous"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Region\n2. Rhythm\n3. Reverie\n4. Rubble\n5. Rebuke\n6. Refuge\n7. Relay\n8. Radius\n9. Relic\n10. Roster\n11. Rivalry\n12. Rhetoric\n13. Rapture\n14. Revenue\n15. Remedy\n16. Racket\n17. Refrain\n18. Rampart\n19. Rendezvous\n20. Reagent\n21. Ramification\n22. Requiem\n23. Rucksack\n24. Ransom\n25. Reflex"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  River\n2.  Rhythm\n3.  Refuge\n4.  Raven\n5.  Rampart\n6.  Realm\n7.  Relic\n8.  Reverie\n9.  Roster\n10. Requisition\n11. Rubble\n12. Respite\n13. Ration\n14. Rocket\n15. Rust\n16. Radius\n17. Retina\n18. Registry\n19. Ruckus\n20. Reef\n21. Repertoire\n22. Residue\n23. Rune\n24. Reparation\n25. Repository"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Radiance\n2.  Ramification\n3.  Raven\n4.  Realm\n5.  Reason\n6.  Regimen\n7.  Rejoicing\n8.  Relation\n9.  Relief\n10. Repast\n11. Reparation\n12. Requisition\n13. Respite\n14. Revenue\n15. Ribbon\n16. Riddle\n17. Rifle\n18. Ritual\n19. Rhythm\n20. Root\n21. Roster\n22. Rudiment\n23. Ruins\n24. Rune\n25. Ravage"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Riddle\n2.  Rope\n3.  Rubble\n4.  Radius\n5.  Rake\n6.  Rhythm\n7.  Rosin\n8.  Rivet\n9.  Ranch\n10. Resin\n11. Raven\n12. Regent\n13. Rupee\n14. Rut\n15. Rind\n16. Ramp\n17. Rattle\n18. Reef\n19. Relic\n20. Retort\n21. Ribbon\n22. Roast\n23. Rosary\n24. Realm\n25. Rust"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Radiance\n2.  Rhythm\n3.  Rubble\n4.  Rope\n5.  Rust\n6.  Record\n7.  Residue\n8.  Realm\n9.  Range\n10. Radius\n11. Riddle\n12. River\n13. Raven\n14. Resin\n15. Reef\n16. Root\n17. Razor\n18. Rib\n19. Rot\n20. Riot\n21. Rampart\n22. Rack\n23. Ruin\n24. Rind\n25. Ration"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Radiance\n2.  Riddle\n3.  Realm\n4.  Recess\n5.  Reverie\n6.  Rogue\n7.  Rumor\n8.  Rhythm\n9.  Rapidity\n10. Remnant\n11. Refuge\n12. Regent\n13. Raft\n14. Rust\n15. Ritual\n16. Rarity\n17. Raisin\n18. Rubble\n19. Ruin\n20. Rampart\n21. Rotation\n22. Ransom\n23. Reservoir\n24. Ration\n25. Retina"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Rope\n2.  Realm\n3.  Radiance\n4.  Reckoning\n5.  Riddle\n6.  Rupee\n7.  Rye\n8.  Raven\n9.  Resonance\n10. Rubble\n11. Rudder\n12. Rift\n13. Roster\n14. Ration\n15. Rampart\n16. Rind\n17. Retort\n18. Route\n19. Regime\n20. Rattan\n21. Remnant\n22. Retinue\n23. Rust\n24. Rivet\n25. Requiem"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Raft\n2.  Radiance\n3.  Rapport\n4.  Raven\n5.  Realm\n6.  Rebellion\n7.  Receipt\n8.  Recipe\n9.  Reef\n10. Reflection\n11. Refuge\n12. Regret\n13. Reign\n14. Relic\n15. Remedy\n16. Renown\n17. Reprieve\n18. Reserve\n19. Residue\n20. Resonance\n21. Restraint\n22. Retail\n23. Retrospect\n24. Revelation\n25. Rhythm"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Radiance\n2.  Rucksack\n3.  Riddle\n4.  Respite\n5.  Rope\n6.  Riot\n7.  Rake\n8.  Region\n9.  Rhythm\n10. Ruse\n11. Refuge\n12. Rubble\n13. Ringlet\n14. Root\n15. Realm\n16. Roster\n17. Rust\n18. Remedy\n19. River\n20. Racket\n21. Rant\n22. Relic\n23. Road\n24. Room\n25. Rant"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Rafter\n2.  Rhythm\n3.  Razor\n4.  Relic\n5.  Rain\n6.  Rainbow\n7.  Receipt\n8.  Regret\n9.  Ribbon\n10. Ripple\n11. Rind\n12. Route\n13. Roster\n14. Rarity\n15. Rabbit\n16. Range\n17. Riddle\n18. Refuge\n19. Reward\n20. Retreat\n21. Region\n22. Rock\n23. Rust\n24. Rose\n25. Raven"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Raft\n2.  Realm\n3.  Rose\n4.  Rigor\n5.  Rust\n6.  Row\n7.  Radiance\n8.  Rhythm\n9.  Ravine\n10. Recipe\n11. Refuge\n12. River\n13. Rain\n14. Reward\n15. Rodent\n16. Ring\n17. Riddle\n18. Riot\n19. Relic\n20. Rope\n21. Retreat\n22. Room\n23. Rag\n24. Reversal\n25. Root"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "slight",
+                "inflame",
+                "temper",
+                "heedless",
+                "resulting",
+                "equally",
+                "election",
+                "pretender",
+                "mechanism",
+                "meat",
+                "fellowship",
+                "stagnant",
+                "risk",
+                "infuse",
+                "speech",
+                "bolt",
+                "shall",
+                "spot",
+                "dissection",
+                "virgin"
+            ],
+            "letter": "r",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Sun\n2. Shadow\n3. Silence\n4. Song\n5. Stone\n6. Seed\n7. Spirit\n8. Sorrow\n9. Strength\n10. Success\n11. Surface\n12. Symphony\n13. Season\n14. Struggle\n15. Secret\n16. Solution\n17. Shelter\n18. Spark\n19. Substance\n20. Survey\n21. Swirl\n22. System\n23. Scarcity\n24. Serenity\n25. Surprise"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Sand\n2.  Silence\n3.  Shadow\n4.  Stature\n5.  Sprout\n6.  Sorcery\n7.  Synergy\n8.  Symmetry\n9.  Solitude\n10. Spectacle\n11. Serendipity\n12. Staple\n13. Spasm\n14. Sensation\n15. Sanctuary\n16. Sarcasm\n17. Scenery\n18. Spire\n19. Suture\n20. Song\n21. Spiral\n22. Spark\n23. Slumber\n24. Spirit\n25. Statute"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Shadow\n2.  Symphony\n3.  Sphere\n4.  Silence\n5.  Sorrow\n6.  Surface\n7.  Spectacle\n8.  Season\n9.  Sunrise\n10. Stanza\n11. Serenity\n12. Shiver\n13. Symbol\n14. Sensation\n15. Scruple\n16. Summit\n17. Shade\n18. Spirit\n19. Soil\n20. Scarcity\n21. Spectrum\n22. Structure\n23. Sculpture\n24. Swirl\n25. Spark"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Spectacle\n2. Siren\n3. Soul\n4. Serpent\n5. Serenity\n6. Symmetry\n7. Sculpture\n8. Shadow\n9. Silhouette\n10. Specimen\n11. Stipend\n12. Sojourn\n13. Syndrome\n14. Shard\n15. Smudge\n16. Summit\n17. Staple\n18. Scepter\n19. Splendor\n20. Sonnet\n21. Squall\n22. Strain\n23. Substance\n24. Synergy\n25. Shrine"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Sorrow\n2. Spade\n3. Sunshine\n4. Sovereignty\n5. Scream\n6. Staircase\n7. Salt\n8. Shoulder\n9. Suspicion\n10. Star\n11. Syllable\n12. Sock\n13. Solitude\n14. Sap\n15. Sack\n16. Sin\n17. Scent\n18. Season\n19. Strength\n20. Swamp\n21. Sphere\n22. Sacrifice\n23. Snow\n24. Specter\n25. Schedule"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Stool\n2. Serendipity\n3. Sky\n4. Sigh\n5. Sprout\n6. Simplicity\n7. Summit\n8. Suspicion\n9. Silk\n10. Squirrel\n11. Sphere\n12. Summer\n13. Shed\n14. Sting\n15. System\n16. Sleet\n17. Spark\n18. Sacrifice\n19. Seal\n20. Stupor\n21. Sojourn\n22. Sculpture\n23. Sonnet\n24. Syrup\n25. Smudge"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Sky\n2. Spoon\n3. Sorrow\n4. Song\n5. Soldier\n6. Stone\n7. Snake\n8. Sock\n9. School\n10. Star\n11. Storm\n12. Shadow\n13. Silence\n14. Secret\n15. Sugar\n16. Saddle\n17. Soul\n18. Staircase\n19. Seed\n20. Soap\n21. Scent\n22. Season\n23. Stream\n24. Sanctuary\n25. Symbol"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Star\n2. Solitude\n3. Staple\n4. Siren\n5. Shawl\n6. Scent\n7. Stalemate\n8. Shack\n9. Sprout\n10. Synopsis\n11. Spasm\n12. Shelf\n13. Sanctuary\n14. Spear\n15. Sand\n16. Safari\n17. Skepticism\n18. Saliva\n19. Specter\n20. Splinter\n21. Second\n22. Slander\n23. Sign\n24. Swamp\n25. Satire"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Space\n2. Spoon\n3. Shadow\n4. Silence\n5. Staircase\n6. Scent\n7. Symphony\n8. Saddle\n9. Stature\n10. Sanctuary\n11. Solder\n12. Scrutiny\n13. Sovereignty\n14. Scaffold\n15. Spectrum\n16. Staple\n17. Sieve\n18. Solstice\n19. Sculpture\n20. Sensation\n21. Scandal\n22. Shingle\n23. Strategy\n24. Scepter\n25. Syntax"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Sky\n2.  Stone\n3.  Silence\n4.  Sandal\n5.  Spirit\n6.  Shelf\n7.  Salmon\n8.  Strategy\n9.  Serenity\n10. Spoon\n11. Shadow\n12. Skepticism\n13. Seed\n14. Sovereignty\n15. Sponge\n16. Staple\n17. Scroll\n18. Shore\n19. Sculpture\n20. Season\n21. Scarcity\n22. Sickness\n23. Siege\n24. Syllable\n25. Swell"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Structure\n2.  Sound\n3.  Shadow\n4.  Space\n5.  Stone\n6.  Spirit\n7.  Sheen\n8.  Strand\n9.  Scale\n10. Signal\n11. Scent\n12. Sanctuary\n13. Skill\n14. System\n15. Symbol\n16. Session\n17. Storm\n18. Secret\n19. Spool\n20. Scroll\n21. Spark\n22. Scheme\n23. Surface\n24. Swarm\n25. Sensation"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Space\n2.  Scepter\n3.  Snail\n4.  Shadow\n5.  Shriek\n6.  Saddle\n7.  Silence\n8.  Stool\n9.  Stitch\n10. Sapphire\n11. Season\n12. Storm\n13. Staple\n14. Surrender\n15. Shield\n16. Sphere\n17. Scales\n18. Scaffolding\n19. Sibling\n20. Solace\n21. Scarcity\n22. Slumber\n23. Silhouette\n24. Syllable\n25. Sentry"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Sapphire\n2.  Symphony\n3.  Scarecrow\n4.  Sieve\n5.  Sultan\n6.  Saddle\n7.  Shrub\n8.  Solitude\n9.  Scroll\n10. Sprout\n11. Spectrum\n12. Sphinx\n13. Sundial\n14. Swarm\n15. Shard\n16. Stallion\n17. Seam\n18. Shrine\n19. Silhouette\n20. Serpent\n21. Sconce\n22. Shackle\n23. Saffron\n24. Scepter\n25. Swatch"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Silence\n2.  Star\n3.  Soul\n4.  Symphony\n5.  Surface\n6.  Season\n7.  Shadow\n8.  Skepticism\n9.  Sacrifice\n10. Sphere\n11. Spark\n12. Spectrum\n13. Statute\n14. Symmetry\n15. Scenario\n16. Swarm\n17. Serpent\n18. Scaffold\n19. Solvent\n20. Shrine\n21. Scroll\n22. Salve\n23. Seed\n24. Siege\n25. Sample"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Star\n2.  Soil\n3.  Silk\n4.  Sapphire\n5.  Spiral\n6.  Shrub\n7.  Sphere\n8.  Stair\n9.  Sculpture\n10. Symphony\n11. Spark\n12. Summit\n13. Shell\n14. Shield\n15. Spectrum\n16. Stitch\n17. Scythe\n18. Scroll\n19. Signal\n20. Sanctuary\n21. Shroud\n22. Sprout\n23. Sketch\n24. Swarm\n25. Shaft"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Sapphire\n2. Sermon\n3. Seizure\n4. Scale\n5. Sphinx\n6. Symmetry\n7. Satellite\n8. Script\n9. Sediment\n10. Serenity\n11. Solitude\n12. Specimen\n13. Sprout\n14. Silhouette\n15. Spiral\n16. Spectrum\n17. Suburb\n18. Shelter\n19. Sequence\n20. Scaffold\n21. Skull\n22. Sultan\n23. Signal\n24. Syndrome\n25. Suffix"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Shadow\n2.  Silence\n3.  Spoon\n4.  Sphere\n5.  Summit\n6.  Sorrow\n7.  Sand\n8.  Scales\n9.  Smile\n10. Status\n11. Secret\n12. Season\n13. Substance\n14. Song\n15. Surface\n16. Stadium\n17. Signal\n18. Struggle\n19. System\n20. Spark\n21. Story\n22. Spirit\n23. Stream\n24. Scent\n25. Swarm"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Shadow\n2.  Sunrise\n3.  Sphere\n4.  Silence\n5.  Suit\n6.  Serpent\n7.  Summit\n8.  Sorrow\n9.  Spark\n10. Story\n11. Scent\n12. Statue\n13. Surface\n14. Symphony\n15. Seed\n16. Standard\n17. Swarm\n18. Spectrum\n19. Shelter\n20. Scroll\n21. Scythe\n22. Scenery\n23. System\n24. Stream\n25. Symbol"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Shadow\n2.  Star\n3.  Silence\n4.  Sand\n5.  Spirit\n6.  Speech\n7.  Seed\n8.  Sail\n9.  Scale\n10. Scar\n11. Storm\n12. String\n13. Square\n14. Soap\n15. Scent\n16. Stage\n17. Stream\n18. Signal\n19. Suit\n20. Summit\n21. Silence\n22. Shelter\n23. Source\n24. Spoon\n25. Smile"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Silence\n2.  Star\n3.  Season\n4.  Sphere\n5.  Shadow\n6.  Soil\n7.  School\n8.  Specter\n9.  Stomach\n10. Song\n11. Stream\n12. Spire\n13. Scythe\n14. Silence\n15. Symbol\n16. Sausage\n17. Spark\n18. Scaffold\n19. Spirit\n20. Scale\n21. Sculpture\n22. Summit\n23. Sigh\n24. Surface\n25. Secret"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "slice",
+                "mischief",
+                "excrement",
+                "judicial",
+                "persuasion",
+                "dishonest",
+                "inflamed",
+                "gossip",
+                "commotion",
+                "belly",
+                "unstable",
+                "dismal",
+                "found",
+                "magnesium",
+                "froth",
+                "repetition",
+                "delicacy",
+                "multitude",
+                "carriage",
+                "distinctly"
+            ],
+            "letter": "s",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Tundra\n2. Tassel\n3. Tarnish\n4. Tangle\n5. Tantalum\n6. Tapestry\n7. Tautness\n8. Teardrop\n9. Teem\n10. Tempest\n11. Tendril\n12. Tentacle\n13. Terroir\n14. Testament\n15. Texture\n16. Thaw\n17. Theocracy\n18. Thicket\n19. Thimble\n20. Thirst\n21. Thorn\n22. Thought\n23. Thread\n24. Thrill\n25. Throne"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Tangerine\n2.  Tapestry\n3.  Tension\n4.  Tectonic\n5.  Thistle\n6.  Thunder\n7.  Tidal\n8.  Timbale\n9.  Tire\n10. Tl\u00f6n\n11. Tobacco\n12. Tolerance\n13. Tornado\n14. Tortilla\n15. Totem\n16. Toxin\n17. Tranquility\n18. Trawl\n19. Tremor\n20. Triangle\n21. Tribute\n22. Trifle\n23. Trivial\n24. Trough\n25. Turquoise"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Tuba\n2. Tranquility\n3. Tantalum\n4. Tassel\n5. Theocracy\n6. Theorem\n7. Tinder\n8. Torpor\n9. Transience\n10. Tricycle\n11. Tundra\n12. Turnstile\n13. Tweak\n14. Tunic\n15. Tavola\n16. Teardrop\n17. Tintinnabulation\n18. Topology\n19. Torrent\n20. Truss\n21. Tantalize\n22. Tautology\n23. Tidbit\n24. Timber\n25. Tempest"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Tentacle\n2. Tyranny\n3. Trousers\n4. Tandem\n5. Tusk\n6. Tangle\n7. Threshold\n8. Trance\n9. Tinsel\n10. Torment\n11. Tapestry\n12. Trove\n13. Trepidation\n14. Truce\n15. Treason\n16. Tabernacle\n17. Tranquility\n18. Thicket\n19. Trinket\n20. Tactic\n21. Torpor\n22. Tribunal\n23. Tempest\n24. Tribute\n25. Tawdry"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Table\n2. Thought\n3. Thunder\n4. Trowel\n5. Treason\n6. Tapestry\n7. Tide\n8. Tyranny\n9. Tuber\n10. Trinket\n11. Tempo\n12. Tangle\n13. Thirst\n14. Tincture\n15. Tryst\n16. Twig\n17. Threshold\n18. Tumult\n19. Tunic\n20. Twilight\n21. Torment\n22. Tenet\n23. Tiff\n24. Tassel\n25. Toll"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Thought\n2. Tide\n3. Trumpet\n4. Toxin\n5. Taboo\n6. Tear\n7. Treasure\n8. Twilight\n9. Tunic\n10. Testimony\n11. Tyranny\n12. Truffle\n13. Thirst\n14. Tapestry\n15. Talisman\n16. Torment\n17. Thunder\n18. Tax\n19. Tradition\n20. Temperament\n21. Twine\n22. Tomb\n23. Tiger\n24. Temptation\n25. Tragedy"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Thought\n2. Tulip\n3. Thunder\n4. Trousers\n5. Tower\n6. Tragedy\n7. Trust\n8. Teardrop\n9. Triangle\n10. Temptation\n11. Tide\n12. Tenant\n13. Thirst\n14. Toast\n15. Truth\n16. Tangle\n17. Toxin\n18. Tuesday\n19. Team\n20. Twilight\n21. Tune\n22. Talisman\n23. Technique\n24. Talent\n25. Tomorrow"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Table\n2. Thought\n3. Thunder\n4. Tuber\n5. Tension\n6. Toe\n7. Truth\n8. Ton\n9. Tale\n10. Termite\n11. Tax\n12. Tea\n13. Trowel\n14. Temper\n15. Theater\n16. Tunic\n17. Thud\n18. Twilight\n19. Tribe\n20. Trash\n21. Turn\n22. Tub\n23. Tundra\n24. Threat\n25. Trade"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Time\n2.  Table\n3.  Thought\n4.  Tool\n5.  Tree\n6.  Truth\n7.  Thunder\n8.  Tapestry\n9.  Tension\n10. Triumph\n11. Tide\n12. Ticket\n13. Trophy\n14. Talent\n15. Tutor\n16. Tribe\n17. Torch\n18. Taste\n19. Tunnel\n20. Turbine\n21. Turmoil\n22. Teaspoon\n23. Tundra\n24. Texture\n25. Truce"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Time\n2.  Truth\n3.  Thud\n4.  Tome\n5.  Tinge\n6.  Tension\n7.  Tassel\n8.  Tactic\n9.  Tide\n10. Trophy\n11. Turbulence\n12. Twilight\n13. Tear\n14. Tundra\n15. Trellis\n16. Tyranny\n17. Talent\n18. Theorem\n19. Trance\n20. Trough\n21. Triumph\n22. Tune\n23. Tithe\n24. Tangle\n25. Texture"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Tango\n2.  Truth\n3.  Thunder\n4.  Tear\n5.  Tempo\n6.  Torch\n7.  Triumph\n8.  Theory\n9.  Tablet\n10. Toxin\n11. Turbulence\n12. Treasure\n13. Tavern\n14. Tally\n15. Tunnel\n16. Tide\n17. Traction\n18. Trance\n19. Tenant\n20. Throttle\n21. Texture\n22. Topic\n23. Teapot\n24. Topography\n25. Typo"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Time\n2.  Tower\n3.  Truth\n4.  Tundra\n5.  Tribute\n6.  Textile\n7.  Tremor\n8.  Talent\n9.  Tumult\n10. Trough\n11. Thicket\n12. Theorem\n13. Toxin\n14. Tariff\n15. Threshold\n16. Triumph\n17. Therapy\n18. Throne\n19. Temper\n20. Tunic\n21. Tincture\n22. Trajectory\n23. Topaz\n24. Tyrant\n25. Twilight"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Thaw\n2.  Tapestry\n3.  Trowel\n4.  Tornado\n5.  Tincture\n6.  Tithe\n7.  Torpor\n8.  Tassel\n9.  Tsunami\n10. Thicket\n11. Theorem\n12. Turbine\n13. Tundra\n14. Tumult\n15. Torque\n16. Topaz\n17. Tyranny\n18. Tendril\n19. Tablet\n20. Tariff\n21. Testament\n22. Trellis\n23. Threshold\n24. Truffle\n25. Twine"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Thunder\n2.  Tapestry\n3.  Toxin\n4.  Theorem\n5.  Turbulence\n6.  Task\n7.  Tithe\n8.  Temper\n9.  Torpor\n10. Trough\n11. Truce\n12. Tenant\n13. Tendon\n14. Threshold\n15. Thicket\n16. Thistle\n17. Tumult\n18. Twine\n19. Trench\n20. Torque\n21. Totem\n22. Tablet\n23. Tariff\n24. Talent\n25. Treaty"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Tempo\n2.  Triptych\n3.  Throng\n4.  Theorem\n5.  Treacle\n6.  Topaz\n7.  Torrent\n8.  Tendril\n9.  Tinder\n10. Tortilla\n11. Tonic\n12. Turbine\n13. Tweed\n14. Torque\n15. Tumbrel\n16. Truffle\n17. Truss\n18. Thistle\n19. Trowel\n20. Tankard\n21. Twine\n22. Tutu\n23. Tariff\n24. Tassel\n25. Thrum"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Thumb\n2.  Terror\n3.  Thirst\n4.  Treasure\n5.  Test\n6.  Thought\n7.  Throat\n8.  Thaw\n9.  Threat\n10. Tempest\n11. Tribute\n12. Toxin\n13. Twine\n14. Tendon\n15. Truth\n16. Thyme\n17. Target\n18. Torpor\n19. Trauma\n20. Triangle\n21. Tile\n22. Tang\n23. Tick\n24. Teardrop\n25. Tether"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Table\n2.  Tundra\n3.  Throne\n4.  Tendency\n5.  Tapestry\n6.  Tornado\n7.  Teeth\n8.  Triumph\n9.  Toxin\n10. Thought\n11. Timber\n12. Tranquility\n13. Target\n14. Texture\n15. Twilight\n16. Treasure\n17. Twig\n18. Theory\n19. Tumbleweed\n20. Talent\n21. Tunnel\n22. Tongue\n23. Tragedy\n24. Turbine\n25. Tattoo"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Tapestry\n2.  Tornado\n3.  Teapot\n4.  Triangle\n5.  Trust\n6.  Thorn\n7.  Thunder\n8.  Talc\n9.  Talon\n10. Tuesday\n11. Tactics\n12. Tent\n13. Tuition\n14. Tongue\n15. Torch\n16. Twilight\n17. Toast\n18. Tide\n19. Theory\n20. Target\n21. Tundra\n22. Texture\n23. Temptation\n24. Tranquility\n25. Tomb"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Table\n2.  Triangle\n3.  Triumph\n4.  Tooth\n5.  Team\n6.  Temper\n7.  Tide\n8.  Truth\n9.  Taste\n10. Task\n11. Talent\n12. Thought\n13. Town\n14. Terror\n15. Twist\n16. Time\n17. Token\n18. Tranquility\n19. Tear\n20. Track\n21. Tone\n22. Thunder\n23. Territory\n24. Tuber\n25. Tower"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Tablet\n2.  Tempo\n3.  Tomb\n4.  Tenure\n5.  Tar\n6.  Turbulence\n7.  Tailor\n8.  Truth\n9.  Tissue\n10. Toast\n11. Talent\n12. Thunder\n13. Twist\n14. Top\n15. Tide\n16. Treasure\n17. Tornado\n18. Temple\n19. Thumb\n20. Transit\n21. Terror\n22. Tunnel\n23. Thirst\n24. Timber\n25. Trade"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "yellow",
+                "embarrass",
+                "thick",
+                "frontal",
+                "countries",
+                "stuffing",
+                "crack",
+                "vitreous",
+                "employment",
+                "determination",
+                "acceptance",
+                "about",
+                "learned",
+                "radiate",
+                "convert",
+                "trail",
+                "prepared",
+                "convict",
+                "beak",
+                "intensive"
+            ],
+            "letter": "t",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Umbrella\n2. Urn\n3. Uproar\n4. Utopia\n5. Undertaking\n6. Unison\n7. Usurpation\n8. Utensil\n9. Ubiquity\n10. Ugliness\n11. Unction\n12. Undulation\n13. Uniform\n14. Universe\n15. Usury\n16. Uprising\n17. Utility\n18. Unity\n19. Unrest\n20. Ultrasonics\n21. Unconcern\n22. Urgency\n23. Undertow\n24. Umpire\n25. Usability"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Utopia\n2. Underdog\n3. Urchin\n4. Uprising\n5. Unity\n6. Ubiquity\n7. Usurpation\n8. Unison\n9. Upheaval\n10. Uniqueness\n11. Undertaking\n12. Umpire\n13. Untruth\n14. Understanding\n15. Urgency\n16. Umbrella\n17. Uplift\n18. Union\n19. Usability\n20. Utmost\n21. Unconcern\n22. Unction\n23. Ukulele\n24. Uproar\n25. Usher"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Ugliness\n2. Ulcer\n3. Umbra\n4. Unction\n5. Underdog\n6. Unicorn\n7. Undulation\n8. Urgency\n9. Utopia\n10. Utterance\n11. Umph\n12. Umbilical\n13. Undertow\n14. Unity\n15. Unrest\n16. Unkindness\n17. Uranium\n18. Usurpation\n19. Utility\n20. Uproar\n21. Uptick\n22. Upstairs\n23. Undergrowth\n24. Urn\n25. User"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Umbrella\n2. Unicorn\n3. Urn\n4. Usher\n5. Utensil\n6. Utopia\n7. Undertaker\n8. Uprising\n9. Ultrasound\n10. Umbrella\n11. Usurper\n12. Ulcer\n13. Uniform\n14. Union\n15. Universe\n16. Utterance\n17. Ultimatum\n18. Unction\n19. Upheaval\n20. Unison\n21. Usurpation\n22. Ukulele\n23. Urea\n24. Utter\n25. Uterus"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Umbrella\n2. Uncertainty\n3. Umpire\n4. Universe\n5. Urchin\n6. Umbrage\n7. Undergrowth\n8. Usurper\n9. Uvula\n10. Undertaking\n11. Urn\n12. Upheaval\n13. Unison\n14. Utility\n15. Understatement\n16. Ululation\n17. Usage\n18. Utopia\n19. Usury\n20. Undercurrent\n21. Uniqueness\n22. Unguent\n23. Upbringing\n24. Undershirt\n25. Urgency"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. umbrage\n2. umbrella\n3. umpire\n4. unit\n5. uproar\n6. universe\n7. utensil\n8. uncouthness\n9. understanding\n10. undercroft\n11. umbel\n12. uvula\n13. urn\n14. utility\n15. utterance\n16. uprising\n17. urge\n18. urchin\n19. undergrowth\n20. union\n21. unicorn\n22. uniqueness\n23. upstream\n24. upheaval\n25. ultimatum"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. universe\n2. urchin\n3. utensil\n4. umbrage\n5. usurper\n6. uproar\n7. ulcer\n8. understanding\n9. urgency\n10. umbrella\n11. unicorn\n12. umpire\n13. utility\n14. undergrowth\n15. unreality\n16. utterance\n17. unison\n18. usher\n19. underdog\n20. uncouthness\n21. upheaval\n22. unity\n23. uvula\n24. umbilicus\n25. undercroft"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. universe\n2. utensil\n3. underdog\n4. urgency\n5. ululation\n6. unreality\n7. umbrage\n8. urn\n9. uproar\n10. unison\n11. upbringing\n12. undertone\n13. update\n14. umpire\n15. uniform\n16. usher\n17. understanding\n18. undertaking\n19. uniqueness\n20. utility\n21. utopia\n22. unguent\n23. undercurrent\n24. usage\n25. umbrella"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Umbrella\n2.  Unison\n3.  Uproar\n4.  Urn\n5.  Usage\n6.  Utopia\n7.  Undercurrent\n8.  Unction\n9.  Upholstery\n10. Usurpation\n11. Unicorn\n12. Upbringing\n13. Undertaking\n14. Unveiling\n15. Upkeep\n16. Usury\n17. Underpass\n18. Uterus\n19. Utensil\n20. Underdog\n21. Undergrowth\n22. Ultimatum\n23. Updraft\n24. Uncertainty\n25. Unraveling"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Ubiquity\n2. Undergrowth\n3. Updraft\n4. Unconsciousness\n5. Usurpation\n6. Understatement\n7. Umber\n8. Ultimatum\n9. Unraveling\n10. Utopia\n11. Upkeep\n12. Underpass\n13. Underbelly\n14. Upbringing\n15. Undercurrent\n16. Uniqueness\n17. Undertaker\n18. Uptick\n19. Usury\n20. Underdog\n21. Umbra\n22. Upshot\n23. Unreadiness\n24. U-turn\n25. Underpinning"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Universe\n2. Umbrella\n3. Unison\n4. Upheaval\n5. Utensil\n6. Ubiquity\n7. Urn\n8. Undercurrent\n9. Utopia\n10. Untruth\n11. Undertaking\n12. Upkeep\n13. Uplift\n14. Unrest\n15. Uniqueness\n16. Underpass\n17. Usurpation\n18. Unveiling\n19. Usage\n20. Upbringing\n21. Understatement\n22. Undulation\n23. Uselessness\n24. Upstart\n25. Undoing"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Undertaking\n2.  Universe\n3.  Unity\n4.  Uproar\n5.  Umbra\n6.  Undercurrent\n7.  Urn\n8.  Utopia\n9.  Ultimatum\n10. Untruth\n11. Utility\n12. Uplift\n13. Unrest\n14. Underpass\n15. Unicorn\n16. Usurpation\n17. Udder\n18. Usage\n19. Upshot\n20. Underdog\n21. Urgency\n22. Umbrella\n23. Upholstery\n24. Undulation\n25. Unconsciousness"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Umbrage\n2.  Utopia\n3.  Ululation\n4.  Undergrowth\n5.  Universe\n6.  Urchin\n7.  Unison\n8.  Upheaval\n9.  Umpire\n10. Unrest\n11. Undertow\n12. Utility\n13. Uniform\n14. Unction\n15. Upshot\n16. Usage\n17. Urgency\n18. Underside\n19. Uplift\n20. Understanding\n21. Unraveling\n22. Unit\n23. Undertaking\n24. Unbelief\n25. Unison"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Umbrage\n2. Utopia\n3. Ululation\n4. Undulation\n5. Unction\n6. Urchin\n7. Universe\n8. Unison\n9. Unity\n10. Umpire\n11. Umbo\n12. Updraft\n13. Uplift\n14. Urn\n15. Utility\n16. Underside\n17. Undergrowth\n18. Upgrade\n19. Utterance\n20. Ubiquity\n21. Undertaking\n22. Unravelling\n23. Upkeep\n24. Usury\n25. Ultimatum"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Umami\n2. Udder\n3. Umbrella\n4. Urchin\n5. Unbelief\n6. Upgrade\n7. Utensil\n8. Uplift\n9. Underside\n10. Undertow\n11. Ultimatum\n12. Usage\n13. Unit\n14. Universe\n15. Unison\n16. Urge\n17. Utility\n18. Utopia\n19. Union\n20. Unction\n21. Upkeep\n22. Undergrowth\n23. Upload\n24. Uprising\n25. Urbanity"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Ubiquity\n2. Umami\n3. Understanding\n4. Unction\n5. Understatement\n6. Urchin\n7. Umbrella\n8. Uprising\n9. Ultramarine\n10. Unbelief\n11. Urgency\n12. Unit\n13. Universe\n14. Unguent\n15. Uniformity\n16. Union\n17. Unity\n18. Upgrade\n19. Uplift\n20. Utopia\n21. Ukulele\n22. Umbrage\n23. Unison\n24. Undulation\n25. Utilization"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Umbrella\n2.  Utensil\n3.  Unicorn\n4.  Undertow\n5.  Universe\n6.  Unison\n7.  Upheaval\n8.  Usher\n9.  Utopia\n10. Urchin\n11. Uranium\n12. Utility\n13. Unction\n14. Undertaking\n15. Upright\n16. Urgency\n17. Ubiquity\n18. Unraveling\n19. Uprising\n20. Uvula\n21. Unction\n22. Unveiling\n23. Unrest\n24. Unction\n25. Undergrowth"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Uncle\n2.  Umbrella\n3.  Universe\n4.  Undertaking\n5.  Ursula\n6.  Utensil\n7.  Updraft\n8.  Usher\n9.  Utopia\n10. Urgency\n11. Urn\n12. Usage\n13. Unison\n14. Upkeep\n15. Understanding\n16. Unraveling\n17. Urbanite\n18. Ultimatum\n19. Unction\n20. Uniform\n21. Uprightness\n22. Utopia\n23. Universe\n24. Unhappiness\n25. Undertow"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Umbrage\n2.  Unicorn\n3.  Upheaval\n4.  Utensil\n5.  Ubiquity\n6.  Uranium\n7.  Unison\n8.  Undertow\n9.  Upkeep\n10. Undertaker\n11. Upright\n12. Uvula\n13. Union\n14. Unction\n15. Unravel\n16. Urchin\n17. Upwelling\n18. Universe\n19. Urgency\n20. Unwind\n21. Use\n22. Uranium\n23. Undertone\n24. Utopia\n25. Usage"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Umbrella\n2.  Usher\n3.  Universe\n4.  Upkeep\n5.  Utensil\n6.  Union\n7.  Upright\n8.  Utility\n9.  Undergrowth\n10. Unrest\n11. Update\n12. Undertow\n13. Understanding\n14. Unction\n15. Umbrage\n16. Urgency\n17. Usage\n18. Unraveling\n19. Uncle\n20. Usual\n21. Urbane\n22. Uniformity\n23. Utopia\n24. Upbeat\n25. Ultimatum"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "wonderful",
+                "sickly",
+                "discuss",
+                "heighten",
+                "inclining",
+                "pottery",
+                "hold",
+                "applause",
+                "roving",
+                "over",
+                "childish",
+                "plain",
+                "limb",
+                "exclusive",
+                "serpentine",
+                "bargain",
+                "ferment",
+                "tenure",
+                "mingle",
+                "loathing"
+            ],
+            "letter": "u",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Wisdom\n2. Womb\n3. Wrench\n4. Walnut\n5. Whisper\n6. Waffle\n7. Wanderlust\n8. Wavelength\n9. Wicker\n10. Wager\n11. Wisteria\n12. Wasp\n13. Whirlwind\n14. Woe\n15. Wreath\n16. Wallet\n17. Weave\n18. Wombat\n19. Wreckage\n20. Wriggle\n21. Waffle\n22. Wavelength\n23. Wicker\n24. Wager\n25. Wisteria"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Waffle\n2. Whirlwind\n3. Wisp\n4. Wrench\n5. Womb\n6. Walnut\n7. Waver\n8. Whistle\n9. Wavelength\n10. Wisdom\n11. Wager\n12. Welter\n13. Whimsy\n14. Willow\n15. Wreath\n16. Worship\n17. Windlass\n18. Wigwam\n19. Wallow\n20. Wardrobe\n21. Whisper\n22. Wanderlust\n23. Woe\n24. Woofer\n25. Wriggle"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Wisteria\n2. Whirlpool\n3. Wisdom\n4. Window\n5. Wombat\n6. Wool\n7. Wagon\n8. Wrench\n9. Whiskey\n10. Woe\n11. Wilderness\n12. Whistle\n13. Wardrobe\n14. Wave\n15. Wallet\n16. Walnut\n17. Wharf\n18. Worship\n19. Wreath\n20. Wonder\n21. Whirlwind\n22. Weight\n23. Weasel\n24. War\n25. Warp"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Womb\n2. Wig\n3. Wolf\n4. Window\n5. Willow\n6. Willow\n7. Warehouse\n8. Whisper\n9. Wisp\n10. Worry\n11. Walnut\n12. Welcome\n13. Wedge\n14. Wonder\n15. Wisdom\n16. Wrench\n17. Wharf\n18. Wanderer\n19. Wail\n20. Watt\n21. Weave\n22. Windfall\n23. Wrath\n24. Wrestle\n25. Work"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. wharf\n2. wisp\n3. welterweight\n4. whim\n5. wilderness\n6. waffle\n7. womb\n8. wreckage\n9. witticism\n10. warden\n11. wax\n12. worry\n13. wavelength\n14. wedge\n15. whisper\n16. widow\n17. walrus\n18. wealth\n19. wrinkle\n20. whirlwind\n21. ware\n22. weeping\n23. wishbone\n24. wardrobe\n25. wonder"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Watermelon\n2. Warehouse\n3. Wish\n4. Waistcoat\n5. Whistle\n6. Whirlwind\n7. Waterfall\n8. Wrench\n9. Warrant\n10. Wood\n11. Woe\n12. Wand\n13. Willow\n14. Wallet\n15. Widow\n16. Wax\n17. Winter\n18. Waltz\n19. Welt\n20. Wrapper\n21. Worth\n22. Wanderlust\n23. Wall\n24. Wrinkle\n25. Width"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. wall\n2. wisdom\n3. wagon\n4. wool\n5. water\n6. whirlwind\n7. waffle\n8. wish\n9. wealth\n10. warehouse\n11. wilderness\n12. wound\n13. whisper\n14. word\n15. waistcoat\n16. wreckage\n17. wonder\n18. witch\n19. wrench\n20. willow\n21. wrinkle\n22. wharf\n23. wick\n24. wedge\n25. worry"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. wagon\n2. wallet\n3. walnut\n4. waltz\n5. wager\n6. warp\n7. wealth\n8. wedding\n9. wick\n10. wig\n11. will\n12. wind\n13. winter\n14. wisdom\n15. witch\n16. witness\n17. woe\n18. womb\n19. wonder\n20. worship\n21. wound\n22. wrath\n23. wreath\n24. wrench\n25. wrinkle"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Water\n2. Window\n3. Word\n4. Wheel\n5. Wisdom\n6. Wound\n7. Wealth\n8. Whisper\n9. Wagon\n10. Worry\n11. Wreath\n12. Wavelength\n13. Wick\n14. Wreck\n15. Wallet\n16. Waltz\n17. Warrant\n18. Web\n19. Whistle\n20. Wig\n21. Wharf\n22. Wager\n23. Worship\n24. Weight\n25. Wrinkle"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Water\n2. Wisdom\n3. Wallet\n4. Wharf\n5. Whisper\n6. Wound\n7. Wagon\n8. Worry\n9. Wick\n10. Wealth\n11. Wreath\n12. Warehouse\n13. Wrench\n14. Welfare\n15. Witness\n16. Wool\n17. Web\n18. Wheel\n19. Word\n20. Waist\n21. Wilderness\n22. Wall\n23. War\n24. Wager\n25. Wardrobe"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Water\n2. Window\n3. Weight\n4. Wound\n5. Whisper\n6. Wheel\n7. Wall\n8. Wreckage\n9. Wrinkle\n10. Wardrobe\n11. Wicket\n12. Welfare\n13. Wig\n14. Warning\n15. Worship\n16. Wick\n17. Wrath\n18. Wager\n19. Wallet\n20. Welding\n21. Web\n22. Wicker\n23. Wigwam\n24. Waffle\n25. Writ"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Water\n2. Wisdom\n3. Window\n4. Wheel\n5. Wrath\n6. Wicket\n7. Warrant\n8. Waffle\n9. Wrench\n10. Wealth\n11. Wardrobe\n12. Waypoint\n13. Wonder\n14. Welfare\n15. Wharf\n16. Weaving\n17. Watch\n18. Whisker\n19. Willow\n20. Wallet\n21. Wave\n22. Wrinkle\n23. Weather\n24. Wages\n25. Worship"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Waffle\n2.  Walrus\n3.  Wardrobe\n4.  Weapon\n5.  Wig\n6.  Willow\n7.  Window\n8.  Wish\n9.  Wizard\n10. Wolf\n11. Wood\n12. Worm\n13. Wound\n14. Wrath\n15. Wrench\n16. Wrist\n17. Writing\n18. Wrong\n19. Wave\n20. Wagon\n21. Wall\n22. Waltz\n23. War\n24. Warning\n25. Whirlpool"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Waltz\n2.  Waffle\n3.  Warrant\n4.  Wheat\n5.  Whim\n6.  Willow\n7.  Window\n8.  Weapon\n9.  Winter\n10. Wisdom\n11. Worry\n12. Worth\n13. Wraith\n14. Wrinkle\n15. Wrist\n16. Wrench\n17. Wagon\n18. Wharf\n19. Whirlwind\n20. Whisper\n21. Wigwam\n22. Witness\n23. Wood\n24. Wound\n25. Wafer"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Wallet\n2.  Waltz\n3.  Window\n4.  Wheat\n5.  Whistle\n6.  Widget\n7.  Wick\n8.  Willow\n9.  Wagon\n10. Wonder\n11. Wave\n12. Wreath\n13. Worm\n14. Word\n15. Wash\n16. Wart\n17. Wire\n18. Wish\n19. Wax\n20. Warp\n21. Well\n22. Weight\n23. Wharf\n24. Width\n25. Wrath"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Waltz\n2.  Wealth\n3.  Warrant\n4.  Willow\n5.  Wheat\n6.  Wicket\n7.  Wonder\n8.  Wrinkle\n9.  Wave\n10. Wood\n11. Wound\n12. Web\n13. Wedge\n14. Wreath\n15. Watch\n16. Wail\n17. Whisper\n18. Wine\n19. Whirl\n20. Will\n21. Wisdom\n22. Wolf\n23. World\n24. Wrong\n25. Worm"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Wall\n2.  Whisper\n3.  Weapon\n4.  Window\n5.  Whim\n6.  Wheat\n7.  Wagon\n8.  Wool\n9.  Writer\n10. Wave\n11. Wreath\n12. Wallet\n13. Witch\n14. Wonder\n15. Wire\n16. Wisdom\n17. Whirlwind\n18. Wood\n19. World\n20. Watch\n21. Water\n22. Wound\n23. Waste\n24. Wing\n25. Wheel"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Water\n2.  Whisper\n3.  Wagon\n4.  Wealth\n5.  Waltz\n6.  Wall\n7.  Wizard\n8.  Wool\n9.  World\n10. Window\n11. Weather\n12. Wave\n13. Willow\n14. Whisper\n15. Wound\n16. Wonder\n17. Wheat\n18. Wing\n19. Wood\n20. Worry\n21. Wisdom\n22. Wife\n23. Winter\n24. Whistle\n25. Workplace"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Wall\n2.  Whisper\n3.  Witness\n4.  Wool\n5.  Wave\n6.  Whistle\n7.  Widget\n8.  Warrior\n9.  Wisdom\n10. Wealth\n11. Wound\n12. Wheel\n13. Water\n14. Window\n15. Weevil\n16. Wax\n17. Wonder\n18. Wisp\n19. Whirlwind\n20. Warden\n21. Welfare\n22. Weapon\n23. Wife\n24. World\n25. Waste"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Walk\n2.  Wool\n3.  Whim\n4.  Window\n5.  Wave\n6.  Wish\n7.  War\n8.  Wheel\n9.  Wonder\n10. Word\n11. Web\n12. Willow\n13. Wisp\n14. Wealth\n15. Whisper\n16. Waist\n17. Wit\n18. Wing\n19. Wound\n20. Wife\n21. Wedge\n22. Weeds\n23. Wire\n24. Witness\n25. Wrestler"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "vast",
+                "deputy",
+                "settle",
+                "file",
+                "harden",
+                "murder",
+                "breech",
+                "establish",
+                "spider",
+                "direction",
+                "mentally",
+                "ligament",
+                "characteristic",
+                "bird",
+                "eastern",
+                "act",
+                "cone",
+                "reversal",
+                "calamity",
+                "emphasis"
+            ],
+            "letter": "w",
+            "repeat": 0
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. Yawn\n2. Yonder\n3. Yolk\n4. Yurt\n5. Yell\n6. Yawn\n7. Yonder\n8. Yolk\n9. Yurt\n10. Yell\n11. Yawn\n12. Yonder\n13. Yolk\n14. Yurt\n15. Yell\n16. Yawn\n17. Yonder\n18. Yolk\n19. Yurt\n20. Yell\n21. Yawn\n22. Yonder\n23. Yolk\n24. Yurt\n25. Yell"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Yarn\n2. Year\n3. Yonder\n4. Yell\n5. Yawn\n6. Yield\n7. Yoke\n8. Yummy\n9. Youth\n10. Yurt\n11. Yard\n12. Yarrow\n13. Yonder\n14. Yellow\n15. Yelp\n16. Yonder\n17. Yolk\n18. Yonder\n19. Yonder\n20. Yonder\n21. Yonder\n22. Yonder\n23. Yonder\n24. Yonder\n25. Yonder"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Year\n2. Yonder\n3. Yawn\n4. Yoke\n5. Yacht\n6. Yell\n7. Yellowness\n8. Yarn\n9. Yelp\n10. Youth\n11. Yard\n12. Yondering\n13. Yolk\n14. Yearn\n15. Yurt\n16. Yellow\n17. Yield\n18. Yuppie\n19. Yam\n20. Yaw\n21. Yes\n22. Yea\n23. Yttrium\n24. Yttrium\n25. Yucca"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Yacht\n2. Yarn\n3. Yearning\n4. Yelp\n5. Yonder\n6. Yolk\n7. Yawn\n8. Yo-yo\n9. Yogurt\n10. Youth\n11. Yonder\n12. Yell\n13. Yardstick\n14. Yarrow\n15. Yesteryear\n16. Yield\n17. Yoga\n18. Youngling\n19. Yttrium\n20. Yellowhammer\n21. Yurt\n22. Yucca\n23. Yuletide\n24. Yondering\n25. Yodel"
+                ]
+            ]
+        },
+        "gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. yearning\n2. yoke\n3. yesterday\n4. yell\n5. youth\n6. yam\n7. yak\n8. yin\n9. yard\n10. yo-yo\n11. yeast\n12. yeti\n13. yurt\n14. yarn\n15. yacht\n16. yolk\n17. yearbook\n18. yield\n19. yap\n20. yoga\n21. yawn\n22. yashmak\n23. yonder\n24. year\n25. yule"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. yardstick\n2. yeti\n3. yawn\n4. yacht\n5. yolk\n6. yearning\n7. yurt\n8. yogi\n9. yield\n10. yarn\n11. yelp\n12. yesterday\n13. yoke\n14. yen\n15. youth\n16. yarrow\n17. yodel\n18. yak\n19. yard\n20. yeast\n21. yahoo\n22. yule\n23. yonder\n24. yank\n25. year"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. yacht\n2. yank\n3. yarn\n4. yashmak\n5. yaw\n6. yawn\n7. yardstick\n8. year\n9. yearning\n10. yeast\n11. yellow\n12. yelp\n13. yeti\n14. yew\n15. yield\n16. yips\n17. yo-yo\n18. yodel\n19. yoga\n20. yoke\n21. yolk\n22. yore\n23. yucca\n24. yule\n25. yurt"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. yak\n2. yearbook\n3. yearning\n4. yeast\n5. yell\n6. yellow\n7. yen\n8. yes\n9. yeti\n10. yacht\n11. yield\n12. yips\n13. yoga\n14. yoke\n15. yolk\n16. youth\n17. yo-yo\n18. yucca\n19. yurt\n20. yard\n21. yarn\n22. yawn\n23. yaw\n24. year\n25. yin"
+                ]
+            ]
+        },
+        "gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Yacht\n2.  Yarn\n3.  Yawn\n4.  Year\n5.  Yell\n6.  Yen\n7.  Yoke\n8.  Youth\n9.  Yurt\n10. Yard\n11. Yield\n12. Yoga\n13. Yucca\n14. Yashmak\n15. Yellow\n16. Yips\n17. Ylem\n18. Yetzer\n19. Yoni\n20. Yuan\n21. Yule\n22. Yowie\n23. Yaws\n24. Yataghan\n25. Yod"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Year\n2.  Yarn\n3.  Yacht\n4.  Yawn\n5.  Yield\n6.  Yen\n7.  Yoke\n8.  Yolk\n9.  Yard\n10. Yurt\n11. Yonder\n12. Yule\n13. Yelp\n14. Yodel\n15. Yank\n16. Yellow\n17. Yew\n18. Yak\n19. Young\n20. Yuppie\n21. Yuk\n22. Yore\n23. Yin\n24. Yips\n25. Yowl"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Year\n2. Yacht\n3. Yarn\n4. Yolk\n5. Yak\n6. Yard\n7. Yawn\n8. Yen\n9. Yell\n10. Yoga\n11. Youth\n12. Yurt\n13. Yank\n14. Yin\n15. Yield\n16. Yo-yo\n17. Yellowness\n18. Yam\n19. Yarrow\n20. Yuppie\n21. Yoke\n22. Yuletide\n23. Yesterday\n24. Yarmulke\n25. Yod"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Year\n2.  Yarn\n3.  Yacht\n4.  Yawn\n5.  Yak\n6.  Yolk\n7.  Yell\n8.  Yoke\n9.  Yew\n10. Yard\n11. Youth\n12. Yoga\n13. Yurt\n14. Yank\n15. Yam\n16. Yield\n17. Yen\n18. Yucca\n19. Yeast\n20. Yellow\n21. Yogurt\n22. Yaw\n23. Yokel\n24. Yips\n25. Yesteryear"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Yearning\n2.  Yesterday\n3.  Yardage\n4.  Yawl\n5.  Yeoman\n6.  Yeast\n7.  Yodel\n8.  Yoga\n9.  Yolk\n10. Yonder\n11. Youth\n12. Yttrium\n13. Yucca\n14. Yacht\n15. Yak\n16. Yam\n17. Yarn\n18. Yarrow\n19. Yaws\n20. Yen\n21. Yin\n22. Yurt\n23. Yutz\n24. Yahoo\n25. Yard"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Yearning\n2.  Yacht\n3.  Yeast\n4.  Yoke\n5.  Yarrow\n6.  Yodel\n7.  Yardage\n8.  Yesterday\n9.  Youth\n10. Yawl\n11. Yield\n12. Yukon\n13. Yolk\n14. Yucca\n15. Yarn\n16. Yaw\n17. Yard\n18. Yuppie\n19. Yak\n20. Yoga\n21. Yen\n22. Yurt\n23. Yclept\n24. Yowl\n25. Yam"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1.  Yesterday\n2.  Yearbook\n3.  Yacht\n4.  Yardage\n5.  Yearning\n6.  Yawl\n7.  Youth\n8.  Yolk\n9.  Yodeler\n10. Yaws\n11. Yak\n12. Yeast\n13. Yoga\n14. Yam\n15. Yarrow\n16. Yarn\n17. Yard\n18. Yup\n19. Yield\n20. Yo-yo\n21. Yodel\n22. Yenta\n23. Yin\n24. Yurt\n25. Yowl"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1. Yesterday\n2. Yam\n3. Yard\n4. Yarn\n5. Yeast\n6. Yield\n7. Yolk\n8. Yonder\n9. Youth\n10. Year\n11. Yearning\n12. Yes\n13. Yodel\n14. Yoga\n15. Yew\n16. Yacht\n17. Yak\n18. Yawl\n19. Yenta\n20. Yo-yo\n21. Yucca\n22. Yurt\n23. Yaw\n24. Yippee\n25. Yen"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Yacht\n2.  Yearning\n3.  Yolk\n4.  Yesterday\n5.  Yard\n6.  Yodel\n7.  Youth\n8.  Yarn\n9.  Yield\n10. Yurt\n11. Yell\n12. Yonder\n13. Yoke\n14. Yearly\n15. Yawn\n16. Yarn\n17. Yeast\n18. Yodel\n19. Yodel\n20. Yuppie\n21. Yore\n22. Ylang-ylang\n23. Yuzu\n24. Yakuza\n25. Yowl"
+                ]
+            ],
+            "{\"temperature\": 1}": [
+                [
+                    "1. Yarn\n2. Yacht\n3. Yearning\n4. Yesterday\n5. Yield\n6. Yawn\n7. Yodel\n8. Yogurt\n9. Youth\n10. Yard\n11. Yelling\n12. Yolk\n13. Yankee\n14. Yuppie\n15. Yonder\n16. Yelling\n17. Yarrow\n18. Yet\n19. Yoga\n20. Year\n21. Yip\n22. Yankee\n23. Yacht\n24. Yahoo\n25. Yodel"
+                ]
+            ],
+            "{\"temperature\": 1.5}": [
+                [
+                    "1. Yard\n2. Yesterday\n3. Yield\n4. Yacht\n5. Yearning\n6. Yodel\n7. Yokel\n8. Yarn\n9. Yew\n10. Yolk\n11. Youth\n12. Yachtsman\n13. Yogi\n14. Yowl\n15. Yukon\n16. Yogurt\n17. Yack\n18. Yearly\n19. Yeoman\n20. Yardstick\n21. Yaw\n22. Yin\n23. Yesterday's\n24. Yesteryear\n25. Yodelers"
+                ]
+            ],
+            "{\"temperature\": 2}": [
+                [
+                    "1.  Yard\n2.  Yearn\n3.  Yesterday\n4.  Yawn\n5.  Yogurt\n6.  Youngster\n7.  Yield\n8.  Yolk\n9.  Youth\n10. Yarn\n11. Yes\n12. Yak\n13. Yen\n14. Yacht\n15. Yardstick\n16. Yeast\n17. Yellow\n18. Yahoo\n19. Year\n20. Yip\n21. Yucca\n22. Yoga\n23. Yukon\n24. Youthfulness\n25. Yachtsman"
+                ]
+            ]
+        },
+        "config": {
+            "given_words": [
+                "edible",
+                "juice",
+                "entrance",
+                "sovereign",
+                "shank",
+                "theory",
+                "coating",
+                "conversion",
+                "catalogue",
+                "spoil",
+                "forced",
+                "shifting",
+                "denote",
+                "struggle",
+                "villain",
+                "trench",
+                "discredit",
+                "competent",
+                "impudent",
+                "chosen"
+            ],
+            "letter": "y",
+            "repeat": 0
+        }
+    }
+]

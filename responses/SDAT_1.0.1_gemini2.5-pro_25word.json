@@ -1,0 +1,407 @@
+[
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "hammer\njoy\nocean\nidea\nfuture\nknuckle\necho\ngravity\nspore\nfriendship\ncloud\nstory\ndegree\nitch\nsilence\njourney\ndust\nvirtue\nglove\nbridge\nflavor\nlimit\nshadow\nrhythm\ndoubt"
+                ],
+                [
+                    "Justice\nSpoon\nFog\nJoy\nHinge\nPebble\nIdea\nEcho\nMoment\nPromise\nBottle\nDoubt\nOcean\nStory\nItch\nJourney\nHammer\nSilence\nRoom\nStar\nLimit\nGlove\nVoid\nInch\nFriendship"
+                ],
+                [
+                    "star\njustice\nroot\necho\nanchor\ncuriosity\nshadow\nsalt\nvoid\nlaughter\nmirror\nfungus\nhorizon\nthread\nmemory\npebble\nrhythm\ncloud\npromise\nkey\nsilence\nseed\nchaos\nvenom\ndream"
+                ],
+                [
+                    "chaos\ngalaxy\nkey\nfungus\nmoment\necho\nsmoke\nhunger\ndream\nsecret\nknuckle\nlightning\nanchor\npocket\npromise\njourney\nvoid\nbread\nglove\npebble\nlogic\nhorizon\nbell\nink\nroot"
+                ],
+                [
+                    "rock\njustice\necho\ngrief\nkey\nhorizon\nmoment\nspore\nvowel\nmaze\ndust\nguest\nscent\ngravity\nsilence\nghost\nplot\nlogic\nvapor\nfence\nspark\nrhythm\nmemory\nvoid\nclue"
+                ],
+                [
+                    "Doubt\nClock\nCloud\nKnot\nBottle\nEcho\nSalt\nLaw\nDust\nNumber\nDesert\nShadow\nGlove\nHunger\nReason\nRoot\nInk\nFlaw\nMaze\nGlass\nPoem\nHorizon\nStranger\nRhythm\nVoid"
+                ],
+                [
+                    "ambition\nriver\nshadow\nmelody\njustice\ncrystal\nvoid\nspice\nanchor\ndream\nhorizon\nchaos\nlens\necho\nthirst\nbridge\nlabyrinth\noath\nserenity\nsmoke\nmirage\nrhythm\nspore\ngesture\neternity"
+                ],
+                [
+                    "Sorrow\nKey\nOcean\nFuture\nGrain\nGlove\nEcho\nJustice\nBone\nVoid\nLens\nFog\nRoof\nPatience\nMoth\nMoment\nLie\nJar\nDust\nAngle\nGlow\nRoot\nStranger\nFlaw\nQuest"
+                ],
+                [
+                    "Doubt\nOcean\nAnchor\nSalt\nMoment\nWhisper\nFungus\nPatience\nThorn\nGlove\nDesert\nShadow\nBridge\nInk\nHunger\nPattern\nPebble\nGlimmer\nPromise\nEnvelope\nDegree\nFrost\nHorizon\nMemory\nRust"
+                ],
+                [
+                    "justice\ncloud\nhammer\nbread\nwhale\nmoment\necho\nneighbor\nsilence\nthread\nstory\ndesert\nknuckle\njar\nhunger\nshadow\nbridge\nroot\ndust\npath\nquestion\nlaw\nink\ndream\nflaw"
+                ]
+            ]
+        },
+        "config": {
+            "language": "English"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "Justicia\nSombra\nM\u00fasica\nRa\u00edz\nPuente\nSilencio\nSemilla\nFrontera\nNube\nMemoria\nSal\nRisa\nPolvo\nHorizonte\nLlave\nMiedo\nIsla\nVoz\nEspejo\nHambre\nCeniza\nSue\u00f1o\nPiedra\nEco\nAire"
+                ],
+                [
+                    "Justicia\nNube\nLlave\nSue\u00f1o\nArena\nM\u00fasica\nPuente\nHambre\nEspejo\nSilencio\nSemilla\nFrontera\nEco\nCeniza\nRisa\nHorizonte\nSal\nAncla\nPolvo\nMemoria\nIsla\nSombra\nV\u00e9rtigo\nC\u00f3digo\nRa\u00edz"
+                ],
+                [
+                    "Justicia\nEstrella\nMartillo\nNaranja\nSoledad\nNube\nSilencio\nPuente\nValent\u00eda\nArena\nFuturo\nRa\u00edz\nSue\u00f1o\nGuante\nOc\u00e9ano\nMentira\nSombra\nBotella\nAbeja\nViaje\nPalabra\nHambre\nFuego\nLlave\nSabidur\u00eda"
+                ],
+                [
+                    "Justicia\nMonta\u00f1a\nCuchara\nNido\nSilencio\nEstrella\nNostalgia\nPuente\nRa\u00edz\nFuturo\nNube\nSeda\nP\u00e1rpado\nSombra\nPan\nLaberinto\nL\u00e1grima\nLlave\nLealtad\nCeniza\nBotella\nSue\u00f1o\nR\u00edo\nCarta\nEco"
+                ],
+                [
+                    "Llave\nOc\u00e9ano\nJusticia\nM\u00fasica\nEstrella\nMiedo\nPan\nFuturo\nRa\u00edz\nVac\u00edo\nFuego\nPuente\nIdea\nNube\nSue\u00f1o\nPalabra\nCeniza\nV\u00ednculo\nSombra\nViaje\nBotella\nMito\nL\u00edmite\nArena\nOlor"
+                ],
+                [
+                    "Justicia\nSombra\nEco\nAncla\nVac\u00edo\nAroma\nLaberinto\nHueso\nFrontera\nV\u00e9rtigo\nSemilla\nSilencio\nAzar\nEspejo\nCicatriz\nNube\nSoledad\nRa\u00edz\nTiempo\nSecreto\nBr\u00fajula\nSue\u00f1o\nEspuma\nMemoria\nCandado"
+                ],
+                [
+                    "Cielo\nNostalgia\nMartillo\nVerdad\nR\u00edo\nSombrero\nSilencio\nPuente\nAmistad\nNiebla\nCuriosidad\nSombra\nM\u00fasica\nFrontera\nDuda\nLibro\nCoraz\u00f3n\nSecreto\nFuturo\nArena\nHambre\nEco\nSue\u00f1o\nEspejo\nAzar"
+                ],
+                [
+                    "Futuro\nArena\nMiedo\nPuente\nSilencio\nRa\u00edz\nEco\nJusticia\nNube\nSal\nSue\u00f1o\nHorizonte\nSangre\nPregunta\nPolvo\nEspejo\nHambre\nCicatriz\nVac\u00edo\nSemilla\nVoz\nSombra\nN\u00famero\nHumo\nLlave"
+                ],
+                [
+                    "Justicia\nSombra\nM\u00fasica\nAncla\nHorizonte\nSal\nEco\nSemilla\nNostalgia\nBurbuja\nSilencio\nRa\u00edz\nSue\u00f1o\nPolvo\nCicatriz\nAzar\nPuente\nRitmo\nBr\u00fajula\nHuella\nRel\u00e1mpago\nSoledad\nEspejo\nTiempo\nCoral"
+                ],
+                [
+                    "soledad\nnube\njusticia\nllave\nmemoria\narena\npuente\nsue\u00f1o\nhorizonte\nsemilla\neco\npan\nduda\nviento\nespejo\nazar\nra\u00edz\nsilencio\nsombra\nlibro\ninstante\nsal\nfrontera\nvoz\npolvo"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Spanish"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "Justice\nNuage\nMarteau\nSilence\nGraine\nMiroir\nQuestion\nRoche\nSouffle\nCouleur\nPont\nPeur\nSable\nLoi\nR\u00eave\nCl\u00e9\nSel\nArbre\nFronti\u00e8re\nLivre\nInstant\nChapeau\nForce\nPain\nBo\u00eete"
+                ],
+                [
+                    "Joie\nOc\u00e9an\nCl\u00e9\nPain\nFourmi\nDoute\nSilence\n\u00c9toile\nGraine\nAvenir\nSable\nLoi\nNuage\nFor\u00eat\nFaim\nCourage\nPont\nOdeur\nRacine\nId\u00e9e\nFeu\nR\u00eave\nMot\nAmiti\u00e9\nPas"
+                ],
+                [
+                    "Peur\nTemps\nSilence\nFeu\n\u00c9toile\nPierre\nVent\nLoup\nFourmi\nArbre\nCl\u00e9\nLivre\nVerre\nPain\nSel\nMain\nVoix\nOmbre\nPont\nGuerre\nMusique\nBo\u00eete\nChapeau\nBruit\nR\u00eave"
+                ],
+                [
+                    "Cl\u00e9\nNuage\nPeur\nGraine\nSilence\nLoi\nR\u00eave\nFeu\nV\u00e9rit\u00e9\nPont\nOiseau\nCause\nVide\nVoix\nHasard\nPain\nVent\nM\u00e9moire\nCoeur\nPoussi\u00e8re\nAvenir\nOdeur\nNombre\nD\u00e9sert\nMot"
+                ],
+                [
+                    "R\u00eave\nJustice\nSilence\nCiel\nVent\nSable\nGraine\nOiseau\nCl\u00e9\nLivre\nPont\nPain\nSel\nVoix\nSouffle\nFutur\nChemin\nOmbre\nPoussi\u00e8re\nMusique\nFil\nBo\u00eete\nFeu\nNombre\nChaleur"
+                ],
+                [
+                    "Temps\nR\u00eave\nOc\u00e9an\nSilence\nGraine\nMiroir\nPoussi\u00e8re\nQuestion\nCouleur\nFeu\nHasard\nPont\nVoix\nOmbre\nLoi\nSable\nMusique\nCl\u00e9\nSouffle\nMur\nSel\nChemin\nJustice\n\u00c9toile\nFaim"
+                ],
+                [
+                    "Amour\nRoche\nMusique\nTemps\nPont\nR\u00eave\nGraine\nSilence\n\u00c9toile\nCl\u00e9\nOc\u00e9an\nJustice\nSouffle\nMiroir\nPeur\nHasard\nFil\nNuage\nFronti\u00e8re\nLivre\nSel\nFen\u00eatre\nLoi\nInsecte\nOmbre"
+                ],
+                [
+                    "doute\noc\u00e9an\ngraine\ncl\u00e9\npont\nmiroir\nsel\ninstant\nsilence\n\u00e9cho\nlangue\n\u00e9toile\nombre\nsouffle\nvent\nfeu\npoussi\u00e8re\nquestion\nmur\nchemin\nhorizon\nrire\nsoif\nz\u00e9ro\ncouleur"
+                ],
+                [
+                    "Doute\nOc\u00e9an\nMarteau\nCitron\nAvenir\nCoeur\nSilence\nVent\nPaix\nSoie\nCorbeau\nD\u00e9sert\nOmbre\nLoi\nGraine\nFaim\nClef\n\u00c9toile\nZ\u00e9ro\nVoix\nFum\u00e9e\nR\u00eave\nConfiance\nPont\nVoyage"
+                ],
+                [
+                    "R\u00eave\nMontagne\nJustice\nSilence\nMarteau\nCouleur\nFor\u00eat\nChanson\nDestin\nNuage\nPont\nPain\nChaleur\nId\u00e9e\nFen\u00eatre\nVoyage\nPierre\nLangage\nFeu\nOdeur\nLivre\nVent\nChaise\nEau\nChapeau"
+                ]
+            ]
+        },
+        "config": {
+            "language": "French"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "Staub\nHoffnung\nEcho\nBr\u00fccke\nAugenblick\nWolke\nGedanke\nAtem\nR\u00e4tsel\nGeheimnis\nW\u00fcste\nSchl\u00fcssel\nMetapher\nLeere\nSchatten\nStille\nReise\nFunke\nZweifel\nGrenze\nErgebnis\nTinte\nErinnerung\nFl\u00fcstern\nWunsch"
+                ],
+                [
+                    "Liebe\nStein\nGedanke\nBr\u00fccke\nWolke\nSchl\u00fcssel\nTraum\nFluss\nGesetz\nSchatten\nStimme\nBaum\nFrage\nStaub\nWeg\nL\u00f6ffel\nFunke\nZweifel\nLoch\nGrenze\nWelle\nSpiegel\nGeruch\nSaat\nR\u00e4tsel"
+                ],
+                [
+                    "Hoffnung\nSchraube\nGedanke\nSchatten\nMusik\nZahl\nW\u00fcste\nGesetz\nFreundschaft\nStaub\nSekunde\nGeruch\nBr\u00fccke\nTraum\nHolz\nGerechtigkeit\nWolke\nWitz\nHunger\nEcho\nFarbe\nZweifel\nReise\nStille\nWort"
+                ],
+                [
+                    "L\u00f6ffel\nFreiheit\nSchatten\nKlang\nGedanke\nStein\nVertrauen\nZukunft\nBrot\nAngst\nGesetz\nStaub\nTraum\nNadel\nWahrheit\nWasser\nStille\nHerz\nZufall\nEcho\nWunsch\nSamen\nGrenze\nErinnerung\nFeuer"
+                ],
+                [
+                    "Gerechtigkeit\nHammer\nSehnsucht\nStern\nBr\u00fccke\nZufall\nWurzel\nGedanke\nSchatten\nNebel\nVersprechen\nSandkorn\nDurst\nStille\nGesetz\nEcho\nZukunft\nSprung\nSchlaf\nGrenze\nFunke\nWelle\nL\u00fcge\nR\u00e4tsel\nStaub"
+                ],
+                [
+                    "Gerechtigkeit\nStaub\nL\u00f6ffel\nAugenblick\nSchatten\nHunger\nBr\u00fccke\nErinnerung\nWelle\nZweifel\nKlang\nAtem\nGrenze\nFunke\nChaos\nZiel\nNachricht\nVertrauen\nLeere\nUrsprung\nHolz\nSpielzeug\nW\u00e4hrung\nWert\nKreis"
+                ],
+                [
+                    "Schl\u00fcssel\nHorizont\nGerechtigkeit\nStaub\nSehnsucht\nBr\u00fccke\nZweifel\nAtem\nNebel\nL\u00fcge\nSchatten\nStille\nWurzel\nFunke\nChaos\nTraum\nGeheimnis\nSprache\nDurst\nLeere\nInsel\nEcho\nZukunft\nWerkzeug\nSpiegel"
+                ],
+                [
+                    "Wahrheit\nStaub\nBr\u00fccke\nGedanke\nSchatten\nDurst\nEcho\nZukunft\nSchl\u00fcssel\nNebel\nGrenze\nFunke\nZweifel\nWurzel\nSchlaf\nKlang\nWeg\nHunger\nTraum\nStille\nGl\u00fcck\nZufall\nWandel\nLeere\nAtem"
+                ],
+                [
+                    "Atem\nBr\u00fccke\nEcho\nFrage\nGedanke\nHoffnung\nHorizont\nL\u00f6ffel\nL\u00fcge\nNarbe\nNeugier\nR\u00e4tsel\nSchatten\nSchmetterling\nSprung\nStaub\nStille\nTraum\nVertrauen\nWeg\nWolke\nWurzel\nZufall\nZweifel\nFunke"
+                ],
+                [
+                    "Schl\u00fcssel\nBr\u00fccke\nWolke\nWurzel\nSehnsucht\nWahrheit\nZukunft\nGesetz\nSchatten\nFrage\nHerz\nGlas\nFeuer\nStern\nMitte\nWort\nStimme\nSchlaf\nVertrauen\nZahl\nHolz\nWind\nWeg\nWunsch\nLeere"
+                ]
+            ]
+        },
+        "config": {
+            "language": "German"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "Libert\u00e0\nOrizzonte\nPolvere\nEco\nSogno\nSilenzio\nFulmine\nPeso\nMaschera\nDubbio\nRitmo\nVuoto\nConfine\nOmbra\nGiustizia\nPonte\nProfumo\nSpazio\nIstante\nMusica\nLabirinto\nSperanza\nVoce\nLegge\nSecolo"
+                ],
+                [
+                    "Stella\nFiume\nSogno\nPolvere\nChiave\nEco\nDubbio\nRadice\nPonte\nSilenzio\nPaura\nOrizzonte\nPeso\nOmbra\nVoce\nSpecchio\nNumero\nRicordo\nSabbia\nConfine\nMano\nRuota\nLegge\nPane\nStoria"
+                ],
+                [
+                    "Destino\nPolvere\nSussurro\nRadice\nSpirale\nConfine\nMalinconia\nEco\nBriciola\nOrizzonte\nSogno\nVuoto\nCenere\nSilenzio\nOmbra\nAttimo\nNodo\nChiave\nEquilibrio\nRespiro\nSguardo\nNuvola\nCulla\nIndizio\nCicatrice"
+                ],
+                [
+                    "Cenere\nDubbio\nEco\nFuturo\nGioia\nOrizzonte\nLimite\nMusica\nNebbia\nPolvere\nRadice\nSabbia\nSegreto\nSpecchio\nAnima\nViaggio\nVuoto\nChiave\nFulmine\nSogno\nLibert\u00e0\nNostalgia\nPromessa\nSilenzio\nCuore"
+                ],
+                [
+                    "Orizzonte\nPolvere\nEco\nNostalgia\nLabirinto\nSilenzio\nScintilla\nRadice\nSogno\nConfine\nMaschera\nVertigine\nMelodia\nCaos\nSpecchio\nCenere\nDubbio\nFilo\nAttimo\nMistero\nChiave\nOmbra\nSpazio\nGuscio\nLegame"
+                ],
+                [
+                    "Coscienza\nSperanza\nOrizzonte\nPolvere\nSpecchio\nSilenzio\nViaggio\nCicatrice\nSoglia\nDubbio\nEco\nAbisso\nScintilla\nFame\nNebbia\nConfine\nLabirinto\nIstante\nMenzogna\nSogno\nChiave\nScelta\nOmbra\nNostalgia\nStagione"
+                ],
+                [
+                    "Abisso\nAncora\nBussola\nCenere\nClessidra\nConfine\nDubbio\nEco\nEredit\u00e0\nEternit\u00e0\nFulmine\nGalassia\nGuscio\nLabirinto\nNostalgia\nOmbra\nOrizzonte\nPalpebra\nPolvere\nPromessa\nRiflesso\nSilenzio\nSogno\nSperanza\nZucchero"
+                ],
+                [
+                    "Orizzonte\nRadice\nEco\nSperanza\nChiave\nPolvere\nSilenzio\nLabirinto\nSete\nConfine\nSogno\nGuscio\nPonte\nCenere\nRitmo\nIsola\nDubbio\nSpecchio\nFerita\nNuvola\nLegge\nSeme\nVuoto\nMaschera\nViaggio"
+                ],
+                [
+                    "Sogno\nPonte\nPolvere\nEco\nFame\nChiave\nConfine\nNuvola\nSilenzio\nRadice\nMaschera\nSeme\nOmbra\nLegge\nSpecchio\nCaos\nSapore\nLabirinto\nCenere\nMemoria\nVoce\nIstante\nFerita\nOrizzonte\nSegreto"
+                ],
+                [
+                    "Coscienza\nOrizzonte\nPolvere\nSogno\nAncora\nSilenzio\nGalassia\nCicatrice\nLabirinto\nEco\nSeme\nDubbio\nCrepuscolo\nPonte\nNostalgia\nRespiro\nScintilla\nConfine\nOmbra\nIstante\nDestino\nVuoto\nChiave\nRito\nMuschio"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Italian"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "Horizon\nMelancholie\nSleutel\nEcho\nGeheim\nDroom\nLabyrint\nStilte\nZaadje\nWaarheid\nGeur\nSchaduw\nRitueel\nGrens\nEeuwigheid\nVonk\nTaal\nChaos\nSpiegel\nLeegte\nWens\nStof\nEvenwicht\nGedachte\nMuziek"
+                ],
+                [
+                    "Vrijheid\nSpiegel\nHonger\nSchaduw\nGedachte\nAnker\nPuzzel\nHorizon\nSleutel\nStof\nEcho\nWortel\nGeheim\nBrug\nKruimel\nTwijfel\nVonk\nGrens\nDroom\nInkt\nMuziek\nLeugen\nZwaartekracht\nLitteken\nMoment"
+                ],
+                [
+                    "Gedachte\nSteen\nSleutel\nVreugde\nSchaduw\nMoment\nBrood\nWortel\nStilte\nGrens\nJas\nSter\nWater\nHonger\nTaal\nVogel\nHuis\nVriend\nKleur\nSlaap\nDoos\nIdee\nWind\nAfstand\nMuziek"
+                ],
+                [
+                    "Vreugde\nSter\nHamer\nToekomst\nWortel\nWind\nVriendschap\nKnie\nStilte\nZand\nSok\nGedachte\nBrug\nOlifant\nInkt\nLeegte\nFles\nBlad\nTaal\nPijn\nCirkel\nGedicht\nSleutel\nGewicht\nRivier"
+                ],
+                [
+                    "Gedachte\nHorizon\nSleutel\nWalvis\nSchaduw\nMuziek\nTijd\nBrug\nVreugde\nSteen\nDroom\nTaal\nLicht\nRivier\nGeheim\nBoom\nStem\nGetal\nBrood\nWolk\nStilte\nSter\nDoos\nWaarde\nJas"
+                ],
+                [
+                    "Liefde\nZee\nSleutel\nTijd\nGedachte\nWolk\nSpiegel\nVrijheid\nSter\nHart\nBrood\nDroom\nMuziek\nBrug\nZaadje\nSchaduw\nStem\nVerhaal\nAngst\nStad\nZand\nWet\nGrens\nGlas\nWoord"
+                ],
+                [
+                    "Gedachte\nRivier\nHamer\nVreugde\nBrood\nKnie\nToekomst\nSter\nStilte\nWet\nJas\nWortel\nKleur\nBrug\nVriendschap\nVogel\nFles\nWind\nWoord\nZand\nSlaap\nGewicht\nReis\nGeur\nFout"
+                ],
+                [
+                    "Vrijheid\nSleutel\nWolk\nTwijfel\nHorizon\nGrens\nZout\nAdem\nStilte\nSpiegel\nRaadsel\nVuur\nHonger\nEcho\nSchaduw\nVriendschap\nWortel\nCirkel\nNacht\nToren\nFout\nGlas\nDroom\nGewicht\nKleur"
+                ],
+                [
+                    "Sleutel\nVerdriet\nOceaan\nGedachte\nZandkorrel\nToekomst\nEcho\nVrijheid\nWortel\nMist\nGrens\nNieuwsgierigheid\nStilte\nHamer\nDroom\nVertrouwen\nVlinder\nRitme\nSchaduw\nVonk\nLeegte\nSmaak\nBrug\nGeheim\nMoment"
+                ],
+                [
+                    "Sleutel\nVreugde\nHorizon\nGedachte\nStof\nBliksem\nKeuze\nSchaduw\nMoment\nGeheim\nRivier\nDroom\nHonger\nVonk\nStilte\nWortel\nWaarheid\nBrug\nEcho\nZiel\nCijfer\nNevel\nAngst\nKompas\nZandkorrel"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Dutch"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "Justi\u00e7a\nNuvem\nChave\nSonho\nDeserto\nEco\nSaudade\nRaiz\nFuturo\nPonte\nPoeira\nAsa\nSopro\nBolso\nEstrela\nSil\u00eancio\nP\u00e3o\nLivro\nL\u00e1grima\nCoragem\nFronteira\nPedra\nSombra\nD\u00favida\nAbra\u00e7o"
+                ],
+                [
+                    "Saudade\nMartelo\nRel\u00e2mpago\nAbacaxi\nSil\u00eancio\nPartitura\nHorizonte\nOceano\nPoeira\nJusti\u00e7a\nPonte\nSussurro\nFuturo\nBorboleta\nPesadelo\nVeludo\nPedra\nLenda\nN\u00e9voa\nGarrafa\nJornada\nCinza\nVertigem\nFronteira\nEco"
+                ],
+                [
+                    "Saudade\nHorizonte\n\u00c2ncora\nSemente\nEco\nP\u00e1lpebra\nGaveta\nRaiz\nCrep\u00fasculo\nLabirinto\nNeblina\nTestemunha\nAcaso\nOrvalho\nEspiral\nCinzel\nM\u00e1scara\nPenhasco\nFerrugem\nEnigma\nSolu\u00e7o\nSombra\nCasulo\nArquip\u00e9lago\nPoeira"
+                ],
+                [
+                    "Saudade\nHorizonte\nLabirinto\nEco\nSemente\nJusti\u00e7a\n\u00c2ncora\nVertigem\nPoeira\nParadoxo\nM\u00fasica\nCrep\u00fasculo\nChave\nDeserto\nSegredo\nFronteira\nSal\nMem\u00f3ria\nNuvem\nCicatriz\nP\u00eandulo\nFic\u00e7\u00e3o\nSombra\nVazio\nRaiz"
+                ],
+                [
+                    "Saudade\nEstrela\nSemente\n\u00c2ncora\nLabirinto\nEco\nSal\nSonho\nSombra\nCicatriz\nArgila\nJusti\u00e7a\nPoeira\nHorizonte\nFagulha\nVazio\nChave\nNuvem\nRaiz\nEspelho\nSegredo\nRitmo\nIlha\nM\u00e1scara\nAbismo"
+                ],
+                [
+                    "Saudade\nEstrela\nPonte\nJusti\u00e7a\nVento\nSemente\nEspelho\nM\u00fasica\nHorizonte\nChave\nSal\nSombra\nEco\nSonho\nPoeira\nFogo\n\u00c2ncora\nSil\u00eancio\nRaiz\nBaleia\nNuvem\nLabirinto\nBolha\nFronteira\nCinza"
+                ],
+                [
+                    "Saudade\nNuvem\nChave\nAreia\nEco\nSonho\nRaiz\nFronteira\nSil\u00eancio\nPonte\nFome\nEspelho\nVento\nPoeira\nHorizonte\nN\u00f3\nIlha\nSombra\nGelo\nRiso\nSede\nFogo\nSal\n\u00c2ncora\nM\u00e1scara"
+                ],
+                [
+                    "Abismo\nCrep\u00fasculo\nSaudade\nLabirinto\nGal\u00e1xia\nSemente\nEco\nFronteira\nAreia\nSonho\n\u00c2ncora\nVulc\u00e3o\nSil\u00eancio\nRaiz\nEspelho\nN\u00e9voa\nMem\u00f3ria\nChave\nPoeira\nHorizonte\nM\u00fasica\nL\u00e1grima\nPonte\nFome\nJusti\u00e7a"
+                ],
+                [
+                    "Justi\u00e7a\nNuvem\nEco\nSaudade\nPonte\nMem\u00f3ria\nHorizonte\nChave\nLabirinto\nSombra\nCaos\nGal\u00e1xia\nFumo\nRaiz\nSonho\nLinguagem\nSil\u00eancio\nMel\nFronteira\nPoeira\nVazio\nM\u00fasica\nInstante\nAreia\nBot\u00e3o"
+                ],
+                [
+                    "Saudade\nPedra\nChave\nRaiz\nJusti\u00e7a\nEstrela\nP\u00e3o\nSil\u00eancio\nNuvem\nPonte\nSonho\nFogo\nLuva\nFuturo\n\u00c1gua\nMartelo\nIlha\nM\u00fasica\nCaixa\nCoragem\nCadeira\nSemente\nSombra\nLei\nCaminho"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Portuguese"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u8a18\u61b6\n\u79e9\u5e8f\n\u8679\n\u6f6e\n\u9699\u9593\n\u7d46\n\u5f71\n\u93e1\n\u65c5\n\u9759\u5bc2\n\u8b0e\n\u96eb\n\u6ce1\u6cab\n\u9650\u754c\n\u7d04\u675f\n\u9f13\u52d5\n\u61a7\u308c\n\u8f4d\n\u5668\n\u97ff\u304d\n\u6e90\n\u8ecc\u8de1\n\u6b6a\u307f\n\u899a\u609f\n\u75d5\u8de1"
+                ],
+                [
+                    "\u8a18\u61b6\n\u5730\u5e73\u7dda\n\u77db\u76fe\n\u6ce1\n\u6c88\u9ed9\n\u9699\u9593\n\u904b\u547d\n\u97ff\u304d\n\u5f71\n\u61a7\u308c\n\u79e9\u5e8f\n\u96eb\n\u5e7b\n\u5b64\u72ec\n\u6c38\u9060\n\u6b20\u7247\n\u5b87\u5b99\n\u5642\n\u8f1d\u304d\n\u6df7\u6c8c\n\u7d46\n\u77ac\u9593\n\u9727\n\u81ea\u7531\n\u5875"
+                ],
+                [
+                    "1. \u8a18\u61b6\n2. \u5b87\u5b99\n3. \u6c88\u9ed9\n4. \u5f71\n5. \u7d04\u675f\n6. \u93e1\n7. \u52c7\u6c17\n8. \u5d50\n9. \u77db\u76fe\n10. \u9375\n11. \u5076\u7136\n12. \u5730\u5e73\u7dda\n13. \u6587\u5316\n14. \u77ac\u9593\n15. \u81ea\u7531\n16. \u96eb\n17. \u5642\n18. \u5e78\u798f\n19. \u5883\u754c\n20. \u904b\u547d\n21. \u7a2e\n22. \u6c38\u9060\n23. \u9699\u9593\n24. \u6cd5\u5f8b\n25. \u821f"
+                ],
+                [
+                    "1. \u8a18\u61b6\n2. \u5b87\u5b99\n3. \u5f71\n4. \u77db\u76fe\n5. \u65c5\n6. \u6c88\u9ed9\n7. \u96eb\n8. \u9375\n9. \u7d46\n10. \u5e0c\u671b\n11. \u5883\u754c\n12. \u79e9\u5e8f\n13. \u904b\u547d\n14. \u93e1\n15. \u9b42\n16. \u6642\u9593\n17. \u5922\n18. \u8abf\u548c\n19. \u6249\n20. \u5b64\u72ec\n21. \u7269\u8a9e\n22. \u7406\u60f3\n23. \u6df7\u6c8c\n24. \u9999\u308a\n25. \u610f\u8b58"
+                ],
+                [
+                    "\u6681\n\u7d46\n\u865a\u7a7a\n\u5239\u90a3\n\u9759\u5bc2\n\u79e9\u5e8f\n\u6ce2\u7d0b\n\u54c1\u683c\n\u5e7b\n\u4f59\u97fb\n\u904b\u547d\n\u5883\u754c\n\u90f7\u6101\n\u97ff\u304d\n\u5fae\u5149\n\u4f7f\u547d\n\u5076\u7136\n\u5909\u9077\n\u6c17\u9aa8\n\u6ce1\n\u7cf8\n\u93e1\n\u9375\n\u790e\n\u5668"
+                ],
+                [
+                    "1. \u61a7\u308c\n2. \u7d46\n3. \u9759\u5bc2\n4. \u5239\u90a3\n5. \u967d\u708e\n6. \u96eb\n7. \u77db\u76fe\n8. \u9ec4\u660f\n9. \u904b\u547d\n10. \u56c1\u304d\n11. \u6954\n12. \u79e9\u5e8f\n13. \u65cb\u5f8b\n14. \u9f13\u52d5\n15. \u6b8b\u50cf\n16. \u5e7b\n17. \u9e93\n18. \u885d\u7acb\n19. \u9727\n20. \u895f\n21. \u9699\n22. \u6f6e\u9a12\n23. \u9999\u308a\n24. \u4fa1\u5024\n25. \u934b"
+                ],
+                [
+                    "\u8a18\u61b6\n\u5618\n\u52c7\u6c17\n\u8679\n\u5f71\n\u5d50\n\u96eb\n\u77ac\u9593\n\u8ddd\u96e2\n\u6c38\u9060\n\u7d04\u675f\n\u79d8\u5bc6\n\u79e9\u5e8f\n\u6c88\u9ed9\n\u9999\u308a\n\u97ff\u304d\n\u904b\u547d\n\u77db\u76fe\n\u4fa1\u5024\n\u7269\u8a9e\n\u8b0e\n\u9375\n\u93e1\n\u7d46\n\u5146\u3057"
+                ],
+                [
+                    "\u904b\u547d\n\u8a18\u61b6\n\u6642\u9593\n\u5e0c\u671b\n\u5b87\u5b99\n\u6c88\u9ed9\n\u5f71\n\u93e1\n\u6249\n\u9375\n\u5618\n\u7d04\u675f\n\u7d46\n\u5b64\u72ec\n\u52c7\u6c17\n\u5922\n\u5149\n\u97f3\n\u98a8\n\u96eb\n\u5730\u5e73\u7dda\n\u9999\u308a\n\u81ea\u7531\n\u77ac\u9593\n\u8239"
+                ],
+                [
+                    "\u5e0c\u671b\n\u5b87\u5b99\n\u8a18\u61b6\n\u6c88\u9ed9\n\u77db\u76fe\n\u7d46\n\u5f71\n\u5d50\n\u9699\u9593\n\u65c5\n\u9999\u308a\n\u8b0e\n\u5668\n\u904b\u547d\n\u6c7a\u610f\n\u5b89\u3089\u304e\n\u79e9\u5e8f\n\u96eb\n\u9f13\u52d5\n\u5e7b\n\u771f\u5b9f\n\u7d04\u675f\n\u6c38\u9060\n\u5236\u5ea6\n\u77ac\u9593"
+                ],
+                [
+                    "\u5e0c\u671b\n\u8a18\u61b6\n\u5149\n\u5f71\n\u77ac\u9593\n\u6c38\u9060\n\u7d46\n\u904b\u547d\n\u9759\u5bc2\n\u97ff\u304d\n\u5883\u754c\n\u52c7\u6c17\n\u79d8\u5bc6\n\u8b0e\n\u5e7b\n\u4ed5\u8349\n\u9999\u308a\n\u540d\u6b8b\n\u5c0a\u53b3\n\u79e9\u5e8f\n\u77db\u76fe\n\u61a7\u308c\n\u4ed5\u7d44\u307f\n\u865a\u7a7a\n\u59cb\u307e\u308a"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Japanese"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u0633\u062d\u0627\u0628\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0623\u0645\u0644\n\u0631\u062d\u0644\u0629\n\u0638\u0644\n\u062d\u0643\u0645\u0629\n\u0635\u062f\u0649\n\u0641\u0631\u0627\u0634\u0629\n\u0634\u0645\u0639\u0629\n\u062d\u0644\u0645\n\u0645\u0648\u062c\u0629\n\u0623\u0633\u0637\u0648\u0631\u0629\n\u0633\u0631\u0627\u0628\n\u0641\u062c\u0631\n\u0644\u063a\u0632\n\u0631\u0645\u0627\u062f\n\u0639\u0637\u0631\n\u0642\u0627\u0631\u0648\u0631\u0629\n\u0648\u0647\u0645\n\u0630\u0627\u0643\u0631\u0629\n\u0646\u062c\u0645\u0629\n\u063a\u0628\u0627\u0631\n\u0628\u0648\u0635\u0644\u0629\n\u062c\u0630\u0648\u0631\n\u0635\u0645\u062a"
+                ],
+                [
+                    "\u0643\u0631\u0633\u064a\n\u0645\u0635\u064a\u0631\n\u0633\u062d\u0627\u0628\u0629\n\u062e\u0628\u0632\n\u0641\u0631\u062d\n\u0645\u0637\u0631\u0642\u0629\n\u0635\u062f\u0649\n\u0633\u0642\u0641\n\u0645\u0633\u0627\u0641\u0629\n\u0646\u0647\u0631\n\u0641\u0643\u0631\u0629\n\u0642\u0645\u064a\u0635\n\u0631\u064a\u062d\n\u062d\u0643\u0645\u0629\n\u062c\u0630\u0631\n\u0638\u0644\n\u0644\u062d\u0638\u0629\n\u0635\u0646\u062f\u0648\u0642\n\u0642\u0627\u0646\u0648\u0646\n\u0642\u0644\u0628\n\u0635\u062d\u0631\u0627\u0621\n\u0643\u062a\u0627\u0628\n\u0635\u062f\u0627\u0642\u0629\n\u062d\u0644\u0645\n\u062d\u062c\u0631"
+                ],
+                [
+                    "\u0641\u0643\u0631\u0629\n\u0633\u062d\u0627\u0628\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0638\u0644\n\u0630\u0627\u0643\u0631\u0629\n\u0644\u062d\u0646\n\u062c\u0630\u0631\n\u0628\u0648\u0635\u0644\u0629\n\u0631\u0645\u0627\u062f\n\u0623\u0641\u0642\n\u0635\u0645\u062a\n\u062e\u064a\u0637\n\u064a\u0642\u064a\u0646\n\u0645\u0648\u062c\u0629\n\u0645\u0631\u0622\u0629\n\u0633\u0631\n\u063a\u0628\u0627\u0631\n\u0634\u0648\u0642\n\u0628\u0630\u0631\u0629\n\u0635\u062f\u0649\n\u0639\u062f\u0627\u0644\u0629\n\u0646\u062c\u0645\n\u0644\u062d\u0638\u0629\n\u0636\u0628\u0627\u0628\n\u062d\u0644\u0645"
+                ],
+                [
+                    "\u0634\u0645\u0633\n\u0641\u0643\u0631\u0629\n\u062c\u0633\u0631\n\u0635\u0648\u062a\n\u0645\u0631\u0622\u0629\n\u0648\u0642\u062a\n\u062d\u0644\u0645\n\u063a\u0628\u0627\u0631\n\u0645\u0641\u062a\u0627\u062d\n\u0638\u0644\n\u0642\u0627\u0646\u0648\u0646\n\u0628\u062d\u0631\n\u0630\u0627\u0643\u0631\u0629\n\u0648\u0639\u062f\n\u062c\u0630\u0631\n\u0633\u0624\u0627\u0644\n\u0639\u0637\u0631\n\u0635\u062e\u0631\u0629\n\u0643\u0644\u0645\u0629\n\u0633\u0631\n\u0644\u062d\u0646\n\u0635\u0645\u062a\n\u0631\u064a\u062d\n\u0646\u0627\u0631\n\u0628\u0627\u0628"
+                ],
+                [
+                    "\u0633\u062d\u0627\u0628\u0629\n\u062c\u0630\u0631\n\u0623\u0645\u0644\n\u0645\u0641\u062a\u0627\u062d\n\u0635\u062f\u0649\n\u0638\u0644\n\u0631\u062d\u0644\u0629\n\u062d\u0643\u0645\u0629\n\u062c\u0633\u0631\n\u0642\u0637\u0631\u0629\n\u062e\u064a\u0627\u0644\n\u0641\u0631\u0627\u063a\n\u0631\u064a\u0634\u0629\n\u0639\u0637\u0631\n\u0644\u062d\u0638\u0629\n\u0642\u0627\u0646\u0648\u0646\n\u0628\u0631\u0642\n\u0648\u0633\u0627\u062f\u0629\n\u062e\u064a\u0637\n\u0645\u0633\u062a\u0642\u0628\u0644\n\u0633\u0644\u0627\u0645\n\u0630\u0627\u0643\u0631\u0629\n\u0645\u0631\u0622\u0629\n\u0644\u063a\u0632\n\u0648\u0647\u0645"
+                ],
+                [
+                    "\u0634\u0645\u0633\n\u0623\u0645\u0644\n\u0645\u0641\u062a\u0627\u062d\n\u0631\u064a\u062d\n\u0644\u062d\u0638\u0629\n\u0642\u0645\u064a\u0635\n\u062c\u0630\u0631\n\u0641\u0643\u0631\u0629\n\u0635\u062d\u0631\u0627\u0621\n\u0635\u062f\u0649\n\u062d\u0628\u0631\n\u0635\u0628\u0631\n\u062c\u0633\u0631\n\u0633\u0631\n\u0642\u0644\u0628\n\u0636\u0628\u0627\u0628\n\u0635\u0646\u062f\u0648\u0642\n\u062e\u064a\u0627\u0644\n\u0646\u0633\u0631\n\u0645\u0631\u0622\u0629\n\u0641\u0631\u0627\u063a\n\u0632\u062c\u0627\u062c\n\u0639\u062f\u0644\n\u0638\u0644\n\u0637\u0631\u064a\u0642"
+                ],
+                [
+                    "\u0646\u062c\u0645\n\u0635\u062d\u0631\u0627\u0621\n\u0623\u0645\u0644\n\u0645\u0641\u062a\u0627\u062d\n\u062c\u0633\u0631\n\u0630\u0643\u0631\u0649\n\u0638\u0644\n\u0644\u062d\u0646\n\u0635\u0645\u062a\n\u0642\u0644\u0628\n\u0631\u062d\u0644\u0629\n\u062d\u0643\u0645\u0629\n\u0632\u0647\u0631\u0629\n\u0631\u0648\u062d\n\u0633\u0624\u0627\u0644\n\u063a\u0628\u0627\u0631\n\u0645\u0631\u0622\u0629\n\u0633\u064a\u0641\n\u0628\u062d\u0631\n\u0644\u063a\u0629\n\u0633\u0631\n\u0646\u0627\u0631\n\u062d\u0644\u0645\n\u0648\u0642\u062a\n\u0637\u0631\u064a\u0642"
+                ],
+                [
+                    "\u062d\u0642\u064a\u0642\u0629\n\u0623\u0641\u0642\n\u0635\u062f\u0649\n\u0639\u0637\u0634\n\u0645\u0637\u0631\u0642\u0629\n\u0642\u062f\u0631\n\u0633\u0641\u064a\u0646\u0629\n\u063a\u0628\u0627\u0631\n\u0644\u062d\u0638\u0629\n\u062e\u064a\u0627\u0644\n\u0645\u0641\u062a\u0627\u062d\n\u0638\u0644\n\u062c\u0633\u0631\n\u0630\u0627\u0643\u0631\u0629\n\u0639\u0637\u0631\n\u0641\u0643\u0631\u0629\n\u0645\u0631\u0622\u0629\n\u0633\u0624\u0627\u0644\n\u0646\u0627\u0631\n\u0648\u0647\u0645\n\u0635\u0645\u062a\n\u062c\u0630\u0631\n\u0642\u0627\u0646\u0648\u0646\n\u062d\u0644\u0645\n\u0628\u062d\u0631"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Arabic"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u5b87\u5b99\n\u65f6\u95f4\n\u601d\u60f3\n\u706b\u7130\n\u955c\u5b50\n\u68ee\u6797\n\u94a5\u5319\n\u77db\u76fe\n\u60c5\u7eea\n\u7fc5\u8180\n\u672a\u6765\n\u8d23\u4efb\n\u58f0\u97f3\n\u8ddd\u79bb\n\u89c4\u5219\n\u8bb0\u5fc6\n\u5e0c\u671b\n\u6865\u6881\n\u81ea\u7531\n\u8bed\u8a00\n\u6050\u60e7\n\u771f\u7406\n\u68a6\u60f3\n\u77f3\u5934\n\u5929\u7a7a"
+                ],
+                [
+                    "\u5929\u7a7a\n\u94a5\u5319\n\u68a6\n\u6c99\u6f20\n\u955c\u5b50\n\u5e0c\u671b\n\u6865\n\u5f71\u5b50\n\u547d\u8fd0\n\u706b\u7130\n\u65c5\u7a0b\n\u6c89\u9ed8\n\u6839\n\u9762\u5177\n\u77ac\u95f4\n\u56de\u58f0\n\u5730\u56fe\n\u8bfa\u8a00\n\u96fe\n\u5473\u9053\n\u8c1c\u9898\n\u773c\u6cea\n\u8fdc\u65b9\n\u7434\u5f26\n\u7070\u70ec"
+                ],
+                [
+                    "\u5929\u7a7a\n\u706b\u7130\n\u94a5\u5319\n\u56de\u58f0\n\u68ee\u6797\n\u8bfa\u8a00\n\u5c18\u57c3\n\u65cb\u5f8b\n\u6865\u6881\n\u5e0c\u671b\n\u955c\u5b50\n\u4f24\u53e3\n\u79d8\u5bc6\n\u73a9\u5177\n\u903b\u8f91\n\u8fb9\u754c\n\u7761\u7720\n\u6c14\u5473\n\u91cd\u91cf\n\u77db\u76fe\n\u6d9f\u6f2a\n\u6cd5\u5f8b\n\u9009\u62e9\n\u5386\u53f2\n\u5f71\u5b50"
+                ],
+                [
+                    "\u5929\u7a7a\n\u9501\n\u6050\u60e7\n\u547d\u8fd0\n\u79cd\u5b50\n\u5f71\u5b50\n\u9ece\u660e\n\u56de\u58f0\n\u8bfa\u8a00\n\u68a6\n\u5e9f\u589f\n\u8c0e\u8a00\n\u6c89\u9ed8\n\u955c\u5b50\n\u96fe\n\u8fb9\u7f18\n\u8c1c\u9898\n\u4f24\u75a4\n\u8ff7\u5bab\n\u6096\u8bba\n\u706b\u7130\n\u7262\u7b3c\n\u65cb\u5f8b\n\u52c7\u6c14\n\u7070\u5c18"
+                ],
+                [
+                    "\u5929\u7a7a\n\u5e0c\u671b\n\u6865\n\u8bb0\u5fc6\n\u68ee\u6797\n\u77db\u76fe\n\u5473\u9053\n\u5730\u5e73\u7ebf\n\u8bfa\u8a00\n\u5f71\u5b50\n\u8d22\u5bcc\n\u65c5\u7a0b\n\u56de\u58f0\n\u8ff7\u5bab\n\u667a\u6167\n\u77ac\u95f4\n\u6c99\u6f20\n\u6cd5\u5f8b\n\u80dc\u5229\n\u8bed\u8a00\n\u9cb8\u9c7c\n\u68a6\u60f3\n\u8ddd\u79bb\n\u4e66\u7c4d\n\u706b\u7130"
+                ],
+                [
+                    "\u5b87\u5b99\n\u77f3\u5934\n\u98ce\n\u6811\n\u5fc3\n\u94a5\u5319\n\u5e8a\n\u6865\n\u8336\n\u58f0\u97f3\n\u7231\n\u65f6\u95f4\n\u6545\u4e8b\n\u6c89\u9ed8\n\u8bed\u8a00\n\u68a6\u60f3\n\u76d2\u5b50\n\u670b\u53cb\n\u73bb\u7483\n\u591c\u665a\n\u9009\u62e9\n\u5706\u5708\n\u5473\u9053\n\u706b\u7130\n\u8ddd\u79bb"
+                ],
+                [
+                    "\u98ce\n\u81ea\u7531\n\u7c73\u996d\n\u9524\u5b50\n\u5fc3\u810f\n\u6865\u6881\n\u77ac\u95f4\n\u90bb\u5c45\n\u889c\u5b50\n\u6c99\u6f20\n\u56de\u58f0\n\u58a8\u6c34\n\u94a5\u5319\n\u79cd\u5b50\n\u8774\u8776\n\u75d2\n\u74f6\u5b50\n\u6cd5\u5f8b\n\u5f71\u5b50\n\u73bb\u7483\n\u5de7\u5408\n\u6bd4\u55bb\n\u88c2\u7f1d\n\u89c4\u5f8b\n\u8bb0\u5fc6"
+                ],
+                [
+                    "\u672a\u6765\n\u667a\u6167\n\u6cb3\u6d41\n\u94a5\u5319\n\u5bc2\u5bde\n\u706b\u7130\n\u79cd\u5b50\n\u89c4\u5f8b\n\u6865\u6881\n\u58f0\u97f3\n\u68ee\u6797\n\u68a6\u60f3\n\u5473\u9053\n\u8fb9\u754c\n\u5fc3\u8df3\n\u7ef3\u5b50\n\u661f\u8fb0\n\u56de\u5fc6\n\u98ce\u66b4\n\u57ce\u5e02\n\u53cb\u8c0a\n\u8bd7\u6b4c\n\u751f\u547d\n\u4e66\u7c4d\n\u5f71\u5b50"
+                ],
+                [
+                    "\u65f6\u95f4\n\u6d77\u6d0b\n\u94a5\u5319\n\u547c\u5438\n\u6d9f\u6f2a\n\u989c\u8272\n\u6545\u4e8b\n\u955c\u5b50\n\u52c7\u6c14\n\u5f71\u5b50\n\u5c71\u5cf0\n\u5173\u7cfb\n\u5c18\u57c3\n\u5473\u9053\n\u58f0\u97f3\n\u79d8\u5bc6\n\u706b\u7130\n\u9053\u8def\n\u9762\u5177\n\u7a97\u6237\n\u601d\u60f3\n\u4e91\n\u68a6\n\u5fc3\n\u6811"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Chinese"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "\uadf8\ub9bc\uc790\n\uc790\uc720\n\uc0ac\ub9c9\n\uae30\uc5b5\n\uc0c8\ubcbd\n\uc5f4\uc1e0\n\uac70\uc6b8\n\uce68\ubb35\n\uc6b4\uba85\n\ud30c\ub3c4\n\uacbd\uacc4\n\ud5a5\uae30\n\uc57d\uc18d\n\uba3c\uc9c0\n\uafc8\n\ubbf8\ub85c\n\uc9c0\ud3c9\uc120\n\ud749\ud130\n\uc9c8\uc11c\n\uc548\uac1c\n\uc228\n\uc18c\ubb38\n\uc2ec\uc5f0\n\ubd88\uaf43\n\ub9dd\uac01"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Korean"
+        }
+    },
+    {
+        "gemini-2.5-pro": {
+            "{\"temperature\": 1}": [
+                [
+                    "My\u0161lenka\nPrach\nTicho\nKl\u00ed\u010d\nNad\u011bje\nKo\u0159en\nHranice\nJiskra\nSt\u00edn\nLabyrint\nVzpom\u00ednka\nMost\nOzv\u011bna\nMlha\nSpravedlnost\nP\u00edrko\nZrcadlo\nSlib\nJeskyn\u011b\nChaos\nVlna\nH\u00e1danka\nZrno\nKotva\nSen"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Czech"
+        }
+    }
+]

@@ -1,0 +1,172 @@
+{
+    "gemini-2.0-flash-lite": {
+        "{\"temperature\": 1.1}": [
+            [
+                "1.  Stone\n2.  Joy\n3.  Mirror\n4.  Dust\n5.  Universe\n6.  Shadow\n7.  Music\n8.  Balance\n9.  Vehicle\n10. Thought"
+            ],
+            [
+                "1.  Sun\n2.  Shadow\n3.  Hope\n4.  Brick\n5.  Silence\n6.  Music\n7.  Forest\n8.  Mirror\n9.  Truth\n10. Journey"
+            ],
+            [
+                "1.  Silence\n2.  Mirror\n3.  Revolution\n4.  Feather\n5.  Diamond\n6.  Gravity\n7.  Laughter\n8.  Forest\n9.  Patience\n10. Shadow"
+            ],
+            [
+                "1.  Dust\n2.  Echo\n3.  Truth\n4.  Castle\n5.  Feather\n6.  Joy\n7.  Anchor\n8.  Sphere\n9.  Rhythm\n10. Shadow"
+            ],
+            [
+                "1.  Shadow\n2.  Galaxy\n3.  Button\n4.  Justice\n5.  River\n6.  Silence\n7.  Mirror\n8.  Idea\n9.  Market\n10. Feather"
+            ],
+            [
+                "1.  Door\n2.  Justice\n3.  Shadow\n4.  Diamond\n5.  Music\n6.  Forest\n7.  Theory\n8.  Pillow\n9.  Echo\n10. Freedom"
+            ],
+            [
+                "1.  Shadow\n2.  Horizon\n3.  Feather\n4.  Silence\n5.  Empire\n6.  Button\n7.  Galaxy\n8.  Compass\n9.  Conscience\n10. Garden"
+            ],
+            [
+                "1.  Silence\n2.  Planet\n3.  Feather\n4.  Algorithm\n5.  Diamond\n6.  Laughter\n7.  Mountain\n8.  Mirror\n9.  Future\n10. Symphony"
+            ],
+            [
+                "1.  Shadow\n2.  Diamond\n3.  Laughter\n4.  Galaxy\n5.  Silence\n6.  Button\n7.  Freedom\n8.  Mirror\n9.  Texture\n10. Journey"
+            ],
+            [
+                "1.  Diamond\n2.  Silence\n3.  Mountain\n4.  Idea\n5.  Window\n6.  Hope\n7.  Shadow\n8.  Justice\n9.  Clock\n10. Forest"
+            ]
+        ]
+    },
+    "gemini-2.5-pro": {
+        "{\"temperature\": 1.1}": [
+            [
+                "Justice\nDust\nKnot\nShadow\nMoment\nMoss\nWhisper\nBoundary\nVoid\nChaos"
+            ],
+            [
+                "Justice\nSpoon\nCloud\nMushroom\nEcho\nNumber\nSilence\nCrumb\nHorizon\nJoke"
+            ],
+            [
+                "Cloud\nJustice\nSpoon\nRhythm\nMoss\nDoubt\nOcean\nBridge\nSilence\nFable"
+            ],
+            [
+                "key\ntruth\nsorrow\nstone\nmoment\necho\nstory\nhunger\npromise\nvoid"
+            ],
+            [
+                "Hope\nEcho\nBridge\nStone\nFungus\nMoment\nSilence\nLanguage\nSmoke\nThirst"
+            ],
+            [
+                "Dream\nCloud\nKey\nSorrow\nHour\nMoss\nEcho\nGlass\nPromise\nShadow"
+            ],
+            [
+                "Stone\nJustice\nDream\nKey\nShadow\nFuture\nSeed\nSilence\nHole\nPromise"
+            ],
+            [
+                "dust\nfuture\nglass\nhunger\njoy\nlogic\npromise\nriver\nshadow\nsound"
+            ],
+            [
+                "Justice\nCloud\nMemory\nBridge\nSeed\nSilence\nOcean\nEcho\nNeedle\nWarmth"
+            ],
+            [
+                "Hope\nCloud\nKey\nMoment\nWhisper\nJustice\nDust\nGhost\nBond\nMemory"
+            ]
+        ]
+    },
+    "gemini-2.5-flash": {
+        "{\"temperature\": 1.1}": [
+            [
+                "Moment\nStone\nJoy\nChair\nFamily\nOcean\nJourney\nBird\nThought\nEcho"
+            ],
+            [
+                "Atom\nMountain\nDream\nSilence\nPillow\nJustice\nCloud\nWrench\nLaughter\nShadow"
+            ],
+            [
+                "*   Stone\n*   Joy\n*   Bird\n*   Chair\n*   Wind\n*   Moment\n*   Mountain\n*   Idea\n*   Seed\n*   Justice"
+            ],
+            [
+                "Star\nDust\nSorrow\nTool\nTime\nOrganism\nOcean\nIdea\nSculpture\nSilence"
+            ],
+            [
+                "1.  Eternity\n2.  Rock\n3.  Thought\n4.  Machine\n5.  Silence\n6.  Storm\n7.  Whisper\n8.  Justice\n9.  Flesh\n10. Space"
+            ],
+            [
+                "1. Dust\n2. Galaxy\n3. Wisdom\n4. Echo\n5. Freedom\n6. Water\n7. Dream\n8. Chair\n9. Moment\n10. Flower"
+            ],
+            [
+                "Stone\nThought\nOcean\nMusic\nVoid\nJustice\nAtom\nJourney\nPattern\nWhisper"
+            ],
+            [
+                "Pebble\nEternity\nColor\nThunder\nLogic\nOcean\nNumber\nSeed\nSilence\nSystem"
+            ],
+            [
+                "Boulder\nLaughter\nShadow\nIdea\nJourney\nWisdom\nMirror\nVoid\nMoment\nScent"
+            ],
+            [
+                "Rock\nThought\nEcho\nShadow\nRiver\nWisdom\nScream\nSilence\nMachine\nDream"
+            ]
+        ]
+    },
+    "gemini-2.5-flash-lite": {
+        "{\"temperature\": 1.1}": [
+            [
+                "Hope\nRock\nWhisper\nGravity\nColor\nTime\nFabric\nOcean\nDream\nJustice"
+            ],
+            [
+                "Abstraction\nRiver\nJubilation\nShadow\nGratitude\nRust\nSilence\nDream\nThorn\nEcho"
+            ],
+            [
+                "Ocean\nCourage\nWhisper\nForge\nShadow\nNectar\nLaughter\nHorizon\nMoment\nCuriosity"
+            ],
+            [
+                "Ocean\nSilence\nJoy\nHammer\nDream\nSand\nWhisper\nTime\nMountain\nColor"
+            ],
+            [
+                "Cloud\nSymphony\nDust\nGratitude\nRiver\nShadow\nWhisper\nDiamond\nHope\nSilence"
+            ],
+            [
+                "Serendipity\nEntropy\nFlint\nLullaby\nChasm\nWhisper\nMagnificence\nShadow\nEcho\nDream"
+            ],
+            [
+                "Serendipity\nFungus\nWhisper\nGravity\nTapestry\nHorizon\nLoneliness\nEcho\nMelody\nChaos"
+            ],
+            [
+                "Ocean\nGravity\nHappiness\nWhisper\nShadow\nCourage\nMirror\nHorizon\nSilence\nDream"
+            ],
+            [
+                "Ocean\nWhisper\nGravity\nGrief\nTapestry\nAlchemy\nJustice\nShadow\nSymphony\nVoid"
+            ],
+            [
+                "Ocean\nCourage\nWhisper\nMountain\nJustice\nShadow\nDream\nSilence\nFeather\nMelody"
+            ]
+        ]
+    },
+    "gemini-2.0-flash": {
+        "{\"temperature\": 1.1}": [
+            [
+                "1. Absence\n2. Archipelago\n3. Breeze\n4. Canvas\n5. Echo\n6. Galaxy\n7. Hemisphere\n8. Molecule\n9. Quartz\n10. Rhythm"
+            ],
+            [
+                "*   Void\n*   Kernel\n*   Facet\n*   Quirk\n*   Datum\n*   Apex\n*   Rubble\n*   Zenith\n*   Entropy\n*   Glimmer"
+            ],
+            [
+                "*   Oblivion\n*   Apex\n*   Puddle\n*   Rhythm\n*   Gravel\n*   Thread\n*   Chasm\n*   Omen\n*   Nodule\n*   Silence"
+            ],
+            [
+                "1. Oxygen\n2. Algorithm\n3. Serenity\n4. Hurricane\n5. Epiphany\n6. Archipelago\n7. Filament\n8. Oblivion\n9. Paradox\n10. Quartz"
+            ],
+            [
+                "1. Void\n2. Serenity\n3. Anvil\n4. Quagmire\n5. Hypothesis\n6. Embroidery\n7. Zenith\n8. Molecule\n9. Enigma\n10. Ire"
+            ],
+            [
+                "Here are 10 very different nouns:\n\n1.  Eternity\n2.  Pencil\n3.  Quagmire\n4.  Oxygen\n5.  Sonnet\n6.  Zephyr\n7.  Calculus\n8.  Tapestry\n9.  Galaxy\n10. Theorem"
+            ],
+            [
+                "*   Abstraction\n*   Brick\n*   Comfort\n*   Energy\n*   Harvest\n*   Leisure\n*   Planet\n*   Rhythm\n*   Theory\n*   Waste"
+            ],
+            [
+                "*   Oblivion\n*   Zephyr\n*   Calculus\n*   Quill\n*   Mantle\n*   Harbinger\n*   Synergy\n*   Epitome\n*   Facet\n*   Alchemy"
+            ],
+            [
+                "1. void\n2. tapestry\n3. quorum\n4. molecule\n5. axiom\n6. metaphor\n7. fungus\n8. rhythm\n9. avalanche\n10. solace"
+            ],
+            [
+                "1. Void\n2. Zenith\n3. Amoeba\n4. Torque\n5. Garland\n6. Epiphany\n7. Quagmire\n8. Serenity\n9. Archipelago\n10. Paradox"
+            ]
+        ]
+    }
+}

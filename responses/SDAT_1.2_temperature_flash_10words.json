@@ -1,0 +1,746 @@
+[
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "Ocean\nJoy\nStone\nDream\nSilence\nShadow\nVelocity\nWisdom\nChaos\nEcho"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "Ocean\nWhisper\nJustice\nBoulder\nDream\nEmpathy\nShadow\nFreedom\nSymphony\nChaos"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "Serendipity\nSymphony\nCobblestone\nEbullience\nVagabond\nQuiescence\nEnigma\nChrysalis\nJubilation\nNebula"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "Serenity\nHammer\nWhisper\nGalaxy\nJustice\nShadow\nLaughter\nOcean\nDream\nSilence"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "Universe\nSadness\nJustice\nOxygen\nDream\nMountain\nSilence\nFriendship\nAlgorithm\nFolly"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "Chair\nCourage\nOcean\nWhisper\nGravity\nShadow\nIdea\nVelvet\nMountain\nJustice"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "Sorrow\nTurbulence\nMascot\nVelocity\nAmbition\nShadow\nOrchard\nGratitude\nMouthpiece\nConsequence"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "Sun\nJustice\nCloud\nDream\nSilence\nFeather\nCourage\nWhisper\nShadow\nMoment"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "Joy\nMountain\nWhisper\nJustice\nChaos\nEmbrace\nSolitude\nRhythm\nSeed\nDream"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "Ocean\nThought\nTable\nCourage\nRain\nMusic\nMystery\nPeace\nStone\nDream"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "Quantum\nWhisper\nObelisk\nMelancholy\nGratitude\nTurbulence\nSpectrum\nSolitude\nAbyss\nNostalgia"
+                ]
+            ]
+        },
+        "config": {
+            "language": "English"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "\u00c1rbol\nIdea\nRisa\nOc\u00e9ano\nSilencio\nSue\u00f1o\nSombra\nFuego\nM\u00fasica\nLibertad"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "Cielo\nPiedra\nSue\u00f1o\nM\u00fasica\nSombra\nRisa\nSilencio\nViento\nFuego\nAzul"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "Aire\nSal\nSue\u00f1o\nCristal\nM\u00fasica\nTiempo\nRisa\nSombra\nRuta\nVerdad"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "Estrella\nMiedo\nLibro\nRisa\nMonta\u00f1a\nSue\u00f1o\nAgua\nSilencio\nColor\nFuturo"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "Luz\nRisa\nAzul\nPaz\nPerro\n\u00c1rbol\nNube\nSombra\nM\u00fasica\nSue\u00f1o"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "1. M\u00fasica\n2. R\u00edo\n3. Sue\u00f1o\n4. Piedra\n5. Ira\n6. Cielo\n7. Abrazo\n8. Ma\u00f1ana\n9. Aire\n10. Libertad"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "\u00c1rbol\nIdeas\nSilencio\nTigre\nSue\u00f1o\nMonta\u00f1a\nFelicidad\nOce\u00e1no\nM\u00fasica\nViento"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "Nube\nRendimiento\nMisterio\nRayo\nRutina\nReflejo\nMelod\u00eda\nAbrazo\nFrontera\nInocencia"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "Fantas\u00eda\nRoca\nHumor\nDestino\nSilencio\nConexi\u00f3n\nPerfume\nAbismo\nGema\nEsp\u00edritu"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "Espuma\nP\u00e9ndulo\nRisa\nSemilla\nEstigma\nCorriente\nDuda\nCeniza\nSonido\nEquilibrio"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "\u00c1rbol\nLibertad\nR\u00edo\nM\u00fasica\nPan\nTiempo\nSilla\nSue\u00f1o\nMisterio\nFlor"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Spanish"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "Soleil\nSilence\nR\u00eave\nPierre\nOc\u00e9an\nFaim\nLumi\u00e8re\nVent\nJoie\nTemps"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "Soleil\nR\u00eave\nPierre\nMusique\nTemps\nOc\u00e9an\nSilence\nId\u00e9e\nFleur\nLumi\u00e8re"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "Pneu\nR\u00eave\nSel\n\u00c9toile\nVent\nMiel\nCl\u00e9\n\u00c2ge\nOc\u00e9an\nChant"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "Soleil\nSilence\nCourage\nPlume\nOc\u00e9an\nR\u00eave\nSel\nLabyrinthe\n\u00c9toile\nHiver"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "Vent\nNuit\nGraine\nR\u00eave\nMurmure\nPluie\nMontagne\nSilencieux\nFeu\nSouvenir"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "Chose\nJoie\nMaison\nMatin\nNuit\nOmbre\nPluie\nR\u00eave\nVent\nVille"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "Vent\nSel\nChant\nNuage\nLumi\u00e8re\nR\u00eave\nMer\nPoids\nTemps\nVoix"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "Aventure\nBruit\nClart\u00e9\nD\u00e9sir\n\u00c9ternit\u00e9\nFougue\nGloire\nHumble\nIllusion\nJoie"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "Ciel\nSilence\nProgr\u00e8s\nR\u00eave\nLabyrinthe\nJoie\nEsprit\nGrain\nChemin\nAvenir"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "Table\nVent\nAmour\nRoche\nTemps\nNuage\nLivre\nR\u00eave\nMer\nFeu"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "Lumi\u00e8re\nAmour\nSable\nR\u00eave\nChemin\nMusique\nCourage\nNuage\nSilence\nEsprit"
+                ]
+            ]
+        },
+        "config": {
+            "language": "French"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "Freude\nStein\nGedanke\nFluss\nFarbe\nMusik\nZeit\nTraum\nStille\nWahrheit"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "Freude\nStahl\nTraum\nSchatten\nWahrheit\nFluss\nGef\u00fchl\nZeit\nStimme\nStruktur"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "Gedanke\nHimmel\nFreude\nStein\nMusik\nZeit\nSchatten\nWahrheit\nLicht\nTraum"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "Gedanke\nHimmel\nLiebe\nStunde\nWahrheit\nFarbe\nMusik\nWille\nGl\u00fcck\nSand"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "Wolke\nGedanke\nStuhl\nFreude\nFluss\nL\u00e4rm\nBr\u00fccke\nMut\nTasche\nZeit"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "Gedanke\nMond\nH\u00fcgel\nGerechtigkeit\nFeuer\nZeit\nFluss\nWahrheit\nTraum\nStille"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "Traum\nStille\nFreude\nZweifel\nGewicht\nFarbe\nMelodie\nSchatten\nGeburt\nWahrheit"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "Gedanken\nZeit\nHimmel\nL\u00e4rm\nMut\nSchatten\nWahrheit\nTraum\nStille\nFreude"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "Gedankenblitz\nKr\u00e4he\nMond\nW\u00fcrde\nStruktur\nFluss\nSpielzeug\nVorstellungskraft\nStille\nHeimweh"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "Fl\u00fcstern\nRastlosigkeit\nAbgrund\nZufall\nOpfer\nEntdeckung\nVerwirrung\nLeuchten\nSpannung\nUtopie"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "Gedanke\nSturm\nKette\nL\u00e4cheln\nMusik\nEis\nHoffnung\nReise\nBaum\nFeuer"
+                ]
+            ]
+        },
+        "config": {
+            "language": "German"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "Sogno\nSedia\nVelocit\u00e0\nSapore\nSuono\nOmbra\nLibert\u00e0\nSperanza\nTempo\nColore"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "Cielo\nDolore\nLibert\u00e0\nSapore\nTempo\nSuono\nSogno\nOmbra\nForza\nVerit\u00e0"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "Sogno\nSabbia\nLibert\u00e0\nColore\nTempo\nMontagna\nSilenzio\nGioia\nParola\nSpecchio"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "Tavolo\nConcetto\nOceano\nSerenit\u00e0\nSpada\nTempo\nRisa\nLibert\u00e0\nLuna\nSogno"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "Nebbia\nSabbia\nRicordo\nStella\nBrivido\nRumore\nCielo\nSentiero\nSorriso\nOmbra"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "Libert\u00e0\nSerenit\u00e0\nVortice\nSperanza\nSilenzio\nNuvola\nDesiderio\nInfinito\nOmbra\nSorriso"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "Concetto\nOmbra\nSogno\nVento\nColore\nGiorno\nRumore\nAbisso\nNuvola\nVerit\u00e0"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "Libert\u00e0\nSasso\nSuono\nPace\nAmore\nOmbra\nViaggio\nForza\nGiorno\nSogno"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "Pianoforte\nNebbia\nDelfino\nDesiderio\nCastello\nSilenzio\nAvventura\nSperanza\nOmbra\nPonte"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "Ombra\nConcetto\nPioggia\nGusto\nSilenzio\nIdea\nTempo\nRiflesso\nOrgoglio\nStrada"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "Abbraccio\nNuvola\nSperanza\nRadice\nSilenzio\nScarpa\nSorriso\nFiume\nMelodia\nVaso"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Italian"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "Wolk\nSchaal\nGedachte\nVlam\nRijst\nStilte\nGras\nSpiegel\nGeluk\nDroom"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "Vrede\nBoek\nDroom\nStoel\nGeluid\nKleur\nTijd\nLiefde\nWolk\nZon"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "Boom\nLucht\nGevoel\nTijd\nGeld\nMuziek\nDroom\nVriendschap\nVrijheid\nKennis"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "Boom\nGeluk\nSteen\nDroom\nLucht\nTijd\nVreugde\nLied\nGedachte\nKleur"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "Stoel\nGeluk\nBoom\nIdee\nWater\nSnelheid\nMuur\nLucht\nStof\nVrede"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "Boom\nLucht\nIdee\nStof\nGeluid\nVastberadenheid\nReis\nSpiegel\nStilte\nSpanning"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "Boek\nLach\nVrijheid\nZon\nTafel\nVerhaal\nLicht\nMuziek\nGeluk\nRuimte"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "Geluk\nWolk\nStoel\nStilte\nDroom\nZand\nGeld\nReis\nGlimlach\nSchaduw"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "Boom\nGeluk\nWolk\nVrijheid\nsteen\nIdee\nWater\nTijd\nLach\nVerlangen"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "Lucht\nZwaartekracht\nGeduld\nSchaduw\nKlank\nIdee\nCijfer\nVloer\nVerhaal\nKleed"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "Muur\nLucht\nDans\nGedachte\nEmotie\nWater\nTijd\nStroom\nGeloof\nVrijheid"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Dutch"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "C\u00e9u\nSono\nPedra\nAlegria\nVento\nLivro\nMar\nTempo\nSombra\nM\u00fasica"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "Abismo\nSinfonia\nCen\u00e1rio\nSaudade\nEspelho\nSonho\nSolid\u00e3o\nEscurid\u00e3o\nEsperan\u00e7a\nCaminho"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "Abismo\nSonho\nAreia\nSolid\u00e3o\nRoda\nPoema\nNuvem\nMist\u00e9rio\nTesouro\nVento"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "Fome\nEstrela\nSolid\u00e3o\nM\u00fasica\nSonho\nPedra\nTempo\nCaos\nCores\nSil\u00eancio"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "Sinfonia\nSaudade\nSeda\nEspa\u00e7o\nSonho\nCaminho\nSemente\nFome\nAmizade\nSombra"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "Saudade\nAbismo\nMorma\u00e7o\nSerenidade\nTromba\nEfervesc\u00eancia\nRancor\nCume\nUtopia\nVagueza"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "Sonho\nSolid\u00e3o\nOrquestra\nAreia\nFome\nSombra\nPensamento\nOceano\nCotidiano\nSil\u00eancio"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "Amor\nTempestade\nIdeia\nPedra\nSil\u00eancio\nPintura\nCan\u00e7\u00e3o\nSonho\nSombra\nCorrente"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "Sombra\nVibra\u00e7\u00e3o\nComida\nTempo\nCan\u00e7\u00e3o\nSegredo\nCoragem\nPedra\nSonho\nDeserto"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "Onda\nTarde\nLivro\nSabor\nSonho\nGrito\nMedo\nFelicidade\nFuma\u00e7a\nAlegria"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "Esparadrapo\nOftalmosc\u00f3pio\nNebulosa\nZelador\nBorracha\nTrama\nAbismo\nAlgod\u00e3o\nEspeciaria\nEspoleta"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Portuguese"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  \u7a7a\n2.  \u9053\n3.  \u5922\n4.  \u97f3\n5.  \u8272\n6.  \u5fc3\n7.  \u6642\n8.  \u5149\n9.  \u58f0\n10. \u547d"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "1.  \u6642\u9593\n2.  \u611b\n3.  \u5922\n4.  \u9053\n5.  \u5149\n6.  \u97f3\n7.  \u8272\n8.  \u5473\n9.  \u5f62\n10. \u9999\u308a"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "1.  \u5e0c\u671b\n2.  \u5ca9\n3.  \u5922\n4.  \u9053\n5.  \u6b4c\n6.  \u98a8\n7.  \u7a7a\n8.  \u5ddd\n9.  \u5149\n10. \u58c1"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "1.  \u5e0c\u671b\n2.  \u5f71\n3.  \u97f3\n4.  \u9053\n5.  \u8a18\u61b6\n6.  \u6642\u9593\n7.  \u661f\n8.  \u96e8\n9.  \u5922\n10. \u5302\u3044"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "1. \u5922\n2. \u5f71\n3. \u5d50\n4. \u6d99\n5. \u6a4b\n6. \u6cc9\n7. \u7d46\n8. \u708e\n9. \u5b9d\n10. \u65c5"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "1.  \u5e0c\u671b\n2.  \u97f3\u697d\n3.  \u592a\u967d\n4.  \u9053\n5.  \u6d99\n6.  \u6642\u9593\n7.  \u7d75\n8.  \u58f0\n9.  \u98a8\n10. \u5922"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "1. \u592a\u967d\n2. \u611f\u60c5\n3. \u53cb\u60c5\n4. \u52c7\u6c17\n5. \u79d8\u5bc6\n6. \u8a18\u61b6\n7. \u52aa\u529b\n8. \u5922\n9. \u82b8\u8853\n10. \u81ea\u7136"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "1. \u5e78\u798f\n2. \u65c5\n3. \u6df7\u6c8c\n4. \u53cb\u60c5\n5. \u77e5\u8b58\n6. \u5922\n7. \u7d76\u671b\n8. \u5275\u9020\n9. \u8a18\u61b6\n10. \u81ea\u7531"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "1.  \u592a\u967d\n2.  \u5c71\n3.  \u5ddd\n4.  \u7a7a\n5.  \u6728\n6.  \u5ca9\n7.  \u98a8\n8.  \u6c34\n9.  \u5149\n10. \u5922"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "1.  \u5e0c\u671b\n2.  \u5b64\u72ec\n3.  \u8c4a\u304b\u3055\n4.  \u79e9\u5e8f\n5.  \u6050\u6016\n6.  \u5076\u7136\n7.  \u8a18\u61b6\n8.  \u4fe1\u983c\n9.  \u5922\n10. \u5909\u5316"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "1.  \u98a8\n2.  \u6642\u9593\n3.  \u97f3\n4.  \u5922\n5.  \u8272\n6.  \u9053\n7.  \u5149\n8.  \u611f\u60c5\n9.  \u5f62\n10. \u610f\u8b58"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Japanese"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "\u0633\u0645\u0627\u0621\n\u0635\u0645\u062a\n\u0641\u0631\u062d\n\u062d\u062c\u0631\n\u0648\u0642\u062a\n\u062d\u0644\u0645\n\u0646\u0648\u0631\n\u062e\u0648\u0641\n\u0645\u0627\u0621\n\u0635\u0648\u062a"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "\u0633\u0645\u0627\u0621\n\u062d\u062c\u0631\n\u0641\u0643\u0631\u0629\n\u0635\u0645\u062a\n\u0644\u0648\u0646\n\u0635\u0648\u062a\n\u0637\u0639\u0645\n\u0648\u0642\u062a\n\u0646\u0648\u0631\n\u0631\u0627\u0626\u062d\u0629"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "\u0633\u0645\u0627\u0621\n\u0635\u0645\u062a\n\u062d\u0644\u0645\n\u0635\u062f\u0642\n\u0646\u0648\u0631\n\u0638\u0644\u0627\u0645\n\u0631\u064a\u0634\u0629\n\u062c\u0628\u0644\n\u0648\u0642\u062a\n\u0623\u0645\u0644"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "\u0634\u0645\u0633\n\u062d\u0632\u0646\n\u0631\u064a\u0634\u0629\n\u0645\u0648\u062c\u0629\n\u0635\u0645\u062a\n\u0641\u0631\u062d\n\u063a\u0628\u0627\u0631\n\u062d\u0644\u0645\n\u0631\u0627\u0626\u062d\u0629\n\u0645\u0641\u062a\u0627\u062d"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "1. \u0633\u0639\u0627\u062f\u0629\n2. \u0635\u062e\u0631\u0629\n3. \u0641\u0643\u0631\u0629\n4. \u0633\u0645\u0627\u0621\n5. \u062c\u0628\u0644\n6. \u0632\u0645\u0646\n7. \u0628\u062d\u0631\n8. \u0646\u0648\u0631\n9. \u062e\u0648\u0641\n10. \u063a\u0627\u0628\u0629"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "\u0633\u0645\u0627\u0621\n\u0633\u0639\u0627\u062f\u0629\n\u062d\u062c\u0631\n\u0635\u0645\u062a\n\u0645\u0648\u062c\n\u062d\u0628\n\u062e\u064a\u0627\u0644\n\u0631\u0645\u0644\n\u063a\u0635\u0646\n\u0641\u0631\u062d"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "\u0633\u0645\u0627\u0621\n\u0635\u0645\u062a\n\u0631\u064a\u0627\u062d\n\u0638\u0644\n\u0623\u0645\u0644\n\u0648\u0647\u0645\n\u062c\u0630\u0631\n\u0631\u062d\u0644\u0629\n\u0644\u0648\u0646\n\u0648\u0642\u062a"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "\u0635\u062f\u0642\n\u0638\u0644\n\u062d\u0644\u0645\n\u0642\u0645\u0629\n\u0631\u0645\u0644\n\u0647\u062f\u0648\u0621\n\u0633\u0631\n\u0644\u063a\u0632\n\u0636\u0648\u0621\n\u0645\u0627\u062f\u0629"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "\u0634\u0645\u0648\u0633\n\u0623\u062d\u0644\u0627\u0645\n\u0623\u0645\u0627\u0646\n\u0633\u0631\u0627\u0628\n\u062c\u062f\u0627\u0648\u0644\n\u0645\u0648\u062c\u0629\n\u0634\u0648\u0643\n\u0631\u062d\u0645\u0629\n\u0631\u063a\u0628\u0627\u062a\n\u0635\u062f\u0649"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "\u0639\u062f\u0644\n\u0633\u0639\u0627\u062f\u0629\n\u062c\u0645\u0627\u062f\n\u0648\u0647\u0645\n\u0637\u0645\u0648\u062d\n\u063a\u0641\u0648\u0631\n\u0635\u062f\u0627\u0642\u0629\n\u0634\u0645\u0648\u0644\n\u0628\u0635\u064a\u0631\u0629\n\u0631\u062d\u0644\u0629"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "\u0634\u0645\u0648\u0633\n\u0633\u062d\u0627\u0628\n\u0647\u0645\u0633\u0627\u062a\n\u0623\u062d\u0644\u0627\u0645\n\u0645\u0631\u0633\u0627\u0629\n\u062a\u0627\u0631\u064a\u062e\n\u0636\u0641\u062f\u0639\n\u0645\u0633\u0627\u062d\u0629\n\u0635\u0645\u062a\n\u062c\u062f\u0648\u0644"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Arabic"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "\u5c71\n\u6c34\n\u5149\n\u98ce\n\u68a6\n\u7231\n\u6068\n\u771f\n\u5047\n\u7a7a"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "1. \u601d\u60f3\n2. \u623f\u5c4b\n3. \u97f3\u4e50\n4. \u52c7\u6c14\n5. \u9053\u8def\n6. \u6545\u4e8b\n7. \u9633\u5149\n8. \u68a6\u60f3\n9. \u8bed\u8a00\n10. \u65f6\u95f4"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "\u5e0c\u671b\n\u65f6\u95f4\n\u5b69\u5b50\n\u77f3\u5934\n\u5473\u9053\n\u97f3\u4e50\n\u68a6\u60f3\n\u4e60\u60ef\n\u5149\u660e\n\u8ddd\u79bb"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "\u5929\u7a7a\n\u77f3\u5934\n\u601d\u60f3\n\u65f6\u95f4\n\u5e0c\u671b\n\u6050\u60e7\n\u58f0\u97f3\n\u5473\u9053\n\u989c\u8272\n\u68a6\u60f3"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "\u6708\u4eae\n\u97f3\u4e50\n\u52c7\u6c14\n\u5929\u7a7a\n\u68a6\u60f3\n\u65f6\u95f4\n\u68ee\u6797\n\u771f\u7406\n\u98df\u7269\n\u56de\u5fc6"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "\u9633\u5149\n\u5f71\u5b50\n\u68a6\u60f3\n\u65f6\u95f4\n\u8ddd\u79bb\n\u58f0\u97f3\n\u5473\u9053\n\u989c\u8272\n\u53d8\u5316\n\u79d8\u5bc6"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "\u5feb\u4e50\n\u68a6\u60f3\n\u65f6\u95f4\n\u6cb3\u6d41\n\u4e66\u7c4d\n\u58f0\u97f3\n\u8ddd\u79bb\n\u771f\u76f8\n\u7a7a\u6c14\n\u5e0c\u671b"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "\u4e66\n\u4e91\n\u68a6\n\u5c71\n\u6d77\n\u6b4c\n\u7b11\n\u7231\n\u8def\n\u706b"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "\u60c5\u611f\n\u601d\u60f3\n\u65f6\u95f4\n\u7a7a\u95f4\n\u7269\u8d28\n\u751f\u547d\n\u793e\u4f1a\n\u5386\u53f2\n\u672a\u6765\n\u68a6\u60f3"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "1. \u9ece\u660e\n2. \u7f1d\u9699\n3. \u5c18\u57c3\n4. \u610f\u5ff5\n5. \u9057\u5fd8\n6. \u4e50\u7ae0\n7. \u6865\u6881\n8. \u5951\u673a\n9. \u4e61\u6101\n10. \u6c89\u9ed8"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "\u5e78\u798f\n\u77f3\u5934\n\u601d\u60f3\n\u6cb3\u6d41\n\u52c7\u6c14\n\u7a7a\u6c14\n\u989c\u8272\n\u65f6\u95f4\n\u68a6\u5883\n\u5e0c\u671b"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Chinese"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1. \uafc8\n2. \uc6a9\uae30\n3. \uc9c0\ud61c\n4. \uc2dc\uac04\n5. \uacf5\uac04\n6. \uc0ac\ub791\n7. \uc2ac\ud514\n8. \ud76c\ub9dd\n9. \uc790\uc720\n10. \uc9c4\uc2e4"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "* \uc0ac\ub791\n* \uc2dc\uac04\n* \uafc8\n* \uc9c0\ud61c\n* \ud76c\ub9dd\n* \uace0\ub3c5\n* \uc790\uc720\n* \uc815\uc758\n* \ud3c9\ud654\n* \uc9c4\uc2e4"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "1. \ud589\ubcf5\n2. \ucc45\n3. \uafc8\n4. \ubc14\ub78c\n5. \uc2dc\uac04\n6. \uae30\uc068\n7. \uc0dd\uac01\n8. \uc0ac\ub791\n9. \uc18c\ub9ac\n10. \ube5b"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "1. \uae30\uc068\n2. \ud750\ub984\n3. \uce68\ubb35\n4. \uae30\uc5b5\n5. \uc0c1\uc0c1\n6. \uac00\ub2a5\uc131\n7. \uc874\uc7ac\n8. \ubcc0\ud654\n9. \uc9c4\uc2e4\n10. \uc790\uc720"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "1. \uc0ac\ub791\n2. \uc2dc\uac04\n3. \ube5b\n4. \uafc8\n5. \uc18c\ub9ac\n6. \ub9db\n7. \ud5a5\uae30\n8. \uadf8\ub9bc\uc790\n9. \uc0dd\uac01\n10. \uc9c4\uc2e4"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "1. \uc0ac\ub791\n2. \uc2dc\uac04\n3. \uc0b0\n4. \uafc8\n5. \uc18c\ub9ac\n6. \ub9db\n7. \uc9c0\ud61c\n8. \ubc14\ub78c\n9. \uae30\uc068\n10. \uae30\uc5b5"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "1. \uafc8\n2. \uc18c\ub9ac\n3. \uc18d\ub3c4\n4. \ube5b\uae54\n5. \uacf5\uac04\n6. \ubb34\ub2ac\n7. \uc628\uae30\n8. \ucd94\uc704\n9. \ub9db\n10. \ud5a5\uae30"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "1. \uc815\uc758\n2. \ud63c\ub3c8\n3. \uafc8\n4. \uc0ac\ub791\n5. \ud76c\ub9dd\n6. \uc6a9\uae30\n7. \uc9c0\ud61c\n8. \uac10\uc0ac\n9. \ud3c9\ud654\n10. \uace0\ub3c5"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "1. \uc0ac\ub791\n2. \uc2dc\uac04\n3. \uc815\uc758\n4. \uc0c1\uc0c1\n5. \uc18c\uc74c\n6. \ud5a5\uae30\n7. \ubaa8\ud5d8\n8. \uc9d0\n9. \ud3c9\ud654\n10. \ud63c\ub3c8"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "* \ubcc4\n* \uc2dc\uac04\n* \uac10\uc815\n* \ubb3c\n* \ubc14\ub78c\n* \uc0dd\uac01\n* \uafc8\n* \uc18c\ub9ac\n* \uadf8\ub9bc\uc790\n* \uc528\uc557"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "1. \uc9c4\uc2e4\n2. \uc232\n3. \uafc8\n4. \uc18c\ub9ac\n5. \ubbf8\ub798\n6. \uadf8\ub9bc\uc790\n7. \uc18d\uc0ad\uc784\n8. \ud76c\ub9dd\n9. \ubb34\uac8c\n10. \uc21c\uac04"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Korean"
+        }
+    },
+    {
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "1.  Vzduchoplavec\n2.  Chv\u011bn\u00ed\n3.  St\u00ednomil\n4.  P\u0159\u00edzrak\n5.  Vzpom\u00ednka\n6.  \u0160kv\u00edra\n7.  Poh\u00e1dka\n8.  Ticho\n9.  Zrcadlo\n10. Vzruch"
+                ]
+            ],
+            "{\"temperature\": 0.65}": [
+                [
+                    "\u0160t\u011bst\u00ed\nHlad\nHv\u011bzda\nMlha\nZrcadlo\nVzpom\u00ednka\nCesta\nSm\u00edch\nTicho\nK\u00e1men"
+                ]
+            ],
+            "{\"temperature\": 0.8}": [
+                [
+                    "1. Zrcadlo\n2. St\u00edn\n3. Sladkost\n4. Hluk\n5. Touha\n6. Vzpom\u00ednka\n7. Svit\n8. Bloud\u011bn\u00ed\n9. Moudrost\n10. V\u00fdk\u0159ik"
+                ]
+            ],
+            "{\"temperature\": 0.95}": [
+                [
+                    "\u0160epot\nObloha\nVzpom\u00ednka\nSt\u00edn\n\u00dasm\u011bv\nVzduch\nHlad\nK\u00e1men\nSen\nStav"
+                ]
+            ],
+            "{\"temperature\": 1.1}": [
+                [
+                    "1. V\u00e1ha\n2. \u0160epot\n3. Lesk\n4. \u00dasvit\n5. Cesta\n6. Horko\n7. Moudrost\n8. Obrys\n9. Sm\u00edch\n10. Hradba"
+                ]
+            ],
+            "{\"temperature\": 1.25}": [
+                [
+                    "1. Mlhav\u00fd\n2. Ticho\n3. P\u00edse\u0148\n4. Zv\u011bdavost\n5. K\u00e1men\n6. V\u016fn\u011b\n7. Sen\n8. Hlad\n9. Moudrost\n10. Z\u00e1blesk"
+                ]
+            ],
+            "{\"temperature\": 1.4}": [
+                [
+                    "Mlha\nZvuk\nCesta\nSt\u00edn\nSen\nOhe\u0148\n\u0160t\u011bst\u00ed\nHlad\nTicho\nVzpom\u00ednka"
+                ]
+            ],
+            "{\"temperature\": 1.55}": [
+                [
+                    "P\u0159eds\u00ed\u0148\nBlikot\nN\u00e1pov\u011bda\nZklam\u00e1n\u00ed\nP\u0159edzv\u011bst\nSkal\u00e1k\nVzlyk\nChuchvalec\nRozbou\u0159en\u00ed\nZrnko"
+                ]
+            ],
+            "{\"temperature\": 1.7}": [
+                [
+                    "Jiskra\nMra\u010dno\nSlza\nRozkvet\nZmatek\nSt\u00edn\nChv\u011bn\u00ed\nN\u00e1dech\nV\u011b\u0161tba\nSvatost"
+                ]
+            ],
+            "{\"temperature\": 1.85}": [
+                [
+                    "Sv\u011bt\nSen\nNezn\u00e1m\nLes\nJiskra\nTicho\nSt\u00edn\nPoh\u00e1dka\nVlna\nVzduch"
+                ]
+            ],
+            "{\"temperature\": 2.0}": [
+                [
+                    "Moudrost\nM\u00ed\u010d\nD\u00fdha\nChr\u00e1m\n\u0160koda\nHuba\nN\u00e1pad\nSv\u011btlo\nCesta\nLesk"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Czech"
+        }
+    }
+]

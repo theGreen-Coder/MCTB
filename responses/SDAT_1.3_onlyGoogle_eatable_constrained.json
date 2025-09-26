@@ -1,0 +1,986 @@
+[
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Apple\nBread\nMilk\nSalt\nFish\nMushroom\nHoney\nPotato\nChocolate\nBean"
+                ],
+                [
+                    "1. Apple\n2. Rice\n3. Cheese\n4. Egg\n5. Carrot\n6. Honey\n7. Salt\n8. Bean\n9. Bread\n10. Chocolate"
+                ],
+                [
+                    "Apple\nBread\nMilk\nSalt\nBeef\nPotato\nEgg\nMushroom\nSugar\nBean"
+                ],
+                [
+                    "Bread\nFruit\nFish\nHoney\nCarrot\nCheese\nSpice\nNoodle\nMushroom\nCandy"
+                ],
+                [
+                    "Bread\nApple\nCarrot\nCheese\nChicken\nSugar\nButter\nSoup\nAlmond\nSalt"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Salt\nDream\nSand\nLove\nShadow\nSilence\nMusic\nTime\nFire\nChaos"
+                ],
+                [
+                    "Bread\nStone\nHope\nOcean\nNoise\nDream\nTime\nLaughter\nSilence\nKnowledge"
+                ],
+                [
+                    "Idea\nGravity\nShadow\nWhisper\nDiamond\nSilence\nDream\nOcean\nJustice\nTime"
+                ],
+                [
+                    "Salt\nSilence\nStone\nDream\nWind\nHope\nShadow\nVoid\nTime\nRust"
+                ],
+                [
+                    "Air\nStone\nShadow\nSilence\nFire\nDream\nColor\nOcean\nTime\nMusic"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "*   Watermelon\n*   Almond\n*   Yogurt\n*   Ginger\n*   Oats\n*   Venison\n*   Spinach\n*   Millet\n*   Truffle\n*   Cumin"
+                ],
+                [
+                    "*   Water\n*   Salt\n*   Bread\n*   Meat\n*   Fruit\n*   Herb\n*   Oil\n*   Spice\n*   Seed\n*   Root"
+                ],
+                [
+                    "*   Water\n*   Bread\n*   Meat\n*   Salt\n*   Fruit\n*   Spice\n*   Grain\n*   Herb\n*   Mushroom\n*   Seaweed"
+                ],
+                [
+                    "*   Steel-cut oats\n*   Squid\n*   Gumbo\n*   Okra\n*   Venison\n*   Quince\n*   Daikon\n*   Kefir\n*   Rosemary\n*   Coconut"
+                ],
+                [
+                    "*   Watermelon\n*   Radish\n*   Quinoa\n*   Coconut\n*   Marmalade\n*   Pickle\n*   Truffle\n*   Oatmeal\n*   Jicama\n*   Spaghetti"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Apple\nBread\nSugar\nWater\nOrange\nEgg\nCheese\nMushroom\nPepper\nButter"
+                ],
+                [
+                    "Bread\nApple\nSugar\nPotato\nLemon\nNut\nBerry\nWatermelon\nEgg\nRice"
+                ],
+                [
+                    "Apple\nBroccoli\nCake\nOatmeal\nPepper\nBanana\nYogurt\nWalnut\nPickle\nSausage"
+                ],
+                [
+                    "Apple\nCorn\nCheese\nOatmeal\nPepper\nButter\nPotato\nGrape\nCookie\nPeanut"
+                ],
+                [
+                    "Apple\nAsparagus\nBiscuit\nCranberry\nDonut\nEggplant\nFlour\nGrape\nOatmeal\nQuince"
+                ]
+            ]
+        },
+        "config": {
+            "language": "English",
+            "constraints": "Final rule: every word must be something you can eat."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Manzana\n2. Arroz\n3. Res\n4. Queso\n5. Lenteja\n6. Zanahoria\n7. Pimienta\n8. Miel\n9. Aceituna\n10. Champi\u00f1\u00f3n"
+                ],
+                [
+                    "*   Agua\n*   Sal\n*   Pan\n*   Carne\n*   Fruta\n*   Leche\n*   Huevo\n*   Miel\n*   Aceite\n*   Seta"
+                ],
+                [
+                    "*   Manzana\n*   Arroz\n*   Queso\n*   Pollo\n*   Zanahoria\n*   Pimienta\n*   Chocolate\n*   Lenteja\n*   Sal\n*   Agua"
+                ],
+                [
+                    "Arroz\nCarne\nLeche\nSal\nFruta\nHongo\nAceite\nMiel\nPan\nHuevo"
+                ],
+                [
+                    "Miel\nQueso\nPollo\nPatata\nNaranja\nSal\nAlmendra\nCaf\u00e9\nHuevo\nSalm\u00f3n"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Pescado\nNube\nDiamante\nSue\u00f1o\nSonido\nFuego\n\u00c1rbol\nAgua\nCamino\nBelleza"
+                ],
+                [
+                    "Leche\nRoca\nMiedo\nSue\u00f1o\n\u00c1rbol\nSilla\nLibro\nM\u00fasica\nPelota\nFuego"
+                ],
+                [
+                    "1. Pan\n2. Sal\n3. Agua\n4. Queso\n5. Arroz\n6. Aceite\n7. Huevo\n8. Miel\n9. Uva\n10. Carne"
+                ],
+                [
+                    "Agua\nSal\nAz\u00facar\nHarina\nAceite\nHuevo\nCarne\nArroz\nPan\nQueso"
+                ],
+                [
+                    "Pan\nAgua\nSal\nHuevo\nArroz\nQueso\nManzana\nPollo\nTomate\nAz\u00facar"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Naranja\n2.  Lenteja\n3.  Almendra\n4.  Remolacha\n5.  Aceituna\n6.  Calabaza\n7.  Nabo\n8.  Miel\n9.  Higo\n10. Coliflor"
+                ],
+                [
+                    "Aqu\u00ed hay 10 sustantivos en espa\u00f1ol que representan comidas y que considero lo m\u00e1s dis\u00edmiles posible en significado y uso:\n\n1.  **Alga**\n2.  **Lenteja**\n3.  **Nuez**\n4.  **R\u00e1bano**\n5.  **Membrillo**\n6.  **Morcilla**\n7.  **Hongo**\n8.  **Yuca**\n9.  **Trucha**\n10. **Azafr\u00e1n**"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  Naranja\n2.  Lenteja\n3.  Almeja\n4.  Nuez\n5.  Remolacha\n6.  Aceituna\n7.  Higo\n8.  Setas\n9.  Ajo\n10. Canela"
+                ],
+                [
+                    "1.  Sal\n2.  Nuez\n3.  Miel\n4.  Trigo\n5.  Huevo\n6.  Aceite\n7.  Calabaza\n8.  Cebolla\n9.  Arroz\n10. Ajo"
+                ],
+                [
+                    "1.  Nuez\n2.  Sal\n3.  Miel\n4.  Arroz\n5.  Aceite\n6.  Huevo\n7.  Lenteja\n8.  Cereza\n9.  Alga\n10. Papa"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Higo\n2.  Arroz\n3.  Nuez\n4.  Fresa\n5.  Pan\n6.  Aceite\n7.  Yogur\n8.  Menta\n9.  Lim\u00f3n\n10. Az\u00facar"
+                ],
+                [
+                    "1.  Fresa\n2.  Huevo\n3.  Pan\n4.  Aceite\n5.  Sal\n6.  Uva\n7.  Arroz\n8.  Mantequilla\n9.  Az\u00facar\n10. Sopa"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  Higo\n2.  Pan\n3.  Arroz\n4.  Uva\n5.  Cereza\n6.  Aceite\n7.  Fresa\n8.  Chocolate\n9.  Nuez\n10. Miel"
+                ],
+                [
+                    "1.  Manzana\n2.  Pan\n3.  Huevo\n4.  Fresa\n5.  Arroz\n6.  Aceite\n7.  Sal\n8.  Az\u00facar\n9.  Pimienta\n10. Sopa"
+                ],
+                [
+                    "1.  Huevo\n2.  Aceite\n3.  Fresa\n4.  Pan\n5.  Sal\n6.  Az\u00facar\n7.  Cacao\n8.  Pasta\n9.  Pimienta\n10. Mango"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Spanish",
+            "constraints": "Regla final: cada palabra debe ser algo que puedas comer."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "* Pomme\n* Salade\n* Riz\n* Viande\n* Fromage\n* Sel\n* Miel\n* Caf\u00e9\n* G\u00e2teau\n* Huile"
+                ],
+                [
+                    "1. Pain\n2. Pomme\n3. Carotte\n4. Viande\n5. Fromage\n6. Chocolat\n7. Lentille\n8. Sel\n9. Noix\n10. Champignon"
+                ],
+                [
+                    "Pain\nCerise\nPoisson\nCarotte\nSucre\nFromage\nRiz\nMiel\nHuile\n\u0152uf"
+                ],
+                [
+                    "*   Pain\n*   Pomme\n*   Carotte\n*   Poisson\n*   Fromage\n*   Poivre\n*   Miel\n*   Lentille\n*   Champignon\n*   Chocolat"
+                ],
+                [
+                    "*   Pomme\n*   Riz\n*   Fromage\n*   Carotte\n*   Sel\n*   Lait\n*   Pain\n*   Poisson\n*   Miel\n*   \u0152uf"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Pomme\nPain\nSel\nEau\nMiel\n\u0152uf\nFromage\nRiz\nChocolat\nSoupe"
+                ],
+                [
+                    "Pomme\nChocolat\nEau\nPain\nFromage\nMiel\nSel\nPoisson\nL\u00e9gume\nSoupe"
+                ],
+                [
+                    "Eau\nPain\nSel\nRiz\nHuile\nFruit\nFleur\nAir\nTemps\nLumi\u00e8re"
+                ],
+                [
+                    "Pomme\nSel\nPain\nEau\nSucre\nFromage\nVin\nLait\nFarine\nL\u00e9gume"
+                ],
+                [
+                    "Pain\nSel\nEau\nAir\nFoin\nGlace\nSable\nHerbe\nLumi\u00e8re\nSon"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "*   Sel\n*   Miel\n*   Pain\n*   Huile\n*   Riz\n*   Poire\n*   Lait\n*   Oeuf\n*   Soja\n*   Th\u00e9"
+                ],
+                [
+                    "*   Sel\n*   Miel\n*   Pain\n*   Riz\n*   Olive\n*   Noix\n*   Chou\n*   Menthe\n*   Poire\n*   Sucre"
+                ],
+                [
+                    "*   Sel\n*   Miel\n*   Riz\n*   Pain\n*   Pomme\n*   Huile\n*   Noix\n*   Lait\n*   Sucre\n*   Menthe"
+                ],
+                [
+                    "*   Sel\n*   Riz\n*   Miel\n*   Pain\n*   Poire\n*   Huile\n*   Soja\n*   Ma\u00efs\n*   Sucre\n*   Anis"
+                ],
+                [
+                    "*   Sel\n*   Riz\n*   Miel\n*   Pain\n*   Glace\n*   Pomme\n*   Huile\n*   Soupe\n*   \u00c9pice\n*   Sucre"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Pain\nPomme\nEau\nSel\nBeurre\nSucre\nOeuf\nLait\nMiel\nRiz"
+                ],
+                [
+                    "1.  Pomme\n2.  Pain\n3.  Sel\n4.  Beurre\n5.  Sucre\n6.  \u0152uf\n7.  Miel\n8.  Olive\n9.  Riz\n10. Poisson"
+                ],
+                [
+                    "Pain\nPomme\nSel\nBeurre\nSucre\nMiel\n\u0152uf\nViande\nRiz\nEau"
+                ],
+                [
+                    "1.  Pomme\n2.  Sucre\n3.  Pain\n4.  Sel\n5.  Beurre\n6.  \u0152uf\n7.  Lait\n8.  Miel\n9.  Viande\n10. Riz"
+                ],
+                [
+                    "Pain\nPomme\nSel\nSucre\nBeurre\nOeuf\nRiz\nGlace\nMiel\nViande"
+                ]
+            ]
+        },
+        "config": {
+            "language": "French",
+            "constraints": "R\u00e8gle finale : chaque mot doit \u00eatre quelque chose que vous pouvez manger."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Brot\nApfel\nFleisch\nSalz\nKartoffel\nK\u00e4se\nPilz\nHonig\nReis\nBonbon"
+                ],
+                [
+                    "Brot\nApfel\nFleisch\nMilch\nSalz\nKuchen\nReis\nEi\nSuppe\nKartoffel"
+                ],
+                [
+                    "Apfel\nKarotte\nBrot\nFleisch\nK\u00e4se\nSalz\nZucker\nNuss\nPilz\nEi"
+                ],
+                [
+                    "Brot\nApfel\nKarotte\nFleisch\nLinse\nK\u00e4se\nSchokolade\n\u00d6l\nSalz\nPilz"
+                ],
+                [
+                    "Salz\nApfel\nFleisch\nBrot\nZucker\nPilz\nK\u00e4se\nReis\nEi\nHonig"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Apfel\nSonne\nFreude\nUhr\nStuhl\nHund\nBuch\nAuto\nHaus\nBerg"
+                ],
+                [
+                    "Brot\nSalz\nObst\nMilch\nFleisch\nReis\nHonig\nK\u00e4se\nEi\nSchokolade"
+                ],
+                [
+                    "Luftschloss\nGedankenblitz\nSehnsucht\nTraumwandler\nKlangwelle\nSchattenreich\nSchmerzpunkt\nStille\nLichtung\nGlauben"
+                ],
+                [
+                    "Wolke\nSchl\u00fcssel\nGedanke\nStimme\nMond\nFarbe\nIdee\nMusik\nZeit\nHerz"
+                ],
+                [
+                    "Apfel\nBrot\nK\u00e4se\nFleisch\nReis\nSalat\nSuppe\nSchokolade\nErdbeere\nKuchen"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "*   Salz\n*   Olive\n*   Honig\n*   Reis\n*   Kaffee\n*   Minze\n*   K\u00fcrbis\n*   Hefe\n*   Senf\n*   Essig"
+                ],
+                [
+                    "*   Salz\n*   Reis\n*   K\u00e4se\n*   Honig\n*   Olive\n*   K\u00fcrbis\n*   Minze\n*   Essig\n*   Hefe\n*   Alge"
+                ],
+                [
+                    "Apfel\nSalz\nReis\nHonig\nK\u00e4se\nOlive\nNuss\nKohl\nKaffee\nHefe"
+                ],
+                [
+                    "*   Salz\n*   Brot\n*   K\u00e4se\n*   Reis\n*   Apfel\n*   Suppe\n*   Honig\n*   Nuss\n*   Pilz\n*   Fleisch"
+                ],
+                [
+                    "Reis\nSalz\nBirne\nBrot\nHonig\nAlge\nK\u00e4se\nOlive\nKuchen\nSuppe"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Apfel\nWurst\nHonig\nPilz\nK\u00e4se\nReis\nBrot\nSchokolade\nZitrone\nZwiebel"
+                ],
+                [
+                    "*   Apfel\n*   Wurst\n*   Reis\n*   Honig\n*   Brot\n*   Zitrone\n*   Kuchen\n*   K\u00e4se\n*   Suppe\n*   Schokolade"
+                ],
+                [
+                    "*   Apfel\n*   Honig\n*   Wurst\n*   Salat\n*   K\u00e4se\n*   Brot\n*   Eis\n*   Reis\n*   Suppe\n*   Keks"
+                ],
+                [
+                    "*   Apfel\n*   Honig\n*   Zitrone\n*   Reis\n*   Schokolade\n*   Erdbeere\n*   Brot\n*   K\u00e4se\n*   Nuss\n*   Zucker"
+                ],
+                [
+                    "*   Apfel\n*   Honig\n*   Kartoffel\n*   Zitrone\n*   Erdnuss\n*   Reis\n*   Kuchen\n*   Knoblauch\n*   Bratwurst\n*   Schokolade"
+                ]
+            ]
+        },
+        "config": {
+            "language": "German",
+            "constraints": "Endregel: Jedes Wort muss etwas sein, das man essen kann."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Mela\nSpinacio\nRiso\nFagiolo\nFormaggio\nZucchero\nOlio\nUovo\nFungo\nSale"
+                ],
+                [
+                    "Mela\nCarota\nPane\nFagiolo\nUovo\nFormaggio\nSale\nZucchero\nFungo\nOlio"
+                ],
+                [
+                    "1. Mela\n2. Patata\n3. Riso\n4. Uovo\n5. Latte\n6. Limone\n7. Fungo\n8. Miele\n9. Sale\n10. Cioccolato"
+                ],
+                [
+                    "Pane\nMela\nCarne\nSale\nZucchero\nUovo\nRiso\nFungo\nFormaggio\nCioccolato"
+                ],
+                [
+                    "Pane\nMela\nCarne\nLatte\nZucchero\nSale\nOlio\nFungo\nUovo\nCioccolato"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Pane\nAcqua\nSale\nZucchero\nFiore\nRadice\nLatte\nUovo\nMiele\nFarina"
+                ],
+                [
+                    "Pane\nAcqua\nSale\nZucchero\nFiore\nTerra\nAria\nSole\nSogno\nTempo"
+                ],
+                [
+                    "Pane\nAcqua\nSale\nMiele\nUva\nFormaggio\nRiso\nCioccolato\nUovo\nSpezia"
+                ],
+                [
+                    "Pane\nAcqua\nSale\nZucchero\nRiso\nLatte\nUovo\nFrutta\nVerdura\nCarne"
+                ],
+                [
+                    "Pane\nSale\nAcqua\nFarina\nUovo\nZucchero\nRiso\nMiele\nLatte\nPepe"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Miele\n2.  Rapa\n3.  Lenticchia\n4.  Ostrica\n5.  Carruba\n6.  Focaccia\n7.  Cachi\n8.  Ananas\n9.  Castagna\n10. Zucca"
+                ],
+                [
+                    "1.  Pane\n2.  Radice\n3.  Sale\n4.  Menta\n5.  Uovo\n6.  Miele\n7.  Zucca\n8.  Noce\n9.  Riso\n10. Olio"
+                ],
+                [
+                    "1.  Sale\n2.  Miele\n3.  Noce\n4.  Rapa\n5.  Pane\n6.  Uovo\n7.  Zucca\n8.  Menta\n9.  Riso\n10. Ananas"
+                ],
+                [
+                    "1.  Sale\n2.  Miele\n3.  Rapa\n4.  Noce\n5.  Pane\n6.  Uovo\n7.  Menta\n8.  Zucca\n9.  Lenticchia\n10. Ananas"
+                ],
+                [
+                    "1.  Sale\n2.  Miele\n3.  Rapa\n4.  Ciliegia\n5.  Noce\n6.  Lievito\n7.  Farro\n8.  Anice\n9.  Ostrica\n10. Curcuma"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Pane\nMela\nZucchero\nUovo\nSale\nRiso\nCiliegia\nBurro\nAglio\nCioccolato"
+                ],
+                [
+                    "1.  Mela\n2.  Sale\n3.  Pasta\n4.  Zucchero\n5.  Uovo\n6.  Caff\u00e8\n7.  Pane\n8.  Miele\n9.  Arancia\n10. Nocciola"
+                ],
+                [
+                    "Mela\nSale\nPane\nZucchero\nUovo\nCaff\u00e8\nCiliegia\nRiso\nErba\nMiele"
+                ],
+                [
+                    "1.  Melone\n2.  Olive\n3.  Riso\n4.  Ciliegia\n5.  Miele\n6.  Pane\n7.  Arancia\n8.  Uova\n9.  Noci\n10. Zucca"
+                ],
+                [
+                    "Pane\nSale\nMenta\nUva\nRiso\nMiele\nPesce\nOlio\nLimone\nCarota"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Italian",
+            "constraints": "Regola finale: ogni parola deve essere qualcosa che si pu\u00f2 mangiare."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "*   Brood\n*   Appel\n*   Kip\n*   Kaas\n*   Rijst\n*   Peper\n*   Chocola\n*   Champignon\n*   Soep\n*   Honig"
+                ],
+                [
+                    "1.  Wortel\n2.  Brood\n3.  Kaas\n4.  Honing\n5.  Peper\n6.  Melk\n7.  Munt\n8.  Champignon\n9.  Erwt\n10. Rijst"
+                ],
+                [
+                    "*   Vlees\n*   Appel\n*   Wortel\n*   Brood\n*   Kaas\n*   Suiker\n*   Zout\n*   Champignon\n*   Rijst\n*   Honing"
+                ],
+                [
+                    "*   Appel\n*   Brood\n*   Kaas\n*   Wortel\n*   Kip\n*   Rijst\n*   Noot\n*   Honing\n*   Ei\n*   Chocolade"
+                ],
+                [
+                    "1. Brood\n2. Appel\n3. Wortel\n4. Kaas\n5. Rijst\n6. Kip\n7. Honing\n8. Noot\n9. Snoep\n10. Peper"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Huis\nStoel\nBoek\nHond\nWolk\nMuziek\nDroom\nGevoel\nTijd\nLicht\n\nBrood\nAppel\nKaas\nRijst\nVis\nSinaasappel\nAardappel\nChocolade\nWater\nZout"
+                ],
+                [
+                    "Vrede\nZon\nDroom\nKoffie\nGoud\nTijd\nGeluk\nBoom\nWater\nBrood"
+                ],
+                [
+                    "Boom\nGedachte\nWolk\nZon\nWater\nSteen\nVogel\nBoek\nLucht\nZand\n\nAppel\nBrood\nKaas\nRijst\nVis\nSla\nEi\nVlees\nSuiker\nZout"
+                ],
+                [
+                    "Berg\nVloer\nLiefde\nGeluidsgolf\nTijdmachine\nVreugde\nDroom\nSpel\nDans\nZon\nPasta\nKaas\nBrood\nAppel\nWater\nChocolade\nRijst\nBoter\nEi\nZout"
+                ],
+                [
+                    "Brood\nLucht\nDroom\nSteen\nGras\nZon\nWater\nGeld\nVrede\nGeluid"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "*   Aardbei\n*   Brood\n*   Olijf\n*   Honing\n*   Kaas\n*   Gist\n*   Kip\n*   Zout\n*   Riet\n*   Soep"
+                ],
+                [
+                    "1. Zout\n2. Brood\n3. Appel\n4. Honing\n5. Watermeloen\n6. Rijst\n7. Kaas\n8. Olie\n9. Suiker\n10. Spinazie"
+                ],
+                [
+                    "Hier zijn 10 woorden die aan alle criteria voldoen:\n\n*   Brood\n*   Zout\n*   Honing\n*   Radijs\n*   Kip\n*   Mango\n*   Walnoot\n*   Suiker\n*   Olie\n*   Komkommer"
+                ],
+                [
+                    "*   Aardbei\n*   Brood\n*   Kip\n*   Zeewier\n*   Honing\n*   Rijst\n*   Kool\n*   Kaas\n*   Amandel\n*   Olijf"
+                ],
+                [
+                    "*   Aardbei\n*   Brood\n*   Kaas\n*   Olijf\n*   Paprika\n*   Selderij\n*   Tomaat\n*   Yoghurt\n*   Rijst\n*   Suiker"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Eikel\n2.  Waterkers\n3.  Zonnebloem\n4.  Druif\n5.  Kastanje\n6.  Rabarber\n7.  Sinaasappel\n8.  Oester\n9.  Perzik\n10. Spruit"
+                ],
+                [
+                    "1.  Vlinder\n2.  Wens\n3.  Kasteel\n4.  Spreuk\n5.  Ster\n6.  Vuur\n7.  Punt\n8.  Zucht\n9.  Sleutel\n10. Appel"
+                ],
+                [
+                    "1. Appel\n2. Sla\n3. Honing\n4. Rijst\n5. Zuurkool\n6. Pinda\n7. Suiker\n8. Prei\n9. Olijf\n10. Kaneel"
+                ],
+                [
+                    "1.  Appel\n2.  Kruid\n3.  Cake\n4.  Pinda\n5.  Mosterd\n6.  Brood\n7.  Suiker\n8.  Pasta\n9.  Sinaasappel\n10. Rijst"
+                ],
+                [
+                    "1.  Brood\n2.  Citroen\n3.  IJs\n4.  Snoep\n5.  Koffie\n6.  Aardbei\n7.  Pasta\n8.  Zout\n9.  Honing\n10. Rijst"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Dutch",
+            "constraints": "Laatste regel: elk woord moet iets zijn dat je kunt eten."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Ma\u00e7\u00e3\n2. P\u00e3o\n3. Carne\n4. Queijo\n5. Batata\n6. Feij\u00e3o\n7. Arroz\n8. Mel\n9. Sal\n10. Cogumelo"
+                ],
+                [
+                    "1. Ma\u00e7\u00e3\n2. Cenoura\n3. Arroz\n4. Carne\n5. Queijo\n6. Mel\n7. Sal\n8. P\u00e3o\n9. Tomate\n10. Caf\u00e9"
+                ],
+                [
+                    "Arroz\nMa\u00e7\u00e3\nQueijo\nAlho\nCarne\nCenoura\nChocolate\nFeij\u00e3o\nCogumelo\nPimenta"
+                ],
+                [
+                    "1. Ma\u00e7\u00e3\n2. Arroz\n3. Batata\n4. Queijo\n5. Frango\n6. Alface\n7. Chocolate\n8. Mel\n9. Cogumelo\n10. Am\u00eandoa"
+                ],
+                [
+                    "Arroz\nCarne\nMa\u00e7\u00e3\nCenoura\nQueijo\nChocolate\nSal\nOvo\nAzeite\nCogumelo"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "P\u00e3o\nOvo\nLeite\nSal\nA\u00e7\u00facar\nArroz\nFeij\u00e3o\nCarne\nPeixe\nFruta"
+                ],
+                [
+                    "Cereja\nP\u00e3o\nQueijo\nArroz\nSal\nL\u00e3\nSol\nChave\nLivro\nCadeira"
+                ],
+                [
+                    "P\u00e3o\nVinho\nSal\nA\u00e7\u00facar\nArroz\nFeij\u00e3o\nCarne\nPeixe\nOvo\nQueijo"
+                ],
+                [
+                    "Abacaxi\nQueijo\nArroz\nFeij\u00e3o\nSalada\nP\u00e3o\nManteiga\nMel\nOvo\nIogurte"
+                ],
+                [
+                    "Farinha\nSonho\nVinagre\nSalada\nP\u00e3o\nLim\u00e3o\nOvo\nManteiga\nArroz\nQueijo"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Sal\n2.  Mel\n3.  P\u00e3o\n4.  Azeitona\n5.  Alface\n6.  Cereja\n7.  Cogumelo\n8.  Am\u00eandoa\n9.  Manteiga\n10. Lentilha"
+                ],
+                [
+                    "1.  Mel\n2.  Arroz\n3.  Azeitona\n4.  Cogumelo\n5.  Alface\n6.  Sardinha\n7.  Gengibre\n8.  Amora\n9.  Noz\n10. Batata"
+                ],
+                [
+                    "1.  Alface\n2.  Bolo\n3.  Sal\n4.  Azeite\n5.  Feij\u00e3o\n6.  Pimenta\n7.  Mel\n8.  Arroz\n9.  Ovo\n10. Laranja"
+                ],
+                [
+                    "1.  Sal\n2.  Mel\n3.  P\u00e3o\n4.  Alface\n5.  Azeite\n6.  Laranja\n7.  Cogumelo\n8.  Am\u00eandoa\n9.  Ovo\n10. Arroz"
+                ],
+                [
+                    "1.  Sal\n2.  Mel\n3.  P\u00e3o\n4.  Carne\n5.  Ovo\n6.  Azeitona\n7.  Queijo\n8.  Cogumelo\n9.  Alface\n10. Arroz"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  T\u00e2mara\n2.  Bolo\n3.  Tangerina\n4.  Pinh\u00e3o\n5.  Uva\n6.  Avel\u00e3\n7.  Pipoca\n8.  Marmelo\n9.  Figo\n10. Rabanete"
+                ],
+                [
+                    "1.  Ameixa\n2.  Salsicha\n3.  Goiaba\n4.  Azeitona\n5.  Bolo\n6.  Pinh\u00e3o\n7.  T\u00e2mara\n8.  P\u00e3o\n9.  Figo\n10. Pipoca"
+                ],
+                [
+                    "1.  Abacaxi\n2.  T\u00e2mara\n3.  Rabanete\n4.  Amora\n5.  Cacau\n6.  Azeitona\n7.  Arroz\n8.  Gengibre\n9.  Avel\u00e3\n10. Lentilha"
+                ],
+                [
+                    "1.  Abacaxi\n2.  Ameixa\n3.  Broto\n4.  Cacau\n5.  Damasco\n6.  Ervilha\n7.  Figo\n8.  Goiaba\n9.  Kiwi\n10. T\u00e2mara"
+                ],
+                [
+                    "1.  Azeitona\n2.  T\u00e2mara\n3.  Abacaxi\n4.  Figo\n5.  Milho\n6.  Goiaba\n7.  Castanha\n8.  Espinafre\n9.  Ameixa\n10. Tangerina"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Portuguese",
+            "constraints": "Regra final: cada palavra deve ser algo que voc\u00ea possa comer."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u7c73\n\u8089\n\u9b5a\n\u5375\n\u828b\n\u8449\n\u5b9f\n\u8338\n\u6d77\u82d4\n\u5473\u564c"
+                ],
+                [
+                    "\u7c73\n\u8089\n\u9b5a\n\u5375\n\u828b\n\u6797\u6a8e\n\u5869\n\u7802\u7cd6\n\u30d1\u30f3\n\u83d3\u5b50"
+                ],
+                [
+                    "\u7c73\n\u8089\n\u9b5a\n\u91ce\u83dc\n\u679c\u7269\n\u5375\n\u5869\n\u30d1\u30f3\n\u8338\n\u8c46"
+                ],
+                [
+                    "*   \u7c73\n*   \u8089\n*   \u9b5a\n*   \u5375\n*   \u725b\u4e73\n*   \u5927\u8c46\n*   \u6606\u5e03\n*   \u690e\u8338\n*   \u5473\u564c\n*   \u82fa"
+                ],
+                [
+                    "\u7c73\n\u91ce\u83dc\n\u679c\u7269\n\u8089\n\u9b5a\n\u5375\n\u8c46\u8150\n\u7802\u7cd6\n\u6cb9\n\u9905"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u308a\u3093\u3054\n2. \u3054\u98ef\n3. \u5869\n4. \u91a4\u6cb9\n5. \u5375\n6. \u8089\n7. \u9b5a\n8. \u91ce\u83dc\n9. \u7802\u7cd6\n10. \u6cb9"
+                ],
+                [
+                    "1. \u3054\u98ef\n2. \u8089\n3. \u9b5a\n4. \u91ce\u83dc\n5. \u679c\u7269\n6. \u5375\n7. \u725b\u4e73\n8. \u30d1\u30f3\n9. \u7802\u7cd6\n10. \u5869"
+                ],
+                [
+                    "1. \u3054\u98ef\n2. \u5869\n3. \u7802\u7cd6\n4. \u91a4\u6cb9\n5. \u9162\n6. \u6cb9\n7. \u5375\n8. \u9d8f\u8089\n9. \u8c46\u8150\n10. \u91ce\u83dc"
+                ],
+                [
+                    "1. \u308a\u3093\u3054\n2. \u3054\u98ef\n3. \u5869\n4. \u925b\u7b46\n5. \u6905\u5b50\n6. \u592a\u967d\n7. \u5922\n8. \u601d\u8003\n9. \u611f\u8b1d\n10. \u559c\u3073"
+                ],
+                [
+                    "1. \u3054\u98ef\n2. \u5869\n3. \u85ac\n4. \u8449\n5. \u8f2a\n6. \u82af\n7. \u82bd\n8. \u7a74\n9. \u584a\n10. \u6ce1"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u7c73\n2.  \u5869\n3.  \u871c\n4.  \u828b\n5.  \u8c46\n6.  \u9ea6\n7.  \u85fb\n8.  \u9921\n9.  \u9ea9\n10. \u67ff"
+                ],
+                [
+                    "1.  \u7c73\n2.  \u5869\n3.  \u871c\n4.  \u85fb\n5.  \u9921\n6.  \u9ea9\n7.  \u845b\n8.  \u9905\n9.  \u67ff\n10. \u8338"
+                ],
+                [
+                    "1.  \u7c73\n2.  \u5869\n3.  \u871c\n4.  \u85fb\n5.  \u9921\n6.  \u9ea9\n7.  \u67ff\n8.  \u6cb9\n9.  \u9905\n10. \u828b"
+                ],
+                [
+                    "1.  \u7c73\n2.  \u5869\n3.  \u871c\n4.  \u85fb\n5.  \u828b\n6.  \u8c46\n7.  \u9ea6\n8.  \u67ff\n9.  \u8338\n10. \u9ea9"
+                ],
+                [
+                    "1.  \u7c73\n2.  \u5869\n3.  \u871c\n4.  \u9ea6\n5.  \u8c46\n6.  \u828b\n7.  \u83dc\n8.  \u679c\n9.  \u8338\n10. \u8102"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u98df\u3079\u3089\u308c\u308b\u540d\u8a5e\u306e\u307f\u3067\u3001\u610f\u5473\u3084\u4f7f\u3044\u65b9\u306b\u304a\u3044\u3066\u4e92\u3044\u306b\u7570\u306a\u308b10\u500b\u306e\u5358\u8a9e\u3092\u6319\u3052\u307e\u3059\u3002\n\n1.  **\u7c73**\n2.  **\u871c**\n3.  **\u8317\u8377**\n4.  **\u6817**\n5.  **\u9c2f**\n6.  **\u6797\u6a8e**\n7.  **\u9921**\n8.  **\u6606\u5e03**\n9.  **\u67ff**\n10. **\u7f8a\u7fb9**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u98df\u3079\u3089\u308c\u308b\u540d\u8a5e\u306e\u65e5\u672c\u8a9e\u5358\u8a9e\u309210\u500b\u6319\u3052\u307e\u3059\u3002\n\n1.  **\u7c73**\n2.  **\u679c\u7269**\n3.  **\u9b5a**\n4.  **\u91ce\u83dc**\n5.  **\u8089**\n6.  **\u5375**\n7.  **\u8c46**\n8.  **\u30d1\u30f3**\n9.  **\u7802\u7cd6**\n10. **\u6d77\u82d4**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u98df\u3079\u3089\u308c\u308b\u540d\u8a5e\u306e\u307f\u3067\u3001\u610f\u5473\u3084\u4f7f\u3044\u65b9\u304c\u3067\u304d\u308b\u3060\u3051\u7570\u306a\u308b10\u500b\u306e\u5358\u8a9e\u3092\u6319\u3052\u307e\u3059\u3002\n\n1.  **\u7c73**\n2.  **\u871c**\n3.  **\u6797\u6a8e**\n4.  **\u8c46\u8150**\n5.  **\u6d77\u82d4**\n6.  **\u5473\u564c**\n7.  **\u854e\u9ea6**\n8.  **\u856a**\n9.  **\u7f8a\u7fb9**\n10. **\u80e1\u9ebb**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u98df\u3079\u3089\u308c\u308b\u540d\u8a5e\u306e\u307f\u3067\u3001\u610f\u5473\u3084\u4f7f\u3044\u65b9\u304c\u4e92\u3044\u306b\u7570\u306a\u308b10\u500b\u306e\u5358\u8a9e\u3092\u6319\u3052\u307e\u3059\u3002\n\n1.  **\u7c73**\n2.  **\u6797\u6a8e**\n3.  **\u8c46\u8150**\n4.  **\u871c\u67d1**\n5.  **\u9c2f**\n6.  **\u80e1\u9ebb**\n7.  **\u8304\u5b50**\n8.  **\u6606\u5e03**\n9.  **\u9905**\n10. **\u82fa**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u98df\u3079\u3089\u308c\u308b\u3082\u306e\uff08\u540d\u8a5e\uff09\u3067\u3001\u610f\u5473\u3084\u4f7f\u3044\u65b9\u304c\u4e92\u3044\u306b\u7570\u306a\u308b10\u500b\u306e\u65e5\u672c\u8a9e\u306e\u5358\u8a9e\u3092\u4ee5\u4e0b\u306b\u793a\u3057\u307e\u3059\u3002\n\n1.  **\u7c73**\n2.  **\u6885**\n3.  **\u6d77\u82d4**\n4.  **\u7802\u7cd6**\n5.  **\u80e1\u9ebb**\n6.  **\u6797\u6a8e**\n7.  **\u854e\u9ea6**\n8.  **\u9baa**\n9.  **\u8702\u871c**\n10. **\u8317\u8377**"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Japanese",
+            "constraints": "\u6700\u7d42\u30eb\u30fc\u30eb\uff1a\u3059\u3079\u3066\u306e\u5358\u8a9e\u306f\u98df\u3079\u3089\u308c\u308b\u3082\u306e\u3067\u306a\u3051\u308c\u3070\u306a\u308a\u307e\u305b\u3093\u3002"
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u0623\u0631\u0632\n2.  \u062a\u0641\u0627\u062d\n3.  \u062c\u0632\u0631\n4.  \u0644\u062d\u0645\n5.  \u062c\u0628\u0646\n6.  \u0639\u0633\u0644\n7.  \u0645\u0644\u062d\n8.  \u0632\u064a\u062a\u0648\u0646\n9.  \u0641\u0637\u0631\n10. \u0639\u062f\u0633"
+                ],
+                [
+                    "1. \u062a\u0645\u0631\n2. \u0628\u0635\u0644\n3. \u0639\u062f\u0633\n4. \u0633\u0645\u0633\u0645\n5. \u0642\u0631\u0641\u0629\n6. \u0632\u0628\u0627\u062f\u064a\n7. \u0628\u064a\u0636\n8. \u0639\u0633\u0644\n9. \u0632\u064a\u062a\u0648\u0646\n10. \u0641\u0637\u0631"
+                ],
+                [
+                    "\u062a\u0645\u0631\n\u0644\u062d\u0645\n\u0645\u0644\u062d\n\u0632\u064a\u062a\n\u0639\u062f\u0633\n\u0639\u0633\u0644\n\u062c\u0632\u0631\n\u062c\u0628\u0646\n\u0642\u0645\u062d\n\u062e\u0644"
+                ],
+                [
+                    "*   \u062e\u0628\u0632\n*   \u0644\u062d\u0645\n*   \u0639\u0633\u0644\n*   \u062a\u0641\u0627\u062d\n*   \u0633\u0645\u0643\n*   \u062c\u0632\u0631\n*   \u0645\u0644\u062d\n*   \u0632\u064a\u062a\n*   \u0639\u062f\u0633\n*   \u062c\u0628\u0646"
+                ],
+                [
+                    "1.  \u062e\u0628\u0632\n2.  \u0644\u062d\u0645\n3.  \u062a\u0641\u0627\u062d\n4.  \u0641\u0644\u0641\u0644\n5.  \u0645\u0627\u0621\n6.  \u0645\u0644\u062d\n7.  \u0639\u0633\u0644\n8.  \u0632\u064a\u062a\n9.  \u0644\u0628\u0646\n10. \u0639\u062f\u0633"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u062a\u0641\u0627\u062d\u0629\n2. \u0645\u0644\u062d\n3. \u062d\u0644\u064a\u0628\n4. \u062e\u0628\u0632\n5. \u0639\u0633\u0644\n6. \u0623\u0631\u0632\n7. \u0632\u0628\u062f\u0629\n8. \u062c\u0628\u0646\n9. \u062a\u0645\u0631\n10. \u0632\u064a\u062a"
+                ],
+                [
+                    "\u0645\u0627\u0621\n\u062e\u0628\u0632\n\u062a\u0641\u0627\u062d\n\u062c\u0628\u0646\n\u0623\u0631\u0632\n\u0645\u0644\u062d\n\u0639\u0633\u0644\n\u0628\u064a\u0636\n\u0632\u064a\u062a\n\u0633\u0643\u0631"
+                ],
+                [
+                    "1.  \u0642\u0645\u0631\n2.  \u0633\u0631\u0639\u0629\n3.  \u0635\u0648\u062a\n4.  \u062e\u064a\u0627\u0644\n5.  \u0648\u062d\u062f\u0629\n6.  \u062d\u0631\u064a\u0629\n7.  \u0644\u0648\u0646\n8.  \u0623\u0645\u0644\n9.  \u0623\u0644\u0645\n10. \u0636\u0648\u0621"
+                ],
+                [
+                    "\u0645\u0627\u0621\n\u0645\u0644\u062d\n\u062e\u0628\u0632\n\u0639\u0633\u0644\n\u0648\u0631\u0642\u0629\n\u0634\u062c\u0631\n\u062d\u062c\u0631\n\u0631\u064a\u062d\n\u0642\u0645\u0631\n\u0644\u064a\u0644"
+                ],
+                [
+                    "\u0645\u0627\u0621\n\u0646\u0627\u0631\n\u0647\u0648\u0627\u0621\n\u062a\u0631\u0627\u0628\n\u0633\u0643\u0631\n\u0645\u0644\u062d\n\u0632\u064a\u062a\n\u062e\u0634\u0628\n\u0648\u0631\u0642\n\u0635\u062e\u0631"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u062e\u0628\u0632\n2.  \u062a\u064a\u0646\n3.  \u0645\u0644\u062d\n4.  \u0639\u0633\u0644\n5.  \u0632\u064a\u062a\u0648\u0646\n6.  \u0641\u0644\u0641\u0644\n7.  \u0644\u0648\u0632\n8.  \u062a\u0645\u0631\n9.  \u0639\u062f\u0633\n10. \u0628\u0635\u0644"
+                ],
+                [
+                    "1.  \u062a\u064a\u0646\n2.  \u0645\u0644\u062d\n3.  \u0632\u064a\u062a\n4.  \u062e\u0628\u0632\n5.  \u062a\u0645\u0631\n6.  \u0644\u0648\u0632\n7.  \u0639\u0633\u0644\n8.  \u0628\u064a\u0636\n9.  \u062a\u0641\u0627\u062d\n10. \u0639\u062f\u0633"
+                ],
+                [
+                    "1. \u062e\u0628\u0632\n2. \u062a\u0645\u0631\n3. \u0632\u064a\u062a\u0648\u0646\n4. \u0639\u062f\u0633\n5. \u062a\u0641\u0627\u062d\n6. \u0645\u0644\u062d\n7. \u0644\u062d\u0645\n8. \u0639\u0633\u0644\n9. \u062c\u0648\u0632\n10. \u062e\u0633"
+                ],
+                [
+                    "1.  \u062a\u0645\u0631\n2.  \u062e\u0628\u0632\n3.  \u0632\u064a\u062a\u0648\u0646\n4.  \u0628\u0635\u0644\n5.  \u062a\u064a\u0646\n6.  \u0639\u0646\u0628\n7.  \u0645\u0644\u062d\n8.  \u0644\u0648\u0632\n9.  \u0639\u062f\u0633\n10. \u0628\u0627\u0630\u0646\u062c\u0627\u0646"
+                ],
+                [
+                    "1. \u062e\u0628\u0632\n2. \u0632\u064a\u062a\u0648\u0646\n3. \u062a\u0641\u0627\u062d\n4. \u0639\u0646\u0628\n5. \u0645\u0644\u062d\n6. \u0639\u062f\u0633\n7. \u062c\u0648\u0632\n8. \u062a\u0645\u0631\n9. \u0628\u0627\u0630\u0646\u062c\u0627\u0646\n10. \u0641\u0644\u0641\u0644"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u0639\u0646\u0628\n2.  \u062a\u0645\u0631\n3.  \u062e\u0628\u0632\n4.  \u0632\u064a\u062a\u0648\u0646\n5.  \u0623\u0631\u0632\n6.  \u0631\u0645\u0627\u0646\n7.  \u0633\u0645\u0643\n8.  \u0628\u0635\u0644\n9.  \u0639\u0633\u0644\n10. \u0628\u0631\u062a\u0642\u0627\u0644"
+                ],
+                [
+                    "1.  **\u062e\u0628\u0632**\n2.  **\u0631\u0645\u0627\u0646**\n3.  **\u062a\u0645\u0631**\n4.  **\u0632\u064a\u062a\u0648\u0646**\n5.  **\u0639\u0633\u0644**\n6.  **\u0628\u0631\u062a\u0642\u0627\u0644**\n7.  **\u0623\u0631\u0632**\n8.  **\u0643\u0645\u062b\u0631\u0649**\n9.  **\u062d\u0645\u0635**\n10. **\u062f\u0628\u0633**"
+                ],
+                [
+                    "1.  \u0628\u0631\u062a\u0642\u0627\u0644\u0629\n2.  \u062e\u0628\u0632\n3.  \u0632\u0628\u064a\u0628\n4.  \u0639\u062f\u0633\n5.  \u0639\u0633\u0644\n6.  \u0623\u0631\u0632\n7.  \u062a\u0648\u062a\n8.  \u0632\u064a\u062a\u0648\u0646\n9.  \u062a\u0645\u0631\n10. \u0644\u0628\u0646"
+                ],
+                [
+                    "1.  \u0628\u0631\u062a\u0642\u0627\u0644\n2.  \u0643\u0645\u062b\u0631\u0649\n3.  \u0639\u0646\u0628\n4.  \u0639\u062f\u0633\n5.  \u0628\u0635\u0644\n6.  \u0632\u064a\u062a\u0648\u0646\n7.  \u062a\u0648\u062a\n8.  \u062c\u0648\u0632\n9.  \u0623\u0631\u0632\n10. \u062e\u0628\u0632"
+                ],
+                [
+                    "1.  **\u062e\u0628\u0632**\n2.  **\u0639\u0646\u0628**\n3.  **\u062a\u0645\u0631\u0629**\n4.  **\u0632\u064a\u062a\u0648\u0646**\n5.  **\u0623\u0631\u0632**\n6.  **\u0645\u0648\u0632**\n7.  **\u0645\u0644\u062d**\n8.  **\u0639\u0633\u0644**\n9.  **\u0644\u0628\u0646**\n10. **\u0634\u0648\u0643\u0648\u0644\u0627\u062a\u0629**"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Arabic",
+            "constraints": "\u0627\u0644\u0642\u0627\u0639\u062f\u0629 \u0627\u0644\u0646\u0647\u0627\u0626\u064a\u0629: \u064a\u062c\u0628 \u0623\u0646 \u062a\u0643\u0648\u0646 \u0643\u0644 \u0643\u0644\u0645\u0629 \u0634\u064a\u0626\u064b\u0627 \u064a\u0645\u0643\u0646\u0643 \u0623\u0643\u0644\u0647."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u7c73\n\u8089\n\u83dc\n\u83cc\n\u86cb\n\u5976\n\u7cd6\n\u6cb9\n\u76d0\n\u8336"
+                ],
+                [
+                    "\u7c73\n\u8089\n\u83dc\n\u679c\n\u7cd6\n\u76d0\n\u6cb9\n\u5976\n\u86cb\n\u9762"
+                ],
+                [
+                    "\u996d\n\u8089\n\u83dc\n\u679c\n\u7cd6\n\u76d0\n\u9152\n\u8336\n\u6cb9\n\u8c46"
+                ],
+                [
+                    "\u7c73\n\u8089\n\u83dc\n\u9c7c\n\u86cb\n\u5976\n\u8c46\n\u7cd6\n\u76d0\n\u6cb9"
+                ],
+                [
+                    "\u7c73\n\u82f9\u679c\n\u841d\u535c\n\u9e21\n\u9c7c\n\u725b\u5976\n\u8702\u871c\n\u82b1\u751f\n\u8611\u83c7\n\u8c46\u8150"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u7c73\u996d\n\u82f9\u679c\n\u8c46\u8150\n\u8702\u871c\n\u76d0\n\u8fa3\u6912\n\u9762\u7c89\n\u9e21\u86cb\n\u8611\u83c7\n\u5de7\u514b\u529b"
+                ],
+                [
+                    "\u7c73\u996d\n\u7a7a\u6c14\n\u9633\u5149\n\u77f3\u5934\n\u68a6\u60f3\n\u65f6\u95f4\n\u77e5\u8bc6\n\u60c5\u611f\n\u539f\u5219\n\u601d\u60f3"
+                ],
+                [
+                    "\u7c73\u996d\n\u82f9\u679c\n\u725b\u5976\n\u98df\u76d0\n\u9999\u8549\n\u9e21\u86cb\n\u9762\u6761\n\u8c46\u8150\n\u8702\u871c\n\u571f\u8c46"
+                ],
+                [
+                    "\u7c73\u996d\n\u8336\u53f6\n\u9999\u8549\n\u8c46\u8150\n\u8702\u871c\n\u76d0\n\u8fa3\u6912\n\u9762\u6761\n\u5976\u916a\n\u9e21\u86cb"
+                ],
+                [
+                    "\u7c73\u996d\n\u9762\u5305\n\u9e21\u86cb\n\u852c\u83dc\n\u6c34\u679c\n\u5976\u916a\n\u725b\u8089\n\u9c7c\u8089\n\u8702\u871c\n\u8336\u53f6"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u76d0\n2. \u8702\u871c\n3. \u7c73\u996d\n4. \u8611\u83c7\n5. \u6a44\u6984\n6. \u71d5\u7a9d\n7. \u9c7c\u7fc5\n8. \u67b8\u675e\n9. \u9762\u7b4b\n10. \u8517\u7cd6"
+                ],
+                [
+                    "1.  \u76d0\n2.  \u7a3b\u7c73\n3.  \u8702\u871c\n4.  \u6d77\u5e26\n5.  \u8c46\u8150\n6.  \u8611\u83c7\n7.  \u8336\u53f6\n8.  \u71d5\u7a9d\n9.  \u83b2\u85d5\n10. \u7b0b"
+                ],
+                [
+                    "1. \u7518\u8517\n2. \u9992\u5934\n3. \u6d77\u5e26\n4. \u8702\u871c\n5. \u82a5\u672b\n6. \u67b8\u675e\n7. \u83b2\u85d5\n8. \u51b0\u7cd6\n9. \u677e\u5b50\n10. \u71d5\u7a9d"
+                ],
+                [
+                    "1. \u76d0\n2. \u8702\u871c\n3. \u841d\u535c\n4. \u9992\u5934\n5. \u83b2\u85d5\n6. \u8695\u8c46\n7. \u7d2b\u83dc\n8. \u71d5\u7a9d\n9. \u6a44\u6984\n10. \u8568\u83dc"
+                ],
+                [
+                    "1. \u76d0\n2. \u8702\u871c\n3. \u8611\u83c7\n4. \u71d5\u7a9d\n5. \u82a5\u672b\n6. \u5e74\u7cd5\n7. \u83b2\u85d5\n8. \u6a44\u6984\n9. \u67b8\u675e\n10. \u7cbd\u5b50"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u7c73\n2.  \u7cd6\n3.  \u74dc\n4.  \u918b\n5.  \u997c\n6.  \u7ca5\n7.  \u8336\n8.  \u76d0\n9.  \u9171\n10. \u8c46"
+                ],
+                [
+                    "1.  \u679c\n2.  \u997c\n3.  \u7fb9\n4.  \u8c46\n5.  \u7cd6\n6.  \u996d\n7.  \u8336\n8.  \u7ca5\n9.  \u8089\n10. \u9985"
+                ],
+                [
+                    "1.  \u8c37\n2.  \u871c\n3.  \u7b0b\n4.  \u997c\n5.  \u83cc\n6.  \u679c\n7.  \u7cd6\n8.  \u7ca5\n9.  \u916a\n10. \u8c46"
+                ],
+                [
+                    "1.  \u9992\u5934\n2.  \u871c\u996f\n3.  \u8c46\u8150\n4.  \u679c\u812f\n5.  \u9c7c\u5b50\n6.  \u8349\u8393\n7.  \u82b1\u751f\n8.  \u828b\u5934\n9.  \u9984\u9968\n10. \u6a44\u6984"
+                ],
+                [
+                    "1.  \u679c\n2.  \u7c73\n3.  \u8336\n4.  \u7cd6\n5.  \u8089\n6.  \u9171\n7.  \u997c\n8.  \u918b\n9.  \u8c46\n10. \u7ca5"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Chinese",
+            "constraints": "\u6700\u7ec8\u89c4\u5219\uff1a\u6bcf\u4e2a\u8bcd\u90fd\u5fc5\u987b\u662f\u53ef\u4ee5\u5403\u7684\u4e1c\u897f\u3002"
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "\uc300\n\uc0ac\uacfc\n\ub3fc\uc9c0\uace0\uae30\n\uc591\ud30c\n\uc18c\uae08\n\ube75\n\uc6b0\uc720\n\ubb3c\n\uc0c8\uc6b0\n\ucd08\ucf5c\ub9bf"
+                ],
+                [
+                    "\ubc25\n\uc0ac\uacfc\n\ub2f9\uadfc\n\ub2ec\uac40\n\uc0c8\uc6b0\n\uc6b0\uc720\n\ube75\n\ubc84\uc12f\n\ucf69\n\uafc0"
+                ],
+                [
+                    "\ubc25\n\uace0\uae30\n\uacfc\uc77c\n\uc0dd\uc120\n\ucc44\uc18c\n\ube75\n\uc6b0\uc720\n\uacc4\ub780\n\uafc0\n\uc18c\uae08"
+                ],
+                [
+                    "\uc300\n\uace0\uae30\n\ucc44\uc18c\n\uc6b0\uc720\n\uc0dd\uc120\n\ube75\n\uc124\ud0d5\n\uae40\uce58\n\uad6d\n\uafc0"
+                ],
+                [
+                    "\uc300\n\uc0ac\uacfc\n\uac10\uc790\n\uc0dd\uc120\n\ub2ed\n\ube75\n\uc6b0\uc720\n\ub2ec\uac40\n\ubc84\uc12f\n\uafc0"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \ubc25\n2. \uacfc\uc77c\n3. \ucc44\uc18c\n4. \uace0\uae30\n5. \uc0dd\uc120\n6. \ube75\n7. \uc6b0\uc720\n8. \uc124\ud0d5\n9. \uc18c\uae08\n10. \ubb3c"
+                ],
+                [
+                    "1. \ubc25\n2. \uc0ac\uacfc\n3. \uc18c\uae08\n4. \ube75\n5. \uafc0\n6. \ucf69\n7. \ub2ec\uac40\n8. \uce58\uc988\n9. \ubb34\n10. \uc300"
+                ],
+                [
+                    "* \ubc25\n* \uc18c\uae08\n* \uc124\ud0d5\n* \uac04\uc7a5\n* \uc2dd\ucd08\n* \ubc00\uac00\ub8e8\n* \uc300\n* \ucf69\n* \uace0\ucd94\n* \ubb3c"
+                ],
+                [
+                    "1. \ube75\n2. \uc300\n3. \ubb3c\n4. \uc18c\uae08\n5. \uc124\ud0d5\n6. \uc0ac\uacfc\n7. \uc6b0\uc720\n8. \uacc4\ub780\n9. \uce58\uc988\n10. \uafc0"
+                ],
+                [
+                    "1. \uade4\n2. \uc300\n3. \uc18c\uae08\n4. \ube75\n5. \uafc0\n6. \uac04\uc7a5\n7. \uce58\uc988\n8. \ubc25\n9. \ubb3c\n10. \ucee4\ud53c"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \uc18c\uae08\n2. \ubc84\uc12f\n3. \uafc0\n4. \uac10\uc790\n5. \ub2e4\uc2dc\ub9c8\n6. \ubbf8\uc5ed\n7. \ubc24\n8. \ucf69\n9. \uace0\ucd94\n10. \uc300"
+                ],
+                [
+                    "1. \uc18c\uae08\n2. \uafc0\n3. \ubc84\uc12f\n4. \ub2e4\uc2dc\ub9c8\n5. \ubc24\n6. \ucf69\n7. \uace0\ucd94\n8. \uc300\n9. \ud1b3\n10. \uac10"
+                ],
+                [
+                    "1. \uc18c\uae08\n2. \uafc0\n3. \ubc84\uc12f\n4. \ucf69\n5. \uc7a3\n6. \ub2e4\uc2dc\ub9c8\n7. \ubb35\n8. \uc5ff\n9. \ub9e4\uc2e4\n10. \ubc15"
+                ],
+                [
+                    "1. \uc18c\uae08\n2. \ubc84\uc12f\n3. \uc824\ub9ac\n4. \uae68\n5. \ub2e4\uc2dc\ub9c8\n6. \ubc24\n7. \uace0\uc218\n8. \uc5ff\n9. \ucf69\n10. \uafc0"
+                ],
+                [
+                    "1. \uc18c\uae08\n2. \ubc84\uc12f\n3. \ub2e4\uc2dc\ub9c8\n4. \uafc0\n5. \ubc24\n6. \uace0\ucd94\n7. \ubbf8\uc5ed\n8. \ud325\n9. \uc7a3\n10. \uc62c\ub9ac\ube0c"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \uc0ac\uacfc\n2. \uc300\n3. \uafc0\n4. \uae40\n5. \ub2ec\uac40\n6. \uc18c\uae08\n7. \ube75\n8. \uc813\uac08\n9. \ubc84\uc12f\n10. \uace0\ucd94"
+                ],
+                [
+                    "1.  \uc0ac\uacfc\n2.  \uc300\n3.  \ub41c\uc7a5\n4.  \uafc0\n5.  \uae40\n6.  \uace0\uad6c\ub9c8\n7.  \uc7a3\n8.  \ube75\n9.  \uacc4\ub780\n10. \uc6b0\uc720"
+                ],
+                [
+                    "1.  \uc0ac\uacfc\n2.  \uc300\n3.  \uafc0\n4.  \uae40\n5.  \uacc4\ub780\n6.  \uace0\ucd94\n7.  \ube75\n8.  \uc6b0\uc720\n9.  \ubc24\n10. \uc18c\uae08"
+                ],
+                [
+                    "1. \uc0ac\uacfc\n2. \uc300\n3. \uafc0\n4. \uae40\n5. \ube75\n6. \ub2ec\uac40\n7. \uace0\ucd94\n8. \ubc84\uc12f\n9. \uba78\uce58\n10. \ud325"
+                ],
+                [
+                    "1.  \uc0ac\uacfc\n2.  \uc124\ud0d5\n3.  \uacc4\ub780\n4.  \uae40\n5.  \ubc14\ub098\ub098\n6.  \ucee4\ud53c\n7.  \uace0\ucd94\n8.  \uc300\n9.  \uafc0\n10. \ube75"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Korean",
+            "constraints": "\ucd5c\uc885 \uaddc\uce59: \ubaa8\ub4e0 \ub2e8\uc5b4\ub294 \uba39\uc744 \uc218 \uc788\ub294 \uac83\uc774\uc5b4\uc57c \ud569\ub2c8\ub2e4."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Chl\u00e9b\nJablko\nHov\u011bz\u00ed\nS\u00fdr\nCukr\nHouba\nFazole\nKo\u0159en\u00ed\nO\u0159ech\nZel\u00ed"
+                ],
+                [
+                    "1. Mrkev\n2. Ku\u0159e\n3. Chl\u00e9b\n4. S\u00fdr\n5. \u010cokol\u00e1da\n6. S\u016fl\n7. Fazole\n8. Mandle\n9. H\u0159ib\n10. Knedl\u00edk"
+                ],
+                [
+                    "1. S\u016fl\n2. Jablko\n3. Maso\n4. Chl\u00e9b\n5. Vejce\n6. Med\n7. Brambora\n8. S\u00fdr\n9. Voda\n10. Dort"
+                ],
+                [
+                    "1. Chl\u00e9b\n2. Maso\n3. S\u00fdr\n4. Jablko\n5. Zel\u00ed\n6. Houba\n7. Med\n8. Brambora\n9. Vejce\n10. O\u0159ech"
+                ],
+                [
+                    "1. Med\n2. S\u00fdr\n3. J\u00e1tra\n4. \u017delatina\n5. Mandle\n6. Ko\u0159en\u00ed\n7. Pudink\n8. \u0160kvarky\n9. Povidla\n10. Kavi\u00e1r"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u0160vestka\n2. Brouk\n3. V\u016fn\u011b\n4. St\u00edn\n5. Sm\u00edch\n6. Slza\n7. K\u00e1men\n8. Voda\n9. Kv\u011bt\n10. My\u0161lenka"
+                ],
+                [
+                    "1. Mra\u010dno\n2. Ozv\u011bna\n3. Vzn\u011bt\n4. St\u00edn\n5. Z\u00edvnut\u00ed\n6. \u0160epot\n7. V\u016fn\u011b\n8. Dotek\n9. Sm\u00edch\n10. Sen"
+                ],
+                [
+                    "Jablko\nPlamen\nK\u00e1men\nVoda\n\u0160t\u011bst\u00ed\nZvuk\nBarva\n\u010cas\nD\u016fm\nMy\u0161lenka"
+                ],
+                [
+                    "Jablko\nChleba\nVoda\nR\u00fd\u017ee\nS\u00fdr\nCukr\nS\u016fl\nHru\u0161ka\nMl\u00e9ko\nZel\u00ed"
+                ],
+                [
+                    "Bor\u016fvka\nChleba\n\u0160leha\u010dka\nMrkev\nO\u0159ech\nMed\nS\u00fdr\n\u010cokol\u00e1da\nJogurt\nR\u00fd\u017ee"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u017dalud\n2.  \u0160unka\n3.  Kapka\n4.  Vlo\u010dka\n5.  Kroupa\n6.  \u0160kvark\n7.  Brambora\n8.  Kv\u011bt\n9.  Pivo\n10. S\u00e1dlo"
+                ],
+                [
+                    "1.  Obil\u00ed\n2.  S\u016fl\n3.  Med\n4.  Houba\n5.  O\u0159ech\n6.  Ko\u0159en\u00ed\n7.  Cukr\n8.  Ovoce\n9.  Maso\n10. \u0158asa"
+                ],
+                [
+                    "*   k\u00e1men\n*   mot\u00fdl\n*   ticho\n*   duha\n*   vzpom\u00ednka\n*   st\u00edn\n*   sen\n*   slovo\n*   melodie\n*   hv\u011bzda"
+                ],
+                [
+                    "Zde je seznam 10 podstatn\u00fdch jmen, kter\u00e9 se daj\u00ed sn\u00edst a jsou co nejv\u00edce odli\u0161n\u00e9 ve sv\u00fdch v\u00fdznamech a pou\u017eit\u00edch:\n\n1.  Houba\n2.  \u0158epa\n3.  T\u0159e\u0161e\u0148\n4.  Km\u00edn\n5.  O\u0159ech\n6.  Med\n7.  \u010co\u010dka\n8.  Jehn\u011b\n9.  Kv\u011bt\u00e1k\n10. \u017delatina"
+                ],
+                [
+                    "1.  Zem\u011b\n2.  Du\u0161e\n3.  Pramen\n4.  Lustr\n5.  K\u0159ehkost\n6.  Ohe\u0148\n7.  Stesk\n8.  Mlha\n9.  Vzpom\u00ednka\n10. Ticho"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Chl\u00e9b\nZel\u00ed\nMed\nHru\u0161ka\nS\u016fl\nK\u00e1va\nMarmel\u00e1da\nKlob\u00e1sa\nR\u00fd\u017ee\n\u010cokol\u00e1da"
+                ],
+                [
+                    "1.  Chl\u00e9b\n2.  Jablko\n3.  Zel\u00ed\n4.  Med\n5.  Kol\u00e1\u010d\n6.  S\u016fl\n7.  Cukr\n8.  Hr\u00e1\u0161ek\n9.  S\u00fdr\n10.  \u010cokol\u00e1da"
+                ],
+                [
+                    "Chl\u00e9b\nJablko\nZel\u00ed\nMed\nS\u016fl\nHr\u00e1\u0161ek\nKol\u00e1\u010d\nZmrzlina\nCibule\nMandle"
+                ],
+                [
+                    "Chl\u00e9b\nZel\u00ed\nMeloun\n\u010cokol\u00e1da\nRaj\u010de\nCibule\nPomeran\u010d\nR\u00fd\u017ee\n\u0160pen\u00e1t\nHrozny"
+                ],
+                [
+                    "Chl\u00e9b\nZel\u00ed\nMed\nJablko\nS\u016fl\nSmetana\nR\u00fd\u017ee\nBan\u00e1n\n\u0160vestka\nKol\u00e1\u010d"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Czech",
+            "constraints": "Kone\u010dn\u00e9 pravidlo: ka\u017ed\u00e9 slovo mus\u00ed b\u00fdt n\u011bco, co se d\u00e1 sn\u00edst."
+        }
+    }
+]

@@ -1,0 +1,986 @@
+[
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Thunder\nBell\nEngine\nRain\nWhistle\nDoor\nBee\nWave\nZipper\nClock"
+                ],
+                [
+                    "Thunder\nBell\nHammer\nKettle\nWhistle\nClock\nEngine\nSpeaker\nRattle\nCymbal"
+                ],
+                [
+                    "1.  Thunder\n2.  Bell\n3.  Engine\n4.  Rain\n5.  Whistle\n6.  Footstep\n7.  Keyboard\n8.  Wave\n9.  Laughter\n10. Zipper"
+                ],
+                [
+                    "Bell\nThunder\nHammer\nWaterfall\nZipper\nRoar\nEngine\nHorn\nGong\nCrackle"
+                ],
+                [
+                    "Bell\nWaterfall\nDrum\nWhistle\nClock\nThunder\nKettle\nDoor\nBee\nEngine"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Thunder\nWhisper\nClock\nApplause\nOcean\nBark\nBell\nWind\nGiggle\nCrash"
+                ],
+                [
+                    "Thunder\nWhisper\nHammer\nOcean\nLaughter\nBell\nWind\nChime\nEngine\nCrackle"
+                ],
+                [
+                    "Wind\nHammer\nChime\nWhisper\nRustle\nBell\nRoar\nThump\nScream\nBuzz"
+                ],
+                [
+                    "Thunder\nWhisper\nScream\nBell\nChime\nRoar\nRustle\nMurmur\nBang\nHum"
+                ],
+                [
+                    "Thunder\nWhisper\nSplash\nChirp\nScream\nRumble\nTick\nRoar\nClatter\nHum"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Bell\n2. Whistle\n3. Drum\n4. Gong\n5. Siren\n6. Cymbal\n7. Chime\n8. Clapper\n9. Horn\n10. Rattle"
+                ],
+                [
+                    "1.  Bell\n2.  Thunder\n3.  Clock\n4.  Water\n5.  Paper\n6.  Vehicle\n7.  Chain\n8.  Footstep\n9.  Applause\n10. Door"
+                ],
+                [
+                    "1.  Bell\n2.  Thunder\n3.  Clock\n4.  Guitar\n5.  Chime\n6.  Rain\n7.  Footstep\n8.  Siren\n9.  Whistle\n10. Wind"
+                ],
+                [
+                    "1.  Bell\n2.  Thunder\n3.  Clock\n4.  Chime\n5.  Gong\n6.  Rattle\n7.  Whistle\n8.  Horn\n9.  Cymbal\n10. Drum"
+                ],
+                [
+                    "1.  Bell\n2.  Thunder\n3.  Clock\n4.  Horn\n5.  Gong\n6.  Rattle\n7.  Whistle\n8.  Chime\n9.  Tambourine\n10. Squeak"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Bell\nThunder\nWhistle\nCymbal\nHymn\nSiren\nPiano\nClock\nDrum\nGong"
+                ],
+                [
+                    "Bell\nSpoon\nWind\nCymbal\nPiano\nThunder\nWhistle\nGuitar\nRattle\nHarp"
+                ],
+                [
+                    "Bell\nClock\nThunder\nTrumpet\nSiren\nLaughter\nWind\nHarp\nGun\nPiano"
+                ],
+                [
+                    "Bell\nDrum\nRain\nLaughter\nWhistle\nThunder\nClap\nSiren\nSpeech\nHarp"
+                ],
+                [
+                    "Bell\nWhistle\nHarp\nDrum\nSiren\nGong\nTrumpet\nCymbal\nPiano\nTriangle"
+                ]
+            ]
+        },
+        "config": {
+            "language": "English",
+            "constraints": "Final rule: each word must be an item/object/phenomena that makes a sound when used."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "* Campana\n* Martillo\n* Tel\u00e9fono\n* Cremallera\n* Silbato\n* Llave\n* Fuente\n* Reloj\n* Cuchillo\n* Tambor"
+                ],
+                [
+                    "1.  Trueno\n2.  Campana\n3.  Tambor\n4.  Cascada\n5.  Reloj\n6.  Silbato\n7.  Motor\n8.  Cadena\n9.  Burbuja\n10. Ventana"
+                ],
+                [
+                    "1.  Trueno\n2.  Campana\n3.  Radio\n4.  Tambor\n5.  Cascada\n6.  Silbato\n7.  Reloj\n8.  Sierra\n9.  Burbuja\n10. Candado"
+                ],
+                [
+                    "Campana\nTambor\nMotor\nTel\u00e9fono\nReloj\nViento\nTrueno\nCascada\nMartillo\nSirena"
+                ],
+                [
+                    "1.  Trueno\n2.  Tambor\n3.  Guitarra\n4.  Motor\n5.  Silbato\n6.  Puerta\n7.  Despertador\n8.  L\u00e1tigo\n9.  Grifo\n10. Cascabel"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Sirena\nReloj\nTambor\nOnda\nFuego\nViento\nLluvia\nCanci\u00f3n\nRisa\nSilbido"
+                ],
+                [
+                    "Olas\nSusurro\nTrueno\nRisa\nCampana\nMotor\nPalomitas\nSilbato\nExplosi\u00f3n\nCanto"
+                ],
+                [
+                    "Trompeta\nSusurro\nRuido\nGrito\nTambor\nOnda\nGota\nExplosi\u00f3n\nCascada\nViento"
+                ],
+                [
+                    "Sirena\nTrueno\nSusurro\nTimbre\nRisa\nGrito\nTambor\nOnda\nChispa\nEstallido"
+                ],
+                [
+                    "Reloj\nCascada\nTrompeta\nCampana\nTrueno\nRisa\nSoplo\nGolpe\nPisada\nChispa"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Aqu\u00ed tienes 10 sustantivos que cumplen con tus requisitos:\n\n1.  Campana\n2.  Tambor\n3.  Claxon\n4.  Matraca\n5.  Cascabel\n6.  Cristal\n7.  Bisagra\n8.  Bocina\n9.  Clave\n10. Hueso"
+                ],
+                [
+                    "1.  Campana\n2.  Tambor\n3.  Bocina\n4.  Reloj\n5.  Cascabel\n6.  Vaso\n7.  Puerta\n8.  Llave\n9.  Papel\n10. Cadena"
+                ],
+                [
+                    "Aqu\u00ed tienes 10 sustantivos que cumplen con tus criterios:\n\n1.  Campana\n2.  Tambor\n3.  Sirena\n4.  Cascabel\n5.  Claxon\n6.  Vaso\n7.  Puerta\n8.  Llave\n9.  Radio\n10. Hueso"
+                ],
+                [
+                    "1.  Campana\n2.  Tambor\n3.  Claxon\n4.  Cascabel\n5.  Reloj\n6.  Cristal\n7.  L\u00e1tigo\n8.  Puerta\n9.  Llave\n10. Cadena"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n mis 10 palabras:\n\n1.  Campana\n2.  Tambor\n3.  Cascabel\n4.  Claxon\n5.  Cencerro\n6.  Maraca\n7.  Sirena\n8.  Castan\u0303uela\n9.  Silbato\n10. Tri\u00e1ngulo"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Campana\n2.  Trueno\n3.  Tambor\n4.  Tel\u00e9fono\n5.  Cencerro\n6.  Claxon\n7.  Cascabel\n8.  Flauta\n9.  Silbato\n10. Bocina"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  Campana\n2.  Cascada\n3.  Claxon\n4.  Cencerro\n5.  Flauta\n6.  Trueno\n7.  Silbato\n8.  Tambor\n9.  Tel\u00e9fono\n10. Bocina"
+                ],
+                [
+                    "1.  Campana\n2.  Trueno\n3.  Viol\u00edn\n4.  Claxon\n5.  Silbato\n6.  Tambor\n7.  L\u00e1tigo\n8.  Cascabel\n9.  Flauta\n10. Sirena"
+                ],
+                [
+                    "1.  Campana\n2.  Trompeta\n3.  Trueno\n4.  Cascada\n5.  Palabra\n6.  Flauta\n7.  Reloj\n8.  Tambor\n9.  Puerta\n10. Silbato"
+                ],
+                [
+                    "1.  Campana\n2.  Trueno\n3.  Cascada\n4.  Tambor\n5.  Silbato\n6.  Claxon\n7.  Reloj\n8.  Latido\n9.  Guitarra\n10. L\u00e1tigo"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Spanish",
+            "constraints": "Regla final: cada palabra debe ser un \u00edtem/objeto/fen\u00f3meno que haga un sonido cuando se use."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Vent\nCloche\nEau\nTonnerre\nVoix\nMoteur\nFeu\nTambour\nExplosion\nRire"
+                ],
+                [
+                    "Orage\nCloche\nRire\nMoteur\nFl\u00fbte\nVague\nChuchotement\nMarteau\nCriquet\nVent"
+                ],
+                [
+                    "Vent\nPluie\nHorloge\nCloche\nTrain\nPorte\nRobinet\nTambour\nTonnerre\nMarteau"
+                ],
+                [
+                    "Cloche\nVent\nRire\nChute\nMoteur\nVague\nCri\nOrage\nTambour\nMurmure"
+                ],
+                [
+                    "Vent\nCloche\nTonnerre\nVague\nHorloge\nSifflet\nPluie\nCha\u00eene\nExplosion\nFeuille"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Vent\nCloche\nPluie\nBruit\nFeu\nMusique\nVoix\nOiseau\nTambour\nRire"
+                ],
+                [
+                    "Vent\nCloche\nPluie\nFeu\nOiseau\nVoix\nPiano\nTambour\nOc\u00e9an\nTrompette"
+                ],
+                [
+                    "Vent\nEau\nFeu\nVoix\nMusique\nSilence\nCloche\nMarteau\nVentilation\n\u00c9cho"
+                ],
+                [
+                    "Vent\nEau\nGlace\n Feu\n Nuage\n Musique\n Silence\n Pens\u00e9e\n R\u00eave\n Temps"
+                ],
+                [
+                    "Vent\nEau\nCloche\nFoudre\nSilence\nMarteau\nFeu\nChant\nVentilation\n\u00c9cho"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Cloche\n2.  Fl\u00fbte\n3.  Tambour\n4.  Clochette\n5.  Porte\n6.  Vent\n7.  Feuille\n8.  Bouteille\n9.  Bois\n10. Cha\u00eene"
+                ],
+                [
+                    "*   Cloche\n*   Porte\n*   Pluie\n*   Feuille\n*   Pas\n*   Vent\n*   Verre\n*   Crayon\n*   Chaise\n*   Papier"
+                ],
+                [
+                    "*   Cloche\n*   Vent\n*   Porte\n*   Pluie\n*   Feuille\n*   Chaise\n*   Papier\n*   Crayon\n*   Verre\n*   Balle"
+                ],
+                [
+                    "*   Cloche\n*   Porte\n*   Fl\u00fbte\n*   Feu\n*   Pluie\n*   Chaise\n*   Horloge\n*   Clavier\n*   Vent\n*   Tambour"
+                ],
+                [
+                    "1.  Cloche\n2.  Papier\n3.  Pluie\n4.  Porte\n5.  Moteur\n6.  Feu\n7.  Vent\n8.  Chaise\n9.  Balle\n10. Fl\u00fbte"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Cloche\n2.  Tambour\n3.  Voix\n4.  Orage\n5.  Trompette\n6.  Goutte\n7.  Horloge\n8.  Claquement\n9.  Sifflet\n10. \u00c9cho"
+                ],
+                [
+                    "1.  Cloche\n2.  Tambour\n3.  Eau\n4.  Vent\n5.  Cri\n6.  Rire\n7.  Orage\n8.  Chanson\n9.  Horloge\n10. Fl\u00fbte"
+                ],
+                [
+                    "1.  Cloche\n2.  Pluie\n3.  Guitare\n4.  Tambour\n5.  Vent\n6.  Horloge\n7.  Voix\n8.  Feu\n9.  Cri\n10. Tonnerre"
+                ],
+                [
+                    "1.  Cloche\n2.  Tambour\n3.  Fl\u00fbte\n4.  Guitare\n5.  Sifflet\n6.  Orage\n7.  Ruisseau\n8.  Chanson\n9.  T\u00e9l\u00e9phone\n10. Horloge"
+                ],
+                [
+                    "1.  Cloche\n2.  Vent\n3.  Tambour\n4.  Cri\n5.  Goutte\n6.  Horloge\n7.  Sifflet\n8.  \u00c9clat\n9.  Orage\n10. Bruit"
+                ]
+            ]
+        },
+        "config": {
+            "language": "French",
+            "constraints": "R\u00e8gle finale : chaque mot doit \u00eatre un \u00e9l\u00e9ment/objet/ph\u00e9nom\u00e8ne qui produit un son lorsqu\u2019il est utilis\u00e9."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Glocke\nSturm\nHammer\nWasserfall\nWecker\nLachen\nMotor\nSchritt\nVulkan\nTrommel"
+                ],
+                [
+                    "Glocke\nWind\nLachen\nDonner\nMotor\nSchritt\nWelle\nKnall\nStimme\nRascheln"
+                ],
+                [
+                    "Donner\nGlocke\nGel\u00e4chter\nRauschen\nKlavier\nKnall\nSchritte\nPfeife\nStimme\nKnistern"
+                ],
+                [
+                    "Donner\nGlocke\nMotor\nVogel\nWelle\nStimme\nTrommel\nWind\nSchrei\nBremse"
+                ],
+                [
+                    "Glocke\nHammer\nTelefon\nRadio\nDonner\nPfeife\nKette\nUhr\nMotor\nSchl\u00fcssel"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Klang\nRauschen\nDonner\nFl\u00fcstern\nGlocke\nStimme\nTrommel\nSchrei\nLachen\nZwitschern"
+                ],
+                [
+                    "Regenschauer\nKnall\nEcho\nSturm\nKlavier\nZugpfeife\nFl\u00fcstern\nDonner\nLachen\nKonzert"
+                ],
+                [
+                    "Klatschen\nDonner\nG\u00e4hnen\nPfeifen\nRascheln\nRauschen\nSchrei\nSingen\nSummen\nZischen"
+                ],
+                [
+                    "Knall\nFl\u00fcstern\nKlatschen\nRauschen\nBrummen\nZwitschern\nDonnern\nPlatschen\nZischen\nSummen"
+                ],
+                [
+                    "Klang\nBr\u00fcllen\nRauschen\nKlicken\nPiepen\nKnallen\nSummen\nZischen\nTrommeln\nGlocke"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "*   Klang\n*   Schall\n*   Echo\n*   Knall\n*   Rauschen\n*   Pfeifen\n*   Krachen\n*   Glocke\n*   Donner\n*   Summen"
+                ],
+                [
+                    "*   Glocke\n*   Rascheln\n*   Knall\n*   Klatschen\n*   Fl\u00fcstern\n*   Heulen\n*   Zischen\n*   Klopfen\n*   Krachen\n*   Summen"
+                ],
+                [
+                    "*   Glocke\n*   Peitsche\n*   Donner\n*   Papier\n*   Motor\n*   Saite\n*   T\u00fcr\n*   Kette\n*   Regen\n*   Ofen"
+                ],
+                [
+                    "*   Glocke\n*   Rascheln\n*   Klatschen\n*   Heulen\n*   Krachen\n*   Summen\n*   Klingeln\n*   Pl\u00e4tschern\n*   Rauschen\n*   Zirpen"
+                ],
+                [
+                    "*   Glocke\n*   Rascheln\n*   Donner\n*   Klatschen\n*   Summen\n*   Pfeifen\n*   Krachen\n*   Klingeln\n*   Knarren\n*   Pl\u00e4tschern"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "*   Glocke\n*   Donner\n*   Fl\u00f6te\n*   Klatschen\n*   Huf\n*   Trommel\n*   Knall\n*   Pfeife\n*   Wind\n*   Zischen"
+                ],
+                [
+                    "Trommel\nDonner\nUhr\nKamera\nKlavier\nPfeife\nSirene\nHammel\nHusten\nMaschine"
+                ],
+                [
+                    "*   Donner\n*   Klatschen\n*   Schrei\n*   Maschine\n*   Trommel\n*   Pfeife\n*   Schnarcheln\n*   Glocke\n*   Wasserfall\n*   Fl\u00f6te"
+                ],
+                [
+                    "Klang\nRegen\nBruch\nPfeife\nDonner\nGlocke\nSchrei\nKnall\nWind\nBlatt"
+                ],
+                [
+                    "1.  Huf\n2.  Glocke\n3.  Donner\n4.  Uhr\n5.  Gewitter\n6.  Geige\n7.  Trommel\n8.  Wasserfall\n9.  Sirene\n10. Wind"
+                ]
+            ]
+        },
+        "config": {
+            "language": "German",
+            "constraints": "Endregel: Jedes Wort muss ein Element/Objekt/Ph\u00e4nomen sein, das bei Verwendung ein Ger\u00e4usch erzeugt."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Campana\nTuono\nFlauto\nCascata\nRisata\nChiave\nVento\nForbici\nOrologio\nEco"
+                ],
+                [
+                    "1.  Campanello\n2.  Tuono\n3.  Violino\n4.  Martello\n5.  Cascata\n6.  Fischietto\n7.  Motore\n8.  Risata\n9.  Orologio\n10. Chiave"
+                ],
+                [
+                    "Campana\nVento\nMartello\nRisata\nOrologio\nOnda\nTelefono\nGuerra\nVoce\nChiave"
+                ],
+                [
+                    "1. Tuono\n2. Campana\n3. Pioggia\n4. Martello\n5. Flauto\n6. Orologio\n7. Catena\n8. Vento\n9. Chiave\n10. Freno"
+                ],
+                [
+                    "Campana\nCascata\nMartello\nTelefono\nVento\nRisata\nOrologio\nFulmine\nSega\nPorta"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Campana\nVento\nCuore\nDado\nTromba\nOrologio\nGrillo\nMarmitta\nVibrazione\nVoce"
+                ],
+                [
+                    "Campana\nSirena\nTamburo\nVento\nFiore\nSasso\nMare\nSole\nStella\nOmbra"
+                ],
+                [
+                    "Canto\nTuono\nSussurro\nCampana\nRisa\nVento\nTamburo\nAcqua\nUragano\nMusica"
+                ],
+                [
+                    "Campana\nVento\nAcqua\nVoce\nPalla\nTamburo\nPorta\nSussurro\nRisata\nGelo"
+                ],
+                [
+                    "Campanello\nTromba\nFischiettio\nRimbombo\nSirena\nFragore\nTicchettio\nStrofinio\nSuono\nCanto"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Campana\n2.  Frusta\n3.  Pipa\n4.  Ventaglio\n5.  Molla\n6.  Chitarra\n7.  Palla\n8.  Chiave\n9.  Porta\n10. Moneta"
+                ],
+                [
+                    "1. Campana\n2. Tamburo\n3. Fischio\n4. Chitarra\n5. Orologio\n6. Chiave\n7. Porta\n8. Bottiglia\n9. Catena\n10. Radio"
+                ],
+                [
+                    "1.  Campana\n2.  Fischietto\n3.  Pianoforte\n4.  Tamburo\n5.  Clacson\n6.  Sirena\n7.  Cicala\n8.  Metallo\n9.  Gong\n10. Ruscello"
+                ],
+                [
+                    "1. Campana\n2. Frusta\n3. Tamburo\n4. Clacson\n5. Chiave\n6. Passo\n7. Pioggia\n8. Serratura\n9. Forchetta\n10. Foglia"
+                ],
+                [
+                    "1.  Campana\n2.  Foglia\n3.  Piede\n4.  Pioggia\n5.  Orologio\n6.  Porta\n7.  Chitarra\n8.  Caffettiera\n9.  Forchetta\n10. Motore"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Campana\n2.  Tamburo\n3.  Orologio\n4.  Telefono\n5.  Flauto\n6.  Tromba\n7.  Pioggia\n8.  Motore\n9.  Grancassa\n10. Porta"
+                ],
+                [
+                    "1.  Campana\n2.  Chiave\n3.  Tuono\n4.  Tamburo\n5.  Telefono\n6.  Orologio\n7.  Tastiera\n8.  Flauto\n9.  Grancassa\n10. Tromba"
+                ],
+                [
+                    "1.  Campana\n2.  Orologio\n3.  Telefono\n4.  Tastiera\n5.  Tamburo\n6.  Clacson\n7.  Scatola\n8.  Grancassa\n9.  Violino\n10. Radio"
+                ],
+                [
+                    "1. Campana\n2. Orologio\n3. Tamburo\n4. Telefono\n5. Sirena\n6. Clacson\n7. Pistola\n8. Flauto\n9. Scrivania\n10. Grancassa"
+                ],
+                [
+                    "1.  Campana\n2.  Tamburo\n3.  Orologio\n4.  Chiave\n5.  Tastiera\n6.  Telefono\n7.  Pistola\n8.  Treno\n9.  Fucile\n10. Clacson"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Italian",
+            "constraints": "Regola finale: ogni parola deve essere un elemento/oggetto/fenomeno che produce un suono quando viene utilizzato."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Bel\n2. Hamer\n3. Stofzuiger\n4. Onweer\n5. Fluit\n6. Deur\n7. Sleutelbos\n8. Kraan\n9. Printer\n10. Klok"
+                ],
+                [
+                    "1. Hamer\n2. Boek\n3. Deur\n4. Telefoon\n5. Klok\n6. Schaar\n7. Gitaar\n8. Sleutel\n9. Gordijn\n10. Wiel"
+                ],
+                [
+                    "1. Wekker\n2. Gitaar\n3. Hamer\n4. Zaag\n5. Deur\n6. Stofzuiger\n7. Fontein\n8. Rammelaar\n9. Blikopener\n10. Vuur"
+                ],
+                [
+                    "1. Deur\n2. Trommel\n3. Klok\n4. Wind\n5. Schaar\n6. Sleutel\n7. Motor\n8. Rits\n9. Donder\n10. Water"
+                ],
+                [
+                    "1.  Regen\n2.  Hamer\n3.  Klok\n4.  Fluit\n5.  Deur\n6.  Gitaar\n7.  Water\n8.  Stofzuiger\n9.  Wind\n10. Schaar"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Deur\nKlok\nVogel\nSchaar\nFiets\nRegen\nMotor\nTelefoon\nBal\nDrums"
+                ],
+                [
+                    "Bliksem\nDroom\nFluit\nHamer\nIJzer\nKlok\nLach\nMuziek\nSchaduw\nVuur"
+                ],
+                [
+                    "Wind\nKlok\nMotor\nLach\nVogel\nSchip\nRegen\nDeur\nBallon\nZee"
+                ],
+                [
+                    "Fluit\nBel\nRegen\nMotor\nBoek\nWind\nKlok\nVogel\nKamer\nWater"
+                ],
+                [
+                    "Fluit\nDonder\nMotor\nGolf\nSchaats\nKlok\nBellen\nFiets\nVogel\nKetting"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Klok\n2.  Gitaar\n3.  Kassa\n4.  Motor\n5.  Deurbel\n6.  Rammelaar\n7.  Stofzuiger\n8.  Trommel\n9.  Telefoon\n10. Wekker"
+                ],
+                [
+                    "1.  Klok\n2.  Trommel\n3.  Deur\n4.  Bel\n5.  Motor\n6.  Ketel\n7.  Zaag\n8.  Radio\n9.  Gitaar\n10. Rammelaar"
+                ],
+                [
+                    "*   Klok\n*   Bel\n*   Motor\n*   Papier\n*   Trommel\n*   Vloer\n*   Deur\n*   Glas\n*   Boom\n*   Ketel"
+                ],
+                [
+                    "1.  Deur\n2.  Klok\n3.  Bel\n4.  Rammelaar\n5.  Radio\n6.  Ketel\n7.  Glas\n8.  Trommel\n9.  Fluit\n10. Papier"
+                ],
+                [
+                    "Hier zijn 10 zo verschillend mogelijke zelfstandige naamwoorden die geluid maken:\n\n1.  Klok\n2.  Deur\n3.  Regen\n4.  Papier\n5.  Motor\n6.  Bel\n7.  Blad\n8.  Hart\n9.  Stofzuiger\n10. Ketting"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Klok\n2.  Vuur\n3.  Trommel\n4.  Hamer\n5.  Bliksem\n6.  Mond\n7.  Kettingzaag\n8.  Piano\n9.  Wind\n10. Bel"
+                ],
+                [
+                    "1.  Sleutel\n2.  Donder\n3.  Bel\n4.  Snaar\n5.  Klok\n6.  Haan\n7.  Hamer\n8.  Scheet\n9.  Rits\n10. Vogel"
+                ],
+                [
+                    "1.  Hamer\n2.  Klok\n3.  Bliksem\n4.  Trommel\n5.  Scheur\n6.  Donder\n7.  Fluit\n8.  Rinkel\n9.  Sirene\n10. Spraak"
+                ],
+                [
+                    "1.  Hamer\n2.  Bel\n3.  Klok\n4.  Riem\n5.  Vuur\n6.  Wind\n7.  Knikker\n8.  Bliksem\n9.  Rits\n10. Hoorn"
+                ],
+                [
+                    "1.  Hart\n2.  Ratel\n3.  Bliksem\n4.  Klok\n5.  Viool\n6.  Donder\n7.  Bel\n8.  Papier\n9.  Krakeling\n10. Trommel"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Dutch",
+            "constraints": "Laatste regel: elk woord moet een item/voorwerp/fenomeen zijn dat een geluid maakt wanneer het wordt gebruikt."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Sino\n2. Tambor\n3. Apito\n4. Martelo\n5. Campainha\n6. Violino\n7. Despertador\n8. Chocalho\n9. Panela\n10. Telefone"
+                ],
+                [
+                    "Sino\nTambor\nApito\nMartelo\nMotor\nSerra\nTelefone\nTesoura\nPiano\nTorneira"
+                ],
+                [
+                    "Sino\nApito\nTambor\nBuzina\nRel\u00f3gio\nChave\nZ\u00edper\nTrov\u00e3o\nOnda\nChicote"
+                ],
+                [
+                    "1. Sino\n2. Trov\u00e3o\n3. Flauta\n4. Chaleira\n5. Ventilador\n6. Serra\n7. Vento\n8. R\u00e1dio\n9. Vulc\u00e3o\n10. Buzina"
+                ],
+                [
+                    "1. Chicote\n2. Trov\u00e3o\n3. Z\u00edper\n4. Flauta\n5. Despertador\n6. Serra\n7. Ventilador\n8. Cachimbo\n9. Chocalho\n10. Onda"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Tambor\nVento\nCampainha\nSino\nCan\u00e7\u00e3o\nMar\nGrito\nVulc\u00e3o\nRoda\nRisada"
+                ],
+                [
+                    "Vento\nRisada\nCampainha\nTrov\u00e3o\nGrito\nSino\nTrombeta\nMurm\u00fario\nTambor\nGargalhada"
+                ],
+                [
+                    "Vento\nTambor\nRisada\nChuva\nCampainha\nSirene\nTrov\u00e3o\nSussurro\nGrito\nEspelho"
+                ],
+                [
+                    "Trompete\nSirene\nMarreta\nRisada\nTambor\nAssobio\nChocalho\nClamor\nGritaria\nTrov\u00e3o"
+                ],
+                [
+                    "Barulho\nSussurro\nTrov\u00e3o\nMurm\u00fario\nAplauso\nGrito\nRisada\nUivo\nSilvo\nZumbido"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Sino\n2. Porta\n3. Apito\n4. Tambor\n5. Chocalho\n6. Campainha\n7. Flauta\n8. Prato\n9. Sino\n10. R\u00e1dio"
+                ],
+                [
+                    "1.  Campainha\n2.  Gongo\n3.  Apito\n4.  Carrilh\u00e3o\n5.  Tambor\n6.  Sino\n7.  Chocalho\n8.  Flauta\n9.  Buzina\n10. Trombeta"
+                ],
+                [
+                    "1. Sino\n2. Flauta\n3. Apito\n4. Tambor\n5. Campainha\n6. R\u00e1dio\n7. Gaita\n8. Buzina\n9. Caxixi\n10. Bal\u00e3o"
+                ],
+                [
+                    "1. Sino\n2. Tambor\n3. Apito\n4. Flauta\n5. Campainha\n6. Trombeta\n7. Chocalho\n8. R\u00e1dio\n9. Prato\n10. Gongo"
+                ],
+                [
+                    "1. Sino\n2. Apito\n3. Campainha\n4. Tambor\n5. Gaita\n6. Corrente\n7. Chocalho\n8. Trombeta\n9. R\u00e1dio\n10. Diapas\u00e3o"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Trov\u00e3o\n2.  Sino\n3.  Grito\n4.  Apito\n5.  Chicote\n6.  Tambor\n7.  Palmas\n8.  Berrante\n9.  Estouro\n10. Assobio"
+                ],
+                [
+                    "1.  Trov\u00e3o\n2.  Gong\n3.  Apito\n4.  Sino\n5.  Tambor\n6.  Chicote\n7.  Corneta\n8.  M\u00e1quina\n9.  Cigarra\n10. Flauta"
+                ],
+                [
+                    "1.  Trov\u00e3o\n2.  Sino\n3.  Apito\n4.  Tambor\n5.  Rel\u00f3gio\n6.  Garganta\n7.  Trompete\n8.  Campainha\n9.  M\u00e1quina\n10. Fogueira"
+                ],
+                [
+                    "1.  Trov\u00e3o\n2.  Sino\n3.  Grito\n4.  Apito\n5.  Tambor\n6.  Assobio\n7.  Estouro\n8.  Cantar\n9.  Palmas\n10. Berrante"
+                ],
+                [
+                    "1.  Trov\u00e3o\n2.  Grito\n3.  Sino\n4.  Tambor\n5.  Apito\n6.  R\u00e1dio\n7.  Chuva\n8.  Voz\n9.  Assobio\n10. Rel\u00f3gio"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Portuguese",
+            "constraints": "Regra final: cada palavra deve ser um item/objeto/fen\u00f4meno que emite um som quando for usado."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u96f7\n2. \u9418\n3. \u7b1b\n4. \u6edd\n5. \u6642\u8a08\n6. \u96fb\u8a71\n7. \u6249\n8. \u9ce5\n9. \u9396\n10. \u96e8"
+                ],
+                [
+                    "\u9418\n\u96f7\n\u7b1b\n\u592a\u9f13\n\u96e8\n\u6ce2\n\u62cd\u624b\n\u6642\u8a08\n\u6c7d\u7b1b\n\u9f13\u52d5"
+                ],
+                [
+                    "\u96f7\n\u6ce2\n\u706b\n\u96e8\n\u9234\n\u6642\u8a08\n\u7b1b\n\u62cd\u624b\n\u6b4c\n\u53eb\u3073"
+                ],
+                [
+                    "\u96f7\n\u96e8\n\u6ce2\n\u9234\n\u7b1b\n\u96fb\u8a71\n\u30b5\u30a4\u30ec\u30f3\n\u82b1\u706b\n\u6edd\n\u62cd\u624b"
+                ],
+                [
+                    "\u96f7\n\u6ce2\n\u9234\n\u592a\u9f13\n\u7b1b\n\u6642\u8a08\n\u96fb\u8a71\n\u96e8\n\u98a8\u9234\n\u6249"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u9418\n2. \u62cd\u624b\n3. \u96e8\n4. \u98a8\n5. \u6b4c\n6. \u7b1b\n7. \u53eb\u3073\n8. \u7206\u767a\n9. \u632f\u52d5\n10. \u9cf4\u304d\u58f0"
+                ],
+                [
+                    "1. **\u97f3**\n2. **\u98a8**\n3. **\u5ddd**\n4. **\u9f13**\n5. **\u9418**\n6. **\u58f0**\n7. **\u96f7**\n8. **\u6ce2**\n9. **\u9ce5**\n10. **\u96e8**"
+                ],
+                [
+                    "1. **\u58f0**\n2. **\u97f3**\n3. **\u98a8**\n4. **\u96e8**\n5. **\u706b**\n6. **\u6c34**\n7. **\u96f7**\n8. **\u7b11\u3044**\n9. **\u6b4c**\n10. **\u62cd\u624b**"
+                ],
+                [
+                    "1. \u9418\n2. \u98a8\n3. \u62cd\u624b\n4. \u54b3\n5. \u6b4c\n6. \u96f7\n7. \u7b1b\n8. \u60b2\u9cf4\n9. \u9f13\u52d5\n10. \u7206\u767a"
+                ],
+                [
+                    "1.  \u9418 (\u304b\u306d)\n2.  \u98a8 (\u304b\u305c)\n3.  \u9ce5 (\u3068\u308a)\n4.  \u708e (\u307b\u306e\u304a)\n5.  \u96f7 (\u304b\u307f\u306a\u308a)\n6.  \u58f0 (\u3053\u3048)\n7.  \u6c34 (\u307f\u305a)\n8.  \u7b1b (\u3075\u3048)\n9.  \u592a\u9f13 (\u305f\u3044\u3053)\n10. \u62cd\u624b (\u306f\u304f\u3057\u3085)"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u306f\u3044\u3001\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u97f3\u3092\u767a\u3059\u308b\u540d\u8a5e10\u500b\u3092\u6319\u3052\u307e\u3059\u3002\n\n1.  \u9418\n2.  \u96f7\n3.  \u6ce2\n4.  \u96e8\n5.  \u98a8\u9234\n6.  \u54b3\n7.  \u62cd\u624b\n8.  \u8db3\u97f3\n9.  \u6642\u8a08\n10. \u6b4c"
+                ],
+                [
+                    "1.  \u96f7\n2.  \u9418\n3.  \u6ce2\n4.  \u96e8\n5.  \u98a8\u9234\n6.  \u5fc3\u81d3\n7.  \u592a\u9f13\n8.  \u6edd\n9.  \u62cd\u624b\n10. \u3044\u3073\u304d"
+                ],
+                [
+                    "1.  \u98a8\u9234\n2.  \u96f7\n3.  \u62cd\u624b\n4.  \u9418\n5.  \u96e8\n6.  \u5fc3\u81d3\n7.  \u6ce2\n8.  \u592a\u9f13\n9.  \u8db3\u97f3\n10. \u54b3"
+                ],
+                [
+                    "1.  \u96f7\n2.  \u98a8\u9234\n3.  \u30aa\u30eb\u30b4\u30fc\u30eb\n4.  \u6edd\n5.  \u62cd\u624b\n6.  \u9418\n7.  \u96e8\n8.  \u8db3\u97f3\n9.  \u53e3\u7b1b\n10. \u5538\u308a"
+                ],
+                [
+                    "\u306f\u3044\u3001\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306e10\u500b\u306e\u5358\u8a9e\u306f\u3001\u305d\u308c\u305e\u308c\u610f\u5473\u304c\u7570\u306a\u308a\u3001\u97f3\u3092\u767a\u3059\u308b\u540d\u8a5e\u3067\u3059\u3002\n\n1.  **\u96f7**\n2.  **\u9418**\n3.  **\u96e8**\n4.  **\u98a8**\n5.  **\u6ce2**\n6.  **\u592a\u9f13**\n7.  **\u8db3\u97f3**\n8.  **\u54b3**\n9.  **\u6b4c**\n10. **\u6642\u8a08**"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u4e86\u89e3\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306b\u3001\u6761\u4ef6\u306b\u5408\u81f4\u3059\u308b10\u500b\u306e\u65e5\u672c\u8a9e\u306e\u5358\u8a9e\uff08\u540d\u8a5e\uff09\u3092\u30ea\u30b9\u30c8\u3057\u307e\u3059\u3002\n\n1.  \u96f7\n2.  \u62cd\u624b\n3.  \u592a\u9f13\n4.  \u9234\n5.  \u7206\u5f3e\n6.  \u6247\u98a8\u6a5f\n7.  \u30c1\u30e3\u30a4\u30e0\n8.  \u30e9\u30b8\u30aa\n9.  \u30af\u30e9\u30af\u30b7\u30e7\u30f3\n10. \u7b1b"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306b\u3001\u97f3\u3092\u767a\u3059\u308b10\u500b\u306e\u65e5\u672c\u8a9e\u306e\u540d\u8a5e\u3092\u30ea\u30b9\u30c8\u30a2\u30c3\u30d7\u3057\u307e\u3059\u3002\n\n1.  **\u592a\u9f13**\n2.  **\u30d9\u30eb**\n3.  **\u62cd\u624b**\n4.  **\u96f7**\n5.  **\u7b1b**\n6.  **\u98a8\u9234**\n7.  **\u30c1\u30e3\u30a4\u30e0**\n8.  **\u7206\u5f3e**\n9.  **\u9234**\n10. **\u30aa\u30eb\u30b4\u30fc\u30eb**"
+                ],
+                [
+                    "1.  \u9418\n2.  \u592a\u9f13\n3.  \u62cd\u624b\n4.  \u96f7\n5.  \u7b1b\n6.  \u7206\u5f3e\n7.  \u6247\u98a8\u6a5f\n8.  \u96fb\u8a71\n9.  \u30af\u30e9\u30af\u30b7\u30e7\u30f3\n10. \u5674\u6c34"
+                ],
+                [
+                    "1.  \u592a\u9f13\n2.  \u98a8\u8239\n3.  \u9234\n4.  \u62cd\u624b\n5.  \u82b1\u706b\n6.  \u30aa\u30eb\u30b4\u30fc\u30eb\n7.  \u7b1b\n8.  \u30c1\u30e3\u30a4\u30e0\n9.  \u30af\u30e9\u30af\u30b7\u30e7\u30f3\n10. \u96f7"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u97f3\u3092\u767a\u3059\u308b\u65e5\u672c\u8a9e\u306e\u540d\u8a5e\u309210\u500b\u3001\u610f\u5473\u3084\u4f7f\u3044\u65b9\u304c\u4e92\u3044\u306b\u7570\u306a\u308b\u3088\u3046\u306b\u9078\u3093\u3067\u30ea\u30b9\u30c8\u306b\u3057\u307e\u3059\u3002\n\n1.  **\u592a\u9f13**\n2.  **\u9234**\n3.  **\u62cd\u624b**\n4.  **\u96fb\u8a71**\n5.  **\u96f7**\n6.  **\u7b1b**\n7.  **\u30a8\u30f3\u30b8\u30f3**\n8.  **\u30aa\u30eb\u30b4\u30fc\u30eb**\n9.  **\u30c1\u30e3\u30a4\u30e0**\n10. **\u82b1\u706b**"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Japanese",
+            "constraints": "\u6700\u7d42\u30eb\u30fc\u30eb\uff1a\u5404\u5358\u8a9e\u306f\u3001\u4f7f\u7528\u6642\u306b\u97f3\u3092\u767a\u3059\u308b\u30a2\u30a4\u30c6\u30e0\uff0f\u7269\u4f53\uff0f\u73fe\u8c61\u3067\u306a\u3051\u308c\u3070\u306a\u3089\u306a\u3044\u3002"
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u062c\u0631\u0633\n2.  \u0645\u0637\u0631\u0642\u0629\n3.  \u0646\u0627\u064a\n4.  \u0628\u0627\u0628\n5.  \u0633\u0627\u0639\u0629\n6.  \u0634\u0644\u0627\u0644\n7.  \u0645\u0631\u062c\u0644\n8.  \u0645\u0641\u062a\u0627\u062d\n9.  \u0639\u062c\u0644\u0629\n10. \u0631\u064a\u0627\u062d"
+                ],
+                [
+                    "1.  \u0639\u0648\u062f\n2.  \u0631\u0639\u062f\n3.  \u0633\u0627\u0639\u0629\n4.  \u0647\u0627\u062a\u0641\n5.  \u0634\u0627\u0643\u0648\u0634\n6.  \u0634\u0644\u0627\u0644\n7.  \u0645\u0641\u062a\u0627\u062d\n8.  \u0645\u0631\u0648\u062d\u0629\n9.  \u0635\u0641\u0627\u0631\u0629\n10. \u0631\u064a\u062d"
+                ],
+                [
+                    "\u062c\u0631\u0633\n\u0645\u0632\u0645\u0627\u0631\n\u0633\u0627\u0639\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0645\u0637\u0631\u0642\u0629\n\u0647\u0627\u062a\u0641\n\u0634\u0644\u0627\u0644\n\u0633\u062d\u0627\u0628\n\u0631\u0627\u062f\u064a\u0648\n\u0631\u064a\u062d"
+                ],
+                [
+                    "1.  \u0631\u0639\u062f\n2.  \u062c\u0631\u0633\n3.  \u0639\u0648\u062f\n4.  \u0645\u0637\u0631\u0642\u0629\n5.  \u0631\u064a\u062d\n6.  \u0647\u0627\u062a\u0641\n7.  \u0645\u0641\u062a\u0627\u062d\n8.  \u0633\u0627\u0639\u0629\n9.  \u0645\u0648\u0642\u062f\n10. \u0634\u0644\u0627\u0644"
+                ],
+                [
+                    "\u0631\u0639\u062f\n\u0634\u0644\u0627\u0644\n\u062c\u0631\u0633\n\u0645\u062d\u0631\u0643\n\u0646\u0627\u064a\n\u0636\u062d\u0643\n\u0628\u0648\u0642\n\u0645\u0641\u062a\u0627\u062d\n\u0646\u0627\u0631\n\u0642\u0646\u0628\u0644\u0629"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u0635\u062f\u0649\n\u0642\u0631\u0642\u0631\u0629\n\u062a\u063a\u0631\u064a\u062f\n\u0642\u0631\u0639\n\u0647\u0645\u0633\u0629\n\u0631\u0646\u064a\u0646\n\u062c\u0644\u062c\u0644\u0629\n\u0632\u0645\u062c\u0631\u0629\n\u0647\u0633\u0647\u0633\u0629\n\u062f\u0648\u064a"
+                ],
+                [
+                    "\u0635\u0648\u062a\n\u0636\u062c\u064a\u062c\n\u0647\u0645\u0633\n\u062a\u0646\u0647\u064a\u062f\u0629\n\u0636\u062d\u0643\u0629\n\u0635\u0631\u062e\u0629\n\u063a\u0646\u0627\u0621\n\u0635\u0648\u062a\n\u0631\u0646\u064a\u0646\n\u062f\u0646\u062f\u0646\u0629"
+                ],
+                [
+                    "\u0635\u0648\u062a\n\u0647\u0645\u0633\n\u0647\u062f\u064a\u0631\n\u0635\u0641\u064a\u0631\n\u0635\u0631\u064a\u0631\n\u0637\u0646\u064a\u0646\n\u0646\u0628\u0627\u062d\n\u0623\u0632\u064a\u0632\n\u0642\u0635\u0641\n\u062f\u0648\u064a"
+                ],
+                [
+                    "1. \u0631\u0646\u064a\u0646\n2. \u0647\u0633\u064a\u0633\n3. \u0642\u0631\u0639\n4. \u0632\u0642\u0632\u0642\u0629\n5. \u0647\u062f\u064a\u0631\n6. \u0635\u0641\u064a\u0631\n7. \u0646\u0642\u0631\n8. \u0635\u062f\u0649\n9. \u0648\u0634\u0648\u0634\u0629\n10. \u0637\u0646\u064a\u0646"
+                ],
+                [
+                    "\u0647\u0645\u0633\u0629\n\u0631\u0646\u064a\u0646\n\u0642\u0647\u0642\u0647\u0629\n\u062e\u0634\u062e\u0634\u0629\n\u0637\u0642\u0637\u0642\u0629\n\u0635\u0648\u062a\n\u0635\u0631\u064a\u0631\n\u0632\u0645\u062c\u0631\u0629\n\u0623\u0632\u064a\u0632\n\u062a\u063a\u0631\u064a\u062f"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u062c\u0631\u0633\n2. \u0637\u0628\u0644\n3. \u0635\u0641\u0627\u0631\u0629\n4. \u0645\u0632\u0645\u0627\u0631\n5. \u0631\u0639\u062f\n6. \u0623\u0631\u062c\u0648\u062d\u0629\n7. \u0628\u0627\u0628\n8. \u0646\u0627\u0641\u0648\u0631\u0629\n9. \u0645\u062d\u0631\u0643\n10. \u0641\u0642\u0627\u0639\u0629"
+                ],
+                [
+                    "1.  \u062c\u0631\u0633\n2.  \u0635\u0641\u0627\u0631\u0629\n3.  \u0637\u0628\u0644\n4.  \u0645\u0632\u0645\u0627\u0631\n5.  \u0631\u0639\u062f\n6.  \u0645\u0650\u0631\u0652\u0648\u064e\u062d\u0629\n7.  \u0642\u0644\u0645\n8.  \u0645\u0650\u0642\u0652\u0644\u0627\u0629\n9.  \u0645\u0641\u062a\u0627\u062d\n10. \u0633\u0627\u0639\u0629"
+                ],
+                [
+                    "1.  \u062c\u0631\u0633\n2.  \u0645\u0632\u0645\u0627\u0631\n3.  \u0635\u0641\u0627\u0631\u0629\n4.  \u0637\u0628\u0644\n5.  \u0628\u0648\u0642\n6.  \u0645\u0637\u0631\u0642\u0629\n7.  \u0633\u0644\u0627\u0633\u0644\n8.  \u0631\u0639\u062f\n9.  \u0641\u0631\u0642\u0639\u0629\n10. \u0635\u062f\u0649"
+                ],
+                [
+                    "1.  \u0635\u0641\u0627\u0631\u0629\n2.  \u062c\u0631\u0633\n3.  \u0637\u0628\u0644\n4.  \u0628\u0648\u0642\n5.  \u0631\u0627\u062f\u064a\u0648\n6.  \u0633\u0627\u0639\u0629\n7.  \u0645\u0630\u064a\u0627\u0639\n8.  \u0645\u062d\u0631\u0643\n9.  \u0645\u0650\u0631\u0648\u062d\u0629\n10. \u0635\u062f\u0649"
+                ],
+                [
+                    "1.  \u062c\u0631\u0633\n2.  \u0637\u0628\u0644\n3.  \u0635\u0641\u0627\u0631\u0629\n4.  \u0645\u062d\u0631\u0643\n5.  \u0645\u0632\u0645\u0627\u0631\n6.  \u0646\u0627\u064a\n7.  \u0631\u0639\u062f\n8.  \u0646\u062d\u0644\u0629\n9.  \u062d\u0641\u064a\u0641\n10. \u062d\u0641\u064a\u0641"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  **\u0631\u0639\u062f**\n2.  **\u0635\u0648\u062a**\n3.  **\u0645\u0637\u0631\u0642\u0629**\n4.  **\u0633\u0627\u0639\u0629**\n5.  **\u0647\u0627\u062a\u0641**\n6.  **\u0645\u0648\u0633\u064a\u0642\u0649**\n7.  **\u0623\u0628\u0648\u0627\u0642**\n8.  **\u0625\u0637\u0644\u0627\u0642**\n9.  **\u0646\u062f\u0627\u0621**\n10. **\u0634\u0644\u0627\u0644**"
+                ],
+                [
+                    "1.  \u062c\u064e\u0631\u064e\u0633\n2.  \u0631\u064e\u0639\u0652\u062f\n3.  \u0645\u0650\u0641\u0652\u062a\u064e\u0627\u062d\n4.  \u0642\u064e\u0644\u064e\u0645\n5.  \u0628\u064f\u0648\u0642\n6.  \u0635\u064e\u0627\u0641\u0650\u0631\u064e\u0629\n7.  \u0645\u064f\u0632\u0650\u064a\u0639\n8.  \u0646\u064e\u0627\u064a\n9.  \u0628\u064f\u0646\u062f\u064f\u0642\u0650\u064a\u0651\u064e\u0629\n10. \u0637\u064e\u0628\u0652\u0644"
+                ],
+                [
+                    "1.  \u062c\u0631\u0633\n2.  \u0631\u064a\u0627\u062d\n3.  \u0631\u0639\u062f\n4.  \u0635\u0648\u062a\n5.  \u0642\u0637\u0627\u0631\n6.  \u0633\u0627\u0639\u0629\n7.  \u0628\u0648\u0642\n8.  \u0628\u0646\u062f\u0642\u064a\u0629\n9.  \u0645\u0637\u0631\n10. \u0637\u0628\u0644"
+                ],
+                [
+                    "1.  \u062c\u064e\u0631\u064e\u0633\n2.  \u0628\u064f\u0648\u0642\n3.  \u0631\u064e\u0639\u0652\u062f\n4.  \u0635\u064e\u0648\u0652\u062a\n5.  \u0645\u0650\u0632\u0652\u0645\u064e\u0627\u0631\n6.  \u0646\u064e\u0627\u064a\n7.  \u0628\u064f\u0646\u062f\u064f\u0642\u0650\u064a\u0651\u064e\u0629\n8.  \u0645\u0650\u0643\u0652\u0631\u064f\u0648\u0641\u064f\u0648\u0646\n9.  \u0635\u064e\u0641\u064e\u0627\u0631\u0629\n10. \u0637\u064e\u0628\u0652\u0644"
+                ],
+                [
+                    "1.  \u0635\u0648\u062a\n2.  \u0633\u064a\u0641\n3.  \u0628\u0648\u0642\n4.  \u062c\u0631\u0633\n5.  \u0645\u0637\u0631\u0642\u0629\n6.  \u0631\u0639\u062f\n7.  \u0622\u0644\u0629\n8.  \u0642\u064a\u062b\u0627\u0631\u0629\n9.  \u0646\u0627\u0641\u0630\u0629\n10. \u0642\u062f\u0645"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Arabic",
+            "constraints": "\u0627\u0644\u0642\u0627\u0639\u062f\u0629 \u0627\u0644\u0646\u0647\u0627\u0626\u064a\u0629: \u064a\u062c\u0628 \u0623\u0646 \u062a\u0643\u0648\u0646 \u0643\u0644 \u0643\u0644\u0645\u0629 \u0639\u0646\u0635\u0631\u064b\u0627/\u0634\u064a\u0626\u064b\u0627/\u0638\u0627\u0647\u0631\u0629 \u062a\u064f\u0635\u062f\u0631 \u0635\u0648\u062a\u064b\u0627 \u0639\u0646\u062f \u0627\u0633\u062a\u062e\u062f\u0627\u0645\u0647\u0627."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u96f7\n\u949f\n\u7b1b\n\u67aa\n\u96e8\n\u6f6e\n\u9f13\n\u98ce\n\u94c3\n\u54e8"
+                ],
+                [
+                    "\u96f7\n\u949f\n\u98ce\n\u7434\n\u6c34\n\u9f13\n\u9e1f\n\u96e8\n\u54e8\n\u8f66"
+                ],
+                [
+                    "\u96f7\n\u949f\n\u7434\n\u54e8\n\u98ce\n\u9f13\n\u70ae\n\u6cc9\n\u9e1f\n\u6d6a"
+                ],
+                [
+                    "\u96f7\n\u949f\n\u98ce\n\u96e8\n\u9f13\n\u9e1f\n\u6c34\n\u7535\u8bdd\n\u94a5\u5319\n\u706b"
+                ],
+                [
+                    "\u96f7\n\u94c3\n\u98ce\n\u9f13\n\u9e1f\n\u6d6a\n\u949f\n\u54e8\n\u7011\n\u706b"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u949f\n\u98ce\n\u96e8\n\u6b4c\n\u7b11\n\u54ed\n\u9f13\n\u9e1f\n\u7434\n\u6d9b"
+                ],
+                [
+                    "\u98ce\n\u9f13\n\u949f\n\u6d77\n\u6b4c\n\u96e8\n\u7b11\n\u96f7\n\u6b4c\n\u53f9"
+                ],
+                [
+                    "\u98ce\n\u949f\n\u9f13\n\u6d77\u6d6a\n\u9e1f\u9e23\n\u96e8\u6ef4\n\u706b\u7130\n\u811a\u6b65\n\u7b11\u58f0\n\u96f7\u9e23"
+                ],
+                [
+                    "\u949f\n\u96e8\n\u6b4c\n\u98ce\n\u9f13\n\u7b11\n\u54ed\n\u6d6a\n\u96f7\n\u949f"
+                ],
+                [
+                    "\u949f\n\u98ce\n\u96e8\n\u706b\n\u6d6a\n\u96fe\n\u6b4c\n\u7b11\n\u54ed\n\u96f7"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u96f7\u9706\n2. \u949f\u58f0\n3. \u9f3e\u58f0\n4. \u97ad\u70ae\n5. \u6c7d\u7b1b\n6. \u788e\u88c2\n7. \u94c3\u94db\n8. \u55b7\u6cc9\n9. \u7434\u5f26\n10. \u8702\u9e23"
+                ],
+                [
+                    "1. \u98ce\u94c3\n2. \u7206\u7af9\n3. \u949f\u6446\n4. \u5587\u53ed\n5. \u9505\n6. \u7434\u5f26\n7. \u96e8\n8. \u97ad\u5b50\n9. \u7eb8\n10. \u7259\u9f7f"
+                ],
+                [
+                    "1.  \u98ce\u94c3\n2.  \u7206\u7af9\n3.  \u96f7\u9706\n4.  \u8702\u9e23\n5.  \u95f9\u949f\n6.  \u6c34\u6ef4\n7.  \u9523\u9f13\n8.  \u94c3\u94db\n9.  \u67aa\u68b0\n10. \u949f\u6446"
+                ],
+                [
+                    "1. \u96f7\u9706\n2. \u949f\u58f0\n3. \u94c3\u94db\n4. \u6c7d\u7b1b\n5. \u97ad\u70ae\n6. \u9f13\u70b9\n7. \u98ce\u94c3\n8. \u8702\u9e23\n9. \u67aa\u58f0\n10. \u9e1f\u9e23"
+                ],
+                [
+                    "1.  \u949f\n2.  \u97ad\u70ae\n3.  \u98ce\u94c3\n4.  \u5587\u53ed\n5.  \u9523\n6.  \u6d77\u6d6a\n7.  \u96e8\n8.  \u96f7\n9.  \u8749\n10. \u87cb\u87c0"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u96f7\n2.  \u949f\n3.  \u9523\n4.  \u9f13\n5.  \u8749\n6.  \u5587\u53ed\n7.  \u96e8\n8.  \u97ad\n9.  \u78ec\n10. \u94c3"
+                ],
+                [
+                    "1.  \u94c3\n2.  \u96f7\n3.  \u9f13\n4.  \u54e8\n5.  \u7434\n6.  \u949f\n7.  \u9523\n8.  \u70ae\n9.  \u53f7\n10. \u6d6a"
+                ],
+                [
+                    "1.  \u96f7\n2.  \u949f\n3.  \u9f13\n4.  \u9523\n5.  \u54e8\n6.  \u94c3\n7.  \u70ae\n8.  \u7b5d\n9.  \u7b1b\n10. \u7434"
+                ],
+                [
+                    "1. \u949f\n2. \u94c3\n3. \u9f13\n4. \u9523\n5. \u7b1b\n6. \u7434\n7. \u70ae\n8. \u86d9\n9. \u949f\n10. \u8749"
+                ],
+                [
+                    "1.  \u94c3\n2.  \u96f7\n3.  \u9f13\n4.  \u98ce\n5.  \u6cc9\n6.  \u7434\n7.  \u949f\n8.  \u70ae\n9.  \u9523\n10. \u6d6a"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Chinese",
+            "constraints": "\u6700\u7ec8\u89c4\u5219\uff1a\u6bcf\u4e2a\u8bcd\u90fd\u5fc5\u987b\u662f\u4f7f\u7528\u65f6\u4f1a\u53d1\u51fa\u58f0\u97f3\u7684\u7269\u54c1/\u5bf9\u8c61/\u73b0\u8c61\u3002"
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "\uc545\uae30\n\uc885\n\ubc14\ub78c\n\ucc9c\ub465\n\ud30c\ub3c4\n\uc0c8\n\uae30\ucc28\n\uc2dc\uacc4\n\ubd88\n\uc2ec\uc7a5"
+                ],
+                [
+                    "\ubd81\n\uacbd\uc801\n\ucc9c\ub465\n\ud30c\ub3c4\n\uc2dc\uacc4\n\uc790\ub3d9\ucc28\n\uae30\uce68\n\uc6c3\uc74c\n\ubc14\ub78c\n\uc5f4\uc1e0"
+                ],
+                [
+                    "\ube44\n\uc885\n\ubc14\ub78c\n\uc0c8\n\uc790\ub3d9\ucc28\n\uc2dc\uacc4\n\ubd81\n\uc6c3\uc74c\n\ucc9c\ub465\n\uc804\ud654"
+                ],
+                [
+                    "\ucc9c\ub465\n\ud30c\ub3c4\n\ubc14\ub78c\n\uc885\n\ud53c\ub9ac\n\uc2dc\uacc4\n\uc804\ud654\n\ubd81\n\ud3ed\ud3ec\n\ub77c\ub514\uc624"
+                ],
+                [
+                    "\ubc14\ub78c\n\ube44\n\ucc9c\ub465\n\uc885\n\uc2dc\uacc4\n\ubd81\n\uc0c8\n\ud30c\ub3c4\n\uc2ec\uc7a5\n\uc804\ud654"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \uc885\uc18c\ub9ac\n2. \ud30c\ub3c4\n3. \uc6c3\uc74c\n4. \uba54\uc544\ub9ac\n5. \ubc14\ub78c\n6. \ubd81\uc18c\ub9ac\n7. \uc18d\uc0ad\uc784\n8. \ucc9c\ub465\n9. \ub178\ub798\n10. \ud718\ud30c\ub78c"
+                ],
+                [
+                    "* \ubc14\ub78c\n* \ubb3c\n* \ubd88\n* \uc18c\ub9ac\n* \ud587\ube5b\n* \ubcc4\n* \uad6c\ub984\n* \ub545\n* \ub098\ubb34\n* \uaf43"
+                ],
+                [
+                    "1. \uc885\uc18c\ub9ac\n2. \ubc14\ub78c\n3. \ud30c\ub3c4\n4. \uc6c3\uc74c\n5. \ub178\ub798\n6. \ucc9c\ub465\n7. \uc2ec\uc7a5\n8. \ubd88\uaf43\n9. \ubc1c\uc790\uad6d\n10. \ubb3c\ubc29\uc6b8"
+                ],
+                [
+                    "1. \uc885\uc18c\ub9ac\n2. \ub178\ub798\n3. \ubc14\ub78c\n4. \ubb3c\uacb0\n5. \ubd88\uaf43\n6. \uc6c3\uc74c\n7. \uc6b8\uc74c\n8. \ubc1c\uc18c\ub9ac\n9. \ucc9c\ub465\n10. \uc18d\uc0ad\uc784"
+                ],
+                [
+                    "1. \uc885\uc18c\ub9ac\n2. \ud718\ud30c\ub78c\n3. \ub9dd\uce58\n4. \uc6c3\uc74c\n5. \uae30\uce68\n6. \ubc15\uc218\n7. \ubb3c\uacb0\n8. \ubc14\ub78c\n9. \uc18d\uc0ad\uc784\n10. \ubc1c\uc790\uad6d"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \uc885\n2. \ubc14\ub78c\n3. \uc2ec\uc7a5\n4. \ud3ed\ud3ec\n5. \ucc9c\ub465\n6. \ud53c\ub9ac\n7. \ubc1c\uc790\uad6d\n8. \uc18d\uc0ad\uc784\n9. \uc6c3\uc74c\n10. \ubc15\uc218"
+                ],
+                [
+                    "1. \ubc14\ub78c\n2. \uc885\n3. \uc2ec\uc7a5\n4. \ud3ed\ud3ec\n5. \ucc9c\ub465\n6. \uc790\uba85\uc885\n7. \uc18d\uc0ad\uc784\n8. \uc624\ucf00\uc2a4\ud2b8\ub77c\n9. \ud30c\ub3c4\n10. \uce68\ubb35"
+                ],
+                [
+                    "1. \uc885\n2. \ubc14\ub78c\n3. \uc2dc\uacc4\n4. \uc2ec\uc7a5\n5. \ud3ed\ud3ec\n6. \ubc15\uc218\n7. \ucc9c\ub465\n8. \uc18d\uc0ad\uc784\n9. \ubc1c\uc790\uad6d\n10. \uc6c3\uc74c"
+                ],
+                [
+                    "1. \uc885\n2. \ubc14\ub78c\n3. \uc2ec\uc7a5\n4. \ud3ed\ud3ec\n5. \ubc88\uac1c\n6. \ub098\ubb47\uc78e\n7. \uc545\uae30\n8. \uae30\uacc4\n9. \ubaa9\uc18c\ub9ac\n10. \ud30c\ub3c4"
+                ],
+                [
+                    "1. \uc885\n2. \ubc14\ub78c\n3. \uc2ec\uc7a5\n4. \ud30c\ub3c4\n5. \ub1cc\n6. \ud3ed\ud3ec\n7. \ub098\ubb47\uc78e\n8. \uc545\uae30\n9. \uc5d4\uc9c4\n10. \ubaa9\uc18c\ub9ac"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \uc885\n2.  \ud53c\uc544\ub178\n3.  \uc0ac\uc774\ub80c\n4.  \ucd1d\n5.  \uc2dc\uacc4\n6.  \ubc29\uc6b8\n7.  \uc804\ud654\n8.  \ubd81\n9.  \ud638\ub8e8\ub77c\uae30\n10. \ud48d\uc120"
+                ],
+                [
+                    "1.  \uc2dc\uacc4\n2.  \uc885\n3.  \ud53c\ub9ac\n4.  \ubc29\uc6b8\n5.  \ubd81\n6.  \uc0ac\uc774\ub80c\n7.  \uace0\ub3d9\n8.  \ud3ed\ud3ec\n9.  \ud3ed\uc8fd\n10. \ud718\ud30c\ub78c"
+                ],
+                [
+                    "1. \uc885\n2. \uc2dc\uacc4\n3. \ubc29\uc6b8\n4. \ube44\n5. \ubd81\n6. \ud718\ud30c\ub78c\n7. \ud3ed\ud3ec\n8. \uc0ac\uc774\ub80c\n9. \ud53c\ub9ac\n10. \ucc9c\ub465"
+                ],
+                [
+                    "1. \uc885\n2. \uc2dc\uacc4\n3. \ubd81\n4. \ud53c\ub9ac\n5. \ubb3c\n6. \ubc29\uc6b8\n7. \uc0ac\uc774\ub80c\n8. \ud3ed\ud0c4\n9. \ubb38\n10. \ub300\ud3ec"
+                ],
+                [
+                    "1. \uc885\n2. \uc2dc\uacc4\n3. \ubc29\uc6b8\n4. \ubd81\n5. \ud718\ud30c\ub78c\n6. \uacbd\uc801\n7. \ud53c\ub9ac\n8. \ubca8\n9. \uc0ac\uc774\ub80c\n10. \ub9c8\uc774\ud06c"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Korean",
+            "constraints": "\ucd5c\uc885 \uaddc\uce59: \ubaa8\ub4e0 \ub2e8\uc5b4\ub294 \uc0ac\uc6a9 \uc2dc \uc18c\ub9ac\ub97c \ub0b4\ub294 \ud56d\ubaa9/\ubb3c\uccb4/\ud604\uc0c1\uc774\uc5b4\uc57c \ud569\ub2c8\ub2e4."
+        }
+    },
+    {
+        "gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Hrom\n2. Zvon\n3. Sir\u00e9na\n4. \u0158eka\n5. Hodiny\n6. Chrast\u00edtko\n7. Vlna\n8. Motor\n9. Harfa\n10. \u010cmel\u00e1k"
+                ],
+                [
+                    "1. Zvon\n2. Hrom\n3. Sir\u00e9na\n4. Potok\n5. Kl\u00ed\u010d\n6. P\u00ed\u0161\u0165ala\n7. Vodop\u00e1d\n8. V\u011btrn\u00edk\n9. Klav\u00edr\n10. Motor"
+                ],
+                [
+                    "1. Hrom\n2. Ozvena\n3. \u0158ehta\u010dka\n4. Sir\u00e9na\n5. Kask\u00e1da\n6. Zvonkohra\n7. Z\u00e1palka\n8. List\u00ed\n9. St\u0159ep\n10. Klapka"
+                ],
+                [
+                    "1. Zvon\n2. K\u00e1men\n3. Dve\u0159e\n4. V\u00edtr\n5. Bub\u00ednek\n6. N\u016f\u017eky\n7. \u0158et\u011bz\n8. P\u00ed\u0161\u0165alka\n9. Hrom\n10. L\u017e\u00edce"
+                ],
+                [
+                    "V\u00edtr\nHrom\nZvonek\nKladivo\nP\u00ed\u0161\u0165alka\nChrast\u00edtko\nR\u00e1dio\nMix\u00e9r\nBud\u00edk\nSir\u00e9na"
+                ]
+            ]
+        },
+        "gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Zvon\n\u0160epot\nKlapka\nPraskot\nZ\u00edvnut\u00ed\nT\u0159esk\nChrast\u011bn\u00ed\n\u0160t\u011bbet\u00e1n\u00ed\nV\u0159\u00edskot\nDun\u011bn\u00ed"
+                ],
+                [
+                    "Bublifuk\nChrast\u00edtko\n\u0160krtidlo\nCinknut\u00ed\nBubnov\u00e1n\u00ed\nP\u00edsk\u00e1tko\n\u0160plouch\nT\u0159\u00edskot\nVrz\u00e1n\u00ed\nZvonek"
+                ],
+                [
+                    "Bublina\nCh\u0159est\u00edtko\nCink\u00e1n\u00ed\n\u0160epot\nPraskot\nHouka\u010dka\nVrz\u00e1n\u00ed\nBum\nZvon\n\u0160krtnut\u00ed"
+                ],
+                [
+                    "Zvon\nVlna\nKv\u00edlen\u00ed\nT\u0159esk\n\u0160epot\nBum\nCink\nPraskot\nRoll\nSykot"
+                ],
+                [
+                    "Bzu\u010den\u00ed\n\u0160kr\u00e1b\u00e1n\u00ed\n\u0160t\u011bkot\nCinknut\u00ed\n\u0160um\u011bn\u00ed\nP\u00edsk\u00e1n\u00ed\nBouch\u00e1n\u00ed\nCh\u0159est\u011bn\u00ed\nSvist\nRachot"
+                ]
+            ]
+        },
+        "gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Zvon\n2. Buben\n3. \u0158et\u011bz\n4. Pap\u00edr\n5. Blesk\n6. Lavina\n7. Krok\n8. Kytara\n9. Vodop\u00e1d\n10. \u0160epot"
+                ],
+                [
+                    "1.  Zvonek\n2.  Bublina\n3.  Kroky\n4.  \u0158eka\n5.  Prask\u00e1n\u00ed\n6.  Smy\u010dec\n7.  Kl\u00ed\u010d\n8.  \u0158et\u011bz\n9.  Okno\n10. Housle"
+                ],
+                [
+                    "1. Zvon\n2. Buben\n3. Sir\u00e9na\n4. Fla\u0161inet\n5. H\u0159eben (p\u0159i p\u0159ej\u00ed\u017ed\u011bn\u00ed po strun\u00e1ch)\n6. List\u00ed (\u0161ust\u011bn\u00ed)\n7. Oh\u0148ostroj\n8. Vodop\u00e1d\n9. V\u00edtr\n10. Srdce (tlukot)"
+                ],
+                [
+                    "1. Zvon\n2. \u0160ramot\n3. Bublina\n4. Vr\u010den\u00ed\n5. Pl\u00e1cnut\u00ed\n6. \u0160epot\n7. Hv\u00edzdnut\u00ed\n8. Sk\u0159\u00edp\u011bn\u00ed\n9. \u0160t\u011bbet\u00e1n\u00ed\n10. Dun\u011bn\u00ed"
+                ],
+                [
+                    "1.  Zvon\n2.  Bublina\n3.  \u0160ramot\n4.  \u0160epot\n5.  Kroky\n6.  K\u0159up\n7.  Sk\u0159\u00edpot\n8.  Houk\u00e1n\u00ed\n9.  Bzukot\n10. \u0160ust\u011bn\u00ed"
+                ]
+            ]
+        },
+        "gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Zvonec\n2.  Hrom\n3.  Kl\u00e1vesy\n4.  Bub\u00ednek\n5.  Zvon\n6.  Cinkot\n7.  Fouk\u00e1n\u00ed\n8.  Sir\u00e9na\n9.  \u0160epot\n10. Z\u00e1palka"
+                ],
+                [
+                    "1.  Zvonec\n2.  \u00dader\n3.  K\u0159ik\n4.  Hvizd\n5.  Bouch\u00e1n\u00ed\n6.  Zvon\u011bn\u00ed\n7.  \u0160plouch\n8.  Praskot\n9.  P\u00edskot\n10. \u0158ev"
+                ],
+                [
+                    "1.  Zvon\n2.  Hrom\n3.  Cinkot\n4.  Tlesk\n5.  Bubnov\u00e1n\u00ed\n6.  Sir\u00e9na\n7.  \u0160epot\n8.  Bzu\u010den\u00ed\n9.  Praskot\n10. P\u00ed\u0161\u0165alka"
+                ],
+                [
+                    "Hrom\nKrok\nSm\u00edch\nKlek\u00e1n\u00ed\nZvon\nPrask\u00e1n\u00ed\nTlesk\u00e1n\u00ed\nBubnov\u00e1n\u00ed\n\u0160epot\nP\u00edsk\u00e1n\u00ed"
+                ],
+                [
+                    "1.  Zvon\n2.  Hlas\n3.  Pl\u00e1\u010d\n4.  Buben\n5.  \u0160epot\n6.  Rachot\n7.  P\u00ed\u0161\u0165ala\n8.  Praskot\n9.  Sir\u00e9na\n10. Tikot"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Czech",
+            "constraints": "Kone\u010dn\u00e9 pravidlo: ka\u017ed\u00e9 slovo mus\u00ed b\u00fdt polo\u017eka/p\u0159edm\u011bt/fenom\u00e9n, kter\u00fd p\u0159i pou\u017eit\u00ed vyd\u00e1v\u00e1 zvuk."
+        }
+    }
+]
