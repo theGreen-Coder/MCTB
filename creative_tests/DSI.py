@@ -21,7 +21,7 @@ from request import Request, run_request
 from utils import *
 
 class DivergentSemanticIntegration():
-    def __init__(self, models, configs, repeats=1, delay=0, variant_prompts: Optional[list] = None):
+    def __init__(self, models, configs, repeats=1, delay=0, variant_prompts: Optional[list] = None, file_name=None):
         self.models = models
         self.configs = configs
         self.repeats = repeats
@@ -29,6 +29,7 @@ class DivergentSemanticIntegration():
         self.delay = delay
         self.return_files = []
         self.filter_list = np.array(['[CLS]', '[PAD]', '[SEP]', '.', ',', '!', '?'])
+        self.file_name = file_name
         
         # DSI specific models
         self.segmenter = PunktSentenceTokenizer()
@@ -220,6 +221,8 @@ class DivergentSemanticIntegration():
         return self.return_files
     
     def __str__(self):
+        if self.file_name is not None and isinstance(self.file_name, str):
+            return self.file_name
         return "DSI_"+str(self.id)+"_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs"
     
     def run(self):

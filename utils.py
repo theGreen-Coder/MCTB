@@ -8,6 +8,9 @@ def keep_letters(text):
     """Takes a string and returns only alphabetic characters."""
     return ''.join(ch for ch in text if ch.isalpha() or ch == ' ')
 
+def keep_numbers(text: str) -> str:
+    return ''.join(ch for ch in text if ch.isdigit())
+
 def clean_word(word):
     """
     Cleans a word by removing non-alphabetic characters (except hyphens and spaces) and converts to lowercase.

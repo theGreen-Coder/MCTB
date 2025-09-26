@@ -11,8 +11,9 @@ from utils import *
 import copy
 
 class SyntheticDivergentAssociationTest(DivergentAssociationTest):
-    def __init__(self, models, configs, embedding_models=[GraniteMultilingualEmbeddings], repeats=1, delay=0, n_words=10, constraints=None):
+    def __init__(self, models, configs, embedding_models=[GraniteMultilingualEmbeddings], repeats=1, delay=0, n_words=10, constraints=None, file_name=None):
         super().__init__(models=models, configs=configs, embedding_models=embedding_models, repeats=repeats, delay=delay, n_words=n_words, standard_prompt=True, starts_with=None)
+        self.file_name = file_name
         
         if constraints and isinstance(constraints, dict):
             self.addition_specs = constraints
@@ -116,6 +117,8 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
             return ""
             
     def __str__(self):
+        if self.file_name is not None and isinstance(self.file_name, str):
+            return self.file_name
         return "SDAT_"+str(self.id)+"_"+str(len(self.models))+"models_"+str(len(self.configs))+"configs_"+str(self.n_words)+"words"
     
     def request(self) -> dict:

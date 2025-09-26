@@ -22,7 +22,8 @@ class SimpleAlternativesUseTask():
             n_uses: int = 10,
             standard_prompt: bool = True,
             disallow_common_uses: bool = False,
-            score_fn: Optional[Callable] = None
+            score_fn: Optional[Callable] = None,
+            file_name=None
         ):
         
         self.models = models
@@ -34,6 +35,7 @@ class SimpleAlternativesUseTask():
         self.delay = delay
         self.n_uses = n_uses
         self.score_fn = score_fn or calculate_dat_score  # generic diversity scorer
+        self.file_name = file_name
 
         # Additional constraints for the instruction
         self.addition_specs = ''
@@ -81,6 +83,8 @@ class SimpleAlternativesUseTask():
             ]
 
     def __str__(self):
+        if self.file_name is not None and isinstance(self.file_name, str):
+            return self.file_name
         safe_obj = re.sub(r"[^A-Za-z0-9]+", "", self.target_object) or "object"
         return f"AUT_{self.id}_{len(self.models)}models_{len(self.configs)}configs_{self.n_uses}uses_{safe_obj}"
 

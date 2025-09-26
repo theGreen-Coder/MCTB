@@ -10,10 +10,11 @@ from creative_tests import DivergentAssociationTest
 from utils import *
 
 class HardDivergentAssociationTest(DivergentAssociationTest):
-    def __init__(self, models, configs, embedding_models=[GloVe, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7], common=True, repeats=1, delay=0, n_words=25, given_words=50):
+    def __init__(self, models, configs, embedding_models=[GloVe, BERT_WordEmbeddings_L6, BERT_WordEmbeddings_L7], common=True, repeats=1, delay=0, n_words=25, given_words=50, file_name=None):
         super().__init__(models=models, configs=configs, embedding_models=embedding_models, repeats=repeats, delay=delay, n_words=n_words)
         self.given_words = given_words
         self.common = common
+        self.file_name = file_name
     
     def get_n_random_words(self, dictionary="./models/words.txt"):
         words = set()
@@ -42,6 +43,8 @@ class HardDivergentAssociationTest(DivergentAssociationTest):
         self.test_prompt += "\n".join(random_words) 
     
     def __str__(self):
+        if self.file_name is not None and isinstance(self.file_name, str):
+            return self.file_name
         return "Hard" + super().__str__()
     
     def request(self) -> dict:
