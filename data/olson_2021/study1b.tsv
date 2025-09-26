@@ -1,0 +1,286 @@
+id	age	gender	rt	aut.flexibility.1	aut.flexibility.2	aut.flexibility	aut.originality.1	aut.originality.2	aut.originality	aut.fluency.1	aut.fluency.2	aut.fluency	bag.appropriateness.1	bag.appropriateness.2	bag.appropriateness	dat	valids	word.1	word.2	word.3	word.4	word.5	word.6	word.7	word.8	word.9	word.10
+R_3koVyM7qEyE4Ypx	19	Male	240.109	3.2	3.8	3.5	1	2.2	1.6	1	1.6	1.3	NA	NA	NA	76.7083573909033	9	giraffe 	face	shoe 	trees	TV	paw	ocean	car	banana	handle
+R_WuE6JAAXCEGO8tH	19	Female	240.015	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.5	4.5	5.5	76.9824312556358	10	cat	desk	theater	egg	pants	weather	hand	hem	uncle	flower
+R_3QmlC37US0bEQYp	19	Female	241.328	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.6875	4.9375	5.6875	76.4956753878366	10	Rain	Tree	Laptop	Mug	Nail	Rabbit	Potato	Pants	Class	Curtain
+R_2y1HvqnTKxJ8ymk	18	Female	240.056	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.8	4.6	5.8	75.2706637694722	10	fire	flower	pen	dress	plane	mountain	dog	law	camera	child
+R_1q1W1V1aS9uWkIG	19	Female	240.037	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	75.8803779170627	10	boat 	people 	insect 	coffee 	clothes 	bike 	television 	wood 	laptop 	hair 
+R_eUQsJePK1Dpo5pf	19	Female	240.015	NA	NA	NA	NA	NA	NA	NA	NA	NA	4.31578947368421	3.78947368421053	4.31578947368421	72.5596076321034	9	flower 	dinner 	pen 	lipstick	dog 	color	macbook	apple	fan 	sunscreen 
+R_1PRwVSBz8uq54dj	18	Female	242.126	2.4	2.2	2.3	1.2	0.2	0.7	1	1.2	1.1	NA	NA	NA	72.8811000784238	10	ocean 	chair	head	flower	car	lamp	rock	money	work	gun
+R_4IbEa0u5VaCjNGF	19	Female	240.069	5.4	4.6	5	3.2	2	2.6	6.8	6.6	6.7	5.67241379310345	4.6551724137931	5.67241379310345	83.161450387533	9	ethanol	mitosis	dress	candle	can	placemat	car	egg	laptop	card
+R_yIwKYgPZNqHO5Ut	18	Female	240.078	0.6	0.8	0.7	0	0	0	1	1	1	NA	NA	NA	79.0625775809444	9	map	queen	hat	steel	tea	lips	swimming pool	glasses	book	gap
+R_1rcssfbD4S8tGQa	19	Female	240.131	0.2	0.4	0.3	0	0	0	1	0.8	0.9	NA	NA	NA	80.4815574770882	9	box	computer	mooncake	cheese	poll	doll	fish	beauty	flower	cola
+R_12om7o5KDQ51Wns	19	Male	240.013	0.6	1.6	1.1	0	1	0.5	1	1	1	5.3	4.2	5.3	77.6158712449528	10	tree	typewriter	needle	suitcase	ball	card	nail	fan	cable	dragon
+R_2SklImEAFdyRD8v	18	Male	240.018	2.8	3.4	3.1	0.6	0.6	0.6	1	1.6	1.3	5.80645161290323	4.48387096774194	5.80645161290323	81.2399138474748	10	bin	branch	ball	crab	roof	rocket	ruler 	son	headphones	water
+R_ZKanfRTrN38JWkF	19	Male	240.081	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.83333333333333	3.83333333333333	5.83333333333333	75.1351218848001	10	desk	train	house	sky	tree	minor	habit	shirt	tower	market
+R_1hAL4rQ655FLo8L	18	Female	240.038	0.2	0.4	0.3	0.2	0.2	0.2	1	0.8	0.9	3.44897959183673	1.97959183673469	3.44897959183673	77.9125465701024	10	glass	wind	face	butterfly	street lamp	iron	sea shell	nail	cash	time
+R_2dSCW5JzmFfZAqE	19	Female	240.011	0.4	0.4	0.4	0	0.2	0.1	1	0.8	0.9	7	4	7	79.9818152650481	10	rabbit 	computer 	sweater 	nail	lung 	wax	desk	game 	mountain	surfboard 
+R_3kL2FyOx4dlNdwL	19	Female	240.013	0.8	0.8	0.8	0	0	0	1	1	1	4.2156862745098	2.86274509803922	4.2156862745098	76.9464853796221	10	dog	sex	psychology	computer	conflict	father	flower	parade	clown	firework
+R_3EGpxTN5LLLMqWk	18	Female	240.118	2.6	2.8	2.7	0.8	0.8	0.8	3.4	3.2	3.3	NA	NA	NA	83.8604321703315	8	hat 	elephant 	doctor	cushion	test tube 	library	toy car	stomach	globe	deoderant
+R_siF0IejFbyHEe2Z	19	Female	240.024	1.4	1.2	1.3	0.2	0.2	0.2	1.8	1.6	1.7	7	6.5	7	81.6780483971039	10	television	chair	pencil	skirt	mascara	calculator	door	certificate	pillow	tissue
+R_1F8vpBWAwpcKYce	18	Female	241.181	0.4	1	0.7	0	0.6	0.3	3.8	3.4	3.6	6.14285714285714	5.42857142857143	6.14285714285714	80.4728848039217	9	bottle	earphone	pen	fruit	medicine	ocean	fire	perfume	strategy	caculator
+R_3CZrn6fF5NxYcKY	20	Female	240.012	9.4	8.8	9.1	8.4	6.4	7.4	13.6	13	13.3	5.13559322033898	3.42372881355932	5.13559322033898	88.8643795979165	10	purple	grave	keyboard	quantum 	stork	toe	climate	ghost	fried	diet
+R_2QGm7E0iK9QwQUC	18	Female	240.02	1.4	2	1.7	0.2	0.6	0.4	3	3.2	3.1	5.40540540540541	4.72972972972973	5.40540540540541	84.3357280606315	9	book	chicken	kettle	highway	bed	cousin	jumper	nailpolish	music	tissue
+R_3hxXFvAaZUCRCyF	18	Female	240.114	1	1.4	1.2	0.8	0.8	0.8	9.6	8.4	9	6.47058823529412	6	6.47058823529412	80.9383352952344	9	school	flag	sand	cat	nail polish	deodorant	fork	lock	travel	ambulance
+R_31zaY56c9gCqpKx	18	Female	240.013	0.2	0.4	0.3	0	0	0	1	0.8	0.9	5	3.58695652173913	5	72.1845730429604	10	man	girl	bottle	book	study	family	photo	baby	childhood	birthday
+R_VPQBGmFJkgy04nv	18	Female	240.085	1	1.4	1.2	0.6	0.8	0.7	1	1.4	1.2	4.10526315789474	2.85964912280702	4.10526315789474	77.8951817325183	9	sun	cheese	adress	tree	glass	carbon	noise	mail	fail	water
+R_3IYaDXI9zyFVgEZ	19	Male	240.148	1.6	1.2	1.4	0.6	1	0.8	11	9.2	10.1	5.91666666666667	4.91666666666667	5.91666666666667	78.5703052544878	10	photo 	air 	bottle	cord	basketball	door	umbrella	shapes	towel	pin 
+R_3HHucl2vKqmCxnN	18	Female	241.158	3.2	3	3.1	1.8	0.6	1.2	1	1.8	1.4	5.11538461538461	3.90384615384615	5.11538461538461	72.0959881231898	8	red	tree	polar bear	car	dirt	drink bottle	bed	jacket	oven	bin
+R_DzNTekoA8n75A1H	18	Female	240.07	5.2	5	5.1	2.6	1	1.8	6.8	6.6	6.7	NA	NA	NA	81.6517149319961	10	apple	road	pen	shorts	pillow	eyelid	gold	ocean	wall	music 
+R_3qIEED4O8b3d7bG	19	Female	240.017	4	4.6	4.3	1.6	0.8	1.2	1.2	2	1.6	5.54838709677419	4.32258064516129	5.54838709677419	80.7926754866328	8	hair	miso	socks	light	pitbull	daisies	tennis	clock	basement	chainsaw
+R_28YXqUfFuh5n6Gw	19	Female	240.014	0.2	0.6	0.4	0	0.2	0.1	2.4	2.2	2.3	4.97777777777778	3.91111111111111	4.97777777777778	71.8501023593403	10	cat	sky	bag	mop	mirror	paper	scarf	laptop	wood	bell
+R_Zh11URsMrzkj6Cd	19	Female	240.026	0.8	0.8	0.8	0	0	0	1	1	1	5.07142857142857	3.57142857142857	5.07142857142857	84.1151026210615	10	teacher	murderer	guitar	deaf	mouse	garlic	fan	mall	hamburger	dead
+R_R7Xc4x9KjiOcbsJ	21	Female	240.007	3.8	3.8	3.8	1.2	1	1.1	1	1.8	1.4	5.66666666666667	4.45454545454545	5.66666666666667	81.9706899601789	10	bus	radio	kidney	rug	desk	paint	love	sunflowers	crown	constitution
+R_1NyJ4allLfeJtr6	23	Male	241.194	3	2.6	2.8	2.8	0.4	1.6	7	6.6	6.8	4.58181818181818	3.32727272727273	4.58181818181818	67.7344629452342	10	keep	leave	fly	happened	always	flabbergasted	mysterious	bullied	disappointed	flour
+R_2BrgtW92VteebD5	19	Female	240.01	1.6	1.8	1.7	0.4	0.6	0.5	1	1	1	5.09090909090909	3.93939393939394	5.09090909090909	81.2441714684523	10	magic	verb	phone	hair	lights	country	lead	smile	stick	blue
+R_3m8A7KptOiIg9WE	17	Female	179.199	0.2	0.4	0.3	0	0	0	1	0.8	0.9	5.93333333333333	4.62222222222222	5.93333333333333	78.5053542327313	10	baby	hate	phone	apple	number	pen	empathy	cow	carpet 	polish
+R_1PdwYBAHoeVmAKc	19	Female	240.006	0.4	0.8	0.6	0	0.4	0.2	1	1	1	2	1	2	77.6578192554769	10	tissue	lighting	house	ghost	beer	grave	flower	doctor	court	white
+R_2flDW83WFlCPG0T	18	Female	240.012	0	0.2	0.1	0	0	0	1	0.8	0.9	4.14285714285714	2.71428571428571	4.14285714285714	71.2747282215527	10	love 	tissue	flowers 	cream 	light	salt 	dog 	book	jacket 	basketball 
+R_3fGYKKGiVuvtVIP	18	Female	240.102	3	3.4	3.2	1.6	1.4	1.5	1	1.6	1.3	5.88	4.2	5.88	77.5363459828354	10	computer	world	toad 	book 	ring 	plane 	house 	tree	slide	music 
+R_2fxkdeTbFVyyGMd	19	Female	240.102	0	0.6	0.3	0	0	0	2.2	1.8	2	NA	NA	NA	81.5323397517204	9	coconut	dog	comb	mask	candies	watch	calculator	pencil	solar panel	seasoning
+R_tFG3m5AKKc70W4h	18	Male	240.212	0	0.8	0.4	0	0.2	0.1	7.6	6.8	7.2	NA	NA	NA	76.3035799066226	10	apple	apartment 	bones 	coffee	cat	bottle 	calculator	pool	gate	doctors
+R_9pn2KJP3EKnAxUZ	18	Female	240.099	2.4	2.8	2.6	0.4	0.2	0.3	2.6	3	2.8	4.26785714285714	2.98214285714286	4.26785714285714	73.0679446387859	10	wind	desk	ball	house	back	teacher	nail	basket	dog	ear
+R_2CC8D2chTULgz7E	19	Female	240.108	9.2	7	8.1	9.8	4.4	7.1	14.2	13.2	13.7	6.85714285714286	6.35714285714286	6.85714285714286	89.4899147340939	10	bouzouki	gas	rain	circus	book	pyramid	yacht	stick	computer	shack
+R_1LNLaYKwkhEyqDK	18	Female	240.009	0.4	0.6	0.5	0	0	0	1	0.8	0.9	4.35714285714286	3.26785714285714	4.35714285714286	79.355086616817	9	people	theory	apple	ice cream	ring	medal	jar	glass	silk	clothing
+R_zdHwbRyvoi6Pd8R	20	Female	53.244	6.8	6.4	6.6	3.4	5.2	4.3	7.2	7.2	7.2	5.75	4.70833333333333	5.75	78.0088599239077	10	dice	blue	cat	cup	book 	mum	chair	school	apple	fake
+R_2curxfvbrawWwdm	19	Male	240.121	1.2	1.2	1.2	0	0.2	0.1	1	1	1	4.05882352941176	3.23529411764706	4.05882352941176	73.3343912377244	10	Write	Chicken	Magic	Game	Language 	People	Father	Election 	Subject 	Hand
+R_rfhtsYMoHrzDp2F	20	Male	240.014	6.2	6	6.1	5.8	5.8	5.8	11.2	10.4	10.8	4.66101694915254	3.10169491525424	4.66101694915254	74.2116960031646	9	butterfly	bee	meaning	space	bet	orange	george	wee	yew	baby
+R_1CfjPNHNiIJocDu	20	Female	240.011	1.4	1.2	1.3	0	0	0	2	1.8	1.9	4.22641509433962	2.84905660377358	4.22641509433962	78.7743233499073	9	house	flower	skirt	axe	cage	lemon	money	medicin	paper	detergent
+R_2164et1cX4V25eV	20	Male	240.009	2.4	2.4	2.4	1.2	0.8	1	3.2	3	3.1	5.81818181818182	4.45454545454545	5.81818181818182	82.6260517573073	10	water	triangle	book	nail	truck	shoelaces	carpet	onion	bracelet	underwear
+R_2Eg7Uq3lSKZQm7M	19	Male	240.102	5.2	6.2	5.7	3.2	1.6	2.4	6.6	7.6	7.1	4.98181818181818	3.92727272727273	4.98181818181818	84.6212070124845	9	Plane	Beach	Address	Love	Biscuit	Dog	iPad	Insecticide	Pillow	Cobblestone
+R_b8kZzRhnoN1gw81	19	Male	240.161	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	80.1130533927963	10	car	universe	group	sad	bed	bin	relationship	outstanding	head	window
+R_12x4lCq9gcHG4cg	20	Female	241.849	3	3.2	3.1	1	1.8	1.4	5.4	4.4	4.9	6	5	6	74.8042401103746	10	chair	pool	pencil	mouse	painting	glasses	iron	bag	chips	bridge
+R_XArL0au9O7sODyV	18	Female	240.07	1.8	1.8	1.8	0	0	0	1.8	1.8	1.8	NA	NA	NA	81.4979983671081	10	mailbox 	pot	bed	bridge	jacket	star	ocean	curtain	bag	elephant
+R_3oTHuZGvOzUxHFh	19	Female	240.111	2.4	3.2	2.8	0.6	0.4	0.5	3.6	4.4	4	6.16666666666667	3.66666666666667	6.16666666666667	77.8503070186291	10	wall	shoe 	floor	study	maid 	clown	tree	death	pants 	fingers 
+R_3MLEPJ09SvrMcTa	20	Female	240.083	3.6	4.2	3.9	1.2	1.6	1.4	4.4	4.8	4.6	6.03030303030303	4.54545454545455	6.03030303030303	65.6503540419397	10	food	place	idea	comfort	living	intelligence	beauty	travel	conversation	love
+R_3siDtX3dAURW9Kw	19	Female	240.015	0.4	0.2	0.3	0	0	0	14.6	13.6	14.1	5.61904761904762	4.35714285714286	5.61904761904762	78.115490930421	10	cow	jacket	wind	kissing	chair	pasta	rainbow	plane	curtain	vein
+R_2Vl6LnkdQ0cdgem	17	Female	240.027	2.6	2.6	2.6	1.2	0.2	0.7	3	3.2	3.1	5.4	3.88	5.4	80.3359172528698	10	pen	noise	running	clouds	tape	comedy	crowds	flowers	absent	cans
+R_54iWMq6Xyngw5Oh	17	Female	240.018	2	2.6	2.3	0.6	1.2	0.9	2.4	2.8	2.6	4.8	3.26	4.8	79.8262673651888	9	white	animation	motivation	countryside	ice-cream	school	complex	vacation	dream	accordion
+R_1geE6Cb8CJIlQIy	18	Female	241.878	0.2	0.8	0.5	0	0.4	0.2	1	1	1	NA	NA	NA	77.7823401703721	9	table	pool	ring	giraffe	knife	tack	mud	toddler	car	tv
+R_111kDn2r9PJRRnE	18	Male	240.012	1.8	1.4	1.6	0.8	0.6	0.7	2	2	2	NA	NA	NA	81.306321532022	10	Den	Wire	Lawyer	Black	Revolution	Darkness	Light 	Happiness	Strength	Thinking
+R_2RUhnUL9VN4YTFP	20	Male	240.011	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	76.2426983032908	9	people	chair	fish	lake	computer	history	France	shirt	moon	milk
+R_2qkoE5JAao3P1WU	19	Female	240.008	3.8	4.2	4	1.6	1.2	1.4	6.6	6.4	6.5	5.72727272727273	4.36363636363636	5.72727272727273	68.9164980891205	10	place 	hand	food	emotions	run 	picture 	farm 	school	hair 	sport 
+R_3GquG0AzZL6Xlfa	20	Female	240.156	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	70.6855155172802	10	pen	cream	straw 	lamp	tree	clothes	brush	knife	window	cloth
+R_5pUxtGpDkGQWTZf	18	Female	69.704	0.2	0.4	0.3	0	0.4	0.2	1	0.8	0.9	7	4	7	70.6765174865723	10	cat 	blanket 	house	tree	car	bike	laptop	shoe	stage	phone 
+R_28LJzihi5nfixJC	18	Female	240.015	0	0.6	0.3	0	0.6	0.3	6.6	5.6	6.1	5.38636363636364	3.81818181818182	5.38636363636364	78.5960018457401	10	pig	bottle	notebook	car	god	check	type	horror	needle	line
+R_2YySCHkKDkkWK9B	19	Male	240.111	1.8	1.6	1.7	0.6	0.2	0.4	2.4	1.8	2.1	NA	NA	NA	84.9808265233324	10	laptop	brownie	road	pimple	paper	psychology	brown	rubber	tree	marker
+R_2QrB8leByMCBfT5	20	Female	240.011	0.4	0.4	0.4	0	0	0	1	0.8	0.9	5.52941176470588	3.64705882352941	5.52941176470588	76.1816150730564	8	rabbit	math	TV	oscan	airport	friend	child	parent	game	bird
+R_01BQn8K7Pi9Rayl	20	Female	240.019	1.8	1.8	1.8	1	0	0.5	1.8	1.8	1.8	4.6875	3.47916666666667	4.6875	81.2885143040192	10	doll	homework	comics	maths	holiday	sea	roommate	pad	water	toilet
+R_24waSrxtfLapDP0	19	Male	240.092	2	2.4	2.2	1.2	1	1.1	2.2	2.4	2.3	NA	NA	NA	75.5867553076574	10	Pen	Ball	Street	Ear	Bird	Snow	Toothbrush	Food	Land	Electricity 
+R_3lAFWiBT1vFPagB	19	Male	240.008	4.6	4.6	4.6	3.6	2.4	3	1	1.4	1.2	6	5.33333333333333	6	86.1935320487689	9	dragon	ice	plant 	highlighter 	student 	road	commet 	squid 	love 	stomach 
+R_3k5hUHsCE0FjJrh	19	Female	240.169	2.4	2.2	2.3	0	0.4	0.2	3.8	3.2	3.5	4.86206896551724	3.32758620689655	4.86206896551724	77.9597905420122	10	dog	flag	sun	purple	blush	keyboard	singing	hair	fabric	hotel
+R_3nIUg3zsvUUMrzd	19	Female	240.015	1.2	1.4	1.3	0	0	0	1.2	1.4	1.3	5.25	3.83333333333333	5.25	86.7324659113018	10	dandelion	cheesecake	odor	highlight	settings	spray	toolkit	book	tray	pants
+R_4J8m7RT3rcJ2rHb	19	Female	240.006	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.23255813953488	3.6046511627907	5.23255813953488	79.7344058042481	10	cat	box	foot	gel	pen	mother	vacancy	light	water	rope
+R_UgQCwKS5A1OsM8h	18	Female	240.009	0.2	0.4	0.3	0	0	0	1	0.8	0.9	NA	NA	NA	75.3916611983663	8	car	park	toy	cake	medical	study	Japan 	Arthur	figure	GP
+R_3dQCtNRTIkOXGm3	19	Female	240.156	2.2	2.6	2.4	0.4	0.2	0.3	3	3.2	3.1	5.8	4.6	5.8	73.4671874415307	10	cat 	book	clothes 	phone 	table 	bottle 	cake 	wind 	sound 	flower 
+R_10qtK37pJxcdYC2	21	Female	480.166	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	81.2673781200179	8	bowl	sky	licorice	pot	forest	alien	shin	scientologist	carbon monoxide	cuticle
+R_32V0GhHUtT9apFb	18	Male	240.015	0.2	0	0.1	0	0	0	3	2.8	2.9	5.90476190476191	4.95238095238095	5.90476190476191	76.4935409738904	10	door	school	car	water	biology	land	star	flag	donkey	music
+R_OAVTO3upDEKi3w5	22	Female	240.009	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	77.1135206733431	10	shoe	cow	house	moon	dancer	phone	glasses	road	book	game
+R_3KCrdib6XHF9gdo	18	Male	240.009	0	1.4	0.7	0	1.2	0.6	4	4	4	7	7	7	89.4947632836799	10	drought 	cortisol 	hyperbole 	rust	plants	earphone 	bottle 	ambition 	surgery 	NA
+R_3Kr0Wp0jemFRA5v	19	Male	240.007	1	0.8	0.9	0.6	0	0.3	5.8	5.4	5.6	NA	NA	NA	73.7522548153287	10	cat	house	pencil	ice	grass	wind	gravity	male	life	skin
+R_8e8JQcJ5JTSoJhf	19	Female	240.026	4	4.6	4.3	1.6	2.8	2.2	1	1.6	1.3	4.59259259259259	3.51851851851852	4.59259259259259	78.03618244472	10	apple	sun	blanket	statue	travel	university	toy	grandmother	time	purple
+R_DtWwqkKNCbIvNlv	19	Female	240.023	1	1	1	0	0	0	1	1	1	5.125	4.125	5.125	75.1005826251847	10	clock	countdown	gear	watch	late	measure	seconds	hours	wall	table
+R_2a8DmIIY9bJE4NY	19	Female	240.009	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	78.7289749653566	8	bull	calculator	candle 	dairy 	chip	cat	fridge 	table	drink bottle	t shirt 
+R_2aELtRUHKNLF6eP	19	Female	240.021	3.6	3.8	3.7	2.2	2.4	2.3	1	1.4	1.2	5.4375	3.79166666666667	5.4375	74.7965877609594	10	cow	bottle	time	mum	barbie	love	graduation	beauty	sponges	power
+R_11iN1qjG6Nj8tqD	19	Male	240.023	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	64.5645005362374	9	sky	water	mud	bird	flower	human	sun	bee	cock	DNA
+R_1hF1mDqW0t7WDTv	19	Male	240.012	5.8	6.2	6	7.2	6	6.6	11.6	11.6	11.6	5.57142857142857	4.21428571428571	5.57142857142857	86.1619190800758	10	banana	eraser 	telephone 	metal 	cloud 	wristband 	fur 	hospital	cord	numbers
+R_1FtFMZKWBRAgeIo	18	Female	240.224	1.2	1.4	1.3	0	0.4	0.2	1	1.2	1.1	4.79545454545455	3.56818181818182	4.79545454545455	65.723847988106	10	animals	Fruits	Vegetables	Human	Earth	Road	Plant	House	School	Politics
+R_2Y5JmSCtHIpg6yQ	21	Female	240.014	1	1	1	0	0	0	1	1	1	6.42105263157895	5.31578947368421	6.42105263157895	78.6371624895504	10	phone	bed	water	perfume	chips	shoes	tape	tampon	doll	pen
+R_1gSHO45ytro9UdW	19	Female	240.14	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	71.1246232901301	10	bottle	phone	table	map 	floor	hand	dog	hat	hoop	tree
+R_1kOJ5Usdg2JhxvR	18	Female	240.051	4.4	4	4.2	2.4	1.4	1.9	5	4.8	4.9	NA	NA	NA	81.6766544112137	8	cup 	pig	mountain	snot 	berries 	the queen	lingerie 	electric guitar 	karate 	baby
+R_22SbuSjFRwK3TBL	19	Female	240.16	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	74.8068786447956	10	cat 	desk 	run	 shirt 	can't 	greet 	sticker 	objection 	oblivious 	tree
+R_2dE1gmY21cQEMDj	18	Female	240.111	3.2	3.4	3.3	1	1.8	1.4	4.6	4.6	4.6	5.01923076923077	3.90384615384615	5.01923076923077	68.5622262812796	10	snow	table	car	hills	sky	river	dust	doll	foam	crab
+R_2aluzJD6nz9bXbO	20	Male	240.013	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	73.316245774428	10	book	sky	lamp	water	fire	wood	shoes	cap	hand	laptop
+R_3sBnC1yFJKDezRf	20	Female	240.119	3.6	3.6	3.6	2.4	0.6	1.5	5.8	5.6	5.7	4.6	2.83333333333333	4.6	79.5761779837665	10	mop	bag	rat	travel	alien	desk	cord	jump	cry	shoe
+R_af1Ksg65lWMgEA9	20	Female	240.108	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	89.6486256005509	10	Toe	Parliament	Mars	Atom	Syringe	Text	Vent	Dualism	Swimming	Saxophone
+R_3RxNLnyjRYDfl6T	18	Female	240.117	0	0	0	0	0.4	0.2	7	6.8	6.9	NA	NA	NA	81.0898004188424	8	table	sky	zoo	water	handphone	oreo	violin	finger	batman	blueberry
+R_sSAQtzGAA4DSt2N	18	Female	240.15	2.2	2.2	2.2	0.6	0.2	0.4	1	1.4	1.2	6	5.1304347826087	6	75.8101913191023	9	cat	book	beach	chair 	laptop	underwear	friend	blanket	toy	washing basket
+R_1CJgYpZ9uTk4ed4	20	Female	241.202	3.4	3.4	3.4	2.2	1.6	1.9	4.4	4.8	4.6	5	3.94736842105263	5	86.9228114950515	10	rat	cauliflower	hamper	carpet	cancer	silicone	celebrate	holes	 block	chew
+R_2Y9sgOVwPgX3NVr	16	Female	240.205	1	1	1	0	0	0	1	1	1	4.80487804878049	3.48780487804878	4.80487804878049	73.3053281903267	10	family	work	book	cloud	friend	farmer	animal	river	tree	star
+R_27vwpR3uXW5WENI	19	Male	240.062	0.8	0.2	0.5	2	0.2	1.1	4.8	4	4.4	4.80392156862745	3.58823529411765	4.80392156862745	74.9961457791783	10	tissue	clothes	water	fire	music	egg	spoon	money	phone	mother
+R_3g29Ti2pWBvVqZu	19	Female	240.1	0.8	0.8	0.8	0	0.6	0.3	7.8	6.6	7.2	5.31707317073171	4.24390243902439	5.31707317073171	79.7810300563773	9	fire extinguisher 	bedroom	coffee	uniform 	ambulance	glasses	tiles	mud	vineyard	towel
+R_3hbA1DldJ1WUf9j	19	Female	240.109	7	7	7	4.8	4.4	4.6	11.2	10	10.6	4.85714285714286	3.57142857142857	4.85714285714286	85.981016443111	7	himalayas 	mirror 	twitter 	dream	coriander 	doctor who 	tennis 	slime 	clown 	zeus 
+R_1FQXi3T8BMNlPqA	19	Female	240.012	0	0.2	0.1	0	0	0	1	0.8	0.9	NA	NA	NA	78.8194846184481	10	moon	turtle	desk	singer	tea	dust	pool	pants	lipstick	beard
+R_1li1u6Kq8SGJ5sR	19	Female	240.012	0.6	0.8	0.7	0.4	0	0.2	1	1	1	4.73584905660377	3.52830188679245	4.73584905660377	81.8171581164712	10	table	dog	chemistry	teaspoon	rain	mother	ring	grass	bag	car
+R_w14tTVfBbJjFONP	24	Male	240.108	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	81.5573906537057	10	plane	bread	Mother	wand	pig	leprechaun 	television	flute	nail	ghost
+R_21FYz17nGUqKiRq	18	Female	240.018	2.6	2.6	2.6	1.2	1.2	1.2	3.4	3.2	3.3	5.48484848484848	4.90909090909091	5.48484848484848	82.3540493446801	10	earphone	flower	thong	temple	socket	key	bubble	note	port	tap
+R_1pSxnULoleStPAd	19	Female	240.019	6.4	6.6	6.5	3.6	3.2	3.4	8.8	9.2	9	5.75	4.78571428571429	5.75	85.7369151897728	8	desktop	shoe	cupholder	crochet hook	candlewax	sieve	pipe	lightbulb	fountain	nib
+R_25R71XYUH5j0zl3	20	Male	240.067	1.4	1.8	1.6	0	0	0	1	1.4	1.2	4.9622641509434	3.43396226415094	4.9622641509434	82.6003633616936	10	phone	mine	tissues	aliens	airplane	bombs	flags	ball	wolf	ocean
+R_rpqYpFygDntuZvH	19	Female	240.113	0.4	0.4	0.4	0	0.6	0.3	1	0.8	0.9	NA	NA	NA	71.3246403705506	10	people	animal	hospital	school	car	phone	dress	hair	bed	window
+R_2OSUYghXwOgk06Y	19	Female	240.01	1.2	1.2	1.2	0.2	0	0.1	1	1	1	NA	NA	NA	81.7602218793971	10	shoe	bad	alcohol	swimming	study	parachute 	seafood	death	wedding	babies
+R_2AToiACneZTiWnX	18	Female	240.014	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.83333333333333	5.27777777777778	5.83333333333333	76.2453033100991	10	website	bottle	trash	cake	light	table	phone	tissue	book	water
+R_2qBExsjDzgoYGAw	20	Male	240.123	0.8	1	0.9	0	0	0	1	1	1	NA	NA	NA	45.9027852330889	10	time	people	thing	day	life	women	way	road	books	child
+R_1E52pcusvCfGsst	19	Female	240.094	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	75.7599148189738	9	car	tree	sky	oean	glasses	picture	chopsticks	cup	pen	speaker
+R_3EtyJn0UI4NVu7I	19	Male	240.211	4.2	3.6	3.9	3.8	1.2	2.5	6.6	6.4	6.5	5.58695652173913	4.6304347826087	5.58695652173913	79.1387047441233	10	lamp 	grass	brick 	throne	car	hammock	pet	geyser	tube	umbrella
+R_3HTglMTjSyS7mRN	19	Female	240.016	1	0.8	0.9	0.4	0	0.2	4.8	4.6	4.7	5.36666666666667	4.43333333333333	5.36666666666667	84.4880774617195	9	helmet	pen	soup	scales	alarm 	death	book	australia	skipping 	fire
+R_1jHDm1Q6ylzsFqU	18	Female	240.09	0	0.6	0.3	0	0	0	4.8	4.2	4.5	5.21875	3.59375	5.21875	76.631942888101	10	necklace	pot	lock	deck	gum	pencil	light	station	cheque	tree
+R_265PG9Wo0erBYru	19	Female	240.009	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.02941176470588	3.79411764705882	5.02941176470588	72.9150421917439	10	cat	table	sofa	girl	bottle	building	school	blanket	basketball	nail
+R_2B8qC12UFHB9OGN	18	Female	240.178	2.6	3.2	2.9	1	1	1	3.6	4	3.8	5.28260869565217	3.91304347826087	5.28260869565217	80.9557963694845	9	bicycle	music	colour	bag	crow	baby wipe	lamp	wiring	magnet	vents
+R_UElXpLDDuyJFyU1	20	Male	240.117	0.4	0.8	0.6	0	0	0	1	1	1	NA	NA	NA	80.3520027281983	10	cat	dog	education	race	invitation	comparison	ceiling	table	glass	grass
+R_2wEPYl3R02gH9mO	21	Male	240.062	4.4	3.2	3.8	2.8	0.8	1.8	5.6	5.2	5.4	5.58139534883721	4.55813953488372	5.58139534883721	81.7103261571555	10	arrow	stand	plane	soup	mast	gold	book	football	grass	shadow
+R_3Ej9BsuuJSnA2MG	19	Male	240.112	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	75.1621000335685	10	milk 	ocean 	salt 	speaker	box 	window 	sky 	wallet 	bag 	heater 
+R_3RyDJEOz0LQI9IZ	19	Female	240.111	3	3	3	2.2	1.2	1.7	5.4	5	5.2	NA	NA	NA	77.0645558834076	10	clothes	food	phone	rose	sun	wall	printer	paper	shoe	hand
+R_3HvNknXeL41RPyI	18	Male	240.036	1.4	1.4	1.4	0	0	0	1	1.2	1.1	5.05769230769231	3.94230769230769	5.05769230769231	81.987673968875	10	magic	chopsticks	pot	computer	air	dumbbells	hair	bully	flood	keys
+R_Os3kcjjJy5JZbot	18	Male	240.092	2.4	2	2.2	1.2	0.6	0.9	3.6	3.4	3.5	6.14285714285714	5	6.14285714285714	80.6500715514024	10	cat 	city 	iceberg 	robot 	video 	bottle 	glasses 	passport 	money 	sun 
+R_3IcSwPn86u1wNfH	19	Female	240.012	0.4	0.6	0.5	0.4	0.4	0.4	1	0.8	0.9	4.13725490196078	2.64705882352941	4.13725490196078	83.4106144628355	9	thief	movie	milk	Italy	river	tram	home	artwork	underwear	bee
+R_1QzjOBkKpcwdouX	21	Male	240.119	2.8	3	2.9	2	0.2	1.1	4.6	4.8	4.7	6.34615384615385	5.23076923076923	6.34615384615385	86.0587614588439	10	apple	guitar	ant	multiply	baptism	waste	paradigm	cleaver	enzyme	elevator
+R_2CxBMXYbRDng1Cu	20	Male	240.012	2.6	2.4	2.5	1.2	0.4	0.8	3.8	3.4	3.6	6	4	6	73.8413839822724	10	hammer 	snow 	window 	phone 	light 	speaker 	mirror 	cloth	clouds 	coffee 
+R_1nVfHVldRxIjhME	20	Male	240.14	4.6	4.6	4.6	2	2.6	2.3	7.4	7.4	7.4	4.63829787234043	3.31914893617021	4.63829787234043	83.4500654822304	8	Cake	Holocaust	Aliens	Syphillis	Frying pan	Transplant	Addict	Diarrhea	Toenail	Lats
+R_1GU34Ytx4Nrn9mk	19	Female	240.105	1	0.6	0.8	0.4	0	0.2	1	0.8	0.9	7	7	7	69.1043767191115	10	bottle	finger	cloth	eye	beautiful	happy	house	book	mother	love
+R_eqWTgNByryIRE0F	18	Female	241.804	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	83.3008843518439	8	car	car	oars	bread	mountain	pencil	teddy bear	cash	guitar	lolly
+R_3Pz3LTzA3ez7VIL	19	Male	240.159	1.8	2.4	2.1	0.8	0.8	0.8	6.2	6	6.1	4.97560975609756	3.36585365853659	4.97560975609756	76.377168013936	10	cup	plant	animal	person 	plane	computer	park	vegetable 	vehicle 	window
+R_3HwvfbQwcauCywA	20	Male	240.022	0.8	1	0.9	0.4	0	0.2	4.8	4.2	4.5	5.50877192982456	4.21052631578947	5.50877192982456	78.4866423479148	10	School	grass	dungeon	drink	movie	street	bird	phone	window	Dinner
+R_27VS62PufWRly0I	18	Female	240.012	6	5.6	5.8	4	1.8	2.9	7.6	7.2	7.4	5.54545454545455	3.27272727272727	5.54545454545455	82.5026969824519	9	caterpillar 	fame	castle 	gum	crop top 	fog 	smile 	gold	vampire 	truth 
+R_2CBYQ45bij9LSOf	19	Male	240.07	2.8	3.6	3.2	0.8	1.2	1	5.4	5	5.2	5.19642857142857	3.82142857142857	5.19642857142857	81.7578749598137	10	Technology	Country	Happiness	Time	Voltage	Iron	Captivate	Hair	Special	Rain
+R_1mCcJvdfsvP7dUS	19	Female	240.114	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	89.1123515420726	9	tile	phone	banana	highlighter	cloud	jewellery	lecture	dog	banquet	BBQ
+R_2CVO2nRaBNVLnNM	25	Male	240.143	4.6	4.4	4.5	3.4	1.4	2.4	5.8	6.4	6.1	NA	NA	NA	74.9434858915352	9	lamp	dylan	book	giraffe	spider	pen	cloth	painting	toe	sticker
+R_1kOeivr9du3yxeL	19	Male	240.103	0.2	0	0.1	0	0	0	3.2	2.8	3	5.16666666666667	3.66666666666667	5.16666666666667	82.6732176755156	10	Table	Ocean	Star	Whistle 	Phone	Antenna 	Grass	Bus	Chalk	Curtain 
+R_31SBTKhILqUTycs	18	Female	240.014	0.4	0.8	0.6	0	0.2	0.1	7.8	6.8	7.3	5.2	4.4	5.2	77.5346749595233	10	cup 	knife 	tree 	friend 	cigarette 	meat 	ship	star 	tiger	snow 
+R_1FE8A9bcQzE3oLy	19	Male	240.115	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.275	4.05	5.275	74.8324297723316	10	tree	building	sky	game	door	factory	chocolate	media	tram	coffee
+R_11iPg2DCONOzSIB	19	Female	240.021	0.2	0.2	0.2	0.6	0	0.3	1	0.8	0.9	NA	NA	NA	77.6769087782928	10	table	family	girl	cat	wallet	fork	grace	tablet	charger	book
+R_2zU4W74bqPFjHRJ	19	Male	240.064	2.2	2	2.1	0.8	0.8	0.8	4.2	4	4.1	4.25454545454545	2.98181818181818	4.25454545454545	79.4454675921727	10	hat	tree	fig	paper	radio	stairs	door	number	thumb	road
+R_3GDkXCpgoMWGQJV	20	Female	240.043	1.2	1	1.1	0.2	0	0.1	1	1	1	NA	NA	NA	72.4067637608165	10	justice	beauty	envy	appetite	idea	sorrow	luxury	right	generosity	nap
+R_1qV5cYRJbOoW3Hh	18	Female	240.038	4.4	4.6	4.5	2.2	1.8	2	5.4	5.4	5.4	5.46153846153846	4.25	5.46153846153846	76.3221163125265	10	book	bag	plane	water	skin	dog	cloud	curtain	gun	mountain
+R_2WZRmw7DM3yCHZ7	18	Female	246.06	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	74.832104572228	10	cat	car	bed	shirt	bear	radio	board	cupboard	wardrobe	chair
+R_3lWDAmn6NjJx5yK	19	Male	240.116	0	0.4	0.2	0	0	0	1	0.8	0.9	1	1	1	69.0797237235875	10	stick	hand	essay	time	water	ice	house	road	onion	dog
+R_wYGE2WR8Icx9RWV	18	Male	240.117	3.2	3.6	3.4	1.6	1	1.3	5.4	5.2	5.3	4.44444444444444	3.11111111111111	4.44444444444444	76.6562290489674	10	phone 	fox 	car	home 	flight 	slave 	movie 	wallet 	box 	doctor 
+R_UmZWwWpU8svdxo5	18	Female	240.009	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.14583333333333	3.72916666666667	5.14583333333333	78.3824811024325	10	boyfriend	animal	FRUIT	table	elevator	shopping	road	fly	pipe	PLUMBER
+R_2fHuPbm504t4yn1	18	Female	240.017	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	78.9302103930996	10	Phone	Blanket	Sheep	Beef	Cars	Clouds	Pillow	Eggs	Chicken	Trees
+R_3ESXJoiAqIqZqYj	NA	Female	123.097	0	0	0	0	0	0	17.4	13.4	15.4	4.14285714285714	2.76190476190476	4.14285714285714	75.377661273593	10	change	kill	grill	arrange	stab	bury	sing	cry	stop	fix
+R_2VsjjlxpWKqVqxZ	18	Female	240.055	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.93333333333333	4.9	5.93333333333333	75.3262754529715	10	clothes	ocean	bottle	sun	computer	medal	glass	clouds	music	nail
+R_2WIFjqIhEqno0Nu	17	Male	480.275	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	87.7774259696404	9	banshee	telescope	paint	locomotive	icypole	crate	swashbuckler	atlas	birthday	hummingbird
+R_1LLEYbxIQ8o9eCn	18	Female	240.016	4.4	3.8	4.1	2.6	0.6	1.6	1	1.6	1.3	6.09090909090909	4.96969696969697	6.09090909090909	80.5807210859798	10	Kettle	Scissors	Laptop	Dress	Foot	Tree	Church	Chicken	Water	Violin
+R_3oQG1ex74pvVvyo	18	Female	240.008	6	5.6	5.8	3	2.2	2.6	8.4	8.2	8.3	5.49122807017544	4.15789473684211	5.49122807017544	84.1530555532136	10	Hot	Unicorn	Preschool	Foot	Ham	Platypus	Tent	Computer	Forest	Friend
+R_1Nn3fTpUIYhlcT7	18	Female	240.014	4	3.8	3.9	1	1	1	9.8	9.4	9.6	5.42857142857143	4.06122448979592	5.42857142857143	76.8365192271414	10	Fence	Pen	Pot	Light	Frame	Phone	Star	Alcohol	Tissue	Perfume
+R_2rNEWsuT0kxNVGa	19	Female	240.013	3	4	3.5	1	1.2	1.1	1	2	1.5	6.2	4.6	6.2	78.8048121191207	10	CHAIR 	HEART 	SHOE 	PLANT 	COKE 	BREAD 	BACKPACK	MIRROR 	CHARGER	TAMPON 
+R_w7C88njLVRiccKJ	19	Female	240.064	3.2	3.4	3.3	0.6	0.8	0.7	4	4.2	4.1	6.13157894736842	5.15789473684211	6.13157894736842	77.9419950431301	10	dog 	car	coffee	tissue	wire	ink	stone	frame	fork	app
+R_Rkxsu2xz5ZsFpCN	20	Female	240.012	0.4	0.8	0.6	0.4	0.2	0.3	1	1	1	NA	NA	NA	85.6736751639151	9	handicapped	moon	bracelet	Plant	dynamic	intricate	hippo	Sakya	incantation	sorcery
+R_7Uj6WgomSIDf71f	19	Female	240.11	2.2	2.6	2.4	0.4	0.2	0.3	1	1.6	1.3	4.46428571428571	3	4.46428571428571	76.7318085900375	10	cat	desk	bed	phone	peanut	email	tank	lipstick	plastic 	pole
+R_VUWWfIAt7oOX8Ih	18	Female	240.018	1	0.6	0.8	0.8	0.4	0.6	1	0.8	0.9	5.81081081081081	4.67567567567568	5.81081081081081	74.3185602483295	10	cat	tennis	girl	feet	blanket	fruit	rain	pole	glue	tank
+R_2uDTKSt0YRwp6yG	18	Female	241.876	1	0.4	0.7	0.2	0	0.1	13.6	11.2	12.4	5.62068965517241	4.13793103448276	5.62068965517241	81.0560215796743	10	chair	factory	planet	toothbrush	perfume	kettle	leaf	brick	handbag	violin
+R_2tlo4VFp3jLL9bW	23	Male	240.197	1.4	1.6	1.5	0	0.2	0.1	1.2	1.4	1.3	5.5	2	5.5	74.3256116197223	10	word	bread 	table 	wax	oxygen	water	electricity	engineering	books	displayer
+R_tXxUuvMyliM6u8F	18	Female	241.238	0.8	0.8	0.8	0	0	0	5.8	5.2	5.5	5.625	4.425	5.625	78.6917328124955	10	table	jumper	scissors	red	hospital	tree	shout	job	painting 	winter
+R_RfflBjsRDTnVK6J	21	Female	240.011	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.33333333333333	3.66666666666667	5.33333333333333	76.0003839575109	10	book	honey	cup	straw	chair	sea	gold	glasses	broom	floor
+R_1OqTuUnlt7jMVok	18	Male	240.112	3	2.8	2.9	1.6	0.4	1	1	1.4	1.2	6.56	5.48	6.56	83.6118934587354	10	orange	universe	homework	circuits	key	shirt	marker	anime	style	aesthetic
+R_3QP3EGfTI63jf7r	18	Female	240.016	5.2	5.4	5.3	3.8	3	3.4	7.6	7.2	7.4	5.74576271186441	4.06779661016949	5.74576271186441	80.3720969884169	10	chair	fan	street	candle	order	music	notebook	survey	hair	pizza
+R_2czlZGKw7PzNf17	19	Female	240.067	0.6	0.8	0.7	0	0	0	1	1	1	7	6.5	7	74.3858852911563	9	school	boy	sally 	cat 	book 	painting 	window 	sock	motorbike 	bedsheet 
+R_1QG7fLojpdI3wDh	20	Male	240.133	3.6	4.4	4	0.8	0.8	0.8	4.6	5.2	4.9	6.35483870967742	5.54838709677419	6.35483870967742	75.2687547178495	9	Tiger	Bench	Plane	Clown	House	Tree	Bag	Suit	Crate	Flor
+R_3EQCOl8sO0qdQay	18	Male	240.017	2.2	2.4	2.3	1	0.4	0.7	3	3	3	NA	NA	NA	72.2998673717181	8	Cat	Phone	Glasses	Bottle	Airpods	Keys	Cheetos	Wall	Girl	wallet
+R_3KD5TsnGYCCbc21	19	Female	240.122	1.6	2.8	2.2	0	0.8	0.4	1	1.6	1.3	5.5	4.14285714285714	5.5	86.294140616831	9	ocean 	peanut 	earring 	road	gold 	pangolin 	jumper	brussel sprout 	license 	arm
+R_32QjU1rNdWfVmEr	20	Female	240.141	1	0.8	0.9	0.2	0.2	0.2	1	1	1	4.4	3.13333333333333	4.4	79.9627254584006	9	Pillow	Spain	Dessert	Earring	Lentil	Goddess	Party	Machine	Mat	Chip
+R_eVh3ULPSe6aehtD	20	Male	203.371	NA	NA	NA	NA	NA	NA	NA	NA	NA	4.14	2.66	4.14	71.4372129312583	10	space	time	place	coke	tea	package	garden	avatar	race	show
+R_30oOGgwQhskSVx5	19	Female	240.116	0.2	0.4	0.3	0	0	0	1	0.8	0.9	NA	NA	NA	76.067732522885	10	apple	laptop	chair	tape	ladder	ball	blanket	pool	case	digestion
+R_56Ir4VQmB7cUv6h	20	Male	240.016	2.8	3.8	3.3	1.4	0.4	0.9	3.6	4.4	4	4.97959183673469	3.44897959183673	4.97959183673469	82.487615197897	10	map	picnic	champagne	socks	mouse	numbers	photographs	brackets	net	love
+R_2SAGrvhHtRSRAYl	19	Male	240.012	2.6	2.6	2.6	1	0.8	0.9	1.4	1.6	1.5	6.73913043478261	5.21739130434783	6.73913043478261	73.5542078812917	9	cat	mug	earth	bottle	hand	brain	university	book	song	power cord
+R_3qqctFf5omYEUGB	19	Female	121.868	2.6	3.4	3	2.2	2.6	2.4	4	4	4	5.57894736842105	4	5.57894736842105	73.0351157841228	8	TV	cup	water	dog	love	pain	ring	pen	car	OCD
+R_3EF3KinWKNbfWwg	19	Female	480.189	2.4	3.4	2.9	0	0.6	0.3	2.6	3.4	3	6.025	4.675	6.025	77.065295584145	10	towel	building	planet	cloud	horse	paint	hat	figurine	knob	wheat
+R_1eOTVWzCB5WmXDf	19	Male	240.02	0.4	0.8	0.6	0.4	0	0.2	1	1	1	NA	NA	NA	79.0457424308572	10	boat	apple	bookcase	cave	ankle	 cane	candy	church	fish	wealth
+R_1jjntrHs9N2sxVy	19	Female	240.011	0.6	1.2	0.9	0	0.4	0.2	3.2	2.8	3	5.03571428571429	3.92857142857143	5.03571428571429	80.3448517762479	8	dog	time	abestos	car	pink	facebook	leaf	atom	Maria	grade
+R_pPKxSKujVx5OZoZ	19	Male	55.106	3.2	3	3.1	0.6	1	0.8	4	4	4	5.55263157894737	4.47368421052632	5.55263157894737	79.9860929449399	10	table	building	apple	photo	music	anxiety	watch	bandage	nail	crocodile
+R_roSpyFSrPpG5thT	18	Male	240.032	NA	NA	NA	NA	NA	NA	NA	NA	NA	6.11111111111111	4.22222222222222	6.11111111111111	76.2990841730719	10	Food	Planet	Technology	Wood	Athlete 	Home	Fire	Weapon	Cinema	Colour
+R_1mKMp5cbgWlFe6y	19	Male	241.966	2.2	2.2	2.2	0.2	0.2	0.2	1	1.4	1.2	5.38775510204082	4.26530612244898	5.38775510204082	78.4020775130817	10	food	book	phone	bottle	screen	ball	university	pen	nose	friend
+R_10ZeYIp9NkIQee1	20	Female	240.016	2	3	2.5	0.4	1.4	0.9	6.4	6	6.2	5.01694915254237	3.74576271186441	5.01694915254237	78.6839561448211	10	Chair	Tree	Boat	Clothes	Television	Bike	Register	Floor	Cape	Eyes
+R_C3Ka04me6g7JNBv	20	Female	240.115	2	1.6	1.8	1	1	1	1	1	1	4.72881355932203	3.32203389830508	4.72881355932203	76.8082984146618	10	cat	toilet	rug	cement	speaker	flower	bottle	finger	stairs	glass
+R_0OFc88MvnIr6GHf	19	Female	241.298	5.4	5.4	5.4	3	1.4	2.2	8.6	8.2	8.4	5.40909090909091	3.95454545454545	5.40909090909091	78.2302415087109	10	DOG	GLASS	FLOWER	UNIVERSITY	WATER	LAPTOP	SONG	STAIRS	LIGHT	POLE
+R_rdT29EFMNUds4JX	19	Male	240.177	0.6	0.8	0.7	0	0	0	1	1	1	7	7	7	69.3978443741798	10	Dark	Hot	Slow	Tall 	Stupid	Air	Brick	Power	Help	Chase
+R_r7MmDhBReWZxjDr	19	Female	240.158	5.2	6	5.6	2.4	2	2.2	7	7	7	5.94117647058824	4.76470588235294	5.94117647058824	79.7849377705937	9	bottle	lip	frisbee	tram	sugarcane	ice	rice	scar	zipper	sunflower
+R_aYrLkc9pee8I3sJ	20	Female	240.027	NA	NA	NA	NA	NA	NA	NA	NA	NA	4.6551724137931	3.06896551724138	4.6551724137931	68.9927181317693	10	food	love	baby	tree	sea	university	animal	chair	sun	China
+R_2QDMWsLFcLIOv7E	19	Female	240.093	0.8	1.4	1.1	0	0.2	0.1	1	1.2	1.1	4.5	4	4.5	66.4607668206805	10	cold 	hot 	exciting 	boring 	alive 	dead 	fantasy 	real life 	hard 	soft 
+R_6PxDQchSfZtrdFD	18	Female	240.205	2.4	2	2.2	0.8	0.6	0.7	3.8	3.2	3.5	6	5	6	85.9001487848304	9	azure	banana	chair	candle	footpath	socket	galaxy	scarf	llama	pencilcase
+R_2uJQSrjDYbwyMAa	20	Female	240.144	0.4	0.8	0.6	0	0.4	0.2	3.4	3	3.2	NA	NA	NA	56.9214937942369	10	heart	useless	annoying	tired	happy	sleepy	boring	itchy	yawing 	pretty
+R_3qe330UNF3q5Wka	18	Female	240.034	6.6	6.6	6.6	4.6	3.8	4.2	11.6	10.8	11.2	5.8936170212766	4.72340425531915	5.8936170212766	77.5929391384125	10	sky	brush	door	can	vein	castle	deer	public	cucumber	laser
+R_3Ra6728JTMyhl1n	19	Female	240.026	1	1	1	0	0.2	0.1	1	1	1	5.33333333333333	4.41666666666667	5.33333333333333	78.3342834251622	10	sun	table	hammer	scarf	flower	glasses	scrunchie	path	canyon	lion
+R_RDYh7yyqT531Udj	19	Female	240.052	0.2	0.6	0.4	0.2	0	0.1	2.6	2.4	2.5	NA	NA	NA	76.2009606652316	8	house	ship	island	cartier	Fiji	harry	couch	noodle	pool	ball
+R_3EohBQt76PUdsPN	20	Male	240.115	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	89.9900095104905	9	Snow	Chair	Asteroid	Bacteria	Necklace	Credit Card	Exam	Guitar	Window	Salmon
+R_7OMfFZJ2lhQ3bsB	19	Female	240.221	0	0.2	0.1	0	0.4	0.2	1	0.8	0.9	6	4.33333333333333	6	74.9647428592046	10	Glass	Sky	Peace	Bottle	Pants	Key	Leave	Light	Black	Bee
+R_1JJy1ZxuYpj551T	31	Male	240.029	7.2	7.4	7.3	6	4	5	8	9.8	8.9	6.04545454545455	4.81818181818182	6.04545454545455	86.077626138216	10	Giraffe	Boat	Cabinet	Tooth	Lychee	Phone	Boulder	Plasma	Watercolour	Collision
+R_rjLReAvCCPKeTgl	19	Female	241.487	0.6	0.4	0.5	0.4	0	0.2	1	1	1	4.42105263157895	3.42105263157895	4.42105263157895	72.2835212591149	10	lamp	banana	trampoline	pool	umbrella	ball	tree	bread	eye	bird
+R_2zcq2Vpol53pPnr	19	Female	240.043	0.4	0.8	0.6	0	0	0	1	1	1	4.60714285714286	3.32142857142857	4.60714285714286	81.8698659539223	9	bed	rainbow	page	significant	psychology	butterfly	shower	hotel	jacket	instagram
+R_usTPkwNLSMXTglj	19	Female	129.521	1.6	2.6	2.1	0.6	0.6	0.6	8.4	8.2	8.3	5.2037037037037	3.46296296296296	5.2037037037037	84.0715178332868	10	butterfly	gun	shoe	volcano	penguin	receptionist	watch	trashcan	book	headphones
+R_10NI33Alr89mT9C	19	Female	251.561	0	0.2	0.1	0	0	0	7.8	6.4	7.1	5.84210526315789	4.63157894736842	5.84210526315789	73.5390021687462	10	car	book	leaf	electricity	house	moon	water	light	worm	metal
+R_1Ia5MIIrptEGodv	20	Female	240.038	2.2	2	2.1	1.6	1	1.3	3.8	4	3.9	3.76666666666667	2.13333333333333	3.76666666666667	65.6457886099815	10	water	mirror	fish	flower	sky	ocean	milk	pizza	hotpot	lipstick
+R_1Km9BTXRFNQ3ja9	18	Female	240.14	1.8	2.4	2.1	0.2	0.4	0.3	1	1.6	1.3	6.41176470588235	5.29411764705882	6.41176470588235	73.5712399262758	8	car	Africa	cat	phone	Alex	doll	photo	giraffe	laptop	ball
+R_3fYLqjCijfMkEEq	19	Female	240.024	5.8	5.4	5.6	5.2	2.8	4	12.6	11.2	11.9	5	3.48571428571429	5	81.0463264229752	9	tree	pants	nail	computer	de ja vu	mood	stars	gold	glue	talking
+R_3fcqAUzOIyf54Sn	19	Male	240.008	3.2	2.8	3	2.2	0.8	1.5	7.8	6.8	7.3	5.58823529411765	3.94117647058824	5.58823529411765	84.0324764982576	10	planet 	broccoli 	fridge 	scaffold	salt 	money 	rose 	light 	roof	diamond
+R_3mdGcQzCHXpf7J7	20	Female	240.009	3.8	4	3.9	2	2.6	2.3	6	5.8	5.9	4.89285714285714	3.55357142857143	4.89285714285714	85.3159922086412	10	car	squid	movie	polish	coriander	supermarket	soccer	wine	queen	bush
+R_3ixsb9gQArV5zst	19	Female	240.033	2	2.6	2.3	1.4	0.8	1.1	2.4	2.8	2.6	4.32142857142857	2.89285714285714	4.32142857142857	81.9085104878814	10	hands	earphones	bags	mother	bedroom	pilot	battery	landscape	travelling	building
+R_vB3PbvFVrmJuak1	19	Female	240.116	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.62	4.62	5.62	81.9895155373074	10	bat	cloud	hair	desert	whale	metal	alphabet	library	cheese	coup
+R_31Qz1KubGXNUHt0	18	Female	240.034	2.6	2.6	2.6	1.2	1.4	1.3	1.4	1.4	1.4	5.27777777777778	4.11111111111111	5.27777777777778	79.9770271139486	10	Phone 	Book 	Run 	Makeup 	Sleep 	Car	Racism 	Construction 	Cat	Idea
+R_1kTQKDpdagTEQSH	18	Female	43.407	0.8	1.2	1	0.6	0.2	0.4	1	0.8	0.9	NA	NA	NA	78.1303964555264	10	Base	Cloud	Chair	Foot	People	Country	Chemist	Syringe 	Beach	Flavour
+R_2Vwgh99XgAhCjzS	19	Male	240.184	0.2	0.2	0.2	0	0	0	3.8	3.2	3.5	4.55555555555556	3	4.55555555555556	79.2869501880237	10	apple	candle	house	microphone	aeroplane 	pillow	gas	maths	juice	bark
+R_w7xxOe7RBfsbyzn	19	Female	240.21	1.6	1.2	1.4	0.8	0.2	0.5	9.6	8.4	9	5.05769230769231	3.5	5.05769230769231	77.3771610997972	8	house 	calculator 	shoes 	technology 	water 	nails 	Australia 	dog	tennis ball 	tissues 
+R_UWKxI1s6VmW1K6t	21	Male	240.111	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	74.8800310527995	10	coat 	bus	apple	pear	table	tree	river	school	country	city
+R_1Ea5c06Ec65c2br	18	Male	240.021	0.6	0.4	0.5	0.4	0	0.2	1	0.8	0.9	4.59649122807018	3.7719298245614	4.59649122807018	65.4922849365643	10	dogs	food	drink	furniture	people	plants	clothes	technology	sky	vehicles
+R_1jOpq3CC7SpRkSJ	18	Female	240.172	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	81.0433673361937	9	Apple	Chair	Eraser	Macbook	Cup	Tissue	Phone	University	Psychology	Book
+R_5vgc2uv8l6ynL7b	19	Male	240.117	0.2	0.4	0.3	0	0	0	1	0.8	0.9	5.07692307692308	3.94871794871795	5.07692307692308	77.7053952926681	10	cat	kiwi	ball	boat	throat	metal	flower	keyboard	hair	shoe
+R_3MKdTdvAbEAiST0	19	Male	240.021	0	0.6	0.3	0	0.4	0.2	6.8	5.4	6.1	5.74418604651163	4.69767441860465	5.74418604651163	80.1800011346737	9	egg	Egypt	Computer	Tissue	Mammal	China	Air	Lava	Cello	Card
+R_3shR1JcmriJWaPZ	19	Female	240.016	0.4	0.8	0.6	0	0	0	1	1	1	5.31578947368421	4.26315789473684	5.31578947368421	83.109817228147	10	sock	sun	charger	nail	suitcase	singing	fat	pillow	lion	rice
+R_3oYNFlDaHzXMgLC	19	Female	240.19	3.4	4	3.7	0.6	0.8	0.7	1	1.6	1.3	6.13636363636364	5.13636363636364	6.13636363636364	88.4839695967024	10	dog	janitor	mermaid	pants	acne	football	anthers	crayons	train	clown
+R_3Gp6jmK0EJ08CKW	18	Female	240.021	NA	NA	NA	NA	NA	NA	NA	NA	NA	6.71428571428571	5.64285714285714	6.71428571428571	80.4794933824312	7	water	suitcase	brain	grape	wifi	hair straightener	Italy	lion	paint	sock
+R_31RzX2ez4i1cOwG	23	Female	241.536	0.4	1	0.7	0	0.6	0.3	1.8	1.8	1.8	4.41379310344828	2.98275862068966	4.41379310344828	59.4258524122692	10	food	knife	chef	plate	dinner 	meat	fruit 	cream	lemon	lime
+R_ZxSM99JuQosGTJL	21	Female	240.035	7.2	7	7.1	6.8	4.6	5.7	11.2	10.4	10.8	5.38461538461539	4.01923076923077	5.38461538461539	83.4336046218162	10	table	punnet	crab	fist	sandwich	mirror	headphones	sprinkler	harvest	label
+R_vc8dxOmYte50b9T	18	Female	241.021	1	1.2	1.1	0.6	0	0.3	4.8	4	4.4	NA	NA	NA	84.4066410724606	10	flower	couch	application	coaster	battery	country	wax	wine	nail	finger
+R_2wyMYotQSWRaaXW	19	Male	240.04	0	0.2	0.1	0	0.6	0.3	8	6.4	7.2	4.525	3	4.525	80.615106828156	10	car	death	banana	balloon	politics	axe	water	mars	elite	mitosis
+R_3nedSQtJIXg509h	18	Female	240.105	4.2	4.6	4.4	2.4	1.2	1.8	1	2	1.5	4.9811320754717	3.62264150943396	4.9811320754717	82.4123755984363	10	pig	box	chilli	night	fingernail	rose	bike	dollhouse	laptop	umpire
+R_3EEAXGCfTtMrjM7	25	Male	241.859	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	68.9470147093137	10	bucket	shelf	pedal	wheel	needle	brush	fence	parakeet	headache	fountain
+R_We7kOB8tYcC6GTT	20	Male	240.061	4.8	5.2	5	3.4	3.2	3.3	1.2	2.2	1.7	5.36206896551724	4.24137931034483	5.36206896551724	79.440318296353	10	ball	house	pasta	reading	driving	code	hate	work	sprint	circus
+R_1LUNBIuxVQZGk6L	19	Female	240.014	3	3.8	3.4	1.4	1.2	1.3	4.2	4.6	4.4	4.47368421052632	3.57894736842105	4.47368421052632	75.4781362556276	9	chair	book	butterfly 	coffee	computer 	tennis 	chocolate 	husky 	fire extinguisher 	clock
+R_2UhFH4Y7qdlhvgC	19	Female	240.009	4	5	4.5	2.2	2	2.1	9.6	10.2	9.9	5.14	3.84	5.14	83.1070785676794	9	Grace	Toilet 	Puppy	Education 	Hatred	Bicycle	Sandals	Rockstar	Junkyard 	Pink
+R_1dKOjjgDVogG8JQ	19	Male	240.174	1.4	1.4	1.4	0.8	0	0.4	5.4	4.4	4.9	4.96363636363636	3.72727272727273	4.96363636363636	76.8513535459836	10	food	ball	fence	chair	roads	pencil	mat	grass	chimney	pool
+R_CkaDk4JwEJmCr1D	19	Female	240.015	8.4	7.6	8	6.2	3.8	5	11.8	11	11.4	5.15789473684211	3.71929824561404	5.15789473684211	85.7718860242693	10	light	country	bottle	agent	paprika	religion	boron	skunk	blackboard	slime
+R_1l4tkrGVcUHgzLc	21	Male	240.008	0.2	0.6	0.4	0	0	0	1	0.8	0.9	5.85294117647059	4.23529411764706	5.85294117647059	69.5191305662904	10	man	animal	institutions	things	places	ideas	president	city	bedroom	shoe
+R_2uHDofMoTG1Z2yp	18	Male	240.059	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	80.6976520057235	9	Banana	Bottle	Black	Desk	Christmas 	Subject	Tools	Run	Screen	Violence
+R_Y93XFiWiPG3g58J	18	Female	240.042	0.2	0.4	0.3	0	0.4	0.2	1	0.8	0.9	NA	NA	NA	79.3845207341725	7	plato	she	zebra	alan	water	london	printer	cousin	grandpa	lawyer
+R_23ZZIyLZIBJEheU	21	Female	240.075	0.8	0.8	0.8	0	0	0	1	1	1	5.30232558139535	3.76744186046512	5.30232558139535	75.2459561186177	10	notebook	pet	plant	food	laptop	device	book	shelf	phone	artwork
+R_eDpL33357GsfXpv	20	Female	241.254	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	73.2896938210442	9	Ball	Car	Fence	Water	Bird	Computer	Carpet	Sound	Brick	Ice cream
+R_2SCAGoztKWLIanZ	19	Male	240.185	4.8	5.4	5.1	4.6	3.8	4.2	7.6	7.4	7.5	5	3.73684210526316	5	74.2917776107788	10	Chair	Hair	Bear	Traps	Book	Food	Clothes	Bag	Bottle	Cradle
+R_OeUCgvcgliSOoOl	19	Female	240.191	1.2	1	1.1	0.4	0	0.2	1	1	1	4.41025641025641	3.38461538461538	4.41025641025641	76.1898797892389	10	horse	mug	chair	storm 	grass	banana 	castle 	people	chocolate	book
+R_2pLDvR3GvXCTb23	22	Female	240.092	0.2	0.8	0.5	0	0	0	6.4	4.2	5.3	4.65384615384615	3.34615384615385	4.65384615384615	78.9953298955446	9	water	paper	pen	labtop	glasses	charger	survey	chocolate	nut	house
+R_22yuH45H5roZR5Z	21	Male	240.011	2.2	2.6	2.4	0.6	0.4	0.5	4.4	4.4	4.4	5.625	4.625	5.625	79.9547337350391	10	fire	eggs	laptop	black	ears	discipline	beer	song	cushion	religion
+R_xl8V79qYyEXhuKt	19	Female	240.056	3.2	3.6	3.4	0.6	0.4	0.5	1	1.6	1.3	6.75	5	6.75	82.4596738797568	10	bucket	island	carrot	candle	speedometer 	peg	trophy	clock	binder	corkscrew
+R_3RmR5LvaKPYa25T	21	Male	240.021	0.4	1.4	0.9	0	0	0	8	7.2	7.6	4.63636363636364	3.47272727272727	4.63636363636364	75.015516313059	8	boring	exciting	thoughtful	insight	intelligence 	paranloia	dreamyness	regret	wiry	heartless
+R_2s5ZkS0sKwXJj9C	18	Male	241.666	2.4	2.6	2.5	0	0.4	0.2	2.6	2.8	2.7	5.25	4.17857142857143	5.25	80.4109652127538	10	orange	city	cow	mirror	acid	student	bean	rock	snack	time
+R_PHFfEp3TKbV6yVb	19	Male	240.113	1.8	2.2	2	0	0.4	0.2	3	3.2	3.1	6.2258064516129	5.29032258064516	6.2258064516129	78.1630673933597	10	tornado	terrace 	hurt	girl	time	electric	porch	tent	acrobat	winter
+R_1gtlWwfYSunyOL6	20	Male	240.013	2.4	2.6	2.5	0.4	1	0.7	1	1.6	1.3	5.10169491525424	3.86440677966102	5.10169491525424	85.6289701702605	9	celebrity	toilet	buffet	thread	conjunctivitis	wedding	Jupiter	cheese	arrogance	flower
+R_3EtZlfmXgM3txJL	19	Female	240.04	3.6	3.8	3.7	2.4	1.2	1.8	5.4	5.2	5.3	5.01754385964912	3.85964912280702	5.01754385964912	87.3541606013619	9	whisk	window	gluestick	uncle	toenail	flower	calender	keyboard	tattoo	drill
+R_3Jldi0hEftOIdoh	19	Male	243.786	0	0.6	0.3	0	0	0	1	1	1	2	1.5	2	69.9582640968618	9	apple	watermelon	human	boy	gentalmen	black	dark	happiness	bird	dog
+R_Pvz0xQncBj5DcSB	18	Female	240.112	6.2	6.8	6.5	3.8	3.8	3.8	1	2.4	1.7	4.86792452830189	3.07547169811321	4.86792452830189	74.0195561022986	10	Glasses	Tree	Cat	Hair	Love	Fork	Painting 	Violin	Teacher	Bleach
+R_1qWXNjo0YpzLi4R	19	NA	240.108	1.2	1.2	1.2	0	0.2	0.1	5.6	4.8	5.2	6.09523809523809	4.95238095238095	6.09523809523809	89.7820391293083	10	scissors	building	cat	bike	tomato	oesophagus	mathematics	painting	space	concussion
+R_BQzBMjdGTzUF8zL	19	Female	240.229	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	77.0455729748521	10	spiral	leaf	towel	nail	rainbow	chamber	cyst	cannon	angel	pill
+R_2B38QTDWf8jCjTQ	18	Female	240.015	2.4	3.8	3.1	0.8	1.8	1.3	4.6	5.4	5	7	4	7	82.6133546109001	8	egg	shit	people	bottle	shoe	swanston	Ivy	wendy	Phoebe	two
+R_2EnTAoGXdaJvBnI	20	Male	240.026	0.4	0.4	0.4	0	0.6	0.3	1	0.8	0.9	NA	NA	NA	76.2913140867438	10	Japan	coconut	anime	knife	sugar 	gun 	pen 	ball	car 	star
+R_21ynwe3P7rPXMSH	20	Male	240.044	0.4	1	0.7	0	0.6	0.3	1	1	1	5	3	5	77.7523252270406	10	television	hammer 	rap	mic	song	sky	 car	bridge	grass	gun
+R_6u6THJQ0cW3DUs1	20	Female	240.016	2	2.6	2.3	0.6	1	0.8	2.8	3.2	3	5.64864864864865	4.32432432432432	5.64864864864865	77.8873850014948	10	food	file	pool	tiles	cap	sun	mud	flower	wind	television
+R_2uX2PY5bofwxGLx	18	Female	240.069	0.4	0.6	0.5	0.2	0	0.1	1	0.8	0.9	NA	NA	NA	75.3012950576487	10	people	sugar	dog	paper	rice	door	brother	river	toilet	bag
+R_Xh5tcf83eh2deY9	19	Female	240.129	2.2	2.6	2.4	0	0.8	0.4	4.6	4.6	4.6	5.74468085106383	4.48936170212766	5.74468085106383	79.7687129782779	10	water	time	carrot	school	chrome	application	rocket	ink	cast	couch
+R_1QATL55Mj76HfVQ	21	Female	240.006	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	78.4898367311273	10	name	fruit	city	animal	sofa	building	book	water	word	pencil
+R_3MsvX2NXRn7in5T	18	Female	481.346	0	0	0	0	0	0	1	0.8	0.9	5.77777777777778	5.07407407407407	5.77777777777778	81.6252220422029	10	Mandarin	Bag	Leg	Rock	Counter	Bus	Cough	Rubber	Oil	Line
+R_1JIVAqKjU4ooEUK	18	Male	240.011	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	78.3669534538473	10	tree	space	pen	bag	sound	ice	marriage	idea	frog	laughter
+R_27flF9O9pwCB4PD	19	Male	240.076	2.2	2.4	2.3	0.6	0.6	0.6	1	1.4	1.2	4.8125	3.60416666666667	4.8125	71.7205836659386	9	window	sky	chair	building	laptop	yugurt	bag	clothes	air-conditioning	bed
+R_3q8dlivl1e2gg50	19	Female	241.445	0.8	1	0.9	0	0	0	1	1	1	NA	NA	NA	65.8208773959251	10	table	chair 	pillow	food	drinks	water	beach 	sand	stars	baby
+R_20P2SFzIpz97wNR	18	Female	147.609	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.93333333333333	4.63333333333333	5.93333333333333	79.900030809499	10	University	Blanket	Chicken	Teddy	Fireball	Uniform	Ball	Slippers	Hike	Cologne
+R_1KrrmBr2xYcCukz	20	Male	240.024	7.6	7.8	7.7	6.6	6	6.3	16.2	14.6	15.4	5.13793103448276	3.60344827586207	5.13793103448276	91.6117266086595	8	jetski	beetle	cotton	plasma	murderers	keyboard	seconds	koala	muffin	carbon monoxide
+R_1pyXNZq8CJb7Aek	20	Male	240.058	NA	NA	NA	NA	NA	NA	NA	NA	NA	4.7	3.24	4.7	75.2673616721517	10	Bed	Women	Sun	Law	Weather	River	Glass	Sheep	Sad	Love
+R_1dayvj9dpBMMebo	20	Female	240.008	0.2	0.4	0.3	0	0	0	1	1	1	NA	NA	NA	76.580641808964	10	apple	pen	shirts	rice	dog	gold	books	fire	phone	hair
+R_3Gs92SxQIMWUq7b	19	Female	240.017	1.2	1.2	1.2	0	0	0	1.4	1.4	1.4	NA	NA	NA	76.9990619804178	10	stick	tissue	bed	leg	school	friend	reflection	meal	data	bag
+R_A4Cm3CkDHL6ejjH	18	Female	240.127	2	2.4	2.2	0.4	0.2	0.3	3.4	3.6	3.5	5.09090909090909	3.83636363636364	5.09090909090909	77.8221854851359	10	window	sky	pencil	calendar	charger	cream	water	banana	hair	tissue
+R_2qEML9doPTGeYrg	19	Female	240.118	2.2	2.4	2.3	0.6	0.6	0.6	3.4	3.6	3.5	6.875	6.5	6.875	80.6200825032734	10	Spoon	Shoe	Bookshelf	Car	Screwdriver 	Bee	Dough	Coffee	Card	Plane
+R_wUiSzcc0YPDRCql	17	Female	240.02	1.8	2.2	2	0	0	0	1	1.4	1.2	6.5	5.21428571428571	6.5	77.4361604381175	10	table	sky	watermelon	book	hair	shoe	water	calendar	perfume	label
+R_2WMa8Yebpd7YUxc	18	Male	240.11	3.2	4	3.6	0.6	0.8	0.7	1	1.6	1.3	5.39583333333333	4.08333333333333	5.39583333333333	83.6160447515015	9	lungs	desk	jelousy	radius	maturity	yellow	water	yell	song	leadership
+R_3pumcD6FxZNNkCr	17	Female	120.374	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.5	4.16666666666667	5.5	72.5204811919303	7	Blanket	Tissue	Shoes	Tree	Trash bin	Traffic jam	Ant	Facial wash	Bag	Candy
+R_3EWRkgvYBT5YaUq	20	Female	240.111	2.6	3	2.8	1.4	0.6	1	3.8	3.8	3.8	5.29824561403509	4.19298245614035	5.29824561403509	81.3674791582993	10	pie	flamingo	axe	blender	dirt	roundabout	towel	whip	mop	flame
+R_3fUWh7czSzoD2Qq	18	Female	240.039	3.2	5.4	4.3	3.4	4.6	4	1	2.4	1.7	5.05263157894737	3.68421052631579	5.05263157894737	77.3489519244149	10	ball	mouse	candle	wine	garden	person	train	eyelash	painting	books
+R_11j9xySW5axFyGC	18	Female	240.017	0.2	0.2	0.2	0	0	0	1.4	1.2	1.3	4.77777777777778	3.72222222222222	4.77777777777778	69.0481356212071	10	snacks	apartment	office	gym	refrigerator	dishwasher	window	sun	unicorn	woods
+R_2DSJmYsbpYwrUrq	18	Female	240.112	NA	NA	NA	NA	NA	NA	NA	NA	NA	5.83333333333333	4.5	5.83333333333333	71.9015095560324	10	Cup	Dog	Pencil	Air	Water 	Milk	Burger	Sand	Light	Moon
+R_3nNVeI3PBrhdEl1	19	Female	240.113	5.6	5.2	5.4	3.4	3.4	3.4	8.8	8.4	8.6	5.57142857142857	4.40816326530612	5.57142857142857	91.2892713422133	10	present	dot	hamster	pavement	font	psychologist	aluminium	nacho	yellow	toenail
+R_2Pt0do4V6tIv9bM	19	Male	240.009	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	66.7952996634302	9	Difficult	Simple	Embarrasing	Proud	Sweet 	bitter	Depressed	Positive	Expensive	Cheap
+R_2ARWFx0JJopgtpm	19	Female	240.01	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	67.4613715637298	10	table	tree	mouse	cat	water	food	wood	fire	banana	apple
+R_2b161aKvodf8pcF	19	Female	240.023	0.4	0.6	0.5	0.2	0	0.1	1	0.8	0.9	3	1	3	76.3238309749535	9	book	tv	pencil	statue	tea	people	fruit	plant	gas	lunchbox
+R_30oS1xuwRN2v0Gd	19	Female	240.023	2.6	2	2.3	0	0.2	0.1	1	1.2	1.1	NA	NA	NA	77.949259873657	10	nose	mouse	circle	death	car	shelf	water	pink	titanium	plank
+R_oXgeu9ZyjCHUv3X	21	Male	240.152	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	76.8589714808123	10	boob	glasses	milk	flower	gold	gun	blood	card	game	football
+R_1lypwKqrxjuq9sl	20	Male	241.673	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	79.4210618273133	10	apple	aircraft	student	restaurant	apartment	library	ferry	bottle	car	headphones
+R_3dZ0JcNUBs9yayD	18	Female	481.907	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	80.6028794319857	10	calculator 	tissues	sky	apple	toilet	mum	hair	tree	nails	train
+R_3Op5ssdjxWd5j0d	25	Male	240.011	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	84.4483555782409	9	Banana	Anger	Ball	Daytime	Apartment	Sea foam	Ear	Butler	Chip	Twirl
+R_2WZIuyerw3sIMH9	21	Female	240.125	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	81.9151438240494	9	finger	barn	teacher	garage	hospital	fork	pyjamas	fan	soil	bubblewrap
+R_4JEt07q4GgsQvlL	20	Male	240.119	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	73.4021828288124	10	table 	cat 	space	fly 	floor 	University 	show 	number	ion 	orange 
+R_29n19Q5HtNPpTWS	47	Female	240.15	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	85.0370735639618	10	fable	melon	riot	wrist	hope	season	discipline	device	wonder	sleep
+R_1luAk8qhRkzZYQi	21	Female	240.016	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	76.3107511259261	10	chocolate	rice	sun	table	road	finger	month	essay	phone	concert

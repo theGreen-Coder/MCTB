@@ -1,0 +1,842 @@
+[
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "45"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "31"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "15"
+                ]
+            ]
+        },
+        "config": {
+            "target": 3.3
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "21"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "22"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "30"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "config": {
+            "target": 4.0
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "13"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12\n"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.2
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "28"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "21"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "40\n"
+                ]
+            ]
+        },
+        "config": {
+            "target": 3.0
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "32"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "38"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "45"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "40\n"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.4
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "10"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "11"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "10"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "14\n"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.0
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "13"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "13"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "11"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.7
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "15"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "30"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.4
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "config": {
+            "target": 3.8
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "13"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "13"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "13"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "13"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "13"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.5
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "24"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.0
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "24"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "21"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "17"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "23\n"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.8
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "30"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "15"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.3
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "14"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "14"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "21"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "config": {
+            "target": 2.0
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "15"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.4
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "45"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "42"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "45"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "38"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "12"
+                ]
+            ]
+        },
+        "config": {
+            "target": 3.0
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "11"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "14"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "15"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "17"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "15"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.8
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "10"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "10"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "10"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "10"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25\n"
+                ]
+            ]
+        },
+        "config": {
+            "target": 1.0
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "30"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "21"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "30"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "25"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35\n"
+                ]
+            ]
+        },
+        "config": {
+            "target": 2.5
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "22"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "14"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "30"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "21"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "15"
+                ]
+            ]
+        },
+        "config": {
+            "target": 2.0
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-pro": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "45"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "38"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 0.5}": [
+                [
+                    "35"
+                ]
+            ]
+        },
+        "config": {
+            "target": 4.0
+        }
+    }
+]
