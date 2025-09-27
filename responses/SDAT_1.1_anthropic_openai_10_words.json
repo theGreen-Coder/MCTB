@@ -1,0 +1,1250 @@
+[
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Anger\n5. Sandwich\n6. Music\n7. Microscope\n8. Democracy\n9. Blanket\n10. Thunder"
+                ],
+                [
+                    "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Hammer\n5. Democracy\n6. Sandwich\n7. Memory\n8. Thunder\n9. Hospital\n10. Laughter"
+                ],
+                [
+                    "1. Ocean\n2. Democracy\n3. Bicycle\n4. Laughter\n5. Mathematics\n6. Elephant\n7. Thunder\n8. Sandwich\n9. Memory\n10. Crystal"
+                ],
+                [
+                    "1. Ocean\n2. Democracy\n3. Bicycle\n4. Laughter\n5. Sandwich\n6. Mathematics\n7. Butterfly\n8. Loneliness\n9. Hammer\n10. Music"
+                ],
+                [
+                    "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Laughter\n5. Hammer\n6. Democracy\n7. Sandwich\n8. Lightning\n9. Memory\n10. Crystal"
+                ],
+                [
+                    "1. Ocean\n2. Democracy\n3. Sandwich\n4. Childhood\n5. Mathematics\n6. Thunder\n7. Bicycle\n8. Happiness\n9. Hospital\n10. Forest"
+                ],
+                [
+                    "1. Ocean\n2. Democracy\n3. Bicycle\n4. Laughter\n5. Thunder\n6. Mathematics\n7. Butterfly\n8. Hunger\n9. Library\n10. Dreams"
+                ],
+                [
+                    "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Sadness\n5. Hammer\n6. Music\n7. Volcano\n8. Democracy\n9. Sandwich\n10. Lightning"
+                ],
+                [
+                    "1. Ocean\n2. Democracy\n3. Butterfly\n4. Mathematics\n5. Sandwich\n6. Laughter\n7. Telescope\n8. Childhood\n9. Thunder\n10. Carpet"
+                ],
+                [
+                    "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Anger\n5. Sandwich\n6. Music\n7. Microscope\n8. Democracy\n9. Pillow\n10. Thunder"
+                ],
+                [
+                    "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Sadness\n5. Hammer\n6. Music\n7. Bacteria\n8. Democracy\n9. Tornado\n10. Childhood"
+                ],
+                [
+                    "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Anger\n5. Telescope\n6. Bread\n7. Democracy\n8. Thunder\n9. Childhood\n10. Surgery"
+                ],
+                [
+                    "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Sadness\n5. Hammer\n6. Music\n7. Volcano\n8. Democracy\n9. Sandwich\n10. Lightning"
+                ],
+                [
+                    "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Thunder\n5. Sandwich\n6. Memory\n7. Telescope\n8. Laughter\n9. Mountain\n10. Clock"
+                ],
+                [
+                    "1. Ocean\n2. Democracy\n3. Butterfly\n4. Mathematics\n5. Sandwich\n6. Laughter\n7. Telescope\n8. Thunder\n9. Memory\n10. Carpet"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "galaxy\nelephant\nocean\nthunder\njustice\nhammer\nwinter\nink\ntriangle\ndream"
+                ],
+                [
+                    "star\nvolcano\ntree\nelephant\nhammer\nsoup\nheart\nthunder\njustice\ntime"
+                ],
+                [
+                    "galaxy\npebble\nmelody\njustice\ncabbage\nhammer\nshadow\nfriendship\nhurricane\npillow"
+                ],
+                [
+                    "bread\njustice\ntiger\ncactus\nhammer\nstar\nlightning\nzero\nlanguage\nscent"
+                ],
+                [
+                    "brick\nthunder\ncactus\nshadow\njustice\nocean\nink\naroma\ndream\ntime"
+                ],
+                [
+                    "mountain\nhammer\nthunder\nmoss\neagle\njustice\ncuriosity\nperfume\nmidnight\nbread"
+                ],
+                [
+                    "mountain\nlaughter\njustice\nocean\ncactus\nmidnight\nrainbow\nviolin\ntiger\nengine"
+                ],
+                [
+                    "pebble\nthunder\nwheat\nmirror\nfreedom\nlizard\ncomet\nperfume\nink\nhorizon"
+                ],
+                [
+                    "elephant\nhammer\nrain\njustice\nanger\nbread\nelbow\nisland\npoem\ngalaxy"
+                ],
+                [
+                    "mountain\njustice\nthunder\nelephant\noak\nhammer\nsalt\nshadow\ndream\nmarket"
+                ],
+                [
+                    "mountain\ncactus\ndolphin\nhammer\nbread\nfragrance\nrainbow\nvillage\njustice\ncentury"
+                ],
+                [
+                    "ocean\nbutterfly\noak\nhammer\nrainbow\njustice\nsilence\nbread\nearthquake\nsmile"
+                ],
+                [
+                    "elephant\nhammer\nrainbow\njustice\nbread\nwhisper\nmirror\nocean\ndream\nfriend"
+                ],
+                [
+                    "island\nelephant\ncactus\njoy\numbrella\nrainbow\njustice\nthumb\nbread\nmorning"
+                ],
+                [
+                    "thunder\ncarrot\noctopus\njustice\npillow\nmountain\nmelody\ncentury\nrumor\ndream"
+                ]
+            ]
+        },
+        "config": {
+            "language": "English",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. oc\u00e9ano\n2. pensamiento\n3. martillo\n4. melod\u00eda\n5. hormiga\n6. justicia\n7. calcet\u00edn\n8. hurac\u00e1n\n9. sonrisa\n10. biblioteca"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. m\u00fasica\n3. libertad\n4. cuchara\n5. dinosaurio\n6. matem\u00e1ticas\n7. sonrisa\n8. volc\u00e1n\n9. amistad\n10. refrigerador"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. pensamiento\n3. martillo\n4. melod\u00eda\n5. serpiente\n6. tristeza\n7. diamante\n8. hurac\u00e1n\n9. biblioteca\n10. sabor"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. pensamiento\n3. martillo\n4. melod\u00eda\n5. democracia\n6. serpiente\n7. nostalgia\n8. volc\u00e1n\n9. biblioteca\n10. hambre"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. pensamiento\n3. martillo\n4. melod\u00eda\n5. justicia\n6. serpiente\n7. hueso\n8. tristeza\n9. volc\u00e1n\n10. libro"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. m\u00fasica\n3. libertad\n4. martillo\n5. nostalgia\n6. serpiente\n7. matem\u00e1ticas\n8. sombrero\n9. justicia\n10. refrigerador"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. matem\u00e1ticas\n3. sombrero\n4. tristeza\n5. martillo\n6. democracia\n7. serpiente\n8. m\u00fasica\n9. refrigerador\n10. justicia"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. pensamiento\n3. martillo\n4. melod\u00eda\n5. serpiente\n6. justicia\n7. calcet\u00edn\n8. hurac\u00e1n\n9. biblioteca\n10. hambre"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. libertad\n3. martillo\n4. melod\u00eda\n5. dinosaurio\n6. tristeza\n7. galaxia\n8. sandwich\n9. democracia\n10. mariposa"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. pensamiento\n3. martillo\n4. melod\u00eda\n5. justicia\n6. zanahoria\n7. nostalgia\n8. escalera\n9. amistad\n10. hueso"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. melod\u00eda\n3. justicia\n4. cuchara\n5. nostalgia\n6. volc\u00e1n\n7. democracia\n8. mariposa\n9. biblioteca\n10. hambre"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. m\u00fasica\n3. libertad\n4. martillo\n5. infancia\n6. fuego\n7. democracia\n8. serpiente\n9. tristeza\n10. universo"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. melod\u00eda\n3. justicia\n4. cuchara\n5. nostalgia\n6. reptil\n7. matem\u00e1ticas\n8. terciopelo\n9. hurac\u00e1n\n10. amistad"
+                ],
+                [
+                    "1. oc\u00e9ano\n2. pensamiento\n3. martillo\n4. melod\u00eda\n5. justicia\n6. serpiente\n7. hueso\n8. tristeza\n9. ventana\n10. tiempo"
+                ],
+                [
+                    "1. Monta\u00f1a\n2. Felicidad\n3. Cuchara\n4. M\u00fasica\n5. Serpiente\n6. Democracia\n7. Perfume\n8. Matem\u00e1ticas\n9. Bicicleta\n10. Sue\u00f1o"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "banco\nnube\nmartillo\nidea\nabeja\nespejo\ntrueno\npan\nllave\nmentira"
+                ],
+                [
+                    "monta\u00f1a\nrel\u00e1mpago\npan\nllave\nbarco\nsombra\nperfume\nsue\u00f1o\ndinero\nsilencio"
+                ],
+                [
+                    "llave\nnube\nmiedo\nespejo\npan\nfrontera\nmariposa\nra\u00edz\nisla\ncostumbre"
+                ],
+                [
+                    "monta\u00f1a\nrel\u00e1mpago\nsilla\nverdad\nsilencio\naroma\nmarea\npolvo\ncanci\u00f3n\nestrella"
+                ],
+                [
+                    "trueno\nlibertad\nllave\ncuento\nmercado\nrisa\nsal\nsombra\nreloj\nsuerte"
+                ],
+                [
+                    "tiempo\ncuchara\ntortuga\nrisa\nrel\u00e1mpago\npuente\nnieve\ncuento\nmano\nlibertad"
+                ],
+                [
+                    "mariposa\nmartillo\nsilencio\nrel\u00e1mpago\naz\u00facar\nbiblioteca\ncanci\u00f3n\nra\u00edz\nespejo\nviaje"
+                ],
+                [
+                    "rel\u00e1mpago\nsusurro\nlaberinto\njusticia\npepino\ncolumpio\nceniza\nhorizonte\nmariposa\nllave"
+                ],
+                [
+                    "trueno\ncuchara\n\u00e1rbol\nmiedo\ntinta\nestaci\u00f3n\ntecho\ncaracol\njusticia\npan"
+                ],
+                [
+                    "mesa\nrel\u00e1mpago\nlibertad\ncuchillo\nmariposa\noc\u00e9ano\nsonrisa\nhueso\nvapor\nsombra"
+                ],
+                [
+                    "volc\u00e1n\ncuchara\nhormiga\njusticia\nsombra\nperfume\ntrueno\nalegr\u00eda\nlaberinto\noc\u00e9ano"
+                ],
+                [
+                    "abeja\nselva\nplaneta\ncoraz\u00f3n\nmiedo\nocaso\narcilla\ndinero\nllave\nn\u00famero"
+                ],
+                [
+                    "volc\u00e1n\ncuchara\nrel\u00e1mpago\ntortuga\njusticia\nrodilla\nladrillo\npan\nestrella\nsilencio"
+                ],
+                [
+                    "sol\ncuchara\nlibertad\nlluvia\nespejo\npan\nselva\nm\u00fasica\nolor\nlaberinto"
+                ],
+                [
+                    "ardilla\nmartillo\nmonta\u00f1a\nlibertad\nsilla\npan\npulm\u00f3n\ntormenta\nsombra\ncanci\u00f3n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Spanish",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. oc\u00e9an\n2. math\u00e9matiques\n3. chaussette\n4. libert\u00e9\n5. microscope\n6. sandwich\n7. m\u00e9lancolie\n8. escalier\n9. orchestre\n10. nuage"
+                ],
+                [
+                    "1. oc\u00e9an\n2. tristesse\n3. horloge\n4. racine\n5. fum\u00e9e\n6. libert\u00e9\n7. cristal\n8. murmure\n9. labyrinthe\n10. parfum"
+                ],
+                [
+                    "1. oc\u00e9an\n2. pens\u00e9e\n3. marteau\n4. silence\n5. pomme\n6. libert\u00e9\n7. chaussette\n8. col\u00e8re\n9. nuage\n10. bicyclette"
+                ],
+                [
+                    "1. oc\u00e9an\n2. silence\n3. flamme\n4. pens\u00e9e\n5. racine\n6. cristal\n7. voyage\n8. ombre\n9. parfum\n10. libert\u00e9"
+                ],
+                [
+                    "1. oc\u00e9an\n2. math\u00e9matiques\n3. chaussette\n4. tristesse\n5. bicyclette\n6. fromage\n7. r\u00eave\n8. marteau\n9. libert\u00e9\n10. fourmi"
+                ],
+                [
+                    "1. oc\u00e9an\n2. tristesse\n3. bicyclette\n4. fromage\n5. tonnerre\n6. miroir\n7. libert\u00e9\n8. fourmi\n9. parfum\n10. racine"
+                ],
+                [
+                    "1. oc\u00e9an\n2. tristesse\n3. horloge\n4. racine\n5. silence\n6. flamme\n7. m\u00e9moire\n8. cristal\n9. voyage\n10. parfum"
+                ],
+                [
+                    "1. oc\u00e9an\n2. tristesse\n3. bicyclette\n4. dimanche\n5. fourchette\n6. nuage\n7. math\u00e9matiques\n8. parfum\n9. escalier\n10. libert\u00e9"
+                ],
+                [
+                    "1. oc\u00e9an\n2. tristesse\n3. marteau\n4. libert\u00e9\n5. fromage\n6. nuage\n7. silence\n8. racine\n9. miroir\n10. voyage"
+                ],
+                [
+                    "1. oc\u00e9an\n2. pens\u00e9e\n3. chaussure\n4. silence\n5. pomme\n6. libert\u00e9\n7. horloge\n8. sourire\n9. montagne\n10. r\u00eave"
+                ],
+                [
+                    "1. oc\u00e9an\n2. pens\u00e9e\n3. bicyclette\n4. silence\n5. fromage\n6. col\u00e8re\n7. nuage\n8. cl\u00e9\n9. r\u00eave\n10. racine"
+                ],
+                [
+                    "1. oc\u00e9an\n2. tristesse\n3. horloge\n4. racine\n5. silence\n6. flamme\n7. m\u00e9moire\n8. cristal\n9. parfum\n10. libert\u00e9"
+                ],
+                [
+                    "1. oc\u00e9an\n2. math\u00e9matiques\n3. chaussette\n4. bonheur\n5. cuill\u00e8re\n6. silence\n7. racine\n8. fum\u00e9e\n9. justice\n10. escalier"
+                ],
+                [
+                    "1. oc\u00e9an\n2. pens\u00e9e\n3. marteau\n4. joie\n5. triangle\n6. parfum\n7. silence\n8. racine\n9. horloge\n10. libert\u00e9"
+                ],
+                [
+                    "1. oc\u00e9an\n2. tristesse\n3. bicyclette\n4. fromage\n5. tonnerre\n6. biblioth\u00e8que\n7. racine\n8. miroir\n9. parfum\n10. libert\u00e9"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "chaise\norage\njustice\nbaleine\narbre\npain\nmain\nchanson\npoussi\u00e8re\nodeur"
+                ],
+                [
+                    "tortue\nmarteau\nfor\u00eat\nchaise\njustice\nlumi\u00e8re\npain\nsilence\nvoyage\npoussi\u00e8re"
+                ],
+                [
+                    "feu\nlivre\nmouche\nr\u00e8gle\nmain\nvoix\nargent\nr\u00eave\npomme\nchemin"
+                ],
+                [
+                    "arbre\ncaillou\npapillon\ncl\u00e9\nmaison\npluie\nlibert\u00e9\nr\u00eave\nmusique\nargent"
+                ],
+                [
+                    "caillou\n\u00e9toile\nsilence\nlibert\u00e9\ncl\u00e9\njeu\noiseau\nm\u00e9moire\ntemps\nfeuille"
+                ],
+                [
+                    "arbre\nchaise\npluie\nchien\npain\nnuit\nmusique\namour\nodeur\nvoyage"
+                ],
+                [
+                    "roche\noiseau\nmer\nfeu\nmusique\njustice\nr\u00eave\nsilence\npain\ntemps"
+                ],
+                [
+                    "feu\ncl\u00e9\nnuage\nchien\nmaison\nr\u00eave\nglace\nmer\npain\njustice"
+                ],
+                [
+                    "caillou\nnuage\nsilence\ncouteau\nchat\npomme\nfeu\nmusique\nsommeil\navenir"
+                ],
+                [
+                    "temps\ncl\u00e9\nmer\nfeu\npierre\njoie\nchien\nmain\nglace\nlivre"
+                ],
+                [
+                    "temps\ncaillou\nmusique\njustice\nmer\nlangue\nodeur\noutil\nfamille\nchaos"
+                ],
+                [
+                    "arbre\npluie\nchanson\nfeu\njoie\nombre\nsilence\n\u00e9toile\nchaise\nsoupe"
+                ],
+                [
+                    "marteau\npapillon\narbre\norage\n\u00e9toile\njustice\npeur\ndur\u00e9e\npoussi\u00e8re\nlangue"
+                ],
+                [
+                    "feu\nchien\nchaise\npain\nmusique\njustice\nr\u00eave\nsilence\ncl\u00e9\nrivi\u00e8re"
+                ],
+                [
+                    "pierre\noiseau\ncl\u00e9\neau\njoie\njustice\nnuit\nmusique\nr\u00eave\nsilence"
+                ]
+            ]
+        },
+        "config": {
+            "language": "French",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "Baum\nGedanke\nSalz\nMusik\nSchmerz\nWolke\nFreundschaft\nHammer\nTraum\nHunger"
+                ],
+                [
+                    "Baum\nGedanke\nMusik\nHunger\nFreundschaft\nSchatten\nZeit\nTraum\nW\u00e4rme\nBewegung"
+                ],
+                [
+                    "Baum\nGedanke\nMusik\nHunger\nSchatten\nFreundschaft\nRegen\nAngst\nSchl\u00fcssel\nTraum"
+                ],
+                [
+                    "Baum\nGedanke\nSalz\nMusik\nSchmerz\nWolke\nFreundschaft\nHammer\nTraum\nHunger"
+                ],
+                [
+                    "Baum\nGedanke\nMusik\nHunger\nSchatten\nFreundschaft\nRegen\nAngst\nSchl\u00fcssel\nZeit"
+                ],
+                [
+                    "Baum\nGedanke\nSalz\nMusik\nSchatten\nHunger\nWolke\nFreundschaft\nStein\nTraum"
+                ],
+                [
+                    "Baum\nGedanke\nMusik\nHunger\nWolke\nFreundschaft\nSchatten\nTraum\nSalz\nZeit"
+                ],
+                [
+                    "Baum\nGedanke\nMusik\nHunger\nWolke\nFreundschaft\nSchatten\nZeit\nLachen\nStein"
+                ],
+                [
+                    "Baum\nGedanke\nHunger\nMusik\nSchatten\nFreundschaft\nRegen\nAngst\nSchlaf\nLachen"
+                ],
+                [
+                    "Baum\nGedanke\nMusik\nHunger\nSchatten\nFreundschaft\nRegen\nTraum\nSchmerz\nZeit"
+                ],
+                [
+                    "Baum\nGedanke\nHunger\nMusik\nSchatten\nFreundschaft\nRegen\nAngst\nBrot\nZeit"
+                ],
+                [
+                    "Baum\nGedanke\nMusik\nHunger\nWolke\nFreundschaft\nSchatten\nZeit\nLachen\nStein"
+                ],
+                [
+                    "Baum\nGedanke\nMusik\nHunger\nFreundschaft\nSchatten\nZeit\nLachen\nSturm\nTraum"
+                ],
+                [
+                    "Baum\nGedanke\nMusik\nHunger\nWolke\nFreundschaft\nSchatten\nTraum\nSalz\nZeit"
+                ],
+                [
+                    "Baum\nGedanke\nSalz\nMusik\nSchmerz\nWolke\nFreundschaft\nHammer\nTraum\nHunger"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "Stern\nHammer\nMelodie\nStaub\nGer\u00fccht\nSchatten\nGerechtigkeit\nPfote\nKoffer\nGewitter"
+                ],
+                [
+                    "Stern\nTrauer\nHammer\nGesetz\nPilz\nRegen\nBrot\nGeruch\nFels\nZahl"
+                ],
+                [
+                    "Sonne\nGerechtigkeit\nHammer\nEule\nEiche\nHerz\nBrot\nErdbeben\nStuhl\nMelodie"
+                ],
+                [
+                    "Wolke\nHammer\nFreiheit\nKatze\nSuppe\nTraum\nZahl\nGeruch\nBerg\nMusik"
+                ],
+                [
+                    "Mond\nRegen\nAmeise\nEiche\nHammer\nBrot\nSehnsucht\nZunge\nGerechtigkeit\nH\u00f6hle"
+                ],
+                [
+                    "Zeit\nStein\nTraum\nRegen\nGerechtigkeit\nMusik\nSchatten\nHunger\nMarkt\nZufall"
+                ],
+                [
+                    "Hammer\nWolke\nMelodie\nGerechtigkeit\nStaub\nZukunft\nMeer\nEule\nBrot\nTraum"
+                ],
+                [
+                    "Gewitter\nBrot\nEule\nH\u00f6hle\nMelodie\nFreiheit\nStaub\nGeruch\nSpiegel\nZahl"
+                ],
+                [
+                    "Zeit\nHammer\nKnie\nSchmetterling\nMelodie\nGer\u00fccht\nHunger\nStern\nFels\nGerechtigkeit"
+                ],
+                [
+                    "Komet\nPflaume\nHammer\nFreiheit\nMelodie\nOzean\nStaub\nTraum\nM\u00fcnze\nAmeise"
+                ],
+                [
+                    "Stern\nRegen\nMesser\nSchmetterling\nEiche\nBrot\nFreude\nGerechtigkeit\nZeit\nHerz"
+                ],
+                [
+                    "Stern\nKaktus\nLibelle\nHammer\nInsel\nPfannkuchen\nErdbeben\nGeruch\nFreiheit\nM\u00e4rchen"
+                ],
+                [
+                    "Ameise\nGewitter\nMelodie\nEimer\nW\u00fcste\nTrauer\nGer\u00fccht\nHunger\nSeife\nKiesel"
+                ],
+                [
+                    "Stern\nBrot\nRegen\nFreiheit\nHammer\nLied\nEule\nStille\nZahl\nGeruch"
+                ],
+                [
+                    "Stein\nWasser\nZeit\nLiebe\nGer\u00e4usch\nTraum\nWald\nMensch\nZahl\nSchatten"
+                ]
+            ]
+        },
+        "config": {
+            "language": "German",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Oceano\n2. Matematica\n3. Forchetta\n4. Nostalgia\n5. Serpente\n6. Biblioteca\n7. Tuono\n8. Scarpa\n9. Libert\u00e0\n10. Formaggio"
+                ],
+                [
+                    "1. Oceano\n2. Libert\u00e0\n3. Cucchiaio\n4. Matematica\n5. Elefante\n6. Musica\n7. Paura\n8. Bicicletta\n9. Sogno\n10. Formaggio"
+                ],
+                [
+                    "1. Oceano\n2. Matematica\n3. Chitarra\n4. Nostalgia\n5. Forchetta\n6. Dinosauro\n7. Democrazia\n8. Profumo\n9. Terremoto\n10. Biblioteca"
+                ],
+                [
+                    "1. Oceano\n2. Matematica\n3. Bicicletta\n4. Nostalgia\n5. Forchetta\n6. Tuono\n7. Biblioteca\n8. Farfalla\n9. Giustizia\n10. Pane"
+                ],
+                [
+                    "1. Oceano\n2. Matematica\n3. Violino\n4. Tristezza\n5. Forchetta\n6. Dinosauro\n7. Democrazia\n8. Profumo\n9. Fulmine\n10. Biblioteca"
+                ],
+                [
+                    "1. Oceano\n2. Matematica\n3. Nostalgia\n4. Cucchiaio\n5. Libert\u00e0\n6. Dinosauro\n7. Melodia\n8. Barba\n9. Giustizia\n10. Bicicletta"
+                ],
+                [
+                    "1. Oceano\n2. Matematica\n3. Farfalla\n4. Nostalgia\n5. Martello\n6. Musica\n7. Libert\u00e0\n8. Sandwich\n9. Vulcano\n10. Risata"
+                ],
+                [
+                    "1. Oceano\n2. Matematica\n3. Forchetta\n4. Nostalgia\n5. Serpente\n6. Biblioteca\n7. Tuono\n8. Scarpa\n9. Libert\u00e0\n10. Biscotto"
+                ],
+                [
+                    "1. Oceano\n2. Libert\u00e0\n3. Cucchiaio\n4. Matematica\n5. Tristezza\n6. Elefante\n7. Musica\n8. Polvere\n9. Giustizia\n10. Bicicletta"
+                ],
+                [
+                    "1. Oceano\n2. Matematica\n3. Felicit\u00e0\n4. Martello\n5. Musica\n6. Stomaco\n7. Libert\u00e0\n8. Diamante\n9. Temporale\n10. Memoria"
+                ],
+                [
+                    "1. Oceano\n2. Libert\u00e0\n3. Bicicletta\n4. Melodia\n5. Formica\n6. Tristezza\n7. Cucchiaio\n8. Tempesta\n9. Memoria\n10. Cristallo"
+                ],
+                [
+                    "1. Oceano\n2. Matematica\n3. Farfalla\n4. Nostalgia\n5. Martello\n6. Musica\n7. Radice\n8. Libert\u00e0\n9. Sandwich\n10. Universo"
+                ],
+                [
+                    "1. Oceano\n2. Matematica\n3. Violino\n4. Nostalgia\n5. Forchetta\n6. Dinosauro\n7. Democrazia\n8. Profumo\n9. Terremoto\n10. Biblioteca"
+                ],
+                [
+                    "1. Oceano\n2. Libert\u00e0\n3. Scarpa\n4. Melodia\n5. Rabbia\n6. Telescopio\n7. Pane\n8. Sogno\n9. Fulmine\n10. Biblioteca"
+                ],
+                [
+                    "1. Oceano\n2. Libert\u00e0\n3. Forchetta\n4. Dinosauro\n5. Melodia\n6. Tristezza\n7. Fulmine\n8. Biblioteca\n9. Profumo\n10. Matematica"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "montagna\nlampada\nsogno\ntempesta\nzucchero\ngiustizia\nmusica\nombra\nseme\norologio"
+                ],
+                [
+                    "montagna\nsorriso\nzucchero\nombra\nbambola\nsilenzio\nseme\norologio\ngiustizia\ncanzone"
+                ],
+                [
+                    "sasso\nmelodia\ngiustizia\nforesta\norologio\ntempesta\nviaggio\nombra\ninchiostro\nsorriso"
+                ],
+                [
+                    "fulmine\ngatto\nmano\nchiave\nsogno\npane\ngiustizia\nombra\ncitt\u00e0\nmusica"
+                ],
+                [
+                    "farfalla\nalbero\nfulmine\ncucchiaio\npane\ncuore\nmontagna\nsonno\nsilenzio\nlibert\u00e0"
+                ],
+                [
+                    "martello\ngatto\nlibert\u00e0\ntuono\npane\nfuturo\nombra\ncuore\nrisata\nforesta"
+                ],
+                [
+                    "stella\ngioia\nmartello\ngatto\nalbero\nlibert\u00e0\ntemporale\ncuore\ncanzone\npietra"
+                ],
+                [
+                    "albero\nmartello\nnuvola\nrisata\nlibert\u00e0\nmoneta\nfuoco\nspecchio\nsogno\nmercato"
+                ],
+                [
+                    "pietra\ncucchiaio\nsogno\nlibert\u00e0\nrumore\nforesta\nsorriso\ntempo\npane\ngioco"
+                ],
+                [
+                    "sedia\nforesta\nfulmine\nruggine\nmusica\nsperanza\npolvere\nlabirinto\nprofumo\nformica"
+                ],
+                [
+                    "tuono\nsedia\ngiustizia\ngatto\ngomito\npane\nmercato\npaura\nstella\ncorsa"
+                ],
+                [
+                    "gatto\nalbero\nsedia\npane\ngioia\nmano\npioggia\nchiave\nlibert\u00e0\nsogno"
+                ],
+                [
+                    "stella\nmartello\nlibert\u00e0\nformica\nzucchero\ntempesta\nsorriso\nisola\nombra\nmusica"
+                ],
+                [
+                    "pietra\nfarfalla\nchiave\nluce\ngiustizia\npane\nsogno\noceano\nrete\ntempo"
+                ],
+                [
+                    "martello\nsedia\nbalena\nalbero\ncuore\nfulmine\nlibert\u00e0\npane\nrisata\nisola"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Italian",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Lepel\n2. Droom\n3. Bibliotheek\n4. Wortel\n5. Muziek\n6. Schaduw\n7. Vriendschap\n8. Oceaan\n9. Geduld\n10. Bakfiets"
+                ],
+                [
+                    "1. tafel\n2. vreugde\n3. oceaan\n4. bibliotheek\n5. slaap\n6. wortel\n7. muziek\n8. storm\n9. vriendschap\n10. spiegel"
+                ],
+                [
+                    "1. tafel\n2. geluk\n3. regen\n4. boek\n5. honger\n6. muziek\n7. slaap\n8. vuur\n9. vriendschap\n10. wind"
+                ],
+                [
+                    "1. Lepel\n2. Droom\n3. Bibliotheek\n4. Moed\n5. Regenboog\n6. Chocolade\n7. Vriendschap\n8. Fiets\n9. Muziek\n10. Oceaan"
+                ],
+                [
+                    "1. tafel\n2. liefde\n3. regen\n4. boek\n5. muziek\n6. droom\n7. sleutel\n8. bloem\n9. tijd\n10. brood"
+                ],
+                [
+                    "1. tafel\n2. liefde\n3. regen\n4. boek\n5. muziek\n6. droom\n7. brood\n8. vriendschap\n9. zee\n10. tijd"
+                ],
+                [
+                    "1. tafel\n2. geluk\n3. regen\n4. boek\n5. angst\n6. brood\n7. muziek\n8. steen\n9. tijd\n10. bloem"
+                ],
+                [
+                    "1. steen\n2. geluk\n3. muziek\n4. wortel\n5. tijd\n6. oceaan\n7. gedachte\n8. vlinder\n9. honger\n10. schaduw"
+                ],
+                [
+                    "1. steen\n2. muziek\n3. vreugde\n4. lepel\n5. storm\n6. gedachte\n7. vlinder\n8. honger\n9. schaduw\n10. cirkel"
+                ],
+                [
+                    "1. tafel\n2. vreugde\n3. oceaan\n4. muziek\n5. schaap\n6. droom\n7. sleutel\n8. storm\n9. chocolade\n10. vriendschap"
+                ],
+                [
+                    "1. tafel\n2. vreugde\n3. oceaan\n4. tijger\n5. droom\n6. muziek\n7. bakkerij\n8. vriendschap\n9. storm\n10. spiegel"
+                ],
+                [
+                    "1. Lepel\n2. Droom\n3. Oceaan\n4. Vriendschap\n5. Schaduw\n6. Muziek\n7. Sleutel\n8. Gedachte\n9. Bloem\n10. Tijd"
+                ],
+                [
+                    "1. tafel\n2. geluk\n3. oceaan\n4. muziek\n5. winter\n6. boek\n7. vuur\n8. droom\n9. brood\n10. vriendschap"
+                ],
+                [
+                    "1. tafel\n2. droom\n3. oceaan\n4. vriendschap\n5. muziek\n6. sleutel\n7. storm\n8. boek\n9. glimlach\n10. berg"
+                ],
+                [
+                    "1. droom\n2. lepel\n3. wiskunde\n4. oceaan\n5. vriendschap\n6. telescoop\n7. bakkerij\n8. melancholie\n9. fiets\n10. orkest"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "stoel\nrivier\nstilte\nvlam\ndroom\nschaduw\nvogel\nfeest\nsneeuw\nwaarheid"
+                ],
+                [
+                    "berg\nsleutel\nregen\nglimlach\nvrijheid\nmarkt\nvlam\nstilte\nboom\nvriendschap"
+                ],
+                [
+                    "sleutel\nstilte\nrivier\nglimlach\nvonk\ndeeg\nuil\nschaduw\ntijd\ngeur"
+                ],
+                [
+                    "vuur\nsleutel\nvriendschap\nschildpad\nmelodie\nschaduw\nglimlach\nrivier\nkoffer\ndroom"
+                ],
+                [
+                    "sleutel\nregen\nvrijheid\nrivier\nvogel\ngeur\nstilte\nverhaal\nvuur\nschaduw"
+                ],
+                [
+                    "rivier\nstoel\nvrijheid\nochtend\nvlinder\nmelodie\nsneeuw\ngedachte\nmarkt\ngeur"
+                ],
+                [
+                    "kat\nboom\nhamer\nwolk\nlied\nrivier\nbrood\nherinnering\nglimlach\nvonk"
+                ],
+                [
+                    "wolk\nsleutel\nstilte\ndraak\nrivier\nschaduw\ngeur\nfeest\nbrood\nspiegel"
+                ],
+                [
+                    "stoel\nvlinder\nrivier\nvrijheid\nvreugde\nherinnering\nbrood\nmes\nregen\nmuziek"
+                ],
+                [
+                    "echo\nsleutel\nrivier\nstilte\nvriendschap\nkat\nregenboog\nboek\ntijd\ndroom"
+                ],
+                [
+                    "berg\nsleutel\ndroom\ngeur\nvlam\nregen\nvriendschap\nmarkt\ntijd\nbrood"
+                ],
+                [
+                    "boom\nwolk\nklok\nvriendschap\nsoep\nmuziek\nschaduw\nstoel\nvrijheid\nuil"
+                ],
+                [
+                    "regen\ngeluk\nsteen\nvogel\nstoel\nverhaal\ngeur\neiland\nfeest\nschaduw"
+                ],
+                [
+                    "boom\nschaduw\nglimlach\nvrijheid\nklok\nregen\nverhaal\nvogel\ndoolhof\nmelodie"
+                ],
+                [
+                    "boom\nhamer\nregen\nvriendschap\nkat\navond\nrivier\npeper\nnachtmerrie\nfeest"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Dutch",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Borboleta\n2. Matem\u00e1tica\n3. Chuva\n4. Saudade\n5. Martelo\n6. M\u00fasica\n7. Fome\n8. Oceano\n9. Sonho\n10. Pedra"
+                ],
+                [
+                    "1. Oceano\n2. M\u00fasica\n3. Cadeira\n4. Saudade\n5. Borboleta\n6. Matem\u00e1tica\n7. Tempestade\n8. P\u00e3o\n9. Liberdade\n10. Espelho"
+                ],
+                [
+                    "1. Oceano\n2. Matem\u00e1tica\n3. Borboleta\n4. Tristeza\n5. Martelo\n6. M\u00fasica\n7. Tempestade\n8. Mem\u00f3ria\n9. P\u00e3o\n10. Liberdade"
+                ],
+                [
+                    "1. \u00e1gua\n2. felicidade\n3. martelo\n4. m\u00fasica\n5. borboleta\n6. matem\u00e1tica\n7. chuva\n8. livro\n9. sonho\n10. pedra"
+                ],
+                [
+                    "1. Oceano\n2. Felicidade\n3. Martelo\n4. M\u00fasica\n5. Borboleta\n6. Matem\u00e1tica\n7. Chuva\n8. Mem\u00f3ria\n9. P\u00e3o\n10. Liberdade"
+                ],
+                [
+                    "1. oceano\n2. matem\u00e1tica\n3. borboleta\n4. tristeza\n5. martelo\n6. m\u00fasica\n7. tempestade\n8. chocolate\n9. liberdade\n10. espelho"
+                ],
+                [
+                    "1. Oceano\n2. Felicidade\n3. Martelo\n4. M\u00fasica\n5. Borboleta\n6. Mem\u00f3ria\n7. Fogo\n8. Liberdade\n9. P\u00e3o\n10. Tempo"
+                ],
+                [
+                    "1. Oceano\n2. Pensamento\n3. Borboleta\n4. Martelo\n5. M\u00fasica\n6. Fome\n7. Diamante\n8. Sorriso\n9. Tempestade\n10. Biblioteca"
+                ],
+                [
+                    "1. Chuva\n2. Matem\u00e1tica\n3. Felicidade\n4. Cadeira\n5. M\u00fasica\n6. Est\u00f4mago\n7. Liberdade\n8. Martelo\n9. Sonho\n10. Oceano"
+                ],
+                [
+                    "1. \u00c1rvore\n2. M\u00fasica\n3. Oceano\n4. Felicidade\n5. Rel\u00f3gio\n6. Borboleta\n7. Mem\u00f3ria\n8. Fogo\n9. Livro\n10. Sonho"
+                ],
+                [
+                    "1. Oceano\n2. Felicidade\n3. Martelo\n4. M\u00fasica\n5. Borboleta\n6. Mem\u00f3ria\n7. Fogo\n8. Justi\u00e7a\n9. P\u00e3o\n10. Sonho"
+                ],
+                [
+                    "1. Borboleta\n2. Matem\u00e1tica\n3. Saudade\n4. Martelo\n5. Oceano\n6. M\u00fasica\n7. Fome\n8. Biblioteca\n9. Tempestade\n10. Alegria"
+                ],
+                [
+                    "1. Oceano\n2. M\u00fasica\n3. Borboleta\n4. Matem\u00e1tica\n5. Saudade\n6. Martelo\n7. Tempestade\n8. Chocolate\n9. Liberdade\n10. Espelho"
+                ],
+                [
+                    "1. oceano\n2. pensamento\n3. cadeira\n4. m\u00fasica\n5. fogo\n6. saudade\n7. borboleta\n8. tempestade\n9. livro\n10. diamante"
+                ],
+                [
+                    "1. Oceano\n2. M\u00fasica\n3. Cadeira\n4. Saudade\n5. Borboleta\n6. Matem\u00e1tica\n7. Tempestade\n8. P\u00e3o\n9. Liberdade\n10. Espelho"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "borboleta\nrel\u00e2mpago\nrel\u00f3gio\njusti\u00e7a\nareia\nmelodia\nlabirinto\nsopa\ncheiro\nhorizonte"
+                ],
+                [
+                    "rel\u00e2mpago\nliberdade\ncogumelo\nrel\u00f3gio\noceano\npoeira\nlabirinto\nmelodia\ntijolo\nsombra"
+                ],
+                [
+                    "estrela\nmartelo\ntigre\np\u00e3o\ncotovelo\nsaudade\nsussurro\nrel\u00e2mpago\nlabirinto\ngoverno"
+                ],
+                [
+                    "montanha\nx\u00edcara\nrel\u00e2mpago\nsaudade\nareia\nrel\u00f3gio\nsil\u00eancio\nborboleta\nm\u00fasica\njusti\u00e7a"
+                ],
+                [
+                    "estrela\ncadeira\nsaudade\npolvo\ncacto\nrel\u00e2mpago\nargila\nsil\u00eancio\ndinheiro\nlabirinto"
+                ],
+                [
+                    "martelo\nfloresta\nrel\u00e2mpago\nsil\u00eancio\nsaudade\ntartaruga\npoeira\nlabirinto\nfesta\nsonho"
+                ],
+                [
+                    "martelo\nborboleta\nbatata\nrel\u00e2mpago\nsaudade\npoeira\nmelodia\njusti\u00e7a\njoelho\noceano"
+                ],
+                [
+                    "rel\u00e2mpago\nformiga\nmartelo\ndeserto\njusti\u00e7a\nmelodia\nsombra\nrel\u00f3gio\nalegria\nsemente"
+                ],
+                [
+                    "mar\nrel\u00e2mpago\npedra\njanela\na\u00e7\u00facar\nsil\u00eancio\nlabirinto\npregui\u00e7a\nfantasma\njusti\u00e7a"
+                ],
+                [
+                    "pedra\nborboleta\nrel\u00e2mpago\nsaudade\nespelho\noceano\npoeira\nmelodia\njusti\u00e7a\nmadrugada"
+                ],
+                [
+                    "borboleta\nmartelo\nrel\u00e2mpago\njusti\u00e7a\nsil\u00eancio\ncora\u00e7\u00e3o\np\u00e3o\nestrela\nbarco\nlabirinto"
+                ],
+                [
+                    "pedra\nvento\nalegria\nrel\u00f3gio\ncacto\nsil\u00eancio\nlabirinto\noceano\nfa\u00edsca\njuramento"
+                ],
+                [
+                    "trov\u00e3o\ntigela\nliberdade\nborboleta\nlabirinto\npoeira\nsombra\noceano\naroma\nalgod\u00e3o"
+                ],
+                [
+                    "pedra\nmelodia\nrel\u00e2mpago\nrinoceronte\njusti\u00e7a\nmartelo\nlabirinto\nsaudade\nvulc\u00e3o\nperfume"
+                ],
+                [
+                    "pedra\nm\u00fasica\ntempestade\ninf\u00e2ncia\nliberdade\nrel\u00f3gio\nabacaxi\nformiga\nlabirinto\nsombra"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Portuguese",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u96f2\n2. \u53cb\u60c5\n3. \u9774\n4. \u8a18\u61b6\n5. \u97f3\u697d\n6. \u77f3\n7. \u6642\u9593\n8. \u7b11\u9854\n9. \u98a8\n10. \u5922"
+                ],
+                [
+                    "1. \u96f2\n2. \u9774\n3. \u611f\u60c5\n4. \u6642\u9593\n5. \u97f3\u697d\n6. \u6599\u7406\n7. \u5922\n8. \u53cb\u9054\n9. \u672c\n10. \u98a8"
+                ],
+                [
+                    "1. \u96f2\n2. \u53cb\u60c5\n3. \u9774\n4. \u6642\u9593\n5. \u6012\u308a\n6. \u672c\n7. \u97f3\u697d\n8. \u5922\n9. \u5869\n10. \u8a18\u61b6"
+                ],
+                [
+                    "1. \u96f2\n2. \u53cb\u60c5\n3. \u6905\u5b50\n4. \u97f3\u697d\n5. \u6012\u308a\n6. \u68ee\n7. \u6642\u9593\n8. \u5922\n9. \u5869\n10. \u8a18\u61b6"
+                ],
+                [
+                    "1. \u96f2\n2. \u53cb\u60c5\n3. \u6905\u5b50\n4. \u97f3\u697d\n5. \u6012\u308a\n6. \u671d\n7. \u6570\u5b57\n8. \u75c5\u6c17\n9. \u8a18\u61b6\n10. \u9053\u5177"
+                ],
+                [
+                    "1. \u96f2\n2. \u53cb\u60c5\n3. \u6905\u5b50\n4. \u97f3\u697d\n5. \u6012\u308a\n6. \u671d\n7. \u6570\u5b57\n8. \u5922\n9. \u5869\n10. \u8a18\u61b6"
+                ],
+                [
+                    "1. \u96f2\n2. \u53cb\u60c5\n3. \u6905\u5b50\n4. \u8a18\u61b6\n5. \u97f3\u697d\n6. \u68ee\n7. \u6642\u9593\n8. \u7b11\u9854\n9. \u672c\n10. \u5922"
+                ],
+                [
+                    "1. \u592a\u967d\n2. \u53cb\u60c5\n3. \u6905\u5b50\n4. \u97f3\u697d\n5. \u5922\n6. \u6c34\n7. \u6642\u9593\n8. \u7b11\u9854\n9. \u672c\n10. \u98a8"
+                ],
+                [
+                    "1. \u7a7a\n2. \u97f3\u697d\n3. \u53cb\u60c5\n4. \u925b\u7b46\n5. \u5922\n6. \u6599\u7406\n7. \u6642\u9593\n8. \u82b1\n9. \u8a18\u61b6\n10. \u672c"
+                ],
+                [
+                    "1. \u7a7a\n2. \u672c\n3. \u611b\n4. \u77f3\n5. \u97f3\n6. \u5922\n7. \u6642\u9593\n8. \u6c34\n9. \u5fc3\n10. \u5149"
+                ],
+                [
+                    "1. \u96f2\n2. \u6905\u5b50\n3. \u611f\u60c5\n4. \u6642\u9593\n5. \u97f3\u697d\n6. \u77f3\n7. \u5922\n8. \u6599\u7406\n9. \u53cb\u60c5\n10. \u5149"
+                ],
+                [
+                    "1. \u96f2\n2. \u53cb\u60c5\n3. \u6905\u5b50\n4. \u97f3\u697d\n5. \u5922\n6. \u5869\n7. \u6642\u9593\n8. \u6012\u308a\n9. \u672c\n10. \u98a8"
+                ],
+                [
+                    "1. \u96f2\n2. \u53cb\u60c5\n3. \u6905\u5b50\n4. \u97f3\u697d\n5. \u6050\u6016\n6. \u671d\u98df\n7. \u8a18\u61b6\n8. \u5ead\n9. \u7b11\u9854\n10. \u6642\u9593"
+                ],
+                [
+                    "1. \u592a\u967d\n2. \u53cb\u60c5\n3. \u6905\u5b50\n4. \u97f3\u697d\n5. \u6642\u9593\n6. \u6c34\n7. \u5922\n8. \u672c\n9. \u7b11\u9854\n10. \u68ee"
+                ],
+                [
+                    "1. \u96f2\n2. \u6905\u5b50\n3. \u611b\u60c5\n4. \u97f3\u697d\n5. \u671d\u98df\n6. \u75b2\u52b4\n7. \u9375\n8. \u8a18\u61b6\n9. \u6e29\u5ea6\n10. \u7d04\u675f"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "- \u6a4b\n- \u5302\u3044\n- \u7d04\u675f\n- \u7802\n- \u5b63\u7bc0\n- \u7a2e\n- \u6ce2\n- \u5922\n- \u9ce5\n- \u5f71"
+                ],
+                [
+                    "\u96f2\n\u9375\n\u5f71\n\u796d\u308a\n\u7269\u8a9e\n\u7a2e\n\u6a4b\n\u7c89\n\u9759\u3051\u3055\n\u8a18\u61b6"
+                ],
+                [
+                    "\u9375\n\u5f71\n\u9999\u308a\n\u796d\u308a\n\u7d04\u675f\n\u65c5\n\u68ee\n\u671d\n\u5e0c\u671b\n\u9759\u3051\u3055"
+                ],
+                [
+                    "\u96e8\n\u5f71\n\u5922\n\u9053\n\u7802\n\u58f0\n\u7a93\n\u7948\u308a\n\u7d04\u675f\n\u5b63\u7bc0"
+                ],
+                [
+                    "- \u98a8\n- \u5922\n- \u68ee\n- \u5f71\n- \u7d04\u675f\n- \u9999\u308a\n- \u796d\u308a\n- \u8a18\u61b6\n- \u6a4b\n- \u7b11\u9854"
+                ],
+                [
+                    "\u68ee\n\u6a4b\n\u5f71\n\u5922\n\u7d04\u675f\n\u9999\u308a\n\u305f\u306d\n\u6642\u9593\n\u9375\n\u904a\u3073"
+                ],
+                [
+                    "\u96e8\n\u9375\n\u65c5\n\u9999\u308a\n\u9759\u3051\u3055\n\u7d04\u675f\n\u7fd2\u6163\n\u5883\u76ee\n\u7948\u308a\n\u4f59\u767d"
+                ],
+                [
+                    "\u30fb\u96e8\n\u30fb\u559c\u3073\n\u30fb\u9375\n\u30fb\u9999\u308a\n\u30fb\u68ee\n\u30fb\u7d04\u675f\n\u30fb\u5922\n\u30fb\u6a4b\n\u30fb\u7c89\n\u30fb\u5642"
+                ],
+                [
+                    "\u77f3\n\u96e8\n\u9999\u308a\n\u796d\u308a\n\u5922\n\u7d04\u675f\n\u7fd2\u6163\n\u9759\u3051\u3055\n\u65c5\n\u5f71"
+                ],
+                [
+                    "\u96e8\n\u6a4b\n\u7802\n\u5f71\n\u5922\n\u9999\u308a\n\u7fd2\u6163\n\u7d04\u675f\n\u5b63\u7bc0\n\u559c\u3073"
+                ],
+                [
+                    "\u68ee\n\u6a4b\n\u76bf\n\u5f71\n\u5922\n\u7d04\u675f\n\u796d\u308a\n\u9999\u308a\n\u5642\n\u52c7\u6c17"
+                ],
+                [
+                    "- \u6a4b\n- \u76bf\n- \u68ee\n- \u5f71\n- \u5302\u3044\n- \u7d04\u675f\n- \u52c7\u6c17\n- \u5b63\u7bc0\n- \u7802\n- \u6ce2"
+                ],
+                [
+                    "\u96e8\n\u76bf\n\u5f71\n\u65c5\n\u7d04\u675f\n\u8a18\u61b6\n\u7802\n\u65d7\n\u7948\u308a\n\u7f60"
+                ],
+                [
+                    "- \u77f3\n- \u5f71\n- \u5302\u3044\n- \u7d04\u675f\n- \u81ea\u7531\n- \u5922\n- \u98a8\n- \u6a4b\n- \u5b63\u7bc0\n- \u7b11\u3044"
+                ],
+                [
+                    "\u77f3\n\u9727\n\u97f3\n\u5f71\n\u65c5\n\u7d04\u675f\n\u5b63\u7bc0\n\u52c7\u6c17\n\u9699\u9593\n\u796d\u308a"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Japanese",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u0634\u0645\u0633\n2. \u062d\u0644\u0645\n3. \u0643\u062a\u0627\u0628\n4. \u0639\u062f\u0627\u0644\u0629\n5. \u0645\u0627\u0621\n6. \u0635\u062f\u0627\u0642\u0629\n7. \u062c\u0628\u0644\n8. \u0641\u0631\u062d\n9. \u0645\u0641\u062a\u0627\u062d\n10. \u0635\u0645\u062a"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u062d\u0644\u0645\n3. \u0643\u062a\u0627\u0628\n4. \u0639\u062f\u0627\u0644\u0629\n5. \u062c\u0628\u0644\n6. \u0641\u0631\u062d\n7. \u0645\u0627\u0621\n8. \u0635\u062f\u0627\u0642\u0629\n9. \u062e\u0628\u0632\n10. \u0645\u0648\u0633\u064a\u0642\u0649"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u0643\u062a\u0627\u0628\n3. \u062d\u0644\u0645\n4. \u062c\u0628\u0644\n5. \u0639\u062f\u0627\u0644\u0629\n6. \u0642\u0644\u0645\n7. \u0645\u0648\u0633\u064a\u0642\u0649\n8. \u0628\u062d\u0631\n9. \u0635\u062f\u0627\u0642\u0629\n10. \u062e\u0628\u0632"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u062d\u0644\u0645\n3. \u0643\u062a\u0627\u0628\n4. \u0639\u062f\u0627\u0644\u0629\n5. \u0645\u0644\u062d\n6. \u0641\u0631\u062d\n7. \u062c\u0628\u0644\n8. \u0635\u062f\u0627\u0642\u0629\n9. \u0645\u0641\u062a\u0627\u062d\n10. \u062d\u0643\u0645\u0629"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u0643\u062a\u0627\u0628\n3. \u062d\u0644\u0645\n4. \u0645\u0627\u0621\n5. \u0639\u062f\u0627\u0644\u0629\n6. \u0642\u0644\u0645\n7. \u0635\u062f\u0627\u0642\u0629\n8. \u062c\u0628\u0644\n9. \u0645\u0648\u0633\u064a\u0642\u0649\n10. \u062e\u0628\u0632"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u062d\u0644\u0645\n3. \u0643\u062a\u0627\u0628\n4. \u0639\u062f\u0627\u0644\u0629\n5. \u0645\u0627\u0621\n6. \u0641\u0631\u062d\n7. \u062c\u0628\u0644\n8. \u0635\u062f\u0627\u0642\u0629\n9. \u062e\u0628\u0632\n10. \u0645\u0648\u0633\u064a\u0642\u0649"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u0639\u062f\u0627\u0644\u0629\n3. \u0642\u0644\u0645\n4. \u062d\u0632\u0646\n5. \u062c\u0628\u0644\n6. \u0637\u0639\u0627\u0645\n7. \u0635\u062f\u0627\u0642\u0629\n8. \u0628\u0627\u0628\n9. \u0630\u0627\u0643\u0631\u0629\n10. \u0645\u0627\u0621"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u062d\u0644\u0645\n3. \u0643\u062a\u0627\u0628\n4. \u0639\u062f\u0627\u0644\u0629\n5. \u0645\u0627\u0621\n6. \u0635\u062f\u0627\u0642\u0629\n7. \u062c\u0628\u0644\n8. \u0645\u0648\u0633\u064a\u0642\u0649\n9. \u062e\u0648\u0641\n10. \u062e\u0628\u0632"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u062d\u0644\u0645\n3. \u0643\u062a\u0627\u0628\n4. \u0645\u0627\u0621\n5. \u0639\u062f\u0627\u0644\u0629\n6. \u0642\u0644\u0645\n7. \u0635\u062f\u0627\u0642\u0629\n8. \u062c\u0628\u0644\n9. \u0641\u0631\u062d\n10. \u062e\u0628\u0632"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u062d\u0644\u0645\n3. \u0643\u062a\u0627\u0628\n4. \u0639\u062f\u0627\u0644\u0629\n5. \u062c\u0628\u0644\n6. \u0641\u0631\u062d\n7. \u0645\u0641\u062a\u0627\u062d\n8. \u0631\u064a\u0627\u062d\n9. \u0630\u0627\u0643\u0631\u0629\n10. \u0646\u0627\u0631"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u0643\u062a\u0627\u0628\n3. \u0639\u062f\u0627\u0644\u0629\n4. \u062d\u0630\u0627\u0621\n5. \u0641\u0631\u062d\n6. \u0646\u0647\u0631\n7. \u062e\u0628\u0632\n8. \u0635\u062f\u0627\u0642\u0629\n9. \u0645\u0641\u062a\u0627\u062d\n10. \u062d\u0644\u0645"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u062d\u0644\u0645\n3. \u0643\u062a\u0627\u0628\n4. \u0639\u062f\u0627\u0644\u0629\n5. \u0645\u0627\u0621\n6. \u0635\u062f\u0627\u0642\u0629\n7. \u062c\u0628\u0644\n8. \u0641\u0631\u062d\n9. \u0645\u0641\u062a\u0627\u062d\n10. \u062d\u0631\u064a\u0629"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u0643\u062a\u0627\u0628\n3. \u0639\u062f\u0627\u0644\u0629\n4. \u062d\u0630\u0627\u0621\n5. \u0641\u0631\u062d\n6. \u0645\u0637\u0631\n7. \u062e\u0628\u0632\n8. \u0635\u062f\u0627\u0642\u0629\n9. \u0628\u0627\u0628\n10. \u062d\u0644\u0645"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u062d\u0644\u0645\n3. \u0643\u062a\u0627\u0628\n4. \u0639\u062f\u0627\u0644\u0629\n5. \u0645\u0627\u0621\n6. \u0641\u0631\u062d\n7. \u062c\u0628\u0644\n8. \u0635\u062f\u0627\u0642\u0629\n9. \u062e\u0628\u0632\n10. \u0645\u0648\u0633\u064a\u0642\u0649"
+                ],
+                [
+                    "1. \u0634\u0645\u0633\n2. \u0643\u062a\u0627\u0628\n3. \u062d\u0644\u0645\n4. \u0645\u0627\u0621\n5. \u0639\u062f\u0627\u0644\u0629\n6. \u0642\u0644\u0645\n7. \u0635\u062f\u0627\u0642\u0629\n8. \u062c\u0628\u0644\n9. \u0645\u0648\u0633\u064a\u0642\u0649\n10. \u062e\u0628\u0632"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u0635\u062e\u0631\u0629\n\u0641\u0631\u0627\u0634\u0629\n\u0645\u0648\u0633\u064a\u0642\u0649\n\u0645\u0644\u0639\u0642\u0629\n\u0639\u0637\u0631\n\u0635\u062d\u0631\u0627\u0621\n\u062d\u0644\u0645\n\u0645\u0637\u0631\n\u0643\u062a\u0627\u0628\n\u062d\u0631\u064a\u0629"
+                ],
+                [
+                    "\u0641\u064a\u0644\n\u0646\u062e\u0644\u0629\n\u0628\u0631\u0642\n\u0642\u0644\u0628\n\u062e\u0628\u0632\n\u0645\u0641\u062a\u0627\u062d\n\u0639\u062f\u0627\u0644\u0629\n\u0635\u062f\u0627\u0642\u0629\n\u0635\u062d\u0631\u0627\u0621\n\u0646\u062c\u0645\u0629"
+                ],
+                [
+                    "\u062d\u062c\u0631\n\u0633\u062d\u0627\u0628\u0629\n\u0645\u0637\u0631\u0642\u0629\n\u0630\u0626\u0628\n\u0639\u062f\u0627\u0644\u0629\n\u063a\u0631\u0648\u0628\n\u0645\u0648\u0633\u064a\u0642\u0649\n\u062e\u0628\u0632\n\u0645\u0631\u0622\u0629\n\u0646\u0647\u0631"
+                ],
+                [
+                    "\u0642\u0645\u0631\n\u0645\u0641\u062a\u0627\u062d\n\u0641\u064a\u0644\n\u0634\u062c\u0631\u0629\n\u062e\u0628\u0632\n\u0639\u062f\u0627\u0644\u0629\n\u062f\u0647\u0634\u0629\n\u0645\u0637\u0631\n\u0642\u0644\u0628\n\u0645\u0648\u0633\u064a\u0642\u0649"
+                ],
+                [
+                    "\u0642\u0645\u0631\n\u0645\u0641\u062a\u0627\u062d\n\u0639\u062f\u0627\u0644\u0629\n\u0645\u0637\u0631\n\u0641\u0631\u0627\u0634\u0629\n\u062e\u0628\u0632\n\u0642\u0644\u0628\n\u0641\u0631\u062d\n\u0645\u0648\u0633\u064a\u0642\u0649\n\u063a\u0627\u0628\u0629"
+                ],
+                [
+                    "\u0635\u062e\u0631\u0629\n\u0641\u062c\u0631\n\u0631\u064a\u062d\n\u0645\u0641\u062a\u0627\u062d\n\u0645\u0631\u0622\u0629\n\u0644\u062d\u0646\n\u0639\u062f\u0627\u0644\u0629\n\u0631\u063a\u064a\u0641\n\u0646\u062c\u0645\u0629\n\u0642\u0635\u0629"
+                ],
+                [
+                    "\u062c\u0628\u0644\n\u0641\u0643\u0631\u0629\n\u0645\u0637\u0631\n\u062e\u0628\u0632\n\u0646\u0627\u0641\u0630\u0629\n\u0642\u0637\u0629\n\u0632\u0645\u0646\n\u0636\u0648\u0621\n\u0642\u0644\u0628\n\u0639\u062f\u0627\u0644\u0629"
+                ],
+                [
+                    "\u0634\u062c\u0631\u0629\n\u0642\u0645\u0631\n\u0643\u062a\u0627\u0628\n\u0645\u0637\u0631\n\u062d\u0644\u0645\n\u0642\u0637\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0635\u062d\u0631\u0627\u0621\n\u0639\u062f\u0627\u0644\u0629\n\u062e\u0628\u0632"
+                ],
+                [
+                    "\u0634\u0645\u0633\n\u0645\u0637\u0631\n\u062c\u0628\u0644\n\u0633\u0645\u0643\u0629\n\u062e\u0628\u0632\n\u0645\u0641\u062a\u0627\u062d\n\u0646\u0627\u0641\u0630\u0629\n\u062d\u0644\u0645\n\u0639\u062f\u0627\u0644\u0629\n\u0644\u063a\u0629"
+                ],
+                [
+                    "\u062c\u0628\u0644\n\u0633\u0639\u0627\u062f\u0629\n\u0643\u062a\u0627\u0628\n\u0645\u0637\u0631\n\u0639\u062f\u0627\u0644\u0629\n\u0645\u0635\u0628\u0627\u062d\n\u062d\u0634\u0631\u0629\n\u0633\u062d\u0627\u0628\u0629\n\u0637\u0639\u0627\u0645\n\u062e\u064a\u0627\u0644"
+                ],
+                [
+                    "\u0634\u0645\u0633\n\u0645\u0641\u062a\u0627\u062d\n\u0639\u062f\u0627\u0644\u0629\n\u0639\u0627\u0635\u0641\u0629\n\u0641\u0631\u0627\u0634\u0629\n\u0643\u0641\n\u0637\u0641\u0648\u0644\u0629\n\u0635\u062d\u0631\u0627\u0621\n\u0644\u062d\u0646\n\u0631\u0627\u0626\u062d\u0629"
+                ],
+                [
+                    "\u0642\u0645\u0631\n\u062e\u0628\u0632\n\u0645\u0631\u0622\u0629\n\u0648\u0627\u062f\u064a\n\u0639\u062f\u0627\u0644\u0629\n\u0645\u0637\u0631\n\u0635\u062f\u0627\u0642\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0632\u0647\u0631\u0629\n\u0633\u0639\u0627\u062f\u0629"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0641\u064a\u0644\n\u0646\u062e\u0644\u0629\n\u0628\u0631\u0642\n\u062e\u0628\u0632\n\u0633\u0639\u0627\u062f\u0629\n\u0632\u0645\u0646\n\u062c\u0628\u0644\n\u0648\u0633\u0627\u062f\u0629\n\u0642\u0645\u0631"
+                ],
+                [
+                    "\u0634\u062c\u0631\u0629\n\u0642\u0645\u0631\n\u0645\u0641\u062a\u0627\u062d\n\u0639\u062f\u0627\u0644\u0629\n\u0645\u0648\u0633\u064a\u0642\u0649\n\u0641\u0631\u0627\u0634\u0629\n\u0635\u062d\u0631\u0627\u0621\n\u0639\u0637\u0631\n\u062d\u0644\u0645\n\u0646\u0627\u0631"
+                ],
+                [
+                    "\u062d\u062c\u0631\n\u0642\u0645\u0631\n\u0645\u0637\u0631\n\u0641\u0631\u0627\u0634\u0629\n\u0634\u062c\u0631\u0629\n\u0639\u062f\u0627\u0644\u0629\n\u0645\u0648\u0633\u064a\u0642\u0649\n\u0630\u0627\u0643\u0631\u0629\n\u062e\u0628\u0632\n\u0645\u0641\u062a\u0627\u062d"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Arabic",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u68a6\u60f3\n2. \u77f3\u5934\n3. \u53cb\u8c0a\n4. \u96e8\u6ef4\n5. \u8bb0\u5fc6\n6. \u9762\u5305\n7. \u6050\u60e7\n8. \u661f\u7a7a\n9. \u6e29\u5ea6\n10. \u7b11\u58f0"
+                ],
+                [
+                    "\u9633\u5149\n\u53cb\u8c0a\n\u6050\u60e7\n\u4e66\u7c4d\n\u97f3\u4e50\n\u68a6\u60f3\n\u75db\u82e6\n\u6d77\u6d0b\n\u8bb0\u5fc6\n\u5e0c\u671b"
+                ],
+                [
+                    "1. \u9633\u5149\n2. \u601d\u60f3\n3. \u684c\u5b50\n4. \u53cb\u8c0a\n5. \u6cb3\u6d41\n6. \u68a6\u5883\n7. \u4e66\u7c4d\n8. \u75db\u82e6\n9. \u97f3\u4e50\n10. \u79cd\u5b50"
+                ],
+                [
+                    "1. \u68a6\u5883\n2. \u77f3\u5934\n3. \u53cb\u8c0a\n4. \u96e8\u6ef4\n5. \u8bb0\u5fc6\n6. \u9762\u5305\n7. \u6050\u60e7\n8. \u661f\u7a7a\n9. \u6e29\u5ea6\n10. \u773c\u6cea"
+                ],
+                [
+                    "\u9633\u5149\n\u53cb\u8c0a\n\u6050\u60e7\n\u4e66\u7c4d\n\u68a6\u60f3\n\u75db\u82e6\n\u97f3\u4e50\n\u56de\u5fc6\n\u5e0c\u671b\n\u5b64\u72ec"
+                ],
+                [
+                    "1. \u9633\u5149\n2. \u601d\u60f3\n3. \u684c\u5b50\n4. \u53cb\u8c0a\n5. \u96e8\u6ef4\n6. \u68a6\u5883\n7. \u4e66\u7c4d\n8. \u6050\u60e7\n9. \u82b1\u6735\n10. \u65f6\u95f4"
+                ],
+                [
+                    "\u68a6\u60f3\n\u77f3\u5934\n\u53cb\u8c0a\n\u96e8\u6ef4\n\u6050\u60e7\n\u9762\u5305\n\u97f3\u4e50\n\u4f24\u53e3\n\u9633\u5149\n\u8bb0\u5fc6"
+                ],
+                [
+                    "\u9633\u5149\n\u53cb\u8c0a\n\u6050\u60e7\n\u4e66\u7c4d\n\u68a6\u60f3\n\u75db\u82e6\n\u97f3\u4e50\n\u56de\u5fc6\n\u5e0c\u671b\n\u5b64\u72ec"
+                ],
+                [
+                    "\u9633\u5149\n\u68a6\u60f3\n\u77f3\u5934\n\u53cb\u8c0a\n\u96e8\u6ef4\n\u6050\u60e7\n\u4e66\u7c4d\n\u5fae\u7b11\n\u6d77\u6d0b\n\u8bb0\u5fc6"
+                ],
+                [
+                    "\u9633\u5149\n\u53cb\u8c0a\n\u6050\u60e7\n\u94a5\u5319\n\u68a6\u60f3\n\u9965\u997f\n\u97f3\u4e50\n\u8d23\u4efb\n\u56de\u5fc6\n\u81ea\u7531"
+                ],
+                [
+                    "\u9633\u5149\n\u53cb\u8c0a\n\u6050\u60e7\n\u4e66\u7c4d\n\u97f3\u4e50\n\u68a6\u60f3\n\u75db\u82e6\n\u6d77\u6d0b\n\u8bb0\u5fc6\n\u81ea\u7531"
+                ],
+                [
+                    "\u9633\u5149\n\u68a6\u60f3\n\u684c\u5b50\n\u53cb\u8c0a\n\u96e8\u6ef4\n\u6124\u6012\n\u4e66\u7c4d\n\u65f6\u95f4\n\u9762\u5305\n\u97f3\u4e50"
+                ],
+                [
+                    "1. \u9633\u5149\n2. \u68a6\u60f3\n3. \u77f3\u5934\n4. \u53cb\u8c0a\n5. \u96e8\u6ef4\n6. \u8bb0\u5fc6\n7. \u82b1\u6735\n8. \u6050\u60e7\n9. \u4e66\u7c4d\n10. \u65f6\u95f4"
+                ],
+                [
+                    "\u9633\u5149\n\u53cb\u8c0a\n\u6050\u60e7\n\u4e66\u7c4d\n\u68a6\u60f3\n\u75db\u82e6\n\u97f3\u4e50\n\u8bb0\u5fc6\n\u5e0c\u671b\n\u5b64\u72ec"
+                ],
+                [
+                    "\u9633\u5149\n\u53cb\u8c0a\n\u6050\u60e7\n\u4e66\u7c4d\n\u97f3\u4e50\n\u68a6\u60f3\n\u75db\u82e6\n\u6d77\u6d0b\n\u65f6\u95f4\n\u5bb6\u5ead"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u5c71\n\u9e1f\n\u6905\u5b50\n\u97f3\u4e50\n\u81ea\u7531\n\u65e9\u6668\n\u6c14\u5473\n\u5f71\u5b50\n\u57ce\u5e02\n\u89c4\u5219"
+                ],
+                [
+                    "\u6d77\u6d0b\n\u79cd\u5b50\n\u5fae\u7b11\n\u6b63\u4e49\n\u676f\u5b50\n\u5df7\u5b50\n\u9ece\u660e\n\u8c23\u8a00\n\u624b\u638c\n\u6e38\u620f"
+                ],
+                [
+                    "\u5c71\n\u65e9\u6668\n\u9e1f\n\u79cd\u5b50\n\u5f71\u5b50\n\u53cb\u60c5\n\u89c4\u5219\n\u6545\u4e8b\n\u5473\u9053\n\u6865"
+                ],
+                [
+                    "\u96f7\u58f0\n\u624b\u638c\n\u5e0c\u671b\n\u89c4\u5219\n\u7bee\u5b50\n\u94a5\u5319\n\u79cd\u5b50\n\u9ece\u660e\n\u9762\u5305\n\u5f71\u5b50"
+                ],
+                [
+                    "\u77f3\u5934\n\u9999\u5473\n\u53cb\u8c0a\n\u68ee\u6797\n\u96e8\u4f1e\n\u7ae5\u5e74\n\u89c4\u5219\n\u6545\u4e8b\n\u5f71\u5b50\n\u8282\u65e5"
+                ],
+                [
+                    "\u77f3\u5934\n\u96e8\n\u53cb\u8c0a\n\u6e05\u6668\n\u89d2\u843d\n\u8001\u864e\n\u94a5\u5319\n\u773c\u775b\n\u4eba\u7fa4\n\u9762\u5305"
+                ],
+                [
+                    "\u684c\u5b50\n\u732b\n\u6625\u5929\n\u96e8\u6c34\n\u706b\u7130\n\u8bb0\u5fc6\n\u57ce\u5e02\n\u9999\u5473\n\u9053\u7406\n\u5f71\u5b50"
+                ],
+                [
+                    "\u6c99\u6f20\n\u949f\u8868\n\u9999\u5473\n\u7ae5\u5e74\n\u52c7\u6c14\n\u4f20\u8bf4\n\u96e8\u6ef4\n\u754c\u9650\n\u79cd\u5b50\n\u7b11\u5bb9"
+                ],
+                [
+                    "\u77f3\u5934\n\u5f71\u5b50\n\u6c14\u5473\n\u53cb\u8c0a\n\u65f6\u95f4\n\u68ee\u6797\n\u5de5\u5177\n\u6545\u4e8b\n\u7b11\u58f0\n\u5236\u5ea6"
+                ],
+                [
+                    "\u6865\n\u68ee\u6797\n\u96e8\n\u7b11\u58f0\n\u5f71\u5b50\n\u8bb0\u5fc6\n\u6545\u4e8b\n\u9762\u5305\n\u65e9\u6668\n\u670b\u53cb"
+                ],
+                [
+                    "\u5c71\n\u96e8\n\u6905\u5b50\n\u9e1f\n\u624b\n\u6545\u4e8b\n\u81ea\u7531\n\u65e9\u6668\n\u5f71\u5b50\n\u9999\u5473"
+                ],
+                [
+                    "\u96e8\n\u81ea\u7531\n\u68ee\u6797\n\u9762\u5305\n\u5f71\u5b50\n\u670b\u53cb\n\u65e9\u6668\n\u97f3\u4e50\n\u94a5\u5319\n\u68a6"
+                ],
+                [
+                    "- \u77f3\u5934\n- \u96e8\n- \u591c\u665a\n- \u9999\u5473\n- \u4e60\u60ef\n- \u501f\u53e3\n- \u68ee\u6797\n- \u5f71\u5b50\n- \u81ea\u7531\n- \u73a9\u5177"
+                ],
+                [
+                    "\u5f69\u8679\n\u9ece\u660e\n\u57ce\u5e02\n\u94a5\u5319\n\u9762\u5305\n\u624b\u638c\n\u53cb\u8c0a\n\u5f71\u5b50\n\u6545\u4e8b\n\u8774\u8776"
+                ],
+                [
+                    "\u6c99\u6f20\n\u79cd\u5b50\n\u955c\u5b50\n\u5f71\u5b50\n\u8282\u594f\n\u53cb\u8c0a\n\u6545\u4e8b\n\u96e8\u5b63\n\u65c5\u7a0b\n\u9999\u5473"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Chinese",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \ucc45\n2. \ubc14\ub78c\n3. \uc2dc\uac04\n4. \uafc8\n5. \ub3cc\n6. \uc74c\uc545\n7. \ub9c8\uc74c\n8. \ubb3c\n9. \uae38\n10. \ube5b"
+                ],
+                [
+                    "1. \ub098\ubb34\n2. \uac10\uc815\n3. \uc2dc\uac04\n4. \ubc14\ub78c\n5. \uae30\uc5b5\n6. \ub3cc\n7. \uafc8\n8. \uc18c\ub9ac\n9. \ube5b\n10. \ub9c8\uc74c"
+                ],
+                [
+                    "1. \ubc14\ub78c\n2. \ucc45\n3. \uafc8\n4. \ub3cc\n5. \uc74c\uc545\n6. \uc2dc\uac04\n7. \ubb3c\n8. \ub9c8\uc74c\n9. \uc9d1\n10. \uc0c9\uae54"
+                ],
+                [
+                    "1. \ucc45\n2. \ubc14\ub78c\n3. \uc0ac\ub791\n4. \ub3cc\n5. \uc2dc\uac04\n6. \ubb3c\n7. \uafc8\n8. \uc18c\ub9ac\n9. \uae38\n10. \ub9c8\uc74c"
+                ],
+                [
+                    "1. \ucc45\n2. \ubc14\ub78c\n3. \uc0ac\ub791\n4. \uc758\uc790\n5. \uc2dc\uac04\n6. \ubb3c\n7. \uafc8\n8. \ub3cc\n9. \uc74c\uc545\n10. \ub9c8\uc74c"
+                ],
+                [
+                    "1. \ubc14\ub78c\n2. \ucc45\uc0c1\n3. \uc6b0\uc815\n4. \uc0ac\uacfc\n5. \uc2dc\uac04\n6. \uad6c\ub984\n7. \uae30\uc5b5\n8. \ubb38\n9. \uc18c\uae08\n10. \uafc8"
+                ],
+                [
+                    "1. \uc758\uc790\n2. \uac10\uc815\n3. \ubc14\ub78c\n4. \uc2dc\uac04\n5. \uc74c\uc2dd\n6. \uafc8\n7. \uc0c9\uae54\n8. \uc18c\ub9ac\n9. \uae30\uc5b5\n10. \ubb3c"
+                ],
+                [
+                    "1. \uad6c\ub984\n2. \uac10\uc815\n3. \uc758\uc790\n4. \uc2dc\uac04\n5. \ube75\n6. \uc6b0\uc815\n7. \ubc14\ub78c\n8. \ucc45\n9. \uafc8\n10. \ub3cc"
+                ],
+                [
+                    "1. \uad6c\ub984\n2. \uac10\uc815\n3. \uc2dc\uac04\n4. \ub098\ubb34\n5. \uc74c\uc2dd\n6. \uac74\ubb3c\n7. \uc0c9\uae54\n8. \uc18c\ub9ac\n9. \uae30\uc5b5\n10. \ubc14\ub78c"
+                ],
+                [
+                    "1. \ucc45\n2. \ubc14\ub78c\n3. \uac10\uc815\n4. \uc758\uc790\n5. \uc2dc\uac04\n6. \ubb3c\n7. \uafc8\n8. \ub3cc\n9. \uc74c\uc545\n10. \uae38"
+                ],
+                [
+                    "1. \ub098\ubb34\n2. \uac10\uc815\n3. \uc2dc\uac04\n4. \ubc14\ub78c\n5. \uae30\uc5b5\n6. \ub3cc\n7. \uafc8\n8. \uc18c\ub9ac\n9. \uae38\n10. \ub9c8\uc74c"
+                ],
+                [
+                    "1. \uad6c\ub984\n2. \uc0ac\ub791\n3. \uc758\uc790\n4. \uc2dc\uac04\n5. \ubc14\ub78c\n6. \uafc8\n7. \ucc45\n8. \uc74c\uc2dd\n9. \uae30\uc5b5\n10. \ub3cc"
+                ],
+                [
+                    "1. \ucc45\n2. \ubc14\ub78c\n3. \uc0ac\ub791\n4. \uc758\uc790\n5. \uc2dc\uac04\n6. \ubb3c\n7. \uafc8\n8. \ub3cc\n9. \uc74c\uc545\n10. \ub9c8\uc74c"
+                ],
+                [
+                    "1. \ubc14\ub78c\n2. \uae30\uc5b5\n3. \uc758\uc790\n4. \uc815\uc758\n5. \uc18c\uae08\n6. \uafc8\n7. \uc2dc\uac04\n8. \ub098\ubb34\n9. \uac10\uc815\n10. \ucc45"
+                ],
+                [
+                    "1. \uad6c\ub984\n2. \uac10\uc815\n3. \uc758\uc790\n4. \uc2dc\uac04\n5. \ube75\n6. \uc815\uc758\n7. \ub098\ubb34\n8. \uc18c\ub9ac\n9. \uae30\uc5b5\n10. \ubc14\ub78c"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "\ub098\ubb34\n\ubcc4\n\uace0\uc591\uc774\n\uc21f\uac00\ub77d\n\uc57d\uc18d\n\ubc14\ub78c\n\uadf8\ub9bc\n\uc2dc\uac04\n\ub3cc\n\ud5a5\uae30"
+                ],
+                [
+                    "\uc0ac\ub78c\n\uc758\uc790\n\ubc14\ub2e4\n\ubc14\ub78c\n\uc2dc\uac04\n\ud589\ubcf5\n\ub178\ub798\n\ub0c4\uc0c8\n\uaddc\uce59\n\uc528\uc557"
+                ],
+                [
+                    "\ubc14\ub78c\n\uc758\uc790\n\uace0\uc591\uc774\n\uc528\uc557\n\ube5b\n\uae30\uc5b5\n\uc6b0\uc815\n\uc18c\uae08\n\ubc14\ub298\n\ub178\ub798"
+                ],
+                [
+                    "\ubc14\ub78c\n\uc758\uc790\n\uace0\uc591\uc774\n\uc57d\uc18d\n\ube44\ubc00\n\ubc14\ub2e4\n\uae30\uc5b5\n\uc5f0\ud544\n\uc6c3\uc74c\n\ubcc4"
+                ],
+                [
+                    "\ub098\ubb34\n\ub3cc\n\ubc14\ub78c\n\uc18c\uae08\n\uc6c3\uc74c\n\uadf8\ub9bc\uc790\n\uc57d\uc18d\n\uaca8\uc6b8\n\ubc14\ub2e4\n\uc2e0\ubc1c"
+                ],
+                [
+                    "\ubc14\ub78c\n\uc0ac\uacfc\n\uadf8\ub9bc\uc790\n\uc18c\ubb38\n\uc2dc\uacc4\n\uace0\uc591\uc774\n\uc6b0\uc0b0\n\uc57d\uc18d\n\ubc14\ub2e4\n\uc6c3\uc74c"
+                ],
+                [
+                    "\ub3cc\n\ubc14\ub78c\n\uadf8\ub9bc\uc790\n\uc6c3\uc74c\n\ub0c4\uc0c8\n\uc2dc\uac04\n\uc18c\ubb38\n\uc7a5\ub09c\n\uc758\uc790\n\uc790\uc720"
+                ],
+                [
+                    "\ub098\ubb34\n\ubc14\ub2e4\n\uc2dc\uac04\n\uc6b0\uc815\n\uc18c\ubb38\n\uc5f4\uc1e0\n\uadf8\ub9bc\n\ubcc4\n\ud5a5\uae30\n\uac15\uc544\uc9c0"
+                ],
+                [
+                    "\ubc14\ub78c\n\uadf8\ub987\n\uace0\uc591\uc774\n\uadf8\ub9bc\uc790\n\ub0c4\uc0c8\n\uc57d\uc18d\n\uc18c\ubb38\n\uacc4\ub2e8\n\uaca8\uc6b8\n\uc790\uc720"
+                ],
+                [
+                    "- \ub3cc\n- \ubc14\ub2e4\n- \ubc14\ub78c\n- \uc5f4\uc1e0\n- \uc232\n- \uace0\uc591\uc774\n- \ube75\n- \ub178\ub798\n- \uc57d\uc18d\n- \uc790\uc720"
+                ],
+                [
+                    "\ub3cc\n\ubc14\ub78c\n\uc232\n\uace0\uc591\uc774\n\uc758\uc790\n\uc6c3\uc74c\n\uc790\uc720\n\ucd94\uc5b5\n\uc57d\uc18d\n\ud5a5\uae30"
+                ],
+                [
+                    "\uacf0\n\ub098\ubb34\n\uc758\uc790\n\ubc14\ub78c\n\uae30\uc068\n\uc57d\uc18d\n\uc5f4\uc1e0\n\uc2dc\uac04\n\ud5a5\uae30\n\ubcc4"
+                ],
+                [
+                    "\ub3cc\n\ubc14\ub78c\n\ub098\ubb34\n\ucc45\n\ubcc4\n\uc18c\uae08\n\uadf8\ub9bc\n\uc9c8\ubb38\n\ud589\ubcf5\n\uc2dc\uc7a5"
+                ],
+                [
+                    "- \ub098\ubb34\n- \ubb3c\n- \ubcc4\n- \ubc14\ub78c\n- \uc2dc\uac04\n- \ub9c8\uc74c\n- \ub178\ub798\n- \uc18c\uae08\n- \uc6b0\uc0b0\n- \uc57d\uc18d"
+                ],
+                [
+                    "\ubc14\ub78c\n\uae30\uc068\n\uadf8\ub9bc\uc790\n\uc5f4\uc1e0\n\uad11\uc7a5\n\uc57d\uc18d\n\uc528\uc557\n\ubb34\uc9c0\uac1c\n\uc9c0\ud61c\n\uc5ec\ud589"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Korean",
+            "constraints": ""
+        }
+    },
+    {
+        "claude/claude-sonnet-4-20250514": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. kniha\n2. d\u00e9\u0161\u0165\n3. radost\n4. st\u016fl\n5. sen\n6. hudba\n7. cesta\n8. kv\u011btina\n9. my\u0161lenka\n10. ohe\u0148"
+                ],
+                [
+                    "1. kniha\n2. slunce\n3. radost\n4. st\u016fl\n5. voda\n6. my\u0161lenka\n7. hudba\n8. cesta\n9. \u010das\n10. srdce"
+                ],
+                [
+                    "1. kniha\n2. d\u00e9\u0161\u0165\n3. radost\n4. st\u016fl\n5. sen\n6. cesta\n7. hudba\n8. sv\u011btlo\n9. \u010das\n10. domov"
+                ],
+                [
+                    "1. kniha\n2. slunce\n3. radost\n4. st\u016fl\n5. voda\n6. hudba\n7. cesta\n8. sen\n9. kv\u011btina\n10. \u010das"
+                ],
+                [
+                    "1. strom\n2. l\u00e1ska\n3. kniha\n4. d\u00e9\u0161\u0165\n5. sen\n6. chl\u00e9b\n7. hudba\n8. okno\n9. radost\n10. cesta"
+                ],
+                [
+                    "1. kniha\n2. d\u00e9\u0161\u0165\n3. radost\n4. st\u016fl\n5. hudba\n6. \u010das\n7. kv\u011btina\n8. sen\n9. cesta\n10. sv\u011btlo"
+                ],
+                [
+                    "1. kniha\n2. d\u00e9\u0161\u0165\n3. radost\n4. st\u016fl\n5. sen\n6. hudba\n7. cesta\n8. l\u00e1ska\n9. k\u00e1men\n10. \u010das"
+                ],
+                [
+                    "1. strom\n2. radost\n3. kniha\n4. d\u00e9\u0161\u0165\n5. sen\n6. chl\u00e9b\n7. hudba\n8. okno\n9. p\u0159\u00e1telstv\u00ed\n10. kl\u00ed\u010d"
+                ],
+                [
+                    "1. strom\n2. radost\n3. kniha\n4. v\u00edtr\n5. spravedlnost\n6. chl\u00e9b\n7. hudba\n8. sen\n9. k\u00e1men\n10. p\u0159\u00e1telstv\u00ed"
+                ],
+                [
+                    "1. strom\n2. radost\n3. kniha\n4. d\u00e9\u0161\u0165\n5. \u010das\n6. l\u00e1ska\n7. chleba\n8. hudba\n9. sen\n10. svoboda"
+                ],
+                [
+                    "1. strom\n2. radost\n3. kniha\n4. v\u00edtr\n5. spravedlnost\n6. chl\u00e9b\n7. vzpom\u00ednka\n8. mo\u0159e\n9. p\u0159\u00e1telstv\u00ed\n10. hudba"
+                ],
+                [
+                    "1. kniha\n2. d\u00e9\u0161\u0165\n3. radost\n4. st\u016fl\n5. sen\n6. hudba\n7. k\u00e1men\n8. bolest\n9. okno\n10. l\u00e1ska"
+                ],
+                [
+                    "1. kniha\n2. d\u00e9\u0161\u0165\n3. radost\n4. st\u016fl\n5. sen\n6. cesta\n7. hudba\n8. sv\u011btlo\n9. \u010das\n10. domov"
+                ],
+                [
+                    "1. strom\n2. radost\n3. kniha\n4. v\u00edtr\n5. spravedlnost\n6. l\u017e\u00edce\n7. sen\n8. hudba\n9. k\u00e1men\n10. svoboda"
+                ],
+                [
+                    "1. kniha\n2. d\u00e9\u0161\u0165\n3. radost\n4. k\u00e1men\n5. hudba\n6. sen\n7. cesta\n8. sv\u011btlo\n9. strach\n10. chl\u00e9b"
+                ]
+            ]
+        },
+        "gpt/gpt-5": {
+            "{\"temperature\": 1}": [
+                [
+                    "ko\u010dka\nstrom\n\u0159eka\nv\u00edtr\nzrcadlo\nchl\u00e9b\nsm\u00edch\nlo\u010f\nnoha\nmy\u0161lenka"
+                ],
+                [
+                    "ko\u010dka\nkladivo\n\u0159eka\np\u00edse\u0148\n\u00fasm\u011bv\nd\u00e9\u0161\u0165\nsvoboda\nokno\nchl\u00e9b\nticho"
+                ],
+                [
+                    "strom\nradost\nmo\u0159e\nkl\u00ed\u010d\nchl\u00e9b\nst\u00edn\np\u00edsmeno\nk\u0159\u00eddlo\nohe\u0148\nticho"
+                ],
+                [
+                    "ko\u010dka\nkladivo\n\u0159eka\nsrdce\nd\u00e9\u0161\u0165\nchl\u00e9b\nradost\nd\u016fm\nkolo\npanenka"
+                ],
+                [
+                    "\u010dlov\u011bk\nstrom\nn\u016f\u017e\nm\u011bsto\nbou\u0159ka\nchl\u00e9b\nsvoboda\np\u00edse\u0148\nst\u00edn\nticho"
+                ],
+                [
+                    "strom\npes\nkniha\nn\u016f\u017e\nsv\u011btlo\np\u0159\u00e1telstv\u00ed\n\u010das\nsm\u00edch\nbou\u0159e\nchl\u00e9b"
+                ],
+                [
+                    "voda\nk\u016f\u0148\nradost\nbou\u0159e\nkladivo\nokno\np\u00edsmeno\np\u00edse\u0148\nchl\u00e9b\nles"
+                ],
+                [
+                    "ko\u010dka\nkladivo\nduha\nsvoboda\npol\u00e9vka\npou\u0161\u0165\nmy\u0161lenka\nzrcadlo\nkamar\u00e1d\np\u00edsek"
+                ],
+                [
+                    "ko\u010dka\nkladivo\nduha\nradost\npol\u00e9vka\nm\u011bsto\nokno\np\u00edse\u0148\nhl\u00edna\n\u010das"
+                ],
+                [
+                    "ko\u010dka\nkladivo\nsvoboda\nbou\u0159ka\nchl\u00e9b\nokno\np\u00edse\u0148\n\u0159eka\nst\u00edn\n\u010das"
+                ],
+                [
+                    "Kniha\nD\u00e9\u0161\u0165\nL\u00e1ska\nHora\nSm\u00edch\nSv\u011btlo\nMravenec\nCibule\nHra\nPrach"
+                ],
+                [
+                    "ko\u010dka\nkladivo\n\u0159eka\nvtip\nsvoboda\np\u00edsmeno\nv\u016fn\u011b\npol\u0161t\u00e1\u0159\nbou\u0159ka\nzahrada"
+                ],
+                [
+                    "k\u00e1men\np\u00edse\u0148\nokno\nradost\n\u0159eka\nchleba\nmrak\ntajemstv\u00ed\npt\u00e1k\n\u010das"
+                ],
+                [
+                    "jablko\nko\u010dka\nkladivo\nbou\u0159ka\np\u0159\u00e1telstv\u00ed\n\u0159eka\np\u00edse\u0148\n\u010das\n\u017eidle\ndobrodru\u017estv\u00ed"
+                ],
+                [
+                    "zrcadlo\np\u0159\u00e1telstv\u00ed\nbou\u0159ka\nv\u016fn\u011b\npou\u0161\u0165\nhlad\nkl\u00ed\u010d\np\u00edse\u0148\nchl\u00e9b\nbrouk"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Czech",
+            "constraints": ""
+        }
+    }
+]
