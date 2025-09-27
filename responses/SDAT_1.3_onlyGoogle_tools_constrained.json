@@ -1,0 +1,3014 @@
+[
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Hammer\nSaw\nWrench\nShovel\nKnife\nLadder\nBrush\nDrill\nLevel\nPliers"
+                ],
+                [
+                    "1. Hammer\n2. Microscope\n3. Language\n4. Computer\n5. Lamp\n6. Pen\n7. Rudder\n8. Strategy\n9. Wheel\n10. Scale"
+                ],
+                [
+                    "Hammer\nSaw\nWrench\nRuler\nShovel\nBrush\nNeedle\nSpoon\nFile\nLevel"
+                ],
+                [
+                    "Hammer\nSaw\nWrench\nBrush\nShovel\nNeedle\nLens\nRuler\nTongs\nChisel"
+                ],
+                [
+                    "Hammer\nSaw\nWrench\nRuler\nPen\nSpoon\nShovel\nNeedle\nBrush\nClamp"
+                ],
+                [
+                    "Hammer\nNeedle\nWrench\nSaw\nSpatula\nMicroscope\nShovel\nBrush\nScale\nChisel"
+                ],
+                [
+                    "Hammer\nNeedle\nShovel\nMicroscope\nWrench\nBrush\nSaw\nSpoon\nRuler\nDrill"
+                ],
+                [
+                    "Hammer\nKnife\nShovel\nPen\nWrench\nSaw\nBrush\nScissor\nLevel\nPliers"
+                ],
+                [
+                    "Axe\nFork\nChisel\nStapler\nRake\nPliers\nSponge\nSpatula\nScale\nPeeler"
+                ],
+                [
+                    "1.  Hammer\n2.  Needle\n3.  Microscope\n4.  Spoon\n5.  Shovel\n6.  Pen\n7.  Wheelbarrow\n8.  Compass\n9.  Ladder\n10. Telescope"
+                ],
+                [
+                    "1.  Hammer\n2.  Spoon\n3.  Saw\n4.  Ruler\n5.  Pliers\n6.  Shovel\n7.  Needle\n8.  Whisk\n9.  Key\n10. Brush"
+                ],
+                [
+                    "Hammer\nNeedle\nShovel\nPen\nLens\nKey\nSponge\nLadder\nSpoon\nCompass"
+                ],
+                [
+                    "Hammer\nSaw\nWrench\nShovel\nBroom\nNeedle\nSpoon\nPen\nLevel\nGrater"
+                ],
+                [
+                    "Hammer\nNeedle\nShovel\nScalpel\nBrush\nWrench\nSieve\nRuler\nPen\nTongs"
+                ],
+                [
+                    "Hammer\nSaw\nWrench\nNeedle\nShovel\nSpoon\nPen\nLadder\nKey\nBrush"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Hammer\nSpoon\nLadder\nNeedle\nMagnifying glass\nScissors\nWheelbarrow\nMicroscope\nTelescope\nCompass"
+                ],
+                [
+                    "Hammer\nSieve\nLens\nAnchor\nPencil\nRake\nComb\nMap\nCompass\nScalpel"
+                ],
+                [
+                    "Spoon\nHammer\nCompass\nPen\nScissors\nMirror\nLadder\nBroom\nKey\nSaw"
+                ],
+                [
+                    "Hammer\nCompass\nSpectacles\nShovel\nLock\nAnchor\nLadder\nSaw\nNeedle\nMirror"
+                ],
+                [
+                    "Hammer\nSpoon\nKey\nLadder\nNeedle\nScissors\nBrush\nSieve\nChisel\nCompass"
+                ],
+                [
+                    "Hammer\nScrewdriver\nWrench\nSaw\nPlier\nChisel\nFile\nDrill\nClamp\nLevel"
+                ],
+                [
+                    "Hammer\nScissors\nSpoon\nWrench\nNeedle\nShovel\nSaw\nPencil\nFilter\nLever"
+                ],
+                [
+                    "Hammer\nScissors\nSpoon\nNeedle\nWrench\nComb\nSieve\nPencil\nTrowel\nLamp"
+                ],
+                [
+                    "Spoon\nHammer\nCompass\nLadder\nPen\nMicroscope\nSewing machine\nTelescope\nScale\nWrench"
+                ],
+                [
+                    "Hammer\nScalpel\nCompass\nPlough\nLoom\nMicroscope\nAbacus\nThermos\nTelescope\nLantern"
+                ],
+                [
+                    "Hammer\nSpoon\nNeedle\nMagnifying glass\nCompass\nLadder\nAnchor\nSieve\nPen\nScalpel"
+                ],
+                [
+                    "Hammer\nKey\nNeedle\nSieve\nMirror\nSaw\nLens\nCandle\nSpring\nAnchor"
+                ],
+                [
+                    "Hammer\nLens\nSieve\nCompass\nAbacus\nChisel\nRake\nQuill\nLadder\nCrank"
+                ],
+                [
+                    "Hammer\nNeedle\nSpatula\nCompass\nLever\nAwl\nChisel\nWrench\nScaffold\nTrowel"
+                ],
+                [
+                    "Hammer\nScrewdriver\nCompass\nScalpel\nChisel\nWrench\nPlier\nAwl\nFile\nSaw"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Abacus\n2.  Awl\n3.  Brush\n4.  Chisel\n5.  Level\n6.  Mortar\n7.  Quill\n8.  Rake\n9.  Shovel\n10. Sieve"
+                ],
+                [
+                    "List:\n\n1.  Abacus\n2.  Lens\n3.  Lever\n4.  Quill\n5.  Shovel\n6.  Filter\n7.  Awl\n8.  Alarm\n9.  Crank\n10. Gimbal"
+                ],
+                [
+                    "*   Chisel\n*   Compass\n*   Lens\n*   Anchor\n*   Filter\n*   Sieve\n*   Lever\n*   Model\n*   Scale\n*   Template"
+                ],
+                [
+                    "1.  Lever\n2.  Shovel\n3.  Abacus\n4.  Mirror\n5.  Filter\n6.  Yarn\n7.  Sieve\n8.  Awl\n9.  Scale\n10. Compass"
+                ],
+                [
+                    "*   Lever\n*   Sieve\n*   Awl\n*   Wedge\n*   Chisel\n*   Clamp\n*   Mortar\n*   Drill\n*   Gouge\n*   Mallet"
+                ],
+                [
+                    "*   Abacus\n*   Balance\n*   Filter\n*   Goad\n*   Lever\n*   Magnet\n*   Mirror\n*   Mould\n*   Quill\n*   Sieve"
+                ],
+                [
+                    "1.  Abacus\n2.  Awl\n3.  Bulldozer\n4.  Calculator\n5.  Crank\n6.  Derrick\n7.  Drill\n8.  File\n9.  Lens\n10. Pulley"
+                ],
+                [
+                    "1.  Abacus\n2.  Lever\n3.  Shovel\n4.  Filter\n5.  Goad\n6.  Awl\n7.  Trowel\n8.  Wedge\n9.  Quill\n10. Sieve"
+                ],
+                [
+                    "- Anchor\n- Quill\n- Sieve\n- Lever\n- Mallet\n- Compass\n- Ladder\n- Chisel\n- Awl\n- Vice"
+                ],
+                [
+                    "1.  Lever\n2.  Filter\n3.  Compass\n4.  Shovel\n5.  Abacus\n6.  Awl\n7.  Tweezer\n8.  Wedge\n9.  Mallet\n10. Sieve"
+                ],
+                [
+                    "1.  Abacus\n2.  Axe\n3.  Filter\n4.  Level\n5.  Oven\n6.  Prescription\n7.  Rope\n8.  Scale\n9.  Tweezer\n10. Vocabulary"
+                ],
+                [
+                    "List of 10 distinct nouns:\n\n1.  Lever\n2.  Sieve\n3.  Awl\n4.  Chisel\n5.  Clamp\n6.  Wedge\n7.  Mortar\n8.  Goad\n9.  Bellows\n10. Crucible"
+                ],
+                [
+                    "List:\n1.  Abacus\n2.  Lever\n3.  Wrench\n4.  Filter\n5.  Template\n6.  Magnet\n7.  Crucible\n8.  Awl\n9.  Tweezer\n10. Catalyst"
+                ],
+                [
+                    "Spoon\nLever\nFilter\nAwl\nQuill\nAnchor\nShovel\nCompass\nGoad\nMortar"
+                ],
+                [
+                    "1.  Abacus\n2.  Drill\n3.  Filter\n4.  Goad\n5.  Lever\n6.  Mirror\n7.  Plow\n8.  Shovel\n9.  Sieve\n10. Syringe"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Hammer\n2.  Chisel\n3.  Wrench\n4.  Scissors\n5.  Spoon\n6.  Saw\n7.  Ruler\n8.  Plumb\n9.  Pencil\n10. Trowel"
+                ],
+                [
+                    "1.  Hammer\n2.  Rake\n3.  Scissors\n4.  Spoon\n5.  Wrench\n6.  Saw\n7.  Broom\n8.  Needle\n9.  Pliers\n10. Brush"
+                ],
+                [
+                    "1.  Hammer\n2.  Scissors\n3.  Plow\n4.  Spoon\n5.  Rake\n6.  Wrench\n7.  Needle\n8.  Anvil\n9.  Chisel\n10. Trowel"
+                ],
+                [
+                    "Hammer\nScissors\nCompass\nWrench\nSpoon\nNeedle\nLevel\nSaw\nRuler\nAxe"
+                ],
+                [
+                    "1.  Hammer\n2.  Pliers\n3.  Screwdriver\n4.  Saw\n5.  Wrench\n6.  Chisel\n7.  Level\n8.  Drill\n9.  Axe\n10. Trowel"
+                ],
+                [
+                    "Hammer\nMirror\nRake\nSaw\nRuler\nLevel\nWrench\nCompass\nShovel\nNeedle"
+                ],
+                [
+                    "Hammer\nRake\nScissors\nAxe\nWrench\nShovel\nNeedle\nPliers\nSaw\nSpoon"
+                ],
+                [
+                    "Hammer\nScissors\nWrench\nNeedle\nSaw\nSpoon\nChisel\nShovel\nPlunger\nPliers"
+                ],
+                [
+                    "Hammer\nChisel\nRake\nWrench\nScissors\nAxe\nSpoon\nPlumb\nTrowel\nNeedle"
+                ],
+                [
+                    "Hammer\nComb\nScissors\nWrench\nSpoon\nRake\nChisel\nNeedle\nSaw\nTrowel"
+                ],
+                [
+                    "Hammer\nCompass\nScissors\nWrench\nSaw\nSpoon\nRuler\nNeedle\nLevel\nAxe"
+                ],
+                [
+                    "Hammer\nWrench\nSpoon\nChisel\nTrowel\nSaw\nShovel\nScissors\nNeedle\nLevel"
+                ],
+                [
+                    "Hammer\nScissors\nAxe\nWrench\nSpoon\nSaw\nNeedle\nLevel\nRake\nPlumb"
+                ],
+                [
+                    "Hammer\nScissors\nBucket\nRake\nSpoon\nWrench\nSaw\nNeedle\nLevel\nPlunger"
+                ],
+                [
+                    "Hammer\nWrench\nScissors\nSpoon\nAxe\nSaw\nPliers\nScrewdriver\nNeedle\nTrowel"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "Axe\nHammer\nSaw\nChisel\nPliers\nWrench\nScrewdriver\nLevel\nCrowbar\nMallet\n\n\n\n"
+                ],
+                [
+                    "Axe\nHammer\nRuler\nChisel\nSaw\nWrench\nPliers\nLevel\nFile\nScrewdriver\n\n\n\n"
+                ],
+                [
+                    "Axe\nHammer\nRuler\nSaw\nChisel\nPliers\nWrench\nScrewdriver\nMallet\nLevel\n\n\n\n"
+                ],
+                [
+                    "Axe\nHammer\nRuler\nChisel\nSaw\nPliers\nWrench\nFile\nScrewdriver\nLevel\n\n\n\n"
+                ],
+                [
+                    "Axe\nHammer\nRuler\nChisel\nSaw\nPliers\nWrench\nLevel\nScrewdriver\nMallet"
+                ],
+                [
+                    "Axe\nRuler\nHammer\nChisel\nSaw\nPliers\nWrench\nScrewdriver\nMallet\nLevel"
+                ],
+                [
+                    "Axe\nRuler\nHammer\nTrowel\nChisel\nPliers\nSaw\nWrench\nScrewdriver\nLevel\n\n\n\n"
+                ],
+                [
+                    "Axe\nHammer\nNeedle\nChisel\nWrench\nSaw\nPliers\nLever\nRake\nMallet"
+                ],
+                [
+                    "Awl\nChisel\nLever\nPliers\nRuler\nSaw\nScrewdriver\nSpanner\nTrowel\nWrench\n"
+                ],
+                [
+                    "Axe\nRuler\nHammer\nTrowel\nChisel\nSaw\nPliers\nWrench\nScrewdriver\nLevel\n"
+                ],
+                [
+                    "Axe\nHammer\nChisel\nPliers\nSaw\nScrewdriver\nWrench\nCrowbar\nLevel\nMallet\n"
+                ],
+                [
+                    "Axe\nHammer\nRuler\nChisel\nSaw\nPliers\nWrench\nLevel\nScrewdriver\nMallet\n"
+                ],
+                [
+                    "Axe\nHammer\nRuler\nChisel\nSaw\nPliers\nWrench\nScrewdriver\nTrowel\nLevel"
+                ],
+                [
+                    "Axe\nHammer\nNeedle\nLever\nChisel\nWrench\nSaw\nPliers\nCrowbar\nMallet\n"
+                ],
+                [
+                    "Awl\nChisel\nPliers\nHammer\nSaw\nRuler\nWrench\nScrewdriver\nPlane\nFile\n\n\n\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "English",
+            "constraints": "Final rule: every word must be a tool."
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Martillo\nAguja\nPala\nLlave\nPincel\nBr\u00fajula\nBalanza\nTijeras\nEscoba\nArado"
+                ],
+                [
+                    "Martillo\nPala\nTijeras\nLlave\nPincel\nRegla\nHacha\nComp\u00e1s\nAguja\nRastrillo"
+                ],
+                [
+                    "1. Martillo\n2. Sierra\n3. Pala\n4. Destornillador\n5. Tenaza\n6. Brocha\n7. Metro\n8. Azada\n9. Tijera\n10. Lima"
+                ],
+                [
+                    "1. Martillo\n2. Aguja\n3. Pala\n4. Pincel\n5. Libro\n6. Llave\n7. Br\u00fajula\n8. Tijeras\n9. Palabra\n10. Balanza"
+                ],
+                [
+                    "* Martillo\n* Destornillador\n* Sierra\n* Llave\n* Pala\n* Balanza\n* Lupa\n* Aguja\n* Bomba\n* L\u00e1piz"
+                ],
+                [
+                    "*   Martillo\n*   Destornillador\n*   Serrucho\n*   Alicates\n*   Llave\n*   Tijeras\n*   Pala\n*   Nivel\n*   Brocha\n*   Metro"
+                ],
+                [
+                    "1. Martillo\n2. Aguja\n3. Pala\n4. Llave\n5. Pincel\n6. Regla\n7. Escoba\n8. Hacha\n9. Balanza\n10. Lupa"
+                ],
+                [
+                    "* Martillo\n* Cuchillo\n* Aguja\n* Llave\n* Pala\n* Regla\n* Lupa\n* Cepillo\n* Vela\n* Libro"
+                ],
+                [
+                    "*   Cuchillo\n*   Martillo\n*   Regla\n*   Pala\n*   Aguja\n*   Llave\n*   Escoba\n*   L\u00e1piz\n*   Pinza\n*   Hacha"
+                ],
+                [
+                    "1. Martillo\n2. Aguja\n3. Pala\n4. Llave\n5. Pincel\n6. Azada\n7. Br\u00fajula\n8. Tijeras\n9. Torno\n10. L\u00e1piz"
+                ],
+                [
+                    "1.  Martillo\n2.  Aguja\n3.  Lupa\n4.  Mapa\n5.  M\u00e9todo\n6.  Reloj\n7.  Pincel\n8.  Br\u00fajula\n9.  Palabra\n10. Espejo"
+                ],
+                [
+                    "1. Martillo\n2. Lupa\n3. Balanza\n4. Br\u00fajula\n5. Pincel\n6. Regla\n7. Palabra\n8. Duda\n9. Memoria\n10. Estrategia"
+                ],
+                [
+                    "1. Martillo\n2. Tijeras\n3. Aguja\n4. Pala\n5. Llave\n6. Brocha\n7. Comp\u00e1s\n8. Yunque\n9. Lupa\n10. Embudo"
+                ],
+                [
+                    "Martillo\nSerrucho\nLlave\nPala\nTijera\nPincel\nRastrillo\nNivel\nLima\nAguja"
+                ],
+                [
+                    "* Martillo\n* Aguja\n* Br\u00fajula\n* Cuchara\n* Tijeras\n* Pala\n* Lupa\n* Llave\n* Escoba\n* Pincel"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Martillo\n2. Tijeras\n3. Destornillador\n4. Llave\n5. Pinza\n6. Sierra\n7. Taladro\n8. Nivel\n9. Cinta m\u00e9trica\n10. Maza"
+                ],
+                [
+                    "Llave\nSerrucho\nTijeras\nMartillo\nDestornillador\nPinzas\nSierra\nTaladro\nC\u00fater\nPala"
+                ],
+                [
+                    "Tornillo\nPala\nMartillo\nAguja\nSierra\nDestornillador\nLlave\nCuchara\nTijeras\nEscalera"
+                ],
+                [
+                    "Taladro\nTijeras\nMartillo\nSierra\nDestornillador\nLlave\nCinta m\u00e9trica\nAlicates\nPala\nNivel"
+                ],
+                [
+                    "Martillo\nPeriscopio\nBr\u00fajula\nPalanca\nTijeras\nRed\nTerm\u00f3metro\nTubo\nLupa\nSierra"
+                ],
+                [
+                    "Alicate\nTijeras\nMartillo\nDestornillador\nSerrucho\nLlave\nPala\nTaladro\nSierra\nNivel"
+                ],
+                [
+                    "Martillo\nTijeras\nLlave\nTaladro\nDestornillador\nSierra\nAlicates\nPala\nPlomada\nCincel"
+                ],
+                [
+                    "Martillo\nTornillo\nAlicate\nSierra\nDestornillador\nTaladro\nLlave\nC\u00fater\nNivel\nBroca"
+                ],
+                [
+                    "Martillo\nTijeras\nLlave\nPala\nBrocha\nSerrucho\nDestornillador\nAlicates\nCuchillo\nNivel"
+                ],
+                [
+                    "Tijera\nMartillo\nCuchara\nSierra\nL\u00e1piz\nLlave\nAgujas\nRueda\nBalanza\nPala"
+                ],
+                [
+                    "Maza\nBr\u00fajula\nSierra\nTaladro\nLupa\nMartillo\nSerrucho\nPinza\nLlave\nDestornillador"
+                ],
+                [
+                    "Destornillador\nMartillo\nLlave\nSierra\nAlicates\nNivel\nPinza\nTaladro\nCincel\nPala"
+                ],
+                [
+                    "Martillo\nAgujero\nEspejo\nRueda\nL\u00e1mpara\nLlave\nCuerda\nVela\nTijeras\nPala"
+                ],
+                [
+                    "Martillo\nTornillo\nSierra\nLlave\nPinza\nDestornillador\nTaladro\nNivel\nCinta\nBroca"
+                ],
+                [
+                    "Destornillador\nTijeras\nMartillo\nLlave inglesa\nSerrucho\nAlicates\nPala\nPico\nNivel\nC\u00fater"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Arado\n2.  Aguja\n3.  Tamiz\n4.  Tijeras\n5.  Cuerda\n6.  Palanca\n7.  Cincel\n8.  Yunque\n9.  Clavo\n10. Balanza"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  Arado\n2.  Aguja\n3.  Cincel\n4.  Tamiz\n5.  Tornillo\n6.  Palanca\n7.  Br\u00fajula\n8.  Clavo\n9.  Remo\n10. Soga"
+                ],
+                [
+                    "1.  Cincel\n2.  Aguja\n3.  Tamiz\n4.  Clavo\n5.  Palanca\n6.  Yunque\n7.  Polea\n8.  Arado\n9.  Esp\u00e1tula\n10. Soplete"
+                ],
+                [
+                    "1.  Cincel\n2.  Tamiz\n3.  \u00c1baco\n4.  Tornillo\n5.  Anzuelo\n6.  Cu\u00f1a\n7.  Yunque\n8.  Palanca\n9.  Rodillo\n10. Soplete"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras, cumpliendo con todas las reglas:\n\n1.  Clavo\n2.  Tamiz\n3.  Palanca\n4.  Torno\n5.  Cuerda\n6.  Cincel\n7.  Embudo\n8.  Anzuelo\n9.  Yunque\n10. Balanza"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  Tamiz\n2.  Cincel\n3.  \u00c1baco\n4.  Balanza\n5.  Arado\n6.  Torno\n7.  Yunque\n8.  Grapadora\n9.  P\u00e9ndulo\n10. Telar"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  Arado\n2.  Tamiz\n3.  Cincel\n4.  Prensa\n5.  Polea\n6.  Yunque\n7.  Abrazadera\n8.  Barrena\n9.  Torno\n10. Gatillo"
+                ],
+                [
+                    "1.  Azad\u00f3n\n2.  Buril\n3.  Cuerda\n4.  Balanza\n5.  Tamiz\n6.  Yunque\n7.  Cincel\n8.  Tornillo\n9.  Clavo\n10. Palanca"
+                ],
+                [
+                    "1.  Azada\n2.  Cincel\n3.  Tamiz\n4.  Yunque\n5.  Garlopa\n6.  Berbiqu\u00ed\n7.  Tirachinas\n8.  Clavija\n9.  Palanca\n10. Abrazadera"
+                ],
+                [
+                    "1.  Tamiz\n2.  Cuerda\n3.  Palanca\n4.  Cincel\n5.  Clavo\n6.  Yunque\n7.  Aguja\n8.  Arado\n9.  Balanza\n10. Grapadora"
+                ],
+                [
+                    "1.  Aguja\n2.  Cuerda\n3.  Clavo\n4.  Tamiz\n5.  Tiza\n6.  Palanca\n7.  Cincel\n8.  Cinta\n9.  Yunque\n10. Cu\u00f1a"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n 10 herramientas que considero muy diferentes entre s\u00ed en significado y uso:\n\n1.  Cincel\n2.  \u00c1baco\n3.  Palanca\n4.  Tamiz\n5.  Yunque\n6.  Torno\n7.  Grapadora\n8.  Regla\n9.  Clave\n10. Cuerda"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  Arado\n2.  Cuerda\n3.  Tamiz\n4.  Ancla\n5.  Jeringa\n6.  Clavo\n7.  Palanca\n8.  Yunque\n9.  Cincel\n10. Abrazadera"
+                ],
+                [
+                    "Aqu\u00ed tienes una lista de 10 palabras que cumplen tus criterios:\n\n1.  **Clavo**\n2.  **Red**\n3.  **Cuerda**\n4.  **Lupa**\n5.  **Embudo**\n6.  **Palanca**\n7.  **Tamiz**\n8.  **Yunque**\n9.  **Cincel**\n10. **Torno**"
+                ],
+                [
+                    "Aqu\u00ed tienes una lista de 10 sustantivos que representan herramientas, con la intenci\u00f3n de que sean lo m\u00e1s diferentes posible en significado y uso:\n\n1.  Tamiz\n2.  Cu\u00f1a\n3.  Grapadora\n4.  Tornillo\n5.  Cuerda\n6.  Pinzas\n7.  Cincel\n8.  Yunque\n9.  Arado\n10. Abrazadera"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Aqu\u00ed tienes las 10 palabras:\n\n1.  Hacha\n2.  Aguja\n3.  Cepillo\n4.  Martillo\n5.  Tijeras\n6.  Escalera\n7.  Cuerda\n8.  Regla\n9.  Destornillador\n10. Balanza"
+                ],
+                [
+                    "1.  Llave\n2.  Cuerda\n3.  Escalera\n4.  Hacha\n5.  Embudo\n6.  Serrucho\n7.  Pinzas\n8.  Regla\n9.  Cuchillo\n10. Destornillador"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  Cuchillo\n2.  Escalera\n3.  Hacha\n4.  Tijeras\n5.  Destornillador\n6.  Martillo\n7.  Alicates\n8.  Serrucho\n9.  Regla\n10. Pala"
+                ],
+                [
+                    "1.  L\u00e1piz\n2.  Martillo\n3.  Escalera\n4.  Tijeras\n5.  Embudo\n6.  Cuerda\n7.  Llave\n8.  Sierra\n9.  Regla\n10. Destornillador"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  Cuchillo\n2.  Martillo\n3.  Escalera\n4.  Cepillo\n5.  Llave\n6.  Sierra\n7.  Embudo\n8.  Alicate\n9.  Hacha\n10. Pala"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  Martillo\n2.  Cincel\n3.  Escuadra\n4.  Serrucho\n5.  Tenaza\n6.  Nivel\n7.  Destornillador\n8.  Alicate\n9.  Maza\n10. Regla"
+                ],
+                [
+                    "1.  Cincel\n2.  Escalera\n3.  Llave\n4.  Martillo\n5.  Regla\n6.  Tijeras\n7.  Serrucho\n8.  Destornillador\n9.  Cepillo\n10. Pala"
+                ],
+                [
+                    "1.  Martillo\n2.  Soporte\n3.  Broca\n4.  Destornillador\n5.  Nivel\n6.  Escuadra\n7.  Pinza\n8.  Llave\n9.  Serrucho\n10. Escalera"
+                ],
+                [
+                    "Aqu\u00ed tienes las 10 palabras:\n\n1.  Agua\n2.  Tiempo\n3.  Puente\n4.  Luz\n5.  Cielo\n6.  Mano\n7.  Ra\u00edz\n8.  Hambre\n9.  Sombra\n10. Sonido"
+                ],
+                [
+                    "1.  Cuchillo\n2.  Escalera\n3.  Pincel\n4.  Martillo\n5.  Tijeras\n6.  Balanza\n7.  Regla\n8.  Llave\n9.  Arco\n10. Serrucho"
+                ],
+                [
+                    "Aqu\u00ed est\u00e1n las 10 palabras:\n\n1.  **Martillo**\n2.  **Llave**\n3.  **Escalera**\n4.  **Cuerda**\n5.  **Regla**\n6.  **Lupa**\n7.  **Tijeras**\n8.  **Destornillador**\n9.  **Sierra**\n10. **Balanc\u00edn**"
+                ],
+                [
+                    "1.  Llave\n2.  Cincel\n3.  Azada\n4.  Escuadra\n5.  Aguja\n6.  Broca\n7.  Sierra\n8.  Tenaza\n9.  Rodillo\n10. Balanc\u00edn"
+                ],
+                [
+                    "1.  Martillo\n2.  Cuchillo\n3.  Regla\n4.  Destornillador\n5.  Escalera\n6.  Manguera\n7.  Broca\n8.  Guada\u00f1a\n9.  Serrucho\n10. Pinzas"
+                ],
+                [
+                    "1.  Llave\n2.  Hacha\n3.  Martillo\n4.  Cincel\n5.  Sierra\n6.  Destornillador\n7.  Alicates\n8.  Azada\n9.  Cepillo\n10. Balanza"
+                ],
+                [
+                    "1.  Llave\n2.  Martillo\n3.  Escalera\n4.  Cuerda\n5.  Soporte\n6.  Mesa\n7.  Aguja\n8.  Cincel\n9.  Torno\n10. Pala"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Destornillador\n4.  Sierra\n5.  Llave\n6.  Taladro\n7.  Goniometro\n8.  Lima\n9.  Pico\n10. Cinta\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Sierra\n4.  Destornillador\n5.  Llave\n6.  Gato\n7.  Taladro\n8.  Lima\n9.  Cincel\n10. Prensa\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Sierra\n4.  Destornillador\n5.  Gluoro\n6.  Lima\n7.  Taladro\n8.  Escuadra\n9.  Cincel\n10.  Pico\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Destornillador\n4.  Sierra\n5.  Llave\n6.  Taladro\n7.  Garlopa\n8.  Lima\n9.  Escuadra\n10. Cincel\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Destornillador\n4.  Sierra\n5.  Llave\n6.  Gato\n7.  Lima\n8.  Taladro\n9.  Escuadra\n10. Cinta\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Destornillador\n4.  Sierra\n5.  Llave\n6.  Cincel\n7.  Garlopa\n8.  Lima\n9.  Taladro\n10. Escuadra\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Destornillador\n4.  Sierra\n5.  Llave\n6.  Taladro\n7.  Lima\n8.  Goni\u00f3metro\n9.  Escuadra\n10. Cincel\n"
+                ],
+                [
+                    "1. Martillo\n2. Alicate\n3. Sierra\n4. Lima\n5. Taladro\n6. Destornillador\n7. Cincel\n8. Garlopa\n9. Escuadra\n10. Lija\n"
+                ],
+                [
+                    "1. Martillo\n2. Sierra\n3. Taladro\n4. Llave\n5. Destornillador\n6. Alicates\n7. Cepillo\n8. Lima\n9. Garlopa\n10. Escuadra\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Sierra\n4.  Destornillador\n5.  Gabarito\n6.  Lima\n7.  Taladro\n8.  Pico\n9.  Llave\n10. Cinta\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Destornillador\n4.  Sierra\n5.  Llave\n6.  Taladro\n7.  Garlopa\n8.  Lima\n9.  Cincel\n10. Brotador\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Destornillador\n4.  Sierra\n5.  Taladro\n6.  Llave\n7.  Goni\u00f3metro\n8.  Lima\n9.  Cincel\n10.  Pico\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Destornillador\n4.  Sierra\n5.  Llave\n6.  Taladro\n7.  Gato\n8.  Cincel\n9.  Lima\n10. Maza\n"
+                ],
+                [
+                    "1. Martillo\n2. Cincel\n3. Lima\n4. Sierra\n5. Destornillador\n6. Taladro\n7. Garlopa\n8. Punz\u00f3n\n9. Lija\n10. Broca\n"
+                ],
+                [
+                    "1.  Alicates\n2.  Martillo\n3.  Destornillador\n4.  Sierra\n5.  Llave\n6.  Taladro\n7.  Garlopa\n8.  Lima\n9.  Cincel\n10. Brotador\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Spanish",
+            "constraints": "Regla final: cada palabra debe ser una herramienta."
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Marteau\nCouteau\nPelle\nCl\u00e9\nAiguille\nBalai\nCrayon\nR\u00e8gle\nFourchette\nLevier"
+                ],
+                [
+                    "1.  Marteau\n2.  Aiguille\n3.  R\u00e8gle\n4.  Pelle\n5.  Cl\u00e9\n6.  Filet\n7.  Lentille\n8.  Boussole\n9.  Savoir\n10. Parole"
+                ],
+                [
+                    "Marteau\nAiguille\nPelle\nCiseaux\nCl\u00e9\nBrosse\nR\u00e8gle\nFouet\nLouche\nCompas"
+                ],
+                [
+                    "Marteau\nCl\u00e9\nRoue\nAiguille\nLoi\nLangage\nR\u00e8gle\nLentille\nBoussole\nLevier"
+                ],
+                [
+                    "1. Marteau\n2. Crayon\n3. Pelle\n4. Couteau\n5. Aiguille\n6. M\u00e8tre\n7. Balai\n8. Lime\n9. Pince\n10. Loupe"
+                ],
+                [
+                    "Marteau\nCrayon\nPelle\nCl\u00e9\nR\u00e8gle\nBalance\nFilet\nPinceau\nPlan\nLentille"
+                ],
+                [
+                    "Marteau\nAiguille\nPelle\nCiseaux\nCl\u00e9\nBrosse\nR\u00e8gle\nPince\nTamis\nBalance"
+                ],
+                [
+                    "Marteau\nScie\nAiguille\nR\u00e8gle\nPince\nCl\u00e9\nPelle\nBrosse\nLentille\nCorde"
+                ],
+                [
+                    "Marteau\nScie\nTournevis\nPelle\nCl\u00e9\nAiguille\nBalance\nPinceau\nLime\nLoupe"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Crayon\n3.  R\u00e8gle\n4.  Couteau\n5.  Pelle\n6.  Langage\n7.  Balance\n8.  Compas\n9.  Aiguille\n10. Plan"
+                ],
+                [
+                    "Marteau\nCouteau\nPelle\nPince\nAiguille\nR\u00e8gle\nCl\u00e9\nLoupe\nScie\n\u00c9ponge"
+                ],
+                [
+                    "Marteau\nCouteau\nR\u00e8gle\nPelle\nBrosse\nAiguille\nCl\u00e9\nLoupe\nTamis\nBrouette"
+                ],
+                [
+                    "Marteau\nBoussole\nLangage\nR\u00e8gle\nM\u00e9moire\nCiseaux\nBalance\nQuestion\nLentille\nPlan"
+                ],
+                [
+                    "Marteau\nPinceau\nCl\u00e9\nCiseaux\nR\u00e8gle\nCarte\nLangage\nId\u00e9e\nNombre\nQuestion"
+                ],
+                [
+                    "Couteau\nMarteau\nAiguille\nB\u00eache\nPince\nR\u00e8gle\nBrosse\nCompas\nCl\u00e9\n\u00c9chelle"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Marteau\nCl\u00e9\nCrayon\nSouffrance\nAmi\nTemps\nOiseau\nCouteau\nLivre\nCouleur"
+                ],
+                [
+                    "Cl\u00e9\nPelle\nMarteau\nCiseaux\nAiguille\nTasse\nChaise\n\u00c9ventail\nPince\nScie"
+                ],
+                [
+                    "Cl\u00e9\nMarteau\nCrayon\nSavon\nTasse\nSac\nRoue\nPeigne\nVerre\nLampe"
+                ],
+                [
+                    "Cl\u00e9\nPince\nScie\nVis\nMarteau\nCiseau\nTournevis\nClou\nSpatule\n\u00c9chelle"
+                ],
+                [
+                    "Marteau\nAiguille\nTasse\nCl\u00e9\nLivre\nCorde\nPinceau\nVis\nPomme\nMiroir"
+                ],
+                [
+                    "Outil\nGant\nCl\u00e9\nMarteau\nVis\nPince\nScie\nPlanche\nTerre\nFeu"
+                ],
+                [
+                    "Bateau\nPeinture\nCl\u00e9\n Livre\nChaise\nCouteau\nPelle\nBallon\nFeuille\nBrosse"
+                ],
+                [
+                    "Marteau\nPelle\nCiseau\nTournevis\nCl\u00e9\nScie\nPince\nLime\nBrouette\nLoupe"
+                ],
+                [
+                    "Boulon\nClou\nVis\nMarteau\nPince\nTournevis\nScie\nPapier\nPlume\nCrayon"
+                ],
+                [
+                    "Cl\u00e9\nMarteau\nCiseau\nTournevis\nPelle\nScie\nPinces\nLime\nPied-\u00e0-coulisse\nNiveau"
+                ],
+                [
+                    "Outil\nCl\u00e9\nMarteau\nCiseau\nPince\nVis\nTournevis\nScie\nLime\nM\u00e8tre"
+                ],
+                [
+                    "Cl\u00e9\nGraine\nVent\nMur\nLivre\nSable\nOnde\nR\u00eave\nFeu\nTemps"
+                ],
+                [
+                    "Cl\u00e9\nSable\nLivre\nVent\nMiroir\nBruit\nOmbre\nSource\nPont\nFolie"
+                ],
+                [
+                    "Marteau\nCl\u00e9\nScie\nVis\nTournevis\nPince\nCiseaux\nR\u00e8gle\nNiveau\nM\u00e8tre"
+                ],
+                [
+                    "Marteau\nCrayon\nCl\u00e9\nTasse\nChaise\nLivre\nFen\u00eatre\nBouteille\nTable\nLampe"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "*   Cl\u00e9\n*   Aiguille\n*   Livre\n*   Tampon\n*   Pinceau\n*   Aimant\n*   Ciseaux\n*   Balance\n*   Loupe\n*   Filtre"
+                ],
+                [
+                    "1.  Aiguille\n2.  Balance\n3.  Ciseau\n4.  Colle\n5.  Fouet\n6.  Lime\n7.  Marteau\n8.  Pinceau\n9.  Tampon\n10. Treuil"
+                ],
+                [
+                    "*   Cl\u00e9\n*   Fil\n*   Livre\n*   Tampon\n*   Balai\n*   Aimant\n*   Crayon\n*   R\u00e8gle\n*   Couteau\n*   Pinceau"
+                ],
+                [
+                    "*   Cl\u00e9\n*   Filet\n*   Levier\n*   Tampon\n*   Moule\n*   Crayon\n*   Aimant\n*   \u00c9ponge\n*   Peigne\n*   Balance"
+                ],
+                [
+                    "*   Aiguille\n*   Levier\n*   Tampon\n*   Fil\n*   Cl\u00e9\n*   Corde\n*   Pinceau\n*   Ciseau\n*   \u00c9ponge\n*   Pi\u00e8ge"
+                ],
+                [
+                    "*   Clou\n*   Pelle\n*   Couteau\n*   Fil\n*   Livre\n*   Peigne\n*   Lampe\n*   Sac\n*   R\u00e8gle\n*   Pinceau"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Aiguille\n3.  Tampon\n4.  Moule\n5.  Crayon\n6.  Balance\n7.  Passoire\n8.  Aimant\n9.  Corde\n10. \u00c9ponge"
+                ],
+                [
+                    "Clou\nAiguille\nCiseaux\nSerpe\nLime\nPinceau\nTampon\nMarteau\nBalance\nMoule"
+                ],
+                [
+                    "*   Aiguille\n*   Clou\n*   Faucille\n*   Couteau\n*   Lime\n*   Lasso\n*   Tampon\n*   Pinceau\n*   Balance\n*   Seringue"
+                ],
+                [
+                    "*   Clou\n*   Aiguille\n*   Tampon\n*   Moule\n*   Lime\n*   Balance\n*   Ciseau\n*   Pelle\n*   Pinceau\n*   Tamis"
+                ],
+                [
+                    "*   Cl\u00e9\n*   Aiguille\n*   Couteau\n*   Levier\n*   Maillet\n*   Tampon\n*   Pinceau\n*   Lime\n*   Balance\n*   Moule"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Aiguille\n3.  Filet\n4.  Tampon\n5.  Pince\n6.  Livre\n7.  Moulin\n8.  Chariot\n9.  Levier\n10. Miroir"
+                ],
+                [
+                    "*   Clou\n*   Corde\n*   Aiguille\n*   Lime\n*   Pelle\n*   Tampon\n*   Levier\n*   Pinceau\n*   Enclume\n*   Tampon"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Aiguille\n3.  Tampon\n4.  Balance\n5.  Fouet\n6.  Pinceau\n7.  Moulin\n8.  \u00c9chelle\n9.  Filtre\n10. Ciseaux"
+                ],
+                [
+                    "*   Clou\n*   Aiguille\n*   Couteau\n*   Pinceau\n*   Tampon\n*   Filet\n*   Livre\n*   R\u00e8gle\n*   Levier\n*   Balance"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Cl\u00e9\n2.  Ciseau\n3.  Marteau\n4.  R\u00e8gle\n5.  \u00c9chelle\n6.  Spatule\n7.  Loupe\n8.  Fil\n9.  Grattoir\n10. \u00c9tau"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Couteau\n3.  Marteau\n4.  R\u00e8gle\n5.  Fil\n6.  Brosse\n7.  \u00c9chelle\n8.  Crayon\n9.  Scie\n10. Seau"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Marteau\n3.  Couteau\n4.  \u00c9chelle\n5.  Seau\n6.  Brosse\n7.  Scie\n8.  Crayon\n9.  Ruban\n10. Livre"
+                ],
+                [
+                    "Cl\u00e9\nFeu\nPain\nLumi\u00e8re\nR\u00e8gle\nMur\nCrayon\nSac\nFilet\nSi\u00e8ge"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Marteau\n3.  Crayon\n4.  R\u00e8gle\n5.  \u00c9chelle\n6.  Selle\n7.  Lame\n8.  Loupe\n9.  Moule\n10. Scie"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Marteau\n3.  Couteau\n4.  Brosse\n5.  R\u00e8gle\n6.  Sceau\n7.  Tournevis\n8.  Pince\n9.  Scie\n10. Loupe"
+                ],
+                [
+                    "Cl\u00e9\nFeu\nChemin\nSac\nLivre\nFilet\nCouteau\nLit\nR\u00e8gle\nMarteau"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Marteau\n3.  Crayon\n4.  Rouleau\n5.  R\u00e8gle\n6.  Ciseaux\n7.  Spatule\n8.  Seau\n9.  Pince\n10. \u00c9chelle"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Hache\n3.  Ciseaux\n4.  Marteau\n5.  Rouleau\n6.  \u00c9chelle\n7.  Sceau\n8.  Fil\n9.  Pince\n10. Pelle"
+                ],
+                [
+                    "*   Couteau\n*   Cl\u00e9\n*   Marteau\n*   Serrure\n*   Brosse\n*   \u00c9chelle\n*   Crayon\n*   M\u00e8tre\n*   Lampe\n*   Scie"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Fil\n3.  Marteau\n4.  Pinceau\n5.  Couteau\n6.  \u00c9chelle\n7.  Crayon\n8.  Tonneau\n9.  Scie\n10. Pelle"
+                ],
+                [
+                    "Cl\u00e9\nTable\nLivre\nMarteau\nLampe\nCrayon\nFil\nBouteille\nRouleau\nB\u00e2ton"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Marteau\n3.  Crayon\n4.  Couteau\n5.  Brosse\n6.  Fil\n7.  \u00c9chelle\n8.  R\u00e8gle\n9.  Ciseau\n10. Seau"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Couteau\n3.  Marteau\n4.  Baguette\n5.  Pelle\n6.  \u00c9ponge\n7.  Crayon\n8.  Tendeur\n9.  Rouleau\n10. Tuyau"
+                ],
+                [
+                    "1.  Cl\u00e9\n2.  Marteau\n3.  Couteau\n4.  R\u00e8gle\n5.  Brosse\n6.  Sceau\n7.  \u00c9chelle\n8.  Crayon\n9.  Si\u00e8ge\n10. Pelle"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Couteau\n2. Masse\n3. Serre-tout\n4. Cl\u00e9\n5. Maillet\n6. Pince\n7. Scie\n8. \u00c9querre\n9. Tournevis\n10. Marteau\n"
+                ],
+                [
+                    "1. Couteau\n2. Masse\n3. Serre-tout\n4. Maillet\n5. Pince\n6. Scie\n7. Tournevis\n8. Cl\u00e9\n9. Marteau\n10. Ciseaux\n"
+                ],
+                [
+                    "1. Couteau\n2. Roue\n3. Maillet\n4. Serre-tout\n5. Pince\n6. Foret\n7. \u00c9querre\n8. Masse\n9. Scie\n10. Cl\u00e9\n"
+                ],
+                [
+                    "1.  Marteau\n2.  Couteau\n3.  Scie\n4.  Tournevis\n5.  Cl\u00e9\n6.  Pinces\n7.  Serre-tout\n8.  \u00c9tau\n9.  R\u00e8gle\n10. Maillet\n"
+                ],
+                [
+                    "1. Couteau\n2. Masse\n3. Cl\u00e9\n4. \u00c9querre\n5. Maillet\n6. Serre-tout\n7. Pince\n8. Scie\n9. Tournevis\n10. R\u00e8gle\n"
+                ],
+                [
+                    "1. Ciseau\n2. Maillet\n3. Cl\u00e9\n4. Serre-tout\n5. \u00c9querre\n6. Scie\n7. Pince\n8. Marteau\n9. Tournevis\n10. Colle\n"
+                ],
+                [
+                    "1. Ciseau\n2. Maillet\n3. Pince\n4. Tournevis\n5. Scie\n6. Cl\u00e9\n7. Marteau\n8. R\u00e8gle\n9. \u00c9querre\n10. Perceuse\n"
+                ],
+                [
+                    "1. Couteau\n2. Maillet\n3. Pince\n4. Scie\n5. Tournevis\n6. Cl\u00e9\n7. Marteau\n8. \u00c9querre\n9. R\u00e8gle\n10. Foret\n"
+                ],
+                [
+                    "1. Couteau\n2. Masse\n3. \u00c9querre\n4. Maillet\n5. Serre-tout\n6. Pince\n7. Scie\n8. Tournevis\n9. Cl\u00e9\n10. Marteau\n"
+                ],
+                [
+                    "1.  Couteau\n2.  Marteau\n3.  Tournevis\n4.  Cl\u00e9\n5.  Pinces\n6.  Scie\n7.  Burin\n8.  Maillet\n9.  Levier\n10. Croupe\n"
+                ],
+                [
+                    "1. Couteau\n2. Masse\n3. Pince\n4. Maillet\n5. Serre-tout\n6. Cl\u00e9\n7. Tournevis\n8. Scie\n9. Marteau\n10. \u00c9tau\n"
+                ],
+                [
+                    "1.  Couteau\n2.  Marteau\n3.  Tournevis\n4.  Pinces\n5.  Scie\n6.  Cl\u00e9\n7.  R\u00e8gle\n8.  Compas\n9.  Burin\n10. Maillet\n"
+                ],
+                [
+                    "1. Couteau\n2. Maillet\n3. Cl\u00e9\n4. Pince\n5. Serre-tout\n6. Marteau\n7. Tournevis\n8. Scie\n9. R\u00e8gle\n10. \u00c9querre\n"
+                ],
+                [
+                    "1.  Marteau\n2.  Couteau\n3.  Cl\u00e9\n4.  Serre-tout\n5.  R\u00e8gle\n6.  Pinces\n7.  Scie\n8.  Maillet\n9.  Tournevis\n10. \u00c9tau\n"
+                ],
+                [
+                    "1. Couteau\n2. Maillet\n3. Pince\n4. Serre-tout\n5. Cl\u00e9\n6. Marteau\n7. R\u00e8gle\n8. Vis\n9. Scie\n10. Tournevis\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "French",
+            "constraints": "R\u00e8gle finale : chaque mot doit \u00eatre un outil."
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Axt\nBesen\nHobel\nMessschieber\nNadel\nPflug\nPinsel\nSchaufel\nZange\nZirkel"
+                ],
+                [
+                    "Hammer\nNadel\nL\u00f6ffel\nZange\nPinsel\nS\u00e4ge\nWaage\nHarke\nSchere\nMei\u00dfel"
+                ],
+                [
+                    "Hammer\nS\u00e4ge\nZange\nB\u00fcrste\nSpaten\nHobel\nLineal\nSchraubendreher\nPinsel\nMei\u00dfel"
+                ],
+                [
+                    "Hammer\nSchere\nSpaten\nBohrer\nPinsel\nZange\nS\u00e4ge\nMa\u00dfband\nHobel\nKelle"
+                ],
+                [
+                    "Hammer\nZange\nS\u00e4ge\nSpaten\nPinsel\nSchere\nSchraubendreher\nReibe\nAhle\nHobel"
+                ],
+                [
+                    "Hammer\nS\u00e4ge\nZange\nSchraubenzieher\nLineal\nBesen\nKelle\nBohrer\nSchl\u00fcssel\nPinsel"
+                ],
+                [
+                    "Hammer\nS\u00e4ge\nL\u00f6ffel\nZange\nPinsel\nSpaten\nSchere\nWaage\nNadel\nReibe"
+                ],
+                [
+                    "Hammer\nS\u00e4ge\nZange\nSpaten\nBesen\nPinsel\nMa\u00dfband\nNadel\nSchraubendreher\nHobel"
+                ],
+                [
+                    "Hammer\nS\u00e4ge\nZange\nSpaten\nHobel\nSchl\u00fcssel\nPinsel\nNadel\nSense\nWasserwaage"
+                ],
+                [
+                    "Hammer\nS\u00e4ge\nZange\nSchraubenzieher\nSpaten\nPinsel\nBesen\nFeile\nMesser\nSchl\u00fcssel"
+                ],
+                [
+                    "Hammer\nNadel\nSpaten\nPinsel\nZange\nLineal\nBesen\nMesser\nSchere\nBohrer"
+                ],
+                [
+                    "Hammer\nSchere\nSchl\u00fcssel\nPinsel\nSpaten\nZange\nS\u00e4ge\nBohrer\nBesen\nNadel"
+                ],
+                [
+                    "Hammer\nS\u00e4ge\nZange\nSchaufel\nSchraubendreher\nAxt\nBesen\nFeile\nWasserwaage\nHebel"
+                ],
+                [
+                    "Hammer\nS\u00e4ge\nZange\nSchaufel\nPinsel\nWasserwaage\nHobel\nFeile\nSpachtel\nZirkel"
+                ],
+                [
+                    "Hammer\nPinsel\nL\u00f6ffel\nSchere\nSeil\nBesen\nWaage\nStift\nNadel\nLupe"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Hammer\nSchiene\nSchraube\nZange\nS\u00e4ge\nBohrer\nFeile\nMei\u00dfel\nWagenheber\nSchleifstein"
+                ],
+                [
+                    "Schaufel\nHammer\nS\u00e4ge\nZange\nSchraubendreher\nWinkel\nHobel\nMei\u00dfel\nBohrer\nSchl\u00fcssel"
+                ],
+                [
+                    "Schraubstock\nHammer\nFeile\nS\u00e4ge\nMei\u00dfel\nZange\nSchraubendreher\nHobel\nSchere\nBohrer"
+                ],
+                [
+                    "Schraubenzieher\nHammer\nZange\nS\u00e4ge\nSchaufel\nFeile\nMei\u00dfel\nSchraubenschl\u00fcssel\nBohrer\nSchleifpapier"
+                ],
+                [
+                    "Hammer\nSchraubstock\nS\u00e4ge\nZange\nFeile\nMei\u00dfel\nSchl\u00fcssel\nBohrer\nLocher\nSchleifstein"
+                ],
+                [
+                    "Hammer\nSchraubenzieher\nZange\nS\u00e4ge\nBohrer\nSchraubenschl\u00fcssel\nMei\u00dfel\nHobel\nSchleifstein\nFeile"
+                ],
+                [
+                    "Hammer\nSchraube\nSeil\nSchaufel\nZange\nBohrer\nS\u00e4ge\nSchl\u00fcssel\nMesser\nSchleifstein"
+                ],
+                [
+                    "Hammer\nSchraube\nS\u00e4ge\nZange\nSchere\nAxt\nBohrer\nFeile\nSchaufel\nMei\u00dfel"
+                ],
+                [
+                    "Hammer\nSchraubstock\nFeile\nS\u00e4ge\nZange\nMei\u00dfel\nSchraubendreher\nSchl\u00fcssel\nHobel\nWagenheber"
+                ],
+                [
+                    "Schraubenzieher\nHammer\nS\u00e4ge\nZange\nWinkel\nSchieblehre\nHobel\nMei\u00dfel\nBohrer\nSchraubenschl\u00fcssel"
+                ],
+                [
+                    "Hammer\nSchraubendreher\nS\u00e4ge\nZange\nSchaufel\nSchleifpapier\nWinkel\nMa\u00dfband\nBohrer\nFeile"
+                ],
+                [
+                    "Schraube\nHammer\nS\u00e4ge\nZange\nBohrer\nMei\u00dfel\nSchl\u00fcssel\nFeile\nMa\u00dfband\nSchraubenzieher"
+                ],
+                [
+                    "Hammer\nSchere\nS\u00e4ge\nZange\nSchraubenzieher\nHammer\nSchaufel\nSpachtel\nBohrer\nSchl\u00fcssel"
+                ],
+                [
+                    "Bohrer\nSchraubenzieher\nHammer\nZange\nS\u00e4ge\nSchleifstein\nMei\u00dfel\nHobel\nSchraubstock\nFeile"
+                ],
+                [
+                    "Hammer\nSchraubstock\nS\u00e4ge\nZange\nFeile\nBohrer\nSchraubenzieher\nWinkel\nMesser\nSchere"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Axt\nHammer\nS\u00e4ge\nZange\nBohrer\nMei\u00dfel\nFeile\nHobel\nSchraubendreher\nSchere"
+                ],
+                [
+                    "Axt\nZange\nHobel\nNadel\nSchaufel\nS\u00e4ge\nFeile\nHammer\nMei\u00dfel\nBohrer"
+                ],
+                [
+                    "Axt\nFeile\nHammer\nHobel\nZange\nS\u00e4ge\nMei\u00dfel\nSchraubenzieher\nBohrer\nSchl\u00fcssel"
+                ],
+                [
+                    "*   Zange\n*   Hobel\n*   S\u00e4ge\n*   Hammer\n*   Mei\u00dfel\n*   Schraubenzieher\n*   Bohrer\n*   Feile\n*   Schaufel\n*   Axt"
+                ],
+                [
+                    "*   Hammer\n*   Zange\n*   S\u00e4ge\n*   Hobel\n*   Mei\u00dfel\n*   Bohrer\n*   Feile\n*   Schraubenzieher\n*   Schaufel\n*   Sense"
+                ],
+                [
+                    "Axt\nZange\nFeile\nHobel\nS\u00e4ge\nHammer\nMei\u00dfel\nSchraubendreher\nBohrer\nSchaufel"
+                ],
+                [
+                    "Hammer\nS\u00e4ge\nZange\nFeile\nBohrer\nMei\u00dfel\nHobel\nSchraubenzieher\nMa\u00dfband\nSchl\u00fcssel"
+                ],
+                [
+                    "*   Hammer\n*   S\u00e4ge\n*   Zange\n*   Mei\u00dfel\n*   Feile\n*   Schraubenzieher\n*   Bohrer\n*   Hobel\n*   Axt\n*   Sense"
+                ],
+                [
+                    "*   Hammer\n*   S\u00e4ge\n*   Feile\n*   Zange\n*   Mei\u00dfel\n*   Schraubendreher\n*   Bohrer\n*   Hobel\n*   Axt\n*   Schaufel"
+                ],
+                [
+                    "*   Hammer\n*   S\u00e4ge\n*   Zange\n*   Feile\n*   Mei\u00dfel\n*   Bohrer\n*   Schraubendreher\n*   Hobel\n*   Axt\n*   Sense"
+                ],
+                [
+                    "Axt\nZange\nNadel\nBohrer\nMei\u00dfel\nSchraubenzieher\nFeile\nHammer\nS\u00e4ge\nHobel"
+                ],
+                [
+                    "*   Hammer\n*   S\u00e4ge\n*   Zange\n*   Bohrer\n*   Mei\u00dfel\n*   Schraubenzieher\n*   Feile\n*   Hobel\n*   Axt\n*   Schaufel"
+                ],
+                [
+                    "*   Hammer\n*   S\u00e4ge\n*   Zange\n*   Mei\u00dfel\n*   Feile\n*   Hobel\n*   Bohrer\n*   Schraubendreher\n*   Schl\u00fcssel\n*   Axt"
+                ],
+                [
+                    "1.  Hammer\n2.  S\u00e4ge\n3.  Nadel\n4.  Schaufel\n5.  Zange\n6.  Feile\n7.  Bohrer\n8.  Mei\u00dfel\n9.  Pinsel\n10. Schraubenzieher"
+                ],
+                [
+                    "*   Hammer\n*   S\u00e4ge\n*   Zange\n*   Bohrer\n*   Mei\u00dfel\n*   Feile\n*   Schraubenzieher\n*   Hobel\n*   Axt\n*   Sense"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Hammer\nSchere\nMesser\nBohrer\nZange\nSchraubenschl\u00fcssel\nS\u00e4ge\nSpachtel\nFeile\nSichel"
+                ],
+                [
+                    "Hammer\nSchere\nBohrer\nS\u00e4ge\nZange\nHobel\nSchraubenzieher\nSpachtel\nMei\u00dfel\nFeile"
+                ],
+                [
+                    "Hammer\nSchere\nSpachtel\nZirkel\nHobel\nBohrer\nFeile\nSchraubenschl\u00fcssel\nMei\u00dfel\nS\u00e4ge"
+                ],
+                [
+                    "Hammer\nSchraube\nS\u00e4ge\nZange\nBohrer\nFeile\nHobel\nSchl\u00fcssel\nSpachtel\nB\u00fcrste"
+                ],
+                [
+                    "Hammer\nSchere\nS\u00e4ge\nZange\nBohrer\nSpachtel\nMei\u00dfel\nFeile\nHobel\nSchraubenzieher"
+                ],
+                [
+                    "Hammer\nSchere\nS\u00e4ge\nZirkel\nBohrer\nHobel\nSpachtel\nZange\nNadel\nMesser"
+                ],
+                [
+                    "Axt\nHammer\nS\u00e4ge\nSchraubenzieher\nBohrer\nZange\nHobel\nMei\u00dfel\nSchere\nLeiter"
+                ],
+                [
+                    "*   Hammer\n*   Schere\n*   Zirkel\n*   Mei\u00dfel\n*   S\u00e4ge\n*   Pinsel\n*   Bohrer\n*   Feile\n*   Zange\n*   Hobel"
+                ],
+                [
+                    "Hammer\nSchere\nPinsel\nS\u00e4ge\nZange\nBohrer\nSchraubenzieher\nAxt\nHobel\nFeile"
+                ],
+                [
+                    "Hammer\nPinsel\nS\u00e4ge\nZirkel\nSchraubzwinge\nMei\u00dfel\nHobel\nBohrer\nSchere\nFeile"
+                ],
+                [
+                    "1.  Hammer\n2.  Schere\n3.  Zange\n4.  Bohrer\n5.  Spaten\n6.  S\u00e4ge\n7.  Messer\n8.  Feile\n9.  Besen\n10. Schraubenschl\u00fcssel"
+                ],
+                [
+                    "Hammer\nSchraube\nSchere\nZange\nS\u00e4ge\nBohrer\nSpachtel\nMesslatte\nFeile\nHobel"
+                ],
+                [
+                    "Hammer\nSchere\nZirkel\nBesen\nS\u00e4ge\nZange\nFeile\nSpachtel\nBohrer\nWaage"
+                ],
+                [
+                    "Axt\nHammer\nS\u00e4ge\nSchraubendreher\nBohrer\nZange\nHobel\nSpachtel\nFeile\nSchere"
+                ],
+                [
+                    "Hammer\nSchere\nS\u00e4ge\nZirkel\nBohrer\nSpachtel\nFeile\nZange\nHobel\nSchraubenzieher"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "Zeitgeist\nSchattenspiel\nWortbrei\nGedankenflug\nSeelenw\u00e4rme\nSternenstaub\nEiszeit\nLichtpfad\nTraumweben\nNaturharmonie"
+                ],
+                [
+                    "Zeitgeist\nSchattenspiel\nWundergestalt\nSeelensucher\nVergessenschein\nStillekunft\nTraumweber\nEisenschild\nLeidenspfad\nFl\u00fcstertuch"
+                ],
+                [
+                    "Zeitgeist\nWanderlust\nSchattengl\u00e4tte\nEisblume\nSternenstaub\nWindhauch\nFl\u00fcsterton\nSeelenfrieden\nTraumweber\nLeuchtspur\n"
+                ],
+                [
+                    "Zeitgeist\nSchattenspiel\nWunderschmerz\nLeerekunft\nFl\u00fcsterton\nStaublicht\nEisblume\nTr\u00fcmmerfeld\nSeelenhauch\nWortschmied\n"
+                ],
+                [
+                    "Schimmer\nWanderung\nVergessenheit\nKlang\nSchatten\nRhythmus\nWachstum\nEinsamkeit\nGewicht\nLeere\n"
+                ],
+                [
+                    "Schl\u00e4ngel\nWachstum\nGefl\u00fcster\nSchattenfall\nWortgewand\nZeitlosigkeit\nEinsamkeit\nVergessenheit\nSchimmer\nStille\n"
+                ],
+                [
+                    "Zeitgeist\nSchimmer\nWanderlust\nVerg\u00e4nglichkeit\nEcho\nKlarheit\nWurzel\nLeere\nFl\u00fcstern\nSchwellenraum"
+                ],
+                [
+                    "Zeitgeist\nWunderlust\nSeelenruhe\nVergesslichkeit\nSchattenspiel\nGedankenspiel\nStilleben\nWanderlust\nEinsamkeit\nFl\u00fcchtigkeit"
+                ],
+                [
+                    "Zeitgeist\nSchimmer\nWanderlust\nVergessenheit\nEinsamkeit\nGeduld\nWachstum\nLeere\nSch\u00f6nheit\nF\u00fclle"
+                ],
+                [
+                    "Zeitgeist\nSchattenspiel\nWunderlied\nSeelenfrieden\nGedankengestalt\nSternenstaub\nTraumweben\nEwigkeit\nLeere\nFl\u00fcstern\n"
+                ],
+                [
+                    "Zeitgeist\nGedankenfluss\nSchattenspiel\nWortschatz\nWanderpfad\nErinnerungsst\u00fcck\nStille\nLeere\nVer\u00e4nderung\nHoffnungsschimmer"
+                ],
+                [
+                    "Zeitlosigkeit\nSchattenspiel\nWanderlust\nVergesslichkeit\nStille\nFl\u00fcchtigkeit\nEinsamkeit\nW\u00e4rme\nLeere\nSchwellenmarkt\n"
+                ],
+                [
+                    "Zeitgeist\nFl\u00fcchtigkeit\nErschwinglichkeit\nStille\nVergesslichkeit\nSchattierung\nWanderlust\nKlarheit\nW\u00e4rme\nLeere"
+                ],
+                [
+                    "Zeitgeist\nSchattenspiel\nWortschatz\nEinf\u00fcgung\nVerwundbarkeit\nFl\u00fcstern\nGedankenstrich\nAbstraktion\nWanderlust\nUnending"
+                ],
+                [
+                    "Zeitgeist\nSchattenspiel\nWortflege\nSeelenfrieden\nStillekunft\nFl\u00fcsterton\nGedankenpfad\nTraumweben\nErinnerungslicht\nWanderfeder\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "German",
+            "constraints": "Endregel: Jedes Wort muss ein Werkzeug sein."
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Martello\nForbici\nBussola\nBilancia\nLente\nParola\nStrategia\nRegola\nConoscenza\nAgo"
+                ],
+                [
+                    "1. Martello\n2. Ago\n3. Sega\n4. Bilancia\n5. Bussola\n6. Scopa\n7. Lente\n8. Matita\n9. Ruota\n10. Chiave"
+                ],
+                [
+                    "Martello\nViolino\nTermometro\nLinguaggio\nMicroscopio\nChiave\nBilancia\nMappa\nRagione\nPialla"
+                ],
+                [
+                    "Martello\nCacciavite\nSega\nPinza\nPala\nPennello\nBilancia\nTrapano\nAgo\nLente"
+                ],
+                [
+                    "1. Martello\n2. Sega\n3. Chiave\n4. Ago\n5. Pala\n6. Pennello\n7. Forbici\n8. Lima\n9. Bilancia\n10. Tenaglia"
+                ],
+                [
+                    "Martello\nPianoforte\nTermometro\nPenna\nBisturi\nChiave\nLeva\nTromba\nCompasso\nTelescopio"
+                ],
+                [
+                    "Martello\nMicroscopio\nChitarra\nBilancia\nPenna\nLingua\nPala\nTelescopio\nVoce\nBussola"
+                ],
+                [
+                    "Martello\nFlauto\nMicroscopio\nBilancia\nBisturi\nSestante\nSega\nSiringa\nTamburo\nCacciavite"
+                ],
+                [
+                    "Martello\nCacciavite\nColtello\nChiave\nPala\nAgo\nPennello\nLivella\nLente\nSega"
+                ],
+                [
+                    "Martello\nSega\nPala\nChiave\nBussola\nBilancia\nPenna\nZappa\nLeva\nSpazzola"
+                ],
+                [
+                    "Martello\nPenna\nViolino\nForbici\nAgo\nBilancia\nMestolo\nBussola\nLente\nLingua"
+                ],
+                [
+                    "1. Martello\n2. Sega\n3. Pala\n4. Metro\n5. Chiave\n6. Forbici\n7. Pennello\n8. Mestolo\n9. Zappa\n10. Pinza"
+                ],
+                [
+                    "1. Ago\n2. Pianoforte\n3. Telescopio\n4. Chiave\n5. Spatola\n6. Orologio\n7. Aratro\n8. Compasso\n9. Linguaggio\n10. Mappa"
+                ],
+                [
+                    "Martello\nForbice\nPala\nPennello\nChiave\nMetro\nAgo\nSpecchio\nLente\nCarrello"
+                ],
+                [
+                    "1. Martello\n2. Cacciavite\n3. Forbici\n4. Pennello\n5. Ago\n6. Pala\n7. Chiave\n8. Metro\n9. Bilancia\n10. Tastiera"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Martello\nSiringa\nBussola\nSega\nLente\nForbici\nPala\nChiave\nTrapano\nCucchiaio"
+                ],
+                [
+                    "Forbici\nMartello\nChiave\nLente\nFiltro\nBussola\nBorsa\nCucchiaio\nPala\nSeghetto"
+                ],
+                [
+                    "Cucchiaio\nMartello\nPala\nPenna\nForbici\nChiave\nFilo\nBottiglia\nLibro\nBussola"
+                ],
+                [
+                    "Marteau\nBicchiere\nCompass\nForbici\nPala\nLente\nSiringa\nRastrello\nMartello\nCucchiaio"
+                ],
+                [
+                    "Martello\nBussola\nPala\nVanga\nForbici\nChiave\nFilo\nCandela\nSecchio\nCucchiaio"
+                ],
+                [
+                    "Martello\nLibro\nForbici\nCandela\nPala\nSpazzola\nChiodo\nCucchiaio\nPennello\nSerratura"
+                ],
+                [
+                    "Martello\nCandela\nSedia\nLibro\nChiave\nSpecchio\nColtello\nPalla\nForchetta\nBussola"
+                ],
+                [
+                    "Sedia\nLibro\nChiave\nMartello\nPiatto\nBicchiere\nPenna\nForbici\nSveglia\nSecchio"
+                ],
+                [
+                    "Martello\nSieve\nForchetta\nSpada\nMatita\nChiave\nCucchiaio\nLampada\nSega\nBussola"
+                ],
+                [
+                    "Chiave\nMartello\nBussola\nForbici\nCandela\nLente\nPennello\nCorda\nSiringa\nCucchiaio"
+                ],
+                [
+                    "Martello\nLente\nBussola\nForbici\nPala\nCorda\nSmerigliatrice\nPennello\nChiave\nCarrucola"
+                ],
+                [
+                    "Martello\nPala\nForbici\nLampadina\nSedia\nTazza\nCucchiaio\nPennello\nLibro\nSerratura"
+                ],
+                [
+                    "Martello\nAcqua\nLibro\nSasso\nForchetta\nPensiero\nSole\nCandela\nChiodo\nMusica"
+                ],
+                [
+                    "Martello\nLibro\nChiave\nCandela\nSedia\nSpecchio\nForbici\nVaso\nTazza\nLanterna"
+                ],
+                [
+                    "Martello\nBussola\nLente\nChiave\nForbici\nSega\nSecchio\nCorda\nTosaerba\nScolapasta"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Coltello\n2.  Metro\n3.  Calendario\n4.  Specchio\n5.  Bussola\n6.  Forbice\n7.  Ancora\n8.  Abaco\n9.  Clessidra\n10. Bilancia"
+                ],
+                [
+                    "1.  Forbice\n2.  Metro\n3.  Coltello\n4.  Pala\n5.  Livella\n6.  Compasso\n7.  Pinza\n8.  Pestello\n9.  Tampon\n10. Zappa"
+                ],
+                [
+                    "1.  Zappa\n2.  Calcolatore\n3.  Calamita\n4.  Timone\n5.  Forbici\n6.  Lente\n7.  Chiodo\n8.  Metro\n9.  Coltello\n10. Specchio"
+                ],
+                [
+                    "1.  Chiave\n2.  Calendario\n3.  Forbice\n4.  Ancora\n5.  Ago\n6.  Lente\n7.  Filtro\n8.  Bussola\n9.  Rete\n10. Specchio"
+                ],
+                [
+                    "1.  Chiave\n2.  Ago\n3.  Specchio\n4.  Scala\n5.  Bussola\n6.  Ancora\n7.  Coltello\n8.  Cesto\n9.  Rete\n10. Bilancia"
+                ],
+                [
+                    "1.  Zappa\n2.  Compasso\n3.  Metafora\n4.  Calendario\n5.  Paranco\n6.  Prisma\n7.  Equilibrio\n8.  Dizionario\n9.  Crivello\n10. Sentiero"
+                ],
+                [
+                    "1.  Chiodo\n2.  Calcolatrice\n3.  Ancora\n4.  Forbici\n5.  Specchio\n6.  Abaco\n7.  Sonda\n8.  Filtro\n9.  Levatrice\n10. Cuneo"
+                ],
+                [
+                    "1.  Cucchiaio\n2.  Ubiquit\u00e0\n3.  Metro\n4.  Forbici\n5.  Specchio\n6.  Lente\n7.  Calendario\n8.  Bussola\n9.  Vaccino\n10. Anima"
+                ],
+                [
+                    "1.  Chiave\n2.  Cucchiaio\n3.  Filo\n4.  Specchio\n5.  Ancora\n6.  Bussola\n7.  Coltello\n8.  Scala\n9.  Gesso\n10. Ago"
+                ],
+                [
+                    "1.  Calcolatrice\n2.  Ago\n3.  Timone\n4.  Cuneo\n5.  Levatrice\n6.  Zappa\n7.  Bussola\n8.  Forbici\n9.  Pila\n10. Bilancia"
+                ],
+                [
+                    "1.  Chiodo\n2.  Calcolatore\n3.  Tromba\n4.  Forbici\n5.  Filtro\n6.  Stampo\n7.  Argine\n8.  Paranco\n9.  Specchio\n10. Bilancia"
+                ],
+                [
+                    "1.  Zappa\n2.  Clessidra\n3.  Specchio\n4.  Remo\n5.  Ancora\n6.  Lente\n7.  Metro\n8.  Setaccio\n9.  Cuneo\n10. Bilancia"
+                ],
+                [
+                    "1.  Forbice\n2.  Calendario\n3.  Cacciavite\n4.  Bussola\n5.  Metro\n6.  Ancora\n7.  Bilancia\n8.  Lente\n9.  Filo\n10. Chiave"
+                ],
+                [
+                    "1.  Chiodo\n2.  Piuma\n3.  Specchio\n4.  Coltello\n5.  Ancora\n6.  Scala\n7.  Ago\n8.  Setaccio\n9.  Timone\n10. Prisma"
+                ],
+                [
+                    "1.  Scolapasta\n2.  Lancetta\n3.  Cerniera\n4.  Clessidra\n5.  Ubriacone\n6.  Zeppa\n7.  Bastone\n8.  Cavalletto\n9.  Tavolozza\n10. Anello"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Chiave\n2.  Microfono\n3.  Lancia\n4.  Bilancia\n5.  Telemetro\n6.  Martello\n7.  Siringa\n8.  Pinza\n9.  Compasso\n10. Spada"
+                ],
+                [
+                    "Martello\nChiave\nSega\nCorda\nMetro\nCompasso\nVanga\nPennello\nGraffetta\nForbice"
+                ],
+                [
+                    "1.  Martello\n2.  Sega\n3.  Compasso\n4.  Forbice\n5.  Cesoia\n6.  Pinza\n7.  Mazzuolo\n8.  Trapano\n9.  Lima\n10.  Cacciavite"
+                ],
+                [
+                    "1.  Chiave\n2.  Sega\n3.  Cacciavite\n4.  Spada\n5.  Tastiera\n6.  Lente\n7.  Pennello\n8.  Microfono\n9.  Bilancia\n10. Forchetta"
+                ],
+                [
+                    "*   Chiave\n*   Compasso\n*   Sega\n*   Microfono\n*   Pennello\n*   Spada\n*   Martello\n*   Lente\n*   Aratro\n*   Calamai"
+                ],
+                [
+                    "1.  Martello\n2.  Sega\n3.  Lancia\n4.  Pala\n5.  Aratro\n6.  Chitarra\n7.  Scalpello\n8.  Cannocchiale\n9.  Macchina\n10. Microfono"
+                ],
+                [
+                    "Martello\nChiave\nSega\nScala\nPinza\nChiodo\nCorda\nCacciavite\nSquadra\nTrapano"
+                ],
+                [
+                    "1.  Chiave\n2.  Pala\n3.  Aratro\n4.  Telecamera\n5.  Microscopio\n6.  Cacciavite\n7.  Siringa\n8.  Macchina\n9.  Telefono\n10. Forbice"
+                ],
+                [
+                    "Martello\nChiodo\nSega\nCacciavite\nMetro\nChiave\nPinza\nPennello\nSpazzola\nLancia"
+                ],
+                [
+                    "1.  Martello\n2.  Forbice\n3.  Chiave\n4.  Sega\n5.  Pennello\n6.  Trapano\n7.  Compasso\n8.  Pinza\n9.  Cesoia\n10. Coltello"
+                ],
+                [
+                    "Chiave\nPennello\nMartello\nLente\nCorda\nSega\nForchetta\nLancia\nCompasso\nPala\nFucile"
+                ],
+                [
+                    "Chiave\nForbice\nLancia\nPala\nFucile\nPennello\nAgo\nSega\nFascio\nBilancia"
+                ],
+                [
+                    "1.  Martello\n2.  Cacciavite\n3.  Lente\n4.  Sega\n5.  Spada\n6.  Fucile\n7.  Microfono\n8.  Pennello\n9.  Bilancia\n10. Compass"
+                ],
+                [
+                    "1.  Chiave\n2.  Martello\n3.  Tavolo\n4.  Pennello\n5.  Sedia\n6.  Foglio\n7.  Sega\n8.  Vaso\n9.  Telefono\n10. Scala"
+                ],
+                [
+                    "1.  Chiave\n2.  Fiamma\n3.  Pala\n4.  Telecamera\n5.  Forbice\n6.  Microfono\n7.  Anello\n8.  Martello\n9.  Pinza\n10. Pennello"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "Forbice\nMartello\nScalpello\nChiave\nCacciavite\nPinza\nMetro\nSega\nPialla\nLivella\n"
+                ],
+                [
+                    "Chiave\nMartello\nMetro\nSega\nCacciavite\nPinza\nPialla\nLivella\nScalpello\nTrapano\n"
+                ],
+                [
+                    "Chiave\nMartello\nScalpello\nCacciavite\nPinza\nSega\nMetro\nLivella\nTrapano\nMorsa\n"
+                ],
+                [
+                    "Scalpello\nChiave\nForbice\nCacciavite\nMartello\nPialla\nMetro\nLivella\nSeghetto\nPinza\n"
+                ],
+                [
+                    "Ascia\nScalpello\nPinze\nCacciavite\nMartello\nChiave\nMetro\nSega\nTrapano\nLivella\n"
+                ],
+                [
+                    "Scalpello\nLivella\nMartello\nChiave\nPinza\nCacciavite\nMetro\nSega\nPialla\nTrapano\n"
+                ],
+                [
+                    "Scalpello\nMartello\nLivella\nChiave\nMetro\nSega\nPinze\nCacciavite\nPialla\nTrapano\n"
+                ],
+                [
+                    "Ascia\nScalpello\nPinza\nCacciavite\nMartello\nChiave\nTrapano\nMetro\nSega\nTenaglia\n"
+                ],
+                [
+                    "Forbice\nMartello\nChiave\nLivella\nCacciavite\nScalpello\nPinza\nSeghetto\nPialla\nMetro\n"
+                ],
+                [
+                    "Ascia\nScalpello\nPinze\nCacciavite\nMartello\nChiave\nSega\nTrapano\nTenaglia\nLivella\n"
+                ],
+                [
+                    "Forbice\nMartello\nChiave\nScalpello\nCacciavite\nPinza\nMetro\nSega\nPialla\nTrapano\n"
+                ],
+                [
+                    "Ascia\nPialla\nMartello\nCacciavite\nChiave\nPinze\nSega\nTrapano\nMetro\nLivella\n"
+                ],
+                [
+                    "Ascia\nCacciavite\nScalpello\nPinza\nMartello\nTrapano\nSega\nTenaglia\nChiave\nMetro\n"
+                ],
+                [
+                    "Ascia\nForbice\nScalpello\nCacciavite\nMartello\nPinza\nLivella\nChiave\nMetro\nSeghetto\n"
+                ],
+                [
+                    "Ascia\nPialla\nMartello\nCacciavite\nChiave\nPinza\nScregetta\nScalpello\nLima\nTenaglia\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Italian",
+            "constraints": "Regola finale: ogni parola deve essere uno strumento."
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. Hamer\n2. Zaag\n3. Schroevendraaier\n4. Tang\n5. Boormachine\n6. Meetlint\n7. Waterpas\n8. Schaar\n9. Plamuurmes\n10. Kwast"
+                ],
+                [
+                    "1. Hamer\n2. Zaag\n3. Schroevendraaier\n4. Tang\n5. Waterpas\n6. Bezem\n7. Spade\n8. Kwast\n9. Passer\n10. Kurkentrekker"
+                ],
+                [
+                    "1. Hamer\n2. Zaag\n3. Schroevendraaier\n4. Tang\n5. Boor\n6. Sleutel\n7. Kompas\n8. Naald\n9. Schaar\n10. Waterpas"
+                ],
+                [
+                    "1. Hamer\n2. Zaag\n3. Schroevendraaier\n4. Tang\n5. Moersleutel\n6. Borstel\n7. Spatel\n8. Meetlint\n9. Troffel\n10. Beitel"
+                ],
+                [
+                    "* Hamer\n* Zaag\n* Schroevendraaier\n* Meetlint\n* Boor\n* Kwast\n* Tang\n* Schep\n* Waterpas\n* Moersleutel"
+                ],
+                [
+                    "1. Hamer\n2. Zaag\n3. Meetlint\n4. Schroevendraaier\n5. Troffel\n6. Schaar\n7. Pomp\n8. Naald\n9. Vijl\n10. Kwast"
+                ],
+                [
+                    "1. Hamer\n2. Zaag\n3. Tang\n4. Boor\n5. Schroevendraaier\n6. Meetlint\n7. Beitel\n8. Vijl\n9. Schep\n10. Kwast"
+                ],
+                [
+                    "1.  Hamer\n2.  Zaag\n3.  Schroevendraaier\n4.  Tang\n5.  Boor\n6.  Sleutel\n7.  Bijl\n8.  Schaar\n9.  Waterpas\n10. Troffel"
+                ],
+                [
+                    "*   Hamer\n*   Zaag\n*   Schroevendraaier\n*   Tang\n*   Schep\n*   Kwast\n*   Waterpas\n*   Beitel\n*   Sleutel\n*   Garde"
+                ],
+                [
+                    "1. Hamer\n2. Zaag\n3. Schroevendraaier\n4. Tang\n5. Meetlint\n6. Schop\n7. Penseel\n8. Kam\n9. Beitel\n10. Waterpas"
+                ],
+                [
+                    "1. Hamer\n2. Zaag\n3. Schroevendraaier\n4. Meetlint\n5. Tang\n6. Bezem\n7. Schep\n8. Pincet\n9. Waterpas\n10. Boor"
+                ],
+                [
+                    "1.  Hamer\n2.  Zaag\n3.  Meetlint\n4.  Boor\n5.  Schroevendraaier\n6.  Tang\n7.  Waterpas\n8.  Moersleutel\n9.  Beitel\n10. Troffel"
+                ],
+                [
+                    "Hamer\nZaag\nSchroevendraaier\nSleutel\nMeetlint\nBorstel\nNaald\nPomp\nTroffel\nF\u00f6hn"
+                ],
+                [
+                    "Hamer\nZaag\nMeetlint\nTang\nSchroevendraaier\nBorstel\nBeitel\nSleutel\nSchaar\nTroffel"
+                ],
+                [
+                    "Hamer\nZaag\nTang\nSchroevendraaier\nMeetlint\nBorstel\nSleutel\nBeitel\nTroffel\nWaterpas"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Bal\nBrug\nDeur\nGloeilamp\nLadder\nMes\nNaald\nSchroef\nSleutel\nTang"
+                ],
+                [
+                    "De 10 woorden zijn:\n\nZon\nGeluk\nBoom\nBrug\nDroom\nMuur\nLicht\nSteen\nVlucht\nTijd"
+                ],
+                [
+                    "Boom\nLucht\nGedachte\nMuziek\nTijd\nSpel\nKleur\nVrijheid\nLach\nDroom\n\nHamer\nSchroevendraaier\nTang\nZaag\nMeetlint\nWaterpas\nBeitel\nVijltje\nLiniaal\nSchuurpapier"
+                ],
+                [
+                    "Emotie\nVrijheid\nBoom\nMuziek\nSter\nLach\nDroom\nStilte\nTijd\nKind"
+                ],
+                [
+                    "Zon\nLucht\nGedachte\nGeluidsgolf\nVrijheid\nVlam\nGevoel\nVerleden\nLeegte\nSchaduw"
+                ],
+                [
+                    "Stoel\nBoek\nWolk\nMelodie\nDroom\nVogel\nSchaar\nSpiegel\nNaald\nBeker"
+                ],
+                [
+                    "Boek\nStoel\nHemel\nGedachte\nLach\nKleur\nMuziek\nVraag\nTijd\nStilte\n\nHamer\nSchroevendraaier\nZaag\nTang\nBoor\nSleutel\nMeetlint\nPas\nWaterpas\nBeitel"
+                ],
+                [
+                    "Hamer\nBoek\nStoel\nBal\nMes\nSleutel\nPen\nZuurstof\nGlimlach\nKnoop"
+                ],
+                [
+                    "Zaag\nSleutel\nHamer\nTang\nSchroevendraaier\nWaterpas\nMeetlint\nKrik\nGuts\nSchaar"
+                ],
+                [
+                    "Hamer\nSchroevendraaier\nZaag\nTang\nMeetlint\nBoor\nSleutel\nVijzel\nBeitel\nSlijptol"
+                ],
+                [
+                    "Hamer\nSchroef\nZaag\nTang\nSleutel\nBoor\nWaterpas\nMokerslag\nSchraper\nStriptang"
+                ],
+                [
+                    "Zon\nLiefde\nBoom\nGitaar\nBerg\nBoek\nVis\nStoel\nWolk\nMes"
+                ],
+                [
+                    "Droom\nZicht\nGefluister\nVrijheid\nVraag\nBrug\nBoek\nSterkte\nSchilderij\nGeluk"
+                ],
+                [
+                    "Schroef\nZaag\nHamer\nTang\nBoor\nSleutel\nMeetlint\nWaterpas\nSchuurpapier\nSchilderskwast"
+                ],
+                [
+                    "Emotie\nGeluid\nParadox\nVriendschap\nLicht\nIdee\nGeluk\nVerbeelding\nRuimte\nTijd"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "*   Beitel\n*   Schaar\n*   Zeef\n*   Hamer\n*   Pincet\n*   Spade\n*   Ratel\n*   Zaag\n*   Touw\n*   Tekenhaak"
+                ],
+                [
+                    "1.  Zaag\n2.  Touw\n3.  Naald\n4.  Tang\n5.  Beitel\n6.  Kruk\n7.  Pincet\n8.  Hefboom\n9.  Zeef\n10. Hamer"
+                ],
+                [
+                    "1.  Hamer\n2.  Naald\n3.  Zeis\n4.  Schaar\n5.  Penseel\n6.  Beitel\n7.  Zaag\n8.  Pincet\n9.  Touw\n10. Vork"
+                ],
+                [
+                    "1.  Beitel\n2.  Penseel\n3.  Schaar\n4.  Touw\n5.  Microscoop\n6.  Zeef\n7.  Kompas\n8.  Stethoscoop\n9.  Tang\n10. Bladblazer"
+                ],
+                [
+                    "*   Beitel\n*   Hefboom\n*   Stethoscoop\n*   Microscoop\n*   Telraam\n*   Kompas\n*   Schaar\n*   Vergrootglas\n*   Stempel\n*   Pincet"
+                ],
+                [
+                    "1.  Hamer\n2.  Zeis\n3.  Microscoop\n4.  Stethoscoop\n5.  Telraam\n6.  Wig\n7.  Pincet\n8.  Kompas\n9.  Meetlint\n10. Boor"
+                ],
+                [
+                    "1.  Beitel\n2.  Passer\n3.  Schaaf\n4.  Zweep\n5.  Breinaald\n6.  Katrol\n7.  Pincet\n8.  Hamer\n9.  Stethoscoop\n10. Zeef"
+                ],
+                [
+                    "1.  Schaar\n2.  Zeis\n3.  Spijker\n4.  Pincet\n5.  Beitel\n6.  Kompas\n7.  Touw\n8.  Blok\n9.  Ladder\n10. Vijl"
+                ],
+                [
+                    "1.  Tang\n2.  Beitel\n3.  Zaag\n4.  Hamer\n5.  Penseel\n6.  Boor\n7.  Spade\n8.  Naald\n9.  Schaar\n10. Vijl"
+                ],
+                [
+                    "1.  Tang\n2.  Beitel\n3.  Zweep\n4.  Vijzel\n5.  Schaar\n6.  Hefboom\n7.  Zeef\n8.  Pincet\n9.  Loodlijn\n10. Aambeeld"
+                ],
+                [
+                    "*   Hamer\n*   Naald\n*   Tang\n*   Beitel\n*   Zaag\n*   Pincet\n*   Schroevendraaier\n*   Klem\n*   Penseel\n*   Spatel"
+                ],
+                [
+                    "*   Beitel\n*   Zeis\n*   Touw\n*   Passer\n*   Pincet\n*   Schaar\n*   Stethoscoop\n*   Telraam\n*   Puntenslijper\n*   Stempel"
+                ],
+                [
+                    "*   Hamer\n*   Zaag\n*   Beitel\n*   Pincet\n*   Touw\n*   Stethoscoop\n*   Kompas\n*   Weegschaal\n*   Kaleidoscoop\n*   Microscoop"
+                ],
+                [
+                    "1.  Hamer\n2.  Beitel\n3.  Meetlint\n4.  Penseel\n5.  Kompas\n6.  Zeef\n7.  Tang\n8.  Klem\n9.  Schaar\n10. Sleutel"
+                ],
+                [
+                    "*   Beitel\n*   Touw\n*   Pincet\n*   Moker\n*   Kompas\n*   Tekenstift\n*   Zeef\n*   Spiegel\n*   Lans\n*   Stethoscoop"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Vrijheid\n2.  Hamer\n3.  Lente\n4.  Dromen\n5.  Schroef\n6.  Gedachte\n7.  Zaag\n8.  Hart\n9.  Schoffel\n10. Penseel"
+                ],
+                [
+                    "1.  Duimstok\n2.  Schroevendraaier\n3.  Hamer\n4.  Zaag\n5.  Waterpas\n6.  Tang\n7.  Schaar\n8.  Beitel\n9.  Sleutel\n10. Boor"
+                ],
+                [
+                    "1.  Klok\n2.  Sleutel\n3.  Droom\n4.  Schroef\n5.  Spiegel\n6.  Potlood\n7.  Vork\n8.  Muur\n9.  Hamer\n10. Schep"
+                ],
+                [
+                    "1.  Sleutel\n2.  Tijd\n3.  Vreugde\n4.  Boek\n5.  Geloof\n6.  Spiegel\n7.  Macht\n8.  Hamer\n9.  Hart\n10. Schaar"
+                ],
+                [
+                    "1.  Stoel\n2.  Vrede\n3.  Snaar\n4.  Zonnebloem\n5.  Geest\n6.  Woord\n7.  Droom\n8.  Grendel\n9.  Schroef\n10. Hart"
+                ],
+                [
+                    "1.  Sleutel\n2.  Vriendschap\n3.  Droom\n4.  Spijker\n5.  Oogst\n6.  Hart\n7.  Kompas\n8.  Messen\n9.  Woord\n10. Penseel"
+                ],
+                [
+                    "1.  Verf\n2.  Droom\n3.  Spijker\n4.  Schroef\n5.  Licht\n6.  Hamer\n7.  Sleutel\n8.  Schaar\n9.  Tijd\n10. Potlood"
+                ],
+                [
+                    "1.  Duimstok\n2.  Zaag\n3.  Hamer\n4.  Waterpas\n5.  Tegel\n6.  Schroef\n7.  Schaar\n8.  Sleutel\n9.  Stift\n10. Vijl"
+                ],
+                [
+                    "1.  Draaijer\n2.  Ziel\n3.  Kruiwagen\n4.  Scherf\n5.  Punt\n6.  Hoop\n7.  Hamerslag\n8.  Strook\n9.  Klem\n10. Zaag"
+                ],
+                [
+                    "1.  Sleutel\n2.  Vlam\n3.  Lente\n4.  Hart\n5.  Schaduw\n6.  Brief\n7.  Weegschaal\n8.  Kleur\n9.  Knoop\n10. Taal"
+                ],
+                [
+                    "1.  Lucht\n2.  Schaduw\n3.  Droom\n4.  Sleutel\n5.  Vreugde\n6.  Eiland\n7.  Brief\n8.  Spiegel\n9.  Macht\n10. Kompas"
+                ],
+                [
+                    "1.  Boom\n2.  Eer\n3.  Schroef\n4.  Kloof\n5.  Tijd\n6.  Sleutel\n7.  Vriendschap\n8.  Heelal\n9.  Hamer\n10. Zaag"
+                ],
+                [
+                    "1.  Lach\n2.  Horizon\n3.  Brood\n4.  Verandering\n5.  Vrede\n6.  Tijd\n7.  Droom\n8.  Woord\n9.  Gevoel\n10. Schaar"
+                ],
+                [
+                    "1.  Stuk\n2.  Ziel\n3.  Weer\n4.  Schip\n5.  Reis\n6.  Hoop\n7.  Draad\n8.  Sleutel\n9.  Vraag\n10. Schaar"
+                ],
+                [
+                    "1.  Sleutel\n2.  Lijm\n3.  Hamer\n4.  Zaag\n5.  Tang\n6.  Schroevendraaier\n7.  Beitel\n8.  Boor\n9.  Schaar\n10. Liniaal"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "Stelsel\nKlem\nLuchtband\nWals\nScharnier\nSpijker\nSleutel\nZwaard\nWiel\nBeitel\n\n\n\n"
+                ],
+                [
+                    "Vuursteen\nRaam\nKlem\nLicht\nScharnier\nWiel\nHamer\nPunt\nDraad\nLijm"
+                ],
+                [
+                    "Zwaardschuur\nPlaat\nKroon\nWiel\nLicht\nSleutel\nStelling\nKlem\nScharnier\nSpijker"
+                ],
+                [
+                    "Wals\nFluweel\nMelodie\nSchaduw\nLucht\nVerbinding\nGedachte\nEcho\nStilte\nKleur"
+                ],
+                [
+                    "Wortel\nZetank\nLoden\nKlem\nSpijker\nSchietlucht\nDraaiwout\nPunt\nWiel\nBoor"
+                ],
+                [
+                    "Tafel\nKompas\nSleutel\nKlem\nRaam\nLicht\nDraad\nBezem\nScharnier\nMeetlint"
+                ],
+                [
+                    "Wals\nFluweel\nVergiet\nKlok\nParel\nSpiegel\nKruiwagen\nLantaarn\nBoor\nSleutel"
+                ],
+                [
+                    "Wiel\nKlem\nSchraap\nDraaier\nVijs\nSleutel\nBeitel\nPlaat\nBoor\nMeet"
+                ],
+                [
+                    "Vork\nZwaard\nHamerslag\nMeetlint\nScharnier\nKlem\nSleutel\nPlaatstang\nDraaistel\nWals"
+                ],
+                [
+                    "Kroesel\nWever\nSchraper\nStempel\nPlaat\nKlem\nSpijker\nDolk\nBeitel\nKam"
+                ],
+                [
+                    "Tafel\nLamp\nNaald\nMes\nHamer\nBoor\nSchroevendraaier\nTang\nMeetlint\nBeitel"
+                ],
+                [
+                    "Wiel\nBoor\nMeetlint\nHamer\nSchroevendraaier\nZaag\nDraaierschijf\nPlaatstang\nKlem\nSchuurpapier\n\n\n\n"
+                ],
+                [
+                    "Stelling, Kompas, Schaar, Draaijer, Meetlint, Lijm, Plaat, Vork, Tang, Pincet."
+                ],
+                [
+                    "Kompas\nMeetlint\nDobbelsteen\nZwartebord\nSleutelbos\nPincet\nVerrekijker\nLiniaal\nMeetbeker\nKansraam"
+                ],
+                [
+                    "Vork\nBeitel\nSchaar\nHamer\nMeetlint\nBoor\nPincet\nKlem\nSchuurpapier\nSpijker"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Dutch",
+            "constraints": "Laatste regel: elk woord moet een gereedschap zijn."
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "Martelo\nChave\nSerra\nAlicate\nP\u00e1\nTesoura\nN\u00edvel\nTrena\nFuradeira\nDesentupidor"
+                ],
+                [
+                    "1. Martelo\n2. Tesoura\n3. Enxada\n4. Chave de fenda\n5. Balan\u00e7a\n6. P\u00e1\n7. Agulha\n8. R\u00e9gua\n9. Vassoura\n10. Alavanca"
+                ],
+                [
+                    "1. Martelo\n2. Tesoura\n3. Chave\n4. P\u00e1\n5. Alicate\n6. Agulha\n7. Vassoura\n8. R\u00e9gua\n9. Enxada\n10. Serra"
+                ],
+                [
+                    "1. Agulha\n2. Machado\n3. Colher\n4. Chave\n5. Pincel\n6. Enxada\n7. Corda\n8. R\u00e9gua\n9. Alicate\n10. Esponja"
+                ],
+                [
+                    "1. Martelo\n2. Faca\n3. P\u00e1\n4. R\u00e9gua\n5. Agulha\n6. Pincel\n7. Balan\u00e7a\n8. B\u00fassola\n9. Panela\n10. Mangueira"
+                ],
+                [
+                    "1. Martelo\n2. Agulha\n3. P\u00e1\n4. Alicate\n5. Serra\n6. N\u00edvel\n7. Enxada\n8. Balan\u00e7a\n9. Lupa\n10. Alavanca"
+                ],
+                [
+                    "1.  Martelo\n2.  Serra\n3.  Trena\n4.  Vassoura\n5.  L\u00e1pis\n6.  B\u00fassola\n7.  Lupa\n8.  Panela\n9.  P\u00e1\n10. Rel\u00f3gio"
+                ],
+                [
+                    "1. Martelo\n2. Agulha\n3. P\u00e1\n4. Tesoura\n5. Pincel\n6. R\u00e9gua\n7. Alicate\n8. B\u00fassola\n9. Lupa\n10. Corda"
+                ],
+                [
+                    "1. Martelo\n2. Serra\n3. Broca\n4. Agulha\n5. P\u00e1\n6. Alicate\n7. R\u00e9gua\n8. Machado\n9. L\u00e1pis\n10. Trena"
+                ],
+                [
+                    "1. Martelo\n2. Serra\n3. Chave\n4. Enxada\n5. Agulha\n6. Pincel\n7. B\u00fassola\n8. Trena\n9. L\u00e2mpada\n10. Alavanca"
+                ],
+                [
+                    "1. Martelo\n2. Serra\n3. Chave\n4. Tesoura\n5. P\u00e1\n6. Faca\n7. Alicate\n8. Vassoura\n9. R\u00e9gua\n10. Agulha"
+                ],
+                [
+                    "1. Martelo\n2. Serra\n3. Alicate\n4. Chave\n5. P\u00e1\n6. Tesoura\n7. Vassoura\n8. Trena\n9. Faca\n10. Balan\u00e7a"
+                ],
+                [
+                    "1. Martelo\n2. Serra\n3. Alicate\n4. Pincel\n5. Agulha\n6. P\u00e1\n7. L\u00e1pis\n8. Trena\n9. N\u00edvel\n10. Tesoura"
+                ],
+                [
+                    "1. Martelo\n2. Alicate\n3. Serra\n4. Trena\n5. Furadeira\n6. P\u00e1\n7. Vassoura\n8. Chave de fenda\n9. Lupa\n10. Desentupidor"
+                ],
+                [
+                    "1. Martelo\n2. Serra\n3. Chave\n4. Tesoura\n5. P\u00e1\n6. Alicate\n7. Faca\n8. Agulha\n9. R\u00e9gua\n10. Lima"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Martelo\nAgulha\nChave\nSerra\nAlicate\nParafuso\nTrena\nEsp\u00e1tula\nBroca\nDobradi\u00e7a"
+                ],
+                [
+                    "Martelo\nChave\nSerra\nP\u00e1\nAlicate\nBroca\nForm\u00e3o\nPrego\nParafuso\nFita m\u00e9trica"
+                ],
+                [
+                    "Martelo\nChave\nSerra\nAlicate\nTrena\nN\u00edvel\nBroca\nEstilete\nLixa\nP\u00e1"
+                ],
+                [
+                    "Martelo\nChave\nSerra\nFuradeira\nAlicate\nLixa\nChave de fenda\nTrena\nPregos\nCisalha"
+                ],
+                [
+                    "Martelo\nTesoura\nChave\nP\u00e1\nSerra\nAlicate\nFuradeira\nN\u00edvel\nBroca\nTrena"
+                ],
+                [
+                    "Martelo\nChave\nSerra\nAlicate\nP\u00e1\nTesoura\nFaca\nChave de fenda\nFuradeira\nPrego"
+                ],
+                [
+                    "Chave\nMartelo\nAlicate\nSerra\nFita\nFuradeira\nN\u00edvel\nColher\nP\u00e1\nTesoura"
+                ],
+                [
+                    "Serra\nAlicate\nChave\nMartelo\nTesoura\nFuradeira\nP\u00e1\nEnxada\nLixa\nTrena"
+                ],
+                [
+                    "Chave\nSerra\nTesoura\nMartelo\nAlicate\nP\u00e1\nColher\nAgulha\nFaca\nFuradeira"
+                ],
+                [
+                    "Chave\nMarreta\nP\u00e1\nAlicate\nSerra\nChave de fenda\nMartelo\nTrena\nForm\u00e3o\nEstilete"
+                ],
+                [
+                    "Chave\nP\u00e1\nMartelo\nFaca\nAlicate\nSerra\nChave de fenda\nTrena\nFuradeira\nSerra tico-tico"
+                ],
+                [
+                    "Martelo\nChave de fenda\nSerra\nAlicate\nPregador\nChave inglesa\nTrena\nN\u00edvel\nV     e     r     i     n     g     a\nP     a     s     t     a"
+                ],
+                [
+                    "Chave\nMartelo\nSerra\nAlicate\nChave de fenda\nTrena\nN\u00edvel\nGrampo\nP\u00e1\nDesencravador"
+                ],
+                [
+                    "Chave\nMartelo\nP\u00e1\nFuradeira\nAlicate\nSerra\nChave de fenda\nMartelo de borracha\nN\u00edvel\nSerrote"
+                ],
+                [
+                    "Alicate\nChave\nMartelo\nSerra\nFuradeira\nP\u00e1\nColher\nTesoura\nEscavadeira\nMartelo de borracha"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Agulha\n2.  Alavanca\n3.  Crivo\n4.  Molde\n5.  Torno\n6.  \u00c2ncora\n7.  Balan\u00e7a\n8.  Lupa\n9.  Gabarito\n10. Cunha"
+                ],
+                [
+                    "1.  \u00c2ncora\n2.  Agulha\n3.  Peneira\n4.  Balan\u00e7a\n5.  Torno\n6.  Alavanca\n7.  Form\u00e3o\n8.  Pin\u00e7a\n9.  Arp\u00e3o\n10. Luneta"
+                ],
+                [
+                    "1.  Chave\n2.  Agulha\n3.  \u00c2ncora\n4.  Cesto\n5.  Peneira\n6.  Balan\u00e7a\n7.  Torno\n8.  Form\u00e3o\n9.  Alavanca\n10. Cabresto"
+                ],
+                [
+                    "1.  \u00c2ncora\n2.  Trombeta\n3.  Vassoura\n4.  Morda\u00e7a\n5.  Balde\n6.  Catraca\n7.  Funil\n8.  Manilha\n9.  Peneira\n10. Luneta"
+                ],
+                [
+                    "1.  Alavanca\n2.  Peneira\n3.  Balan\u00e7a\n4.  Cinzel\n5.  Torno\n6.  Agulha\n7.  Mola\n8.  Espelho\n9.  Vela\n10. \u00c2ncora"
+                ],
+                [
+                    "1.  \u00c2ncora\n2.  Peneira\n3.  Serra\n4.  Agulha\n5.  Trombeta\n6.  Torno\n7.  Alavanca\n8.  Corda\n9.  Vela\n10. Balan\u00e7a"
+                ],
+                [
+                    "1.  Agulha\n2.  \u00c2ncora\n3.  Balan\u00e7a\n4.  Crivo\n5.  Form\u00e3o\n6.  Gabarito\n7.  Mola\n8.  Pederneira\n9.  Torno\n10. Vara"
+                ],
+                [
+                    "1.  \u00c2ncora\n2.  Agulha\n3.  Peneira\n4.  B\u00fassola\n5.  Alavanca\n6.  Trena\n7.  Torno\n8.  Crivo\n9.  Morda\u00e7a\n10. Catraca"
+                ],
+                [
+                    "1.  Agulha\n2.  Alavanca\n3.  \u00c2ncora\n4.  Crivo\n5.  Form\u00e3o\n6.  Gabarito\n7.  Morda\u00e7a\n8.  Rede\n9.  Torno\n10. Vasoira"
+                ],
+                [
+                    "1.  Alavanca\n2.  Agulha\n3.  Peneira\n4.  Arado\n5.  Form\u00e3o\n6.  Tear\n7.  Buril\n8.  Moinho\n9.  Crivo\n10. Balan\u00e7a"
+                ],
+                [
+                    "1.  Arado\n2.  Agulha\n3.  Tear\n4.  Balan\u00e7a\n5.  Chave\n6.  Peneira\n7.  C\u00e1lice\n8.  \u00c2ncora\n9.  Tinta\n10. Fio"
+                ],
+                [
+                    "1.  Agulha\n2.  \u00c2ncora\n3.  Balde\n4.  Crivo\n5.  Form\u00e3o\n6.  Gabarito\n7.  Lanterna\n8.  Mola\n9.  Torno\n10. Vassoura"
+                ],
+                [
+                    "1.  Agulha\n2.  \u00c2ncora\n3.  Peneira\n4.  Torno\n5.  Form\u00e3o\n6.  Alavanca\n7.  B\u00fassola\n8.  Bomba\n9.  C\u00e1lice\n10. Catapulta"
+                ],
+                [
+                    "1.  \u00c2ncora\n2.  Peneira\n3.  Buril\n4.  Torno\n5.  Alavanca\n6.  Agulha\n7.  Esp\u00e1tula\n8.  B\u00fassola\n9.  Trena\n10. Moinho"
+                ],
+                [
+                    "1.  Chave\n2.  Peneira\n3.  Rede\n4.  Alavanca\n5.  \u00c2ncora\n6.  B\u00fassola\n7.  Vela\n8.  Cesto\n9.  Agulha\n10. Escada"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  Tesoura\n2.  L\u00e1pis\n3.  Escova\n4.  Martelo\n5.  Esp\u00e1tula\n6.  Balde\n7.  R\u00e9gua\n8.  Chave\n9.  Agulha\n10. Pau"
+                ],
+                [
+                    "1.  Agulha\n2.  B\u00fassola\n3.  Craveira\n4.  Enxada\n5.  F\u00f3rceps\n6.  Goiva\n7.  Lima\n8.  Paquimetro\n9.  Serrote\n10. Tenaz"
+                ],
+                [
+                    "1.  \u00c2ncora\n2.  B\u00fassola\n3.  Serrote\n4.  Esquadro\n5.  Chave\n6.  Martelo\n7.  Lente\n8.  Paqu\u00edmetro\n9.  Enxada\n10. Fio"
+                ],
+                [
+                    "1.  Ancinho\n2.  Balde\n3.  B\u00fassola\n4.  Chave\n5.  Escalpe\n6.  Faca\n7.  Gabarito\n8.  Martelo\n9.  Paquimetro\n10. R\u00e9gua"
+                ],
+                [
+                    "1.  \u00c1baco\n2.  Cisterna\n3.  Escala\n4.  F\u00f3rceps\n5.  Gir\u00e2ndola\n6.  \u00cdman\n7.  Macete\n8.  Paqu\u00edmetro\n9.  Serrote\n10. Trena"
+                ],
+                [
+                    "1.  Anzol\n2.  Balde\n3.  B\u00fassola\n4.  Chave\n5.  Escala\n6.  Faca\n7.  Gabarito\n8.  Martelo\n9.  Peneira\n10. R\u00e9gua"
+                ],
+                [
+                    "1.  Agulha\n2.  Corda\n3.  Escala\n4.  Faca\n5.  Grade\n6.  Machado\n7.  Martelo\n8.  Peneira\n9.  Pin\u00e7a\n10. Tesoura"
+                ],
+                [
+                    "1.  Escala\n2.  B\u00fassola\n3.  Paix\u00e3o\n4.  Prancha\n5.  Tesoura\n6.  Esfera\n7.  Espelho\n8.  Chave\n9.  R\u00e9gua\n10. Rede"
+                ],
+                [
+                    "1.  Escova\n2.  Roda\n3.  Lan\u00e7a\n4.  Chave\n5.  Tesoura\n6.  Paquimetro\n7.  Serrote\n8.  Compasso\n9.  P\u00e1\n10. Agulha"
+                ],
+                [
+                    "1.  Agulha\n2.  Escudo\n3.  Estrela\n4.  Espelho\n5.  Faca\n6.  Martelo\n7.  Tesoura\n8.  Caleidosc\u00f3pio\n9.  Compasso\n10. Balan\u00e7a"
+                ],
+                [
+                    "1.  Arado\n2.  B\u00fassola\n3.  Escala\n4.  Gabarito\n5.  Macete\n6.  Peneira\n7.  R\u00e9gua\n8.  Seringa\n9.  Tenaz\n10. Torqu\u00eas"
+                ],
+                [
+                    "1.  Agulha\n2.  Arado\n3.  B\u00fassola\n4.  Cabo\n5.  Escala\n6.  Faca\n7.  Martelo\n8.  Peneira\n9.  R\u00e9gua\n10. Tesoura"
+                ],
+                [
+                    "1.  Agulha\n2.  Cadeado\n3.  Serrote\n4.  Escala\n5.  Bisturi\n6.  Mastro\n7.  Estilete\n8.  F\u00f3rceps\n9.  Balan\u00e7a\n10. Paqu\u00edmetro"
+                ],
+                [
+                    "1.  Tesouro\n2.  Espelho\n3.  Rede\n4.  Escudo\n5.  L\u00e1pis\n6.  Roda\n7.  Corda\n8.  Livro\n9.  Martelo\n10. Vaso"
+                ],
+                [
+                    "1.  Agulha\n2.  Escala\n3.  Faca\n4.  B\u00fassola\n5.  Corda\n6.  Chave\n7.  Machado\n8.  Serrote\n9.  R\u00e9gua\n10. Martelo"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "Pedra\nLixa\nMartelo\nSerra\nLima\nBroca\nGabarito\nEsquadro\nFuradeira\nP\u00e9 de cabra"
+                ],
+                [
+                    "Pedra\nLixa\nMartelo\nSerra\nChave\nAlicate\nLima\nFuradeira\nGrosa\nEsquadro\n"
+                ],
+                [
+                    "Escada\nMartelo\nAlicate\nSerra\nChave\nLima\nPreg\u00e3o\nTorno\nGrampo\nRoda\n"
+                ],
+                [
+                    "Pedra.\nLixa.\nMartelo.\nSerra.\nChave.\nAlicate.\nLima.\nFuradeira.\nTornadeira.\nGrampo.\n"
+                ],
+                [
+                    "1.  Alavanca\n2.  Martelo\n3.  Serra\n4.  Chave\n5.  Lima\n6.  Pregador\n7.  Catraca\n8.  Grampo\n9.  Cal\u00e7o\n10. Abra\u00e7adeira\n"
+                ],
+                [
+                    "Bucha\nAlavanca\nLima\nSerra\nChave\nMartelo\nPreg\u00e3o\nGabarito\nGrampo\nArame\n"
+                ],
+                [
+                    "Pedra.\nL\u00e2mina.\nAlicate.\nMartelo.\nChave-de-fenda.\nSerra.\nFuradeira.\nLima.\nGabarito.\nTorno.\n"
+                ],
+                [
+                    "Escada\nMartelo\nChave\nAlicate\nSerra\nLixa\nR\u00e9gua\nFuradeira\nGrampo\nTorno\n"
+                ],
+                [
+                    "Pedra.\nLixa.\nMartelo.\nSerra.\nChave.\nPrego.\nLima.\nAlicate.\nFuradeira.\nRoldana.\n"
+                ],
+                [
+                    "Pedra.\nAgulha.\nAlavanca.\nRoda.\nMartelo.\nLima.\nSerra.\nAlicate.\nChave-de-fenda.\nGabarito.\n\n\n\n"
+                ],
+                [
+                    "Pedra\nLixa\nMartelo\nSerra\nChave\nAlicate\nFuradeira\nLima\nGabarito\nEsquadro\n"
+                ],
+                [
+                    "Pedra\nLixa\nMartelo\nSerra\nChave\nAlicate\nLima\nFuradeira\nGrosa\nTornadeira\n"
+                ],
+                [
+                    "Pedra.\nLixa.\nMartelo.\nSerra.\nAlicate.\nChave.\nLima.\nFuradeira.\nEsquadro.\nGabarito.\n"
+                ],
+                [
+                    "Pedra.\nP\u00e1.\nSerra.\nMartelo.\nAlicate.\nChave.\nLima.\nTorno.\nFuradeira.\nEsquadro.\n"
+                ],
+                [
+                    "Pedra.\nAgulha.\nAlavanca.\nRoda.\nLima.\nMartelo.\nSerra.\nChave.\nTesoura.\nPreg\u00e3o.\n\n\n\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Portuguese",
+            "constraints": "Regra final: cada palavra deve ser uma ferramenta."
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u5305\u4e01\n\u69cc\n\u7b46\n\u79e4\n\u92f8\n\u671b\u9060\u93e1\n\u5319\n\u92cf\n\u9375\n\u68af\u5b50"
+                ],
+                [
+                    "\u92f8\n\u69cc\n\u79e4\n\u7b46\n\u7b92\n\u87ba\u5b50\u56de\u3057\n\u92e4\n\u91dd\n\u68af\u5b50\n\u7825\u77f3"
+                ],
+                [
+                    "\u5305\u4e01\n\u91d1\u69cc\n\u5b9a\u898f\n\u925b\u7b46\n\u7b92\n\u92cf\n\u30c9\u30e9\u30a4\u30d0\u30fc\n\u934b\n\u6adb\n\u30b9\u30b3\u30c3\u30d7"
+                ],
+                [
+                    "*   \u5305\u4e01\n*   \u91d1\u69cc\n*   \u5b9a\u898f\n*   \u925b\u7b46\n*   \u7bb8\n*   \u307b\u3046\u304d\n*   \u91dd\n*   \u30b9\u30b3\u30c3\u30d7\n*   \u61d0\u4e2d\u96fb\u706f\n*   \u30c9\u30e9\u30a4\u30d0\u30fc"
+                ],
+                [
+                    "\u92cf\n\u925b\u7b46\n\u5b9a\u898f\n\u91d1\u69cc\n\u7b92\n\u7c60\n\u936c\n\u304a\u7389\n\u91dd\n\u61d0\u4e2d\u96fb\u706f"
+                ],
+                [
+                    "1. \u5305\u4e01\n2. \u91d1\u69cc\n3. \u87ba\u5b50\u56de\u3057\n4. \u92f8\n5. \u7b46\n6. \u92cf\n7. \u5b9a\u898f\n8. \u718a\u624b\n9. \u79e4\n10. \u9375"
+                ],
+                [
+                    "1.  \u5305\u4e01\n2.  \u925b\u7b46\n3.  \u5b9a\u898f\n4.  \u91d1\u69cc\n5.  \u91dd\n6.  \u936c\n7.  \u7b92\n8.  \u92cf\n9.  \u87ba\u5b50\u56de\u3057\n10. \u79e4"
+                ],
+                [
+                    "\u5305\u4e01\n\u91d1\u69cc\n\u5b9a\u898f\n\u92f8\n\u7b46\n\u7b92\n\u87ba\u5b50\u56de\u3057\n\u68af\u5b50\n\u938c\n\u6813\u629c\u304d"
+                ],
+                [
+                    "\u5305\u4e01\n\u5b9a\u898f\n\u925b\u7b46\n\u7bb8\n\u7b92\n\u30b9\u30b3\u30c3\u30d7\n\u30cf\u30f3\u30de\u30fc\n\u6813\u629c\u304d\n\u61d0\u4e2d\u96fb\u706f\n\u30c9\u30e9\u30a4\u30d0\u30fc"
+                ],
+                [
+                    "\u92cf\n\u91d1\u69cc\n\u925b\u7b46\n\u5b9a\u898f\n\u7b92\n\u9375\n\u87ba\u5b50\u56de\u3057\n\u7bb8\n\u91dd\n\u936c"
+                ],
+                [
+                    "\u5305\u4e01\n\u91d1\u69cc\n\u92f8\n\u30da\u30f3\n\u7bb8\n\u7b92\n\u92cf\n\u5b9a\u898f\n\u91dd\n\u30c9\u30e9\u30a4\u30d0\u30fc"
+                ],
+                [
+                    "1. \u5305\u4e01\n2. \u306e\u3053\u304e\u308a\n3. \u91d1\u69cc\n4. \u30c9\u30e9\u30a4\u30d0\u30fc\n5. \u5b9a\u898f\n6. \u92cf\n7. \u30da\u30f3\n8. \u307b\u3046\u304d\n9. \u30b9\u30d1\u30ca\n10. \u7b46"
+                ],
+                [
+                    "\u5305\u4e01\n\u30c9\u30e9\u30a4\u30d0\u30fc\n\u5b9a\u898f\n\u7b92\n\u92f8\n\u30da\u30f3\n\u91d1\u69cc\n\u92cf\n\u7b46\n\u30b9\u30b3\u30c3\u30d7"
+                ],
+                [
+                    "\u5305\u4e01\n\u306e\u3053\u304e\u308a\n\u30cf\u30f3\u30de\u30fc\n\u30c9\u30e9\u30a4\u30d0\u30fc\n\u7b46\n\u5b9a\u898f\n\u936c\n\u30cf\u30b5\u30df\n\u91dd\n\u5929\u79e4"
+                ],
+                [
+                    "\u5305\u4e01\n\u69cc\n\u92f8\n\u9310\n\u7bb8\n\u7b46\n\u92cf\n\u5b9a\u898f\n\u91dd\n\u9375"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u925b\u7b46\n2. \u69cc\n3. \u934b\n4. \u9375\n5. \u93e1\n6. \u7b92\n7. \u6813\u629c\u304d\n8. \u5f6b\u523b\u5200\n9. \u7cf8\u8eca\n10. \u671b\u9060\u93e1"
+                ],
+                [
+                    "1.  **\u30cf\u30f3\u30de\u30fc**\n2.  **\u30da\u30f3**\n3.  **\u934b**\n4.  **\u92cf**\n5.  **\u7b92**\n6.  **\u93e1**\n7.  **\u934b**\n8.  **\u9375**\n9.  **\u5305\u4e01**\n10. **\u91dd**"
+                ],
+                [
+                    "1.  **\u30cf\u30f3\u30de\u30fc**\n2.  **\u30da\u30f3**\n3.  **\u934b**\n4.  **\u92cf**\n5.  **\u671b\u9060\u93e1**\n6.  **\u9375**\n7.  **\u7db2**\n8.  **\u7be9**\n9.  **\u8eca\u8f2a**\n10. **\u7cf8\u8eca**"
+                ],
+                [
+                    "1.  **\u30cf\u30f3\u30de\u30fc**\n2.  **\u30dc\u30fc\u30eb**\n3.  **\u30da\u30f3**\n4.  **\u934b**\n5.  **\u93e1**\n6.  **\u68af\u5b50**\n7.  **\u7be9**\n8.  **\u6813\u629c\u304d**\n9.  **\u5305\u4e01**\n10. **\u6756**"
+                ],
+                [
+                    "1.  **\u30da\u30f3**\n2.  **\u5098**\n3.  **\u9375**\n4.  **\u6905\u5b50**\n5.  **\u934b**\n6.  **\u93e1**\n7.  **\u773c\u93e1**\n8.  **\u77f3\u9e78**\n9.  **\u7b92**\n10. **\u91dd**"
+                ],
+                [
+                    "1.  **\u30da\u30f3**\n2.  **\u5098**\n3.  **\u93e1**\n4.  **\u934b**\n5.  **\u92cf**\n6.  **\u7b92**\n7.  **\u9375**\n8.  **\u6642\u8a08**\n9.  **\u7db2**\n10. **\u5f13**"
+                ],
+                [
+                    "1.  **\u30da\u30f3**\n2.  **\u5098**\n3.  **\u8336\u7897**\n4.  **\u9774**\n5.  **\u9375**\n6.  **\u773c\u93e1**\n7.  **\u934b**\n8.  **\u7b92**\n9.  **\u6905\u5b50**\n10. **\u5e03**"
+                ],
+                [
+                    "1. \u9053\u5177\n2. \u6b66\u5668\n3. \u697d\u5668\n4. \u73a9\u5177\n5. \u7b46\u8a18\u7528\u5177\n6. \u53f0\u6240\u7528\u54c1\n7. \u5712\u82b8\u7528\u54c1\n8. \u6e2c\u5b9a\u5668\n9. \u7e2b\u88fd\u7528\u54c1\n10. \u6f01\u5177"
+                ],
+                [
+                    "1. \u5098\n2. \u8f9e\u66f8\n3. \u934b\n4. \u7b92\n5. \u91d8\n6. \u6247\u5b50\n7. \u92cf\n8. \u6813\u629c\u304d\n9. \u94f2\n10. \u5f13"
+                ],
+                [
+                    "*   \u925b\u7b46\n*   \u5098\n*   \u6a4b\n*   \u9375\n*   \u91dd\n*   \u7a93\n*   \u77f3\u9e78\n*   \u7db2\n*   \u93e1\n*   \u74f6"
+                ],
+                [
+                    "1.  **\u30cf\u30f3\u30de\u30fc**\n2.  **\u30da\u30f3**\n3.  **\u934b**\n4.  **\u5e03**\n5.  **\u93e1**\n6.  **\u9774**\n7.  **\u9375**\n8.  **\u6905\u5b50**\n9.  **\u5098**\n10. **\u6642\u8a08**"
+                ],
+                [
+                    "1.  **\u30cf\u30f3\u30de\u30fc**\n2.  **\u30ca\u30a4\u30d5**\n3.  **\u30cf\u30b5\u30df**\n4.  **\u30c9\u30e9\u30a4\u30d0\u30fc**\n5.  **\u30da\u30f3\u30c1**\n6.  **\u30ce\u30b3\u30ae\u30ea**\n7.  **\u5b9a\u898f**\n8.  **\u30e1\u30b8\u30e3\u30fc**\n9.  **\u3084\u3059\u308a**\n10. **\u30c8\u30f3\u30ab\u30c1**"
+                ],
+                [
+                    "1.  **\u30da\u30f3**\n2.  **\u5098**\n3.  **\u9375**\n4.  **\u5305\u4e01**\n5.  **\u7b92**\n6.  **\u7b46**\n7.  **\u773c\u93e1**\n8.  **\u6813\u629c\u304d**\n9.  **\u30b5\u30a4\u30b3\u30ed**\n10. **\u5b9a\u898f**"
+                ],
+                [
+                    "1. \u91d8\n2. \u7cf8\n3. \u76bf\n4. \u9375\n5. \u93e1\n6. \u7e04\n7. \u934b\n8. \u5098\n9. \u6a4b\n10. \u91dd"
+                ],
+                [
+                    "1.  **\u30cf\u30f3\u30de\u30fc**\n2.  **\u30b3\u30c3\u30d7**\n3.  **\u30ce\u30b3\u30ae\u30ea**\n4.  **\u5b9a\u898f**\n5.  **\u30cf\u30b5\u30df**\n6.  **\u934b**\n7.  **\u9375**\n8.  **\u5098**\n9.  **\u7b46**\n10. **\u6ce8\u5c04\u5668**"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u7b46\n2.  \u92f8\n3.  \u936c\n4.  \u91dd\n5.  \u93e1\n6.  \u9318\n7.  \u68af\u5b50\n8.  \u6247\u5b50\n9.  \u7825\u77f3\n10. \u7b97\u76e4"
+                ],
+                [
+                    "1.  \u68af\u5b50\n2.  \u9318\n3.  \u9375\n4.  \u7b46\n5.  \u6ac2\n6.  \u6adb\n7.  \u81fc\n8.  \u92f8\n9.  \u91dd\n10. \u93e1"
+                ],
+                [
+                    "1.  \u7b46\n2.  \u5b9a\u898f\n3.  \u91dd\n4.  \u92f8\n5.  \u9318\n6.  \u93e1\n7.  \u6247\n8.  \u9396\n9.  \u9375\n10. \u6adb"
+                ],
+                [
+                    "1.  \u91dd\n2.  \u93e1\n3.  \u6954\n4.  \u7db2\n5.  \u6756\n6.  \u9318\n7.  \u9320\n8.  \u7b46\n9.  \u68af\u5b50\n10. \u6247"
+                ],
+                [
+                    "1.  \u7b46\n2.  \u68af\u5b50\n3.  \u9396\n4.  \u93e1\n5.  \u6247\u5b50\n6.  \u5b9a\u898f\n7.  \u9318\n8.  \u9582\n9.  \u6775\n10. \u70ac\u71f5"
+                ],
+                [
+                    "1.  \u7b46\n2.  \u5b9a\u898f\n3.  \u934b\n4.  \u91dd\n5.  \u92f8\n6.  \u69cc\n7.  \u92cf\n8.  \u938c\n9.  \u936c\n10. \u7825\u77f3"
+                ],
+                [
+                    "1.  \u79e4\n2.  \u6ac2\n3.  \u9310\n4.  \u91ff\n5.  \u92f8\n6.  \u6954\n7.  \u92e4\n8.  \u938c\n9.  \u7825\u77f3\n10. \u7b46"
+                ],
+                [
+                    "1.  \u6954\n2.  \u92e4\n3.  \u9310\n4.  \u79e4\n5.  \u6ad3\n6.  \u62cd\u5b50\u6728\n7.  \u70ac\u71f5\n8.  \u7b97\u76e4\n9.  \u98a8\u8eca\n10. \u72ec\u697d"
+                ],
+                [
+                    "1.  \u7b46\n2.  \u93e1\n3.  \u68af\u5b50\n4.  \u6247\u5b50\n5.  \u9328\n6.  \u79e4\n7.  \u773c\u93e1\n8.  \u9375\n9.  \u92e4\n10. \u91dd"
+                ],
+                [
+                    "1.  \u92cf\n2.  \u9310\n3.  \u79e4\n4.  \u6247\u5b50\n5.  \u5b9a\u898f\n6.  \u7b46\n7.  \u93e1\n8.  \u7be9\n9.  \u7825\u77f3\n10. \u62cd\u5b50\u6728"
+                ],
+                [
+                    "1.  \u7b46\n2.  \u79e4\n3.  \u9396\n4.  \u6ac2\n5.  \u9310\n6.  \u6954\n7.  \u92f8\n8.  \u9360\n9.  \u92e4\n10. \u7be9"
+                ],
+                [
+                    "1.  \u7b46\n2.  \u9396\n3.  \u93e1\n4.  \u6adb\n5.  \u8235\n6.  \u9310\n7.  \u81fc\n8.  \u9318\n9.  \u936c\n10. \u6247"
+                ],
+                [
+                    "1.  **\u7b46**\n2.  **\u79e4**\n3.  **\u936c**\n4.  **\u92f8**\n5.  **\u93e1**\n6.  **\u91dd**\n7.  **\u9375**\n8.  **\u7b4f**\n9.  **\u6247**\n10. **\u9396**"
+                ],
+                [
+                    "1.  \u7b46\n2.  \u79e4\n3.  \u93e1\n4.  \u9396\n5.  \u6247\u5b50\n6.  \u6adb\n7.  \u874b\u71ed\n8.  \u68af\u5b50\n9.  \u9328\n10. \u91dd"
+                ],
+                [
+                    "1.  \u7b46\n2.  \u91dd\n3.  \u9396\n4.  \u6adb\n5.  \u93e1\n6.  \u69cc\n7.  \u68af\u5b50\n8.  \u6ac2\n9.  \u6247\u5b50\n10. \u79e4"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u9053\u5177\u306b\u9650\u5b9a\u3057\u3001\u610f\u5473\u3084\u4f7f\u3044\u65b9\u304c\u4e92\u3044\u306b\u7570\u306a\u308b10\u500b\u306e\u65e5\u672c\u8a9e\u306e\u540d\u8a5e\u3092\u6319\u3052\u307e\u3059\u3002\n\n1.  **\u92cf**\n2.  **\u92f8**\n3.  **\u91d8**\n4.  **\u91d1\u69cc**\n5.  **\u5b9a\u898f**\n6.  **\u7b46**\n7.  **\u91dd**\n8.  **\u7cf8**\n9.  **\u7be9**\n10. **\u6ac2**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306b\u3001\u6307\u793a\u306b\u5f93\u3063\u3066\u9078\u3093\u306010\u500b\u306e\u9053\u5177\u306e\u5358\u8a9e\u3092\u30ea\u30b9\u30c8\u306b\u3057\u307e\u3059\u3002\n\n1.  **\u7b46**\n2.  **\u92cf**\n3.  **\u79e4**\n4.  **\u69cc**\n5.  **\u92f8**\n6.  **\u91dd**\n7.  **\u936c**\n8.  **\u7c60**\n9.  **\u7814\u78e8\u6a5f**\n10. **\u93e1**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306b\u3001\u6761\u4ef6\u3092\u6e80\u305f\u3057\u305f10\u500b\u306e\u9053\u5177\u306e\u5358\u8a9e\u3092\u30ea\u30b9\u30c8\u306b\u3057\u307e\u3059\u3002\n\n1.  \u92cf\n2.  \u7b46\n3.  \u934b\n4.  \u92f8\n5.  \u947f\n6.  \u91dd\n7.  \u91d1\u69cc\n8.  \u5b9a\u898f\n9.  \u79e4\n10. \u936c"
+                ],
+                [
+                    "\u4e86\u89e3\u3057\u307e\u3057\u305f\u3002\u9053\u5177\u3092\u8868\u305910\u500b\u306e\u65e5\u672c\u8a9e\u306e\u5358\u8a9e\u3092\u6319\u3052\u307e\u3059\u3002\n\n1.  **\u92cf**\n2.  **\u79e4**\n3.  **\u92f8**\n4.  **\u936c**\n5.  **\u91dd**\n6.  **\u93e1**\n7.  **\u4fce**\n8.  **\u7825\u77f3**\n9.  **\u7b46**\n10. **\u7887**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\n\n1.  **\u69cc**\n2.  **\u92f8**\n3.  **\u91dd**\n4.  **\u79e4**\n5.  **\u92cf**\n6.  **\u936c**\n7.  **\u5b9a\u898f**\n8.  **\u7b46**\n9.  **\u7b86**\n10. **\u7c60**"
+                ],
+                [
+                    "1.  \u92cf\n2.  \u5b9a\u898f\n3.  \u934b\n4.  \u7b46\n5.  \u91d1\u69cc\n6.  \u92f8\n7.  \u5305\u4e01\n8.  \u7b92\n9.  \u7cf8\n10. \u93e1"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u9053\u5177\u306b\u9650\u5b9a\u3057\u3001\u610f\u5473\u304c\u4e92\u3044\u306b\u7570\u306a\u308b10\u500b\u306e\u5358\u8a9e\u3092\u63d0\u793a\u3057\u307e\u3059\u3002\n\n1.  **\u79e4**\n2.  **\u92f8**\n3.  **\u91dd**\n4.  **\u92cf**\n5.  **\u5319**\n6.  **\u92f8**\n7.  **\u9328**\n8.  **\u7b46**\n9.  **\u7b86**\n10. **\u947f**"
+                ],
+                [
+                    "1.  \u92cf\n2.  \u5b9a\u898f\n3.  \u7b46\n4.  \u5305\u4e01\n5.  \u91d1\u69cc\n6.  \u7cf8\n7.  \u92f8\n8.  \u91d8\n9.  \u30d0\u30b1\u30c4\n10. \u91dd"
+                ],
+                [
+                    "1.  **\u92cf**\n2.  **\u5305\u4e01**\n3.  **\u91d1\u69cc**\n4.  **\u92f8**\n5.  **\u7b46**\n6.  **\u5b9a\u898f**\n7.  **\u30b9\u30b3\u30c3\u30d7**\n8.  **\u30d0\u30b1\u30c4**\n9.  **\u91dd**\n10. **\u7cf8**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306b\u3001\u610f\u5473\u3084\u7528\u9014\u304c\u4e92\u3044\u306b\u7570\u306a\u308a\u3001\u9053\u5177\u3067\u3042\u308a\u3001\u540d\u8a5e\u306e\u65e5\u672c\u8a9e\u5358\u8a9e\u309210\u500b\u30ea\u30b9\u30c8\u30a2\u30c3\u30d7\u3057\u307e\u3059\u3002\n\n1.  **\u79e4**\n2.  **\u92cf**\n3.  **\u7b46**\n4.  **\u92f8**\n5.  **\u936c**\n6.  **\u91d1\u69cc**\n7.  **\u5b9a\u898f**\n8.  **\u7cf8**\n9.  **\u6f0f\u6597**\n10. **\u7b92**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306b10\u500b\u306e\u9053\u5177\u3092\u8868\u3059\u65e5\u672c\u8a9e\u306e\u540d\u8a5e\u3092\u30ea\u30b9\u30c8\u30a2\u30c3\u30d7\u3057\u307e\u3059\u3002\n\n1.  **\u5305\u4e01**\n2.  **\u92cf**\n3.  **\u92f8**\n4.  **\u91d1\u69cc**\n5.  **\u5b9a\u898f**\n6.  **\u30da\u30f3\u30c1**\n7.  **\u30ce\u30b3\u30ae\u30ea**\n8.  **\u30b9\u30b3\u30c3\u30d7**\n9.  **\u30d0\u30b1\u30c4**\n10. **\u7b92**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306e\u901a\u308a\u300110\u500b\u306e\u9053\u5177\u306e\u540d\u8a5e\u3092\u30ea\u30b9\u30c8\u30a2\u30c3\u30d7\u3057\u307e\u3059\u3002\n\n1.  \u7b46\n2.  \u79e4\n3.  \u92cf\n4.  \u92f8\n5.  \u936c\n6.  \u91dd\n7.  \u91d1\u69cc\n8.  \u5305\u4e01\n9.  \u5370\u9451\n10. \u7b86"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306b\u3001\u610f\u5473\u3084\u7528\u9014\u304c\u4e92\u3044\u306b\u7570\u306a\u308b10\u500b\u306e\u9053\u5177\u3092\u6319\u3052\u307e\u3059\u3002\n\n1.  **\u92cf**\n2.  **\u92f8**\n3.  **\u79e4**\n4.  **\u91d8**\n5.  **\u58a8\u58fa**\n6.  **\u93dd**\n7.  **\u30d0\u30b1\u30c4**\n8.  **\u91d1\u69cc**\n9.  **\u5b9a\u898f**\n10. **\u30c9\u30e9\u30a4\u30d0\u30fc**"
+                ],
+                [
+                    "\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306b\u3001\u610f\u5473\u3084\u7528\u9014\u304c\u4e92\u3044\u306b\u7570\u306a\u308a\u3001\u9053\u5177\u3067\u3042\u308b\u65e5\u672c\u8a9e\u306e\u540d\u8a5e10\u500b\u3092\u30ea\u30b9\u30c8\u3057\u307e\u3059\u3002\n\n1.  **\u92cf**\n2.  **\u7b92**\n3.  **\u92f8**\n4.  **\u79e4**\n5.  **\u936c**\n6.  **\u5b9a\u898f**\n7.  **\u6f0f\u6597**\n8.  **\u91d1\u69cc**\n9.  **\u3084\u3059\u308a**\n10. **\u4e07\u529b**"
+                ],
+                [
+                    "\u4e86\u89e3\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306e\u901a\u308a\u300110\u500b\u306e\u9053\u5177\u306e\u65e5\u672c\u8a9e\u540d\u8a5e\u3092\u30ea\u30b9\u30c8\u30a2\u30c3\u30d7\u3057\u307e\u3059\u3002\n\n1.  \u5305\u4e01\n2.  \u7b46\n3.  \u92f8\n4.  \u5b9a\u898f\n5.  \u30cf\u30f3\u30de\u30fc\n6.  \u7b92\n7.  \u92cf\n8.  \u7cf8\n9.  \u30d0\u30b1\u30c4\n10. \u925b\u7b46"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u5203\n2. \u5f13\n3. \u936c\n4. \u5237\u5b50\n5. \u91dd\n6. \u69cc\n7. \u7db2\n8. \u7aff\n9. \u76c6\n10. \u7e04\n"
+                ],
+                [
+                    "1. \u5263\n2. \u69cc\n3. \u936c\n4. \u5f13\n5. \u91dd\n6. \u5237\u5b50\n7. \u79e4\n8. \u938c\n9. \u81fc\n10. \u7db2\n"
+                ],
+                [
+                    "1. \u7b46\n2. \u5203\n3. \u69cc\n4. \u7e04\n5. \u938c\n6. \u5237\u5b50\n7. \u936c\n8. \u7db2\n9. \u74f6\n10. \u7cf8\n"
+                ],
+                [
+                    "1. \u7b46\n2. \u5203\n3. \u69cc\n4. \u91dd\n5. \u936c\n6. \u5f13\n7. \u7db2\n8. \u8f2a\n9. \u79e4\n10. \u81fc\n"
+                ],
+                [
+                    "1. \u5203\n2. \u7e04\n3. \u936c\n4. \u5237\u5b50\n5. \u91dd\n6. \u5f13\n7. \u69cc\n8. \u67f5\n9. \u7db2\n10. \u67c4\n"
+                ],
+                [
+                    "\u306f\u3044\u3001\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306e10\u500b\u306e\u5358\u8a9e\u306f\u3001\u9053\u5177\u3068\u3057\u3066\u306e\u610f\u5473\u5408\u3044\u3092\u6301\u3061\u3001\u4e92\u3044\u306b\u3067\u304d\u308b\u3060\u3051\u7570\u306a\u308b\u610f\u5473\u3068\u4f7f\u3044\u65b9\u3092\u3059\u308b\u3088\u3046\u306b\u9078\u3093\u3067\u3044\u307e\u3059\u3002\n\n1.  **\u30cf\u30f3\u30de\u30fc**\n2.  **\u30ce\u30b3\u30ae\u30ea**\n3.  **\u30c9\u30e9\u30a4\u30d0\u30fc**\n4.  **\u30da\u30f3\u30c1**\n5.  **\u30cf\u30b5\u30df**\n6.  **\u30e1\u30b8\u30e3\u30fc**\n7.  **\u3084\u3059\u308a**\n8.  **\u5b9a\u898f**\n9.  **\u30ab\u30f3\u30ca**\n10. **\u3084\u3059\u308a**\n"
+                ],
+                [
+                    "\u306f\u3044\u3001\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u9053\u5177\u3067\u3042\u308b\u3068\u3044\u3046\u30eb\u30fc\u30eb\u306b\u6cbf\u3063\u3066\u3001\u4ee5\u4e0b\u306e10\u500b\u306e\u5358\u8a9e\u3092\u6319\u3052\u307e\u3059\u3002\n\n1.  **\u5203** (\u306f\u3084\u3044): \u5207\u308b\u305f\u3081\u306e\u9053\u5177\u3002\n2.  **\u67c4** (\u3048\u3089): \u9053\u5177\u3092\u6301\u3064\u305f\u3081\u306e\u90e8\u5206\u3002\n3.  **\u91d1\u69cc** (\u304b\u306a\u3065\u3061): \u7269\u3092\u53e9\u304f\u305f\u3081\u306e\u9053\u5177\u3002\n4.  **\u91dd** (\u306f\u308a): \u7cf8\u3092\u901a\u3057\u3001\u5e03\u3092\u7e2b\u3046\u305f\u3081\u306e\u9053\u5177\u3002\n5.  **\u6ed1\u8eca** (\u3059\u3079\u3089): \u8f2a\u3068\u8eca\u8f2a\u3092\u4f7f\u3063\u3066\u3001\u529b\u3092\u79fb\u52d5\u3055\u305b\u308b\u9053\u5177\u3002\n6.  **\u30ce\u30b3\u30ae\u30ea** (\u306e\u3053\u304e\u308a): \u6728\u6750\u306a\u3069\u3092\u5207\u308b\u305f\u3081\u306e\u9053\u5177\u3002\n7.  **\u30cf\u30b5\u30df** (\u306f\u3055\u307f): \u7d19\u3084\u5e03\u306a\u3069\u3092\u5207\u308b\u305f\u3081\u306e\u9053\u5177\u3002\n8.  **\u718a\u624b** (\u304f\u307e\u3066): \u571f\u5730\u3092\u8015\u3057\u305f\u308a\u3001\u571f\u3092\u304b\u304d\u5206\u3051\u305f\u308a\u3059\u308b\u9053\u5177\u3002\n9.  **\u91e3\u7aff** (\u3064\u308a\u3056\u304a): \u9b5a\u3092\u91e3\u308b\u305f\u3081\u306e\u9053\u5177\u3002\n10. **\u30da\u30f3\u30c1** (\u30da\u30f3\u30c1): \u7269\u3092\u63b4\u3093\u3060\u308a\u3001\u66f2\u3052\u305f\u308a\u3001\u5207\u3063\u305f\u308a\u3059\u308b\u9053\u5177\u3002"
+                ],
+                [
+                    "1.  **\u5203**\n2.  **\u67c4**\n3.  **\u6ed1\u8eca**\n4.  **\u30da\u30f3**\n5.  **\u30cf\u30b5\u30df**\n6.  **\u30ce\u30b3\u30ae\u30ea**\n7.  **\u718a\u624b**\n8.  **\u30c8\u30f3\u30b0**\n9.  **\u91cf\u308a**\n10. **\u938c**\n"
+                ],
+                [
+                    "1. \u5203\n2. \u7e04\n3. \u5237\u304d\n4. \u69cc\n5. \u67a0\n6. \u91dd\n7. \u67c4\n8. \u8f2a\n9. \u5177\n10. \u5f13\n"
+                ],
+                [
+                    "1.  **\u5200**\n2.  **\u69cc**\n3.  **\u91dd**\n4.  **\u936c**\n5.  **\u5f13**\n6.  **\u7db2**\n7.  **\u5177**\n8.  **\u5237\u5b50**\n9.  **Saw**\n10. **\u79e4**\n"
+                ],
+                [
+                    "1. \u5203\n2. \u91dd\n3. \u69cc\n4. \u7aff\n5. \u936c\n6. \u8f2a\n7. \u5f13\n8. \u7db2\n9. \u5177\n10. \u5237\u5b50\n"
+                ],
+                [
+                    "\u306f\u3044\u3001\u627f\u77e5\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u4ee5\u4e0b\u306e10\u500b\u306e\u5358\u8a9e\u306f\u3001\u9053\u5177\u3068\u3057\u3066\u6a5f\u80fd\u3059\u308b\u3001\u610f\u5473\u3068\u4f7f\u3044\u65b9\u304c\u53ef\u80fd\u306a\u9650\u308a\u7570\u306a\u308b\u65e5\u672c\u8a9e\u306e\u540d\u8a5e\u3067\u3059\u3002\n\n1.  **\u5203**\uff08\u306f\uff09\uff1a\u5207\u308b\u305f\u3081\u306e\u9053\u5177\u3002\n2.  **\u67c4**\uff08\u3048\uff09\uff1a\u9053\u5177\u3092\u6301\u3064\u305f\u3081\u306e\u90e8\u5206\u3002\n3.  **\u91dd**\uff08\u306f\u308a\uff09\uff1a\u523a\u3059\u305f\u3081\u306e\u9053\u5177\u3002\n4.  **\u69cc**\uff08\u3064\u3061\uff09\uff1a\u53e9\u304f\u305f\u3081\u306e\u9053\u5177\u3002\n5.  **\u8f2a**\uff08\u308f\uff09\uff1a\u56fa\u5b9a\u3084\u7d50\u5408\u306e\u305f\u3081\u306e\u9053\u5177\u3002\n6.  **\u7db2**\uff08\u3042\u307f\uff09\uff1a\u6355\u7372\u3084\u9078\u5225\u306e\u305f\u3081\u306e\u9053\u5177\u3002\n7.  **\u936c**\uff08\u304f\u308f\uff09\uff1a\u571f\u3092\u6398\u308a\u8d77\u3053\u3059\u305f\u3081\u306e\u9053\u5177\u3002\n8.  **\u5f13**\uff08\u3086\u307f\uff09\uff1a\u5c04\u308b\u305f\u3081\u306e\u9053\u5177\u3002\n9.  **\u5237\u5b50**\uff08\u306f\u3089\u3057\uff09\uff1a\u5857\u308b\u305f\u3081\u306e\u9053\u5177\u3002\n10. **\u93e1**\uff08\u304b\u304c\u307f\uff09\uff1a\u6620\u308b\u305f\u3081\u306e\u9053\u5177\u3002\n"
+                ],
+                [
+                    "1. \u5200\n2. \u69cc\n3. \u7b46\n4. \u91dd\n5. \u936c\n6. \u7cf8\n7. \u8f2a\n8. \u81fc\n9. \u7db2\n10. \u5f13\n"
+                ],
+                [
+                    "1. **\u5203**\n2. **\u67c4**\n3. **\u3053\u3058**\n4. **\u6ed1\u8eca**\n5. **\u306f\u3055\u307f**\n6. **\u30ce\u30b3\u30ae\u30ea**\n7. **\u91d1\u69cc**\n8. **\u718a\u624b**\n9. **\u936c**\n10. **\u3084\u3059\u308a**\n"
+                ],
+                [
+                    "1.  **\u5200**\n2.  **\u7b46**\n3.  **\u936c**\n4.  **\u69cc**\n5.  **\u5f13**\n6.  **\u7db2**\n7.  **\u91dd**\n8.  **\u8eca\u8f2a**\n9.  **\u68af\u5b50**\n10. **\u79e4**\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Japanese",
+            "constraints": "\u6700\u7d42\u30eb\u30fc\u30eb\uff1a\u3059\u3079\u3066\u306e\u5358\u8a9e\u306f\u9053\u5177\u3067\u306a\u3051\u308c\u3070\u306a\u308a\u307e\u305b\u3093\u3002"
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u0645\u0637\u0631\u0642\u0629\n2.  \u0645\u0646\u0634\u0627\u0631\n3.  \u0645\u0641\u0643\n4.  \u0625\u0628\u0631\u0629\n5.  \u0645\u064a\u0632\u0627\u0646\n6.  \u0645\u0646\u0638\u0627\u0631\n7.  \u0642\u0644\u0645\n8.  \u0645\u0641\u062a\u0627\u062d\n9.  \u0631\u0627\u0641\u0639\u0629\n10. \u0641\u0631\u0634\u0627\u0629"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0645\u0646\u0634\u0627\u0631\n\u0645\u0641\u0643\n\u0645\u0642\u0635\n\u0645\u0644\u0639\u0642\u0629\n\u0645\u062b\u0642\u0627\u0628\n\u0645\u064a\u0632\u0627\u0646\n\u0645\u0641\u062a\u0627\u062d\n\u0642\u0644\u0645\n\u0641\u0631\u0634\u0627\u0629"
+                ],
+                [
+                    "\u0642\u0644\u0645\n\u0645\u0641\u062a\u0627\u062d\n\u0645\u064a\u0632\u0627\u0646\n\u0625\u0628\u0631\u0629\n\u0645\u0631\u0622\u0629\n\u0644\u063a\u0629\n\u062e\u0637\u0629\n\u0648\u0633\u064a\u0644\u0629\n\u0645\u0628\u062f\u0623\n\u0639\u062f\u0633\u0629"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0642\u0644\u0645\n\u0644\u063a\u0629\n\u0639\u0642\u0644\n\u0645\u064a\u0632\u0627\u0646\n\u0634\u0628\u0643\u0629\n\u0645\u0646\u0638\u0627\u0631\n\u062f\u0631\u0639\n\u0645\u0631\u0622\u0629"
+                ],
+                [
+                    "\u0642\u0644\u0645\n\u0645\u0637\u0631\u0642\u0629\n\u0645\u0642\u0635\n\u0645\u0644\u0639\u0642\u0629\n\u0645\u0634\u0631\u0637\n\u0641\u0631\u0634\u0627\u0629\n\u0645\u064a\u0632\u0627\u0646\n\u0645\u0646\u0634\u0627\u0631\n\u0645\u0633\u0637\u0631\u0629\n\u0645\u0641\u0643"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0633\u0643\u064a\u0646\n\u0645\u0641\u062a\u0627\u062d\n\u0641\u0631\u0634\u0627\u0629\n\u0645\u0642\u0635\n\u0645\u0633\u0637\u0631\u0629\n\u0645\u063a\u0631\u0641\u0629\n\u0645\u0646\u0634\u0627\u0631\n\u0645\u0639\u0648\u0644\n\u0645\u0635\u0641\u0627\u0629"
+                ],
+                [
+                    "1. \u0645\u0637\u0631\u0642\u0629\n2. \u0625\u0628\u0631\u0629\n3. \u0645\u0646\u0634\u0627\u0631\n4. \u0642\u0644\u0645\n5. \u0645\u064a\u0632\u0627\u0646\n6. \u0639\u062f\u0633\u0629\n7. \u0645\u0631\u0622\u0629\n8. \u0645\u0644\u0639\u0642\u0629\n9. \u0645\u0641\u062a\u0627\u062d\n10. \u0645\u0642\u0635"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0645\u0646\u0634\u0627\u0631\n\u0645\u0641\u0643\n\u0625\u0632\u0645\u064a\u0644\n\u0643\u0645\u0627\u0634\u0629\n\u0641\u0623\u0633\n\u0645\u062c\u0631\u0641\u0629\n\u0645\u0642\u0635\n\u0625\u0628\u0631\u0629\n\u0633\u0644\u0645"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0645\u0641\u0643\n\u0645\u0642\u0635\n\u0645\u0646\u0634\u0627\u0631\n\u0645\u0641\u062a\u0627\u062d\n\u0645\u0633\u0637\u0631\u0629\n\u0625\u0628\u0631\u0629\n\u0645\u0644\u0642\u0637\n\u0641\u0631\u0634\u0627\u0629\n\u0641\u0623\u0633"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0645\u0646\u0634\u0627\u0631\n\u0645\u0641\u0643\n\u0625\u0632\u0645\u064a\u0644\n\u0645\u0642\u0635\n\u0645\u0644\u0639\u0642\u0629\n\u0634\u0648\u0643\u0629\n\u0641\u0631\u0634\u0627\u0629\n\u0642\u0644\u0645\n\u0645\u063a\u0631\u0641\u0629"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0645\u0646\u0634\u0627\u0631\n\u0645\u0641\u0643\n\u0645\u0642\u0635\n\u0625\u0628\u0631\u0629\n\u0645\u064a\u0632\u0627\u0646\n\u0642\u0644\u0645\n\u0645\u0644\u0639\u0642\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0641\u0631\u0634\u0627\u0629"
+                ],
+                [
+                    "*   \u0645\u0637\u0631\u0642\u0629\n*   \u0625\u0628\u0631\u0629\n*   \u0645\u0646\u0634\u0627\u0631\n*   \u0645\u0641\u062a\u0627\u062d\n*   \u0645\u0642\u0635\n*   \u0645\u0644\u0639\u0642\u0629\n*   \u0645\u0631\u0622\u0629\n*   \u0645\u064a\u0632\u0627\u0646\n*   \u0641\u0631\u0634\u0627\u0629\n*   \u0639\u062f\u0633\u0629"
+                ],
+                [
+                    "\u0642\u0644\u0645\n\u0645\u0637\u0631\u0642\u0629\n\u0645\u0642\u0635\n\u0645\u0646\u0634\u0627\u0631\n\u0645\u0641\u0643\n\u0625\u0628\u0631\u0629\n\u0645\u064a\u0632\u0627\u0646\n\u0641\u0631\u0634\u0627\u0629\n\u0633\u0644\u0645\n\u0639\u062f\u0633\u0629"
+                ],
+                [
+                    "1. \u0642\u0644\u0645\n2. \u0645\u0637\u0631\u0642\u0629\n3. \u0645\u0646\u0634\u0627\u0631\n4. \u0625\u0628\u0631\u0629\n5. \u0645\u064a\u0632\u0627\u0646\n6. \u0645\u0631\u0622\u0629\n7. \u0645\u0641\u062a\u0627\u062d\n8. \u0641\u0631\u0634\u0627\u0629\n9. \u0633\u0644\u0645\n10. \u062d\u0627\u0633\u0628\u0629"
+                ],
+                [
+                    "1.  \u0642\u0644\u0645\n2.  \u0645\u0637\u0631\u0642\u0629\n3.  \u0645\u0634\u0631\u0637\n4.  \u0645\u0646\u0634\u0627\u0631\n5.  \u0645\u0641\u0643\n6.  \u0645\u0644\u0639\u0642\u0629\n7.  \u0625\u0628\u0631\u0629\n8.  \u0645\u0645\u062d\u0627\u0629\n9.  \u0645\u0642\u0635\n10. \u0645\u0631\u0622\u0629"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0642\u0644\u0645\n\u0643\u062a\u0627\u0628\n\u0645\u0631\u0622\u0629\n\u0645\u0646\u062e\u0644\n\u0625\u0628\u0631\u0629\n\u0645\u0634\u0628\u0643\n\u0645\u0628\u0634\u0631\u0629\n\u0645\u0646\u0642\u0627\u0634"
+                ],
+                [
+                    "\u0645\u0641\u062a\u0627\u062d\n\u0642\u0644\u0645\n\u0633\u0644\u0629\n\u0634\u0631\u0627\u0639\n\u062c\u0631\u0633\n\u0645\u0631\u0622\u0629\n\u0645\u0646\u0634\u0627\u0631\n\u0645\u0635\u0628\u0627\u062d\n\u0645\u0642\u0635\n\u0645\u064a\u0632\u0627\u0646"
+                ],
+                [
+                    "\u0645\u0633\u0637\u0631\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0645\u0631\u0622\u0629\n\u0625\u0628\u0631\u0629\n\u0645\u0642\u0635\n\u0642\u0644\u0645\n\u0634\u0627\u0643\u0648\u0634\n\u0645\u0644\u0639\u0642\u0629\n\u0645\u064a\u0632\u0627\u0646\n\u0645\u0646\u0634\u0627\u0631"
+                ],
+                [
+                    "\u0645\u0641\u062a\u0627\u062d\n\u0645\u0631\u0622\u0629\n\u0625\u0628\u0631\u0629\n\u062f\u0641\u062a\u0631\n\u062d\u062c\u0631\n\u0634\u0645\u0633\n\u0631\u064a\u062d\n\u0645\u0627\u0621\n\u0646\u0627\u0631\n\u0642\u0644\u0645"
+                ],
+                [
+                    "\u0645\u0633\u0637\u0631\u0629\n\u0645\u0641\u0643\n\u0645\u0642\u0635\n\u0645\u0646\u062e\u0644\n\u0645\u064a\u0632\u0627\u0646\n\u0645\u0637\u0631\u0642\u0629\n\u0645\u0643\u0648\u0627\u0629\n\u0645\u0644\u0642\u0637\n\u0645\u0631\u0622\u0629\n\u0645\u0645\u062d\u0627\u0629"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0645\u0642\u0635\n\u0625\u0628\u0631\u0629\n\u0642\u0644\u0645\n\u0645\u0631\u0622\u0629\n\u062d\u0635\u0627\u0629\n\u0635\u062e\u0631\u0629\n\u0646\u0638\u0627\u0631\u0629\n\u0633\u062c\u0627\u062f\u0629"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0642\u0644\u0645\n\u0633\u0643\u064a\u0646\n\u0645\u0643\u0646\u0633\u0629\n\u0645\u0631\u0622\u0629\n\u0625\u0628\u0631\u0629\n\u0645\u0642\u0635\n\u0645\u0644\u0639\u0642\u0629\n\u0645\u0646\u0634\u0627\u0631"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0642\u0644\u0645\n\u0633\u0641\u064a\u0646\u0629\n\u0645\u0641\u062a\u0627\u062d\n\u0646\u0638\u0627\u0631\u0629\n\u0645\u0646\u0634\u0627\u0631\n\u0634\u0645\u0639\u0629\n\u0645\u064a\u0632\u0627\u0646\n\u0645\u0645\u062d\u0627\u0629\n\u0625\u0628\u0631\u0629"
+                ],
+                [
+                    "\u0645\u0641\u062a\u0627\u062d\n\u0645\u0637\u0631\u0642\u0629\n\u0641\u0631\u0634\u0627\u0629\n\u0642\u0644\u0645\n\u0645\u0642\u0635\n\u0625\u0628\u0631\u0629\n\u0645\u0646\u0634\u0627\u0631\n\u0641\u0623\u0633\n\u0645\u0644\u0639\u0642\u0629\n\u0645\u0633\u0637\u0631\u0629"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u0642\u0644\u0645\n\u0645\u0641\u062a\u0627\u062d\n\u0645\u0646\u0634\u0627\u0631\n\u062d\u0635\u0627\u0629\n\u0648\u0634\u0627\u062d\n\u0641\u0627\u0646\u0648\u0633\n\u0645\u0642\u0635\n\u0645\u0631\u0622\u0629\n\u0645\u0628\u0636\u0639"
+                ],
+                [
+                    "\u0645\u0641\u062a\u0627\u062d\n\u0645\u0637\u0631\u0642\u0629\n\u0645\u0642\u0635\n\u0642\u0644\u0645\n\u0634\u0648\u0643\u0629\n\u0645\u0644\u0639\u0642\u0629\n\u0645\u0646\u0634\u0627\u0631\n\u0625\u0628\u0631\u0629\n\u0645\u063a\u0646\u0627\u0637\u064a\u0633\n\u0645\u0635\u0628\u0627\u062d"
+                ],
+                [
+                    "\u0645\u0641\u062a\u0627\u062d\n\u0642\u0644\u0645\n\u0645\u0637\u0631\u0642\u0629\n\u0645\u0642\u0635\n\u0645\u0646\u0634\u0627\u0631\n\u0625\u0628\u0631\u0629\n\u0645\u0644\u0639\u0642\u0629\n\u0634\u0648\u0643\u0629\n\u0641\u0623\u0633\n\u0645\u063a\u0646\u0627\u0637\u064a\u0633"
+                ],
+                [
+                    "\u0645\u0637\u0631\u0642\u0629\n\u062f\u0644\u0648\n\u0645\u0641\u062a\u0627\u062d\n\u062e\u064a\u0648\u0637\n\u0644\u0648\u062d\u0629\n\u0642\u0644\u0645\n\u0645\u0635\u0628\u0627\u062d\n\u0634\u0628\u0643\u0629\n\u0645\u0631\u0622\u0629\n\u0645\u0631\u0633\u0627\u0629"
+                ],
+                [
+                    "\u0645\u0641\u0643\n\u0645\u0644\u0639\u0642\u0629\n\u0642\u0644\u0645\n\u0645\u0646\u0634\u0627\u0631\n\u0625\u0628\u0631\u0629\n\u0633\u0643\u064a\u0646\n\u0645\u0635\u0628\u0627\u062d\n\u0645\u0631\u0622\u0629\n\u062e\u0627\u062a\u0645\n\u0645\u0641\u062a\u0627\u062d"
+                ],
+                [
+                    "\u0642\u0644\u0645\n\u0645\u0641\u062a\u0627\u062d\n\u0645\u0631\u0622\u0629\n\u0633\u0627\u0639\u0629\n\u0642\u0641\u0644\n\u0645\u0637\u0631\u0642\u0629\n\u0645\u0646\u0634\u0627\u0631\n\u0628\u0648\u0635\u0644\u0629\n\u0645\u0642\u0635\n\u0625\u0628\u0631\u0629"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u0645\u0646\u062c\u0644\n2. \u0645\u062d\u0631\u0627\u062b\n3. \u0645\u062e\u0631\u0632\n4. \u0645\u0633\u0637\u0631\u0629\n5. \u0645\u0646\u0641\u0627\u062e\n6. \u0645\u0634\u0637\n7. \u0645\u064a\u0632\u0627\u0646\n8. \u0645\u0637\u0631\u0642\u0629\n9. \u0645\u0642\u064a\u0627\u0633\n10. \u0645\u0643\u0628\u0633"
+                ],
+                [
+                    "1. \u0645\u0650\u0642\u0652\u0635\u0651\n2. \u0645\u0650\u0646\u0652\u0642\u064e\u0644\u064e\u0629\n3. \u0642\u0650\u0646\u0651\u0650\u064a\u0652\u0646\u064e\u0629\n4. \u0645\u0650\u0637\u0652\u0631\u064e\u0642\u064e\u0629\n5. \u0645\u0650\u0628\u0652\u0632\u064e\u0644\n6. \u0642\u064f\u0641\u0651\u064e\u0627\u0632\n7. \u0645\u0650\u0634\u0652\u0637\n8. \u0635\u0650\u0646\u064e\u0627\u0631\u064e\u0629\n9. \u062d\u0650\u0628\u0652\u0631\n10. \u0645\u0650\u0631\u0652\u0622\u0629"
+                ],
+                [
+                    "1.  \u0645\u0650\u0642\u0652\u0635\u0651\n2.  \u0645\u0650\u062d\u0652\u0631\u0627\u062b\n3.  \u0645\u0650\u0635\u0652\u0628\u064e\u0627\u062d\n4.  \u0645\u0650\u064a\u0632\u064e\u0627\u0646\n5.  \u0645\u0650\u062c\u0652\u062f\u0627\u0641\n6.  \u0645\u0650\u0634\u0652\u0637\n7.  \u0645\u0650\u0631\u0652\u0622\u0629\n8.  \u0645\u0650\u0646\u0652\u062c\u064e\u0644\n9.  \u0645\u0650\u0633\u0652\u0645\u064e\u0627\u0631\n10. \u0645\u0650\u0628\u0652\u0632\u064e\u0644"
+                ],
+                [
+                    "1.  \u0645\u0650\u0633\u0645\u0627\u0631\n2.  \u0645\u0650\u0642\u0635\n3.  \u0645\u0650\u0637\u0631\u0642\u0629\n4.  \u0645\u0650\u0628\u0631\u062f\n5.  \u0645\u0650\u062c\u0631\u0641\u0629\n6.  \u0645\u0650\u0633\u0637\u0631\u0629\n7.  \u0645\u0650\u0635\u0641\u0627\u0629\n8.  \u0645\u0650\u0631\u0622\u0629\n9.  \u0645\u0650\u0643\u0628\u0633\n10. \u0645\u0650\u0642\u0644\u0627\u0629"
+                ],
+                [
+                    "1. \u0645\u0650\u0641\u062a\u0627\u062d\n2. \u0625\u0650\u0632\u0645\u064a\u0644\n3. \u0642\u0650\u0633\u0637\u064e\u0627\u0633\n4. \u0642\u064e\u0644\u0645\n5. \u0645\u0650\u0646\u062c\u064e\u0644\n6. \u0631\u064e\u0627\u062f\u0639\n7. \u0642\u064e\u064a\u062f\n8. \u0645\u0650\u062c\u0647\u064e\u0631\n9. \u0633\u064f\u0644\u0651\u064e\u0645\n10. \u0645\u0650\u0631\u0622\u0629"
+                ],
+                [
+                    "1.  \u0645\u0637\u0631\u0642\u0629\n2.  \u0645\u062d\u0631\u0627\u062b\n3.  \u0645\u0642\u0635\n4.  \u0645\u0646\u0634\u0627\u0631\n5.  \u0645\u064a\u0632\u0627\u0646\n6.  \u0645\u0635\u0628\u0627\u062d\n7.  \u0645\u0631\u0622\u0629\n8.  \u0645\u0641\u062a\u0627\u062d\n9.  \u0645\u0628\u0631\u062f\n10. \u0641\u0631\u0634\u0627\u0629"
+                ],
+                [
+                    "1. \u0645\u0650\u0642\u0652\u064a\u0627\u0633\n2. \u0645\u0650\u0633\u0652\u0637\u064e\u0631\u064e\u0629\n3. \u0645\u0650\u062b\u0652\u0642\u064e\u0628\n4. \u0645\u0650\u0641\u0652\u062a\u0627\u062d\n5. \u0645\u0650\u0644\u0652\u0642\u064e\u0637\n6. \u0645\u0650\u064a\u0632\u0627\u0646\n7. \u0645\u0650\u062c\u0652\u0631\u0641\u0629\n8. \u0645\u0650\u0634\u0652\u0631\u064e\u0637\n9. \u0645\u0650\u0635\u0652\u0641\u0627\u0629\n10. \u0645\u0650\u063a\u0652\u0631\u064e\u0641\u064e\u0629"
+                ],
+                [
+                    "1.  \u0645\u0650\u0641\u062a\u0627\u062d\n2.  \u0645\u0650\u0633\u0637\u0631\u0629\n3.  \u0645\u0650\u0634\u0628\u0643\n4.  \u0645\u0650\u0642\u0644\u0627\u0629\n5.  \u0645\u0650\u0642\u0635\n6.  \u0645\u0650\u062c\u0647\u0631\n7.  \u0645\u0650\u0637\u0631\u0642\u0629\n8.  \u0645\u0650\u0631\u0622\u0629\n9.  \u0645\u0650\u062f\u0641\u0623\u0629\n10. \u0645\u0650\u0635\u0641\u0627\u0629"
+                ],
+                [
+                    "1. \u0645\u0646\u0634\u0627\u0631\n2. \u0645\u062d\u0631\u0627\u062b\n3. \u0645\u064a\u0632\u0627\u0646\n4. \u062d\u0628\u0644\n5. \u0645\u0631\u0622\u0629\n6. \u0633\u0647\u0645\n7. \u0642\u0641\u0644\n8. \u0639\u062f\u0633\u0629\n9. \u0645\u0637\u0631\u0642\u0629\n10. \u0633\u0644\u0645"
+                ],
+                [
+                    "1.  \u0645\u0650\u0641\u062a\u0627\u062d\n2.  \u0645\u0650\u0633\u0637\u0631\u0629\n3.  \u0645\u0650\u0634\u0628\u0643\n4.  \u0645\u0650\u0642\u0644\u0627\u0629\n5.  \u0645\u0650\u063a\u0646\u0627\u0637\u064a\u0633\n6.  \u0645\u0650\u0642\u0635\n7.  \u0645\u0650\u0637\u0631\u0642\u0629\n8.  \u0645\u0650\u0646\u0634\u0627\u0631\n9.  \u0645\u0650\u0635\u0641\u0627\u0629\n10. \u0645\u0650\u0643\u0628\u0633"
+                ],
+                [
+                    "1. \u0645\u0650\u062b\u0642\u064e\u0628\n2. \u0645\u0650\u062d\u0631\u0627\u062b\n3. \u0645\u0650\u0633\u0637\u0631\u0629\n4. \u0645\u0650\u0642\u0644\u0627\u0629\n5. \u0645\u0650\u062c\u0647\u0631\n6. \u0645\u0650\u0635\u0628\u0627\u062d\n7. \u0645\u0650\u0628\u0631\u062f\n8. \u0645\u0650\u0642\u0635\n9. \u0645\u0650\u062f\u0641\u0623\u0629\n10. \u0645\u0650\u0631\u0642\u0627\u0629"
+                ],
+                [
+                    "1.  \u0645\u0650\u0642\u0652\u064a\u0627\u0633\n2.  \u0645\u0650\u062c\u0631\u0641\u0629\n3.  \u0645\u0650\u0646\u0652\u0638\u0627\u0631\n4.  \u0645\u0650\u062d\u0652\u0631\u0627\u062b\n5.  \u0645\u0650\u0635\u0652\u0641\u0627\u0629\n6.  \u0645\u0650\u064a\u0632\u0627\u0646\n7.  \u0645\u0650\u0642\u0635\n8.  \u0645\u0650\u0631\u0652\u0622\u0629\n9.  \u0645\u0650\u0642\u0644\u0627\u0629\n10. \u0645\u0650\u0633\u0652\u0645\u064e\u0627\u0631"
+                ],
+                [
+                    "1. \u0645\u0650\u0641\u062a\u0627\u062d\n2. \u0645\u0650\u0642\u0652\u0635\u0651\n3. \u0645\u0650\u0633\u0652\u0637\u064e\u0631\u064e\u0629\n4. \u0642\u064e\u0644\u064e\u0645\n5. \u0645\u0650\u0637\u0652\u0631\u064e\u0642\u064e\u0629\n6. \u0645\u0650\u062c\u0652\u0631\u0641\u0629\n7. \u0645\u0650\u0646\u0652\u0634\u0627\u0631\n8. \u0645\u0650\u0633\u0652\u0645\u064e\u0627\u0631\n9. \u0645\u0650\u0643\u0652\u0648\u0627\u0629\n10. \u0645\u0650\u0644\u0652\u0642\u064e\u0637"
+                ],
+                [
+                    "1. \u0645\u0641\u062a\u0627\u062d\n2. \u0625\u0632\u0645\u064a\u0644\n3. \u0645\u0650\u0633\u0637\u0631\u0629\n4. \u0645\u0642\u064a\u0627\u0633\n5. \u0645\u062c\u0647\u0631\n6. \u0645\u0650\u062b\u0642\u0628\n7. \u0645\u0646\u0634\u0627\u0631\n8. \u0645\u0650\u0637\u0631\u0642\u0629\n9. \u0645\u0650\u063a\u0632\u0644\n10. \u0645\u0650\u0643\u0628\u0633"
+                ],
+                [
+                    "1.  \u0645\u0633\u0645\u0627\u0631\n2.  \u0645\u064a\u0632\u0627\u0646\n3.  \u0645\u0642\u0635\n4.  \u0645\u0646\u0634\u0627\u0631\n5.  \u0645\u062d\u0631\u0627\u062b\n6.  \u0645\u0637\u0631\u0642\u0629\n7.  \u0645\u0644\u0639\u0642\u0629\n8.  \u0645\u0635\u0628\u0627\u062d\n9.  \u0645\u0631\u0622\u0629\n10. \u0645\u0646\u0641\u0627\u062e"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  **\u0645\u0650\u0641\u062a\u0627\u062d**\n2.  **\u0633\u064e\u064a\u0641**\n3.  **\u0645\u0650\u0637\u0652\u0631\u064e\u0642\u0629**\n4.  **\u0642\u0644\u0645**\n5.  **\u0625\u0628\u0631\u0629**\n6.  **\u0645\u0650\u0635\u0652\u0628\u0627\u062d**\n7.  **\u0645\u0650\u062c\u0652\u0631\u064e\u0641\u064e\u0629**\n8.  **\u0628\u0650\u0648\u0635\u0644\u0629**\n9.  **\u0645\u0646\u0634\u0627\u0631**\n10. **\u0634\u0628\u0643\u0629**"
+                ],
+                [
+                    "1.  \u0645\u0650\u0641\u062a\u0627\u062d\n2.  \u0645\u0650\u0628\u0631\u0627\u0629\n3.  \u0645\u0650\u062d\u0631\u0627\u062b\n4.  \u0645\u0650\u063a\u0632\u0644\n5.  \u0645\u0650\u062c\u0647\u0631\n6.  \u0645\u0650\u0637\u0631\u0642\u0629\n7.  \u0645\u0650\u0646\u0634\u0627\u0631\n8.  \u0645\u0650\u0643\u064a\u0627\u0644\n9.  \u0645\u0650\u0642\u0631\u0627\u0636\n10. \u0645\u0650\u0635\u0641\u0627\u0629"
+                ],
+                [
+                    "1.  **\u0645\u0650\u0641\u062a\u0627\u062d**\n2.  **\u0645\u0650\u0637\u0631\u0642\u0629**\n3.  **\u0628\u064f\u0648\u0635\u0644\u0629**\n4.  **\u0645\u0650\u062c\u0647\u0631**\n5.  **\u0633\u0650\u0644\u0651\u064e\u0645**\n6.  **\u0645\u0650\u0643\u064a\u0627\u0644**\n7.  **\u0645\u0650\u0642\u0652\u0635\u0651**\n8.  **\u0645\u064f\u062d\u0652\u0631\u0627\u062b**\n9.  **\u0645\u0650\u0635\u0641\u0627\u0629**\n10. **\u0642\u064e\u0644\u0645**"
+                ],
+                [
+                    "1.  \u0645\u0650\u0641\u062a\u0627\u062d\n2.  \u0645\u0650\u0628\u0631\u0627\u0629\n3.  \u0645\u0650\u0646\u0634\u0627\u0631\n4.  \u0645\u064f\u0637\u0631\u0642\u0629\n5.  \u0645\u0650\u062d\u0642\u0646\u0629\n6.  \u0645\u0650\u0643\u0648\u0627\u0629\n7.  \u0645\u0650\u0633\u0645\u0627\u0631\n8.  \u0645\u0650\u062c\u0647\u0631\n9.  \u0645\u0650\u063a\u0632\u0644\n10. \u0645\u0650\u062d\u0631\u0627\u062b"
+                ],
+                [
+                    "1.  **\u0645\u0650\u0641\u062a\u0627\u062d**\n2.  **\u0625\u0628\u0631\u0629**\n3.  **\u0645\u0650\u064a\u0632\u0627\u0646**\n4.  **\u0645\u0650\u0642\u0644\u0627\u0639**\n5.  **\u0641\u0623\u0633**\n6.  **\u0645\u0650\u0642\u0635\u0651**\n7.  **\u0645\u0650\u062d\u0631\u0627\u062b**\n8.  **\u0645\u0646\u0634\u0627\u0631**\n9.  **\u0642\u0644\u0645**\n10. **\u0645\u0650\u062c\u0647\u0631**"
+                ],
+                [
+                    "1.  **\u0645\u0650\u0641\u0652\u062a\u064e\u0627\u062d**\n2.  **\u0645\u0650\u0642\u0652\u0635**\n3.  **\u0645\u0650\u062d\u0652\u0631\u064e\u0627\u062b**\n4.  **\u0645\u0650\u0635\u0652\u0641\u064e\u0627\u0629**\n5.  **\u0645\u0650\u0639\u0652\u0648\u064e\u0644**\n6.  **\u0645\u0650\u062f\u064e\u0642\u0651\u064e\u0629**\n7.  **\u0645\u0650\u064a\u0632\u064e\u0627\u0646**\n8.  **\u0645\u0650\u0634\u0652\u0637**\n9.  **\u0645\u0650\u062c\u0652\u0631\u064e\u0627\u0641**\n10. **\u0645\u0650\u062d\u0652\u0642\u064e\u0646**"
+                ],
+                [
+                    "1.  \u0645\u0650\u0641\u062a\u0627\u062d\n2.  \u0645\u0650\u062d\u0631\u0627\u062b\n3.  \u0645\u0650\u0646\u0634\u0627\u0631\n4.  \u0645\u0650\u0637\u0631\u0642\u0629\n5.  \u0625\u0628\u0631\u0629\n6.  \u0645\u0650\u0642\u064a\u0627\u0633\n7.  \u062f\u0650\u0644\u0648\n8.  \u0633\u0650\u0644\u0627\u062d\n9.  \u0645\u0650\u063a\u0632\u0644\n10. \u0645\u0650\u062c\u0647\u0631"
+                ],
+                [
+                    "1.  \u0642\u0644\u0645\n2.  \u0633\u064a\u0641\n3.  \u0628\u0626\u0631\n4.  \u0645\u0646\u062c\u0644\n5.  \u0645\u0631\u0622\u0629\n6.  \u0645\u064a\u0632\u0627\u0646\n7.  \u0634\u0628\u0643\u0629\n8.  \u0641\u0631\u0634\u0627\u0629\n9.  \u0645\u063a\u0631\u0641\u0629\n10. \u0625\u0628\u0631\u0629"
+                ],
+                [
+                    "1.  \u0645\u0650\u0641\u062a\u0627\u062d\n2.  \u0645\u0650\u0642\u0635\u0651\n3.  \u0625\u0628\u0631\u0629\n4.  \u0645\u0650\u0633\u0637\u0631\u0629\n5.  \u0641\u0623\u0633\n6.  \u0645\u0650\u062c\u0647\u0631\n7.  \u0645\u0650\u0628\u0631\u062f\n8.  \u0645\u0650\u0637\u0631\u0642\u0629\n9.  \u0645\u0650\u0643\u064a\u0627\u0644\n10. \u0645\u0650\u063a\u0631\u0641\u0629"
+                ],
+                [
+                    "1.  **\u0645\u0650\u0641\u062a\u0627\u062d**\n2.  **\u0642\u064e\u0644\u064e\u0645**\n3.  **\u0645\u0650\u0631\u0652\u0622\u0629**\n4.  **\u0633\u0650\u0643\u0651\u064a\u0646**\n5.  **\u0645\u0650\u062c\u0652\u0631\u064e\u0641\u064e\u0629**\n6.  **\u0645\u0650\u0635\u0652\u0628\u0627\u062d**\n7.  **\u0625\u0650\u0628\u0652\u0631\u0629**\n8.  **\u0645\u0650\u0642\u0652\u0631\u0627\u0636**\n9.  **\u0645\u0650\u0643\u0652\u0646\u064e\u0633\u064e\u0629**\n10. **\u0645\u064f\u0632\u0652\u0644\u0627\u062c**"
+                ],
+                [
+                    "1.  \u0645\u0650\u0641\u062a\u0627\u062d\n2.  \u0645\u0650\u0637\u0631\u064e\u0642\u0629\n3.  \u0645\u0650\u0631\u0622\u0629\n4.  \u0642\u064e\u0644\u064e\u0645\n5.  \u0645\u0650\u0642\u0635\u0651\n6.  \u0645\u0650\u0643\u064a\u0627\u0644\n7.  \u0645\u0650\u0643\u0646\u0633\u0629\n8.  \u0645\u0650\u062c\u0647\u0631\n9.  \u0633\u064e\u064a\u0641\n10. \u0645\u0650\u0633\u0637\u0631\u0629"
+                ],
+                [
+                    "1.  **\u0633\u064a\u0641**\n2.  **\u0642\u0644\u0645**\n3.  **\u0645\u0631\u0622\u0629**\n4.  **\u0645\u064a\u0632\u0627\u0646**\n5.  **\u0645\u0646\u0634\u0627\u0631**\n6.  **\u0645\u0637\u0631\u0642\u0629**\n7.  **\u0645\u062d\u0642\u0646\u0629**\n8.  **\u0645\u062c\u0631\u0641\u0629**\n9.  **\u0645\u0646\u062e\u0644**\n10. **\u0634\u0628\u0643\u0629**"
+                ],
+                [
+                    "1.  \u0645\u0650\u0641\u062a\u0627\u062d\n2.  \u0645\u0650\u0646\u062c\u0644\n3.  \u0625\u0632\u0645\u064a\u0644\n4.  \u0645\u0650\u062d\u0631\u0627\u062b\n5.  \u0645\u0650\u0642\u064a\u0627\u0633\n6.  \u0633\u0650\u0644\u0651\u0645\n7.  \u0645\u0650\u062c\u0647\u0631\n8.  \u0645\u0650\u0637\u0631\u0642\u0629\n9.  \u0645\u0650\u062c\u0631\u0641\u0629\n10. \u0645\u0650\u062d\u0642\u0646\u0629"
+                ],
+                [
+                    "1.  **\u0645\u0650\u0641\u0652\u062a\u064e\u0627\u062d**\n2.  **\u0642\u064e\u0644\u064e\u0645**\n3.  **\u0625\u0650\u0632\u0645\u064a\u0644**\n4.  **\u0645\u0650\u064a\u0632\u064e\u0627\u0646**\n5.  **\u0645\u0650\u062c\u0652\u0631\u0641\u0629**\n6.  **\u0645\u0650\u0646\u0652\u0634\u0627\u0631**\n7.  **\u0645\u0650\u0643\u0652\u0646\u064e\u0633\u064e\u0629**\n8.  **\u0645\u0650\u062e\u0652\u0631\u064e\u0632**\n9.  **\u0645\u0650\u062d\u0652\u0631\u0627\u062b**\n10. **\u0625\u0650\u0628\u0652\u0631\u064e\u0629**"
+                ],
+                [
+                    "1.  \u0645\u0650\u0641\u062a\u0627\u062d\n2.  \u0645\u0650\u0630\u0652\u0631\u064e\u0628\u0629\n3.  \u0625\u0628\u0631\u0629\n4.  \u0645\u0650\u0628\u0631\u0627\u0629\n5.  \u0645\u0650\u0642\u0631\u0627\u0636\n6.  \u0645\u0650\u0634\u0631\u0637\n7.  \u0645\u0650\u0633\u0637\u0631\u0629\n8.  \u0645\u0650\u0637\u0631\u0642\u0629\n9.  \u0645\u0650\u062c\u0631\u0641\u0629\n10. \u0645\u0650\u064a\u0632\u0627\u0646"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u062d\u062a\u0649\u060c \u0639\u0644\u0649\u060c \u0645\u0646\u060c \u0641\u064a\u060c \u0648\u060c \u0623\u0648\u060c \u0625\u0646\u060c \u0628\u0644\u060c \u0644\u0627\u060c \u0623\u0646.\n"
+                ],
+                [
+                    "\u0647\u0630\u0627 \u062a\u062d\u062f\u064d \u0635\u0639\u0628! \u0625\u0644\u064a\u0643 10 \u0623\u062f\u0648\u0627\u062a \u0645\u062e\u062a\u0644\u0641\u0629 \u0642\u062f\u0631 \u0627\u0644\u0625\u0645\u0643\u0627\u0646\u060c \u0645\u0639 \u0627\u0644\u0627\u0644\u062a\u0632\u0627\u0645 \u0628\u0627\u0644\u0642\u0648\u0627\u0639\u062f:\n\n1.  \u0645\u0650\u0633\u0637\u0631\u0629\n2.  \u0645\u0650\u0639\u0652\u0642\u0650\u0644\n3.  \u0645\u0650\u0641\u062a\u0627\u062d\n4.  \u0645\u0650\u062b\u0652\u0642\u064e\u0644\n5.  \u0645\u0650\u0642\u0652\u064a\u0627\u0633\n6.  \u0645\u0650\u0642\u0652\u0631\u064e\u0636\n7.  \u0645\u0650\u063a\u0652\u0632\u064e\u0644\n8.  \u0645\u0650\u0639\u0652\u0636\u064e\u0627\u062f\n9.  \u0645\u0650\u0632\u0652\u0644\u0627\u062c\n10. \u0645\u0650\u0637\u0652\u0648\u064e\u0629\n"
+                ],
+                [
+                    "\u0641\u0627\u0621\n\u0648\u0627\u0648\n\u062b\u0645\n\u0639\u0646\n\u0623\u0648\n\u0628\u0644\n\u0644\u0627\n\u0625\u0646\n\u062d\u062a\u0649\n\u0639\u0644\u0649\n"
+                ],
+                [
+                    "\u062d\u062a\u0649\u060c \u0639\u0644\u0649\u060c \u0645\u0646\u060c \u0641\u064a\u060c \u0639\u0646\u060c \u0645\u0639\u060c \u0644\u0645\u060c \u0623\u0648\u060c \u0644\u0627\u060c \u0628\u0644.\n"
+                ],
+                [
+                    "\u062d\u062a\u0649\u060c \u0648\u060c \u0645\u0646\u060c \u0641\u064a\u060c \u0639\u0644\u0649\u060c \u0625\u0644\u0649\u060c \u0639\u0646\u060c \u0628\u0639\u062f\u060c \u0642\u0628\u0644\u060c \u0643.\n"
+                ],
+                [
+                    "\u0623\u064e\u0648\u0651\u064e\u0644\u064b\u0627\n\u062b\u064e\u0627\u0646\u0650\u064a\u064b\u0627\n\u062b\u064e\u0627\u0644\u0650\u062b\u064b\u0627\n\u0631\u064e\u0627\u0628\u0650\u0639\u064b\u0627\n\u062e\u064e\u0627\u0645\u0650\u0633\u064b\u0627\n\u0633\u064e\u0627\u062f\u0650\u0633\u064b\u0627\n\u0633\u064e\u0627\u0628\u0650\u0639\u064b\u0627\n\u062b\u064e\u0645\u064e\u0627\u0646\u0650\u064a\u064b\u0627\n\u062a\u0410\u0421\u0650\u0639\u064b\u0627\n\u0639\u064e\u0627\u0634\u0650\u0631\u064b\u0627\n"
+                ],
+                [
+                    "\u062d\u062a\u0649\u060c \u0648\u060c \u0623\u0648\u060c \u0645\u0646\u060c \u0639\u0644\u0649\u060c \u0641\u064a\u060c \u0644\u0645\u060c \u0644\u0627\u060c \u0628\u0644\u060c \u0625\u0646.\n"
+                ],
+                [
+                    "\u062d\u062a\u0649\u060c \u0623\u0648\u060c \u0645\u0646\u060c \u0641\u064a\u060c \u0639\u0644\u0649\u060c \u0644\u0627\u060c \u0648\u060c \u0625\u0646\u060c \u0628\u0644\u060c \u0645\u0627.\n"
+                ],
+                [
+                    "\u062d\u062a\u0649\u060c \u0648\u060c \u0641\u064a\u060c \u0639\u0644\u0649\u060c \u0645\u0646\u060c \u0623\u0648\u060c \u0644\u0627\u060c \u0644\u0643\u0646\u060c \u0628\u0639\u062f\u060c \u0645\u0647\u0645\u0627.\n"
+                ],
+                [
+                    "\u0623\u064a\u0646\u060c \u0645\u0627\u0630\u0627\u060c \u0645\u062a\u0649\u060c \u0643\u064a\u0641\u060c \u0644\u0645\u0627\u0630\u0627\u060c \u0647\u0644\u060c \u0631\u0628\u0645\u0627\u060c \u062d\u062a\u0649\u060c \u0628\u0639\u062f\u060c \u0625\u0644\u0649.\n"
+                ],
+                [
+                    "\u062d\u062a\u0649\u060c \u0623\u0648\u060c \u0641\u064a\u060c \u0639\u0644\u0649\u060c \u0645\u0646\u060c \u0625\u0644\u0649\u060c \u0639\u0646\u060c \u0628\u0639\u062f\u060c \u0645\u0639\u060c \u0639\u0646\u062f.\n"
+                ],
+                [
+                    "\u0641\u0627\u0621\n\u0648\u0627\u0648\n\u062b\u0645\n\u0625\u0646\n\u0623\u0646\n\u0623\u0648\n\u0625\u0630\n\u0628\u0644\n\u0644\u0627\n\u062d\u062a\u0649\n"
+                ],
+                [
+                    "\u062d\u062a\u0649\u060c \u0648\u060c \u0639\u0644\u0649\u060c \u0645\u0646\u060c \u0641\u064a\u060c \u0623\u0648\u060c \u0644\u0627\u060c \u0623\u0646\u060c \u0625\u0644\u0649\u060c \u0625\u0630\u064b\u0627.\n"
+                ],
+                [
+                    "\u062d\u062a\u0649\u060c \u0648\u060c \u0623\u0648\u060c \u0644\u0627\u060c \u0645\u0646\u060c \u0625\u0646\u060c \u0628\u0644\u060c \u0639\u0644\u0649\u060c \u0623\u0646\u060c \u0625\u0630\u064b\u0627.\n"
+                ],
+                [
+                    "\u062d\u062a\u0649\u060c \u0648\u060c \u0645\u0646\u060c \u0639\u0644\u0649\u060c \u0641\u064a\u060c \u0623\u0648\u060c \u0625\u0644\u0649\u060c \u0639\u0646\u060c \u0628\u0639\u062f\u060c \u0645\u0647\u0645\u0627.\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Arabic",
+            "constraints": "\u0627\u0644\u0642\u0627\u0639\u062f\u0629 \u0627\u0644\u0646\u0647\u0627\u0626\u064a\u0629: \u064a\u062c\u0628 \u0623\u0646 \u062a\u0643\u0648\u0646 \u0643\u0644 \u0643\u0644\u0645\u0629 \u0623\u062f\u0627\u0629."
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u5200\n\u7b14\n\u5c3a\n\u9524\n\u94f2\n\u5e1a\n\u65a7\n\u952f\n\u94b3\n\u94a9"
+                ],
+                [
+                    "\u5200\n\u9524\n\u952f\n\u94b3\n\u5c3a\n\u7b14\n\u94f2\n\u9488\n\u9525\n\u68af"
+                ],
+                [
+                    "\u5200\n\u9524\n\u5c3a\n\u7b14\n\u952f\n\u94f2\n\u94b3\n\u9488\n\u94bb\n\u5237"
+                ],
+                [
+                    "\u5200\n\u9524\n\u5c3a\n\u7b14\n\u94f2\n\u94b3\n\u952f\n\u9488\n\u68af\n\u9501"
+                ],
+                [
+                    "\u9524\u5b50\n\u526a\u5200\n\u5c3a\u5b50\n\u94b3\u5b50\n\u87ba\u4e1d\u5200\n\u94f2\u5b50\n\u94a5\u5319\n\u7b14\n\u9488\n\u5237\u5b50"
+                ],
+                [
+                    "\u5200\n\u9524\n\u5c3a\n\u952f\n\u94f2\n\u94b3\n\u7b14\n\u9525\n\u9550\n\u6760"
+                ],
+                [
+                    "\u9524\u5b50\n\u526a\u5200\n\u87ba\u4e1d\u5200\n\u5c3a\u5b50\n\u94a5\u5319\n\u5237\u5b50\n\u79e4\n\u4f1e\n\u955c\u5b50\n\u9505"
+                ],
+                [
+                    "\u9524\u5b50\n\u952f\u5b50\n\u5c3a\n\u7b14\n\u94a5\u5319\n\u52fa\u5b50\n\u9488\n\u94f2\u5b50\n\u79e4\n\u94b3\u5b50"
+                ],
+                [
+                    "\u5200\n\u9524\n\u952f\n\u5c3a\n\u7b14\n\u94f2\n\u94b3\n\u5e1a\n\u6273\u624b\n\u526a\u5200"
+                ],
+                [
+                    "\u9524\u5b50\n\u526a\u5200\n\u6273\u624b\n\u9504\u5934\n\u7b14\n\u5c3a\u5b50\n\u52fa\u5b50\n\u626b\u5e1a\n\u94a5\u5319\n\u9488"
+                ],
+                [
+                    "\u9524\u5b50\n\u526a\u5200\n\u6273\u624b\n\u5c3a\u5b50\n\u7b14\n\u626b\u5e1a\n\u94c1\u9539\n\u952f\n\u64c0\u9762\u6756\n\u7f57\u76d8"
+                ],
+                [
+                    "\u5200\n\u9524\n\u952f\n\u5c3a\n\u94f2\n\u7b14\n\u65a7\n\u94b3\n\u5237\n\u7281"
+                ],
+                [
+                    "1.  \u5200\n2.  \u9524\n3.  \u952f\n4.  \u5c3a\n5.  \u94f2\n6.  \u7b14\n7.  \u94b3\n8.  \u626b\u5e1a\n9.  \u6273\u624b\n10. \u7f57\u76d8"
+                ],
+                [
+                    "1.  \u5200\n2.  \u9524\n3.  \u5c3a\n4.  \u7b14\n5.  \u94f2\n6.  \u9488\n7.  \u94b3\n8.  \u79e4\n9.  \u5e1a\n10. \u65a7"
+                ],
+                [
+                    "\u7b14\n\u5c3a\n\u5200\n\u9524\u5b50\n\u526a\u5200\n\u94a5\u5319\n\u5237\u5b50\n\u5730\u56fe\n\u65b9\u6cd5\n\u8bed\u8a00"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u9524\u5b50\n\u87ba\u4e1d\u5200\n\u526a\u5200\n\u952f\u5b50\n\u94b3\u5b50\n\u5c3a\u5b50\n\u94f2\u5b50\n\u5200\n\u9488\n\u94bb\u5934"
+                ],
+                [
+                    "\u526a\u5200\n\u9524\u5b50\n\u952f\u5b50\n\u87ba\u4e1d\u5200\n\u94b3\u5b50\n\u5c3a\u5b50\n\u9488\n\u94f2\u5b50\n\u6273\u624b\n\u5237\u5b50"
+                ],
+                [
+                    "\u65a7\u5934\n\u526a\u5200\n\u9488\n\u94f2\u5b50\n\u9524\u5b50\n\u6273\u624b\n\u952f\u5b50\n\u87ba\u4e1d\u5200\n\u94b3\u5b50\n\u5c3a\u5b50"
+                ],
+                [
+                    "\u9524\u5b50\n\u526a\u5200\n\u5c3a\u5b50\n\u9488\n\u52fa\u5b50\n\u94f2\u5b50\n\u94b3\u5b50\n\u87ba\u4e1d\u5200\n\u952f\u5b50\n\u6273\u624b"
+                ],
+                [
+                    "\u9524\u5b50\n\u952f\u5b50\n\u87ba\u4e1d\u5200\n\u6273\u624b\n\u94b3\u5b50\n\u5c3a\u5b50\n\u526a\u5200\n\u5228\u5b50\n\u51ff\u5b50\n\u94bb\u5934"
+                ],
+                [
+                    "\u9524\u5b50\n\u5c3a\u5b50\n\u9488\n\u526a\u5200\n\u94a5\u5319\n\u952f\u5b50\n\u87ba\u4e1d\u5200\n\u94b3\u5b50\n\u7b14\n\u5237\u5b50"
+                ],
+                [
+                    "\u9524\u5b50\n\u9488\n\u5c3a\u5b50\n\u526a\u5200\n\u952f\u5b50\n\u87ba\u4e1d\u5200\n\u94f2\u5b50\n\u94b3\u5b50\n\u6273\u624b\n\u94bb\u5934"
+                ],
+                [
+                    "\u9524\u5b50\n\u952f\u5b50\n\u87ba\u4e1d\u5200\n\u6273\u624b\n\u94b3\u5b50\n\u526a\u5200\n\u5c3a\u5b50\n\u94f2\u5b50\n\u9488\n\u7b14"
+                ],
+                [
+                    "\u9524\u5b50\n\u87ba\u4e1d\u5200\n\u952f\u5b50\n\u6273\u624b\n\u5c3a\u5b50\n\u526a\u5200\n\u9488\n\u94f2\u5b50\n\u94b3\u5b50\n\u94bb\u5934"
+                ],
+                [
+                    "\u94f2\n\u952f\n\u94b3\n\u9524\n\u94bb\n\u5c3a\n\u9525\n\u526a\n\u7281\n\u64ac"
+                ],
+                [
+                    "\u9524\u5b50\n\u952f\u5b50\n\u87ba\u4e1d\u5200\n\u94b3\u5b50\n\u6273\u624b\n\u5c3a\u5b50\n\u526a\u5200\n\u9488\n\u94f2\u5b50\n\u52fa\u5b50"
+                ],
+                [
+                    "\u9524\u5b50\n\u87ba\u4e1d\u5200\n\u952f\u5b50\n\u94b3\u5b50\n\u5c3a\u5b50\n\u526a\u5200\n\u6273\u624b\n\u94bb\u5934\n\u65a7\u5934\n\u5200"
+                ],
+                [
+                    "\u9524\u5b50\n\u952f\u5b50\n\u87ba\u4e1d\u5200\n\u526a\u5200\n\u6273\u624b\n\u94b3\u5b50\n\u5c3a\u5b50\n\u5237\u5b50\n\u9489\u5b50\n\u5200"
+                ],
+                [
+                    "\u9524\u5b50\n\u952f\u5b50\n\u87ba\u4e1d\u5200\n\u94b3\u5b50\n\u5c3a\u5b50\n\u526a\u5200\n\u9488\n\u94f2\u5b50\n\u5237\u5b50\n\u6273\u624b"
+                ],
+                [
+                    "\u9524\u5b50\n\u952f\u5b50\n\u87ba\u4e1d\u5200\n\u6273\u624b\n\u94b3\u5b50\n\u5228\u5b50\n\u5c3a\u5b50\n\u526a\u5200\n\u9488\n\u94f2\u5b50"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u94a5\u5319\n2.  \u6760\u6746\n3.  \u6a21\u677f\n4.  \u78e8\u77f3\n5.  \u7ef3\u7d22\n6.  \u5bb9\u5668\n7.  \u7b5b\u5b50\n8.  \u6807\u5c3a\n9.  \u6954\u5b50\n10. \u7d22\u5f15"
+                ],
+                [
+                    "1.  \u7b97\u76d8\n2.  \u7281\n3.  \u79e4\n4.  \u6e14\u7f51\n5.  \u7ef3\u7d22\n6.  \u94a5\u5319\n7.  \u955c\u5b50\n8.  \u8721\u70db\n9.  \u6bdb\u7b14\n10. \u671b\u8fdc\u955c"
+                ],
+                [
+                    "1. \u94a5\u5319\n2. \u79e4\n3. \u7ef3\u7d22\n4. \u78e8\u77f3\n5. \u6ee4\u7f51\n6. \u5939\u5b50\n7. \u9525\u5b50\n8. \u585e\u5b50\n9. \u6760\u6746\n10. \u6a21\u5177"
+                ],
+                [
+                    "1.  \u6760\u6746\n2.  \u7b5b\u5b50\n3.  \u6a21\u5177\n4.  \u7b97\u76d8\n5.  \u9563\u94d0\n6.  \u9c7c\u7aff\n7.  \u5bb9\u5668\n8.  \u78e8\u77f3\n9.  \u6807\u5c3a\n10. \u8015\u7281"
+                ],
+                [
+                    "1.  \u6760\u6746\n2.  \u5bb9\u5668\n3.  \u7ebf\u7d22\n4.  \u5c3a\u5ea6\n5.  \u5a92\u4ecb\n6.  \u6865\u6881\n7.  \u94a5\u5319\n8.  \u8bf1\u9975\n9.  \u6846\u67b6\n10. \u7b5b\u5b50"
+                ],
+                [
+                    "1.  \u6760\u6746\n2.  \u7b5b\u5b50\n3.  \u6a21\u5177\n4.  \u80f6\u5e26\n5.  \u7ef3\u7d22\n6.  \u5bb9\u5668\n7.  \u9501\u5177\n8.  \u6ed1\u8f6e\n9.  \u9488\u7ebf\n10. \u9509\u5200"
+                ],
+                [
+                    "1.  \u6760\u6746\n2.  \u9509\u5200\n3.  \u6ed1\u8f6e\n4.  \u9525\u5b50\n5.  \u6a21\u5177\n6.  \u5bb9\u5668\n7.  \u9ecf\u5408\u5242\n8.  \u91cf\u5177\n9.  \u7814\u94b5\n10. \u6954\u5b50"
+                ],
+                [
+                    "1.  \u7b97\u76d8\n2.  \u67b7\u9501\n3.  \u98ce\u7b5d\n4.  \u6760\u6746\n5.  \u781a\u53f0\n6.  \u94a5\u5319\n7.  \u6e14\u7f51\n8.  \u53e3\u7f69\n9.  \u955c\u5b50\n10. \u7ef3\u7d22"
+                ],
+                [
+                    "1. \u6760\u6746\n2. \u5bb9\u5668\n3. \u7ef3\u7d22\n4. \u6a21\u5177\n5. \u78e8\u5177\n6. \u94a9\u5b50\n7. \u9501\n8. \u8f6e\n9. \u7b5b\u5b50\n10. \u5c3a\u5b50"
+                ],
+                [
+                    "1.  \u6760\u6746\n2.  \u6307\u5357\u9488\n3.  \u7b97\u76d8\n4.  \u6c34\u6876\n5.  \u526a\u5200\n6.  \u6a21\u5177\n7.  \u6ee4\u7f51\n8.  \u7ef3\u7d22\n9.  \u9c7c\u94a9\n10. \u6807\u5c3a"
+                ],
+                [
+                    "1.  \u94a5\u5319\n2.  \u6760\u6746\n3.  \u7b5b\u5b50\n4.  \u5bb9\u5668\n5.  \u7ef3\u7d22\n6.  \u955c\u5b50\n7.  \u7b97\u76d8\n8.  \u9c7c\u7aff\n9.  \u6a21\u5177\n10. \u836f\u7269"
+                ],
+                [
+                    "1.  \u6760\u6746\n2.  \u5bb9\u5668\n3.  \u5a92\u4ecb\n4.  \u7ebf\u7d22\n5.  \u6a21\u677f\n6.  \u6ee4\u5668\n7.  \u6846\u67b6\n8.  \u7d22\u5f15\n9.  \u9014\u5f84\n10. \u50ac\u5316\u5242"
+                ],
+                [
+                    "1.  \u6760\u6746\n2.  \u7b5b\u5b50\n3.  \u7ef3\u7d22\n4.  \u5bb9\u5668\n5.  \u6a21\u5177\n6.  \u94a5\u5319\n7.  \u6ed1\u8f6e\n8.  \u71c3\u6599\n9.  \u78e8\u77f3\n10. \u9ecf\u5408\u5242"
+                ],
+                [
+                    "1. \u6760\u6746\n2. \u5bb9\u5668\n3. \u7f51\u7edc\n4. \u78e8\u77f3\n5. \u6954\u5b50\n6. \u7ef3\u7d22\n7. \u955c\u5b50\n8. \u91cf\u5177\n9. \u989c\u6599\n10. \u836f\u7269"
+                ],
+                [
+                    "1. \u6760\u6746\n2. \u7b5b\u5b50\n3. \u5bb9\u5668\n4. \u7ef3\u7d22\n5. \u6954\u5b50\n6. \u6273\u624b\n7. \u94b3\u5b50\n8. \u6a21\u5177\n9. \u63a2\u9488\n10. \u78e8\u77f3"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1.  \u9524\u5b50\n2.  \u526a\u5200\n3.  \u952f\u5b50\n4.  \u6273\u624b\n5.  \u94b3\u5b50\n6.  \u94f2\u5b50\n7.  \u5c3a\u5b50\n8.  \u51ff\u5b50\n9.  \u9488\n10. \u78e8\u5200\u77f3"
+                ],
+                [
+                    "1.  \u9570\u5200\n2.  \u952f\u5b50\n3.  \u9524\u5b50\n4.  \u94f2\u5b50\n5.  \u94b3\u5b50\n6.  \u5c3a\u5b50\n7.  \u6273\u624b\n8.  \u65a7\u5934\n9.  \u5237\u5b50\n10. \u526a\u5200"
+                ],
+                [
+                    "1.  \u9570\u5200\n2.  \u6273\u624b\n3.  \u5c3a\u5b50\n4.  \u9524\u5b50\n5.  \u526a\u5200\n6.  \u94f2\u5b50\n7.  \u94b3\u5b50\n8.  \u952f\u5b50\n9.  \u954a\u5b50\n10. \u78e8\u5200\u77f3"
+                ],
+                [
+                    "1.  \u9524\n2.  \u79e4\n3.  \u952f\n4.  \u94f2\n5.  \u94b3\n6.  \u5c3a\n7.  \u7281\n8.  \u7f1d\u7eab\u673a\n9.  \u78e8\n10. \u7b14"
+                ],
+                [
+                    "1.  \u9524\u5b50\n2.  \u526a\u5200\n3.  \u94f2\u5b50\n4.  \u87ba\u4e1d\u5200\n5.  \u952f\u5b50\n6.  \u954a\u5b50\n7.  \u94b3\u5b50\n8.  \u5c3a\u5b50\n9.  \u6273\u624b\n10. \u51ff\u5b50"
+                ],
+                [
+                    "1.  \u526a\u5200\n2.  \u9524\u5b50\n3.  \u952f\u5b50\n4.  \u94f2\u5b50\n5.  \u94b3\u5b50\n6.  \u5c3a\u5b50\n7.  \u87ba\u4e1d\u5200\n8.  \u79e4\n9.  \u78e8\u5200\u77f3\n10. \u94b3\u5de5\u53f0"
+                ],
+                [
+                    "1.  \u9524\n2.  \u94f2\n3.  \u952f\n4.  \u94b3\n5.  \u5c3a\n6.  \u7b14\n7.  \u94a5\u5319\n8.  \u79e4\n9.  \u7f1d\u7eab\u673a\n10. \u6253\u5370\u673a"
+                ],
+                [
+                    "1.  \u9524\n2.  \u5c3a\n3.  \u94f2\n4.  \u5200\n5.  \u94b3\n6.  \u952f\n7.  \u7b14\n8.  \u954a\n9.  \u5237\n10. \u65a7"
+                ],
+                [
+                    "1.  \u9524\n2.  \u5c3a\n3.  \u94f2\n4.  \u7b14\n5.  \u526a\n6.  \u94b3\n7.  \u952f\n8.  \u51ff\n9.  \u94bb\n10. \u5200"
+                ],
+                [
+                    "1.  \u9570\u5200\n2.  \u526a\u5200\n3.  \u6273\u624b\n4.  \u51ff\u5b50\n5.  \u78e8\u5200\u77f3\n6.  \u9489\u5b50\n7.  \u9524\u5b50\n8.  \u952f\u5b50\n9.  \u5c3a\u5b50\n10. \u87ba\u4e1d\u5200"
+                ],
+                [
+                    "1.  \u5c3a\n2.  \u9524\n3.  \u952f\n4.  \u526a\n5.  \u94b3\n6.  \u94f2\n7.  \u51ff\n8.  \u79e4\n9.  \u5200\n10. \u6273\u624b"
+                ],
+                [
+                    "1.  \u9524\n2.  \u94f2\n3.  \u952f\n4.  \u94b3\n5.  \u5c3a\n6.  \u65a7\n7.  \u5200\n8.  \u6273\u624b\n9.  \u9488\n10. \u7b14"
+                ],
+                [
+                    "1.  \u9524\n2.  \u94b3\n3.  \u952f\n4.  \u5c3a\n5.  \u94f2\n6.  \u7b14\n7.  \u65a7\n8.  \u5200\n9.  \u79e4\n10. \u526a"
+                ],
+                [
+                    "1.  \u9524\n2.  \u526a\n3.  \u7b14\n4.  \u952f\n5.  \u94f2\n6.  \u5c3a\n7.  \u94b3\n8.  \u954a\n9.  \u65a7\n10. \u78e8"
+                ],
+                [
+                    "1.  \u7281\n2.  \u94b3\n3.  \u65a7\n4.  \u9524\n5.  \u5c3a\n6.  \u952f\n7.  \u94f2\n8.  \u79e4\n9.  \u78e8\n10. \u9488"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u9524\n\u5c3a\n\u7ef3\n\u5200\n\u94f2\n\u94b3\n\u952f\n\u5237\n\u87ba\u4e1d\u5200\n\u671b\u8fdc\u955c\n"
+                ],
+                [
+                    "1. \u9524\n2. \u7b14\n3. \u526a\u5200\n4. \u5377\u5c3a\n5. \u671b\u8fdc\u955c\n6. \u94f2\u5b50\n7. \u79e4\n8. \u9488\n9. \u94b3\u5b50\n10. \u952f\u5b50\n"
+                ],
+                [
+                    "\u9524\n\u952f\n\u94f2\u5b50\n\u5377\u5c3a\n\u7b14\n\u526a\u5200\n\u87ba\u4e1d\u5200\n\u94b3\u5b50\n\u79e4\n\u671b\u8fdc\u955c\n"
+                ],
+                [
+                    "\u9524\n\u526a\u5200\n\u6307\u5357\u9488\n\u671b\u8fdc\u955c\n\u523b\u5200\n\u87ba\u4e1d\u5200\n\u952f\u5b50\n\u5377\u5c3a\n\u94b3\u5b50\n\u5237\u5b50\n"
+                ],
+                [
+                    "\u9524\n\u5377\u5c3a\n\u7b14\n\u6307\u5357\u9488\n\u6273\u624b\n\u526a\u5200\n\u51ff\u5b50\n\u952f\u5b50\n\u94b3\u5b50\n\u91cf\u676f\n"
+                ],
+                [
+                    "\u9524\n\u6307\u5357\u9488\n\u526a\u5200\n\u671b\u8fdc\u955c\n\u6405\u62cc\u5668\n\u5c3a\u5b50\n\u6273\u624b\n\u68b3\u5b50\n\u5377\u5c3a\n\u523b\u5200\n"
+                ],
+                [
+                    "\u9524\n\u7b14\n\u5200\n\u7ef3\u5b50\n\u94f2\u5b50\n\u94b3\u5b50\n\u87ba\u4e1d\u5200\n\u526a\u5200\n\u671b\u8fdc\u955c\n\u6307\u5357\u9488\n"
+                ],
+                [
+                    "\u9524\n\u955c\u5b50\n\u79e4\n\u7b14\n\u6307\u5357\u9488\n\u526a\u5200\n\u87ba\u4e1d\u5200\n\u5377\u5c3a\n\u671b\u8fdc\u955c\n\u523b\u5200\n"
+                ],
+                [
+                    "\u9524\n\u4f1e\n\u5c3a\n\u7b14\n\u5200\n\u955c\u5b50\n\u79e4\n\u6868\n\u5237\u5b50\n\u526a\u5200\n"
+                ],
+                [
+                    "\u9524\n\u7b14\n\u955c\u5b50\n\u79e4\n\u6247\u5b50\n\u6307\u5357\u9488\n\u68af\u5b50\n\u526a\u5200\n\u523b\u5200\n\u7b5b\u5b50\n"
+                ],
+                [
+                    "\u9524\n\u6307\u5357\u9488\n\u5377\u5c3a\n\u671b\u8fdc\u955c\n\u526a\u5200\n\u523b\u5200\n\u6273\u624b\n\u954a\u5b50\n\u952f\u5b50\n\u91cf\u676f\n"
+                ],
+                [
+                    "\u9524\n\u6307\u5357\u9488\n\u526a\u5200\n\u671b\u8fdc\u955c\n\u5377\u5c3a\n\u6273\u624b\n\u6d3b\u9875\u5939\n\u523b\u5200\n\u624b\u672f\u5200\n\u653e\u5927\u955c\n"
+                ],
+                [
+                    "\u9524\n\u7ef3\u7d22\n\u91cf\u5c3a\n\u5200\u5177\n\u6273\u624b\n\u6307\u5357\u9488\n\u7b5b\u5b50\n\u954a\u5b50\n\u9525\u5b50\n\u522e\u5200\n"
+                ],
+                [
+                    "\u9524\n\u4f1e\n\u955c\u5b50\n\u7b14\n\u79e4\n\u5200\n\u7ef3\u5b50\n\u8f6e\u5b50\n\u6273\u624b\n\u7b5b\u5b50\n"
+                ],
+                [
+                    "\u9524\n\u7ef3\u7d22\n\u6307\u5357\u9488\n\u6ed1\u8f6e\n\u952f\u5b50\n\u91cf\u5c3a\n\u5377\u5c3a\n\u94b3\u5b50\n\u51ff\u5b50\n\u6273\u624b\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Chinese",
+            "constraints": "\u6700\u7ec8\u89c4\u5219\uff1a\u6bcf\u4e2a\u8bcd\u90fd\u5fc5\u987b\u662f\u5de5\u5177\u3002"
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "\uce7c\n\ub9dd\uce58\n\ud1b1\n\ud39c\n\uc21f\uac00\ub77d\n\uac00\uc704\n\ube57\uc790\ub8e8\n\ub4dc\ub77c\uc774\ubc84\n\uc790\n\ubc14\ub298"
+                ],
+                [
+                    "\uce7c\n\ub9dd\uce58\n\ud1b1\n\ud39c\uce58\n\ub4dc\ub77c\uc774\ubc84\n\ube57\uc790\ub8e8\n\uc0bd\n\uac00\uc704\n\uc8fc\uc0ac\uae30\n\ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "\ub9dd\uce58\n\ud1b1\n\ub4dc\ub77c\uc774\ubc84\n\ud39c\uce58\n\uac00\uc704\n\uce7c\n\uc0bd\n\ub80c\uce58\n\ubd93\n\ube57\uc790\ub8e8"
+                ],
+                [
+                    "\ub9dd\uce58\n\uce7c\n\ud39c\n\uc21f\uac00\ub77d\n\uc790\n\uc5f4\uc1e0\n\ube57\n\uc0bd\n\uc548\uacbd\n\ubd93"
+                ],
+                [
+                    "*   \ub9dd\uce58\n*   \uce7c\n*   \ud39c\n*   \uc790\n*   \uc21f\uac00\ub77d\n*   \uac00\uc704\n*   \ube57\n*   \uc5f4\uc1e0\n*   \ubc14\ub298\n*   \ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "\ub9dd\uce58\n\ud1b1\n\ud39c\uce58\n\ub4dc\ub77c\uc774\ubc84\n\uac00\uc704\n\uc0bd\n\ube57\uc790\ub8e8\n\uc8fc\uc0ac\uae30\n\uc790\n\ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "\ub9dd\uce58\n\uac00\uc704\n\ud39c\n\uc0bd\n\uce7c\n\ube57\n\uc5f4\uc1e0\n\ubc14\ub298\n\uc790\n\ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "\ub9dd\uce58\n\ud1b1\n\ub4dc\ub77c\uc774\ubc84\n\uac00\uc704\n\uc0bd\n\ube57\uc790\ub8e8\n\uc790\n\ub3c4\ub07c\n\ubd93\n\uc800\uc6b8"
+                ],
+                [
+                    "\ub9dd\uce58\n\ud1b1\n\ub4dc\ub77c\uc774\ubc84\n\ud39c\uce58\n\uac00\uc704\n\uce7c\n\uc0bd\n\ube57\uc790\ub8e8\n\ubc14\ub298\n\uc813\uac00\ub77d"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \uce7c\n3. \uc790\n4. \uc0bd\n5. \ubc14\ub298\n6. \ube57\uc790\ub8e8\n7. \uc9d1\uac8c\n8. \uc5f0\ud544\n9. \uc9c0\ub81b\ub300\n10. \uac00\uc704"
+                ],
+                [
+                    "\uc4f0\uac1c\n\ud1b1\n\ub9dd\uce58\n\uc790\n\uac00\uc704\n\uce7c\n\ube57\n\uc21f\uac00\ub77d\n\uc813\uac00\ub77d\n\uc8fc\uc804\uc790"
+                ],
+                [
+                    "* \ub9dd\uce58\n* \ud1b1\n* \uac00\uc704\n* \ud39c\n* \uc21f\uac00\ub77d\n* \ube57\uc790\ub8e8\n* \uc5f4\uc1e0\n* \uc790\n* \uc0bd\n* \ubc14\ub298"
+                ],
+                [
+                    "\uce7c\n\ub9dd\uce58\n\ud1b1\n\uc0bd\n\ube57\uc790\ub8e8\n\ubd93\n\uc790\n\uac00\uc704\n\ub04c\n\ub0ab"
+                ],
+                [
+                    "\ub9dd\uce58\n\ud1b1\n\ud39c\uce58\n\uc0bd\n\ub4dc\ub77c\uc774\ubc84\n\ube57\uc790\ub8e8\n\uac00\uc704\n\uc5f0\ud544\n\ubc14\ub298\n\ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "\ub9dd\uce58\n\ud1b1\n\ud39c\uce58\n\ub4dc\ub77c\uc774\ubc84\n\uac00\uc704\n\uc0bd\n\ube57\uc790\ub8e8\n\ubc14\ub298\n\uc790\n\uc5f0\ud544"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "\ub9dd\uce58\n\ubc14\ub298\n\ub098\uce68\ubc18\n\uc790\n\uac00\uc704\n\ubd93\n\uce7c\n\uc1e0\ub9dd\uce58\n\uc5f0\ud544\n\ub3cc"
+                ],
+                [
+                    "\ub9dd\uce58\n\ubc14\ub298\n\ub098\uce68\ubc18\n\uc800\uc6b8\n\uc8fc\uac71\n\ud1b1\n\uce7c\n\uc0bd\n\ub80c\uce58\n\ub0ab"
+                ],
+                [
+                    "\ub9dd\uce58\n\ubc14\ub298\n\ub098\uc0ac\n\ud1b1\n\uac00\uc704\n\ub04c\n\ub80c\uce58\n\uc1a1\uacf3\n\ub9dd\uc6d0\uacbd\n\ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "\ub9dd\uce58\n\ubc14\ub298\n\ub3c4\ub07c\n\ub04c\n\ube57\uc790\ub8e8\n\uc0ac\ub2e4\ub9ac\n\uc0bd\n\uac00\uc704\n\uc9d1\uac8c\n\ub098\uc0ac"
+                ],
+                [
+                    "\ub9dd\uce58\n\ubc14\ub298\n\uc8fc\uac71\n\uc0ac\ub2e4\ub9ac\n\uce7c\n\uc790\n\uc2a4\ud06c\ub8e8\ub4dc\ub77c\uc774\ubc84\n\uac00\uc704\n\ud39c\uce58\n\ubd93"
+                ],
+                [
+                    "\ub9dd\uce58\n\ud39c\n\uce7c\n\uac00\uc704\n\ubc14\ub298\n\ub9dd\uc6d0\uacbd\n\ub098\uce68\ubc18\n\ub3cb\ubcf4\uae30\n\uccb4\n\uccb4\ub85c"
+                ],
+                [
+                    "\ub9dd\uce58\n\uce7c\n\ub0ab\n\ubc14\ub298\n\ube57\uc790\ub8e8\n\uc0bd\n\uac00\uc704\n\uc790\n\ucef4\ud37c\uc2a4\n\uc1a1\uacf3"
+                ],
+                [
+                    "\ub9dd\uce58\n\uc5f0\ud544\n\uc8fc\uac71\n\ub3cb\ubcf4\uae30\n\uc194\n\ubc14\ub298\n\uce7c\n\uac00\uc704\n\ucef5\n\ubd93"
+                ],
+                [
+                    "\ub9dd\uce58\n\ubc14\ub298\n\ube57\uc790\ub8e8\n\uce7c\n\ub098\uc0ac\n\uc885\uc774\n\uc5f0\ud544\n\uc8fc\uc0ac\uae30\n\uc548\uacbd\n\uc9c0\ub3c4"
+                ],
+                [
+                    "\ub9dd\uce58\n\ubc14\ub298\n\uac00\uc704\n\uce7c\n\ube57\n\uc8fc\uac71\n\uc790\n\uc5f0\ud544\n\ubd93\n\uc0bd"
+                ],
+                [
+                    "\ub9dd\uce58\n\ubcfc\ud39c\n\ub098\uce68\ubc18\n\ub3cb\ubcf4\uae30\n\uc21f\uac00\ub77d\n\uac00\uc704\n\ubc14\ub298\n\uc790\n\uccb4\uc911\uacc4\n\uac70\uc6b8"
+                ],
+                [
+                    "\ub9dd\uce58\n\ub098\uc0ac\n\uc5f0\ud544\n\ub9dd\uc6d0\uacbd\n\uc5f4\uc1e0\n\ub3cb\ubcf4\uae30\n\uac00\uc704\n\uc2dc\uacc4\n\uac70\uc6b8\n\uc885\uc774"
+                ],
+                [
+                    "\ub9dd\uce58\n\ubc14\ub298\n\ud39c\n\uc790\n\uac00\uc704\n\ub098\uce68\ubc18\n\uc5f4\uc1e0\n\uc8fc\uac71\n\uc0bd\n\ub9dd\uc6d0\uacbd"
+                ],
+                [
+                    "\ub9dd\uce58\n\ub098\uc0ac\n\uce7c\n\uc1a1\uacf3\n\uc904\uc790\n\ub04c\n\ub9dd\n\uac00\uc704\n\ud1b1\n\ud39c\uce58"
+                ],
+                [
+                    "\ub9dd\uce58\n\ubc14\ub298\n\ub098\uc0ac\n\uac00\uc704\n\ubd93\n\ub04c\n\ud1b1\n\ub9dd\uc6d0\uacbd\n\ud604\ubbf8\uacbd\n\uc790"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \uc790\n2. \ub3cb\ubcf4\uae30\n3. \uc800\uc6b8\n4. \ubd93\n5. \uad2d\uc774\n6. \ubc14\ub298\n7. \ud1b1\n8. \ub80c\uce58\n9. \uac70\uc6b8\n10. \ud0a4"
+                ],
+                [
+                    "1. \uc790\n2. \ud1b1\n3. \ubd93\n4. \ubc14\ub298\n5. \uad2d\uc774\n6. \ub3cb\ubcf4\uae30\n7. \uc800\uc6b8\n8. \ub80c\uce58\n9. \ub2e4\ub9ac\ubbf8\n10. \ud638\ubbf8"
+                ],
+                [
+                    "1. \ub3cb\ubcf4\uae30\n2. \uc800\uc6b8\n3. \ud1b1\n4. \ub9f7\ub3cc\n5. \uc871\uc1c4\n6. \ubd93\n7. \ubc14\ub298\n8. \ud38c\ud504\n9. \uc7c1\uae30\n10. \uc790\uc11d"
+                ],
+                [
+                    "1. \ubd93\n2. \ud1b1\n3. \uc800\uc6b8\n4. \ub3cb\ubcf4\uae30\n5. \ub80c\uce58\n6. \ubc14\ub298\n7. \ub9f7\ub3cc\n8. \uc871\uc1c4\n9. \ub2e4\ub9ac\ubbf8\n10. \ud0a4"
+                ],
+                [
+                    "1.  \ub9dd\uce58\n2.  \uc800\uc6b8\n3.  \ub80c\uc988\n4.  \ub098\uce68\ubc18\n5.  \uc9c0\ub808\n6.  \ud1b1\n7.  \ubc14\ub298\n8.  \ub36b\n9.  \ubd93\n10. \uc7c1\uae30"
+                ],
+                [
+                    "1.  \uc790\n2.  \ud1b1\n3.  \ubc14\ub298\n4.  \uc9c0\ub81b\ub300\n5.  \ubd93\n6.  \ub80c\uc988\n7.  \uc800\uc6b8\n8.  \uadf8\ubb3c\n9.  \ub098\uce68\ubc18\n10. \uad2d\uc774"
+                ],
+                [
+                    "1. \uc790\n2. \ud1b1\n3. \uad2d\uc774\n4. \uc800\uc6b8\n5. \ub3cb\ubcf4\uae30\n6. \uc871\uc1c4\n7. \ubd93\n8. \ubc14\ub298\n9. \ub80c\uc988\n10. \ud540\uc14b"
+                ],
+                [
+                    "1. \ubd93\n2. \ub3cb\ubcf4\uae30\n3. \uc800\uc6b8\n4. \uad2d\uc774\n5. \uc790\n6. \ud1b1\n7. \ubc14\ub298\n8. \ub9f7\ub3cc\n9. \uc871\uc1c4\n10. \ub80c\uc988"
+                ],
+                [
+                    "1. \uc790\n2. \ud1b1\n3. \uad2d\uc774\n4. \uc800\uc6b8\n5. \ub3cb\ubcf4\uae30\n6. \uadf8\ubb3c\n7. \ubd93\n8. \ubc14\ub298\n9. \ub80c\uc988\n10. \uc9c0\ub81b\ub300"
+                ],
+                [
+                    "1. \ubd93\n2. \ub3cb\ubcf4\uae30\n3. \uc800\uc6b8\n4. \ub098\uce68\ubc18\n5. \ud1b1\n6. \uc790\n7. \ub80c\uce58\n8. \ubc14\ub298\n9. \ub9f7\ub3cc\n10. \uc9c0\ub81b\ub300"
+                ],
+                [
+                    "1.  \uc790\n2.  \ud1b1\n3.  \ubc14\ub298\n4.  \ub80c\uce58\n5.  \uc9c0\ub81b\ub300\n6.  \uadf8\ubb3c\n7.  \ubd93\n8.  \uac08\ud034\n9.  \uc7c1\uae30\n10. \ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "1. \uc790\n2. \ud1b1\n3. \uad2d\uc774\n4. \uc800\uc6b8\n5. \ub3cb\ubcf4\uae30\n6. \ubd93\n7. \ubc14\ub298\n8. \ud0a4\n9. \ud38c\ud504\n10. \ud2c0"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ud1b1\n3. \uc790\n4. \ubd93\n5. \ubc14\ub298\n6. \ub80c\uce58\n7. \uad2d\uc774\n8. \uc1a1\uacf3\n9. \uc800\uc6b8\n10. \ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "1. \uc790\n2. \ud1b1\n3. \ub9dd\uce58\n4. \ub80c\uce58\n5. \uc1a1\uacf3\n6. \ubc14\ub298\n7. \ubd93\n8. \uad2d\uc774\n9. \uc800\uc6b8\n10. \ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "1. \uc790\n2. \ub80c\uce58\n3. \ubc14\ub298\n4. \ub3cb\ubcf4\uae30\n5. \ub9f7\ub3cc\n6. \uc800\uc6b8\n7. \ud540\uc14b\n8. \ud38c\ud504\n9. \uad2d\uc774\n10. \uadf8\ubb3c"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \ub9dd\uce58\n2. \ubd93\n3. \ub80c\uc988\n4. \uc790\n5. \ubc14\ub298\n6. \uc0bd\n7. \uce7c\n8. \uc2dc\uacc4\n9. \ub9dd\uc6d0\uacbd\n10. \uba5c\ub85c\ub514\uc5b8"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ubd93\n3. \uc0bd\n4. \uac00\uc704\n5. \ud1b1\n6. \ud39c\uce58\n7. \uc790\n8. \ub4dc\ub9b4\n9. \uce7c\n10. \ud638\ubbf8"
+                ],
+                [
+                    "1.  \ub9dd\uce58\n2.  \ubd93\n3.  \uc0bd\n4.  \uce7c\n5.  \uc790\n6.  \uac00\uc704\n7.  \ub4dc\ub9b4\n8.  \ub80c\uc988\n9.  \ub9dd\uc6d0\uacbd\n10. \ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "1.  \ub9dd\uce58\n2.  \uc790\n3.  \uac00\uc704\n4.  \ud1b1\n5.  \ub4dc\ub9b4\n6.  \uc0bd\n7.  \ud39c\uce58\n8.  \uce7c\n9.  \uc218\uc900\uae30\n10. \uc904\uc790"
+                ],
+                [
+                    "1.  \ub9dd\uce58\n2.  \uac00\uc704\n3.  \uc0bd\n4.  \uc790\n5.  \ubd93\n6.  \uc800\uc6b8\n7.  \uce7c\n8.  \ub80c\uc988\n9.  \ud53c\ub9ac\n10. \ub9dd\uc6d0\uacbd"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ubd93\n3. \ub3cb\ubcf4\uae30\n4. \ud1b1\n5. \uc790\n6. \uce7c\n7. \uc0bd\n8. \uac00\uc704\n9. \uc5f0\ud544\n10. \ub80c\uc988"
+                ],
+                [
+                    "1.  \ub9dd\uce58\n2.  \uc790\n3.  \uac00\uc704\n4.  \uc0bd\n5.  \uce7c\n6.  \ubd93\n7.  \ubc14\ub298\n8.  \ub4dc\ub9b4\n9.  \ub9dd\uc6d0\uacbd\n10. \ub3cb\ubcf4\uae30"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ubd93\n3. \uc790\n4. \ud1b1\n5. \uc0bd\n6. \ub4dc\ub9b4\n7. \uce7c\n8. \ub80c\uce58\n9. \uac00\uc704\n10. \ubc14\ub298"
+                ],
+                [
+                    "1.  \ub9dd\uce58\n2.  \uc790\n3.  \ud1b1\n4.  \uac00\uc704\n5.  \ud39c\uce58\n6.  \ub4dc\ub9b4\n7.  \uc0bd\n8.  \uce7c\n9.  \uc218\uc900\uae30\n10. \uc904\uc790"
+                ],
+                [
+                    "1.  \ub9dd\uce58\n2.  \uc800\uc6b8\n3.  \uac00\uc704\n4.  \ubd93\n5.  \uc0bd\n6.  \uce7c\n7.  \uc790\n8.  \ub9dd\uc6d0\uacbd\n9.  \ubc14\ub298\n10. \uc5f0\ud544"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ubd93\n3. \ub80c\uc988\n4. \uc790\n5. \uc0bd\n6. \ud39c\uce58\n7. \uc218\uc220\uce7c\n8. \uc2dc\uacc4\n9. \ud1b1\n10. \ubbf9\uc11c"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ubd93\n3. \uac00\uc704\n4. \uc0bd\n5. \uc790\n6. \uce7c\n7. \ub80c\uc988\n8. \uad2d\uc774\n9. \ubc14\ub298\n10. \ud65c"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ubd93\n3. \ub80c\uce58\n4. \uce7c\n5. \uc790\n6. \ub4dc\ub9b4\n7. \ud1b1\n8. \uc0bd\n9. \uac00\uc704\n10. \ubc14\ub298"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ubd93\n3. \uc790\n4. \uc0bd\n5. \ub80c\uce58\n6. \ub4dc\ub9b4\n7. \uac00\uc704\n8. \uce7c\n9. \ud638\ubbf8\n10. \ub9dd\uc6d0\uacbd"
+                ],
+                [
+                    "1.  \ub9dd\uce58\n2.  \uc790\n3.  \uc0bd\n4.  \uac00\uc704\n5.  \uce7c\n6.  \ud39c\uce58\n7.  \ud1b1\n8.  \uc904\uc790\n9.  \ub4dc\ub9b4\n10. \ub9dd\uc6d0\uacbd"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "\ub04c, \uce7c, \ub9dd\uce58, \ub80c\uce58, \ud1b1, \ub4dc\ub77c\uc774\ubc84, \ud540\uc14b, \uc790, \uc904\uc790, \ubd93"
+                ],
+                [
+                    "\ub04c, \uce7c, \ubd93, \ub9dd\uce58, \ub80c\uce58, \ub3cb\ubcf4\uae30, \uc0bd, \uc1a1\uacf3, \uac00\uc704, \ud1b1"
+                ],
+                [
+                    "1. \ubd93\n2. \ub9dd\uce58\n3. \uce7c\n4. \ub80c\uce58\n5. \ub04c\n6. \uc790\n7. \ub4dc\ub9b4\n8. \ud1b1\n9. \uc0bd\n10. \ub3cb\ubcf4\uae30\n"
+                ],
+                [
+                    "\ub9dd\uce58\n\uc790\ub8e8\n\uce7c\n\uc0bd\n\uad2d\uc774\n\ub04c\n\uace1\uad2d\uc774\n\uac00\uc704\n\uc528\ub984\n\uc190\uc7a1\uc774\n"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \uce7c\n3. \ub80c\uce58\n4. \ub4dc\ub9b4\n5. \ud1b1\n6. \ub04c\n7. \uc904\uc790\n8. \ub4dc\ub77c\uc774\ubc84\n9. \uc1a1\uacf3\n10. \uac00\uc704\n"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ubd93\n3. \uce7c\n4. \ub4dc\ub9b4\n5. \ub80c\uce58\n6. \uc790\n7. \ub04c\n8. \ub098\uc0ac\ubabb\n9. \ud1b1\n10.  \u0443\u0441\u043b\u044b\u0448\u0430\u0442\u044c\n"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ubd93\n3. \uce7c\n4. \ub80c\uce58\n5. \uc790\n6. \ub4dc\ub9b4\n7. \ub04c\n8. \ud1b1\n9. \ub3cb\ubcf4\uae30\n10. \ud329\n"
+                ],
+                [
+                    "\ub9dd\uce58\n\uce7c\n\uac00\uc704\n\uc0bd\n\uad2d\uc774\n\ub04c\n\ud65c\n\ucc3d\n\ubd93\n\uc790\ub8e8\n"
+                ],
+                [
+                    "\ub04c, \uce7c, \ub9dd\uce58, \ub80c\uce58, \ud1b1, \ub4dc\ub9b4, \ubd93, \ub3cb\ubcf4\uae30, \uc790, \ube57\uc0b4"
+                ],
+                [
+                    "1. \uce7c\n2. \ubd93\n3. \ub9dd\uce58\n4. \ub80c\uce58\n5. \uc790\n6. \ub4dc\ub9b4\n7. \ub3cb\ubcf4\uae30\n8. \uc0bd\n9. \ud1b1\n10. \ud14c\uc774\ud504\n"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ub80c\uce58\n3. \uce7c\n4. \ub4dc\ub9b4\n5. \ud1b1\n6. \ub04c\n7. \uc904\uc790\n8. \ub098\uc0ac\n9. \uc790\ub8e8\n10. \ubc1b\uce68\n"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \ub3cb\ubcf4\uae30\n3. \ubd93\n4. \uce7c\n5. \ub4dc\ub9b4\n6. \uc790\n7. \ub80c\uce58\n8. \ub04c\n9. \uc1a1\uacf3\n10. \uc2e4"
+                ],
+                [
+                    "1. \ub9dd\uce58\n2. \uce7c\n3. \ubd93\n4. \ub80c\uce58\n5. \uc790\n6. \ub4dc\ub9b4\n7. \ud1b1\n8. \ub04c\n9. \uc2a4\ud328\ub108\n10. \ub3cb\ubcf4\uae30\n"
+                ],
+                [
+                    "1. \ubd93\n2. \ub9dd\uce58\n3. \ub80c\uce58\n4. \uce7c\n5. \ud1b1\n6. \ub4dc\ub9b4\n7. \uc790\n8. \ub04c\n9. \ucf69\uc8fc\uba38\ub2c8\n10. \uc0bd\n"
+                ],
+                [
+                    "1. \ubd93\n2. \ub9dd\uce58\n3. \uce7c\n4. \ub80c\uce58\n5. \uc790\n6. \ub3cb\ubcf4\uae30\n7. \ub04c\n8. \ub4dc\ub77c\uc774\ubc84\n9. \uc904\uc790\n10. \uc1a1\uacf3\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Korean",
+            "constraints": "\ucd5c\uc885 \uaddc\uce59: \ubaa8\ub4e0 \ub2e8\uc5b4\ub294 \ub3c4\uad6c\uc5ec\uc57c \ud569\ub2c8\ub2e4."
+        }
+    },
+    {
+        "gemini/gemini-2.5-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. P\u00e1ka\n2. Kompas\n3. Ra\u0161ple\n4. Hever\n5. Tryska\n6. Pinzeta\n7. Sv\u011br\u00e1k\n8. Vrt\u00e1k\n9. V\u00e1ha\n10. Dalekohled"
+                ],
+                [
+                    "1. Kladivo\n2. Pila\n3. \u0160roubov\u00e1k\n4. Kle\u0161t\u011b\n5. Lopata\n6. Jehla\n7. M\u011b\u0159\u00edtko\n8. \u0160t\u011btec\n9. Kompas\n10. Zved\u00e1k"
+                ],
+                [
+                    "1. Kladivo\n2. Pila\n3. \u0160roubov\u00e1k\n4. Kle\u0161t\u011b\n5. Dl\u00e1to\n6. Jehla\n7. \u0160t\u011btec\n8. L\u017e\u00edce\n9. Lupa\n10. Kompas"
+                ],
+                [
+                    "1.  Kladivo\n2.  \u0160roubov\u00e1k\n3.  Kle\u0161t\u011b\n4.  Pila\n5.  Vrta\u010dka\n6.  Sekera\n7.  Metr\n8.  Hobl\u00edk\n9.  Lopata\n10. Kl\u00ed\u010d"
+                ],
+                [
+                    "1.  Kladivo\n2.  Jehla\n3.  Smet\u00e1k\n4.  Kl\u00ed\u010d\n5.  Pila\n6.  Vodov\u00e1ha\n7.  Motyka\n8.  \u0160t\u011btec\n9.  S\u00edto\n10. Kompas"
+                ],
+                [
+                    "1.  Kladivo\n2.  \u0160\u00eddlo\n3.  M\u011b\u0159\u00edtko\n4.  Motyka\n5.  Tryska\n6.  S\u00edtko\n7.  P\u00e1ka\n8.  Pinzeta\n9.  Dl\u00e1to\n10. M\u011bch"
+                ],
+                [
+                    "1. Kladivo\n2. \u0160roubov\u00e1k\n3. Pila\n4. Jehla\n5. Lopatka\n6. Kl\u00ed\u010d\n7. N\u016f\u017eky\n8. \u0160t\u011btec\n9. Pinzeta\n10. Srp"
+                ],
+                [
+                    "1. Kladivo\n2. Kle\u0161t\u011b\n3. R\u00fd\u010d\n4. Jehla\n5. Metr\n6. \u0160t\u011btec\n7. Lupa\n8. Hobl\u00edk\n9. Sv\u011br\u00e1k\n10. Otv\u00edr\u00e1k"
+                ],
+                [
+                    "1. P\u00e1ka\n2. Sekera\n3. Jehla\n4. Kl\u00ed\u010d\n5. Lopata\n6. \u0160t\u011btec\n7. Vodov\u00e1ha\n8. Dl\u00e1to\n9. Pinzeta\n10. Kompas"
+                ],
+                [
+                    "1. Kle\u0161t\u011b\n2. Mapa\n3. Princip\n4. Jehla\n5. Jazyk\n6. Prav\u00edtko\n7. Intuice\n8. Zrcadlo\n9. Metoda\n10. S\u00edto"
+                ],
+                [
+                    "1. Kladivo\n2. \u0160roubov\u00e1k\n3. Kle\u0161t\u011b\n4. Pilka\n5. Metr\n6. Lopata\n7. Jehla\n8. N\u016f\u017eky\n9. Hobl\u00edk\n10. Kl\u00ed\u010d"
+                ],
+                [
+                    "1.  Kladivo\n2.  Pila\n3.  \u0160roubov\u00e1k\n4.  Kle\u0161t\u011b\n5.  Metr\n6.  R\u00fd\u010d\n7.  Jehla\n8.  \u0160t\u011btec\n9.  L\u017e\u00edce\n10. N\u016f\u017eky"
+                ],
+                [
+                    "1. Kladivo\n2. Jehla\n3. R\u00fd\u010d\n4. \u0160t\u011btec\n5. Kle\u0161t\u011b\n6. Prav\u00edtko\n7. Hobl\u00edk\n8. Sekerka\n9. L\u017e\u00edce\n10. Fl\u00e9tna"
+                ],
+                [
+                    "1.  M\u011b\u0159\u00edtko\n2.  Zrcadlo\n3.  P\u00e1\u010didlo\n4.  Z\u00e1voj\n5.  S\u00edtko\n6.  Praporec\n7.  Zesilova\u010d\n8.  Vod\u00edtko\n9.  Ozvu\u010dnice\n10. L\u00e9\u010didlo"
+                ],
+                [
+                    "1. Kladivo\n2. Pila\n3. \u0160roubov\u00e1k\n4. Kle\u0161t\u011b\n5. Lopatka\n6. Jehla\n7. Dl\u00e1to\n8. Hr\u00e1b\u011b\n9. Trycht\u00fd\u0159\n10. \u00dahlom\u011br"
+                ]
+            ]
+        },
+        "gemini/gemini-2.5-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "\u0160roubov\u00e1k\nV\u011bdro\nLopatka\nPiln\u00edk\nKle\u0161t\u011b\nKladivo\nPila\nVrta\u010dka\nStrana\nZ\u00e1str\u010dka"
+                ],
+                [
+                    "1. Kop\u00e1\u010d\n2. Kl\u00ed\u010d\n3. Pluh\n4. Piln\u00edk\n5. N\u016f\u017eky\n6. \u0160t\u011btec\n7. L\u017e\u00edce\n8. Kladivo\n9. Vidle\n10. Zrcadlo"
+                ],
+                [
+                    "1. \u0160perh\u00e1k\n2. Lopatka\n3. Kl\u00ed\u010d\n4. \u0160t\u011btec\n5. Pila\n6. N\u016f\u017e\n7. \u0160roubov\u00e1k\n8. Kladivo\n9. Kle\u0161t\u011b\n10. Vidle"
+                ],
+                [
+                    "Sekera\nKl\u00ed\u010d\nL\u017e\u00edce\nKladivo\nPila\n\u0160roubov\u00e1k\nJehla\nN\u016f\u017eky\nN\u016f\u017e\nP\u00e1ka"
+                ],
+                [
+                    "Kladivo\n\u0160roubov\u00e1k\nKle\u0161t\u011b\nPiln\u00edk\nPila\nP\u00e1je\u010dka\nVrta\u010dka\nSv\u011br\u00e1k\nSekera\nKl\u00ed\u010d"
+                ],
+                [
+                    "1. Ml\u00fdnek\n2. \u0160t\u011btec\n3. Vidle\n4. P\u00e1\u010didlo\n5. Sekera\n6. Kl\u00ed\u010d\n7. Pila\n8. \u0160roubov\u00e1k\n9. Kladivo\n10. N\u016f\u017e"
+                ],
+                [
+                    "1. \u0160roub\n2. Kladivo\n3. Piln\u00edk\n4. Kl\u00ed\u010d\n5. Kle\u0161t\u011b\n6. \u0160t\u011btec\n7. Dl\u00e1to\n8. Pila\n9. N\u016f\u017eky\n10. \u0160pachtle"
+                ],
+                [
+                    "Kladivo\n\u0160roubov\u00e1k\nPila\nKle\u0161t\u011b\nSekyra\nJehla\nN\u016f\u017e\nDl\u00e1to\n\u0160krabka\nVrta\u010dka"
+                ],
+                [
+                    "\u0160roubov\u00e1k\nStruhadlo\nS\u00ed\u0165ka\n\u0160krtidlo\nZvon\nJ\u00e1dro\nRovn\u00e1tko\nKladivo\nPila\nDl\u00e1to"
+                ],
+                [
+                    "Kladivo\nS\u00edtko\nLopatka\n\u0160roubov\u00e1k\nKl\u00ed\u010d\nKle\u0161t\u011b\nPiln\u00edk\nJehla\nN\u016f\u017eky\nPila"
+                ],
+                [
+                    "1. Houba\n2. Motyka\n3. Kle\u0161t\u011b\n4. Pila\n5. Vrta\u010dka\n6. \u0160roubov\u00e1k\n7. Kladivo\n8. Strunga\n9. N\u016f\u017e\n10. L\u017e\u00edce"
+                ],
+                [
+                    "\u0160roubov\u00e1k\nPali\u010dka\nHobl\u00edk\nV\u00e1zac\u00ed dr\u00e1t\nKol\u00edk\nKle\u0161t\u011b\nPila\nLopata\nVykrajov\u00e1tko\nN\u016f\u017eky"
+                ],
+                [
+                    "\u0160pachtle\nPila\nJehla\nLopata\nKle\u0161t\u011b\nSekera\nP\u00e1ka\nKladivo\nVrta\u010dka\n\u0160roubov\u00e1k"
+                ],
+                [
+                    "Kl\u00ed\u010d\nM\u00fddlo\nKop\u00ed\n\u0160roubov\u00e1k\nL\u017e\u00edce\nSeka\u010dka\nS\u00edto\nVyt\u011br\u00e1k\nP\u00e1ka\nTrycht\u00fd\u0159"
+                ],
+                [
+                    "Kladivo\nR\u00e1dio\nV\u00e1ha\nLopatka\nVidli\u010dka\nStruhadlo\n\u0160roubov\u00e1k\nMapa\nP\u00ed\u0161\u0165alka\nZrcadlo"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash": {
+            "{\"temperature\": 1}": [
+                [
+                    "*   Lopatka\n*   Jehla\n*   Kladivo\n*   Pila\n*   \u0160t\u011btec\n*   Kle\u0161t\u011b\n*   Dl\u00e1to\n*   M\u011b\u0159\u00edtko\n*   S\u00ed\u0165\n*   Svorka"
+                ],
+                [
+                    "Zde je 10 slov, kter\u00e1 spl\u0148uj\u00ed va\u0161e krit\u00e9ria:\n\n1.  Lopatka\n2.  Dl\u00e1to\n3.  N\u016f\u017eky\n4.  Kladivo\n5.  \u0160t\u011btec\n6.  Pila\n7.  Jehla\n8.  Hr\u00e1b\u011b\n9.  Kole\u010dko\n10. Prav\u00edtko"
+                ],
+                [
+                    "1. Motovidlo\n2. Cep\n3. Radlice\n4. Palice\n5. Dlabadlo\n6. Hr\u00e1b\u011b\n7. N\u016f\u017eky\n8. V\u0159eteno\n9. M\u011bch\n10. Kladivo"
+                ],
+                [
+                    "1.  \u0160\u00eddlo\n2.  Pila\n3.  Kladivo\n4.  Srp\n5.  Hrablo\n6.  V\u0159eteno\n7.  P\u00e1ka\n8.  Dl\u00e1tko\n9.  Kole\u010dko\n10. M\u011b\u0159\u00edtko"
+                ],
+                [
+                    "1. Motovidlo\n2. Hmo\u017ed\u00ed\u0159\n3. Krokvice\n4. Spona\n5. Vahadlo\n6. Kru\u017eidlo\n7. Palice\n8. O\u0159ez\u00e1v\u00e1tko\n9. \u0160\u00eddlo\n10. St\u011brka"
+                ],
+                [
+                    "Zde je 10 slov, podstatn\u00fdch jmen ozna\u010duj\u00edc\u00edch n\u00e1stroje, s co nejrozmanit\u011bj\u0161\u00edmi v\u00fdznamy a pou\u017eit\u00edm:\n\n1.  Kladivo\n2.  Jehla\n3.  S\u00edtko\n4.  Pila\n5.  P\u00e1ka\n6.  Kle\u0161t\u011b\n7.  Sv\u011btlo\n8.  Zrcadlo\n9.  Lo\u010f\n10. Pero"
+                ],
+                [
+                    "*   Lupa\n*   Kladivo\n*   Trycht\u00fd\u0159\n*   Pila\n*   Mikroskop\n*   M\u011b\u0159\u00edtko\n*   Kl\u00ed\u010d\n*   \u0160t\u011btec\n*   Jehla\n*   N\u016f\u017eky"
+                ],
+                [
+                    "1.  \u0160krabka\n2.  Kladivo\n3.  Jehla\n4.  S\u00ed\u0165\n5.  Pila\n6.  N\u016f\u017eky\n7.  Forma\n8.  L\u017e\u00edce\n9.  Kl\u00ed\u010d\n10. H\u0159eben"
+                ],
+                [
+                    "1.  Motovidlo\n2.  H\u0159eblo\n3.  Formanka\n4.  Cejch\n5.  Dlabadlo\n6.  \u0160krabka\n7.  Lopatka\n8.  Stojan\n9.  Pali\u010dka\n10. M\u011b\u0159\u00edtko"
+                ],
+                [
+                    "1.  Sv\u011bdom\u00ed\n2.  Zrcadlo\n3.  L\u00e9\u010dka\n4.  Pam\u011b\u0165\n5.  Modlitba\n6.  Kouzlo\n7.  \u0160t\u011bst\u00ed\n8.  Hra\n9.  Sen\n10. Slovo"
+                ],
+                [
+                    "1.  \u0160krabka\n2.  Vrta\u010dka\n3.  L\u017e\u00edce\n4.  Kladivo\n5.  Sito\n6.  Pila\n7.  N\u016f\u017eky\n8.  Kle\u0161t\u011b\n9.  P\u00e1nev\n10. \u0160t\u011btec"
+                ],
+                [
+                    "1.  Klepadlo\n2.  M\u011b\u0159\u00edtko\n3.  Hmo\u017ed\u00ed\u0159\n4.  P\u00edst\n5.  \u0160ablona\n6.  Z\u00e1va\u017e\u00ed\n7.  T\u011btiva\n8.  \u0160krabka\n9.  Kru\u017e\u00edtko\n10. Navij\u00e1k"
+                ],
+                [
+                    "1.  Jehla\n2.  Kladivo\n3.  Pila\n4.  L\u017e\u00edce\n5.  M\u011b\u0159\u00edtko\n6.  \u0160t\u011btec\n7.  Kle\u0161t\u011b\n8.  Dl\u00e1to\n9.  S\u00ed\u0165\n10. Hmo\u017ed\u00ed\u0159"
+                ],
+                [
+                    "1.  Jehla\n2.  Kladivo\n3.  L\u017e\u00edce\n4.  Pila\n5.  H\u0159eben\n6.  \u0160t\u011btec\n7.  N\u016f\u017eky\n8.  Kle\u0161t\u011b\n9.  Sito\n10. Sekera"
+                ],
+                [
+                    "1.  Jehla\n2.  Kladivo\n3.  L\u017e\u00edce\n4.  Pila\n5.  \u0160t\u011btec\n6.  N\u016f\u017eky\n7.  Kotva\n8.  M\u011b\u0159\u00edtko\n9.  Pali\u010dka\n10. Hmo\u017ed\u00ed\u0159"
+                ]
+            ]
+        },
+        "gemini/gemini-2.0-flash-lite": {
+            "{\"temperature\": 1}": [
+                [
+                    "Kladivo\nMikrofon\n\u017deb\u0159\u00edk\n\u0160t\u011btec\nVysava\u010d\nKl\u00ed\u010d\nSe\u0161\u00edva\u010dka\nSekera\nLupa\nSpona"
+                ],
+                [
+                    "1.  Hra\n2.  Zrcadlo\n3.  N\u00e1stroj\n4.  Taktika\n5.  Z\u00e1voj\n6.  Zbra\u0148\n7.  D\u011blo\n8.  P\u0159\u00edb\u011bh\n9.  V\u00e1ha\n10. Kl\u00ed\u010d"
+                ],
+                [
+                    "N\u016f\u017e\nKladivo\nPila\n\u0160roubov\u00e1k\nSekera\nKl\u00ed\u010d\nDl\u00e1to\nH\u00e1k\nJehla\nP\u00e1ka"
+                ],
+                [
+                    "1.  H\u0159eben\n2.  L\u017e\u00edce\n3.  Kladivo\n4.  \u0160t\u011btec\n5.  P\u00ed\u0161\u0165alka\n6.  Sekera\n7.  Houpa\u010dka\n8.  Kl\u00ed\u010d\n9.  Jehla\n10. Kolo"
+                ],
+                [
+                    "1.  Kladivo\n2.  H\u0159eben\n3.  Spona\n4.  \u0160t\u011btec\n5.  M\u011bch\n6.  Kolovrat\n7.  R\u00fd\u010d\n8.  Dl\u00e1to\n9.  Struna\n10. Sekera"
+                ],
+                [
+                    "N\u016f\u017e\nDl\u00e1to\nKladivo\n\u0160t\u011btec\nHr\u00e1b\u011b\nL\u017e\u00edce\nSrp\nJehla\nMotyka\nVidle"
+                ],
+                [
+                    "1.  Sekera\n2.  Pero\n3.  Kladivo\n4.  N\u016f\u017e\n5.  Kl\u00ed\u010d\n6.  Je\u0159\u00e1b\n7.  H\u0159eben\n8.  \u0160roubov\u00e1k\n9.  Rakev\n10. L\u017e\u00edce"
+                ],
+                [
+                    "H\u00e1k\n\u017deb\u0159\u00edk\nM\u011bch\nV\u011bdro\nKladivo\nR\u00fd\u010d\nStruna\nVr\u00e1ta\nP\u00e9ro\n\u0160roubov\u00e1k"
+                ],
+                [
+                    "1.  Sekera\n2.  \u0160\u00eddlo\n3.  Hr\u00e1b\u011b\n4.  P\u00e1ka\n5.  H\u00e1k\n6.  \u0160roubov\u00e1k\n7.  Dl\u00e1to\n8.  Kle\u0161t\u011b\n9.  Kladivo\n10. Vidle"
+                ],
+                [
+                    "1.  H\u00e1k\n2.  Vidlice\n3.  Kle\u0161t\u011b\n4.  \u0160t\u011btka\n5.  Hl\u00edna\n6.  Sm\u011bs\n7.  P\u00e1ka\n8.  Pilka\n9.  \u0160\u00eddlo\n10. N\u016f\u017eky"
+                ],
+                [
+                    "1.  Kladivo\n2.  Vrt\u00e1k\n3.  \u0160roubov\u00e1k\n4.  Kl\u00ed\u010d\n5.  Seka\u010dka\n6.  L\u017e\u00edce\n7.  Hr\u00e1b\u011b\n8.  Motyka\n9.  N\u016f\u017e\n10. Kle\u0161t\u011b"
+                ],
+                [
+                    "1.  Sekera\n2.  Harmonika\n3.  Spona\n4.  H\u0159eben\n5.  P\u00e1ka\n6.  Kle\u0161t\u011b\n7.  \u0160roubov\u00e1k\n8.  Jehla\n9.  Lano\n10. \u0160t\u011btka"
+                ],
+                [
+                    "1.  \u0160t\u011btec\n2.  Dl\u00e1to\n3.  Slovo\n4.  Kladivo\n5.  P\u00e1ka\n6.  H\u00e1k\n7.  Vidlice\n8.  Lano\n9.  Zrcadlo\n10. S\u00ed\u0165"
+                ],
+                [
+                    "1.  Sekera\n2.  Kladivo\n3.  No\u017enice\n4.  \u0160roubov\u00e1k\n5.  Pilka\n6.  L\u017e\u00edce\n7.  Jehla\n8.  H\u0159eben\n9.  R\u00fd\u010d\n10. Vidle"
+                ],
+                [
+                    "1.   Kladivo\n2.   Pero\n3.   Pila\n4.   Kl\u00ed\u010d\n5.   \u0160t\u011btec\n6.   H\u00e1k\n7.   Srdce\n8.   Kniha\n9.   Slovo\n10. Dl\u00e1to"
+                ]
+            ]
+        },
+        "ollama/gemma3n:e4b": {
+            "{\"temperature\": 1}": [
+                [
+                    "1. \u0160krabka\n2. P\u011bchov\u00e1k\n3. Zar\u00e1\u017eka\n4. Vyp\u011bchov\u00e1k\n5. Odlakova\u010de\n6. \u0160t\u011btec\n7. Kle\u0161t\u011b\n8. \u0160roubov\u00e1k\n9. Vlh\u00e1k\n10. Ploch\u00e1ky\n"
+                ],
+                [
+                    "1.  Z\u00e1v\u011br\n2.  \u0160roubov\u00e1k\n3.  \u0160t\u011brbinov\u00fd\n4.  P\u00e1ka\n5.  Kladivo\n6.  N\u016f\u017e\n7.  Kle\u0161t\u011b\n8.  S\u043a\u043e\u0432\u043a\u0430\n9.  T\u0159pytka\n10. Vrt\u00e1k\n"
+                ],
+                [
+                    "1. \u0160krabka\n2. Pily\u010dka\n3. Zar\u00e1\u017eka\n4. Vrt\u00e1k\n5. Kle\u0161t\u011b\n6. \u0160roubov\u00e1k\n7. N\u016f\u017e\n8. P\u0142ug\n9. Kotn\u00edkovka\n10. S\u0165ahov\u00e1k\n"
+                ],
+                [
+                    "1.  \u0160krabka\n2.  Kladivo\n3.  N\u016f\u017e\n4.  Pily\u010dka\n5.  Koplan\n6.  Kovan\u00fd\n7.  \u0160pachtle\n8.  M\u0142oteczek\n9.  Zar\u00e1\u017eka\n10. P\u00edla\n"
+                ],
+                [
+                    "1. Zlat\u00fd\n2. K\u0159iv\u00e1k\n3. \u0160krabka\n4. P\u011bchov\u00e1k\n5. Z\u00e1v\u011brka\n6. \u0160roubov\u00e1k\n7. Ostr\u016fvek\n8. Vlasec\n9. P\u0142ug\n10. Kladivo\n"
+                ],
+                [
+                    "1.  Zah\u00e1k\n2.  Kle\u0161t\u011b\n3.  P\u011bchov\u00e1k\n4.  Kladivo\n5.  \u0160roubov\u00e1k\n6.  N\u016f\u017e\n7.  Pily\u010dka\n8.  Kovan\u00fd\n9.  T\u0159p\u00e1t\n10. Kotvica\n"
+                ],
+                [
+                    "1.  \u0160roubov\u00e1k\n2.  Kle\u0161t\u011b\n3.  Pila\n4.  Kladivo\n5.  Piln\u00edk\n6.  Svir\u00e1k\n7.  Fr\u00e9za\n8.  \u0160t\u011brbrn\u00edk\n9.  Kar\u00e1bina\n10. \u017deb\u0159\u00edk\n"
+                ],
+                [
+                    "1. Z\u00e1palkova\u010d\n2. Kl\u00ed\u010d\n3. Pily\u010dka\n4. \u0160roubov\u00e1k\n5. Kle\u0161t\u011b\n6. M\u00edchaln\u00edk\n7. Dr\u00e1tkovka\n8. Bruska\n9. N\u016f\u017e\n10. Vrt\u00e1k\n"
+                ],
+                [
+                    "1.  \u0160roubov\u00e1k\n2.  Kle\u0161t\u011b\n3.  Piln\u00edk\n4.  Kladivo\n5.  N\u016f\u017e\n6.  P\u00e1ka\n7.  Dr\u00e1t\n8.  Kladivko\n9.  \u0160p\u00e1tka\n10. Vrt\u00e1k\n"
+                ],
+                [
+                    "1. Z\u00e1v\u011br\n2. Z\u00e1va\u017e\u00ed\n3. Zp\u011btn\u00fd\n4. Zkou\u0161ka\n5. Z\u00e1silka\n6. Zar\u00e1\u017eka\n7. Zp\u016fsob\n8. Z\u00e1vod\n9. Z\u00e1snuby\n10. Zp\u011bv\n"
+                ],
+                [
+                    "1.  \u0160krabka\n2.  N\u016f\u017e\n3.  Kladivo\n4.  Kle\u0161t\u011b\n5.  Piln\u00edk\n6.  Sleme\u010dek\n7.  P\u00e1sek\n8.  Z\u00e1va\u017e\u00ed\n9.  \u0160roubov\u00e1k\n10. Bruska\n"
+                ],
+                [
+                    "1.  \u0160t\u011btec\n2.  Kle\u0161t\u011b\n3.  Pila\n4.  Kladivo\n5.  Soust\u0159idlo\n6.  Vrta\u010dka\n7.  N\u016f\u017e\n8.  Kl\u00ed\u010d\n9.  Lapa\u010d\n10. \u017diletka\n"
+                ],
+                [
+                    "1.  \u0160krabka\n2.  Kladivo\n3.  P\u011bchata\n4.  Pily\u010dka\n5.  Zar\u00e1\u017eka\n6.  \u0160roubov\u00e1k\n7.  Kle\u0161t\u011b\n8.  N\u016f\u017e\n9.  Kladivko\n10. Vrt\u00e1k\n"
+                ],
+                [
+                    "1.  Zah\u00e1k\n2.  \u0160krabka\n3.  P\u00e1sek\n4.  Kle\u0161t\u011b\n5.  Kladivo\n6.  Vrt\u00e1k\n7.  N\u016f\u017e\n8.  Kl\u00ed\u010d\n9.  P\u0142ug\n10. \u017diletka\n"
+                ],
+                [
+                    "1.  \u0160krabka\n2.  P\u00e1sek\n3.  Kle\u0161t\u011b\n4.  Kladivo\n5.  \u0160roubov\u00e1k\n6.  N\u016f\u017e\n7.  H\u0159eb\u00edk\n8.  P\u0142ug\n9.  Vrt\u00e1k\n10. Z\u00e1v\u011brka\n"
+                ]
+            ]
+        },
+        "config": {
+            "language": "Czech",
+            "constraints": "Kone\u010dn\u00e9 pravidlo: ka\u017ed\u00e9 slovo mus\u00ed b\u00fdt n\u00e1stroj."
+        }
+    }
+]
