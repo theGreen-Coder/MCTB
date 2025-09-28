@@ -1,0 +1,502 @@
+{
+    "claude/claude-sonnet-4-20250514": {
+        "{\"temperature\": 0.5}": [
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Hammer\n5. Democracy\n6. Sandwich\n7. Laughter\n8. Mountain\n9. Clock\n10. Friendship\n11. Thunder\n12. Library\n13. Bicycle\n14. Dream\n15. Carpet\n16. Medicine\n17. Music\n18. Forest\n19. Memory\n20. Telescope"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. bicycle\n5. thunder\n6. sandwich\n7. mirror\n8. butterfly\n9. hospital\n10. pencil\n11. mountain\n12. laughter\n13. carpet\n14. elephant\n15. midnight\n16. bread\n17. river\n18. telephone\n19. garden\n20. shadow"
+            ],
+            [
+                "1. water\n2. happiness\n3. mountain\n4. music\n5. elephant\n6. thunder\n7. bread\n8. shadow\n9. memory\n10. ocean\n11. butterfly\n12. laughter\n13. forest\n14. dream\n15. fire\n16. friendship\n17. star\n18. flower\n19. journey\n20. silence"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Hammer\n5. Memory\n6. Thunder\n7. Hospital\n8. Courage\n9. Sandwich\n10. Mathematics\n11. Grandmother\n12. Prison\n13. Melody\n14. Volcano\n15. Friendship\n16. Microscope\n17. Laughter\n18. Castle\n19. Oxygen\n20. Dream"
+            ],
+            [
+                "1. chair\n2. water\n3. book\n4. tree\n5. house\n6. dog\n7. car\n8. food\n9. music\n10. friend\n11. door\n12. phone\n13. money\n14. time\n15. love\n16. school\n17. hand\n18. light\n19. paper\n20. dream"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Hammer\n5. Democracy\n6. Sandwich\n7. Memory\n8. Thunder\n9. Hospital\n10. Laughter\n11. Mountain\n12. Clock\n13. Freedom\n14. Carpet\n15. Anger\n16. Library\n17. Soup\n18. Dream\n19. Engine\n20. Friendship"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. bicycle\n5. thunder\n6. sandwich\n7. mirror\n8. butterfly\n9. library\n10. laughter\n11. mountain\n12. pencil\n13. dream\n14. elephant\n15. kitchen\n16. shadow\n17. music\n18. flower\n19. memory\n20. bridge"
+            ],
+            [
+                "1. water\n2. mountain\n3. happiness\n4. thunder\n5. butterfly\n6. memory\n7. ocean\n8. fire\n9. dream\n10. forest\n11. laughter\n12. shadow\n13. wind\n14. flower\n15. silence\n16. river\n17. courage\n18. sunset\n19. music\n20. freedom"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Hammer\n5. Memory\n6. Thunder\n7. Hospital\n8. Courage\n9. Sandwich\n10. Mathematics\n11. Grandmother\n12. Prison\n13. Melody\n14. Volcano\n15. Friendship\n16. Microscope\n17. Dream\n18. Library\n19. Earthquake\n20. Laughter"
+            ],
+            [
+                "1. chair\n2. water\n3. book\n4. tree\n5. house\n6. dog\n7. car\n8. food\n9. music\n10. friend\n11. door\n12. light\n13. paper\n14. flower\n15. money\n16. time\n17. hand\n18. road\n19. dream\n20. smile"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Hammer\n5. Democracy\n6. Sandwich\n7. Memory\n8. Thunder\n9. Hospital\n10. Laughter\n11. Mountain\n12. Clock\n13. Friendship\n14. Carpet\n15. Skeleton\n16. Music\n17. Garden\n18. Fear\n19. Bicycle\n20. Dream"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. bicycle\n5. thunder\n6. sandwich\n7. memory\n8. butterfly\n9. hospital\n10. courage\n11. mountain\n12. laughter\n13. pencil\n14. shadow\n15. friendship\n16. elephant\n17. music\n18. garden\n19. dream\n20. fire"
+            ],
+            [
+                "1. water\n2. happiness\n3. mountain\n4. music\n5. freedom\n6. elephant\n7. thunder\n8. memory\n9. ocean\n10. butterfly\n11. courage\n12. forest\n13. laughter\n14. diamond\n15. journey\n16. whisper\n17. sunrise\n18. dream\n19. flower\n20. silence"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Hammer\n5. Laughter\n6. Mountain\n7. Memory\n8. Bicycle\n9. Thunder\n10. Friendship\n11. Library\n12. Skeleton\n13. Music\n14. Volcano\n15. Dream\n16. Kitchen\n17. Courage\n18. Forest\n19. Mathematics\n20. Shadow"
+            ],
+            [
+                "1. book\n2. chair\n3. water\n4. house\n5. tree\n6. dog\n7. car\n8. phone\n9. food\n10. music\n11. friend\n12. money\n13. time\n14. door\n15. window\n16. flower\n17. shoe\n18. paper\n19. light\n20. dream"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Hammer\n5. Democracy\n6. Sandwich\n7. Laughter\n8. Mountain\n9. Clock\n10. Friendship\n11. Thunder\n12. Library\n13. Bicycle\n14. Dreams\n15. Fire\n16. Music\n17. Hospital\n18. Courage\n19. Garden\n20. Memory"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. bicycle\n5. thunder\n6. sandwich\n7. memory\n8. butterfly\n9. hospital\n10. laughter\n11. mountain\n12. pencil\n13. friendship\n14. elephant\n15. mirror\n16. dream\n17. kitchen\n18. shadow\n19. music\n20. flower"
+            ],
+            [
+                "1. water\n2. mountain\n3. emotion\n4. music\n5. shadow\n6. journey\n7. memory\n8. thunder\n9. butterfly\n10. ocean\n11. dream\n12. fire\n13. silence\n14. wind\n15. laughter\n16. darkness\n17. flower\n18. storm\n19. peace\n20. river"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Hammer\n5. Laughter\n6. Triangle\n7. Memory\n8. Volcano\n9. Justice\n10. Sandwich\n11. Thunder\n12. Friendship\n13. Mirror\n14. Gravity\n15. Hospital\n16. Dream\n17. Bicycle\n18. Courage\n19. Forest\n20. Mathematics"
+            ],
+            [
+                "1. chair\n2. water\n3. book\n4. tree\n5. house\n6. dog\n7. car\n8. food\n9. music\n10. time\n11. money\n12. friend\n13. door\n14. light\n15. paper\n16. flower\n17. shoe\n18. phone\n19. dream\n20. bridge"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Thunder\n5. Childhood\n6. Sandwich\n7. Democracy\n8. Microscope\n9. Laughter\n10. Mountain\n11. Surgery\n12. Rainbow\n13. Friendship\n14. Volcano\n15. Music\n16. Telescope\n17. Courage\n18. Forest\n19. Memory\n20. Earthquake"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. hammer\n5. butterfly\n6. thunder\n7. sandwich\n8. mirror\n9. courage\n10. bicycle\n11. shadow\n12. laughter\n13. mountain\n14. envelope\n15. dream\n16. carpet\n17. whisper\n18. apple\n19. memory\n20. door"
+            ],
+            [
+                "1. water\n2. mountain\n3. happiness\n4. thunder\n5. butterfly\n6. memory\n7. shadow\n8. ocean\n9. laughter\n10. forest\n11. dream\n12. fire\n13. silence\n14. wind\n15. courage\n16. star\n17. music\n18. darkness\n19. flower\n20. journey"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Hammer\n5. Laughter\n6. Mountain\n7. Surgery\n8. Thunder\n9. Library\n10. Courage\n11. Sandwich\n12. Galaxy\n13. Prison\n14. Melody\n15. Volcano\n16. Friendship\n17. Microscope\n18. Wedding\n19. Tornado\n20. Elephant"
+            ],
+            [
+                "1. chair\n2. book\n3. water\n4. tree\n5. house\n6. dog\n7. car\n8. food\n9. music\n10. time\n11. money\n12. friend\n13. door\n14. light\n15. paper\n16. shoe\n17. flower\n18. phone\n19. dream\n20. bridge"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Hammer\n5. Democracy\n6. Sandwich\n7. Volcano\n8. Memory\n9. Hospital\n10. Thunder\n11. Friendship\n12. Telescope\n13. Bakery\n14. Courage\n15. Refrigerator\n16. Music\n17. Skeleton\n18. Garden\n19. Laughter\n20. Airplane"
+            ],
+            [
+                "1. chair\n2. ocean\n3. butterfly\n4. thunder\n5. sandwich\n6. memory\n7. shadow\n8. laughter\n9. bicycle\n10. mountain\n11. candle\n12. dream\n13. pocket\n14. rainfall\n15. mirror\n16. friendship\n17. doorway\n18. whisper\n19. garden\n20. midnight"
+            ],
+            [
+                "1. water\n2. mountain\n3. happiness\n4. thunder\n5. butterfly\n6. memory\n7. ocean\n8. fire\n9. shadow\n10. music\n11. dream\n12. forest\n13. laughter\n14. wind\n15. crystal\n16. journey\n17. silence\n18. flower\n19. storm\n20. peace"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Hammer\n5. Laughter\n6. Mountain\n7. Memory\n8. Bicycle\n9. Thunder\n10. Friendship\n11. Library\n12. Soup\n13. Mirror\n14. Courage\n15. Forest\n16. Music\n17. Hospital\n18. Dream\n19. Fire\n20. Justice"
+            ],
+            [
+                "1. chair\n2. water\n3. book\n4. tree\n5. house\n6. dog\n7. car\n8. food\n9. music\n10. friend\n11. door\n12. flower\n13. phone\n14. money\n15. dream\n16. ocean\n17. bird\n18. clock\n19. smile\n20. mountain"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Hammer\n5. Democracy\n6. Sandwich\n7. Nightmare\n8. Library\n9. Thunder\n10. Friendship\n11. Microscope\n12. Wedding\n13. Volcano\n14. Music\n15. Hospital\n16. Shadow\n17. Bicycle\n18. Laughter\n19. Forest\n20. Memory"
+            ],
+            [
+                "1. chair\n2. ocean\n3. butterfly\n4. thunder\n5. sandwich\n6. mirror\n7. laughter\n8. mountain\n9. pencil\n10. dream\n11. flower\n12. engine\n13. shadow\n14. bread\n15. music\n16. river\n17. anger\n18. book\n19. sunlight\n20. carpet"
+            ],
+            [
+                "1. water\n2. happiness\n3. mountain\n4. elephant\n5. thunder\n6. childhood\n7. forest\n8. anger\n9. butterfly\n10. ocean\n11. friendship\n12. volcano\n13. whisper\n14. darkness\n15. flower\n16. journey\n17. laughter\n18. desert\n19. memory\n20. storm"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Mathematics\n5. Laughter\n6. Volcano\n7. Memory\n8. Telescope\n9. Thunder\n10. Friendship\n11. Cathedral\n12. Molecule\n13. Dream\n14. Harvest\n15. Symphony\n16. Courage\n17. Fossil\n18. Midnight\n19. Revolution\n20. Whisper"
+            ],
+            [
+                "1. chair\n2. water\n3. book\n4. tree\n5. house\n6. dog\n7. car\n8. food\n9. music\n10. time\n11. friend\n12. door\n13. phone\n14. money\n15. flower\n16. dream\n17. paper\n18. light\n19. heart\n20. road"
+            ],
+            [
+                "1. elephant\n2. mathematics\n3. sandwich\n4. thunder\n5. friendship\n6. microscope\n7. laughter\n8. ocean\n9. bicycle\n10. democracy\n11. butterfly\n12. music\n13. hospital\n14. dream\n15. volcano\n16. book\n17. happiness\n18. river\n19. computer\n20. flower"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. bicycle\n5. thunder\n6. sandwich\n7. mirror\n8. friendship\n9. elephant\n10. pencil\n11. laughter\n12. mountain\n13. clock\n14. butterfly\n15. anger\n16. blanket\n17. music\n18. garden\n19. shadow\n20. cookie"
+            ],
+            [
+                "1. Water\n2. Mountain\n3. Happiness\n4. Thunder\n5. Butterfly\n6. Memory\n7. Ocean\n8. Fire\n9. Dream\n10. Forest\n11. Laughter\n12. Stone\n13. Wind\n14. Shadow\n15. Music\n16. River\n17. Courage\n18. Star\n19. Flower\n20. Time"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Hammer\n5. Memory\n6. Thunder\n7. Hospital\n8. Courage\n9. Telescope\n10. Bread\n11. Symphony\n12. Volcano\n13. Friendship\n14. Engine\n15. Dream\n16. Library\n17. Laughter\n18. Mountain\n19. Justice\n20. Skeleton"
+            ],
+            [
+                "1. book\n2. chair\n3. water\n4. house\n5. tree\n6. dog\n7. car\n8. phone\n9. music\n10. friend\n11. food\n12. door\n13. light\n14. money\n15. time\n16. hand\n17. road\n18. flower\n19. dream\n20. smile"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "1. Mountain\n2. Democracy\n3. Butterfly\n4. Mathematics\n5. Soup\n6. Friendship\n7. Engine\n8. Thunder\n9. Hospital\n10. Music\n11. Ocean\n12. Childhood\n13. Library\n14. Fire\n15. Dreams\n16. Bicycle\n17. Language\n18. Garden\n19. Memory\n20. Shadow"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. bicycle\n5. thunder\n6. sandwich\n7. memory\n8. shadow\n9. library\n10. butterfly\n11. laughter\n12. mountain\n13. key\n14. dream\n15. fire\n16. friendship\n17. clock\n18. rain\n19. medicine\n20. garden"
+            ],
+            [
+                "1. water\n2. mountain\n3. happiness\n4. thunder\n5. butterfly\n6. memory\n7. ocean\n8. courage\n9. shadow\n10. melody\n11. forest\n12. laughter\n13. crystal\n14. journey\n15. whisper\n16. flame\n17. dream\n18. velocity\n19. fragrance\n20. silence"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Bicycle\n4. Emotion\n5. Mountain\n6. Surgery\n7. Library\n8. Thunder\n9. Childhood\n10. Molecule\n11. Symphony\n12. Elephant\n13. Revolution\n14. Sandwich\n15. Nightmare\n16. Architecture\n17. Friendship\n18. Telescope\n19. Perfume\n20. Migration"
+            ],
+            [
+                "1. book\n2. water\n3. chair\n4. music\n5. friend\n6. house\n7. time\n8. money\n9. food\n10. car\n11. tree\n12. love\n13. phone\n14. door\n15. light\n16. dream\n17. paper\n18. shoe\n19. dog\n20. window"
+            ],
+            [
+                "1. elephant\n2. mathematics\n3. sandwich\n4. thunder\n5. friendship\n6. telescope\n7. butterfly\n8. sorrow\n9. castle\n10. rhythm\n11. ocean\n12. laughter\n13. bicycle\n14. shadow\n15. honey\n16. dream\n17. volcano\n18. whisper\n19. library\n20. courage"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. thunder\n5. bread\n6. shadow\n7. friendship\n8. mountain\n9. laughter\n10. mirror\n11. fire\n12. dream\n13. butterfly\n14. silence\n15. book\n16. rain\n17. courage\n18. flower\n19. darkness\n20. song"
+            ],
+            [
+                "1. water\n2. happiness\n3. mountain\n4. democracy\n5. elephant\n6. thunder\n7. childhood\n8. surgery\n9. galaxy\n10. friendship\n11. volcano\n12. mathematics\n13. butterfly\n14. revolution\n15. ocean\n16. philosophy\n17. tornado\n18. freedom\n19. dinosaur\n20. music"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Bicycle\n4. Laughter\n5. Triangle\n6. Medicine\n7. Thunder\n8. Childhood\n9. Library\n10. Butterfly\n11. Courage\n12. Sandwich\n13. Galaxy\n14. Prison\n15. Melody\n16. Volcano\n17. Friendship\n18. Carpet\n19. Surgery\n20. Dream"
+            ],
+            [
+                "1. book\n2. chair\n3. water\n4. house\n5. tree\n6. dog\n7. car\n8. phone\n9. music\n10. food\n11. money\n12. time\n13. love\n14. dream\n15. flower\n16. shoe\n17. window\n18. paper\n19. fire\n20. bridge"
+            ],
+            [
+                "1. ocean\n2. mathematics\n3. butterfly\n4. sadness\n5. hammer\n6. music\n7. volcano\n8. friendship\n9. bicycle\n10. thunder\n11. imagination\n12. bread\n13. shadow\n14. laughter\n15. telescope\n16. forest\n17. memory\n18. diamond\n19. wind\n20. book"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. thunder\n5. butterfly\n6. bread\n7. shadow\n8. mountain\n9. laughter\n10. fire\n11. dream\n12. bicycle\n13. rain\n14. book\n15. courage\n16. flower\n17. silence\n18. mirror\n19. wind\n20. memory"
+            ],
+            [
+                "1. love\n2. mountain\n3. music\n4. justice\n5. ocean\n6. memory\n7. thunder\n8. butterfly\n9. laughter\n10. shadow\n11. journey\n12. wisdom\n13. flame\n14. dream\n15. courage\n16. silence\n17. flower\n18. darkness\n19. freedom\n20. waterfall"
+            ],
+            [
+                "1. ocean\n2. butterfly\n3. mathematics\n4. laughter\n5. hammer\n6. democracy\n7. skeleton\n8. thunder\n9. melody\n10. poverty\n11. telescope\n12. courage\n13. volcano\n14. friendship\n15. mirror\n16. hunger\n17. library\n18. shadow\n19. perfume\n20. wisdom"
+            ],
+            [
+                "1. chair\n2. water\n3. book\n4. tree\n5. house\n6. dog\n7. car\n8. phone\n9. table\n10. food\n11. door\n12. window\n13. shirt\n14. money\n15. paper\n16. flower\n17. clock\n18. bag\n19. shoe\n20. lamp"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Hammer\n5. Democracy\n6. Sandwich\n7. Melody\n8. Carpet\n9. Laughter\n10. Triangle\n11. Hospital\n12. Thunder\n13. Bicycle\n14. Memory\n15. Forest\n16. Clock\n17. Emotion\n18. Bread\n19. Mountain\n20. Dream"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. bicycle\n5. thunder\n6. sandwich\n7. memory\n8. butterfly\n9. hospital\n10. shadow\n11. laughter\n12. mountain\n13. key\n14. dream\n15. fire\n16. book\n17. friendship\n18. mirror\n19. rain\n20. courage"
+            ],
+            [
+                "1. water\n2. emotion\n3. mountain\n4. democracy\n5. butterfly\n6. thunder\n7. childhood\n8. ocean\n9. friendship\n10. forest\n11. laughter\n12. journey\n13. wisdom\n14. storm\n15. freedom\n16. garden\n17. memory\n18. sunrise\n19. courage\n20. river"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Bicycle\n4. Jealousy\n5. Tornado\n6. Sandwich\n7. Memory\n8. Triangle\n9. Hospital\n10. Laughter\n11. Volcano\n12. Symphony\n13. Butterfly\n14. Prison\n15. Courage\n16. Telescope\n17. Wedding\n18. Fossil\n19. Dream\n20. Earthquake"
+            ],
+            [
+                "1. book\n2. chair\n3. water\n4. house\n5. dog\n6. tree\n7. car\n8. phone\n9. food\n10. music\n11. friend\n12. money\n13. time\n14. door\n15. window\n16. shoe\n17. flower\n18. cloud\n19. smile\n20. dream"
+            ]
+        ],
+        "{\"temperature\": 2}": [
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Laughter\n5. Hammer\n6. Democracy\n7. Sandwich\n8. Lightning\n9. Memory\n10. Crystal\n11. Hospital\n12. Music\n13. Elephant\n14. Shadow\n15. Bakery\n16. Courage\n17. Telescope\n18. Fever\n19. Garden\n20. Silence"
+            ],
+            [
+                "1. chair\n2. ocean\n3. happiness\n4. thunder\n5. sandwich\n6. mirror\n7. butterfly\n8. mountain\n9. laughter\n10. key\n11. shadow\n12. bread\n13. storm\n14. pillow\n15. flame\n16. elephant\n17. whisper\n18. garden\n19. clock\n20. dream"
+            ],
+            [
+                "1. Ocean\n2. Dream\n3. Thunder\n4. Butterfly\n5. Mountain\n6. Laughter\n7. Shadow\n8. River\n9. Memory\n10. Flame\n11. Whisper\n12. Forest\n13. Courage\n14. Mirror\n15. Wind\n16. Silence\n17. Garden\n18. Sorrow\n19. Dawn\n20. Freedom"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Butterfly\n4. Mathematics\n5. Grandmother\n6. Thunder\n7. Justice\n8. Bicycle\n9. Memory\n10. Volcano\n11. Friendship\n12. Surgery\n13. Castle\n14. Hunger\n15. Symphony\n16. Microscope\n17. Courage\n18. Tornado\n19. Literature\n20. Diamond"
+            ],
+            [
+                "1. book\n2. chair\n3. water\n4. house\n5. tree\n6. dog\n7. car\n8. apple\n9. music\n10. friend\n11. door\n12. time\n13. money\n14. school\n15. flower\n16. bread\n17. phone\n18. dream\n19. mountain\n20. smile"
+            ],
+            [
+                "1. Ocean\n2. Butterfly\n3. Mathematics\n4. Grandmother\n5. Thunder\n6. Sandwich\n7. Democracy\n8. Microscope\n9. Laughter\n10. Castle\n11. Nightmare\n12. Bicycle\n13. Honey\n14. Revolution\n15. Carpet\n16. Jealousy\n17. Hospital\n18. Moon\n19. Comedy\n20. Forest"
+            ],
+            [
+                "1. apple\n2. chair\n3. ocean\n4. happiness\n5. book\n6. mountain\n7. clock\n8. friendship\n9. dog\n10. rain\n11. smile\n12. kitchen\n13. dream\n14. flower\n15. music\n16. bicycle\n17. memory\n18. window\n19. laughter\n20. forest"
+            ],
+            [
+                "1. Ocean\n2. Mountain\n3. Forest\n4. Desert\n5. River\n6. Valley\n7. Cloud\n8. Thunder\n9. Lightning\n10. Rainbow\n11. Butterfly\n12. Eagle\n13. Wolf\n14. Elephant\n15. Dolphin\n16. Flower\n17. Tree\n18. Stone\n19. Fire\n20. Wind"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Elephant\n4. Jealousy\n5. Hammer\n6. Symphony\n7. Childhood\n8. Volcano\n9. Library\n10. Courage\n11. Sandwich\n12. Galaxy\n13. Surgery\n14. Rainbow\n15. Prison\n16. Laughter\n17. Bicycle\n18. Thunder\n19. Memory\n20. Crystal"
+            ],
+            [
+                "1. book\n2. chair\n3. water\n4. house\n5. tree\n6. dog\n7. car\n8. phone\n9. money\n10. time\n11. food\n12. door\n13. window\n14. hand\n15. music\n16. flower\n17. paper\n18. shoe\n19. heart\n20. fire"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Hammer\n5. Democracy\n6. Sandwich\n7. Nightmare\n8. Library\n9. Thunder\n10. Bicycle\n11. Friendship\n12. Mirror\n13. Hospital\n14. Volcano\n15. Music\n16. Telephone\n17. Garden\n18. Fear\n19. Kitchen\n20. Star"
+            ],
+            [
+                "1. chair\n2. ocean\n3. butterfly\n4. thunder\n5. friendship\n6. spoon\n7. shadow\n8. laughter\n9. mountain\n10. book\n11. hunger\n12. flower\n13. dream\n14. bicycle\n15. anger\n16. diamond\n17. soup\n18. courage\n19. elephant\n20. music"
+            ],
+            [
+                "1. water\n2. music\n3. anger\n4. mountain\n5. childhood\n6. butterfly\n7. democracy\n8. thunder\n9. friendship\n10. ocean\n11. laughter\n12. forest\n13. memory\n14. shadow\n15. freedom\n16. sunrise\n17. wisdom\n18. fire\n19. dreams\n20. courage"
+            ],
+            [
+                "1. Ocean\n2. Democracy\n3. Violin\n4. Elephant\n5. Gravity\n6. Sandwich\n7. Jealousy\n8. Hospital\n9. Thunder\n10. Mathematics\n11. Butterfly\n12. Revolution\n13. Microscope\n14. Childhood\n15. Galaxy\n16. Basketball\n17. Poetry\n18. Volcano\n19. Friendship\n20. Cathedral"
+            ],
+            [
+                "1. chair\n2. book\n3. water\n4. house\n5. dog\n6. tree\n7. car\n8. phone\n9. music\n10. love\n11. door\n12. bread\n13. clock\n14. flower\n15. paper\n16. shoes\n17. rain\n18. moon\n19. smile\n20. bridge"
+            ],
+            [
+                "1. Ocean\n2. Mathematics\n3. Butterfly\n4. Democracy\n5. Sandwich\n6. Microscope\n7. Laughter\n8. Mountain\n9. Computer\n10. Friendship\n11. Thunder\n12. Library\n13. Surgery\n14. Rainbow\n15. Football\n16. Memory\n17. Garden\n18. Music\n19. Skeleton\n20. Dream"
+            ],
+            [
+                "book\nwater\nhappiness\nmountain\nfork\nelephant\nmusic\nshadow\nbicycle\nbread\nstorm\nlaughter\nmirror\ncarpet\nflame\nbone\nwhisper\nocean\nbutterfly\ndream"
+            ],
+            [
+                "1. Tree\n2. Ocean\n3. Dream\n4. Thunder\n5. Knife\n6. Memory\n7. Shadow\n8. Fire\n9. Music\n10. Stone\n11. Wind\n12. Joy\n13. Blood\n14. Mountain\n15. Silence\n16. River\n17. Fear\n18. Light\n19. Darkness\n20. Hope"
+            ],
+            [
+                "1. elephant\n2. mathematics\n3. sunrise\n4. justice\n5. microscope\n6. laughter\n7. ocean\n8. democracy\n9. sandwich\n10. memory\n11. earthquake\n12. friendship\n13. library\n14. hurricane\n15. emotion\n16. telescope\n17. forest\n18. philosophy\n19. kitchen\n20. dream"
+            ],
+            [
+                "1. book\n2. chair\n3. water\n4. tree\n5. house\n6. dog\n7. car\n8. food\n9. money\n10. time\n11. friend\n12. music\n13. school\n14. flower\n15. bird\n16. phone\n17. door\n18. light\n19. hand\n20. heart"
+            ]
+        ]
+    },
+    "gpt/gpt-5": {
+        "{\"temperature\": 0.5}": [
+            [
+                "thunder\nbread\nmirror\nfreedom\ngalaxy\nvirus\nbicycle\nperfume\npuzzle\nhorizon\njungle\nsunrise\nlaughter\nkingdom\nriver\nshadow\nanchor\ncactus\nrumor\nclock"
+            ],
+            [
+                "apple\nriver\nmountain\nbird\nchild\nhammer\nsong\ndream\njustice\nlanguage\nmarket\njourney\nshadow\nrain\ncandle\nwindow\nbread\nhand\nwhisper\nlaughter"
+            ],
+            [
+                "ocean\nthunder\ninsect\nflower\nchild\njustice\nanger\nlanguage\ndream\ndawn\njourney\nculture\ncircle\nblue\nsnow\nplanet\nstory\nmarket\nsilence\nsmell"
+            ],
+            [
+                "mountain\nviolin\njustice\nthunder\nlantern\nbakery\nwhisper\npebble\nelephant\nfern\nelbow\nanger\ncheese\nteacher\nbicycle\nchess\nwater\ncomet\njacket\nsong"
+            ],
+            [
+                "apple\nbook\nriver\nmusic\ncourage\ncity\nmountain\nfriend\nfamily\nwater\nfire\nstorm\nshadow\ndream\ngarden\nletter\njourney\npainting\ncandle\nmeadow"
+            ],
+            [
+                "ocean\npebble\nmelody\njustice\nvapor\nlantern\ncactus\nthunder\ncrumb\ncourage\nbicycle\nperfume\nhorizon\nattic\ntoddler\nriddle\nink\nsilence\ngalaxy\nmushroom"
+            ],
+            [
+                "dog\ntree\nhand\nspoon\nbicycle\nhouse\nrain\ncloud\nfreedom\njoy\nparty\nteacher\ncity\nbread\nhammer\nball\nmusic\ntime\nlaw\nwater"
+            ],
+            [
+                "- ocean\n- desert\n- star\n- thunder\n- elephant\n- tree\n- teacher\n- joy\n- time\n- marriage\n- music\n- sleep\n- shadow\n- war\n- city\n- language\n- bridge\n- market\n- justice\n- bread"
+            ],
+            [
+                "pebble\nthunder\nfern\nlantern\njustice\nmelody\nglacier\nkitten\nbread\njourney\nshadow\nmirror\nriver\nblanket\nhammer\nfragrance\nharbor\ncourage\ntower\nelbow"
+            ],
+            [
+                "apple\nchair\ntable\nwindow\ndoor\ntree\ncloud\nflower\nbird\ncity\nstreet\ncar\nspoon\ncup\nshoe\nhat\nwater\nfire\nlove\ntime"
+            ],
+            [
+                "elephant\ntree\nhammer\nthunder\nmusic\njustice\njoy\nbread\nocean\ndream\ncity\nshadow\nlanguage\nfire\nclock\nmirror\nmountain\nmoney\nheart\nrainbow"
+            ],
+            [
+                "tree\nriver\ncloud\nstone\nbird\nchild\nmusic\nlaughter\njourney\nwisdom\nmarket\nsandwich\nblanket\nmirror\nstorm\ncandle\nshadow\nrumor\nfreedom\ngarden"
+            ],
+            [
+                "- ocean\n- mountain\n- thunder\n- shadow\n- language\n- freedom\n- memory\n- childhood\n- hunger\n- festival\n- village\n- journey\n- melody\n- justice\n- rumor\n- desert\n- fire\n- dream\n- galaxy\n- laughter"
+            ],
+            [
+                "river\nbutterfly\ntree\nmusician\nbroom\nbread\nelbow\ncourage\nlaughter\nthunder\nvillage\nmelody\nrumor\nchildhood\njustice\nshadow\nbasket\nmirror\nhandshake\nrecipe"
+            ],
+            [
+                "water\nsky\nriver\nmountain\nforest\nanimal\nplant\nflower\nstone\ncloud\nrain\nwind\nfire\nshadow\ndream\nmemory\nhappiness\ncourage\ntruth\njustice"
+            ],
+            [
+                "apple\nhammer\nelephant\nchair\nocean\nearthquake\nrainbow\nlightning\ncity\nbridge\nsong\njustice\nfriendship\nfear\nhunger\ntime\ndream\nmoney\nsmell\ntriangle"
+            ],
+            [
+                "tree\nriver\ncloud\nstone\nbread\nchild\ndog\nhammer\nmarket\nstory\nmusic\ndream\ntruth\nlaughter\nshadow\nwindow\njourney\nmemory\nstorm\ncandle"
+            ],
+            [
+                "- desert\n- ocean\n- thunder\n- elephant\n- rose\n- language\n- joy\n- justice\n- festival\n- teacher\n- freedom\n- music\n- dawn\n- village\n- sleep\n- market\n- bridge\n- moon\n- butterfly\n- stone"
+            ],
+            [
+                "mountain\nviolin\nkindness\nthunder\nbakery\numbrella\nrumor\noctopus\nsunrise\nbrick\nlaughter\nmirror\ndrought\ncinnamon\ndemocracy\ngalaxy\norphan\nladder\nneedle\npassport"
+            ],
+            [
+                "water\ntree\nhouse\nbook\nchair\ntable\nwindow\ndoor\nriver\nmountain\nsky\ncloud\nstone\nsand\nbread\nmusic\ncourage\nhappiness\njustice\ntime"
+            ]
+        ],
+        "{\"temperature\": 1}": [
+            [
+                "mountain\nocean\ntree\nbird\nchild\nbread\nmirror\nthunder\njustice\ndream\ntime\nlaughter\ncity\nfire\nplanet\nsnow\nscent\ncolor\nanger\nmusic"
+            ],
+            [
+                "apple\nriver\nmusic\ntruth\nneighbor\ndust\njourney\nlaughter\nwindow\nforest\njustice\ncandle\nstorm\ncarpet\ntiger\npillow\nmarket\nshadow\ncourage\nrecipe"
+            ],
+            [
+                "- child\n- eagle\n- oak\n- hand\n- stone\n- thunder\n- mountain\n- ocean\n- star\n- winter\n- festival\n- anger\n- justice\n- boat\n- bread\n- music\n- market\n- language\n- dream\n- shadow"
+            ],
+            [
+                "mountain\nthunder\nelephant\noak\nelbow\nhammer\nbread\njoy\nfreedom\njourney\nmirror\nteacher\nminute\ncity\nwhisper\nhat\nball\nbucket\ncoin\nshadow"
+            ],
+            [
+                "apple\nriver\nmountain\nforest\nocean\nisland\ngarden\nsky\nrain\ncloud\nstone\nflower\nbread\ncandle\npillow\nblanket\nbasket\nmusic\nhappiness\nfreedom"
+            ],
+            [
+                "elephant\ntree\nocean\nfire\nmarket\nhammer\nbread\nheart\njoy\njustice\ncity\nwar\nminute\nmoon\nsilence\njourney\nstory\nblue\nscent\ndream"
+            ],
+            [
+                "tree\ntiger\nbread\nchair\nhammer\nbicycle\nhand\njoy\nrain\nvillage\nfreedom\nteacher\nriver\nstone\nmusic\ncandle\nwindow\nclock\nwhisper\ndream"
+            ],
+            [
+                "- child\n- mountain\n- ocean\n- music\n- justice\n- dream\n- storm\n- desert\n- stone\n- fire\n- time\n- joy\n- war\n- market\n- story\n- shadow\n- language\n- wisdom\n- journey\n- galaxy"
+            ],
+            [
+                "river\njustice\nmelody\nbread\nshadow\ncourage\npuzzle\nmarket\nmirror\nsilence\ntiger\nstorm\ncompass\nfeather\nengine\nmyth\nisland\nthread\nember\nfreedom"
+            ],
+            [
+                "apple\nchair\ntable\nwindow\nriver\nmountain\ncloud\nrain\nmusic\nlove\nhappiness\nfreedom\nstory\npicture\ngarden\ncity\nbook\ndoor\nflower\nocean"
+            ],
+            [
+                "stone\ncloud\nmelody\njustice\npepper\nocean\nwhisper\nmirror\ndream\nforest\nengine\nbread\nthunder\nhorizon\nlaughter\ncircus\npuzzle\nrainbow\nanchor\ntime"
+            ],
+            [
+                "apple\nriver\nhammer\ncloud\nmusic\ncourage\nmarket\nwhisper\nshadow\nblanket\nladder\nteacher\nbicycle\npuzzle\ndust\nthunder\ncandle\nlaw\nmirror\nisland"
+            ],
+            [
+                "- elephant\n- oak\n- mountain\n- ocean\n- thunder\n- moon\n- heart\n- joy\n- justice\n- teacher\n- village\n- dawn\n- festival\n- bread\n- laughter\n- ship\n- desert\n- game\n- language\n- fire"
+            ],
+            [
+                "mountain\nmelody\njustice\nbread\nlantern\ntoddler\nthunder\nrumor\nriver\npuzzle\ncourage\nshovel\nmirror\nwinter\nlaughter\nshadow\nink\nmyth\nhorizon\nsilence"
+            ],
+            [
+                "river\ncloud\nmountain\nforest\nocean\nmeadow\ndesert\nthunder\nrainbow\nsunrise\nshadow\nbreeze\nvillage\nharvest\nstory\nmusic\ncourage\nmemory\nfreedom\nkindness"
+            ],
+            [
+                "mountain\nmusic\nlaughter\njustice\npencil\nocean\nsilence\ndream\ncity\nchild\nbread\nshadow\ntime\nseed\nlanguage\ncoin\nwar\nscent\nmyth\ndust"
+            ],
+            [
+                "stone\nmusic\nriver\nhammer\nlaughter\ncloud\njustice\nsandwich\nkitten\nthunder\nmirror\nisland\nbroom\ncourage\nmarket\npillow\nhorizon\nwhisper\nvolcano\numbrella"
+            ],
+            [
+                "- mountain\n- ocean\n- thunder\n- earthquake\n- rainbow\n- child\n- tiger\n- language\n- justice\n- freedom\n- memory\n- laughter\n- melody\n- dawn\n- culture\n- rumor\n- harvest\n- moon\n- market\n- religion"
+            ],
+            [
+                "elephant\nhammer\njoy\nthunder\nbread\nhat\nbicycle\nforest\nelbow\nteacher\nfreedom\nchair\nwedding\nwhisper\ncircle\ncoin\npuzzle\nsmoke\nmirror\nmidnight"
+            ],
+            [
+                "table\nriver\ncloud\nflower\nmountain\nocean\nforest\nvillage\nmarket\ngarden\npencil\nbottle\nblanket\nmirror\nladder\nbasket\ncandle\nmusic\ncourage\nfreedom"
+            ]
+        ],
+        "{\"temperature\": 1.5}": [
+            [
+                "stone\nmelody\nfreedom\nocean\nrain\nchild\nchair\ncentury\nblue\nelbow\nbread\nflower\nclock\nwar\ncircle\ninsect\njoy\nkitchen\nstar\nsleep"
+            ],
+            [
+                "apple\nriver\nchild\ndog\nhammer\nsong\ndust\nshadow\nmarket\ncourage\ndream\nstorm\njoke\njustice\njourney\nclock\nsoil\nflame\nwhisper\nshelter"
+            ],
+            [
+                "- whale\n- oak\n- elbow\n- joy\n- lightning\n- desert\n- planet\n- water\n- justice\n- teacher\n- wedding\n- dawn\n- city\n- whisper\n- bread\n- soccer\n- cousin\n- myth\n- volcano\n- fever"
+            ],
+            [
+                "apple\nhammer\nriver\nmoon\njustice\nmusic\nwhisper\nteacher\nvillage\nmountain\nshadow\nelephant\noak\nelbow\nanger\nbread\nbicycle\nbridge\nshoe\nthunder"
+            ],
+            [
+                "apple\nchair\nriver\nmountain\nocean\nforest\nflower\nbird\nmusic\nstory\njourney\nanswer\nquestion\nmemory\ndream\nfriendship\ncourage\nhappiness\npeace\nfreedom"
+            ],
+            [
+                "future\njoy\nthunder\nwhale\ntree\nhammer\nbread\nheart\nisland\nmoon\nwater\nwar\ntruth\nmusic\nlanguage\nchair\nboat\nshadow\nmarket\ndream"
+            ],
+            [
+                "banana\nhammer\nmusic\nriver\njustice\nlaughter\nwind\nbrick\ngarden\nfreedom\nkitten\nscent\nstory\nmirror\nsand\nthunder\nlanguage\nfriendship\npuzzle\nsunrise"
+            ],
+            [
+                "mountain\nthunder\nstar\ntiger\ntree\nstone\nbread\nhammer\nboat\nteacher\ngovernment\nwar\nvillage\njoy\nmusic\njustice\nyear\nsmell\nhand\nidea"
+            ],
+            [
+                "mountain\nmelody\njustice\nchild\nthunder\nbread\nfox\nlanguage\ncourage\nvillage\nrumor\npuzzle\nmemory\nshadow\nhammer\nwinter\nperfume\nitch\nhorizon\nfestival"
+            ],
+            [
+                "courage\nfreedom\nhappiness\npatience\njustice\nwisdom\nknowledge\nmemory\ntruth\nbeauty\nloyalty\nhonesty\nlove\nanger\ncuriosity\ntime\npeace\nhope\ndream\nbelief"
+            ],
+            [
+                "octopus\nocean\nthunder\nbread\nmirror\njustice\ndream\nlanguage\nengine\nflower\nshadow\nsilence\ncolor\nnumber\nrumor\nladder\nperfume\ntooth\ngalaxy\nmarket"
+            ],
+            [
+                "whale\nhammer\nbread\nfinger\nriver\nstorm\nsky\ntree\ncourage\nwhisper\njourney\nmusic\nteacher\npillow\nbridge\nsalt\nmorning\nshadow\nmarket\nstory"
+            ],
+            [
+                "volcano\nspider\ncactus\npineapple\njustice\nthunder\neclipse\ndesert\nglacier\nelbow\nwhisper\ndemocracy\nfestival\nhoney\ndragon\nteacher\npoverty\nmidnight\nanchor\nrumor"
+            ],
+            [
+                "donkey\nelbow\nanger\nrainbow\nmoss\nsofa\nhammer\nbicycle\njacket\nbread\nteacher\njustice\nchimney\nbucket\nviolin\nminute\nforest\nlaughter\nvolcano\ncoin"
+            ],
+            [
+                "river\nmountain\nocean\nforest\ndesert\nvalley\nisland\nthunder\nshadow\nsunrise\nmusic\nsilence\nfreedom\njustice\ncourage\nwisdom\nmemory\nbeauty\nfriendship\nlaughter"
+            ],
+            [
+                "tree\nocean\nchair\njustice\nmusic\nthunder\nbread\nclock\nelephant\nheart\ndesert\nstar\nsmell\nshadow\njoy\nlanguage\nmarket\ndream\nstone\nfreedom"
+            ],
+            [
+                "tree\nstone\nriver\ncloud\nbird\nchild\nbread\nmusic\ndream\ncourage\nchair\nmirror\ngarden\nstorm\nwhisper\nmarket\njourney\nlaughter\nshadow\nfire"
+            ],
+            [
+                "- music\n- memory\n- justice\n- language\n- child\n- rain\n- fire\n- stone\n- forest\n- shadow\n- dream\n- freedom\n- truth\n- laughter\n- silence\n- time\n- ocean\n- hunger\n- color\n- city"
+            ],
+            [
+                "child\nfox\ncactus\nelbow\nhammer\njacket\nbread\nvillage\nwindow\nbicycle\nriver\nthunder\nwedding\nminute\njoy\nfreedom\nwhisper\nscent\ncoin\nsofa"
+            ],
+            [
+                "apple\ntable\nchair\nhouse\ncar\nriver\nmountain\ncity\nmusic\nlove\nfreedom\nweather\nbread\nwater\nbook\ngarden\nwindow\ndoor\nocean\ndream"
+            ]
+        ],
+        "{\"temperature\": 2}": [
+            [
+                "stone\nwater\ntree\nbird\nhand\nhammer\nbicycle\ncomputer\nidea\nbread\nlaw\nanger\ntime\nwar\nchild\nsilence\nmusic\nshadow\nstory\nmoney"
+            ],
+            [
+                "apple\nhammer\nmusic\nchair\ncloud\nfreedom\nteacher\nshoe\nwindow\nocean\ncandle\ndream\nlaughter\ncity\nbicycle\nstory\ntime\nmoney\nfinger\nsoil"
+            ],
+            [
+                "whale\ntundra\nvolcano\nocean\nthunder\njoy\njustice\ndream\nwar\nlanguage\nlaughter\ndawn\nbeauty\nsand\ngalaxy\nheart\necho\nisland\nnumber\nmarket"
+            ],
+            [
+                "thunder\nbread\ngiraffe\nhammer\nisland\njoy\nelbow\npoem\nbucket\nstar\nfarmer\noak\nbicycle\nmarket\nshadow\nriddle\njacket\ntable\npromise\nhour"
+            ],
+            [
+                "apple\nchair\ntable\nbook\ncity\nriver\nmountain\nanimal\nmusic\nhappiness\nlove\ncourage\nfriendship\nfamily\ngarden\nschool\ncar\nhouse\nbread\nwater"
+            ],
+            [
+                "ocean\nfire\ncloud\nlaughter\nchair\nhammer\nclock\ndog\ntree\nchild\nhand\nbread\nmusic\nlanguage\nfreedom\nmemory\nwar\nshadow\nidea\ncolor"
+            ],
+            [
+                "cat\nhammer\nmeadow\ncandle\nriver\nperfume\ncourage\nmarket\njourney\nrumor\nbrick\nlaughter\ndawn\nshadow\nseed\nmelody\nstorm\nsandwich\npillow\nneighbor"
+            ],
+            [
+                "- child\n- whale\n- desert\n- city\n- thunder\n- planet\n- winter\n- bread\n- justice\n- war\n- music\n- language\n- heart\n- red\n- bridge\n- money\n- tree\n- dream\n- shadow\n- scent"
+            ],
+            [
+                "river\nlaughter\njustice\nhammer\ncabbage\nink\nmirror\ncourage\nisland\nrumor\nblanket\nshadow\nbakery\nspider\nperfume\nfarmer\nprison\nankle\ntornado\nwallet"
+            ],
+            [
+                "river\nmountain\nocean\nforest\ndesert\nisland\napple\nflower\nstone\ncloud\nrain\nshadow\nmusic\ndream\ncourage\nfreedom\nfriendship\nmemory\njourney\nmarket"
+            ],
+            [
+                "star\nmushroom\nhammer\nbread\njustice\nthunder\ncar\ndream\ncircle\nbridge\nbottle\nhat\nheart\nwar\nlanguage\ndesert\nmusic\nmirror\ndust\nmyth"
+            ],
+            [
+                "river\nkitten\nhammer\nelbow\nmusic\ndinner\nlaughter\ngarden\nshoe\ncandle\nmirror\nneighbor\nstorm\nfreedom\nmountain\ndust\npillow\nticket\nsecret\nsoup"
+            ],
+            [
+                "- sky\n- whale\n- tree\n- stone\n- rain\n- heart\n- joy\n- friend\n- justice\n- time\n- war\n- wheel\n- school\n- sleep\n- money\n- crowd\n- language\n- crime\n- game\n- desert"
+            ],
+            [
+                "river\nhammer\nbaker\njoy\nthunder\nbread\nelbow\njustice\notter\ncactus\nmelody\nfragrance\nfestival\nclay\nrumor\ncircle\ndawn\nbucket\nmyth\necho"
+            ],
+            [
+                "river\nmountain\nforest\nocean\nisland\nvalley\ndesert\ncloud\nrain\nwind\nfire\nstone\nmusic\nlaughter\nsilence\nfreedom\njustice\nwisdom\npeace\nhope"
+            ],
+            [
+                "ocean\nthunder\ngalaxy\nbutterfly\npotato\nelbow\nanger\nfriendship\njustice\nhammer\nbicycle\njacket\nbridge\nsand\ncandle\nword\nidea\nbirthday\ncircle\nmusic"
+            ],
+            [
+                "apple\nriver\nhammer\nlaughter\nstorm\nwhisper\nmarket\nblanket\nshadow\nmirror\npigeon\nchild\nmusic\ndust\nwindow\njourney\njustice\ngarden\nclock\nflame"
+            ],
+            [
+                "elephant\njoy\nthunder\nstar\ndesert\nheart\nbread\nteacher\nwedding\nfreedom\nocean\ntree\nmusic\nwinter\nbridge\nearthquake\nchess\nmoney\nbutterfly\nscent"
+            ],
+            [
+                "mountain\nmelody\njustice\ntoddler\ntiger\nonion\nhammer\nhurricane\nwhisper\nshadow\nriver\ncastle\nblanket\nfortune\nheat\nfriendship\nharvest\nink\nmyth\ncomet"
+            ],
+            [
+                "river\nmountain\nforest\ncloud\nstone\nbread\nmusic\nfriendship\ncourage\nfreedom\nhappiness\njourney\nvillage\ngarden\nflower\nbird\nstory\nshadow\nrainfall\nhorizon"
+            ]
+        ]
+    }
+}
