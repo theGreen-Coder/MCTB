@@ -114,3 +114,15 @@ def calculate_dsi_score(model, sentences, minimum=4, maximum=10):
     distances = [model.distance(sentence1, sentence2) for sentence1, sentence2 in itertools.combinations(sentences, 2)]
     
     return (sum(distances) / len(distances)) * 100.0
+
+def generate_configs(start, end, step):
+    """
+    Generates temperature variable configs from start to end.
+    Used in testing to see the effect of temperature in the answers.
+    """
+    configs = []
+    temperature = start
+    while temperature <= end + 1e-9:  # small tolerance for floating point issues
+        configs.append({"temperature": round(temperature, 2)})
+        temperature += step
+    return configs

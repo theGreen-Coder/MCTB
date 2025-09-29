@@ -83,7 +83,13 @@ class DivergentAssociationTest():
         # Check for thought included responses (very specific case)
         if response is not None and isinstance(response, list) and len(response) == 2 and response[0].lower().startswith("thought\n"):
             response = response[1]
-            print("hello!")
+        
+        if isinstance(response, list) and len(response) == 2:
+            return None
+        if isinstance(response, list) and len(response) != 2:
+            print("Error in parsing. Please review the inputs!")
+            return None
+        
         new_line_words = response.split("\n")
 
         if len(new_line_words) >= 7:

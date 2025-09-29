@@ -18,7 +18,7 @@ cd MCTB
 ### Create & activate the Conda environment:
 
 ```
-conda env create -f MCTB.yml          # installs Python 3.12 and all pinned deps  
+conda env create -f environment.yml   # installs Python 3.12 and all pinned deps  
 conda activate MCTB                   # environment name is set inside the YAML
 ```
 
@@ -43,7 +43,7 @@ Otherwise, all creative tests are stored in the [creative_tests folder](creative
 Hope you enjoy!
 
 ### Local inference
-Local inference can be used using Ollama. When running just input `ollama/your-desired-model` into the `models` argument of the creative tests and the [requests.py](requests.py) should take care of everything.
+Local inference can be used using Ollama. When running just input `ollama/your-desired-model` into the `models` argument of the creative tests and [request.py](request.py) should take care of everything.
 
 ### Additional Notes
 A couple of really big files are needed to fully execute the repository. You will need to download `glove.840B.300d.txt`:
@@ -65,7 +65,7 @@ A special thank you to:
 - Anyone reading this for taking the time to check out my project! :)
 
 ## Community contributions
-Contributions are welcome—feel free to open issues or submit pull requests!
+Contributions are welcome. Feel free to open issues or submit pull requests!
 
 ## License
 This project is licensed under the MIT License. A copy of the MIT License can be found [here](LICENSE).

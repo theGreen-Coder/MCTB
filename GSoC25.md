@@ -8,7 +8,7 @@
 ## 📄 Deliverables
 
 [![GitHub Repo](https://img.shields.io/badge/Github%20Repo-MCTB-green?logo=github)](https://github.com/theGreen-Coder/MCTB)  
-[![Demo Video](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://www.youtube.com/@Green-Code/videos) TO DOOOOO! \
+[![Demo Video](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://www.youtube.com/@Green-Code/videos)
 
 ## 📝 Project Description
 An open-source multimodal creative thinking benchmark developed as part of Google Summer of Code (GSoC) under the mentorship of Paige Bailey ([@dynamicwebpaige]((https://github.com/dynamicwebpaige))) and Google DeepMind ([@google-deepmind](https://github.com/google-deepmind)).
@@ -111,10 +111,7 @@ To start exploring the results of DAT, several models of the Gemini family were 
 #### <ins>Gemini-2.0-flash outperforms other gemini models in original DAT</ins>
 DAT was repeated ten times for each model. For each run, GloVe word embeddings (trained on 840B Common Crawl tokens) were used to compute the average semantic distance across all word pairs. These averaged scores were then plotted to compare model performance (Figure 1 below).
 
-<figure>
-  <img src="results/plots/DAT_1.0_classic_DAT_as_paper.png" alt="DAT evaluated using GloVe">
-  <figcaption><strong>Figure 1.</strong> Divergent Association Task (DAT) evaluated using GloVe. DAT scores were obtained using GloVe 840B and repeated ten times for each model. Models were prompted using instructions from the original DAT paper. All models were evaluated at a temperature of 1.1.</figcaption>
-</figure>
+![Alt text](./results/plots/DAT_1.0_classic_DAT_as_paper_.png)
 
 The highest DAT average score ($84.78$) was achieved by `gemini-2.0-flash`, which notably outperformed larger models such as `gemini-2.5-pro` despite their state of the art performance on reasoning and other benchmarks. However, before drawing any conclusions, there are several caveats that must be addressed.
 
@@ -156,25 +153,16 @@ It is worth noting that the true correlation between DAT and AUT scores is unkno
 #### <ins>Robust DAT results after addressing key variables</ins>
 All of the key factors previously mention were taken into account, resulting in the outcomes shown in Figure 2. The figure caption details the specific changes in this robust DAT evaluation compared to the original. In addition, note that while the numerical DAT scores differ from Figure 1 due to the use of the embedding ensemble, the relative comparisons between models remain just as valid for Figure 2.
 
-<figure>
-  <img src="results/plots/DAT_1.2_robust_DAT_diffTemp_diffPrompt.png" alt="DAT evaluated using GloVe">
-  <figcaption><strong>Figure 2.</strong> Robust DAT results for the GloVe + BERT_L6 ensemble under varied conditions. Models generated 20 words per prompt (vs. the typical 10) at temperatures 0.5, 1.0, 1.5, and 2.0. Each model-temperature configuration was repeated 50 times. In addition, five different prompt variants were used.</figcaption>
-</figure>
+
+![Alt text](./results/plots/DAT_1.2_robust_DAT_diffTemp_diffPrompt_.png)
 
 The results indicate that `gemini-2.5-pro` and `gemini-2.0-flash` outperformed all other models by a notable margin. Although both models achieved nearly identical average DAT scores, their score distributions differed substantially. `gemini-2.5-pro` has a narrow, concentrated distribution of scores, whereas `gemini-2.0-flash` displays a broader, more dispersed range around almost the same mean as `gemini-2.5-pro`.
 
 To further investigate the broader distribution of `gemini-2.0-flash`, Figure 3.1 and 3.2 plots the DAT scores of `gemini-2.5-pro` and `gemini-2.0-flash` across different temperatures and prompts, respectively. Other models are also plotted as reference.
 
-<figure>
-  <img src="results/plots/DAT_1.2_robust_boxplot_temperature.png" alt="DAT scores of Gemini models by temperature">
-  <figcaption><strong>Figure 3.1.</strong> Robust DAT results plotted by temperature. Models generated 20 words per prompt at temperatures 0.5, 1.0, 1.5, and 2.0. Boxplots show the distribution of DAT scores for each model (median line, interquartile range, and whiskers).
-  </figcaption>
-</figure>
 
-<figure>
-  <img src="results/plots/DAT_1.2_robust_boxplot_prompt.png" alt="DAT scores of Gemini models by prompt">
-  <figcaption><strong>Figure 3.2.</strong> Robust DAT results plotted by prompt. Models generated 20 words per prompt (vs. the typical 10) with five different prompt variants being used. Boxplots show the distribution of DAT scores for each model (median line, interquartile range, and whiskers).</figcaption>
-</figure>
+![Alt text](./results/plots/DAT_1.2_robust_boxplot_temperature_.png)
+![Alt text](./results/plots/DAT_1.2_robust_boxplot_prompt_.png)
 
 As observed, temperature had a negligible effect on the distributions of DAT scores. In contrast, prompt variants had a significant and observable effect on DAT score. In fact, the use of different prompts largely explains the broader distribution of `gemini-2.0-flash`’s DAT scores. This suggests that `gemini-2.0-flash` is highly sensitive to prompt variation, whereas `gemini-2.5-pro` remained comparatively consistent, although it shows slight sensitivity as well. This is notable since all prompts conveyed nearly identical instructions.
 
@@ -185,12 +173,7 @@ These findings matter because many studies assessing LLMs’ divergent thinking 
 #### <ins>Effect of temperature and thinking budget in DAT</ins>
 To further investigate the effect of temperature and thinking_budget on DAT scores, `gemini-2.5-flash` was evaluate using DAT at varying temperatures and thinking_budget. The results can be see in Figure 4.
 
-<figure>
-  <img src="results/plots/DAT_1.1_effect_temperature.png" alt="DAT scores of Gemini models at different temperatures" width="49%">
-  <img src="results/plots/DAT_1.1_effect_thinking_budget.png" alt="DAT scores of Gemini models by temperature" width="49%">
-  <figcaption><strong>Figure 4.</strong> Effect of temperature and thinking_budget on DAT scores of gemini-2.5-flash. Models were prompted with five different variants and asked to generated 20 words. Experiments were repeated fifty times for each configuration. Jitter on the x axis is only for visualization purposes.
-  </figcaption>
-</figure>
+![Alt text](./results/plots/DAT_1.1_effect_temperature_.png)
 
 Temperature appears to have a negligible effect on DAT scores. This contrasts with the findings of [[6]](#6), which reported variations in DAT scores at different temperatures. Several factors may account for this difference, including the use of 20 words instead of 10, the incorporation of prompt variations, and the use of an embedding ensemble to compute semantic distances between words. However, it should be noted that the absence of a detected correlation does not necessarily imply the absence of an effect or causation.
 
@@ -200,22 +183,13 @@ In contrast, `thinking_budget` seems that have an effect on DAT scores. With a p
 #### <ins>HardDAT results show similarity with DAT despite increased complexity</ins>
 HardDAT is a modified version of DAT, based on this code repository ([link here](https://github.com/lechmazur/divergent)). LLMs are given a random list of 20 words (sampled from [5k_common.txt](models/5k_common.txt)), and are asked to generate 25 new words that are semantically different between each other, as well as the given 20 words. Additionally, all 25 generated words must begin with a specific letter chosen from the set `"abcdefghiklmnoprstuwy"`. The model is asked to do this four times for every letter at different temperature settings (0.5, 1.0, 1.5, and 2.0). If curious, the actual prompt can be found in [HardDAT.py](creative_tests/HardDAT.py).
 
-<figure>
-  <img src="results/plots/HardDAT_1.0_robust.png" alt="HardDAT scores of different Gemini models">
-  <figcaption><strong>Figure 6.</strong> HardDAT results for all Gemini models. Models were prompted with only one prompt variant and tasked with the HardDAT task (as explained above). Boxplots show the distribution of HardDAT scores for each model (median line, interquartile range, and whiskers). Statistical differences between models were assessed using pairwise two-sided Mann–Whitney U tests with Bonferroni correction for multiple comparisons. Only significant comparisons (p<0.05, after correction) are annotated with stars above the boxes (* p<0.05, ** p<0.01, *** p<0.001).
-  </figcaption>
-</figure>
+![Alt text](./results/plots/HardDAT_1.0_robust_.png)
 
-As shown in Figure 6, `gemini-2.5-flash-lite`, `gemini-2.5-pro`, and `gemini-2.0-flash` generally outperformed `gemini-2.5-flash` and `gemini-2.0-flash-lite` (in some cases with statistical significance). Although `gemini-2.0-flash` and `gemini-2.5-flash-lite` achieved a higher median HarDAT score than `gemini-2.5-pro`, the difference was not statistically significant.
+As shown in Figure 5, `gemini-2.5-flash-lite`, `gemini-2.5-pro`, and `gemini-2.0-flash` generally outperformed `gemini-2.5-flash` and `gemini-2.0-flash-lite` (in some cases with statistical significance). Although `gemini-2.0-flash` and `gemini-2.5-flash-lite` achieved a higher median HarDAT score than `gemini-2.5-pro`, the difference was not statistically significant.
 
-These findings are consistent with previous DAT evaluations. Therefore, the results further reinforce the good performance of `gemini-2.5-pro`, and `gemini-2.0-flash`. In Figure 7, a plot of `gemini-2.0-flash`'s HardDAT scores can be observed for each of the letters. Note that each letter was only evaluated at four different temperature settings with no repetitions (due to budget constraints). Therefore, results are only indicative and further experimentation is require to draw proper conclusions.
+These findings are consistent with previous DAT evaluations. Therefore, the results further reinforce the good performance of `gemini-2.5-pro`, and `gemini-2.0-flash`. In Figure 6, a plot of `gemini-2.0-flash`'s HardDAT scores can be observed for each of the letters. Note that each letter was only evaluated at four different temperature settings with no repetitions (due to budget constraints). Therefore, results are only indicative and further experimentation is require to draw proper conclusions.
 
-<figure>
-  <img src="results/plots/HardDAT_gemini-2.0-flash_by_letter_boxplot.png" alt="HardDAT scores of different Gemini models">
-  <figcaption><strong>Figure 7.</strong> HardDAT results for gemini-2.0-flash with different input letters. gemini-2.0-flash was evaluated through the HardDAT procedure described above. Boxplots show the distribution of HardDAT scores for each model (median line, mean diamond, interquartile range, and whiskers).
-  </figcaption>
-</figure>
-
+![Alt text](./results/plots/HardDAT_gemini-2.0-flash_by_letter_boxplot_.png)
 
 ### Synthetic-Divergent Association Task (S-DAT)
 #### <ins>S-DAT results across several LLM models</ins>
@@ -223,40 +197,28 @@ In 2025, Haase et al. introduced S-DAT: *"A Multilingual, GenAI-Driven Framework
 
 To address this limitation, the Haase et al. evaluated several multilingual embedding models to identify which produced the most stable and comparable distributions between languages [[2]](#2). After performing multilingual calibration, they determined that `Granite-Embedding-278m-multilingual` was the optimal choice [[21]](#21). As demonstrated [here](https://arxiv.org/html/2505.09068v1#S3.F1.8.8), this model exhibited the lowest variation and most consistent distribution across languages.
 
-Figure 8 presents the results of the self-evaluated S-DAT across 12 languages (English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese). The LLMs shown in Figure 8 are sorted from left to right by their average score. LLM models were asked to generate 10 and 25 words as semantically different as possible in those 12 languages. Each configuration was repeated 25 times. Again, note that the numerical values produced by S-DAT are not directly comparable to those from the previous DAT and HardDAT.
+Figure 7 presents the results of the self-evaluated S-DAT across 12 languages (English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese). The LLMs shown in Figure 7 are sorted from left to right by their average score. LLM models were asked to generate 10 and 25 words as semantically different as possible in those 12 languages. Each configuration was repeated 25 times. Again, note that the numerical values produced by S-DAT are not directly comparable to those from the previous DAT and HardDAT.
 
-<figure>
-  <img src="results/plots/SDAT_1.0_all_models.png" alt="S-DAT Scores accross diferent LLMs">
-  <figcaption><strong>Figure 8.</strong> S-DAT results evaluated using eight different LLM models from different model families. Boxplots show the distribution of S-DAT scores for each model (median line, interquartile range, and whiskers). 10-word responses are labeled as green and 25-word responses in red.
-  </figcaption>
-</figure>
+![Alt text](./results/plots/SDAT_1.0_all_models_.png)
 
 While `Claude-Sonnet-4` achieved a slightly higher average overall (particularly on the 10-word S-DAT responses), no major differences were observed in the S-DAT distributions. Larger models such as `gemini-2.5-pro` and `gpt-5` also produced marginally higher S-DAT scores, but these differences were not statistically significant.  
 
 Across all models, S-DAT performance showed a slight decline when LLMs were prompted to generate 25 words instead of 10. This is expected, as producing more words that diverge semantically from each other is more challenging.
 
-To investigate the intra-model distributions across languages, Figure 9 (as well as A.1 and A.2 in the appendix) are shown.
+To investigate the intra-model distributions across languages, Figure 8 (as well as A.1 and A.2 in the appendix) are shown.
 
-<figure>
-  <img src="results/plots/SDAT_1.1_gemini-2.5-pro-languages.png" alt="Gemini-2.5-Pro S-DAT scores accross diferent languages">
-  <figcaption><strong>Figure 9.</strong> Gemini-2.5-Pro S-DAT scores accross diferent languages. Boxplots show the distribution of S-DAT scores for each model (median line, interquartile range, and whiskers). 10-word responses are labeled as green and 25-word responses in red.
-  </figcaption>
-</figure>
+![Alt text](./results/plots/SDAT_1.1_gemini-2.5-pro-languages_.png)
 
 All three models (`Claude-Sonnet-4`, `gpt-5`, `gemini-2.5-pro`) seemed to perform suboptimally in languages liek Japanese and German (among others). This could also be due fact that `Granite-Embedding-278m-multilingual` is not as good at word embedding in those languages. In fact, in [[2]](#2), there is a slight drop in S-DAT scores in Japanese, which could explain this.
 
 Figures 9 is indicative since it illustrates broad patterns and potential weaknesses rather than conclusive evidence. The same is true for Figrue A.1 (`gpt-5`'s S-DAT scores accross diferent languages), and Figure A.2 (`Claude-Sonnet-4`'s S-DAT scores accross diferent languages).
 
 #### <ins>S-DAT scores under constraints showed no singificant results</ins>
-Finally, LLMs were evaluated using S-DAT under additional constraints, where responses were restricted to nouns referring to edible items, tools, objects valued under $10, or items/phenomena that produce sound when used. Results were plotted in Figure 10.
+Finally, LLMs were evaluated using S-DAT under additional constraints, where responses were restricted to nouns referring to edible items, tools, objects valued under $10, or items/phenomena that produce sound when used. Results were plotted in Figure 9.
 
-<figure>
-  <img src="results/plots/SDAT_1.2_constraints.png" alt="Gemini-2.5-Pro S-DAT scores accross diferent languages">
-  <figcaption><strong>Figure 10.</strong> S-DAT under constraints across five models. Boxplots show the distribution of S-DAT scores for each model (median line, interquartile range, and whiskers). The legend in the bottom left indicates the labeling of each experiment.
-  </figcaption>
-</figure>
+![Alt text](./results/plots/SDAT_1.2_constraints_.png)
 
-As seen in Figure 10, the imposed constraints seemed to generally not affect LLMs. As a result, S-DAT distributions across models were relatively similar, and no major significance was found.
+As seen in Figure 9, the imposed constraints seemed to generally not affect LLMs. As a result, S-DAT distributions across models were relatively similar, and no major significance was found.
 
 *Note that prompts were translated from English directly to all other 12 languages (as I unfortunately don't speak all of them). Therefore, there might be discrepancies between prompts that might create bias in the results. In addition, the applied constraints were not systematically checked, which may also have introduced additional sources of error to the results.*
 
@@ -274,70 +236,49 @@ low = ["stamp, letter, send","belief, faith, sing","petrol, diesel, pump" "year,
 high = ["gloom, payment, exist","organ, empire, comply","statement, stealth, detect"]
 ```
 #### <ins>DSI evaluation reveals statistically significant differences among LLMs</ins>
-Five prompt variants with the same instructions were employed to reduce prompt bias. Stories not containing each of the three cue words were rated as 0. Each setting was repeated 3 times and the results are shown in Figure 11.
+Five prompt variants with the same instructions were employed to reduce prompt bias. Stories not containing each of the three cue words were rated as 0. Each setting was repeated 3 times and the results are shown in Figure 10.
 
-<figure>
-  <img src="results/plots/DSI_1.0_all_models.png" alt="Gemini-2.5-Pro S-DAT scores accross diferent languages">
-  <figcaption><strong>Figure 11.</strong> DSI score distributions for seven different LLM models. Boxplots show the distribution of S-DAT scores for each model (median line, interquartile range, and whiskers). Statistical significance is not shown for visual clarity (it is explained below).
-  </figcaption>
-</figure>
+![Alt text](./results/plots/DSI_1.0_all_models_.png)
 
-Figure 11 showed the expected results for DSI. Large models like `gpt-5` and `claude-sonnet-4` had statistically significantly higher DSI scores than models such as `gemini-2.0-flash-lite` or `gemini-2.5-flash-lite`. Interestingly, `gemma-3n-e4b-it` an lightweight and open-source model, statistically outperformed `gemini-2.0-flash-lite` and `gemini-2.5-flash-lite` as well. Although these findings differ somewhat from the previous divergent thinking results, they may indicate that DSI is capturing a related but different aspect of creative cognition. Note that due to time and budget limitations `gemini-2.5-pro` was not evaluated on DSI.
+Figure 10 showed the expected results for DSI. Large models like `gpt-5` and `claude-sonnet-4` had statistically significantly higher DSI scores than models such as `gemini-2.0-flash-lite` or `gemini-2.5-flash-lite`. Interestingly, `gemma-3n-e4b-it` an lightweight and open-source model, statistically outperformed `gemini-2.0-flash-lite` and `gemini-2.5-flash-lite` as well. Although these findings differ somewhat from the previous divergent thinking results, they may indicate that DSI is capturing a related but different aspect of creative cognition. Note that due to time and budget limitations `gemini-2.5-pro` was not evaluated on DSI.
 
 The effect of both `temperature` and `thinking_budget` was explored by prompting `gemini-2.5-flash-lite` across multiple settings of both parameters (separately). However, correlation analysis revealed no apparent effect, with Pearson correlation coefficients of $0.024$ and $0.028$.
 
 #### <ins>Principal Component Analysis (PCA) of creative stories</ins>
+To further investigate the generated stories, Sentence-BERT [[22]](#22) was used to produce embeddings of all stories generated in the previous section. Using Principal Component Analysis (PCA), all embedding vectors can be represented in a 2D graph (Figure 11).
 
-#### Only Google Results
-    Only results with Google
+![Alt text](./results/plots/Figure%2011.png)
 
-#### Effect temperature Google
-    Only results with Google
+As seen in Figure 11, several clusters can be identified by looking at the prompt words. This is expected, as stories generated from similar cue words will tend to share semantic content and occupy similar regions in the embedding space. On top of that, in Figure 12, the human responses obtained from the original DSI paper are also plotted.
 
-#### Effect Thinking Budget
-    Only results with Google
+![Alt text](./results/plots/Figure%2012.png)
 
-#### Effect Prompts variants on result
-    Only results with Google with prompt variants
+Human writings seem to overlap almost identically with LLM generated stories (Figure 12 left). However, when focusing only on one prompt ("stamp, letter, send", Figure 12 right), we can observe a pretty sizable difference between human responses and LLMs. This reproduces de findings of [[6]](#6), where PCA of story-embeddings showed a similar pattern. LLM stories seem to be less variable when compared to human ones.
 
-#### Best Google vs Gemini-2.5-pro vs Other models vs Humans
-    Only results with Google vs Human (PCA embeddings and shit)
-
-### AUT
-### Originality Ratings
-#### Explain originality correlation evaluation table (like in organisciak)
-    Test correlation of gemma3n on 8k human rated responses to brick - 0.19 percent
-    Then tested 300 responses? - show table like in organisciak 2023
-
-    Explain biases or percieved biases and cite https://arxiv.org/html/2411.15560v2
-
-#### Temperature & Thinking Budget Effect on AUT
-    Test with gemini 2.5-flash-lite the effect of temperature and thinking budget on AUT originality ratings
-
-#### Base AUT originality with brick, box, paperclip, bottle
-    Show comparison between all models
-
-#### Gemini2.5-pro AUT brick, box, paperclip, bottle, rope, book, table, shovel
-    Then, show individual plot for gemini2.5-pro across
-
-### Flexibility Ratings
-#### Base AUT flexibility with brick, box, paperclip, bottle
-    Show comparison between all models
-
-#### Gemini2.5-pro AUT brick, box, paperclip, bottle, rope, book, table, shovel
-    Then, show individual plot for gemini2.5-pro across 
-
-### Vision Based AUT
-    Generate images of a brick, box, paperclip, bottle, rope, book, table, shovel with some image generator and modify the prompt.
-    Add support for adding images?
 
 ## Conclusion
-## 🚀 Future Work
-The current project developed a comprehensive benchmark by adapting previous psychometric tests of divergent thinking to the LLM setting. In addtion, preliminary results of several state of the LLMs offer an initial glimpse into the divergent thinking capabilites of current state of the art LLMs. 
+In conclusion, this project created an open-source benchmark to evaluate divergent thinking in large language models (LLMs). By adapting established psychometric tests such as DAT, HardDAT, S-DAT, and DSI to the LLM setting, it provides a first step toward systematically measuring creativity beyond traditional convergent benchmarks.
 
-However, further work and more extensive experimentation is require to further 
+The results show that state of the art models like gemini-2.5-pro, gemini-2.0-flash, gpt-5, and claude-sonnet-4 already display notable divergent thinking abilities. However, performance significantly varies depending on prompts, embeddings, and evaluation settings, highlighting the importance of robust testing methods.
+
+While these findings are not definitive, they give an early view of how current LLMs handle creative tasks. They also suggest that model size alone does not guarantee stronger divergent thinking. Other factors such as prompt design, fine-tuning, and reasoning budgets can play a key role.
+
+Overall, this benchmark provides a clear starting point for exploring creativity in AI. It is open and easy to build on, so others can adapt and improve it to better measure the creative abilities of LLMs.
+
+## 🚀 Future Work
+The current project developed a comprehensive benchmark by adapting previous psychometric tests of divergent thinking to the LLM setting. In addtion, preliminary results of several state of the LLMs offer an initial glimpse into the divergent thinking capabilites of current state of the art LLMs. However, further work and more extensive experimentation is required.
+
+The following is a non exhaustive list of future addtions to this repo:
+- Divergent Thinking Multimodal Test
+    - The name of this repo is called **Multimodal** Creative Thinking Benchmark. Divergent thinking should not only be evaluated through text, it should also evaluated using visual and auditive components. However, due to time constraints that was not possible.
+- Evaluation and implementation of other popular open-source LLMs (Llama 3, Vicuna, DeepSeek, etc.)
+- Proper integration of AUT into the creative divergent tests
+    - AUT is semi-integrated, but full integration of GPT-5 as a judge requires more work
+- General refactoring of the JSON export format
+    - There is some major discrepancies between how results from DAT, HardDAT, DSI, and SDAT are exported. A common saving structure would reduce bugs and make it easier to visualize the results.
 
 ## 🛠️ Usage
+Please refer to [README.md](./README.md) to get started!
 
 ## 🙌 Acknowledgements
 A special thank you to:  
@@ -424,35 +365,12 @@ Line Goes Up? Inherent Limitations of Benchmarks for Evaluating Large Language M
 Does Prompt Formatting Have Any Impact on LLM Performance? [🔗](https://arxiv.org/pdf/2411.10541)
 
 <a id="21">[21]</a> 
-Granite Embedding 278m Multilingual model card [🔗](ttps://www.ibm.com/docs/en/watsonx/saas?topic=models-granite-embedding-278m-multilingual-model-card)
+Granite Embedding 278m Multilingual model card [🔗](https://www.ibm.com/docs/en/watsonx/saas?topic=models-granite-embedding-278m-multilingual-model-card)
 
+<a id="22">[22]</a> 
+Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks [🔗](https://arxiv.org/abs/1908.10084)
 
-
-
-
-
-
-
-
-
-
-<a id="6">[6]</a> 
-Automatic assessment of divergent thinking in Chinese language with TransDis: A transformer-based language model approach [🔗](https://link.springer.com/article/10.3758/s13428-023-02313-z)
-
-<a id="7">[7]</a> 
-Beyond semantic distance: Automated scoring of divergent
-thinking greatly improves with large language models [🔗](https://www.sciencedirect.com/science/article/abs/pii/S1871187123001256)
-
-<a id="10">[10]</a> 
-Using large language models to evaluate alternative uses task flexibility score [🔗](https://www.sciencedirect.com/science/article/abs/pii/S1871187124000877)
-
-<a id="11">[11]</a> 
-Best humans still outperform artificial intelligence in a creative divergent thinking task [🔗](https://www.nature.com/articles/s41598-023-40858-3)
-
-<a id="12">[12]</a> 
-Do LLMs Agree on the Creativity Evaluation of Alternative Uses? [🔗](https://arxiv.org/html/2411.15560v2)
-
-## Additional Method Notes
-
+<a id="23">[23]</a> 
+A Tutorial on Principal Component Analysis [🔗](https://arxiv.org/abs/1404.1100)
 
 **Submitted by:** Green Code
