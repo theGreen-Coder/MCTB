@@ -7,8 +7,10 @@
 
 ## 📄 Deliverables
 
-[![GitHub Repo](https://img.shields.io/badge/Github%20Repo-MCTB-green?logo=github)](https://github.com/theGreen-Coder/MCTB)  
-[![Demo Video](https://img.shields.io/badge/Video-YouTube-red?logo=youtube)](https://www.youtube.com/@Green-Code/videos)
+[![GitHub Repo](https://img.shields.io/badge/Github%20Repo-MCTB-green?logo=github)](https://github.com/theGreen-Coder/MCTB) \
+[![Demo Video](https://img.shields.io/badge/Video%20(coming%20soon)-YouTube-red?logo=youtube)](https://www.youtube.com/@Green-Code/videos) \
+[![This notebook with all the results](https://img.shields.io/badge/Notebook-GSoC25.md-blue?logo=markdown)](./GSoC25.md)
+
 
 ## 📝 Project Description
 An open-source multimodal creative thinking benchmark developed as part of Google Summer of Code (GSoC) under the mentorship of Paige Bailey ([@dynamicwebpaige]((https://github.com/dynamicwebpaige))) and Google DeepMind ([@google-deepmind](https://github.com/google-deepmind)).
