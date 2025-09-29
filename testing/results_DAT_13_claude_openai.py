@@ -16,7 +16,7 @@ test = DivergentAssociationTest(
         {"temperature": 2},
     ],
     n_words=20,
-    repeats=50,
+    repeats=20,
     delay=11,
     standard_prompt=False,
     file_name="DAT_1.3_claude_openai"
