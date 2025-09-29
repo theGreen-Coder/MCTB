@@ -18,7 +18,7 @@ cd MCTB
 ### Create & activate the Conda environment:
 
 ```
-conda env create -f environment.yml   # installs Python 3.12 and all pinned deps  
+conda env create -f MCTB.yml          # installs Python 3.12 and all pinned deps  
 conda activate MCTB                   # environment name is set inside the YAML
 ```
 
@@ -38,9 +38,12 @@ These are the only two variables required according to .env-example. (github.com
 
 ### Get started
 
-Check out [the example notebook](example.ipynb) to see my main results so far in the project, as well as a general explanation of each of the test and it's implementation.
+Check out [the GSoC notebook](GSoC25.md) to see my main results so far in the project, as well as a general explanation of each of the test and it's implementation.
 Otherwise, all creative tests are stored in the [creative_tests folder](creative_tests/).\
 Hope you enjoy!
+
+### Local inference
+Local inference can be used using Ollama. When running just input `ollama/your-desired-model` into the `models` argument of the creative tests and the [requests.py](requests.py) should take care of everything.
 
 ### Additional Notes
 A couple of really big files are needed to fully execute the repository. You will need to download `glove.840B.300d.txt`:
@@ -50,13 +53,16 @@ wget -P models http://nlp.stanford.edu/data/glove.840B.300d.zip
 unzip models/glove.840B.300d.zip -d models
 ```
 
-Also, the file `bert_midlayer_dict.h5` is missing. This is roughly a 1GB file that I genereted to get the word embeddings faster using BERT (by storing them beforehand). At the moment (June 26th 2025), this is still a bit buggy, so I will upload this when I fix all the problems.
 
 ## Weekly Progress Log
 A weekly updated progress log can be found [here](WeeklyProgressLog.md).
 
 ## Acknowledgements
-Thank you to Paige Bailey for her mentorship.
+A special thank you to:  
+- [Paige Bailey](https://github.com/dynamicwebpaige) for her insights and huge help through the whole duration of this project.
+- [Xavier Amatriain](https://www.linkedin.com/in/xamat/) for his valuable insights and generosity with his time.
+- My fellow GSoC DeepMind contributors for their feedback and inspiration (especially [@rorosaga]((https://github.com/rorosaga))).
+- Anyone reading this for taking the time to check out my project! :)
 
 ## Community contributions
 Contributions are welcome—feel free to open issues or submit pull requests!
