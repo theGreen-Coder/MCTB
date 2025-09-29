@@ -273,8 +273,20 @@ Both low and high semantic words were provided as cue words:
 low = ["stamp, letter, send","belief, faith, sing","petrol, diesel, pump" "year, week, embark"]
 high = ["gloom, payment, exist","organ, empire, comply","statement, stealth, detect"]
 ```
+#### <ins>DSI evaluation reveals statistically significant differences among LLMs</ins>
+Five prompt variants with the same instructions were employed to reduce prompt bias. Stories not containing each of the three cue words were rated as 0. Each setting was repeated 3 times and the results are shown in Figure 11.
 
-Each setting was repeated 3 times and the results are shown in Figure 11.
+<figure>
+  <img src="results/plots/DSI_1.0_all_models.png" alt="Gemini-2.5-Pro S-DAT scores accross diferent languages">
+  <figcaption><strong>Figure 11.</strong> DSI score distributions for seven different LLM models. Boxplots show the distribution of S-DAT scores for each model (median line, interquartile range, and whiskers). Statistical significance is not shown for visual clarity (it is explained below).
+  </figcaption>
+</figure>
+
+Figure 11 showed the expected results for DSI. Large models like `gpt-5` and `claude-sonnet-4` had statistically significantly higher DSI scores than models such as `gemini-2.0-flash-lite` or `gemini-2.5-flash-lite`. Interestingly, `gemma-3n-e4b-it` an lightweight and open-source model, statistically outperformed `gemini-2.0-flash-lite` and `gemini-2.5-flash-lite` as well. Although these findings differ somewhat from the previous divergent thinking results, they may indicate that DSI is capturing a related but different aspect of creative cognition. Note that due to time and budget limitations `gemini-2.5-pro` was not evaluated on DSI.
+
+The effect of both `temperature` and `thinking_budget` was explored by prompting `gemini-2.5-flash-lite` across multiple settings of both parameters (separately). However, correlation analysis revealed no apparent effect, with Pearson correlation coefficients of $0.024$ and $0.028$.
+
+#### <ins>Principal Component Analysis (PCA) of creative stories</ins>
 
 #### Only Google Results
     Only results with Google
