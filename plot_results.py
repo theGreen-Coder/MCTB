@@ -157,7 +157,7 @@ def plot_distribution_results(data_file,
         figsize=(10, len(order) * 1.2),
         overlap=1,
         linewidth=1,
-        colormap=plt.cm.Set1,
+        colormap=plt.cm.turbo,
         legend=False,
         x_range=[x_min, x_max],
     )
