@@ -261,9 +261,9 @@ Human writings seem to overlap almost identically with LLM generated stories (Fi
 #### <ins>Initial AUT results</ins>
 As explain in the background, the Alternative Uses Test (AUT) is one of the most common and prevalent divergent thinking psychometric done in humans. However, AUT is extremely costly from a financial and time perspective. This is mostly due to the requirment of several independent evaluators.
 
-To address this, Organisciak et al. demonstrated that LLMs can serve as AUT evaluators, achieving a high correlation agreement coefficient. In fact, they showed in 2023 that GPT-3 had high correlation with human raters. To further explore this, their AUT dataset containing almost 33k AUT evaluations (from several different studies) was and the `gemini` model family was tested on their correlation with human judgdemnt. The results can be see in Table 3. Only a subset of 300 randomly sampled AUT responses surprising uses of BRICK were selected for evaluation (due to budget constraints).
+Building on this work, the authors evaluated their AUT dataset (containing nearly 33,000 AUT responses collected from several studies) by testing the gemini model family for correlation with human judgments. Due to budget constraints, only 300 randomly sampled AUT responses involving unusual uses of a brick were included in the evaluation. The results are summarized below.
 
-**Table 3.** ________ (n=300)
+**Table 3.** Correlation with human AUT ratings (n = 300)
 | Model                       | Correlation (r) |
 |-----------------------------|----------------:|
 | gemini/gemini-2.5-flash      | **0.561** |
