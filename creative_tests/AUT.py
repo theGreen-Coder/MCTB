@@ -232,7 +232,7 @@ class SimpleAlternativesUseTask():
                         for idx2, single_list in enumerate(val_lists):
                             for idx3, use in enumerate(single_list):
                                 request_judge = Request(
-                                    models="gemini/gemini-2.5-flash",
+                                    models="gemini/gemini-2.0-flash",
                                     prompt=self.get_AUT_prompt_judge(str(object_name), use),
                                     configs=[{"temperature": 0.7}],
                                     repeats=1,
@@ -241,7 +241,7 @@ class SimpleAlternativesUseTask():
                                 )
                                 
                                 llm_response = run_request(request_judge)
-                                aut_results[idx][model_name][configs][idx2][idx3] = llm_response["gemini/gemini-2.5-flash"]['{"temperature": 0.7}'][0][0]
+                                aut_results[idx][model_name][configs][idx2][idx3] = llm_response["gemini/gemini-2.0-flash"]['{"temperature": 0.7}'][0][0]
         
                                 with open(f"results/{str(self)}_results.json", "w") as json_file:
                                     json.dump(aut_results, json_file, indent=4)
