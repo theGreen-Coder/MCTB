@@ -254,7 +254,7 @@ Contributions are welcome. Feel free to open issues or submit pull requests!
 A special thank you to:  
 - [Paige Bailey](https://github.com/dynamicwebpaige) for her insights and huge help through the whole duration of this project.
 - [Xavier Amatriain](https://www.linkedin.com/in/xamat/) for his valuable insights and generosity with his time.
-- My fellow GSoC DeepMind contributors for their feedback and inspiration (especially [@rorosaga]((https://github.com/rorosaga))).
+- My fellow GSoC DeepMind contributors for their feedback and inspiration (especially [@rorosaga](https://github.com/rorosaga)).
 - Anyone reading this for taking the time to check out my project! :)
 
 ## License

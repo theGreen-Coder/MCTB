@@ -257,6 +257,26 @@ As seen in Figure 11, several clusters can be identified by looking at the promp
 
 Human writings seem to overlap almost identically with LLM generated stories (Figure 12 left). However, when focusing only on one prompt ("stamp, letter, send", Figure 12 right), we can observe a pretty sizable difference between human responses and LLMs. This reproduces de findings of [[6]](#6), where PCA of story-embeddings showed a similar pattern. LLM stories seem to be less variable when compared to human ones.
 
+### Alternative Uses Test (AUT)
+#### <ins>Initial AUT results</ins>
+As explain in the background, the Alternative Uses Test (AUT) is one of the most common and prevalent divergent thinking psychometric done in humans. However, AUT is extremely costly from a financial and time perspective. This is mostly due to the requirment of several independent evaluators.
+
+To address this, Organisciak et al. demonstrated that LLMs can serve as AUT evaluators, achieving a high correlation agreement coefficient. In fact, they showed in 2023 that GPT-3 had high correlation with human raters. To further explore this, their AUT dataset containing almost 33k AUT evaluations (from several different studies) was and the `gemini` model family was tested on their correlation with human judgdemnt. The results can be see in Table 3. Only a subset of 300 randomly sampled AUT responses surprising uses of BRICK were selected for evaluation (due to budget constraints).
+
+**Table 3.** ________ (n=300)
+| Model                       | Correlation (r) |
+|-----------------------------|----------------:|
+| gemini/gemini-2.5-flash      | **0.561** |
+| gemini/gemini-2.5-pro        | 0.560 |
+| gemini/gemini-2.0-flash      | 0.552 |
+| gemini/gemini-2.5-flash-lite | 0.509 |
+| ollama/gemma3n:e4b           | 0.192 |
+
+Both `gemini-2.5-flash` and `gemini-2.5-pro` showed the highest level of agreement with human AUT responses. In addition, gemma3n:e4b was evaluated locally on all 8k resulting in a correlation of $0.19$.
+
+`gemma3n:e4b` was also fintune in a subset of [22k AUT uses](./data/gemma3n_finetune/train.json) (however, the correlation is still to be calculated).
+
+Finally, an initial test for `AUT` was obtained by running [testing/results_AUT_1.0_all_models.py](testing/results_AUT_1.0_all_models.py) and using `gemini-2.0-flash` as the AUT evaluator. Initial results can be seen in seen in [results/AUT_1.0_all_models_results.json](results/AUT_1.0_all_models_results.json).
 
 ## Conclusion
 In conclusion, this project created an open-source benchmark to evaluate divergent thinking in large language models (LLMs). By adapting established psychometric tests such as DAT, HardDAT, S-DAT, and DSI to the LLM setting, it provides a first step toward systematically measuring creativity beyond traditional convergent benchmarks.
@@ -274,8 +294,8 @@ The following is a non exhaustive list of future addtions to this repo:
 - Divergent Thinking Multimodal Test
     - The name of this repo is called **Multimodal** Creative Thinking Benchmark. Divergent thinking should not only be evaluated through text, it should also evaluated using visual and auditive components. However, due to time constraints that was not possible.
 - Evaluation and implementation of other popular open-source LLMs (Llama 3, Vicuna, DeepSeek, etc.)
-- Proper integration of AUT into the creative divergent tests
-    - AUT is semi-integrated, but full integration of GPT-5 as a judge requires more work
+- More robust integration of AUT into the creative divergent tests
+    - AUT is semi-integrated, but full integration of GPT-5/Gemini-Pro as a judge requires more work
 - General refactoring of the JSON export format
     - There is some major discrepancies between how results from DAT, HardDAT, DSI, and SDAT are exported. A common saving structure would reduce bugs and make it easier to visualize the results.
 
@@ -286,7 +306,7 @@ Please refer to [README.md](./README.md) to get started!
 A special thank you to:  
 - [Paige Bailey](https://github.com/dynamicwebpaige) for her insights and huge help through the whole duration of this project.
 - [Xavier Amatriain](https://www.linkedin.com/in/xamat/) for his valuable insights and generosity with his time.
-- My fellow GSoC DeepMind contributors for their feedback and inspiration (especially [@rorosaga]((https://github.com/rorosaga))).
+- My fellow GSoC DeepMind contributors for their feedback and inspiration (especially [@rorosaga](https://github.com/rorosaga)).
 - Anyone reading this for taking the time to check out my project! :)
 
 ---
@@ -374,5 +394,8 @@ Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks [🔗](https://ar
 
 <a id="23">[23]</a> 
 A Tutorial on Principal Component Analysis [🔗](https://arxiv.org/abs/1404.1100)
+
+<a id="24">[24]</a> 
+Beyond semantic distance: Automated scoring of divergent thinking greatly improves with large language models [🔗](https://www.sciencedirect.com/science/article/abs/pii/S1871187123001256)
 
 **Submitted by:** Green Code
