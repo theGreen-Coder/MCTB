@@ -1,10 +1,11 @@
 {
-    "gemini-2.5-pro": 15,
-    "gemini-2.5-flash": 9, 
-    "gemini-2.5-flash-lite": 6,
-    "gemini-2.0-flash": 6,
-    "gemini-2.0-flash-lite": 4,
-    "gemma-3n-e4b-it": 4,
-    "claude-sonnet-4-20250514": 8,
-    "gpt-5": 8
+    "gemini/gemini-2.5-pro": 5,
+    "gemini/gemini-2.5-flash": 1, 
+    "gemini/gemini-2.5-flash-lite": 1,
+    "gemini/gemini-2.0-flash": 1,
+    "gemini/gemini-2.0-flash-lite": 1,
+    "gemma/gemma-3n-e4b-it": 1,
+    "ollama/gemma3n:e4b": 0,
+    "claude/claude-sonnet-4-20250514": 5,
+    "gpt/gpt-5": 5
 }
