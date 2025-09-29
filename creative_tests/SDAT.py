@@ -165,6 +165,7 @@ class SyntheticDivergentAssociationTest(DivergentAssociationTest):
                 if model_key in entry:
                     for config_key, word_lists in entry[model_key].items():
                         for idx2, words in enumerate(word_lists):
+                            print(words[0])
                             c_words = super().clean_response(words[0])
                             print("Clean response:")
                             print(c_words)
