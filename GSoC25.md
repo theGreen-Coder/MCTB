@@ -224,7 +224,7 @@ As seen in Figure 9, the imposed constraints seemed to generally not affect LLM 
 *Note that prompts were automatically translated from English directly to all other 12 languages (as I unfortunately don't speak all of them). Therefore, there might be discrepancies between prompt translations that might create bias in the results. In addition, the applied constraints were not systematically checked, which may also have introduced additional sources of error to the results.*
 
 ### Divergent semantic integration (DSI)
-In order to evaluate creative writing, DSI was calculated across different LLMs. As explained in the background section, while DSI does not directly measure divergent thinking, it serves as a useful proxy for measuring the connection between divergent concepts (which is a core component of divergent thinking). DSI was calculated using the method explained in the original paper [[14]](#14), where context-dependent BERT embeddings are calculated and the semantic distance is computed between pairs of words.
+In order to evaluate creative writing, DSI was calculated across different LLMs. As explained in the background section, while DSI does not directly measure divergent thinking, it serves as a useful proxy for measuring the connection between divergent concepts (which is a core component of divergent thinking). DSI was computed using the method explained in the original paper [[14]](#14), where context-dependent BERT embeddings are calculated and the semantic distance is computed between pairs of words.
 
 As in the original DSI study, LLMs were instructed to write a creative story using three words as a prompt:
 
@@ -233,8 +233,8 @@ As in the original DSI study, LLMs were instructed to write a creative story usi
 Both low and high semantic words were provided as cue words:
 
 ```python
-low = ["stamp, letter, send","belief, faith, sing","petrol, diesel, pump" "year, week, embark"]
-high = ["gloom, payment, exist","organ, empire, comply","statement, stealth, detect"]
+low = ["stamp, letter, send", "belief, faith, sing", "petrol, diesel, pump", "year, week, embark"]
+high = ["gloom, payment, exist", "organ, empire, comply", "statement, stealth, detect"]
 ```
 #### <ins>DSI evaluation reveals statistically significant differences among LLMs</ins>
 Five prompt variants with the same instructions were employed to reduce prompt bias. Stories not containing each of the three cue words were rated as 0. Each setting was repeated 3 times and the results are shown in Figure 10.
@@ -243,24 +243,26 @@ Five prompt variants with the same instructions were employed to reduce prompt b
 
 Figure 10 showed the expected results for DSI. Large models like `gpt-5` and `claude-sonnet-4` had statistically significantly higher DSI scores than models such as `gemini-2.0-flash-lite` or `gemini-2.5-flash-lite`. Interestingly, `gemma-3n-e4b-it` a lightweight and open-source model, statistically outperformed `gemini-2.0-flash-lite` and `gemini-2.5-flash-lite` as well. Although these findings differ somewhat from the previous divergent thinking results, they may indicate that DSI is capturing a related but different aspect of creative cognition. Note that due to time and budget limitations `gemini-2.5-pro` was not evaluated on DSI.
 
-The effect of both `temperature` and `thinking_budget` was explored by prompting `gemini-2.5-flash-lite` across multiple settings of both parameters (separately). However, correlation analysis revealed no apparent effect, with Pearson correlation coefficients of $0.024$ and $0.028$.
+The effect of both `temperature` and `thinking_budget` was explored by prompting `gemini-2.5-flash-lite` across multiple settings of both parameters (separately). However, correlation analysis revealed no apparent effect, with Pearson correlation coefficients of $0.024$ and $0.028$ respectively.
 
 #### <ins>Principal Component Analysis (PCA) of creative stories</ins>
-To further investigate the generated stories, Sentence-BERT [[22]](#22) was used to produce embeddings of all stories generated in the previous section. Using Principal Component Analysis (PCA), all embedding vectors can be represented in a 2D graph (Figure 11).
+To further investigate the generated stories, Sentence-BERT [[22]](#22) was used to produce embeddings of all stories generated in the previous section. Using Principal Component Analysis (PCA) [[23]](#23), all embedding vectors can be represented in a 2D graph (Figure 11).
 
 ![Alt text](./results/plots/Figure%2011.png)
 
-As seen in Figure 11, several clusters can be identified by looking at the prompt words. This is expected, as stories generated from similar cue words will tend to share semantic content and occupy similar regions in the embedding space. On top of that, in Figure 12, the human responses obtained from the original DSI paper are also plotted.
+As seen in Figure 11, several clusters can be identified by looking at the cue words. This is expected, as stories generated from similar cue words will tend to share semantic content and occupy similar regions in the embedding space. On top of that, in Figure 12, the human responses obtained from the original DSI paper are also plotted along the previous LLM-generated story embeddings..
 
 ![Alt text](./results/plots/Figure%2012.png)
 
-Human writings seem to overlap almost identically with LLM generated stories (Figure 12 left). However, when focusing only on one prompt ("stamp, letter, send", Figure 12 right), we can observe a pretty sizable difference between human responses and LLMs. This reproduces de findings of [[6]](#6), where PCA of story-embeddings showed a similar pattern. LLM stories seem to be less variable when compared to human ones.
+Human writings seem to overlap almost identically with LLM generated stories (Figure 12 left). However, when focusing only on stories generated using one cue words ("stamp, letter, send", Figure 12 right), we can observe a pretty sizable difference between human responses and LLMs. This reproduces de findings of [[6]](#6), where PCA of story-embeddings showed a similar pattern. LLM stories seem to be less variable when compared to human ones.
 
 ### Alternative Uses Test (AUT)
 #### <ins>Initial AUT results</ins>
 As explain in the background, the Alternative Uses Test (AUT) is one of the most common and prevalent divergent thinking psychometric done in humans. However, AUT is extremely costly from a financial and time perspective. This is mostly due to the requirment of several independent evaluators.
 
-Building on this work, the authors evaluated their AUT dataset (containing nearly 33,000 AUT responses collected from several studies) by testing the gemini model family for correlation with human judgments. Due to budget constraints, only 300 randomly sampled AUT responses involving unusual uses of a brick were included in the evaluation. The results are summarized below.
+To address this, Organisciak et al. demonstrated that LLMs can act as good AUT evaluators, achieving high inter-rater agreement with human judgments. In particular, their 2023 study showed that GPT-3 correlated strongly with human raters [[24]](#24).
+
+Building on this work, we evaluated the correlation between AUT ratings from the gemini model family with human AUT ratings. We used the dataset collected by Organisciak et al. (containing nearly 33,000 AUT responses from several AUT studies). Due to budget constraints, only 300 randomly sampled AUT responses involving unusual uses of a brick were included in the evaluation. The results are summarized below.
 
 **Table 3.** Correlation with human AUT ratings (n = 300)
 | Model                       | Correlation (r) |
@@ -271,30 +273,30 @@ Building on this work, the authors evaluated their AUT dataset (containing nearl
 | gemini/gemini-2.5-flash-lite | 0.509 |
 | ollama/gemma3n:e4b           | 0.192 |
 
-Both `gemini-2.5-flash` and `gemini-2.5-pro` showed the highest level of agreement with human AUT responses. In addition, gemma3n:e4b was evaluated locally on all 8k resulting in a correlation of $0.19$.
+Both `gemini-2.5-flash` and `gemini-2.5-pro` showed the highest level of agreement with human AUT responses. In addition, gemma3n:e4b was evaluated locally on all 8k brick ratings resulting in a correlation of $0.19$.
 
-`gemma3n:e4b` was also fintune in a subset of [22k AUT uses](./data/gemma3n_finetune/train.json) (however, the correlation is still to be calculated).
+To obtain a lightweight model capable of performing accurate AUT evaluations, `gemma3n:e4b` was fintuned using LoRA [[25]](#25) with a subset of [22k AUT uses](./data/gemma3n_finetune/train.json). However, due to a lack of time, the correlation is still to be calculated.
 
 Finally, an initial test for `AUT` was obtained by running [testing/results_AUT_1.0_all_models.py](testing/results_AUT_1.0_all_models.py) and using `gemini-2.0-flash` as the AUT evaluator. Initial results can be seen in seen in [results/AUT_1.0_all_models_results.json](results/AUT_1.0_all_models_results.json).
 
 ## Conclusion
-In conclusion, this project created an open-source benchmark to evaluate divergent thinking in large language models (LLMs). By adapting established psychometric tests such as DAT, HardDAT, S-DAT, and DSI to the LLM setting, it provides a first step toward systematically measuring creativity beyond traditional convergent benchmarks.
+In conclusion, this project created an open-source evaluation frameworks to test divergent thinking in LLMs. By adapting established psychometric tests such as DAT, HardDAT, S-DAT, and DSI to the LLM setting, it provides a first step toward systematically measuring creativity beyond traditional convergent benchmarks.
 
-The results show that state of the art models like gemini-2.5-pro, gemini-2.0-flash, gpt-5, and claude-sonnet-4 already display notable divergent thinking abilities. However, performance significantly varies depending on prompts, embeddings, and evaluation settings, highlighting the importance of robust testing methods.
+The results show that state of the art models like `gemini-2.5-pro`, `gemini-2.0-flash`, `gpt-5`, and `claude-sonnet-4` already display notable divergent thinking abilities. However, performance significantly varies depending on prompts, embedding models, and evaluation settings, highlighting the importance of robust testing methods.
 
-While these findings are not definitive, they give an early view of how current LLMs handle creative tasks. They also suggest that model size alone does not guarantee stronger divergent thinking. Other factors such as prompt design, fine-tuning, and reasoning budgets can play a key role.
+While these findings are not definitive, they give an early view of how current LLMs handle creative tasks. They also suggest that model size alone does not guarantee stronger divergent thinking. Other factors such as prompt design and reasoning seem to play a key role as well.
 
-Overall, this benchmark provides a clear starting point for exploring creativity in AI. It is open and easy to build on, so others can adapt and improve it to better measure the creative abilities of LLMs.
+Overall, this project provides a clear starting point for exploring creativity in AI. It is open and easy to build on, so others can adapt and improve it to better measure the creative abilities of LLMs.
 
 ## 🚀 Future Work
-The current project developed a comprehensive benchmark by adapting previous psychometric tests of divergent thinking to the LLM setting. In addtion, preliminary results of several state of the LLMs offer an initial glimpse into the divergent thinking capabilites of current state of the art LLMs. However, further work and more extensive experimentation is required.
+Preliminary results of several state of the art LLMs offer an initial glimpse into their divergent thinking capabilites. However, further work and more extensive experimentation is required.
 
-The following is a non exhaustive list of future addtions to this repo:
+The following is a non exhaustive list of future addtions to current repo:
 - Divergent Thinking Multimodal Test
-    - The name of this repo is called **Multimodal** Creative Thinking Benchmark. Divergent thinking should not only be evaluated through text, it should also evaluated using visual and auditive components. However, due to time constraints that was not possible.
-- Evaluation and implementation of other popular open-source LLMs (Llama 3, Vicuna, DeepSeek, etc.)
+    - The name of this repo is called **Multimodal** Creative Thinking Benchmark. Divergent thinking should not only be evaluated through text, it should also evaluated using visual and auditive components. However, due to time constraints that was not possible. Future work on this repo will focus on this.
+- Evaluation and support for other popular open-source LLMs (Llama 3, Vicuna, DeepSeek, etc.)
 - More robust integration of AUT into the creative divergent tests
-    - AUT is semi-integrated, but full integration of GPT-5/Gemini-Pro as a judge requires more work
+    - AUT is implemented, but a robust implementation and integration into the other creative test is still missing
 - General refactoring of the JSON export format
     - There is some major discrepancies between how results from DAT, HardDAT, DSI, and SDAT are exported. A common saving structure would reduce bugs and make it easier to visualize the results.
 
@@ -396,5 +398,9 @@ A Tutorial on Principal Component Analysis [🔗](https://arxiv.org/abs/1404.110
 
 <a id="24">[24]</a> 
 Beyond semantic distance: Automated scoring of divergent thinking greatly improves with large language models [🔗](https://www.sciencedirect.com/science/article/abs/pii/S1871187123001256)
+
+<a id="25">[25]</a> 
+LoRA: Low-Rank Adaptation of Large Language Models [🔗](https://arxiv.org/abs/2106.09685)
+
 
 **Submitted by:** Green Code

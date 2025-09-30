@@ -68,7 +68,7 @@ ANTHROPIC_API_KEY=YOUR_KEY_HERE
 ```
 These are the only two variables required according to .env-example. (github.com)
 
-### Download Required Files (to run all notebooks)
+### Download Required Files
 To access the main functionalities of the repo, a couple of big files are needed (all stored in `models/`): 
 
 1. You will need to download `glove.840B.300d.txt`:
