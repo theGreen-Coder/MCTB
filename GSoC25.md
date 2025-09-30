@@ -13,44 +13,43 @@
 
 
 ## 📝 Project Description
-An open-source multimodal creative thinking benchmark developed as part of Google Summer of Code (GSoC) under the mentorship of Paige Bailey ([@dynamicwebpaige]((https://github.com/dynamicwebpaige))) and Google DeepMind ([@google-deepmind](https://github.com/google-deepmind)).
+An open-source multimodal creative thinking benchmark developed as part of Google Summer of Code (GSoC) under the mentorship of Paige Bailey ([@dynamicwebpaige](https://github.com/dynamicwebpaige)) and Google DeepMind ([@google-deepmind](https://github.com/google-deepmind)).
 
 ## Abstract
-Creativity has been extensively studied through the use of empirical methods ranging from case studies and psychometric tests to neuroscientific imaging and computational modeling. Within the field, J. P. Guilford identified divergent and convergent thinking as fundamental processes of creative cognition. While convergent thinking relates to the ability to arrive at a single and optimal solution, divergent thinking emphasizes the generation of multiple, novel, and flexible ideas. In fact, divergent thinking is a crucial part of the creative thinking process.
+Creativity has been extensively studied through the use of empirical methods ranging from case studies and psychometric tests to neuroscientific imaging and computational modeling. Within the field, J. P. Guilford identified divergent and convergent thinking as fundamental processes of creative cognition. While convergent thinking relates to the ability to arrive at a single and optimal solution, divergent thinking emphasizes the generation of multiple, novel, and flexible ideas. Thus, divergent thinking is a crucial part of the creative thinking process.
 
-With the raise in popularity of large language models (LLMs), a large number of benchmarks have been created to evaluate the capabilities and reasoning abilities of LLMs (e.g. MMLU, HumanEval, GSM8K, etc.). However, several challenges remain in accurately assessing these capabilities. \
-To start with, current benchmarks are convergent by nature and therefore, fall short in capturing the full scope of creativity in LLMs. In addition, many benchmarks overlap with LLM training data, raising concerns about data contamination and inflated performance.
+With the raise in popularity of large language models (LLMs), numerous benchmarks have been created to evaluate the capabilities and reasoning abilities of LLMs (e.g. MMLU, HumanEval, GSM8K, etc.). However, several challenges remain in accurately assessing these capabilities. To start with, current benchmarks are convergent by nature and therefore, fall short in capturing the full scope of creativity in LLMs. In addition, many benchmarks overlap with LLM training data, raising concerns about data contamination and inflated performance.
 
-In the current project, several psychometric tests of divergent thinking were performed to LLMs in order to evaluate their creative potential beyond convergent benchmarks. Among these, the Divergent Associations Task (DAT), the Synthetic-Divergent Association Task (S-DAT), the Divergent Semantic Integration (DSI) task, and the Alternative Uses Test (AUT) were adapted to the LLM setting.
+In the current project, several psychometric tests of divergent thinking were performed to LLMs with the objective of evaluating their creative potential beyond convergent benchmarks. Among these, the Divergent Associations Task (DAT), the Synthetic-Divergent Association Task (S-DAT), the Divergent Semantic Integration (DSI) task, and the Alternative Uses Test (AUT) were adapted to the LLM setting.
 
-Several state of the art LLMs were evaluated such as gemini-2.5-pro, as well as several other models from the Gemini and Gemma family (e.g. gemini-2.5-flash/-lite, gemini-2.0-flash/-lite, gemma-3n-e4b-it). In addition, GPT-5 and claude-sonnet-4 were also evaluated in some selected tests (due to budget constraints). While these results are by no means definitive and much more extensive experimentation is required, they offer an initial glimpse into the divergent thinking capabilites of current state of the art LLMs.
+Several state of the art LLMs were evaluated such as `gemini-2.5-pro`, as well as other models from the Gemini and Gemma family (e.g. `gemini-2.5-flash/-lite`, `gemini-2.0-flash/-lite`, `gemma-3n-e4b-it`). In addition, `gpt-5` and `claude-sonnet-4` were also evaluated in some selected tests (due to budget constraints). While these results are by no means definitive and much more extensive experimentation is required, they offer an initial glimpse into the divergent thinking capabilites of current state of the art LLMs.
 
 Finally, to facilitate transparency and reproducibility, the complete implementation is available as open source, allowing researchers and practitioners to access the codebase and extend the experiments.
 
 ## Background
 ### Why is divergent thinking important?
-Creativity is one of the most important drivers of innovation, and problem-solving. It enables advances in science, technology, and the arts, and allows individuals to develop novel and valuable solutions to complex challenges. Within the psychology of creativity, divergent thinking has been consistently recognized as a key cognitive process. Unlike convergent thinking which seeks a single and most optimal answer, divergent thinking encourages the generation of multiple, original, and creative ideas.
+Creativity is one of the most important drivers of innovation and problem-solving. It enables advances in science, technology, and mutiple other fields. Creativity allows for the development of novel and valuable solutions to complex challenges. Within the psychology of creativity, divergent thinking has been consistently recognized as a key cognitive process. Unlike convergent thinking which seeks a single and most optimal answer, divergent thinking encourages the generation of multiple, original, and creative ideas.
 
 As [[1]](#1) defines it:
 > "...Divergent thinking is the ability to take different directions from the prevailing modes of thought or expression. As the name implies, this type of thinking breaks away from established concepts and produces novel ideas, which can serve as the basis for the development of a creative product. Divergent thinking often produces multiple new ideas."
 
-However, it is the combination of both convergent and divergent thinking that drives innovation. To produce novel and creative solutions to real world problems, a general two-step process is often required. First generate a variety of creative solutions addressing the problem (divergent thinking), and then analyze their feasibility and select the most optimal solution.
+However, it is the combination of both convergent and divergent thinking that drives innovation. To produce novel and creative solutions to real world problems, a general two-step process is often required. First generate a variety of creative solutions addressing the problem (divergent thinking), and then analyze their feasibility and select the most optimal solution (convergent thinking).
 
 As [[2]](#2) puts it:
 > ...creativity often emerges from a dynamic interplay between divergent and convergent thinking. While DT expands the space of possibilities, convergent thinking involves narrowing those possibilities down to a viable, coherent solution using logic and critical reasoning [[3]](#3),[[4]](#4).
 
-In recent years, LLMs have achieved great improvement in their divergent thinking capabilities. In fact, LLMs have been shown to demonstrate both individual, and collective creativity comparable to humans in several divergent thinking and creative tasks [[5]](#5). In fact, in some tests, they have even surpassed human performance. In the 2024 study [[6]](#6), Bellemare-Pepin et al. collected 100,000 human responses on the Divergent Association Task (DAT), which measures creativity by asking for lists of semantically distant words (DAT will be explained in more detail in the following sections). The results showed that GPT-4, on average, outperformed human participants on the DAT test.
+In recent years, LLMs have achieved great improvement in their divergent thinking capabilities. In fact, LLMs have been shown to demonstrate both individual, and collective creativity comparable to humans in several divergent thinking and creative tasks [[5]](#5). In some tests, they have even surpassed human performance. In a 2024 study [[6]](#6), Bellemare-Pepin et al. collected 100,000 human responses of the Divergent Association Task (DAT), which measures divergent thinking by asking for lists of semantically distant words (DAT will be explained in more detail in the following sections). Additionally, they tested GPT-4 and other models on DAT. The results showed that GPT-4, on average, outperformed human participants.
 
 Since then, even more advanced LLMs have been developed and released to the public, including GPT-4o, GPT-5, Gemini-2.5-Pro, Gemini-2.5-Flash, DeepSeek-v3.1, among others. These new models might not only match but even exceed human creativity across a broader range of tasks, demonstrating higher originality, and creativity than earlier LLMs.
 
-While raising ethical considerations, ranging from intellectual property to societal impact; the semi-automation, and potentially even the full automation, of creative and problem solving tasks through LLMs could have profound consequences. It may redefine how industries approach innovation, shorten research cycles, and even accelerate the generation of scientific ideas, as suggested by [[7]](#7).
+While raising ethical considerations, ranging from intellectual property to societal impact; the automation of creative and problem solving tasks through LLMs could have profound consequences for society. It may redefine how industries approach innovation, shorten research cycles, and even accelerate the generation of scientific ideas, as suggested by [[7]](#7).
 
 ### Psychometric tests of divergent thinking
 Assessing the divergent thinking capabilities of both humans and LLMs requires adopting an empirical approach. However, unlike other cognitive abilities (such as logical reasoning and memory), creativity is inherently more subjective and context-dependent, making its measurement more challenging.
 
-Beginning in the 20th century, numerous tests were developed to evaluate human creativity. One notable example is the Abbreviated Torrance Test for Adults (ATTA), derived from the Torrance Tests of Creative Thinking originaly designed by Ellis Torrance [[8]](#8). Subjects are evaluated based on three tests (two visual and one verbal) [[1]](#1). For instance, subjects are asked questions like the following: "Just suppose you could walk on air or fly without being in an airplane or similar vehicle. What problems might this create? List as many as you can.". All activities are timed and responses are scored on fluency, flexibility, originality, and answer elaboration [[8]](#8).
+Beginning in the 20th century, numerous tests were developed to evaluate human creativity. One notable example is the Abbreviated Torrance Test for Adults (ATTA), derived from the Torrance Tests of Creative Thinking originaly designed by Ellis Torrance [[8]](#8). Subjects are evaluated based on three tests (two visual and one verbal) [[1]](#1). For instance, subjects are asked questions like: "Just suppose you could walk on air or fly without being in an airplane or similar vehicle. What problems might this create? List as many as you can". All activities are timed and responses are scored on fluency, flexibility, originality, and answer elaboration [[8]](#8).
 
-Another common divergent creativity test is the Alternative Uses Test (AUT) [[9]](#9),[[10]](#10). Developed by J. P. Guilford, it asks subjects to list as many alternative uses for a particular object as possible. Responses are rated on fluency, flexibility, and originality. For instance, when participants are asked to generate alternative uses for a brick, a response such as "to build a wall" would typically receive a low originality score. However, a response such as "as a bookend" would receive a moderate score, as it a bit more original. Finally, a response such as "grind into powder to create red paint" would receive a high originality score (as it is uncommon and creative).
+Another common divergent creativity test is the Alternative Uses Test (AUT) [[9]](#9),[[10]](#10). Developed by J. P. Guilford, it asks subjects to list as many alternative uses for a particular object as possible. Responses are rated on fluency, flexibility, and originality. For instance, when participants are asked to generate alternative uses for a brick, a response such as "to build a wall" would typically receive a low originality score. In contrast, a response such as "as a bookend" would receive a moderate score, as it a bit more original. Finally, "grind into powder to create red paint" would receive a high originality score (as it is uncommon and creative).
 
 ### Modern Tests of Divergent Thinking 
 While the ATTA and AUT tests have been used for decades to evaluate divergent thinking, recent advances in natural language processing [[11]](#11),[[12]](#12) have facilitated the emergance of new divergent thinking tests.
@@ -58,11 +57,11 @@ While the ATTA and AUT tests have been used for decades to evaluate divergent th
 #### Divergent Association Task (DAT)
 In 2021, Olson et al. proposed the Divergent Association Task (DAT) [[13]](#13). Subjects are asked to name 10 words that are as different from each other as possible. No proper nouns or specialised vocabulary is allowed. In addition, all responses must be single-word nouns. The semantic distance between all words is computed using a word to vector model such as GloVe (Global Vectors for Word Representation). GloVe is trained on a large text corpus to build a word co-occurrence matrix, which captures how often words appear together. It then applies a regression-based model to this matrix to learn vector representations of words [[11]](#11).
 
-The resulting word embeddings can be used to calculate the semantic similarity between words. Words that often co-occur together will have similar vector embeddings, while unrelated words will have radically different vector embeddings. This measure of similarity can be calculated using cosine similarity:
+The resulting word embeddings can be used to calculate the semantic similarity between words. Words that often co-occur together will have similar vector embeddings, while unrelated words will have radically different ones. This measure of similarity can be calculated using cosine similarity:
 
 $$\text{Cosine Similarity} = \frac{\vec{A} \cdot \vec{B}}{\|\vec{A}\| \|\vec{B}\|}$$
 
-where $\vec{A}$ and $\vec{B}$ are the vector embedding of two words. If $\hat{A}$ and $\hat{B}$ are unit vectors, cosine similarity is simply calculated by the dot product between the two vectors:
+where $\vec{A}$ and $\vec{B}$ are the vector embeddings of two words. If $\vec{A}$ and $\vec{B}$ are unit vectors, cosine similarity is simply calculated by the dot product between the two vectors:
 
 $$
 \hat{A} = \frac{\vec{A}}{|\vec{A}|},
@@ -83,18 +82,18 @@ When calculating DAT scores, the average semantic distance is calculated among a
 Olson et al. tested the validity of DAT, with a cohort of almost 9,000 subjects. They performed both DAT and AUT to all subjects and found a moderate to strong correlations between DAT and other commonly used creativity measures[[13]](#13).
 
 #### Divergent Semantic Integration (DSI)
-In addition to DAT, Johnson et al. proposed Divergent Semantic Integration (DSI) in 2022 [[14]](#14). DSI takes advantage of context-sensitive word embeddings to evaluate creative writing. DSI uses BERT [[12]](#12) to derive context-dependent word embeddings for each word within every full sentence. Then the semantic distance between every possible pair of word embeddings in a story is computed and averaged. A higher average distance reflects a story that connects more semantically divergent ideas. Drawing on Mednick’s associative theory of creativity, the authors hypothesize that:
+In addition to DAT, Johnson et al. proposed Divergent Semantic Integration (DSI) in 2022 [[14]](#14). DSI takes advantage of context-sensitive word embeddings to evaluate creative writing. DSI uses BERT [[12]](#12) to derive context-dependent word embeddings for each word within every full sentence. Then the semantic distance between every pair of word embeddings in a story is computed and averaged. A higher average distance reflects a story that might connect more semantically divergent ideas. Drawing on Mednick’s associative theory of creativity, the authors hypothesize that:
 
 > "...According to associative theory, creativity involves making connections between remote concepts stored in memory, and individual differences in creativity can be attributed to variation in the strength of associations between concepts. Thus, a less creative person has strong associations between common connections (e.g., table–chair), and weak associations between uncommon connections (e.g., table–splendid). With a more creative person, in contrast, common and uncommon connections are of similar strength, which presumably makes it easier for them to overcome dominant associations (e.g., table–chair) in favor of more efficiently connecting remote associations (e.g., table–splendid)."
 
 Although DSI does not directly assess divergent thinking, its close relationship to it makes evaluating DSI in humans and LLMs worthwhile. The association of remote concepts and ideas is central to divergent thinking. Therefore, DSI serves as a useful proxy for measuring this core component of divergent thinking.
 
-Bellemare-Pepin et al. also investigated creative writing in both humans and LLMs through DSI [[6]](#6). Their findings showed that, on average, humans had a slight edge over models such as GPT-4 and GPT-3. Notably, principal component analysis (PCA) embeddings of the creative responses revealed a clear separation between human- and LLM-generated stories.
+Bellemare-Pepin et al. also investigated creative writing in both humans and LLMs through DSI [[6]](#6). Their findings showed that, on average, humans had a slight edge over models such as GPT-4 and GPT-3. Notably, principal component analysis (PCA) embeddings of the creative responses revealed a clear separation between human and LLM-generated stories.
 
 ## Motivation and Goals
 While there exist many benchmarks assessing the convergent thinking and problem-solving capabilities of LLMs [[15]](#15),[[16]](#16),[[17]](#17), there is a lack of evaluation frameworks for measuring divergent thinking in LLMs. According to J. P. Guilford, divergent thinking is a key component of the creative process. Therefore, having a way to quantify divergent thinking might prove useful for systematically evaluating and comparing the creativity of LLMs.
 
-One might reasonably assume that larger models with enhanced reasoning capabilities would demonstrate superior performance divergent thinking evaluation. However, as evidenced in `LiveIdeaBench`[[7]](#7), comparatively smaller models like `QwQ-32B-preview` can outperform larger reasoning models such as `claude-3.7-Sonnet:thinking` in scientific idea generation. This shows the need to test divergent thinking empirically rather than assume it scales with model size.
+One might reasonably assume that larger models with enhanced reasoning capabilities would demonstrate superior performance divergent thinking evaluation. However, as evidenced in `LiveIdeaBench`[[7]](#7), comparatively smaller models like `QwQ-32B-preview` can outperform larger reasoning models such as `claude-3.7-Sonnet:thinking` in scientific idea generation, for example. This shows the need to test divergent thinking empirically rather than assume it scales with model size.
 
 Furthermore, traditional benchmarks are not always reliable indicators of real-world problem-solving performance. Recent studies have highlighted inherent limitations of widely used benchmarks in accurately evaluating large language models [[18]](#18),[[19]](#19). In contrast, divergent thinking tests may be less prone to overfitting or memorization, as they often lack a single optimal solution and such solutions are not widely available online. This makes them a potentially more robust measure of a model’s creative capabilities compared to conventional benchmarks.
 
@@ -102,7 +101,7 @@ Therefore, this projects aims to:
 
 - Evaluate state of the art LLMs on psychometric divergent thinking tests
 - Evaluate the impact of reasoning-focused fine-tuning and prompting on divergent thinking abilities.
-- Provide an open-source codebase to facilitate this process
+- Provide an open-source codebase to facilitate LLM divergent thinking evaluation
 
 ## Results and Discussion
 ### Divergent Association Task (DAT)
@@ -118,13 +117,13 @@ DAT was repeated ten times for each model. For each run, GloVe word embeddings (
 The highest DAT average score ($84.78$) was achieved by `gemini-2.0-flash`, which notably outperformed larger models such as `gemini-2.5-pro` despite their state of the art performance on reasoning and other benchmarks. However, before drawing any conclusions, there are several caveats that must be addressed.
 
 #### <ins>Key variables influencing DAT performance</ins>
-To start with, the models were evaluated using a single prompt. Given that prompt wording and format can strongly influence LLM performance and output [[13]](#13), the subsequent DAT evaluations employed five distinct prompts, each used individually. All prompts can be seen in [the DAT.py code](creative_tests/DAT.py). Instructions were practically identical in all five cases, with only variations in wording and format.
+To start with, the models were evaluated using a single prompt. Given that prompt wording and format can strongly influence LLM performance and output [[13]](#13), the subsequent DAT evaluations employed five distinct prompts variations. All prompts can be seen in [the DAT.py code](creative_tests/DAT.py). Instructions were practically identical in all five cases, with only variations in wording and format.
 
-Temperature has also been shown to influence DAT scores. In [[6]](#6), Bellemare-Pepin et al. reported a statistically significant difference in GPT-4's DAT scores across three temperature settings (low = 0.5, mid = 1.0, high = 1.5). Higher temperatures yielded substantially higher scores. While the impact of temperature on `gemini-2.5-flash` will be examined later, the models were evaluated under these three temperature settings and their results plotted together in the subsequent DAT analyses.
+Temperature has also been shown to influence DAT scores. In [[6]](#6), Bellemare-Pepin et al. reported a statistically significant difference in GPT-4's DAT scores across three temperature settings (low = 0.5, mid = 1.0, high = 1.5). Higher temperatures yielded substantially higher scores. While the impact of temperature on `gemini-2.5-flash` will be examined later, going forward all models were evaluated under four different temperature settings (low = 0.5, mid = 1.0, high = 1.5, very high = 2.0). Results for the different temperature settings will be  plotted together in subsequent DAT distributions.
 
-Finally, and perhaps most importantly, the choice of word embedding model plays a critical role. Throughout this project, we observed that different embedding models significantly influenced the performance of DAT. Consequently, we carried out a thorough investigation to identify the most accurate and fair embedding models. In the original DAT paper [[13]](#13), they performed both DAT and AUT on over 300 different paper. Therefore, that data can be used to see what embedding models can generate a DAT score with a higher correlation of several AUT metrics. Data from Study 1A and Study 1B (see original DAT paper [[13]](#13)) was combined and correlation scores can be seen in Table 1 and Table 2.
+Finally, and perhaps most importantly, the choice of word embedding model plays a critical role. Throughout this project, we observed that different embedding models significantly influenced the performance of DAT. Consequently, we carried out a thorough investigation to identify the most accurate and fair embedding models for DAT. In the original DAT paper [[13]](#13), they performed both DAT and AUT on over 300 different paper. This data can be used to see what embedding models can generate DAT scores that have a higher correlation with AUT metrics. Data from Study 1A and Study 1B (see original DAT paper [[13]](#13)) was combined and correlation scores can be seen in Table 1 and Table 2.
 
-**Table 1.** Correlations of DAT scores using different embeddings with AUT flexibility, originality, and fluency scores. (n=366)
+**Table 1.** Correlations of DAT scores using different embeddings with AUT flexibility, originality, and fluency scores (n=366).
 |       | AUT Flexibility | AUT Originality | AUT Fluency |
 |-------|-------------|-------------|---------|
 | GloVe                                      | 0.3205        | 0.2717        | 0.2317    |
@@ -135,42 +134,42 @@ Finally, and perhaps most importantly, the choice of word embedding model plays 
 | Granite-Embedding-278m-multilingual        | 0.2411        | 0.2018        | 0.1282    |
 | Sentence-BERT                              | 0.3028        | 0.2484        | 0.2025    |
 
-*Note that the original DAT paper reported different correlation values ($0.34$ flexibility, $0.32$ originality, and $0.22$ fluency). However, that was only using Study 1A instead of both Study 1A and 1B combined.*
+*Note that the original DAT paper reported different correlation values (0.34 flexibility, 0.32 originality, and 0.22 fluency). However, that was only using Study 1A instead of both Study 1A and 1B combined. Hence, the difference in correlation values.*
 
-**Table 2.** Correlations of DAT scores using different embedding ensambles with AUT flexibility, originality, and fluency scores . (n=366)
+**Table 2.** Correlations of DAT scores using different embedding ensambles with AUT flexibility, originality, and fluency scores (n=366).
 |       | AUT Flexibility | AUT Originality | AUT Fluency |
 |-------|-------------|-------------|---------|
 | GloVe                                      | 0.3205        | 0.2717        | 0.2317    |
 | BERT (Layer 6)                             | 0.3415        | 0.2826        | 0.2369    |
-| GloVe + BERT_L6                            | **0.3653**    | **0.3064**    | **0.2593**|
-| GloVe + BERT_L6 + Sentence-BERT            | 0.3616        | 0.3014        | 0.2525    |
-| All embedding models from Table 1 combined | 0.3383        | 0.2879        | 0.2450    |
+| GloVe + BERT_L6 ensamble                   | **0.3653**    | **0.3064**    | **0.2593**|
+| GloVe + BERT_L6 + Sentence-BERT ensamble   | 0.3616        | 0.3014        | 0.2525    |
+| Ensambles of all embedding models from Table 1 | 0.3383        | 0.2879        | 0.2450    |
 
-As seen in Table 1, word embeddings from BERT (Layer 6) yielded the highest correlations across all AUT metrics. In particular, DAT scores derived from BERT (Layer 6) achieved a correlation of $0.2826$ with AUT originality and $0.3415$ with AUT flexibility. Both exceeded the performance of GloVe, the original embedding model used in DAT. BERT (Layer 7) produced correlation values comparable to those of GloVe, whereas other models such as FastText, or Word2Vec showed substantially lower correlations. Granite-Embedding-278m-multilingual showed similar correlations as reported in [[2]](#2) (more on S-DAT in the following sections). Across all models, correlations with AUT fluency were noticeably weaker, which is expected since fluency primarily reflects the quantity of ideas generated during AUT rather than the semantic quality or divergence of ideas.
+As seen in Table 1, word embeddings from BERT (Layer 6) yielded the highest correlations across all AUT metrics. In particular, DAT scores derived from BERT (Layer 6) achieved a correlation of $0.2826$ with AUT originality and $0.3415$ with AUT flexibility. Both exceeded the performance of GloVe, the original embedding model used in DAT. BERT (Layer 7) produced correlation values comparable to those of GloVe, whereas other models such as FastText, or Word2Vec showed substantially lower correlations. Granite-Embedding-278m-multilingual showed similar correlations as reported in [[2]](#2). Across all models, correlations with AUT fluency were noticeably weaker, which is expected since fluency primarily reflects the quantity of ideas generated during AUT rather than the semantic quality or divergence of ideas.
 
 The correlation of several embedding ensambles is also reported in Table 2. For each ensemble, DAT scores were first computed separately using the individual models, and then averaged across all models to obtain the final score. As shown, the ensemble combining GloVe and BERT_L6 not only surpassed the original GloVe model, but also exceeded the best-performing individual model, achieving correlation values of $0.3653$, $0.3064$, and $0.2593$ for flexibility, originality and fluency, respectively.
 
 It is worth noting that the true correlation between DAT and AUT scores is unknown, since ground truth cannot be empirically determined. However, it is reasonable to assume that higher correlations indicate greater accuracy, given that both DAT and AUT assess similar aspects of divergent thinking. Therefore, in the following sections all DAT scores will be calculated using the previously mentioned GloVe + BERT_L6 word embedding ensamble.
 
 #### <ins>Robust DAT results after addressing key variables</ins>
-All of the key factors previously mention were taken into account, resulting in the outcomes shown in Figure 2. The figure caption details the specific changes in this robust DAT evaluation compared to the original. In addition, note that while the numerical DAT scores differ from Figure 1 due to the use of the embedding ensemble, the relative comparisons between models remain just as valid for Figure 2.
+All of the key factors previously mention were taken into account, resulting in the outcomes shown in Figure 2. The figure caption details the specific changes in this more robust DAT evaluation. In addition, note that while the numerical DAT scores differ from Figure 1 due to the use of the embedding ensemble, the relative comparisons between models remain just as valid in Figure 2.
 
 
 ![Alt text](./results/plots/DAT_1.2_robust_DAT_diffTemp_diffPrompt_.png)
 
-The results indicate that `gemini-2.5-pro` and `gemini-2.0-flash` outperformed all other models by a notable margin. Although both models achieved nearly identical average DAT scores, their score distributions differed substantially. `gemini-2.5-pro` has a narrow, concentrated distribution of scores, whereas `gemini-2.0-flash` displays a broader, more dispersed range around almost the same mean as `gemini-2.5-pro`.
+The results indicate that `gemini-2.5-pro` and `gemini-2.0-flash` outperformed all other models by a notable margin. Although both models achieved nearly identical average DAT scores, their score distributions differed substantially. `gemini-2.5-pro` had a narrow, concentrated distribution of scores, whereas `gemini-2.0-flash` displays a broader, more dispersed range around almost the same mean as `gemini-2.5-pro`.
 
-To further investigate the broader distribution of `gemini-2.0-flash`, Figure 3.1 and 3.2 plots the DAT scores of `gemini-2.5-pro` and `gemini-2.0-flash` across different temperatures and prompts, respectively. Other models are also plotted as reference.
+To further investigate the broader distribution of `gemini-2.0-flash`, Figure 3.1 and 3.2 plots the DAT scores of `gemini-2.5-pro` and `gemini-2.0-flash` across different temperatures and prompt variants, respectively. Other models are also plotted as reference.
 
 
 ![Alt text](./results/plots/DAT_1.2_robust_boxplot_temperature_.png)
 ![Alt text](./results/plots/DAT_1.2_robust_boxplot_prompt_.png)
 
-As observed, temperature had a negligible effect on the distributions of DAT scores. In contrast, prompt variants had a significant and observable effect on DAT score. In fact, the use of different prompts largely explains the broader distribution of `gemini-2.0-flash`’s DAT scores. This suggests that `gemini-2.0-flash` is highly sensitive to prompt variation, whereas `gemini-2.5-pro` remained comparatively consistent, although it shows slight sensitivity as well. This is notable since all prompts conveyed nearly identical instructions.
+As observed, temperature had an almost negligible effect on the distributions of DAT scores. In contrast, prompt variants had a significant and observable effect on DAT score. In fact, the use of different prompts largely explains the broader distribution of `gemini-2.0-flash`’s DAT scores. This suggests that `gemini-2.0-flash` is highly sensitive to prompt variation, whereas `gemini-2.5-pro` remained comparatively consistent, although it shows slight sensitivity as well. This is notable since all prompts conveyed nearly identical instructions.
 
-This observation also aligns with the results shown in Figure 1, since Prompt 1 was the original prompt used in the DAT evaluation. Although the distributions differ slightly due to the varied temperature settings and the use of 20 words instead of 10, the outcomes for Prompt 1 in Figures 1 and 3.2 are effectively the same.
+This observation also aligns with the results shown in Figure 1, since Prompt 1 was the original prompt used for the DAT evaluation of Figure 1. Although the distributions differ slightly (most likely due to varied temperature settings and the use of 20 words instead of 10), the distribution for Prompt 1 in Figure 3.2 and the distribution in Figure 1 are effectively the same.
 
-These findings matter because many studies assessing LLMs’ divergent thinking capabilites with DAT rely solely on the original DAT prompt. Bellemare-Pepin (2024) [[6]](#6) already demonstrated that prompt strategies can strongly influence DAT outcomes, but, as far as I am aware, no prior work has isolated prompt variation itself as the driver of changes in DAT scores. Hence, using only the original DAT prompt seems to results in prompt-biased results for certain LLMs (`gemini-2.0-flash` for example).
+These findings matter because many studies assessing LLMs’ divergent thinking capabilites with DAT rely solely on the original DAT prompt. Bellemare-Pepin (2024) [[6]](#6) already demonstrated that prompt strategies can strongly influence DAT outcomes, but, as far as I am aware, no prior work has isolated prompt variation itself as the driver of changes in DAT scores. Hence, using only the original DAT prompt seems to cause prompt-biased results for certain LLMs (`gemini-2.0-flash` for example).
 
 #### <ins>Effect of temperature and thinking budget in DAT</ins>
 To further investigate the effect of temperature and thinking_budget on DAT scores, `gemini-2.5-flash` was evaluate using DAT at varying temperatures and thinking_budget. The results can be see in Figure 4.
@@ -183,13 +182,13 @@ In contrast, `thinking_budget` seems that have an effect on DAT scores. With a p
 
 ### Hard Divergent Association Task (HardDAT)
 #### <ins>HardDAT results show similarity with DAT despite increased complexity</ins>
-HardDAT is a modified version of DAT, based on this code repository ([link here](https://github.com/lechmazur/divergent)). LLMs are given a random list of 20 words (sampled from [5k_common.txt](models/5k_common.txt)), and are asked to generate 25 new words that are semantically different between each other, as well as the given 20 words. Additionally, all 25 generated words must begin with a specific letter chosen from the set `"abcdefghiklmnoprstuwy"`. The model is asked to do this four times for every letter at different temperature settings (0.5, 1.0, 1.5, and 2.0). If curious, the actual prompt can be found in [HardDAT.py](creative_tests/HardDAT.py).
+HardDAT is a modified version of DAT, based on this code repository ([link here](https://github.com/lechmazur/divergent)). LLMs are given a random list of 20 words (sampled from [5k_common.txt](models/5k_common.txt)), and are asked to generate 25 new words that are semantically different between each other, as well as the initially given 20 words. Additionally, all 25 generated words must begin with a specific letter chosen from the set `"abcdefghiklmnoprstuwy"`. The model is asked to do this four times for every letter at different temperature settings (0.5, 1.0, 1.5, and 2.0). If curious, the actual prompt can be found in [HardDAT.py](creative_tests/HardDAT.py). No prompt variations were used in HardDAT due to the already increased complexity and budget limitations.
 
 ![Alt text](./results/plots/HardDAT_1.0_robust_.png)
 
 As shown in Figure 5, `gemini-2.5-flash-lite`, `gemini-2.5-pro`, and `gemini-2.0-flash` generally outperformed `gemini-2.5-flash` and `gemini-2.0-flash-lite` (in some cases with statistical significance). Although `gemini-2.0-flash` and `gemini-2.5-flash-lite` achieved a higher median HarDAT score than `gemini-2.5-pro`, the difference was not statistically significant.
 
-These findings are consistent with previous DAT evaluations. Therefore, the results further reinforce the good performance of `gemini-2.5-pro`, and `gemini-2.0-flash`. In Figure 6, a plot of `gemini-2.0-flash`'s HardDAT scores can be observed for each of the letters. Note that each letter was only evaluated at four different temperature settings with no repetitions (due to budget constraints). Therefore, results are only indicative and further experimentation is require to draw proper conclusions.
+These findings are consistent with previous DAT evaluations. Therefore, the results further reinforce the good performance of `gemini-2.5-pro`, and `gemini-2.0-flash` in DAT type tests. In Figure 6, a plot of `gemini-2.0-flash`'s HardDAT scores can be observed for each of the letters. Note that each letter was only evaluated at four different temperature settings with no repetitions (due to budget constraints). Therefore, results are only indicative and further experimentation is require to draw proper conclusions.
 
 ![Alt text](./results/plots/HardDAT_gemini-2.0-flash_by_letter_boxplot_.png)
 
@@ -197,32 +196,32 @@ These findings are consistent with previous DAT evaluations. Therefore, the resu
 #### <ins>S-DAT results across several LLM models</ins>
 In 2025, Haase et al. introduced S-DAT: *"A Multilingual, GenAI-Driven Framework for Automated Divergent Thinking Assessment"* [[2]](#2). This study extended DAT to multiple languages. Since the original **GloVe** and **BERT** models were trained only on English data, they were unsuitable for producing accurate DAT results across languages.  
 
-To address this limitation, the Haase et al. evaluated several multilingual embedding models to identify which produced the most stable and comparable distributions between languages [[2]](#2). After performing multilingual calibration, they determined that `Granite-Embedding-278m-multilingual` was the optimal choice [[21]](#21). As demonstrated [here](https://arxiv.org/html/2505.09068v1#S3.F1.8.8), this model exhibited the lowest variation and most consistent distribution across languages.
+To address this limitation, the Haase et al. evaluated several multilingual embedding models to identify which produced the most stable and comparable distributions between languages [[2]](#2). After performing multilingual calibration, they determined that `Granite-Embedding-278m-multilingual` was the optimal choice [[21]](#21). As observed [here](https://arxiv.org/html/2505.09068v1#S3.F1.8.8), this model exhibited the lowest variation and most consistent distribution across languages.
 
-Figure 7 presents the results of the self-evaluated S-DAT across 12 languages (English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese). The LLMs shown in Figure 7 are sorted from left to right by their average score. LLM models were asked to generate 10 and 25 words as semantically different as possible in those 12 languages. Each configuration was repeated 25 times. Again, note that the numerical values produced by S-DAT are not directly comparable to those from the previous DAT and HardDAT.
+Figure 7 presents the results of the self-evaluated S-DAT across 12 languages (English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese). The LLMs shown in Figure 7 are sorted from left to right by their average score across languages. LLM models were asked to generate 10 and 25 words as semantically different as possible in those 12 languages. Each configuration was repeated 25 times. Again, note that the numerical values produced by S-DAT are not directly comparable to those from the previous DAT and HardDAT.
 
 ![Alt text](./results/plots/SDAT_1.0_all_models_.png)
 
-While `Claude-Sonnet-4` achieved a slightly higher average overall (particularly on the 10-word S-DAT responses), no major differences were observed in the S-DAT distributions. Larger models such as `gemini-2.5-pro` and `gpt-5` also produced marginally higher S-DAT scores, but these differences were not statistically significant.  
+While `claude-sonnet-4` achieved a slightly higher average overall (particularly on the 10-word S-DAT responses), no major differences were observed in the S-DAT distributions. Larger models such as `gemini-2.5-pro` and `gpt-5` also produced marginally higher S-DAT scores, but these differences were not statistically significant.  
 
 Across all models, S-DAT performance showed a slight decline when LLMs were prompted to generate 25 words instead of 10. This is expected, as producing more words that diverge semantically from each other is more challenging.
 
-To investigate the intra-model distributions across languages, Figure 8 (as well as A.1 and A.2 in the appendix) are shown.
+To investigate the intra-model distributions across languages, Figure 8 (as well as A.1 and A.2 in the appendix) are presented.
 
 ![Alt text](./results/plots/SDAT_1.1_gemini-2.5-pro-languages_.png)
 
-All three models (`Claude-Sonnet-4`, `gpt-5`, `gemini-2.5-pro`) seemed to perform suboptimally in languages liek Japanese and German (among others). This could also be due fact that `Granite-Embedding-278m-multilingual` is not as good at word embedding in those languages. In fact, in [[2]](#2), there is a slight drop in S-DAT scores in Japanese, which could explain this.
+All three models (`claude-sonnet-4`, `gpt-5`, `gemini-2.5-pro`) seemed to perform suboptimally in languages liek Japanese and German (among others). This could also be due fact that `Granite-Embedding-278m-multilingual` is not as good at word embedding in those languages. In fact, in [[2]](#2), there is a slight drop in S-DAT scores in Japanese, which could explain the drop in S-DAT performance.
 
-Figures 9 is indicative since it illustrates broad patterns and potential weaknesses rather than conclusive evidence. The same is true for Figrue A.1 (`gpt-5`'s S-DAT scores accross diferent languages), and Figure A.2 (`Claude-Sonnet-4`'s S-DAT scores accross diferent languages).
+Figures 9 is indicative since it illustrates broad patterns and potential weaknesses rather than conclusive evidence. The same is true for Figrue A.1 (`gpt-5`'s S-DAT scores accross diferent languages), and Figure A.2 (`claude-sonnet-4`'s S-DAT scores accross diferent languages).
 
 #### <ins>S-DAT scores under constraints showed no singificant results</ins>
-Finally, LLMs were evaluated using S-DAT under additional constraints, where responses were restricted to nouns referring to edible items, tools, objects valued under $10, or items/phenomena that produce sound when used. Results were plotted in Figure 9.
+Finally, LLMs were evaluated using S-DAT under additional constraints. Models were restricted to nouns referring to edible items, tools, objects valued under $10, or items/phenomena that produce sound when used. Results were plotted in Figure 9.
 
 ![Alt text](./results/plots/SDAT_1.2_constraints_.png)
 
-As seen in Figure 9, the imposed constraints seemed to generally not affect LLMs. As a result, S-DAT distributions across models were relatively similar, and no major significance was found.
+As seen in Figure 9, the imposed constraints seemed to generally not affect LLM performance. As a result, S-DAT distributions across models were relatively similar, and no major significance was found.
 
-*Note that prompts were translated from English directly to all other 12 languages (as I unfortunately don't speak all of them). Therefore, there might be discrepancies between prompts that might create bias in the results. In addition, the applied constraints were not systematically checked, which may also have introduced additional sources of error to the results.*
+*Note that prompts were automatically translated from English directly to all other 12 languages (as I unfortunately don't speak all of them). Therefore, there might be discrepancies between prompt translations that might create bias in the results. In addition, the applied constraints were not systematically checked, which may also have introduced additional sources of error to the results.*
 
 ### Divergent semantic integration (DSI)
 In order to evaluate creative writing, DSI was calculated across different LLMs. As explained in the background section, while DSI does not directly measure divergent thinking, it serves as a useful proxy for measuring the connection between divergent concepts (which is a core component of divergent thinking). DSI was calculated using the method explained in the original paper [[14]](#14), where context-dependent BERT embeddings are calculated and the semantic distance is computed between pairs of words.
@@ -242,7 +241,7 @@ Five prompt variants with the same instructions were employed to reduce prompt b
 
 ![Alt text](./results/plots/DSI_1.0_all_models_.png)
 
-Figure 10 showed the expected results for DSI. Large models like `gpt-5` and `claude-sonnet-4` had statistically significantly higher DSI scores than models such as `gemini-2.0-flash-lite` or `gemini-2.5-flash-lite`. Interestingly, `gemma-3n-e4b-it` an lightweight and open-source model, statistically outperformed `gemini-2.0-flash-lite` and `gemini-2.5-flash-lite` as well. Although these findings differ somewhat from the previous divergent thinking results, they may indicate that DSI is capturing a related but different aspect of creative cognition. Note that due to time and budget limitations `gemini-2.5-pro` was not evaluated on DSI.
+Figure 10 showed the expected results for DSI. Large models like `gpt-5` and `claude-sonnet-4` had statistically significantly higher DSI scores than models such as `gemini-2.0-flash-lite` or `gemini-2.5-flash-lite`. Interestingly, `gemma-3n-e4b-it` a lightweight and open-source model, statistically outperformed `gemini-2.0-flash-lite` and `gemini-2.5-flash-lite` as well. Although these findings differ somewhat from the previous divergent thinking results, they may indicate that DSI is capturing a related but different aspect of creative cognition. Note that due to time and budget limitations `gemini-2.5-pro` was not evaluated on DSI.
 
 The effect of both `temperature` and `thinking_budget` was explored by prompting `gemini-2.5-flash-lite` across multiple settings of both parameters (separately). However, correlation analysis revealed no apparent effect, with Pearson correlation coefficients of $0.024$ and $0.028$.
 
@@ -319,8 +318,8 @@ A special thank you to:
 </figure>
 
 <figure>
-  <img src="results/plots/SDAT_1.1_claude-sonnet-4-languages.png" alt="Claude-Sonnet-4 S-DAT scores accross diferent languages">
-  <figcaption><strong>Figure A.2.</strong> Claude-Sonnet-4 S-DAT scores accross diferent languages Boxplots show the distribution of S-DAT scores for each model (median line, interquartile range, and whiskers). 10-word responses are labeled as green and 25-word responses in red.
+  <img src="results/plots/SDAT_1.1_claude-sonnet-4-languages.png" alt="claude-sonnet-4 S-DAT scores accross diferent languages">
+  <figcaption><strong>Figure A.2.</strong> claude-sonnet-4 S-DAT scores accross diferent languages Boxplots show the distribution of S-DAT scores for each model (median line, interquartile range, and whiskers). 10-word responses are labeled as green and 25-word responses in red.
   </figcaption>
 </figure>
 
