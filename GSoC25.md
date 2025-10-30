@@ -136,20 +136,20 @@ Finally, and perhaps most importantly, the choice of word embedding model plays 
 
 *Note that the original DAT paper reported different correlation values (0.34 flexibility, 0.32 originality, and 0.22 fluency). However, that was only using Study 1A instead of both Study 1A and 1B combined. Hence, the difference in correlation values.*
 
-**Table 2.** Correlations of DAT scores using different embedding ensambles with AUT flexibility, originality, and fluency scores (n=366).
+**Table 2.** Correlations of DAT scores using different embedding ensembles with AUT flexibility, originality, and fluency scores (n=366).
 |       | AUT Flexibility | AUT Originality | AUT Fluency |
 |-------|-------------|-------------|---------|
 | GloVe                                      | 0.3205        | 0.2717        | 0.2317    |
 | BERT (Layer 6)                             | 0.3415        | 0.2826        | 0.2369    |
-| GloVe + BERT_L6 ensamble                   | **0.3653**    | **0.3064**    | **0.2593**|
-| GloVe + BERT_L6 + Sentence-BERT ensamble   | 0.3616        | 0.3014        | 0.2525    |
-| Ensambles of all embedding models from Table 1 | 0.3383        | 0.2879        | 0.2450    |
+| GloVe + BERT_L6 ensemble                   | **0.3653**    | **0.3064**    | **0.2593**|
+| GloVe + BERT_L6 + Sentence-BERT ensemble   | 0.3616        | 0.3014        | 0.2525    |
+| Ensembles of all embedding models from Table 1 | 0.3383        | 0.2879        | 0.2450    |
 
 As seen in Table 1, word embeddings from BERT (Layer 6) yielded the highest correlations across all AUT metrics. In particular, DAT scores derived from BERT (Layer 6) achieved a correlation of $0.2826$ with AUT originality and $0.3415$ with AUT flexibility. Both exceeded the performance of GloVe, the original embedding model used in DAT. BERT (Layer 7) produced correlation values comparable to those of GloVe, whereas other models such as FastText, or Word2Vec showed substantially lower correlations. Granite-Embedding-278m-multilingual showed similar correlations as reported in [[2]](#2). Across all models, correlations with AUT fluency were noticeably weaker, which is expected since fluency primarily reflects the quantity of ideas generated during AUT rather than the semantic quality or divergence of ideas.
 
-The correlation of several embedding ensambles is also reported in Table 2. For each ensemble, DAT scores were first computed separately using the individual models, and then averaged across all models to obtain the final score. As shown, the ensemble combining GloVe and BERT_L6 not only surpassed the original GloVe model, but also exceeded the best-performing individual model, achieving correlation values of $0.3653$, $0.3064$, and $0.2593$ for flexibility, originality and fluency, respectively.
+The correlation of several embedding ensembles is also reported in Table 2. For each ensemble, DAT scores were first computed separately using the individual models, and then averaged across all models to obtain the final score. As shown, the ensemble combining GloVe and BERT_L6 not only surpassed the original GloVe model, but also exceeded the best-performing individual model, achieving correlation values of $0.3653$, $0.3064$, and $0.2593$ for flexibility, originality and fluency, respectively.
 
-It is worth noting that the true correlation between DAT and AUT scores is unknown, since ground truth cannot be empirically determined. However, it is reasonable to assume that higher correlations indicate greater accuracy, given that both DAT and AUT assess similar aspects of divergent thinking. Therefore, in the following sections all DAT scores will be calculated using the previously mentioned GloVe + BERT_L6 word embedding ensamble.
+It is worth noting that the true correlation between DAT and AUT scores is unknown, since ground truth cannot be empirically determined. However, it is reasonable to assume that higher correlations indicate greater accuracy, given that both DAT and AUT assess similar aspects of divergent thinking. Therefore, in the following sections all DAT scores will be calculated using the previously mentioned GloVe + BERT_L6 word embedding ensemble.
 
 #### <ins>Robust DAT results after addressing key variables</ins>
 All of the key factors previously mention were taken into account, resulting in the outcomes shown in Figure 2. The figure caption details the specific changes in this more robust DAT evaluation. In addition, note that while the numerical DAT scores differ from Figure 1 due to the use of the embedding ensemble, the relative comparisons between models remain just as valid in Figure 2.
@@ -221,7 +221,7 @@ Finally, LLMs were evaluated using S-DAT under additional constraints. Models we
 
 As seen in Figure 9, the imposed constraints seemed to generally not affect LLM performance. As a result, S-DAT distributions across models were relatively similar, and no major significance was found.
 
-*Note that prompts were automatically translated from English directly to all other 12 languages (as I unfortunately don't speak all of them). Therefore, there might be discrepancies between prompt translations that might create bias in the results. In addition, the applied constraints were not systematically checked, which may also have introduced additional sources of error to the results.*
+*Note that prompts were translated from English to all other 12 languages through online translators, as I unfortunately don't speak all of them. Therefore, there might be discrepancies between prompt translations that might create prompt-induced bias in the results. In addition, the applied constraints were not systematically checked, which may also have introduced additional sources of error to the results.*
 
 ### Divergent semantic integration (DSI)
 In order to evaluate creative writing, DSI was calculated across different LLMs. As explained in the background section, while DSI does not directly measure divergent thinking, it serves as a useful proxy for measuring the connection between divergent concepts (which is a core component of divergent thinking). DSI was computed using the method explained in the original paper [[14]](#14), where context-dependent BERT embeddings are calculated and the semantic distance is computed between pairs of words.
